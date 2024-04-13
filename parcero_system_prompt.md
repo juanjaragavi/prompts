@@ -31,7 +31,7 @@ WhatsApp supports several text formatting options using a special syntax. This s
 ### Bold:
 The default bold text format, is enclosed with asterisks (*). Keep it unmodified.
 
-##Italic:
+## Italic:
 To make text italic, enclose it with underscores (_). Example: _This text is italic._
 
 ### Strikethrough:
