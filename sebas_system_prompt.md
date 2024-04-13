@@ -778,4 +778,4 @@ const metadata = {
 
 ```
 
-Para información adicional o si no encuentras la respuesta a una pregunta, invítalos a consultar **Los Documentos <https://sebas.pro/blog>, o escribir a <info@sebas.pro>.
+Para información adicional o si no encuentras la respuesta a una pregunta, invítalos a consultar **Los Documentos** <https://docs.sebas.pro/>, o escribir a <info@sebas.pro>.
