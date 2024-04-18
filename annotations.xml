@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Annotations>
+    <Annotation about="google.com.co/maps/place/Medell%C3%ADn,+Antioquia/*" timestamp="0x000615e5015874ab" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="google.com.co/maps/place/Medellín,+Antioquia/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="google.com.co/maps/*" timestamp="0x000615e5014206e1" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="google.com.co/maps/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.tripadvisor.com/*" timestamp="0x000615d93c47bd7d" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="tripadvisor.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.booking.com/*" timestamp="0x000615d93c34a551" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="booking.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.airbnb.com/*" timestamp="0x000615d93c20fd7e" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="airbnb.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.viajerohostels.com/es/destinos-colombia/medellin/*" timestamp="0x000615d914468d45" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.viajerohostels.com/es/destinos-colombia/medellin/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.spanish.hostelworld.com/st/albergues/america-del-sur/colombia/medellin/*" timestamp="0x000615d914468cbc" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.spanish.hostelworld.com/st/albergues/america-del-sur/colombia/medellin/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.atrapalo.com.co/hoteles/america/colombia/antioquia/medellin/*" timestamp="0x000615d914468c38" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.atrapalo.com.co/hoteles/america/colombia/antioquia/medellin/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.guruwalk.com/*" timestamp="0x000615d914468bbf" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="www.guruwalk.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.guruwalk.com/medellin*" timestamp="0x000615d914468b38" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="www.guruwalk.com/medellin"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.guruwalk.com/medellin*" timestamp="0x000615d914468aa9" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.guruwalk.com/medellin"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.southamericabackpacker.com/*" timestamp="0x000615d9144689fa" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="southamericabackpacker.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="southamericabackpacker.com/colombia/*" timestamp="0x000615d914468957" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="southamericabackpacker.com/colombia/"></AdditionalData>
+    </Annotation>
+    <Annotation about="southamericabackpacker.com/colombia/medellin/*" timestamp="0x000615d9144688a6" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://southamericabackpacker.com/colombia/medellin/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.thebrokebackpacker.com/*" timestamp="0x000615d914468822" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="www.thebrokebackpacker.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.thebrokebackpacker.com/backpacking-medellin-travel-guide/*" timestamp="0x000615d914468796" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.thebrokebackpacker.com/backpacking-medellin-travel-guide/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.hostelworld.com/*" timestamp="0x000615d914468715" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="www.hostelworld.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.visitarmedellin.com/*" timestamp="0x000615d91446868c" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="www.visitarmedellin.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="visitarmedellin.com/discotecas-en-medellin/*" timestamp="0x000615d9144685fe" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://visitarmedellin.com/discotecas-en-medellin/"></AdditionalData>
+    </Annotation>
+    <Annotation about="medellinvip.net/best-restaurants-medellin/*" timestamp="0x000615d914468568" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://medellinvip.net/best-restaurants-medellin/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.willflyforfood.net/medellin-restaurants/*" timestamp="0x000615d9144684b0" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.willflyforfood.net/medellin-restaurants/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.theworlds50best.com/discovery/sitemap/colombia/medell%C3%ADn*" timestamp="0x000615d9144683f0" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.theworlds50best.com/discovery/sitemap/colombia/medellín"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.google.com/travel/flights/flights-to-medellin.html" timestamp="0x000615d91446834e" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.google.com/travel/flights/flights-to-medellin.html"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.viator.com/Medellin/d4563*" timestamp="0x000615d9144682de" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.viator.com/Medellin/d4563"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.planetware.com/colombia/*" timestamp="0x000615d91446825b" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.planetware.com/colombia/"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.medellinguru.com/*" timestamp="0x000615d9144681a7" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://medellinguru.com/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.medellinadvisors.com/*" timestamp="0x000615d91446810c" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.medellinadvisors.com/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.turibike.com/*" timestamp="0x000615d914468077" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.turibike.com"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.medellin.travel/*" timestamp="0x000615d914467fee" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="www.medellin.travel/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.lonelyplanet.com/colombia/northwest-colombia/medellin/attractions*" timestamp="0x000615d914467f1c" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.lonelyplanet.com/colombia/northwest-colombia/medellin/attractions"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.weseektravel.com/things-to-do-in-medellin-colombia/*" timestamp="0x000615d914467ea4" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.weseektravel.com/things-to-do-in-medellin-colombia/"></AdditionalData>
+    </Annotation>
+    <Annotation about="us.trip.com/travel-guide/destination/medellin-21293/*" timestamp="0x000615d914467e22" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://us.trip.com/travel-guide/destination/medellin-21293/"></AdditionalData>
+    </Annotation>
+    <Annotation about="blog.kurby.ai/medellin-attractions-the-10-best-tourist-attractions-in-medellin/*" timestamp="0x000615d914467db7" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://blog.kurby.ai/medellin-attractions-the-10-best-tourist-attractions-in-medellin/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.freetour.com/es/medellin*" timestamp="0x000615d914467d2f" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.freetour.com/es/medellin"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.colombiatouristattractions.com/category/medellin/*" timestamp="0x000615d914467c93" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.colombiatouristattractions.com/category/medellin/"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.airbnb.com/*" timestamp="0x000615d914467c1d" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="www.airbnb.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.booking.com/*" timestamp="0x000615d914467b42" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="www.booking.com/*"></AdditionalData>
+    </Annotation>
+</Annotations>
