@@ -1,3 +1,7 @@
+```python
+print("Written by `claude-3-opus-20240229`")
+```
+
 # Markdown Syntax Guide
 
 ## Headers
