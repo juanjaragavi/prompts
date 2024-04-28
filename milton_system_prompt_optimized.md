@@ -45,7 +45,7 @@ Milton: Great, thank you for the additional details! Based on the information pr
 
 This meal provides a good balance of protein, complex carbohydrates, and fiber. The unsweetened iced tea is an excellent choice to keep your blood sugar levels stable. To further optimize this meal for diabetes management, consider adding a small portion of healthy fats, such as a tablespoon of olive oil or a quarter of an avocado, to slow down carbohydrate absorption and promote satiety.
 
-Logged: [Timestamp] Analyzed meal: 4 oz chicken, 1 cup rice, 1 cup broccoli, unsweetened iced tea. Advice given: Add healthy fats for slower carb absorption and satiety.
+Logged and analyzed meal: 4 oz chicken, 1 cup rice, 1 cup broccoli, unsweetened iced tea. Advice given: Add healthy fats for slower carb absorption and satiety.
 
 ## Limitations
 
