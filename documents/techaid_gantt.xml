@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/project">
+    <Name>TechAID Solutions Project</Name>
+    <Tasks>
+        <Task>
+            <UID>1</UID>
+            <ID>1</ID>
+            <Name>1. Project Initiation</Name>
+            <Start>2023-11-01T08:00:00</Start>
+            <Finish>2023-11-03T17:00:00</Finish>
+            <Duration>PT24H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>2</UID>
+            <ID>2</ID>
+            <Name>2. Gather Customer Requirements</Name>
+            <Start>2023-11-04T08:00:00</Start>
+            <Finish>2023-11-06T17:00:00</Finish>
+            <Duration>PT24H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>3</UID>
+            <ID>3</ID>
+            <Name>3. System Setup</Name>
+            <Start>2023-11-07T08:00:00</Start>
+            <Finish>2023-11-10T17:00:00</Finish>
+            <Duration>PT32H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>4</UID>
+            <ID>4</ID>
+            <Name>4. Data Preparation and Model Training</Name>
+            <Start>2023-11-11T08:00:00</Start>
+            <Finish>2023-11-12T17:00:00</Finish>
+            <Duration>PT16H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>5</UID>
+            <ID>5</ID>
+            <Name>5. Integration Development</Name>
+            <Start>2023-11-13T08:00:00</Start>
+            <Finish>2023-11-14T17:00:00</Finish>
+            <Duration>PT16H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>6</UID>
+            <ID>6</ID>
+            <Name>6. Chatbot App Development</Name>
+            <Start>2023-11-15T08:00:00</Start>
+            <Finish>2023-11-17T17:00:00</Finish>
+            <Duration>PT24H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>7</UID>
+            <ID>7</ID>
+            <Name>7. Testing and Quality Assurance</Name>
+            <Start>2023-11-18T08:00:00</Start>
+            <Finish>2023-11-18T17:00:00</Finish>
+            <Duration>PT8H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>8</UID>
+            <ID>8</ID>
+            <Name>8. Deployment and Client Handover</Name>
+            <Start>2023-11-19T08:00:00</Start>
+            <Finish>2023-11-20T17:00:00</Finish>
+            <Duration>PT16H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>9</UID>
+            <ID>9</ID>
+            <Name>9. Project Closure</Name>
+            <Start>2023-11-21T08:00:00</Start>
+            <Finish>2023-11-22T17:00:00</Finish>
+            <Duration>PT16H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>10</UID>
+            <ID>10</ID>
+            <Name>10. Ongoing Support</Name>
+            <Start>2023-11-23T08:00:00</Start>
+            <Finish>2023-11-23T17:00:00</Finish>
+            <Duration>PT8H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>11</UID>
+            <ID>11</ID>
+            <Name>11. Financial Management</Name>
+            <Start>2023-11-01T08:00:00</Start>
+            <Finish>2023-11-23T17:00:00</Finish>
+            <Duration>PT184H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+        <Task>
+            <UID>12</UID>
+            <ID>12</ID>
+            <Name>12. Risk Management</Name>
+            <Start>2023-11-01T08:00:00</Start>
+            <Finish>2023-11-23T17:00:00</Finish>
+            <Duration>PT184H0M0S</Duration>
+            <PercentComplete>0</PercentComplete>
+        </Task>
+    </Tasks>
+</Project>

@@ -1,0 +1,7 @@
+Provide a first-person narrative describing every single item shows in the image(s), focusing solely on identifying the food items present. This description is intended for logging a meal consumed. Key points for the improved prompt include:
+1. Exclusively Food-Focused: Limit the description to the food items only, avoiding any mention of the image's visual aspects.
+2. Text Inclusion: If there is any text within the image(s), include it verbatim at the end of the food description.
+3. Handling User Queries: In case the user asks about nutritional details like calories, carbs, ingredients, protein, fat, or quantities, append their exact question to the end of your description. Do not provide answers to these questions.
+4. Drink Identification: Describe the content of drinks only if they are identifiable. Exclude any drink that cannot be clearly identified.
+5. Omit Non-Food Objects: Do not describe any non-food objects or elements in the image.
+6. Meal Type Keywords: If the image text or user mentions specific meal types like 'breakfast', 'lunch', 'dinner', or 'snack', ensure to include these terms in your description appropriately.
