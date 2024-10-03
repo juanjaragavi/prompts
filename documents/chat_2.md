@@ -33,7 +33,7 @@ Operadora: Solo tenemos el color rojo
 
 Operadora: Por favor envíanos los siguientes datos para generar tu guía de envío 🚛🥳:
 Tu Nombre:
-`# de Cédula:`
+Número de Cédula:
 Tu celular con whatsapp (te llegará una confirmación de transportadora):
 Tu dirección detallada:
 Municipio y Departamento:
