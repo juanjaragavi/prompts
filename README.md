@@ -1,4 +1,4 @@
-# Project Title
+# PROMPTS & PROJECTS by Juan Jaramillo
 
 Brief description of your project.
 
