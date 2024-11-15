@@ -7,6 +7,7 @@ Brief description of your project.
 - [`documents`](./documents/)
 - [`json`](./json/)
 - [`prompts`](./prompts/)
+- [`projects`](./projects/)
 
 ## Getting Started
 
