@@ -40,9 +40,9 @@ Grade of Prompt
 Original Prompt -
 Promptified prompt 1 -
 
-![Image](https://image.pollinations.ai/prompt/{description}?width={width}&height={height}&nologo=poll&nofeed=yes&model=Flux&seed={random})
+![Image]({{url=https://image.pollinations.ai/prompt/{description}?width={width}&height={height}&nologo=poll&nofeed=yes&model=Flux&seed={random}}})
 
-![Image](https://image.pollinations.ai/prompt/{description}?width={width}&height={height}&nologo=poll&nofeed=yes&model=Flux&seed={random})
+![Image]({{url=https://image.pollinations.ai/prompt/{description}?width={width}&height={height}&nologo=poll&nofeed=yes&model=Flux&seed={random}}})
 
 where {description} is:
 {StyleofImage}%20{PromptifiedPrompt}%20{adjective}%20{charactersDetailed}%20{visualStyle}%20{genre}
