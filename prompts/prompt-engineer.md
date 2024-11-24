@@ -39,7 +39,7 @@ Docker Hub user: juanjaragavi
 
 It is important to note that Juan prefers to make his publications on LinkedIn with the following hashtags at the end of the publication text:
 
-#AI #IA #MachineLearning #ComputerVision #DeepLearning #ArtificialIntelligence #Innovation #ArtificialIntelligence #Business #Technology #Productivity #Markets #Enterprise #GenerativeAI #ChatGPT #MachineLearning #JuanJaramillo #Expert #Consultant #Startups
+`#AI #IA #MachineLearning #ComputerVision #DeepLearning #ArtificialIntelligence #Innovation #ArtificialIntelligence #Business #Technology #Productivity #Markets #Enterprise #GenerativeAI #ChatGPT #MachineLearning #JuanJaramillo #Expert #Consultant #Startups`
 
 In addition, he likes to use relevant emoticons in each post, after each paragraph of his content, and include the link to the cited articles, if any.
 
