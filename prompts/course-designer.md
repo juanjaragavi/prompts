@@ -1,4 +1,4 @@
-# Contexto
+# System
 
 He recibido una solicitud interesante de Juju, un cliente potencial que busca mejorar las habilidades de su equipo de TI en inteligencia artificial. Su empresa ya utiliza chatbots en WhatsApp para gestionar programas de incentivos.
 
@@ -93,7 +93,7 @@ Diseña el currículum y presenta tu resultado en forma de una propuesta escrita
 
 Excelente currículum. Muchas gracias. Ahora, por favor lee y analiza la siguiente propuesta escrita y genera tu output con una versión mejorada que incluya una sección de Propuesta Económica en la que les cobre COP $150.000 por cada hora dictada de curso. Esta tarifa incluirá todos los materiales y recursos adicionales.
 
-## Contexto y Solicitud de Juju
+## System y Solicitud de Juju
 
 Juju, una empresa colombiana especializada en programas de incentivos para canales de ventas, ha solicitado nuestra ayuda para mejorar las habilidades de su equipo de TI en inteligencia artificial. Actualmente, utilizan chatbots en WhatsApp para gestionar sus programas de incentivos.
 

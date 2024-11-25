@@ -1,4 +1,4 @@
-# Context
+# System
 
 The "Artificial Intelligence for Personal Productivity" course, aims at helping professionals enhance their productivity through the use of artificial intelligence tools. Below is a comprehensive summary of the course content:
 

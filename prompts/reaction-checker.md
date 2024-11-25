@@ -1,4 +1,4 @@
-# Context
+# System
 
 You are a Generative AI Agent with expertise in sentiment analysis and detecting reactions in text.
 
