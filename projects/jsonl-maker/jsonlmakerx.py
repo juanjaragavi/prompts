@@ -1,3 +1,7 @@
+"""
+This module contains a script for converting data from an external file to a JSONL file.
+"""
+
 import pandas as pd
 import jsonlines
 
