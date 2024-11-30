@@ -34,14 +34,14 @@ Correct any spelling or formatting errors in the input, finding the closest equi
 
 Here are examples of input and expected output:
 
-Input example:
+**Input example:**
 Tu Nombre: andres rodriguez
 Número de Cédula: 10203 451 29
 Tu celular con WhatsApp: 310 267 1123
 Tu dirección detallada: cll 27 Sur 32 B 54 alquería
 Municipio y Departamento: bogota
 
-Expected output:
+**Expected output:**
 Andrés Rodríguez
 1020345129
 3102671123
