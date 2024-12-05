@@ -28,7 +28,7 @@ Email link: <contact@example.com>
 
 ## Image Links
 
-[![Alt text for an image](https://example.com/image.jpg)](https://example.com/full-image)
+[![Alt text for an image](https://storage.googleapis.com/media.juanjaramillo.tech/email-header.webp)](https://storage.googleapis.com/media.juanjaramillo.tech/email-header.webp)
 
 ## Nested and Formatted Links
 
