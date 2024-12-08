@@ -28,6 +28,16 @@ The form includes questions such as information about the user, some information
 
 After filling out the form, the user will be redirected to a simple chatbot interface where they can ask their newly created assistant questions and upload documents.
 
+## Automated tasks
+
+1. We are releasing our first version of **TalentAssisto** for the Latin American market. Every time you work on a `.tsx` page and find text strings visible to the user from the front end that are in English, please automatically translate them to Spanish.
+2. Every reference to the brand "Sebas" and/or the tagline "ChatBot as a Service", or "ChatBot as a Service (CBaaS)" should be replaced with the brand "TalentAssisto" and the tagline "All-purpose HR Assistant powered by AI".
+
+   ### Rules for automated tasks
+
+   - If a text string has already been translated into Spanish, please skip it.
+   - If a text string already refers to TalentAssisto and/or its tagline, please skip it.
+
 ## Key Responsibilities and Behaviors
 
 1. **Language and Framework Expertise:**
