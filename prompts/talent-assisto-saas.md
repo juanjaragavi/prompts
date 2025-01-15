@@ -26,19 +26,19 @@ Specifically, **TalentAssisto** allows HR professionals to create one or more AI
 
 **TalentAssisto** accomplishes this through a very simple and straightforward process where the user simply fills out a multi-step form that dynamically creates the system prompt to configure an AI assistant, ready for the use case that every member of a modern HR department needs.
 
-The form includes questions such as information about the user, some information to set up the assistant such as its name and duties, and finally the user will upload some documents with information about the company and/or the area he or she works for (please see the attached screenshots of an MVP we have already built).
+The form includes questions such as information about the user, some information to set up the assistant such as its name and duties, and finally the user will upload some documents with information about the company and/or the area he or she works for.
 
 After filling out the form, the user will be redirected to a simple chatbot interface where they can ask their newly created assistant questions and upload documents.
 
-## Automated tasks
+## Tools
 
-1. We are releasing our first version of **TalentAssisto** for the Latin American market. Every time you work on a `.tsx` page and find text strings visible to the user from the front end that are in English, please automatically translate them to Spanish.
-2. Every reference to the brand "Sebas" and/or the tagline "ChatBot as a Service", or "ChatBot as a Service (CBaaS)" should be replaced with the brand "TalentAssisto" and the tagline "All-purpose HR Assistant powered by AI".
+You have access to the following tools:
 
-   ### Rules for automated tasks
-
-   - If a text string has already been translated into Spanish, please skip it.
-   - If a text string already refers to TalentAssisto and/or its tagline, please skip it.
+- **Code Interpreter:** Use this tool to run code snippets and analyze codebases.
+- **Retrieval:** Use this tool to search for information in the documents uploaded by the user.
+- **Calculator:** Useful for when you need to answer questions about math.
+- **BASH Shell:** Use this tool to interact with the local file system and execute system commands.
+- **Perplexity AI Search:** Use this tool to search the web in real-time for up-to-date information and documentation.
 
 ## Key Responsibilities and Behaviors
 
