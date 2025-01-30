@@ -114,3 +114,206 @@ You have access to the following tools:
 ## About this codebase
 
 - The codebase of **TalentAssisto** is based on a project called `sebasdemo`, located in the [`sebasdemo` GitHub repository](https://github.com/juanjaragavi/sebasdemo), which is a modified version of the [`chatbot-ui`](https://github.com/mckaywrigley/chatbot-ui) open source project by `mckaywrigley`.
+
+## TalentAssisto Codebase Documentation
+
+### Overview
+
+TalentAssisto is a Next.js 14.x-based SaaS platform that enables HR professionals to create and manage AI-powered assistants for various HR tasks. The application is built with TypeScript, uses Tailwind CSS for styling, and integrates with OpenAI's API and Supabase for backend services.
+
+### Core Architecture
+
+1. **Application Structure**
+
+   ```markdown
+   talentassisto/
+   ├── app/                     # Next.js 14 app directory
+   │   ├── [locale]/           # Internationalized routes
+   │   │   ├── login/         # Authentication flows
+   │   │   ├── setup/         # User onboarding
+   │   │   └── [workspaceid]/ # Workspace-specific routes
+   │   ├── api/               # API endpoints
+   │   ├── auth/             # Auth handlers
+   │   └── utils/            # App utilities
+   ├── components/            # React components
+   ├── lib/                  # Core libraries
+   ├── public/               # Static assets
+   └── supabase/            # Database configuration
+   ```
+
+2. **Key Components**
+
+   #### Authentication System
+
+   - Secure email-based authentication
+   - Password reset functionality
+   - Session management
+   - Multi-factor authentication support
+
+   ##### Workspace Management
+
+   - Home workspace creation
+   - Workspace isolation
+   - File management system
+   - Tool configuration
+
+   ##### Assistant Framework
+
+   - Assistant creation and configuration
+   - Tool integration system
+   - System prompt building
+   - Chat interface
+
+   ##### Internationalization
+
+   - Multi-language support (en, es, fr, de)
+   - Locale-based routing
+   - Translation management
+
+3. **Database Schema**
+
+   ##### Core Tables
+
+   ```markdown
+   profiles
+   ├── user_id
+   ├── email
+   ├── company_name
+   ├── department_focus
+   ├── agent_name
+   └── agent_purpose
+
+   workspaces
+   ├── user_id
+   ├── name
+   ├── is_home
+   ├── default_model
+   └── settings
+
+   assistants
+   ├── workspace_id
+   ├── name
+   ├── description
+   └── configuration
+   ```
+
+4. **Security Implementation**
+
+   ##### Authentication
+
+   - Supabase Auth integration
+   - Secure session management
+   - Password policies
+   - Email verification
+
+   ##### Data Protection
+
+   - Row Level Security (RLS)
+   - File access control
+   - API route protection
+   - Environment variable management
+
+5. **Feature Modules**
+
+   ##### Chat System
+
+   - Real-time messaging
+   - File attachment handling
+   - Message history
+   - Context management
+
+   ##### File Management
+
+   - Secure file storage
+   - File type validation
+   - Size limitations
+   - Access control
+
+   ##### Assistant Configuration
+
+   - Multi-step form interface
+   - Tool selection
+   - System prompt generation
+   - Document upload
+
+6. **Integration Points**
+
+   ##### External Services
+
+   - OpenAI API
+   - Supabase
+   - Vercel AI SDK
+   - Email services
+
+   ##### API Endpoints
+
+   - Authentication routes
+   - File handling
+   - Assistant management
+   - Chat functionality
+
+7. **Development Tools**
+
+   ##### Build System
+
+   - Next.js configuration
+   - TypeScript setup
+   - Tailwind CSS
+   - PostCSS processing
+
+   ##### Testing Framework
+
+   - Jest configuration
+   - Component testing
+   - API testing
+   - E2E testing setup
+
+8. **Deployment Configuration**
+
+   ##### Environment Setup
+
+   ```markdown
+   ├── .env.development
+   ├── .env.production
+   ├── .env.local
+   └── .env.example
+   ```
+
+   ##### Build Configuration
+
+   ```markdown
+   ├── next.config.js
+   ├── tailwind.config.js
+   ├── postcss.config.js
+   └── tsconfig.json
+   ```
+
+### Best Practices
+
+1. **Code Organization**
+
+   - Feature-based directory structure
+   - Clear separation of concerns
+   - Consistent naming conventions
+   - Modular component design
+
+2. **Security**
+
+   - Environment variable management
+   - Secure authentication flows
+   - Data encryption
+   - Access control implementation
+
+3. **Performance**
+
+   - Code splitting
+   - Image optimization
+   - Caching strategies
+   - Bundle size optimization
+
+4. **Maintenance**
+
+   - Documentation standards
+   - Type safety
+   - Error handling
+   - Logging implementation

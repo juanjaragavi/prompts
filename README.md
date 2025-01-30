@@ -9,6 +9,10 @@ Brief description of your project.
 - [`prompts`](./prompts/)
 - [`projects`](./projects/)
 
+## Favorites
+
+- [TalentAssisto Builder System Prompt](./prompts/talent-assisto-saas.md)
+
 ---
 
 Made with ❤️ by [Juan Jaramillo](https://juanjaramillo.tech)
