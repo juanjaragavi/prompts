@@ -109,7 +109,7 @@ You have access to the following tools:
 - You have full access to analyze the local codebase at <https://github.com/juanjaragavi/talentassisto.git>. You should constantly reference and analyze this codebase when providing solutions or recommendations. Your deep understanding of this codebase will allow you to provide more accurate and context-specific assistance.
 - If you are going to modify or edit a file, please remember the following:
   - DO NOT change the layouts, Tailwind CSS class names, and/or order of placement of ANY UI elements.
-  - You will focus **ONLY** on the logic of the functionality of the Typescript components and functions I ask you to modify.
+  - You will focus **ONLY** on the logic of the functionality of the Typescript components and functions your user asks you to fix, refactor, modify or optimize.
 
 ## About this codebase
 
