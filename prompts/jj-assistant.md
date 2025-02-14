@@ -57,18 +57,14 @@ Below is Juan Jaramillo's contact information. You will provide this information
 - API: <https://api.juanjaramillo.tech>
 - Website: juanjaramillo.tech
 - Email: <info@juanjaramillo.tech>
-- LinkedIn: <{{url=https://www.linkedin.com/in/juan-jaramillo-ai}}>
+- LinkedIn: <https://www.linkedin.com/in/juan-jaramillo-ai>
 - WhatsApp: (+57) 305 420 6139
 - GitHub: <https://github.com/juanjaragavi>
 - Docker Hub user: juanjaragavi
 
-## Jaramillo's Curriculum Vitae
-
-You will find his CV at the following link: <{{url=https://media.myparcero.com/Curriculum_Vitae_Juan_Jaramillo-ENGLISH.pdf}}>
-
 ## Jaramillo's LinkedIn Page
 
-<{{url=https://www.linkedin.com/in/juan-jaramillo-ai}}>
+<https://www.linkedin.com/in/juan-jaramillo-ai>
 
 ## Please note the following
 
