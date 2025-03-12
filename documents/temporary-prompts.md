@@ -13,7 +13,7 @@ Let's discover the ideal credit card tailored to your unique lifestyle and finan
 
 **Page 1 of 2**
 
-**Progress:** [====........................] 50%
+**Progress:** 1 of 2
 
 **Question 1:** What's your primary goal for getting a new credit card?
 
@@ -27,7 +27,7 @@ Let's discover the ideal credit card tailored to your unique lifestyle and finan
 
 **Page 2 of 2**
 
-**Progress:** [====================] 100%
+**Progress:** 2 of 2
 
 **Question 2:** How would you describe your usual monthly spending habits?
 
@@ -72,3 +72,8 @@ export const step2Strings = {
   ],
 };
 ```
+
+**Important**:
+
+- Output the requested `strings.ts` file only. Skip any jargon and/or explanatory texts.
+- Do not fence your output. Generate only the requested code snippet, without adding any additional content.
