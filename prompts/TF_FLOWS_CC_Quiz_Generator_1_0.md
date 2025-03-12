@@ -176,5 +176,5 @@ Below, the user will enter the brand of a credit card. You are part of an Agenti
 
 - The quiz **must not** mention the credit card or product the user wrote about in their input.
 - Generate only unbiased questions with no intention of leading the user anywhere.
-- Do not fence the generated output. Output only the text content of the Markdown file.
+- Do not fence the generated output, or use ````markdown` elements. Output only the pure text content of the Markdown file.
 - Simply output the requested Markdown file and skip any introductory text.
