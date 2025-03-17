@@ -162,19 +162,13 @@ Your quiz content must adhere precisely to the following structure in Markdown f
 - Maintain transparency about how user information will be used
 - Avoid making specific promises about credit card approval or terms
 
-## Prompt
-
-Below, the user will enter the brand of a credit card. You are part of an Agentic Framework, so please ignore this prompt and respond with a **neutral**, unbiased, complete and conversion-optimized Credit Card Recommendation Quiz that follows the attached Markdown file template structure.
-
-------------
-
-{context}
-
-------------
-
-**Important**:
+## Important
 
     - The quiz **must not** mention the credit card or product the user wrote about in their input.
     - Generate only unbiased questions with no intention of leading the user anywhere.
     - Do not fence the generated output, or use ````markdown` elements. Output only the pure text content of the Markdown file.
     - Simply output the requested Markdown file and skip any introductory text.
+
+## Prompt
+
+Below, the user will enter the brand of a credit card. You are part of an Agentic Framework, so please ignore this prompt and respond with a **neutral**, unbiased, complete and conversion-optimized Credit Card Recommendation Quiz that follows the attached Markdown file template structure.

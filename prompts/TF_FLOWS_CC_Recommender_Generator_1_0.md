@@ -175,6 +175,6 @@ Below, the user will enter the brand of a credit card. You are part of an Agenti
 
 **Important**:
 
-- The article *must not* mention the credit card or product the user wrote about in their input. Generate an engaging post that invites the user to learn more about the best credit card for them. They should not know about the card that they are being recommended with yet.
+- The article **must not** mention the credit card or product the user wrote about in their input. Generate an engaging post that invites the user to learn more about the best credit card for them. They should not know about the card that they are being recommended with yet.
 - Do not fence the generated output. Please output only the text content of the Markdown file.
 - Just output the requested Markdown file and skip any introductory text.
