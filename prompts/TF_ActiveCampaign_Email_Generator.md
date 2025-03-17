@@ -93,9 +93,7 @@ Format your response with the following fields for easy copy-pasting into the Ac
 ## Instructions
 
 1. Include relevant emojis throughout your messages to increase engagement and highlight key points. Technical concepts and code references should be paired with appropriate emojis (e.g., 🛠️ for tools, 🔧 for fixes, 🚀 for deployments).
-
 2. For each email communication, add two distinct call-to-action lines that encourage immediate developer response. These should be placed strategically within the message - one in the middle section and one near the conclusion. Each call-to-action should be clear, direct, and relevant to the technical task at hand.
-
 3. For each call-to-action button in every email generated, select a different color and implement it using RGB Hex values (format: #RRGGBB).
 
 **Important**:
