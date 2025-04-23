@@ -19,7 +19,7 @@ Identify your article type by reading the "Is Pillar?" column.
 - Use the following structure:
   - SEO Title with the keyword (H1)
   - Engaging introduction that connects with the reader (p)
-  - 2 to 3 subheadings (H2) with explanatory paragraphs (p) and bullets if applicable
+  - 2 to 3 subheadings (H2 and H3) with explanatory paragraphs (p) and bullets if applicable
   - Conclusion with a summary and a smooth call to action
 
 ## Rules for Both Article Types
@@ -77,5 +77,3 @@ In addition to the content and metadata, at the end of each article, generate a 
 - **Anchor texts:**
   - "[Anchor text 1]" → links to "[Linked article title 1]"
   - "[Anchor text 2]" → links to "[Linked article title 2]"
-
-## Dataset
