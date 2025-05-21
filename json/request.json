@@ -8,5 +8,6 @@
         "sampleCount": 1,
         "personGeneration": "ALLOW_ADULT",
         "aspectRatio": "16:9",
+        "mime_type": "image/webp"
     }
 }
