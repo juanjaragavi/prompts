@@ -1,8 +1,8 @@
 {
     "output": {
-        "blogPostTitle": "",
-        "blogPostContent": "",
-        "imageGenerationPrompt": "",
+        "blogPostTitle": "Payday Power: Smart Moves for Your Personal Finances",
+        "blogPostContent": "<!-- wp:heading --><h3 class=\"wp-block-heading\">Getting paid is a great feeling, but what you do next with that paycheck can significantly impact your personal finances. </h3><!-- /wp:heading -->",
+        "imageGenerationPrompt": "Create an ultrarrealistic high-quality 4k professional stock photography. The image should primarily feature a modern, generic credit card (no specific brand visible, perhaps with a simple, elegant design and a chip) alongside a stylized visual representation of a tracking or approval process. This could be a sleek progress bar with checkmarks (similar to the \"United Airlines\" example, but more generic) or abstract icons representing 'Approval' and 'Dispatch'. The background should be clean and professional, perhaps a slightly blurred office setting or a neutral, modern backdrop. The image must maintain high-quality lighting and composition suitable for email marketing, with a horizontal orientation.",
         "metadata": {
             "excerpt": "",
             "tags": [
