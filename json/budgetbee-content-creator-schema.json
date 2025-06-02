@@ -1,20 +1,76 @@
 {
-    "output": {
-        "blogPostTitle": "Payday Power: Smart Moves for Your Personal Finances",
-        "blogPostContent": "<!-- wp:heading --><h3 class=\"wp-block-heading\">Getting paid is a great feeling, but what you do next with that paycheck can significantly impact your personal finances. </h3><!-- /wp:heading -->",
-        "imageGenerationPrompt": "Create an ultrarrealistic high-quality 4k professional stock photography. The image should primarily feature a modern, generic credit card (no specific brand visible, perhaps with a simple, elegant design and a chip) alongside a stylized visual representation of a tracking or approval process. This could be a sleek progress bar with checkmarks (similar to the \"United Airlines\" example, but more generic) or abstract icons representing 'Approval' and 'Dispatch'. The background should be clean and professional, perhaps a slightly blurred office setting or a neutral, modern backdrop. The image must maintain high-quality lighting and composition suitable for email marketing, with a horizontal orientation.",
-        "metadata": {
-            "excerpt": "",
-            "tags": [
-                "tag 1",
-                "tag 2",
-                "tag 3"
-            ],
-            "categories": [
-                "Category 1",
-                "Category 2",
-                "Category 3"
+    "type": "object",
+    "title": "BudgetBee Content Creator Data",
+    "description": "Schema for the data structure used by the BudgetBee content creator.",
+    "properties": {
+        "output": {
+            "type": "object",
+            "description": "Contains all the generated content and metadata for a blog post.",
+            "properties": {
+                "blogPostTitle": {
+                    "type": "string",
+                    "description": "The title of the blog post.",
+                    "example": "Payday Power: Smart Moves for Your Personal Finances"
+                },
+                "blogPostContent": {
+                    "type": "string",
+                    "description": "The HTML content of the blog post, formatted for WordPress (e.g., using Gutenberg blocks).",
+                    "example": "<!-- wp:heading --><h3 class=\"wp-block-heading\">Getting paid is a great feeling, but what you do next with that paycheck can significantly impact your personal finances. </h3><!-- /wp:heading -->"
+                },
+                "imageGenerationPrompt": {
+                    "type": "string",
+                    "description": "A detailed prompt for an AI image generator to create a relevant visual for the blog post.",
+                    "example": "Create an ultrarrealistic high-quality 4k professional stock photography. The image should primarily feature a modern, generic credit card (no specific brand visible, perhaps with a simple, elegant design and a chip) alongside a stylized visual representation of a tracking or approval process. This could be a sleek progress bar with checkmarks (similar to the \"United Airlines\" example, but more generic) or abstract icons representing 'Approval' and 'Dispatch'. The background should be clean and professional, perhaps a slightly blurred office setting or a neutral, modern backdrop. The image must maintain high-quality lighting and composition suitable for email marketing, with a horizontal orientation."
+                },
+                "metadata": {
+                    "type": "object",
+                    "description": "Metadata associated with the blog post.",
+                    "properties": {
+                        "excerpt": {
+                            "type": "string",
+                            "description": "A brief summary or excerpt of the blog post content.",
+                            "example": "Getting paid is a great feeling, but what you do next with that paycheck can significantly impact your personal finances.  Making smart decisions when your income hits your account is crucial for building a solid financial future. This guide will walk you through the essential dos and don'ts to help you manage your money effectively from the moment you get paid."
+                        },
+                        "tags": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "description": "A list of tags relevant to the blog post content.",
+                            "example": [
+                                "personal finance",
+                                "financial literacy",
+                                "Money Management Tips"
+                            ]
+                        },
+                        "categories": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "description": "A list of categories for the blog post, potentially mirroring a WordPress category structure.",
+                            "example": [
+                                "Personal Finance",
+                                "Finances for Everyone"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "excerpt",
+                        "tags",
+                        "categories"
+                    ]
+                }
+            },
+            "required": [
+                "blogPostTitle",
+                "blogPostContent",
+                "imageGenerationPrompt",
+                "metadata"
             ]
         }
-    }
+    },
+    "required": [
+        "output"
+    ]
 }
