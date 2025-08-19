@@ -1,4 +1,4 @@
-<!-- This version of the prompt includes Tool Usage and Memory and Persistence sections, which are essential for the agent's advanced functionalities. -->
+<!-- This version of the prompt includes a Tool Usage section which is essential for the agent's advanced functionalities. -->
 
 # System Prompt
 
