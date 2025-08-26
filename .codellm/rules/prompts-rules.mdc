@@ -1,0 +1,119 @@
+---
+description: Rules and guidelines for the prompts repository - A collection of AI system prompts and projects
+globs: - "prompts/**/*.md"   - "documents/**/*.md"   - "projects/**/*.py"   - "json/**/*.json"
+alwaysApply: true
+---
+
+# Prompts Repository Rules
+
+## Overview
+This repository (https://github.com/juanjaragavi/prompts) contains AI system prompts, documentation, and related projects for various AI assistants and tools, primarily focused on content generation, email marketing, and productivity tools.
+
+## Repository Structure Guidelines
+
+- **prompts/**: Store all system prompts as Markdown files with descriptive names
+  - Use snake_case or kebab-case for file names
+  - Prefix with context when applicable (e.g., `TF_` for TopFinanzas related prompts)
+  - Include clear system prompt sections and capabilities
+  
+- **documents/**: Keep all documentation and content files
+  - Use descriptive file names that indicate the content
+  - Maintain consistency in formatting across documents
+  
+- **json/**: Store JSON payloads, schemas, and configuration files
+  - Use descriptive names that indicate the service or purpose
+  - Ensure proper JSON formatting and validation
+  
+- **projects/**: Small utility projects and scripts
+  - Each project should have its own subdirectory
+  - Include requirements.txt or environment setup instructions where applicable
+
+## Prompt Development Standards
+
+- **Structure**: All prompts should follow a consistent structure:
+  - System description/role
+  - Capabilities section
+  - Limitations section
+  - Expected behavior
+  - Ethical guidelines (when applicable)
+  - Clear instructions and examples
+
+- **Formatting**: 
+  - Use Markdown headers for main sections
+  - Use bullet points for lists of capabilities or requirements
+  - Include code blocks with proper language tags when showing examples
+  - Use backticks for inline code or variable references
+
+- **Variables**: When using placeholder variables:
+  - Use clear, descriptive names in CAPS or %VARIABLE% format
+  - Document all variables and their expected values
+  - Provide examples of variable usage
+
+## Git Workflow
+
+- **Commit Messages**: 
+  - Use clear, descriptive commit messages
+  - Start with action verb (Add, Update, Fix, Remove)
+  - Mention the specific prompt or file being modified
+  - Example: "Add system prompt for email broadcasts generator with tools"
+
+- **Branching**: 
+  - Use `main` as the primary branch
+  - Create feature branches for major additions
+  - Use descriptive branch names
+
+## Content Guidelines
+
+- **Email Marketing Prompts**:
+  - Include character limits and formatting requirements
+  - Specify target audience (e.g., U.S. market)
+  - Define CTA button guidelines
+  - Include image optimization requirements
+
+- **AI Assistant Prompts**:
+  - Clearly define the assistant's role and capabilities
+  - Include reflection and thinking tags when applicable
+  - Specify language handling (multi-language support)
+  - Define output formatting requirements
+
+- **Documentation**:
+  - Keep documentation up-to-date with prompt changes
+  - Include examples of expected outputs
+  - Document any API integrations or tool usage
+
+## Security and Privacy
+
+- **Sensitive Information**:
+  - Never commit API keys, tokens, or passwords directly
+  - Use environment variables or secure configuration methods
+  - Review files before committing to ensure no sensitive data
+
+- **Third-party Integrations**:
+  - Document required permissions and access levels
+  - Include setup instructions for external services
+  - Note any rate limits or usage restrictions
+
+## Quality Standards
+
+- **Testing**: 
+  - Test prompts before committing
+  - Include example inputs and expected outputs
+  - Document edge cases and limitations
+
+- **Maintenance**:
+  - Regularly review and update prompts for accuracy
+  - Archive deprecated prompts rather than deleting
+  - Version prompts when making significant changes
+
+## Collaboration
+
+- **Contributing**:
+  - Follow the existing file and folder structure
+  - Maintain consistency with existing prompt styles
+  - Add appropriate documentation for new prompts
+  - Update the README when adding new categories
+
+- **Review Process**:
+  - Self-review changes before committing
+  - Ensure no breaking changes to existing prompts
+  - Test compatibility with intended AI systems
