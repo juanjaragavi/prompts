@@ -5,6 +5,7 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
 ## Repository Overview
 
 This is a collection of AI system prompts, documentation, and utility projects primarily focused on:
+
 - AI system prompts for various assistants and tools
 - Email marketing automation (ActiveCampaign integration)
 - Content generation tools
@@ -16,10 +17,12 @@ Repository URL: https://github.com/juanjaragavi/prompts
 ## Repository Structure
 
 ### Key Directories
+
 - `prompts/` - System prompts for AI assistants (84+ Markdown files)
-  - Naming convention: `snake_case` or `kebab-case`, prefix with context (e.g., `TF_` for TopFinanzas)
+  - Naming convention: `snake_case` or `kebab-case`, prefix with context (e.g., `TF_` for
+    TopFinanzas)
 - `documents/` - Documentation, scripts, and content files
-- `json/` - JSON payloads, schemas, and API configurations  
+- `json/` - JSON payloads, schemas, and API configurations
 - `projects/` - Utility projects (e.g., jsonl-maker Python script)
 - `notes/` - Personal notes and walkthroughs
 - `.codellm/rules/` - Repository-specific rules and guidelines
@@ -27,6 +30,7 @@ Repository URL: https://github.com/juanjaragavi/prompts
 ## Common Development Tasks
 
 ### Working with Prompts
+
 ```bash
 # List all prompts
 ls -la prompts/
@@ -42,6 +46,7 @@ grep -r "ActiveCampaign" prompts/
 ```
 
 ### Working with Scripts
+
 ```bash
 # List all shell scripts in documents
 find documents/ -name "*.sh"
@@ -51,6 +56,7 @@ ls -la documents/email*.sh
 ```
 
 ### Python Projects
+
 ```bash
 # Navigate to jsonl-maker project
 cd projects/jsonl-maker/
@@ -63,6 +69,7 @@ python jsonlmaker.py
 ```
 
 ### Git Operations
+
 ```bash
 # Check repository status
 git status
@@ -82,6 +89,7 @@ git push origin main
 ```
 
 ### Search and Analysis
+
 ```bash
 # Find all JSON configuration files
 find json/ -name "*.json"
@@ -99,7 +107,9 @@ find prompts/ -name "*.md" -mtime -30
 ## Important Patterns and Standards
 
 ### Prompt Structure
+
 All prompts in `prompts/` follow this general structure:
+
 1. System description/role definition
 2. Capabilities section
 3. Limitations section
@@ -108,11 +118,13 @@ All prompts in `prompts/` follow this general structure:
 6. Clear instructions and examples
 
 ### Variable Conventions
+
 - Placeholders use CAPS or %VARIABLE% format
 - Variables are documented with expected values
 - Examples demonstrate variable usage
 
 ### File Naming
+
 - Prompts: descriptive names with underscores or hyphens
 - Context prefixes: `TF_` (TopFinanzas), `CC_` (Content Creator)
 - JSON files: service/purpose descriptive names
@@ -121,16 +133,19 @@ All prompts in `prompts/` follow this general structure:
 ## Key Integration Points
 
 ### ActiveCampaign Email System
+
 - Multiple prompts for email generation in `prompts/`
 - JSON payload examples in `json/activecampaign-*.json`
 - Shell scripts for automation in `documents/`
 
 ### Content Creation Flows
+
 - TopFinanzas content creation prompts (`TF_FLOWS_CC_*.md`)
 - Quiz, review, and article generators
 - Image prompt optimization tools
 
 ### Course Creation Tools
+
 - AI productivity course prompts
 - Generative AI course creator systems
 - Course design templates
@@ -145,6 +160,7 @@ All prompts in `prompts/` follow this general structure:
 ## Testing and Validation
 
 ### Prompt Testing
+
 ```bash
 # Copy prompt content for testing
 cat prompts/[prompt-name].md
@@ -154,6 +170,7 @@ grep -E "^#|^##|^###" prompts/[prompt-name].md
 ```
 
 ### JSON Validation
+
 ```bash
 # Validate JSON syntax
 python -m json.tool json/[file].json
@@ -165,16 +182,19 @@ cat json/[file].json | python -m json.tool
 ## Quick Reference
 
 ### Most Used Prompts
+
 - TalentAssisto Builder: `prompts/talent-assisto-saas.md`
 - ActiveCampaign Email Generators: `prompts/TF_ActiveCampaign_*.md`, `prompts/email-genius-*.md`
 - Content Creation: `prompts/TF_FLOWS_CC_*.md`
 - Social Media: `prompts/linkedin-*.md`, `prompts/*social-media*.md`
 
 ### Key Scripts
+
 - Email broadcast generator: `documents/emailgenius-broadcasts-generator.sh`
 - Image generation: `documents/generate-image.sh`
 
 ### Important Configuration Files
+
 - Repository rules: `.codellm/rules/prompts-rules.mdc`
 - VS Code settings: `.vscode/settings.json`
 

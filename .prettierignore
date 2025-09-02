@@ -1,0 +1,25 @@
+# Ignore dependencies and VCS
+node_modules/
+.git/
+
+# OS/editor files
+.DS_Store
+.vscode/
+
+# Project-specific ignores (adjust as needed)
+projects/**/dist/
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.webp
+**/*.svg
+**/*.gif
+
+# Ignore Python virtual envs and third-party packages
+projects/**/env/
+projects/**/venv/
+**/site-packages/
+
+# Ignore problematic or non-standard files
+documents/service.yaml
+projects/snake/

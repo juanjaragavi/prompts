@@ -1,1 +1,6 @@
-As you may be aware of, after working on this TopFinanzas UK Next.Js project for a while, the route of entrance for the user to this Financial Wellness Blog is by a user journey which makes them solve the Quiz (`app/quiz`), then be redirected to a Credit Card Recommender (`app/credit-card-recommender-p1/page.tsx`) to finally be rewarded by accessing a high-value financial content of the user's interest (`app/personal-finance`). In this task, we will focus on the [Credit Card Recommender](app/credit-card-recommender-p1/page.tsx)
+As you may be aware of, after working on this TopFinanzas UK Next.Js project for a while, the route
+of entrance for the user to this Financial Wellness Blog is by a user journey which makes them solve
+the Quiz (`app/quiz`), then be redirected to a Credit Card Recommender
+(`app/credit-card-recommender-p1/page.tsx`) to finally be rewarded by accessing a high-value
+financial content of the user's interest (`app/personal-finance`). In this task, we will focus on
+the [Credit Card Recommender](app/credit-card-recommender-p1/page.tsx)

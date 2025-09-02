@@ -1,135 +1,135 @@
 {
-    "name": "talent-assisto-1.0-",
-    "deploymentId": "{{64.data.result.random.data[]}}",
-    "files": [
-        {
-            "file": "next.config.mjs",
-            "data": "Base64 encoded content of next.config.mjs"
-        },
-        {
-            "file": "package.json",
-            "data": "Base64 encoded content of package.json"
-        },
-        {
-            "file": "package-lock.json",
-            "data": "Base64 encoded content of package-lock.json"
-        },
-        {
-            "file": "tsconfig.json",
-            "data": "Base64 encoded content of tsconfig.json"
-        },
-        {
-            "file": "next-env.d.ts",
-            "data": "Base64 encoded content of next-env.d.ts"
-        },
-        {
-            "file": ".env",
-            "data": "Base64 encoded content of .env"
-        },
-        {
-            "file": "app/api/assistants/files/route.tsx",
-            "data": "Base64 encoded content of app/api/assistants/files/route.tsx"
-        },
-        {
-            "file": "app/api/assistants/threads/[threadId]/actions/route.ts",
-            "data": "Base64 encoded content of app/api/assistants/threads/[threadId]/actions/route.ts"
-        },
-        {
-            "file": "app/api/assistants/threads/[threadId]/messages/route.ts",
-            "data": "Base64 encoded content of app/api/assistants/threads/[threadId]/messages/route.ts"
-        },
-        {
-            "file": "app/api/assistants/threads/[threadId]/route.ts",
-            "data": "Base64 encoded content of app/api/assistants/threads/[threadId]/route.ts"
-        },
-        {
-            "file": "app/api/assistants/threads/files/[fileId]/route.ts",
-            "data": "Base64 encoded content of app/api/assistants/threads/files/[fileId]/route.ts"
-        },
-        {
-            "file": "app/components/chat.module.css",
-            "data": "Base64 encoded content of app/components/chat.module.css"
-        },
-        {
-            "file": "app/components/chat.tsx",
-            "data": "Base64 encoded content of app/components/chat.tsx"
-        },
-        {
-            "file": "app/components/file-viewer.module.css",
-            "data": "Base64 encoded content of app/components/file-viewer.module.css"
-        },
-        {
-            "file": "app/components/file-viewer.tsx",
-            "data": "Base64 encoded content of app/components/file-viewer.tsx"
-        },
-        {
-            "file": "app/components/warnings.module.css",
-            "data": "Base64 encoded content of app/components/warnings.module.css"
-        },
-        {
-            "file": "app/components/warnings.tsx",
-            "data": "Base64 encoded content of app/components/warnings.tsx"
-        },
-        {
-            "file": "app/assistant-config.ts",
-            "data": "Base64 encoded content of app/assistant-config.ts"
-        },
-        {
-            "file": "app/favicon.png",
-            "data": "Base64 encoded content of app/favicon.png"
-        },
-        {
-            "file": "app/globals.css",
-            "data": "Base64 encoded content of app/globals.css"
-        },
-        {
-            "file": "app/layout.tsx",
-            "data": "Base64 encoded content of app/layout.tsx"
-        },
-        {
-            "file": "app/openai.ts",
-            "data": "Base64 encoded content of app/openai.ts"
-        },
-        {
-            "file": "app/page.module.css",
-            "data": "Base64 encoded content of app/page.module.css"
-        },
-        {
-            "file": "app/page.tsx",
-            "data": "Base64 encoded content of app/page.tsx"
-        },
-        {
-            "file": "public/openai.svg",
-            "data": "Base64 encoded content of public/openai.svg"
-        }
-    ],
-    "gitMetadata": {
-        "remoteUrl": "https://github.com/juanjaragavi/talent-assisto-mvp-0.1",
-        "commitAuthorName": "juanjaragavi",
-        "commitMessage": "Juan Jaramillo has created Juanito, a new assistant for Marstals Latam.",
-        "commitRef": "main",
-        "commitSha": "dc36199b2234c6586ebe05ec94078a895c707e29",
-        "dirty": true
+  "name": "talent-assisto-1.0-",
+  "deploymentId": "{{64.data.result.random.data[]}}",
+  "files": [
+    {
+      "file": "next.config.mjs",
+      "data": "Base64 encoded content of next.config.mjs"
     },
-    "gitSource": {
-        "ref": "main",
-        "repoId": "817076911",
-        "sha": "dc36199b2234c6586ebe05ec94078a895c707e29",
-        "type": "github"
+    {
+      "file": "package.json",
+      "data": "Base64 encoded content of package.json"
     },
-    "project": "talent-assisto-1.0-",
-    "projectSettings": {
-        "buildCommand": "npm run build",
-        "devCommand": "npm run dev",
-        "framework": "nextjs",
-        "installCommand": "npm install",
-        "nodeVersion": "20.x",
-        "outputDirectory": "public",
-        "rootDirectory": "app",
-        "serverlessFunctionRegion": "iad1",
-        "skipGitConnectDuringLink": true,
-        "sourceFilesOutsideRootDirectory": true
+    {
+      "file": "package-lock.json",
+      "data": "Base64 encoded content of package-lock.json"
     },
-    "target": "production",
-    "withLatestCommit": true
+    {
+      "file": "tsconfig.json",
+      "data": "Base64 encoded content of tsconfig.json"
+    },
+    {
+      "file": "next-env.d.ts",
+      "data": "Base64 encoded content of next-env.d.ts"
+    },
+    {
+      "file": ".env",
+      "data": "Base64 encoded content of .env"
+    },
+    {
+      "file": "app/api/assistants/files/route.tsx",
+      "data": "Base64 encoded content of app/api/assistants/files/route.tsx"
+    },
+    {
+      "file": "app/api/assistants/threads/[threadId]/actions/route.ts",
+      "data": "Base64 encoded content of app/api/assistants/threads/[threadId]/actions/route.ts"
+    },
+    {
+      "file": "app/api/assistants/threads/[threadId]/messages/route.ts",
+      "data": "Base64 encoded content of app/api/assistants/threads/[threadId]/messages/route.ts"
+    },
+    {
+      "file": "app/api/assistants/threads/[threadId]/route.ts",
+      "data": "Base64 encoded content of app/api/assistants/threads/[threadId]/route.ts"
+    },
+    {
+      "file": "app/api/assistants/threads/files/[fileId]/route.ts",
+      "data": "Base64 encoded content of app/api/assistants/threads/files/[fileId]/route.ts"
+    },
+    {
+      "file": "app/components/chat.module.css",
+      "data": "Base64 encoded content of app/components/chat.module.css"
+    },
+    {
+      "file": "app/components/chat.tsx",
+      "data": "Base64 encoded content of app/components/chat.tsx"
+    },
+    {
+      "file": "app/components/file-viewer.module.css",
+      "data": "Base64 encoded content of app/components/file-viewer.module.css"
+    },
+    {
+      "file": "app/components/file-viewer.tsx",
+      "data": "Base64 encoded content of app/components/file-viewer.tsx"
+    },
+    {
+      "file": "app/components/warnings.module.css",
+      "data": "Base64 encoded content of app/components/warnings.module.css"
+    },
+    {
+      "file": "app/components/warnings.tsx",
+      "data": "Base64 encoded content of app/components/warnings.tsx"
+    },
+    {
+      "file": "app/assistant-config.ts",
+      "data": "Base64 encoded content of app/assistant-config.ts"
+    },
+    {
+      "file": "app/favicon.png",
+      "data": "Base64 encoded content of app/favicon.png"
+    },
+    {
+      "file": "app/globals.css",
+      "data": "Base64 encoded content of app/globals.css"
+    },
+    {
+      "file": "app/layout.tsx",
+      "data": "Base64 encoded content of app/layout.tsx"
+    },
+    {
+      "file": "app/openai.ts",
+      "data": "Base64 encoded content of app/openai.ts"
+    },
+    {
+      "file": "app/page.module.css",
+      "data": "Base64 encoded content of app/page.module.css"
+    },
+    {
+      "file": "app/page.tsx",
+      "data": "Base64 encoded content of app/page.tsx"
+    },
+    {
+      "file": "public/openai.svg",
+      "data": "Base64 encoded content of public/openai.svg"
+    }
+  ],
+  "gitMetadata": {
+    "remoteUrl": "https://github.com/juanjaragavi/talent-assisto-mvp-0.1",
+    "commitAuthorName": "juanjaragavi",
+    "commitMessage": "Juan Jaramillo has created Juanito, a new assistant for Marstals Latam.",
+    "commitRef": "main",
+    "commitSha": "dc36199b2234c6586ebe05ec94078a895c707e29",
+    "dirty": true
+  },
+  "gitSource": {
+    "ref": "main",
+    "repoId": "817076911",
+    "sha": "dc36199b2234c6586ebe05ec94078a895c707e29",
+    "type": "github"
+  },
+  "project": "talent-assisto-1.0-",
+  "projectSettings": {
+    "buildCommand": "npm run build",
+    "devCommand": "npm run dev",
+    "framework": "nextjs",
+    "installCommand": "npm install",
+    "nodeVersion": "20.x",
+    "outputDirectory": "public",
+    "rootDirectory": "app",
+    "serverlessFunctionRegion": "iad1",
+    "skipGitConnectDuringLink": true,
+    "sourceFilesOutsideRootDirectory": true
+  },
+  "target": "production",
+  "withLatestCommit": true
 }

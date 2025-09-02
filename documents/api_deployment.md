@@ -39,7 +39,8 @@ For a Next.js chat interface application, you should include:
 - Any custom server files (if applicable)
 - Any environment files (`.env`, `.env.local`, etc.) - be cautious with sensitive information
 
-**Note:** For a Next.js application, you need to include the entire project, not just the `public` folder.
+**Note:** For a Next.js application, you need to include the entire project, not just the `public`
+folder.
 
 ## 3. JSON Payload Structure
 
@@ -71,7 +72,7 @@ If deploying files directly (not recommended for larger projects):
     {
       "file": "package.json",
       "data": "base64_encoded_content"
-    },
+    }
     // Include all other project files here
   ],
   "projectSettings": {
@@ -98,8 +99,8 @@ If deploying files directly (not recommended for larger projects):
 
 3. **Request Body:** Use the JSON payload structure from section 3.
 
-4. **Sending the Request:**
-   Use an HTTP client like curl, Postman, or a programming language of your choice.
+4. **Sending the Request:** Use an HTTP client like curl, Postman, or a programming language of your
+   choice.
 
    Example using curl:
 
@@ -129,7 +130,7 @@ If deploying files directly (not recommended for larger projects):
    - Use Vercel's API or dashboard to assign a custom domain
 
 4. **Set Up Environment Variables:**
-4. **Set Up Environment Variables:**
+5. **Set Up Environment Variables:**
    - If your Next.js chat interface requires environment variables, set them up using Vercel's API:
 
      ```
@@ -138,40 +139,42 @@ If deploying files directly (not recommended for larger projects):
 
    - Include variables like API keys, database URLs, etc.
 
-5. **Monitor Performance:**
+6. **Monitor Performance:**
    - Use Vercel's analytics API to monitor your application's performance:
 
      ```
      GET https://api.vercel.com/v2/deployments/{deployment-id}/events
      ```
 
-6. **Set Up Continuous Deployment:**
+7. **Set Up Continuous Deployment:**
    - Configure webhooks in your Git repository to trigger automatic deployments on code changes
 
-7. **Review Logs:**
+8. **Review Logs:**
    - Check deployment logs for any issues:
 
      ```
      GET https://api.vercel.com/v2/deployments/{deployment-id}/events
      ```
 
-8. **Scale Your Application:**
+9. **Scale Your Application:**
    - If needed, adjust serverless function configuration via API:
 
      ```
      PATCH https://api.vercel.com/v9/projects/{project-id}
      ```
 
-9. **Implement Rollback Strategy:**
-   - Keep track of successful deployment IDs to enable quick rollbacks if needed
+10. **Implement Rollback Strategy:**
+    - Keep track of successful deployment IDs to enable quick rollbacks if needed
 
-10. **Set Up Alerts:**
-    - Configure alerts for deployment failures or performance issues using Vercel's API or integrations
+11. **Set Up Alerts:**
+    - Configure alerts for deployment failures or performance issues using Vercel's API or
+      integrations
 
 ## Additional Considerations for Next.js Chat Interface
 
 1. **WebSocket Support:**
-   - Ensure your Next.js chat interface uses WebSocket connections compatible with serverless environments
+   - Ensure your Next.js chat interface uses WebSocket connections compatible with serverless
+     environments
 
 2. **API Routes:**
    - Verify that any API routes (`pages/api/*`) are correctly deployed and functioning
@@ -180,13 +183,15 @@ If deploying files directly (not recommended for larger projects):
    - If using external state management (e.g., Redux), ensure it's compatible with SSR
 
 4. **Database Connections:**
-   - For chat functionality, ensure database connections are optimized for serverless environments (connection pooling, etc.)
+   - For chat functionality, ensure database connections are optimized for serverless environments
+     (connection pooling, etc.)
 
 5. **Caching Strategy:**
    - Implement efficient caching for chat history and user data to improve performance
 
 6. **Authentication:**
-   - If your chat interface requires authentication, ensure it's properly set up in the serverless environment
+   - If your chat interface requires authentication, ensure it's properly set up in the serverless
+     environment
 
 7. **Rate Limiting:**
    - Implement rate limiting for chat API endpoints to prevent abuse
@@ -204,4 +209,5 @@ To provide an even more precise guide, the following information would be helpfu
 4. Database or data storage solution used
 5. Any specific performance requirements or expected user load
 
-This additional information would allow for more tailored deployment instructions and post-deployment optimization steps specific to your Next.js chat interface application.
+This additional information would allow for more tailored deployment instructions and
+post-deployment optimization steps specific to your Next.js chat interface application.

@@ -4,13 +4,18 @@
 
 ### Duration: 1 Hour
 
-This dynamic conference is designed for entrepreneurs and professionals looking to revolutionize their productivity using Generative Artificial Intelligence tools. In just one hour, attendees will gain practical knowledge to take full advantage of the latest free and premium AI tools, radically transforming their approach to everyday work tasks.
+This dynamic conference is designed for entrepreneurs and professionals looking to revolutionize
+their productivity using Generative Artificial Intelligence tools. In just one hour, attendees will
+gain practical knowledge to take full advantage of the latest free and premium AI tools, radically
+transforming their approach to everyday work tasks.
 
 ## Learning Objectives
 
-- Quickly understand the key capabilities of AI tools such as ChatGPT, Gemini, Claude, Llama, Microsoft Designer and Copilot.
+- Quickly understand the key capabilities of AI tools such as ChatGPT, Gemini, Claude, Llama,
+  Microsoft Designer and Copilot.
 - Discover how to integrate these tools into various tasks to optimize productivity.
-- Explore practical strategies to maximize efficiency in communication, content creation and information analysis.
+- Explore practical strategies to maximize efficiency in communication, content creation and
+  information analysis.
 - Gain insights on how to adapt the use of AI to different professional contexts.
 
 ## Condensed Program
@@ -35,11 +40,14 @@ This dynamic conference is designed for entrepreneurs and professionals looking 
 
 ## Methodology
 
-This lecture combines concise presentations with live demonstrations and practical examples, designed to provide immediate value to attendees. Quick tips and tricks will be shared that participants can immediately implement into their work routines.
+This lecture combines concise presentations with live demonstrations and practical examples,
+designed to provide immediate value to attendees. Quick tips and tricks will be shared that
+participants can immediately implement into their work routines.
 
 ## Who is this conference for?
 
-Ideal for entrepreneurs, startup leaders and professionals of all levels looking to stay on the cutting edge of digital productivity. No previous AI experience is required.
+Ideal for entrepreneurs, startup leaders and professionals of all levels looking to stay on the
+cutting edge of digital productivity. No previous AI experience is required.
 
 ## Added Value
 
@@ -49,4 +57,7 @@ Attendees will receive:
 - Access to an online community to continue learning and share post-event experiences.
 - A discount coupon for the full 6-hour course, for those who wish to go deeper into the topic.
 
-This compact conference offers a powerful introduction to the power of AI in personal productivity, perfectly suited to the dynamic format of Mexico Tech Week. Participants will leave equipped with practical knowledge and immediately applicable strategies to transform their work efficiency in the digital age.
+This compact conference offers a powerful introduction to the power of AI in personal productivity,
+perfectly suited to the dynamic format of Mexico Tech Week. Participants will leave equipped with
+practical knowledge and immediately applicable strategies to transform their work efficiency in the
+digital age.

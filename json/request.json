@@ -1,13 +1,13 @@
 {
-    "instances": [
-        {
-            "prompt": "Create a photorealistic 4k professional stock photography illustration related to discovering financial offers. The image should show a person's hand interacting with a futuristic, transparent digital interface displaying abstract representations of financial products (e.g., glowing card shapes, upward-trending graphs). The background should be a clean, modern, slightly blurred office or home setting, with high-quality lighting and a professional, optimistic feel. The composition should be horizontal and suitable for email marketing."
-        }
-    ],
-    "parameters": {
-        "sampleCount": 1,
-        "personGeneration": "ALLOW_ADULT",
-        "aspectRatio": "16:9",
-        "mime_type": "image/webp"
+  "instances": [
+    {
+      "prompt": "Create a photorealistic 4k professional stock photography illustration related to discovering financial offers. The image should show a person's hand interacting with a futuristic, transparent digital interface displaying abstract representations of financial products (e.g., glowing card shapes, upward-trending graphs). The background should be a clean, modern, slightly blurred office or home setting, with high-quality lighting and a professional, optimistic feel. The composition should be horizontal and suitable for email marketing."
     }
+  ],
+  "parameters": {
+    "sampleCount": 1,
+    "personGeneration": "ALLOW_ADULT",
+    "aspectRatio": "16:9",
+    "mime_type": "image/webp"
+  }
 }

@@ -6,21 +6,39 @@ Lleve su jornada laboral a nuevos niveles de eficiencia con herramientas de IA g
 
 ### Duración: 6 Horas
 
-Este curso único está diseñado para capacitar a emprendedores, micro empresarios y profesionales corporativos con conocimientos prácticos y habilidades aplicables para aprovechar al máximo la impresionante gama de herramientas de Inteligencia Artificial Generativa gratuitas, freemium y de pago que han surgido recientemente. Al finalizar el curso, los participantes estarán preparados para transformar radicalmente su enfoque hacia las tareas comunes en la mayoría de las funciones laborales, logrando una mejora significativa tanto en la calidad como en la productividad.
+Este curso único está diseñado para capacitar a emprendedores, micro empresarios y profesionales
+corporativos con conocimientos prácticos y habilidades aplicables para aprovechar al máximo la
+impresionante gama de herramientas de Inteligencia Artificial Generativa gratuitas, freemium y de
+pago que han surgido recientemente. Al finalizar el curso, los participantes estarán preparados para
+transformar radicalmente su enfoque hacia las tareas comunes en la mayoría de las funciones
+laborales, logrando una mejora significativa tanto en la calidad como en la productividad.
 
 ## Objetivos de aprendizaje
 
-- Comprender las funcionalidades clave de herramientas de IA gratuitas, de código abierto y de pago como ChatGPT, Gemini, Claude, Llama, Microsoft Designer y Copilot, y cómo estos chatbots y herramientas pueden integrarse en diversas tareas laborales.
-- Aprender a utilizar ChatGPT, Gemini, Claude, Llama, Microsoft Designer y Copilot para la generación y optimización de contenidos, mejorando la eficiencia en la comunicación y la creación de documentos, hojas de cálculo, imágenes y presentaciones.
-- Aplicar técnicas avanzadas de automatización y análisis con estas herramientas para transformar procesos y aumentar la calidad del trabajo.
-- Explorar estrategias para maximizar la productividad utilizando las capacidades específicas de cada herramienta de IA en tareas cotidianas.
-- Desarrollar habilidades prácticas para implementar AI en su flujo de trabajo, garantizando una integración efectiva y personalizada según las necesidades del usuario.
-- Evaluar el impacto de las herramientas de IA en la productividad y calidad del trabajo, con un enfoque en resultados medibles y sostenibles.
-- Adaptar el uso de IA a diferentes contextos profesionales, asegurando que los participantes puedan aplicar las herramientas en sus respectivas áreas de trabajo.
+- Comprender las funcionalidades clave de herramientas de IA gratuitas, de código abierto y de pago
+  como ChatGPT, Gemini, Claude, Llama, Microsoft Designer y Copilot, y cómo estos chatbots y
+  herramientas pueden integrarse en diversas tareas laborales.
+- Aprender a utilizar ChatGPT, Gemini, Claude, Llama, Microsoft Designer y Copilot para la
+  generación y optimización de contenidos, mejorando la eficiencia en la comunicación y la creación
+  de documentos, hojas de cálculo, imágenes y presentaciones.
+- Aplicar técnicas avanzadas de automatización y análisis con estas herramientas para transformar
+  procesos y aumentar la calidad del trabajo.
+- Explorar estrategias para maximizar la productividad utilizando las capacidades específicas de
+  cada herramienta de IA en tareas cotidianas.
+- Desarrollar habilidades prácticas para implementar AI en su flujo de trabajo, garantizando una
+  integración efectiva y personalizada según las necesidades del usuario.
+- Evaluar el impacto de las herramientas de IA en la productividad y calidad del trabajo, con un
+  enfoque en resultados medibles y sostenibles.
+- Adaptar el uso de IA a diferentes contextos profesionales, asegurando que los participantes puedan
+  aplicar las herramientas en sus respectivas áreas de trabajo.
 
 ## ¿Para quiénes está dirigida esta capacitación?
 
-Este curso está dirigido a todos los profesionales corporativos que deseen mejorar su eficiencia utilizando herramientas de Inteligencia Artificial. Desde gerentes hasta personal administrativo, cualquier persona que utilice dispositivos digitales y gestione información encontrará este curso valioso para transformar su manera de trabajar y aumentar su productividad. No se requiere experiencia previa en IA, ya que cubriremos todos los conceptos básicos necesarios.
+Este curso está dirigido a todos los profesionales corporativos que deseen mejorar su eficiencia
+utilizando herramientas de Inteligencia Artificial. Desde gerentes hasta personal administrativo,
+cualquier persona que utilice dispositivos digitales y gestione información encontrará este curso
+valioso para transformar su manera de trabajar y aumentar su productividad. No se requiere
+experiencia previa en IA, ya que cubriremos todos los conceptos básicos necesarios.
 
 ## Programa
 
@@ -89,16 +107,27 @@ Este curso está dirigido a todos los profesionales corporativos que deseen mejo
    - Evaluación del ROI en el uso de herramientas de IA
    - Estrategias para la mejora continua y actualización de conocimientos
 
-Este programa cubre todos los objetivos de aprendizaje mencionados en nuestra presentación comercial, proporcionando una estructura lógica y progresiva que permite a los participantes adquirir conocimientos y habilidades prácticas en el uso de herramientas de IA para mejorar su productividad personal.
+Este programa cubre todos los objetivos de aprendizaje mencionados en nuestra presentación
+comercial, proporcionando una estructura lógica y progresiva que permite a los participantes
+adquirir conocimientos y habilidades prácticas en el uso de herramientas de IA para mejorar su
+productividad personal.
 
 ## Forma de entrega
 
-Ofrecemos la capacitación online en vivo o presencial en las instalaciones de su empresa. Para el formato online en vivo, recomendamos dividir la formación en varias sesiones para obtener la mejor experiencia de aprendizaje.
+Ofrecemos la capacitación online en vivo o presencial en las instalaciones de su empresa. Para el
+formato online en vivo, recomendamos dividir la formación en varias sesiones para obtener la mejor
+experiencia de aprendizaje.
 
 ## Personalización y programación flexible
 
-El contenido y la duración del programa puede adaptarse a las necesidades de su organización. Antes del entrenamiento, el instructor colaborará para personalizar el contenido. Además, las sesiones de capacitación se programarán según las preferencias de su empresa.
+El contenido y la duración del programa puede adaptarse a las necesidades de su organización. Antes
+del entrenamiento, el instructor colaborará para personalizar el contenido. Además, las sesiones de
+capacitación se programarán según las preferencias de su empresa.
 
 ## Metodología
 
-Nuestra metodología se distingue por ser altamente participativa, enfocada en ejemplos, casos prácticos, ejercicios y debates grupales. Empleamos diversos medios según el tema del curso para asegurar una experiencia de aprendizaje dinámica y completa. Orientamos nuestras capacitaciones hacia la acción, con el objetivo de brindar una formación práctica y directamente aplicable al trabajo de los participantes.
+Nuestra metodología se distingue por ser altamente participativa, enfocada en ejemplos, casos
+prácticos, ejercicios y debates grupales. Empleamos diversos medios según el tema del curso para
+asegurar una experiencia de aprendizaje dinámica y completa. Orientamos nuestras capacitaciones
+hacia la acción, con el objetivo de brindar una formación práctica y directamente aplicable al
+trabajo de los participantes.

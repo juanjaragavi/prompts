@@ -1,12 +1,12 @@
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI } from '@google/genai';
 
 // Initialize Vertex with your Cloud project and location
 const ai = new GoogleGenAI({
   vertexai: true,
-  project: "absolute-brook-452020-d5",
-  location: "global",
+  project: 'absolute-brook-452020-d5',
+  location: 'global',
 });
-const model = "gemini-2.5-flash";
+const model = 'gemini-2.5-flash';
 
 const siText1 = {
   text: `# System Prompt
@@ -212,20 +212,20 @@ const generationConfig = {
   seed: 0,
   safetySettings: [
     {
-      category: "HARM_CATEGORY_HATE_SPEECH",
-      threshold: "OFF",
+      category: 'HARM_CATEGORY_HATE_SPEECH',
+      threshold: 'OFF',
     },
     {
-      category: "HARM_CATEGORY_DANGEROUS_CONTENT",
-      threshold: "OFF",
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'OFF',
     },
     {
-      category: "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-      threshold: "OFF",
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'OFF',
     },
     {
-      category: "HARM_CATEGORY_HARASSMENT",
-      threshold: "OFF",
+      category: 'HARM_CATEGORY_HARASSMENT',
+      threshold: 'OFF',
     },
   ],
   systemInstruction: {
@@ -246,7 +246,7 @@ async function generateContent() {
     if (chunk.text) {
       process.stdout.write(chunk.text);
     } else {
-      process.stdout.write(JSON.stringify(chunk) + "\n");
+      process.stdout.write(JSON.stringify(chunk) + '\n');
     }
   }
 }
