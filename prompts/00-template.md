@@ -1,45 +1,76 @@
-## Task
+# Prompt
 
-First than all, read and process the @/lib/documents/blog-post-generation-prompt.md file.
+Optimize the text enclosed on triple quotes. This is not a prompt, it is a text to optimize:
 
-Then, generate a SEO-optimized Blog article based on the requirements below.
+"""\TopNetworks is an online advertising company. We create and manage online advertising campaigns for our clients. Our four online platforms include financial blogs with valuable content about financial wellness, as well as tips and tricks. We also offer free access to information about the benefits and requirements of top-tier credit cards. We only require users' names and email addresses.
 
-### Pillar
+Our online platforms are:
 
-Money Management
+* [TopFinanzas USA](https://us.topfinanzas.com)
+* [TopFinanzas México](https://topfinanzas.com/mx)
+* [TopFinanzas UK](https://uk.topfinanzas.com)
+* [BudgetBee](https://budgetbeepro.com)\"""
 
-### Main Keyword
+Of course. Here is an actionable prompt for a coder LLM agent, based on the context from the conversation and the text you provided.
 
-personal finance
+***
 
-### Tentative Title
+## **Context**
 
-{title}
+TopNetworks is an online advertising company. We create and manage online advertising campaigns for our clients. Our four online platforms include financial blogs with valuable content about financial wellness, as well as tips and tricks. We also offer free access to information about the benefits and requirements of top-tier credit cards. We only require users' names and email addresses.
 
-### Content Focus
+Our online platforms are:
 
-Money Management 
+* **TopFinanzas USA (TFUS):** `https://us.topfinanzas.com`
+* **TopFinanzas México (TFMEX):** `https://topfinanzas.com/mx`
+* **TopFinanzas UK (TFUK):** `https://uk.topfinanzas.com`
+* **BudgetBee (BBUS):** `https://budgetbeepro.com`
 
-### SEO Intent
+## **Objective**
 
-Informational
+Generate Regular Expressions (REGEX) to identify and categorize URLs from our four platforms into two distinct content types: **Top-of-Funnel (ToFu)** and **Middle-of-Funnel (Mofu)**. This is for the purpose of programmatic ad placement.
 
-### Funnel Stage
+## **URL Structure**
 
-TOFU
+Our URL structure is standardized across all platforms and follows this pattern:
+`domain/category/article-slug`
 
-### Market
+The key differentiator for content type is the **category** slug in the URL.
 
-United Kingdom
+## **Content Type Definitions & Example Categories**
 
-### Language
+* **ToFu (Top-of-Funnel):** General interest, educational content.
+    * *Example categories:* `blog`, `guias`, `articulos`, `aprender-finanzas`.
+* **Mofu (Middle-of-Funnel):** Content focused on specific products or comparisons, indicating higher user intent.
+    * *Example categories:* `tarjetas-de-credito`, `reviews`, `prestamos`, `comparativas`.
 
-English (United Kingdom)
+## **Task**
 
-## Important
+Your task is to provide a set of REGEX patterns that can be used to classify a given URL into one of the categories (Platform + Content Type).
 
-- The full context and details for this topic, such as the Tentative Title and Content Focus, are located in the corresponding CSV row within the @/lib/documents/topfinanzas-us-topic-outline.csv file.
-- Before generating the content, review the sitemap for the UK site to get an updated list of published pages and articles.
-    - **UK Market:** [https://uk.topfinanzas.com/sitemap.xml](https://uk.topfinanzas.com/sitemap.xml)
-- Use the UK URLs to generate the links in each blog post.
-- If the "Funnel Stage" is TOFU, create the new blog post in the @/app/personal-finance category, matching the structure and layout used by existing articles in that directory, but write entirely new, original content.
+Please provide between **4 and 8 REGEX patterns**.
+* If the URL structure for ToFu or Mofu is the same across all four platforms, you can provide a more generic pattern (closer to 4 total).
+* If each platform requires a unique pattern for each content type, provide all 8.
+
+### **Expected Output**
+
+Please format the output in a clear markdown table or list, including the platform, content type, and the corresponding REGEX pattern. For each REGEX, please add a brief explanation of how it works.
+
+**Example of Desired Output Format:**
+
+| Platform | Content Type | REGEX Pattern |
+| :--- | :--- | :--- |
+| TFUS | ToFu | `^https://us\.topfinanzas\.com/(blog|guias)/.*` |
+| TFUS | Mofu | `^https://us\.topfinanzas\.com/(tarjetas-de-credito|reviews)/.*` |
+| ... | ... | ... |
+
+Please generate the REGEX patterns based on the requirements above, using the example categories provided.
+
+**Important:**
+
+I will paste the URLs of actual TOFU and MOFU Blog posts of each of our for platforms:
+
+* **TopFinanzas USA (TFUS):** `https://us.topfinanzas.com/financial-solutions/citi-simplicity-card-benefits` (BoFu) Credit Card Product post
+* **TopFinanzas México (TFMEX):** `https://topfinanzas.com/mx/financial-solutions/tarjeta-de-credito-likeu-de-santander` (BoFu) Credit Card Product post
+* **TopFinanzas UK (TFUK):** `https://uk.topfinanzas.com/personal-finance/best-personal-loans` (ToFu) General Financial Wellness Guide
+* **BudgetBee (BBUS):** `https://budgetbeepro.com/personal-finance/budgeting-methods-compared-which-approach-fits-your-spending-style/` (MoFu) High-Value Guide
