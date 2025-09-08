@@ -1,31 +1,6 @@
-# Prompt
-
-Optimize the text enclosed on triple quotes. This is not a prompt, it is a text to optimize:
-
-"""\TopNetworks is an online advertising company. We create and manage online advertising campaigns
-for our clients. Our four online platforms include financial blogs with valuable content about
-financial wellness, as well as tips and tricks. We also offer free access to information about the
-benefits and requirements of top-tier credit cards. We only require users' names and email
-addresses.
-
-Our online platforms are:
-
-- [TopFinanzas USA](https://us.topfinanzas.com)
-- [TopFinanzas México](https://topfinanzas.com/mx)
-- [TopFinanzas UK](https://uk.topfinanzas.com)
-- [BudgetBee](https://budgetbeepro.com)\"""
-
-Of course. Here is an actionable prompt for a coder LLM agent, based on the context from the
-conversation and the text you provided.
-
----
-
 ## **Context**
 
-TopNetworks is an online advertising company. We create and manage online advertising campaigns for
-our clients. Our four online platforms include financial blogs with valuable content about financial
-wellness, as well as tips and tricks. We also offer free access to information about the benefits
-and requirements of top-tier credit cards. We only require users' names and email addresses.
+TopNetworks is a company that helps people advertise on the internet. We create and manage online advertising campaigns for our clients. We have four online platforms. They include financial blogs with valuable content about financial wellness, as well as tips and tricks. We also offer free information about the benefits and requirements of the best credit cards. We only need users' names and email addresses.
 
 Our online platforms are:
 
@@ -34,16 +9,16 @@ Our online platforms are:
 - **TopFinanzas UK (TFUK):** `https://uk.topfinanzas.com`
 - **BudgetBee (BBUS):** `https://budgetbeepro.com`
 
-## **Objective**
+We will make a new Astro.js project. It will be a blog about financial wellness, similar to the ones above. The new site will be called MejoresFinanzas and will have the same content strategy and business model as our existing financial wellness blogs, above.
 
-Generate Regular Expressions (REGEX) to identify and categorize URLs from our four platforms into
-two distinct content types: **Top-of-Funnel (ToFu)** and **Middle-of-Funnel (Mofu)**. This is for
-the purpose of programmatic ad placement.
+## **Task**
 
-## **URL Structure**
+Generate an executive report about MejoresFinanzas, detailing the description of the site, the target audience, and other important information about the site.
+This new site, will be based on two existing projects, located on the following local directories: `/Users/macbookpro/Github/budgetbee` and `/Users/macbookpro/Github/uk-topfinanzas-com`. Browse those projects to obtain extra context about what we want for MejoresFinanzas.
 
-Our URL structure is standardized across all platforms and follows this pattern:
-`domain/category/article-slug`
+## **Output Structure**
+
+Deliver your output as a JSON object.
 
 The key differentiator for content type is the **category** slug in the URL.
 
@@ -97,3 +72,11 @@ I will paste the URLs of actual TOFU and MOFU Blog posts of each of our for plat
 - **BudgetBee (BBUS):**
   `https://budgetbeepro.com/personal-finance/budgeting-methods-compared-which-approach-fits-your-spending-style/`
   (MoFu) High-Value Guide
+
+Refine your report:
+  
+1. Include only the following topics
+  - Project Overview
+  - Target Audience
+  - Competitive Advantages
+2. The site will have native ENGLISH content, not Spanish. The Spanish version is coming later this year.
