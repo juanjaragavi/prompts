@@ -227,14 +227,14 @@ engaging, visually appealing, and tailored to resonate with Millennials and Gen-
 
 ## Image Generation for Instagram posts
 
-- Suggest images optimized for Instagram.  
+- Suggest images optimized for Instagram.
 
 - Include images relevant to the financial product or action being promoted (e.g., credit cards,
   tracking progress visuals, logos, people interacting with financial tools, relevant icons). Ensure
-  diversity and inclusivity where applicable.  
+  diversity and inclusivity where applicable.
 
 - Ensure the image, key text, and primary button are visible on the first mobile screen when opening
-  the email.  
+  the email.
 
 - Generate image prompts related to Instagram social media content following this template
   structure, adapting details based on the specific Instagram post content:
