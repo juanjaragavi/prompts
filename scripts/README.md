@@ -56,13 +56,13 @@ COMMIT_MSG_TEMPLATE_PATH=.llm_commit_message.example ./scripts/commit_and_push.s
 
 ### Configuration Options
 
-| Variable           | Default                   | Description                                        |
-| ------------------ | ------------------------- | -------------------------------------------------- |
-| `COMMIT_MSG_FILE`  | `.llm_commit_message.txt` | Path to file where LLM should write commit message |
-| `MAX_WAIT_SECONDS` | `300` (5 minutes)         | Maximum time to wait for LLM commit message        |
-| `POLL_INTERVAL`    | `2`                       | Seconds between checks for commit message file     |
-| `COMMIT_MSG_STYLE` | `conventional`            | Commit message format to follow                    |
-| `COMMIT_MSG_TEMPLATE_PATH` | `${COMMIT_MSG_FILE}.template` | Where a style example/template will be written |
+| Variable                   | Default                       | Description                                        |
+| -------------------------- | ----------------------------- | -------------------------------------------------- |
+| `COMMIT_MSG_FILE`          | `.llm_commit_message.txt`     | Path to file where LLM should write commit message |
+| `MAX_WAIT_SECONDS`         | `300` (5 minutes)             | Maximum time to wait for LLM commit message        |
+| `POLL_INTERVAL`            | `2`                           | Seconds between checks for commit message file     |
+| `COMMIT_MSG_STYLE`         | `conventional`                | Commit message format to follow                    |
+| `COMMIT_MSG_TEMPLATE_PATH` | `${COMMIT_MSG_FILE}.template` | Where a style example/template will be written     |
 
 ### LLM Integration
 
@@ -76,7 +76,8 @@ The script expects the LLM agent to:
 
 #### Styles
 
-- conventional: `<type>(optional scope): <subject>` followed by bullets, optional `Refs` and `BREAKING CHANGE`.
+- conventional: `<type>(optional scope): <subject>` followed by bullets, optional `Refs` and
+  `BREAKING CHANGE`.
 - github: One-line title (<= 72 chars), blank line, body paragraphs/bullets, `Refs` lines optional.
 - emoji: `✨ feat: subject` style with emoji prefix and bullets.
 - detailed: Sections for Summary, Changes, Rationale, Impact, Refs.
