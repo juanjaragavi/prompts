@@ -1,7 +1,8 @@
-✨ feat: concise subject line in imperative mood
+feat(scope): concise subject in imperative mood
 
-- ✅ Detail 1 of the change
-- 🛠️  Implementation or refactor notes
-- 🧪 Tests or validation notes
+- Bullet 1 describing what changed
+- Bullet 2 with specifics
+- Bullet 3 if needed
 
-Refs: #123
+Refs: #123, ABC-456
+BREAKING CHANGE: Describe any breaking change if applicable
