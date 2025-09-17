@@ -8,6 +8,14 @@ set -euo pipefail  # Exit on error, undefined variables, and pipe failures
 COMMIT_MSG_FILE="${COMMIT_MSG_FILE:-.llm_commit_message.txt}"
 MAX_WAIT_SECONDS="${MAX_WAIT_SECONDS:-300}"  # 5 minutes default timeout
 POLL_INTERVAL="${POLL_INTERVAL:-2}"  # Check every 2 seconds
+# Commit message style: conventional | github | emoji | detailed
+# - conventional: <type>(optional scope): <subject> + bullets
+# - github: One-line title (<=72 chars), blank line, paragraphs/bullets, Refs
+# - emoji: <emoji> <type>: <subject> + bullets
+# - detailed: Sections: Summary, Changes, Rationale, Impact, Refs
+COMMIT_MSG_STYLE="${COMMIT_MSG_STYLE:-conventional}"
+# Optional path to write a template for the LLM to follow (will NOT be used as the commit message automatically)
+COMMIT_MSG_TEMPLATE_PATH="${COMMIT_MSG_TEMPLATE_PATH:-${COMMIT_MSG_FILE}.template}"
 
 # Colors for output (using printf for better portability)
 RED='\033[0;31m'
@@ -51,6 +59,86 @@ handle_error() {
 
 # Set up error handling
 trap handle_error ERR
+# Function to show style-specific commit message guidance
+print_commit_message_guidance() {
+    log_info "Commit message style: ${COMMIT_MSG_STYLE}"
+    log_info "Save the final commit message to: ${COMMIT_MSG_FILE}"
+    log_info "Optional: A template/example will be written to: ${COMMIT_MSG_TEMPLATE_PATH} (for reference)"
+
+    # Create template directory if needed
+    tpl_dir=$(dirname "${COMMIT_MSG_TEMPLATE_PATH}")
+    if [ ! -d "${tpl_dir}" ]; then
+        mkdir -p "${tpl_dir}" 2>/dev/null || true
+    fi
+
+    # Write a style-specific example/template for convenience
+    case "${COMMIT_MSG_STYLE}" in
+        conventional)
+            cat > "${COMMIT_MSG_TEMPLATE_PATH}" <<'EOF'
+feat(scope): concise subject in imperative mood
+
+- Bullet 1 describing what changed
+- Bullet 2 with specifics
+- Bullet 3 if needed
+
+Refs: #123, ABC-456
+BREAKING CHANGE: Describe any breaking change if applicable
+EOF
+            ;;
+        github)
+            cat > "${COMMIT_MSG_TEMPLATE_PATH}" <<'EOF'
+Concise, descriptive title (<= 72 chars, imperative mood)
+
+Explain what changed and why. Include context for reviewers and users.
+
+- Bullet point highlighting a key change
+- Another relevant change
+
+Refs: #123, ABC-456
+Co-authored-by: Name <email@example.com>
+EOF
+            ;;
+        emoji)
+            cat > "${COMMIT_MSG_TEMPLATE_PATH}" <<'EOF'
+✨ feat: concise subject line in imperative mood
+
+- ✅ Detail 1 of the change
+- 🛠️  Implementation or refactor notes
+- 🧪 Tests or validation notes
+
+Refs: #123
+EOF
+            ;;
+        detailed)
+            cat > "${COMMIT_MSG_TEMPLATE_PATH}" <<'EOF'
+Summary
+A clear one-line summary (<= 72 chars, imperative mood)
+
+Changes
+- Bullet 1
+- Bullet 2
+
+Rationale
+Why this change is needed and what problem it solves.
+
+Impact
+User-facing impact, performance, or breaking changes (if any).
+
+Refs
+#123, ABC-456
+EOF
+            ;;
+        *)
+            log_warning "Unknown COMMIT_MSG_STYLE='${COMMIT_MSG_STYLE}', falling back to 'conventional'"
+            COMMIT_MSG_STYLE="conventional"
+            print_commit_message_guidance
+            return
+            ;;
+    esac
+
+    log_info "A ${COMMIT_MSG_STYLE} example has been written to: ${COMMIT_MSG_TEMPLATE_PATH}"
+    log_info "Guide: Use the example as a reference, then save your final message to ${COMMIT_MSG_FILE}"
+}
 
 # Function to check Git prerequisites
 check_git_prerequisites() {
@@ -133,10 +221,14 @@ wait_for_llm_commit_message() {
     echo ""
     log_info "Instructions for LLM Agent:"
     echo "  1. Review the staged changes above"
-    echo "  2. Generate an appropriate commit message"
-    echo "  3. Save the commit message to: $COMMIT_MSG_FILE"
-    echo "  4. The script will automatically continue once the file is detected"
+    echo "  2. Generate a commit message using style: ${COMMIT_MSG_STYLE}"
+    echo "  3. Use the example/template at: ${COMMIT_MSG_TEMPLATE_PATH} (optional)"
+    echo "  4. Save ONLY the final commit message to: $COMMIT_MSG_FILE"
+    echo "  5. The script will automatically continue once the file is detected"
     echo ""
+
+    # Print style-specific guidance and write a template/example file for convenience
+    print_commit_message_guidance
     
     # Wait for commit message file
     local elapsed=0

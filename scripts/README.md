@@ -36,6 +36,12 @@ MAX_WAIT_SECONDS=600 ./scripts/commit_and_push.sh
 
 # Custom polling interval (in seconds)
 POLL_INTERVAL=5 ./scripts/commit_and_push.sh
+
+# Use a different commit message style (conventional | github | emoji | detailed)
+COMMIT_MSG_STYLE=emoji ./scripts/commit_and_push.sh
+
+# Write the style template/example to a custom path for reference
+COMMIT_MSG_TEMPLATE_PATH=.llm_commit_message.example ./scripts/commit_and_push.sh
 ```
 
 ### Workflow
@@ -55,15 +61,25 @@ POLL_INTERVAL=5 ./scripts/commit_and_push.sh
 | `COMMIT_MSG_FILE`  | `.llm_commit_message.txt` | Path to file where LLM should write commit message |
 | `MAX_WAIT_SECONDS` | `300` (5 minutes)         | Maximum time to wait for LLM commit message        |
 | `POLL_INTERVAL`    | `2`                       | Seconds between checks for commit message file     |
+| `COMMIT_MSG_STYLE` | `conventional`            | Commit message format to follow                    |
+| `COMMIT_MSG_TEMPLATE_PATH` | `${COMMIT_MSG_FILE}.template` | Where a style example/template will be written |
 
 ### LLM Integration
 
 The script expects the LLM agent to:
 
 1. Review the staged changes displayed by the script
-2. Generate an appropriate commit message
-3. Save the commit message to the configured file (default: `.llm_commit_message.txt`)
-4. The script will automatically detect the file and continue
+2. Generate an appropriate commit message using the configured style (`COMMIT_MSG_STYLE`)
+3. Optionally consult the style example/template written to `COMMIT_MSG_TEMPLATE_PATH`
+4. Save ONLY the final commit message to the configured file (default: `.llm_commit_message.txt`)
+5. The script will automatically detect the file and continue
+
+#### Styles
+
+- conventional: `<type>(optional scope): <subject>` followed by bullets, optional `Refs` and `BREAKING CHANGE`.
+- github: One-line title (<= 72 chars), blank line, body paragraphs/bullets, `Refs` lines optional.
+- emoji: `✨ feat: subject` style with emoji prefix and bullets.
+- detailed: Sections for Summary, Changes, Rationale, Impact, Refs.
 
 ### Exit Codes
 
