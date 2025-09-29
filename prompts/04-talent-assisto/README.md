@@ -7,11 +7,14 @@
 
 ## Overview
 
-TalentAssisto is a featured AI-powered talent management and recruitment SaaS platform. These prompts power the intelligent assistant that helps with talent acquisition, candidate screening, and HR automation.
+TalentAssisto is a featured AI-powered talent management and recruitment SaaS platform. These
+prompts power the intelligent assistant that helps with talent acquisition, candidate screening, and
+HR automation.
 
 ## Prompts
 
 ### 🌟 **TalentAssisto SaaS** (Main/Featured)
+
 - **File:** `talent-assisto-saas.md` (17KB)
 - **Status:** Production system prompt
 - **Featured:** ✅ Listed in main README.md
@@ -24,11 +27,13 @@ TalentAssisto is a featured AI-powered talent management and recruitment SaaS pl
   - HR workflow automation
 
 ### **TalentAssisto Optimized**
+
 - **File:** `talent-assisto-optimized.md` (1.6KB)
 - **Purpose:** Lightweight/optimized version for faster responses
 - **Use Case:** High-volume, quick interactions
 
 ### **TalentAssisto Spanish**
+
 - **File:** `talent-assisto-SPANISH.md` (1.9KB)
 - **Language:** Spanish (es)
 - **Market:** Latin America and Spain
@@ -37,18 +42,21 @@ TalentAssisto is a featured AI-powered talent management and recruitment SaaS pl
 ## Features
 
 ### Recruitment Automation
+
 - Candidate sourcing and screening
 - Resume parsing and keyword extraction
 - Automated interview scheduling
 - Candidate communication templates
 
 ### Talent Management
+
 - Skill assessment and matching
 - Cultural fit evaluation
 - Compensation benchmarking
 - Onboarding workflows
 
 ### HR Analytics
+
 - Hiring pipeline metrics
 - Time-to-hire tracking
 - Source effectiveness analysis
@@ -64,12 +72,14 @@ TalentAssisto is a featured AI-powered talent management and recruitment SaaS pl
 ## Integration Points
 
 ### APIs & Services
+
 - ATS (Applicant Tracking Systems) integration
 - LinkedIn API for candidate sourcing
 - Calendar APIs for scheduling
 - Email integration for communications
 
 ### Related JSON
+
 - `talent-assisto-system-prompt.json`
 - `talentasisto_system_message.json`
 
@@ -94,7 +104,8 @@ cat talent-assisto-SPANISH.md
 
 ## Deployment
 
-This is a production-ready SaaS prompt featured in the main repository README. It represents a complete talent management solution.
+This is a production-ready SaaS prompt featured in the main repository README. It represents a
+complete talent management solution.
 
 ---
 

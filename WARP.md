@@ -229,7 +229,8 @@ cat json/[file].json | python -m json.tool
 ### Most Used Prompts
 
 - TalentAssisto Builder: `prompts/04-talent-assisto/talent-assisto-saas.md` ⭐
-- EmailGenius MCP: `prompts/01-email-marketing/system-prompt-emailgenius-broadcasts-generator-with-tools-and-mcp.md`
+- EmailGenius MCP:
+  `prompts/01-email-marketing/system-prompt-emailgenius-broadcasts-generator-with-tools-and-mcp.md`
 - BudgetBee Social: `prompts/03-social-media/budgetbee-social-media-manager-tool-usage.md`
 - TopFinanzas Coder: `prompts/02-topfinanzas-content/TF_FLOWS_CC_Coder.md`
 - LinkedIn Poster: `prompts/03-social-media/jj-linkedin-poster.md`
@@ -248,7 +249,7 @@ cat json/[file].json | python -m json.tool
 
 ## Development Workflow
 
-1. **Adding New Prompts**: 
+1. **Adding New Prompts**:
    - Identify the appropriate category (01-12)
    - Create prompt in `prompts/[category]/` following naming conventions
    - Update category README.md if needed
@@ -294,7 +295,7 @@ find . -type f -size +1M -exec ls -lh {} \;
 echo "documents/credenciales.txt" >> .gitignore
 
 # Verify prompt organization
-for dir in prompts/*/; do 
+for dir in prompts/*/; do
   echo "$(basename $dir): $(ls -1 $dir/*.md 2>/dev/null | wc -l | tr -d ' ') prompts"
 done
 

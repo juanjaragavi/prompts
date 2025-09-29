@@ -6,7 +6,9 @@
 
 ## Overview
 
-This category contains AI system prompts designed for email marketing automation, broadcast generation, and email campaign management. These prompts integrate primarily with ActiveCampaign and SendGrid APIs to automate email workflows.
+This category contains AI system prompts designed for email marketing automation, broadcast
+generation, and email campaign management. These prompts integrate primarily with ActiveCampaign and
+SendGrid APIs to automate email workflows.
 
 ## Key Use Cases
 
@@ -19,16 +21,22 @@ This category contains AI system prompts designed for email marketing automation
 ## Featured Prompts
 
 ### ⭐ Top Priority
-- **`system-prompt-emailgenius-broadcasts-generator-with-tools-and-mcp.md`** (22KB) - Most comprehensive, includes MCP tools integration
+
+- **`system-prompt-emailgenius-broadcasts-generator-with-tools-and-mcp.md`** (22KB) - Most
+  comprehensive, includes MCP tools integration
 - **`activecampaign-email-builder.md`** (10KB) - ActiveCampaign email builder with Gutenberg support
 - **`TF_ActiveCampaign_Email_Generator.md`** - TopFinanzas-specific email generator
 
 ### EmailGenius Suite (Versioned)
+
 1. **v1** - `v1-system-prompt-emailgenius-broadcasts-generator.md` (17KB) - Initial version
-2. **v2** - `v2-system-prompt-emailgenius-broadcasts-generator-with-tools.md` (18KB) - Added tool integration
-3. **v3** - `v3-system-prompt-emailgenius-broadcasts-generator-integrated.md` (18KB) - Fully integrated
+2. **v2** - `v2-system-prompt-emailgenius-broadcasts-generator-with-tools.md` (18KB) - Added tool
+   integration
+3. **v3** - `v3-system-prompt-emailgenius-broadcasts-generator-integrated.md` (18KB) - Fully
+   integrated
 
 ### Specialized Variants
+
 - **`email-genius-activecampaign-FINAL-REMOTE.md`** (6.7KB) - Production remote version
 - **`email-genius-activecampaign-agentic.md`** - Agentic AI approach
 - **`email-genius-activecampaign-minimal.md`** - Minimal/lightweight version
@@ -36,6 +44,7 @@ This category contains AI system prompts designed for email marketing automation
 - **`email-genius-activecampaign.md`** - Standard version
 
 ### Other Tools
+
 - **`parcero-emailer.md`** - Parcero email automation system
 - **`system-prompt-emailgenius-broadcasts-generator.md`** - Base version
 - **`system-prompt-emailgenius-broadcasts-generator-with-tools.md`** - With tools integration
@@ -43,23 +52,28 @@ This category contains AI system prompts designed for email marketing automation
 ## Related Resources
 
 ### Shell Scripts (in `/documents/`)
+
 - `emailgenius-broadcasts-generator.sh` - Main automation script
 - `email-broadcast-image-generation-script.sh` - Image generation for emails
 - `email-broadcast-image-generation-script-minimized.sh` - Optimized version
 
 ### JSON Payloads (in `/json/`)
+
 - `activecampaign-message-example-json-payload.json` - Example API payload
 
 ## Integration Details
 
 ### ActiveCampaign API
+
 All prompts in this category support ActiveCampaign API integration for:
+
 - Campaign creation and management
 - Contact list management
 - Automation triggers
 - Email template deployment
 
 ### Tools & Technologies
+
 - ActiveCampaign API v3
 - SendGrid API
 - MCP (Model Context Protocol) integration
@@ -97,4 +111,5 @@ cat email-genius-activecampaign.md
 
 **Last Updated:** September 29, 2025  
 **Maintained by:** Juan Jaramillo  
-**Related Categories:** [05-seo-content](../05-seo-content/), [02-topfinanzas-content](../02-topfinanzas-content/)
+**Related Categories:** [05-seo-content](../05-seo-content/),
+[02-topfinanzas-content](../02-topfinanzas-content/)
