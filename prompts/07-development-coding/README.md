@@ -17,7 +17,6 @@
 - `system-prompt-maker-es.md` (2.5KB)
 
 ## Use Cases
-
 - Code generation & conversion
 - GitHub repository analysis
 - SendGrid API integration
@@ -25,5 +24,4 @@
 - Technical documentation
 
 ---
-
 **Last Updated:** September 29, 2025

@@ -11,12 +11,10 @@
 - `startup-gpt.md` (2.5KB)
 
 ## Use Cases
-
 - Economic proposal generation
 - Business proposal creation
 - Startup business planning
 - Investment documents
 
 ---
-
 **Last Updated:** September 29, 2025

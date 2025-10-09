@@ -11,12 +11,10 @@
 - `course-designer.md` (7.2KB)
 
 ## Use Cases
-
 - AI productivity course creation
 - Generative AI educational content
 - Course curriculum design
 - Learning module development
 
 ---
-
 **Last Updated:** September 29, 2025
