@@ -13,7 +13,9 @@
 
 ## Purpose
 
-These are foundational template files used as starting points for creating new prompts. The 00-template.md file serves as the standard template for all new prompt files.
+These are foundational template files used as starting points for creating new prompts. The
+00-template.md file serves as the standard template for all new prompt files.
 
 ---
+
 **Last Updated:** September 29, 2025
