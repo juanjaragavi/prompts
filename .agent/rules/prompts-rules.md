@@ -1,13 +1,12 @@
 ---
-description: Rules and guidelines for the prompts repository - A collection of AI system prompts and projects
-globs: - "prompts/**/*.md"   - "documents/**/*.md"   - "projects/**/*.py"   - "json/**/*.json"
-alwaysApply: true
+trigger: always_on
 ---
 
 # Prompts Repository Rules
 
 ## Overview
-This repository (https://github.com/juanjaragavi/prompts) contains AI system prompts, documentation, and related projects for various AI assistants and tools, primarily focused on content generation, email marketing, and productivity tools.
+
+This repository (<https://github.com/juanjaragavi/prompts>) contains AI system prompts, documentation, and related projects for various AI assistants and tools, primarily focused on content generation, email marketing, and productivity tools.
 
 ## Repository Structure Guidelines
 
@@ -38,7 +37,7 @@ This repository (https://github.com/juanjaragavi/prompts) contains AI system pro
   - Ethical guidelines (when applicable)
   - Clear instructions and examples
 
-- **Formatting**: 
+- **Formatting**:
   - Use Markdown headers for main sections
   - Use bullet points for lists of capabilities or requirements
   - Include code blocks with proper language tags when showing examples
@@ -51,13 +50,13 @@ This repository (https://github.com/juanjaragavi/prompts) contains AI system pro
 
 ## Git Workflow
 
-- **Commit Messages**: 
+- **Commit Messages**:
   - Use clear, descriptive commit messages
   - Start with action verb (Add, Update, Fix, Remove)
   - Mention the specific prompt or file being modified
   - Example: "Add system prompt for email broadcasts generator with tools"
 
-- **Branching**: 
+- **Branching**:
   - Use `main` as the primary branch
   - Create feature branches for major additions
   - Use descriptive branch names
@@ -95,7 +94,7 @@ This repository (https://github.com/juanjaragavi/prompts) contains AI system pro
 
 ## Quality Standards
 
-- **Testing**: 
+- **Testing**:
   - Test prompts before committing
   - Include example inputs and expected outputs
   - Document edge cases and limitations
@@ -117,3 +116,4 @@ This repository (https://github.com/juanjaragavi/prompts) contains AI system pro
   - Self-review changes before committing
   - Ensure no breaking changes to existing prompts
   - Test compatibility with intended AI systems
+  
