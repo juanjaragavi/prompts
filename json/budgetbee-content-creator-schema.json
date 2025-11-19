@@ -37,7 +37,11 @@
                 "type": "string"
               },
               "description": "A list of tags relevant to the blog post content.",
-              "example": ["personal finance", "financial literacy", "Money Management Tips"]
+              "example": [
+                "personal finance",
+                "financial literacy",
+                "Money Management Tips"
+              ]
             },
             "categories": {
               "type": "array",
@@ -51,7 +55,12 @@
           "required": ["excerpt", "tags", "categories"]
         }
       },
-      "required": ["blogPostTitle", "blogPostContent", "imageGenerationPrompt", "metadata"]
+      "required": [
+        "blogPostTitle",
+        "blogPostContent",
+        "imageGenerationPrompt",
+        "metadata"
+      ]
     }
   },
   "required": ["output"]

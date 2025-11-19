@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "lint": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "^3.3.3"
