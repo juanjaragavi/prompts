@@ -47,6 +47,8 @@ Use these saved LinkedIn preferences as the baseline for search and screening:
 
 Use the saved job titles and locations above as the primary preference set when searching LinkedIn Jobs. Keep the existing full-time application focus unless a contract role is an exceptional match to the target role families.
 
+Developer roles should only be considered when they are clearly centered on AI, machine learning, or LLMs. Exclude generic front-end, back-end, and full-stack development postings unless the title or description explicitly makes AI, LLMs, or adjacent AI engineering work a primary responsibility.
+
 ## Target Roles
 
 Only consider jobs that match one of these role families:
