@@ -11,13 +11,11 @@
 ### Phase 1: Context Ingestion & Initialization
 
 1. **EXTRACT data** from `attached_resume.pdf`
-
-    - _Action:_ Parse contact information, employment history, skills, and education.
-    - _State:_ Map data to temporary, volatile session memory for automated form-filling.
+   - _Action:_ Parse contact information, employment history, skills, and education.
+   - _State:_ Map data to temporary, volatile session memory for automated form-filling.
 
 2. **WAIT for element** `css=.jobs-search-results-list` (Timeout: 5s)
-
-    - _Purpose:_ Verify that the job opportunities list has fully rendered on the current open tab.
+   - _Purpose:_ Verify that the job opportunities list has fully rendered on the current open tab.
 
 3. **EXTRACT data** from visible job card elements (`css=.job-card-container`)
 
@@ -44,9 +42,8 @@
 1. **CLICK element** `css=button.jobs-apply-button[data-job-id]` (Launches the LinkedIn application modal).
 2. **WAIT for element** `css=.artdeco-modal` (Timeout: 5s).
 3. **WHILE** `css=button[aria-label="Next"]` or `css=button[aria-label="Review"]` is visible:
-
-    - **TYPE text** / **SELECT options** in form fields using the mapped résumé data.
-    - **CLICK element** `css=button[aria-label*="Next"]`.
+   - **TYPE text** / **SELECT options** in form fields using the mapped résumé data.
+   - **CLICK element** `css=button[aria-label*="Next"]`.
 
 4. **CLICK element** `css=button[aria-label="Submit application"]`.
 5. **WAIT for element** `css=.artdeco-toast-item--success` to confirm successful submission.
@@ -57,8 +54,7 @@
 1. **CLICK element** `css=button.jobs-apply-button` (Triggers external site redirect).
 2. **WAIT for tab shift / URL change**.
 3. **Pause Execution Warning:** External system navigation detected.
-
-    - _Constraint Check:_ Because external applications may require account creation or proprietary assessments, automation will attempt basic form-fill using résumé data. If blocked by complex multi-page funnels, control will temporarily yield to the user.
+   - _Constraint Check:_ Because external applications may require account creation or proprietary assessments, automation will attempt basic form-fill using résumé data. If blocked by complex multi-page funnels, control will temporarily yield to the user.
 
 4. `Increment applied_count by 1` upon user confirmation or successful submission.
 

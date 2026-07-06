@@ -51,25 +51,25 @@ Localizada en MacBook Pro de Juan, contiene documentos, imagenes, plantillas de 
 Pestañas Actualmente Abiertas en Chrome
 
 Flaticon (flaticon.es)
- Plataforma de iconos vectoriales y stickers PNG - sesión iniciada vía cuenta Google
+Plataforma de iconos vectoriales y stickers PNG - sesión iniciada vía cuenta Google
 
 Facebook - Wespgolf Academy (facebook.com)
- Página de perfil empresarial/coaching de Wilson Saavedra para su academia de golf
+Página de perfil empresarial/coaching de Wilson Saavedra para su academia de golf
 
 Super Patch (superpatch.com)
- Sitio de comercio electrónico/productos de bienestar (versión en español)
+Sitio de comercio electrónico/productos de bienestar (versión en español)
 
 Bandeja de Entrada Gmail (mail.google.com)
- Cliente de correo electrónico - 6 mensajes sin leer en <juanamillo@gmail.com>
+Cliente de correo electrónico - 6 mensajes sin leer en <juanamillo@gmail.com>
 
 ElevenLabs Home (elevenlabs.io)
- Panel de control de plataforma de síntesis de voz IA y texto a voz
+Panel de control de plataforma de síntesis de voz IA y texto a voz
 
 Google Docs - Wespgolf Academy (docs.google.com)
- Documento colaborativo relacionado con el negocio de coaching de golf de Wilson Saavedra
+Documento colaborativo relacionado con el negocio de coaching de golf de Wilson Saavedra
 
 Google Drive - Wespgolf Academy (drive.google.com)
- Carpeta de almacenamiento en la nube para materiales de la academia de golf de Wilson Saavedra
+Carpeta de almacenamiento en la nube para materiales de la academia de golf de Wilson Saavedra
 
 </assets>
 
