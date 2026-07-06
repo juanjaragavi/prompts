@@ -554,7 +554,7 @@ DISABLE_RATE_LIMITING=true
 4. **`GCP_PRIVATE_KEY` formatting** — When pasting the private key into `.env.local`, the multi-line PEM key must have literal `\n` characters (not actual newlines). Example:
 
    ```bash
-   GCP_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nMIIEvQ...base64...\n-----END PRIVATE KEY-----\n"
+   GCP_PRIVATE_KEY="<SERVICE_ACCOUNT_PRIVATE_KEY_WITH_LITERAL_NEWLINES>"
    ```
 
 5. **Supabase RLS** — The SQL in Phase 6.4 configures Row Level Security. The `service_role` key bypasses RLS, which is how the server-side Next.js code accesses data. The `anon` key respects RLS for any future client-side operations.

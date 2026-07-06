@@ -1,1 +1,2 @@
-Sebas, este es el Passphrase de esta llave: T0pN3tw0rk5@
+Sebas, esta llave ya no debe compartirse por texto plano.
+PASSPHRASE=<SET_VIA_SECURE_CHANNEL>

@@ -1,11 +1,16 @@
 #!/bin/bash
 set -e -E
 
-GEMINI_API_KEY="AIzaSyDQqg59SZxTMEZ9tabm4OPO72PfNJ14zBM"
+GEMINI_API_KEY="${GEMINI_API_KEY:-}"
 MODEL_ID="models/imagen-3.0-generate-002"
 IMAGE_PATH="/var/lib/n8n/activecampaign-broadcasts/images/generated"
 IMAGE_FILE="photorrealistic-stock-photograpy.webp"
 DOWNLOAD_URL="https://storage.googleapis.com/media-topfinanzas-com/images/generated/activecampaign-broadcasts"
+
+if [ -z "$GEMINI_API_KEY" ]; then
+    echo "ERROR: GEMINI_API_KEY is not set"
+    exit 1
+fi
 
 cd "$IMAGE_PATH"
 
@@ -22,7 +27,7 @@ echo "$API_RESPONSE" | jq -r '.predictions[]?.bytesBase64Encoded' | while IFS= r
     if [ "$b64_data" = "null" ] || [ -z "$b64_data" ]; then
         echo
         echo "----------------------------------------"
-        echo "WARNING: Skipping image $image_count"
+        echo "WARNING: Skipping image"
         echo "Reason: Missing or null Base64 data."
         echo "----------------------------------------"
         echo
@@ -44,8 +49,8 @@ echo "$API_RESPONSE" | jq -r '.predictions[]?.bytesBase64Encoded' | while IFS= r
         if magick "${IMAGE_PATH}/${IMAGE_FILE}" -quality 80 "${IMAGE_PATH}/${COMPRESSED_IMAGE_FILE}"; then
             echo "Compression successful."
             # Optional: Get sizes for comparison
-            original_size=$(stat -f%z "${IMAGE_PATH}/${IMAGE_FILE}")
-            compressed_size=$(stat -f%z "${IMAGE_PATH}/${COMPRESSED_IMAGE_FILE}")
+            original_size=$(wc -c < "${IMAGE_PATH}/${IMAGE_FILE}" | tr -d ' ')
+            compressed_size=$(wc -c < "${IMAGE_PATH}/${COMPRESSED_IMAGE_FILE}" | tr -d ' ')
             echo "Original size: $original_size bytes. Compressed size: $compressed_size bytes."
 
             # Replace original with compressed file

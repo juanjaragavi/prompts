@@ -1,8 +1,13 @@
 #!/bin/bash
 set -e -E
 
-GEMINI_API_KEY="AIzaSyDQqg59SZxTMEZ9tabm4OPO72PfNJ14zBM"
+GEMINI_API_KEY="${GEMINI_API_KEY:-}"
 MODEL_ID="models/imagen-3.0-generate-002"
+
+if [ -z "$GEMINI_API_KEY" ]; then
+    echo "ERROR: GEMINI_API_KEY is not set"
+    exit 1
+fi
 
 cat <<EOF >request.json
 {
@@ -14,7 +19,7 @@ cat <<EOF >request.json
     "parameters": {
         "sampleCount": 1,
         "personGeneration": "ALLOW_ADULT",
-        "aspectRatio": "16:9",
+        "aspectRatio": "16:9"
     }
 }
 EOF
@@ -47,7 +52,7 @@ echo "$API_RESPONSE" | jq -r '.predictions[]?.bytesBase64Encoded' | while IFS= r
         echo "----------------------------------------"
         echo "Saved to local path: generated_image.webp"
 
-        sudo gcloud storage cp generated_image.webp gs://media-topfinanzas-com/images/generated/activecampaign-broadcasts
+        gcloud storage cp generated_image.webp gs://media-topfinanzas-com/images/generated/activecampaign-broadcasts
 
         echo "Uploaded to Google Cloud Storage:"
         echo "https://storage.googleapis.com/media-topfinanzas-com/images/generated/activecampaign-broadcasts/generated_image.webp"
@@ -58,7 +63,7 @@ echo "$API_RESPONSE" | jq -r '.predictions[]?.bytesBase64Encoded' | while IFS= r
         echo "Downloading the image 'generated_image.webp' from Google Cloud Storage..."
         echo "Destination: generated_image.webp"
 
-        sudo curl -O "https://storage.googleapis.com/media-topfinanzas-com/images/generated/activecampaign-broadcasts/generated_image.webp"
+        curl -O "https://storage.googleapis.com/media-topfinanzas-com/images/generated/activecampaign-broadcasts/generated_image.webp"
         echo "Download complete."
         echo "----------------------------------------"
         echo

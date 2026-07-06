@@ -164,10 +164,10 @@ Estas entradas de blog serán modificadas para ser el contenido de la sección d
     A partir de ahora, voy a empezar a pasarte archivos en formato `markdown` con el formato base, pero con la `metadata` y los títulos modificados con respecto al archivo `markdown` que te acabo de pasar, más arriba.
 
 2. Voy a desarrollar una parte del contenido y tu labor será, con base en la información que tienes
-   de Sebas y de su modelo de negocio y servicios, reemplazar todos los textos que están repetidos o
-   que no han sido modificados, es decir los que aún pertenecen a la plantilla, incluyendo los
-   títulos y los textos resaltados, conectando su contenido con los títulos de cada sección y
-   conservando el concepto y los servicios de Sebas.
+de Sebas y de su modelo de negocio y servicios, reemplazar todos los textos que están repetidos o
+que no han sido modificados, es decir los que aún pertenecen a la plantilla, incluyendo los
+títulos y los textos resaltados, conectando su contenido con los títulos de cada sección y
+conservando el concepto y los servicios de Sebas.
 
 ```markdown
 

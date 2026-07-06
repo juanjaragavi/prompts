@@ -1,11 +1,16 @@
 #!/bin/bash
 set -e -E
 
-GEMINI_API_KEY="AIzaSyDQqg59SZxTMEZ9tabm4OPO72PfNJ14zBM"
+GEMINI_API_KEY="${GEMINI_API_KEY:-}"
 MODEL_ID="models/imagen-3.0-generate-002"
 IMAGE_PATH="/var/lib/n8n/activecampaign-broadcasts/images/generated"
 IMAGE_FILE="photorrealistic-stock-photograpy.webp"
 DOWNLOAD_URL="https://static.topfinanzas.com"
+
+if [ -z "$GEMINI_API_KEY" ]; then
+    echo "ERROR: GEMINI_API_KEY is not set"
+    exit 1
+fi
 
 cd "$IMAGE_PATH"
 
