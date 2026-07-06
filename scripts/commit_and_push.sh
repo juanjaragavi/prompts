@@ -16,6 +16,8 @@ POLL_INTERVAL="${POLL_INTERVAL:-2}"  # Check every 2 seconds
 COMMIT_MSG_STYLE="${COMMIT_MSG_STYLE:-conventional}"
 # Optional path to write a template for the LLM to follow (will NOT be used as the commit message automatically)
 COMMIT_MSG_TEMPLATE_PATH="${COMMIT_MSG_TEMPLATE_PATH:-${COMMIT_MSG_FILE}.template}"
+# Optional legacy/auxiliary commit message file to clean up after successful push
+AUX_COMMIT_MSG_FILE="${AUX_COMMIT_MSG_FILE:-/Users/macbookpro/GitHub/prompts/commit_message.txt}"
 
 # Colors for output (using printf for better portability)
 RED='\033[0;31m'
@@ -46,6 +48,11 @@ cleanup() {
     if [ -f "$COMMIT_MSG_FILE" ]; then
         log_info "Cleaning up commit message file..."
         rm -f "$COMMIT_MSG_FILE"
+    fi
+
+    if [ -f "$AUX_COMMIT_MSG_FILE" ]; then
+        log_info "Cleaning up auxiliary commit message file..."
+        rm -f "$AUX_COMMIT_MSG_FILE"
     fi
 }
 
