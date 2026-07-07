@@ -12,13 +12,13 @@ This is a collection of AI system prompts, documentation, and utility projects p
 - Personal productivity and course creation
 - JSON payloads and API integration examples
 
-Repository URL: https://github.com/juanjaragavi/prompts
+Repository URL: <https://github.com/juanjaragavi/prompts>
 
 ## Repository Structure
 
 ### Key Directories
 
-- `prompts/` - **87 AI system prompts organized into 12 categories** 📂
+- `prompts/` - **92 AI system prompts organized into 13 categories** 📂
   - `01-email-marketing/` (14 prompts) - Email automation, ActiveCampaign
   - `02-topfinanzas-content/` (8 prompts) - Financial content creation
   - `03-social-media/` (9 prompts) - LinkedIn, social media automation
@@ -30,10 +30,12 @@ Repository URL: https://github.com/juanjaragavi/prompts
   - `09-business-proposals/` (3 prompts) - Business documents
   - `10-utilities-assistants/` (22 prompts) - Personal assistants
   - `11-landing-pages/` (2 prompts) - Marketing pages
-  - `12-templates-system/` (4 files) - Base templates
-  - Each category has its own README.md for documentation
-- `documents/` - Documentation, scripts, and content files (44 files)
-- `json/` - JSON payloads, schemas, and API configurations (12 files)
+  - `12-templates-system/` (4 prompts) - Base templates
+  - `13-job-seeking-prompts/` (4 prompts) - Resume, LinkedIn, job applications
+  - `archive/` (1 prompt) - Archived prompts
+  - Each category has its own README.md for documentation (except 13-job-seeking-prompts and archive)
+- `documents/` - Documentation, scripts, and content files (47 files)
+- `json/` - JSON payloads, schemas, and API configurations (13 files)
 - `projects/` - Utility projects (jsonl-maker, snake game)
 - `notes/` - Personal notes and walkthroughs
 - `scripts/` - Automation scripts (commit_and_push.sh)
