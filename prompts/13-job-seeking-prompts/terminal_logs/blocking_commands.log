@@ -1,260 +1,3110 @@
---- Executing blocking command at Wed Jul  8 18:06:50 2026 ---
-> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && ls -la /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts
+--- Executing blocking command at Wed Jul  8 18:19:20 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && ls -la /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts
 --- Output ---
-total 744
-drwxr-xr-x@ 13 macbookpro  staff     416 Jul  8 18:06 .
+total 816
+drwxr-xr-x@ 19 macbookpro  staff     608 Jul  8 18:16 .
 drwxr-xr-x@ 17 macbookpro  staff     544 Jul  6 20:43 ..
+-rw-r--r--@  1 macbookpro  staff      82 Jul  8 18:16 .note_register
 -rw-r--r--@  1 macbookpro  staff    2165 Jul  3 15:19 ai-recruiter-outreach-networking.md
+-rw-r--r--@  1 macbookpro  staff   14431 Jul  8 18:10 extracted_bogota_jobs.md
 -rw-r--r--@  1 macbookpro  staff    8589 Jul  8 17:37 job-search-strategy-three-target-lanes.md
 -rw-r--r--@  1 macbookpro  staff    4240 Jul  8 16:46 juan-jaramillo-advanced-cover-letter.md
 -rw-r--r--@  1 macbookpro  staff    5871 Jul  6 17:42 juan-jaramillo-resume.md
 -rw-r--r--@  1 macbookpro  staff  198199 Jul  6 17:44 juan-jaramillo-resume.pdf
 -rw-r--r--@  1 macbookpro  staff    6843 Jul  3 16:23 linkedin-ai-teaching-contract-projects-assistant.md
 -rw-r--r--@  1 macbookpro  staff    6189 Jul  3 15:37 linkedin-job-application-assistant.md
+-rw-r--r--@  1 macbookpro  staff     822 Jul  8 18:16 linkedin_auth_findings.md
+-rw-r--r--@  1 macbookpro  staff      36 Jul  8 18:16 linkedin_auth_status.txt
+-rw-r--r--@  1 macbookpro  staff    1152 Jul  8 18:09 linkedin_search_findings.md
 -rw-r--r--@  1 macbookpro  staff    4795 Jul  7 11:03 loom-video-script.md
 -rw-r--r--@  1 macbookpro  staff  117439 Jul  7 12:22 loom-video-script.pdf
 -rw-r--r--@  1 macbookpro  staff    2588 Jul  6 20:51 resume.css
-drwxr-xr-x@  2 macbookpro  staff      64 Jul  8 18:06 terminal_logs
+-rw-r--r--@  1 macbookpro  staff     199 Jul  8 18:16 shared_files.md
+drwxr-xr-x@  2 macbookpro  staff      64 Jul  8 18:18 terminal_logs
 
 
 
---- Executing blocking command at Wed Jul  8 18:06:53 2026 ---
-> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin-job-application-assistant.md
+--- Executing blocking command at Wed Jul  8 18:19:24 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 -c "
+libs = ['reportlab', 'weasyprint', 'pdfkit', 'playwright', 'fpdf', 'fpdf2', 'xhtml2pdf']
+for lib in libs:
+    try:
+        __import__(lib)
+        print(lib, 'is installed')
+    except ImportError:
+        print(lib, 'is NOT installed')
+"
 --- Output ---
-# LinkedIn Job Application Assistant
-
-## Goal
-
-Use a browser to research Juan Jaramillo’s background, find relevant LinkedIn jobs, and submit up to 10 applications that fit the target profile.
-
-## Sources to Review First
-
-Open and review these sources before applying anywhere:
-
-- LinkedIn profile: <https://www.linkedin.com/in/juan-jaramillo-ai/>
-- Website: <https://juanjaramillo.tech>
-- Resume: <https://files.catbox.moe/pswa9k.pdf>
-- Current resume is attached in PDF format.
-
-Use only facts from these sources when answering application questions or describing experience.
-
-Assume the LinkedIn session is already authenticated. If a login wall, CAPTCHA, or verification challenge appears, pause and report the blocker instead of trying to bypass it.
-
-## LinkedIn Job Preferences
-
-Use these saved LinkedIn preferences as the baseline for search and screening:
-
-- Job titles:
-  - Artificial Intelligence Engineer
-  - Prompt Engineer
-  - Machine Learning Engineer
-
-- Location types:
-  - On-site
-  - Hybrid
-  - Remote
-
-- Locations:
-  - Bogota, D.C., Capital District, Colombia
-  - Medellín, Antioquia, Colombia
-  - Miguel Hidalgo, Mexico City, Mexico
-  - Greater Buenos Aires
-  - Buenos Aires Province, Argentina
-
-- Employment types:
-  - Full-time
-  - Contract
-
-- Start date: Immediately, I am actively applying
-- Visibility: All LinkedIn members
-
-Use the saved job titles and locations above as the primary preference set when searching LinkedIn Jobs. Keep the existing full-time application focus unless a contract role is an exceptional match to the target role families.
-
-Developer roles should only be considered when they are clearly centered on AI, machine learning, or LLMs. Exclude generic front-end, back-end, and full-stack development postings unless the title or description explicitly makes AI, LLMs, or adjacent AI engineering work a primary responsibility.
-
-## Target Roles
-
-Only consider jobs that match one of these role families:
-
-- AI Engineer
-- AI Developer
-- Prompt Engineer
-- Machine Learning Engineer
-
-## Exclusions
-
-Do not apply to jobs that are primarily about:
-
-- Data analysis
-- Data science
-- Data engineering
-- Analytics
-- Reporting
-- Business intelligence
-- Dashboarding
-- Any other data-related role
-
-Do not exclude AI or ML roles just because they mention datasets, pipelines, evaluation, experimentation, or model training as part of the job. Exclude only roles whose primary function is data analysis or data engineering.
-
-## Job Filters
-
-In LinkedIn Jobs, search for full-time roles and apply these filters whenever possible:
-
-- Job type: Full-time
-- Work mode: Remote or Hybrid
-- Geography: Only locations that are clearly within Juan’s eligible regions
-- Compensation: Prefer roles with a visible monthly salary of about $3,500 to $4,500 USD
-
-If Juan’s eligible regions are not stated explicitly in the source materials, use his LinkedIn profile location and only consider roles that are either remote or clearly in that same region.
-
-If salary is shown annually, treat $42,000 to $54,000 USD per year as the equivalent range. If salary is shown in another currency, keep the role only when the converted monthly amount is reasonably close to $3,500 to $4,500 USD and the match is otherwise strong.
-
-If salary is not shown, keep the job only when the title and responsibilities strongly match the target role families and the company looks credible.
-
-## Application Rules
-
-1. Prioritize Easy Apply listings.
-2. Apply only to jobs that match the Target Roles and pass the Exclusions criteria.
-3. Use the resume at <https://files.catbox.moe/pswa9k.pdf> whenever a resume upload is requested.
-4. Answer custom questions using only verified information from the profile, website, and resume.
-5. Do not invent skills, employers, credentials, or locations.
-6. If a required answer cannot be supported by the sources, skip that job.
-7. Avoid duplicate postings by tracking the job title, company name, and posting link before applying.
-8. Verify that each submission succeeds before counting it toward the total.
-9. Stop after 10 successful applications, or sooner if suitable jobs are exhausted.
-10. If an optional question cannot be answered confidently, leave it blank when allowed and continue.
-11. For mandatory questions that are not supported by the sources, skip the job unless the answer can be safely inferred without guessing.
-
-## Browser Workflow
-
-1. Open the LinkedIn profile and website.
-2. Extract the key facts needed for applications:
-   - current role title and responsibilities
-   - core technical skills related to AI, ML, and prompt engineering
-   - relevant frameworks, libraries, and platforms
-   - consulting services and offerings
-   - experience highlights that help answer application questions
-3. Open LinkedIn Jobs and search for the target roles.
-4. Apply the filters above and review results carefully.
-5. Shortlist only the best-matching jobs.
-6. For each shortlisted job:
-   - open the posting
-   - confirm it is full-time, remote or hybrid, and not data-related using the Exclusions criteria above
-   - use Easy Apply if available; if it is not available, continue only when the job is an excellent match and the standard application can still be completed with the available information
-   - download the resume PDF first, then upload the local file if prompted
-   - complete any required questions truthfully
-   - submit the application
-   - confirm that the site shows a success or application submitted state before counting it
-7. Continue until 10 applications are submitted.
-
-## Operating Guidance
-
-- Prefer the strongest matches first: exact target title match, visible salary match, then recency.
-- Wait about 15 to 30 seconds between applications to reduce the chance of rate limiting.
-- If a form cannot be completed because a mandatory field is unsupported by the sources, skip the role and move on.
-
-## Reporting
-
-At the end, provide a concise summary with one entry per application including:
-
-- Job title
-- Company name
-- Job posting link
-
-Also include:
-
-- total number of applications submitted
-- any jobs skipped and why
-- any missing salary information
-- any blockers encountered during the process
+reportlab is NOT installed
+weasyprint is NOT installed
+pdfkit is NOT installed
+playwright is NOT installed
+fpdf is NOT installed
+fpdf2 is NOT installed
+xhtml2pdf is NOT installed
 
 
 
---- Executing blocking command at Wed Jul  8 18:08:04 2026 ---
-> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && grep -in "login" /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/*.md
+--- Executing blocking command at Wed Jul  8 18:19:27 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && which pandoc wkhtmltopdf libreoffice typst weasyprint gs pdftoppm node npm python3 pip3 rsvg-convert
 --- Output ---
-/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/ai-recruiter-outreach-networking.md:38:- If LinkedIn shows a login wall, CAPTCHA, or verification challenge, pause and report the blocker instead of trying to bypass it.
-/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin-ai-teaching-contract-projects-assistant.md:18:Assume the LinkedIn session is already authenticated. If a login wall, CAPTCHA, or verification challenge appears, pause and report the blocker instead of trying to bypass it.
-/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin-job-application-assistant.md:18:Assume the LinkedIn session is already authenticated. If a login wall, CAPTCHA, or verification challenge appears, pause and report the blocker instead of trying to bypass it.
-/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/loom-video-script.md:56:| **Screen share** | Optional: briefly show the RouteGenius UI at https://route.topnetworks.co/login during that section |
+/Users/macbookpro/.eigent/venvs/backend-1.0.1/lib/python3.11/site-packages/nodejs_wheel/bin/node
+/Users/macbookpro/.eigent/bin/npm
+/usr/bin/python3
+/usr/bin/pip3
 
 
 
---- Executing blocking command at Wed Jul  8 18:08:09 2026 ---
-> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && grep -rn "password" /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/
+--- Executing blocking command at Wed Jul  8 18:19:32 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && pip3 install reportlab weasyprint xhtml2pdf fpdf2
+--- Output ---
+Defaulting to user installation because normal site-packages is not writeable
+Collecting reportlab
+  Downloading reportlab-5.0.0-py3-none-any.whl (2.0 MB)
+Collecting weasyprint
+  Downloading weasyprint-66.0-py3-none-any.whl (301 kB)
+Collecting xhtml2pdf
+  Downloading xhtml2pdf-0.2.17-py3-none-any.whl (125 kB)
+Collecting fpdf2
+  Downloading fpdf2-2.8.4-py2.py3-none-any.whl (251 kB)
+Collecting charset-normalizer
+  Downloading charset_normalizer-3.4.9-cp39-cp39-macosx_10_9_universal2.whl (306 kB)
+Collecting pillow>=9.0.0
+  Downloading pillow-11.3.0-cp39-cp39-macosx_11_0_arm64.whl (4.7 MB)
+Collecting cssselect2>=0.8.0
+  Downloading cssselect2-0.8.0-py3-none-any.whl (15 kB)
+Collecting tinyhtml5>=2.0.0b1
+  Downloading tinyhtml5-2.0.0-py3-none-any.whl (39 kB)
+Collecting cffi>=0.6
+  Downloading cffi-2.0.0-cp39-cp39-macosx_11_0_arm64.whl (180 kB)
+Collecting Pyphen>=0.9.1
+  Downloading pyphen-0.17.2-py3-none-any.whl (2.1 MB)
+Collecting tinycss2>=1.4.0
+  Downloading tinycss2-1.4.0-py3-none-any.whl (26 kB)
+Collecting pydyf>=0.11.0
+  Downloading pydyf-0.11.0-py3-none-any.whl (8.1 kB)
+Collecting fonttools[woff]>=4.0.0
+  Downloading fonttools-4.60.2-cp39-cp39-macosx_10_9_universal2.whl (2.9 MB)
+Collecting pypdf>=3.1.0
+  Downloading pypdf-6.14.2-py3-none-any.whl (349 kB)
+Collecting svglib>=1.2.1
+  Downloading svglib-2.0.2-py3-none-any.whl (45 kB)
+Collecting python-bidi>=0.5.0
+  Downloading python_bidi-0.6.11-cp39-cp39-macosx_11_0_arm64.whl (269 kB)
+Collecting arabic-reshaper>=3.0.0
+  Downloading arabic_reshaper-3.0.0-py3-none-any.whl (20 kB)
+Collecting html5lib>=1.1
+  Downloading html5lib-1.1-py2.py3-none-any.whl (112 kB)
+Collecting pyhanko-certvalidator>=0.19.5
+  Downloading pyhanko_certvalidator-0.29.1-py3-none-any.whl (111 kB)
+Collecting reportlab
+  Downloading reportlab-4.5.1-py3-none-any.whl (2.0 MB)
+Collecting pyHanko>=0.12.1
+  Downloading pyhanko-0.33.0-py3-none-any.whl (471 kB)
+Collecting defusedxml
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting pycparser
+  Downloading pycparser-2.23-py3-none-any.whl (118 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting brotli>=1.0.1
+  Downloading brotli-1.2.0-cp39-cp39-macosx_10_9_universal2.whl (862 kB)
+Collecting zopfli>=0.1.4
+  Downloading zopfli-0.2.3.post1-cp39-cp39-macosx_10_9_universal2.whl (296 kB)
+Requirement already satisfied: six>=1.9 in /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from html5lib>=1.1->xhtml2pdf) (1.15.0)
+Collecting asn1crypto>=1.5.1
+  Downloading asn1crypto-1.5.1-py2.py3-none-any.whl (105 kB)
+Collecting pyyaml>=6.0
+  Downloading pyyaml-6.0.3-cp39-cp39-macosx_11_0_arm64.whl (174 kB)
+Collecting cryptography>=43.0.3
+  Downloading cryptography-49.0.0-cp39-abi3-macosx_11_0_arm64.whl (4.0 MB)
+Collecting lxml>=5.4.0
+  Downloading lxml-6.1.1-cp39-cp39-macosx_10_9_universal2.whl (8.6 MB)
+Collecting requests>=2.31.0
+  Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+Collecting tzlocal>=4.3
+  Downloading tzlocal-5.3.1-py3-none-any.whl (18 kB)
+Collecting typing-extensions>=4.13.2
+  Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Collecting uritools>=3.0.1
+  Downloading uritools-5.0.0-py3-none-any.whl (10 kB)
+Collecting oscrypto>=1.1.0
+  Downloading oscrypto-1.3.0-py2.py3-none-any.whl (194 kB)
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+Collecting certifi>=2017.4.17
+  Downloading certifi-2026.6.17-py3-none-any.whl (133 kB)
+Collecting idna<4,>=2.5
+  Downloading idna-3.18-py3-none-any.whl (65 kB)
+Installing collected packages: pycparser, webencodings, urllib3, typing-extensions, idna, charset-normalizer, cffi, certifi, asn1crypto, uritools, tinycss2, requests, pillow, oscrypto, cryptography, zopfli, tzlocal, reportlab, pyyaml, pyhanko-certvalidator, lxml, fonttools, cssselect2, brotli, tinyhtml5, svglib, python-bidi, Pyphen, pypdf, pyHanko, pydyf, html5lib, defusedxml, arabic-reshaper, xhtml2pdf, weasyprint, fpdf2
+  WARNING: The script idna is installed in '/Users/macbookpro/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script normalizer is installed in '/Users/macbookpro/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts fonttools, pyftmerge, pyftsubset and ttx are installed in '/Users/macbookpro/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script svg2pdf is installed in '/Users/macbookpro/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pybidi is installed in '/Users/macbookpro/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts pisa and xhtml2pdf are installed in '/Users/macbookpro/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script weasyprint is installed in '/Users/macbookpro/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed Pyphen-0.17.2 arabic-reshaper-3.0.0 asn1crypto-1.5.1 brotli-1.2.0 certifi-2026.6.17 cffi-2.0.0 charset-normalizer-3.4.9 cryptography-49.0.0 cssselect2-0.8.0 defusedxml-0.7.1 fonttools-4.60.2 fpdf2-2.8.4 html5lib-1.1 idna-3.18 lxml-6.1.1 oscrypto-1.3.0 pillow-11.3.0 pyHanko-0.33.0 pycparser-2.23 pydyf-0.11.0 pyhanko-certvalidator-0.29.1 pypdf-6.14.2 python-bidi-0.6.11 pyyaml-6.0.3 reportlab-4.5.1 requests-2.32.5 svglib-2.0.2 tinycss2-1.4.0 tinyhtml5-2.0.0 typing-extensions-4.16.0 tzlocal-5.3.1 uritools-5.0.0 urllib3-2.6.3 weasyprint-66.0 webencodings-0.5.1 xhtml2pdf-0.2.17 zopfli-0.2.3.post1
+WARNING: You are using pip version 21.2.4; however, version 26.0.1 is available.
+You should consider upgrading via the '/Applications/Xcode.app/Contents/Developer/usr/bin/python3 -m pip install --upgrade pip' command.
+
+
+
+--- Executing blocking command at Wed Jul  8 18:19:51 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 -c "import weasyprint; print('Weasyprint imported successfully!')"
 --- Output ---
 
+-----
+
+WeasyPrint could not import some external libraries. Please carefully follow the installation steps before reporting an issue:
+https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#installation
+https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#troubleshooting 
+
+-----
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/weasyprint/__init__.py", line 433, in <module>
+    from .css import preprocess_stylesheet  # noqa: I001, E402
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/weasyprint/css/__init__.py", line 28, in <module>
+    from .computed_values import COMPUTER_FUNCTIONS
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/weasyprint/css/computed_values.py", line 9, in <module>
+    from ..text.ffi import FROM_UNITS, ffi, pango
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/weasyprint/text/ffi.py", line 475, in <module>
+    gobject = _dlopen(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/weasyprint/text/ffi.py", line 463, in _dlopen
+    return ffi.dlopen(names[0], flags)  # pragma: no cover
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/cffi/api.py", line 150, in dlopen
+    lib, function_cache = _make_ffi_library(self, name, flags)
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/cffi/api.py", line 834, in _make_ffi_library
+    backendlib = _load_backend_lib(backend, libname, flags)
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/cffi/api.py", line 829, in _load_backend_lib
+    raise OSError(msg)
+OSError: cannot load library 'libgobject-2.0-0': dlopen(libgobject-2.0-0, 0x0002): tried: 'libgobject-2.0-0' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibgobject-2.0-0' (no such file), '/usr/lib/libgobject-2.0-0' (no such file, not in dyld cache), 'libgobject-2.0-0' (no such file).  Additionally, ctypes.util.find_library() did not manage to locate a library called 'libgobject-2.0-0'
 
 
---- Executing blocking command at Wed Jul  8 18:08:15 2026 ---
-> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && ls -la /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/terminal_logs
+
+--- Executing blocking command at Wed Jul  8 18:19:55 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 -c "
+for lib in ['xhtml2pdf', 'fpdf2', 'reportlab']:
+    try:
+        __import__(lib)
+        print(lib, 'is imported successfully!')
+    except Exception as e:
+        print(lib, 'failed:', e)
+"
 --- Output ---
-total 24
-drwxr-xr-x@  3 macbookpro  staff    96 Jul  8 18:06 .
-drwxr-xr-x@ 13 macbookpro  staff   416 Jul  8 18:06 ..
--rw-r--r--@  1 macbookpro  staff  9630 Jul  8 18:08 blocking_commands.log
+xhtml2pdf is imported successfully!
+fpdf2 failed: No module named 'fpdf2'
+reportlab is imported successfully!
 
 
 
---- Executing blocking command at Wed Jul  8 18:08:15 2026 ---
-> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && grep -rn "cookies" /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/
+--- Executing blocking command at Wed Jul  8 18:20:04 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && head -n 100 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/juan-jaramillo-resume.md
+--- Output ---
+# Juan Miguel Jaramillo Gaviria
+
+## AI Development Lead, Full-Stack Architect, and Serial Tech Entrepreneur
+
+📍 Bogotá, Colombia  
+📧 [info@juanjaramillo.tech](mailto:info@juanjaramillo.tech)  
+📞 [+57 305 420 6139](tel:+573054206139)  
+🌐 [juanjaramillo.tech](https://juanjaramillo.tech)
+
+---
+
+## Professional Summary
+
+AI Development Lead, full-stack architect, and serial technology entrepreneur with more than 17 years of experience in digital and technology initiatives.
+
+Since 2022, I have specialized in enterprise generative AI development, LLM fine-tuning (PEFT, RLHF), and AI-native product engineering. I currently lead AI strategy and platform development at TopNetworks Inc., designing AI-powered SaaS tools for the U.S., U.K., Mexico, and Latin American markets.
+
+Deep experience in Next.js, TypeScript, Vertex AI, GenAI and LLMs, Machine Learning, Prompt Engineering, and cloud-native full-stack development on Google Cloud.
+
+---
+
+## Work Experience
+
+### AI Development Lead
+
+**TopNetworks Inc.** · Independent  
+_Feb. 2025 – Jun. 2026 (1 year 4 months)_  
+📍 Bogotá D.C. Metropolitan Area · Remote  
+_Key Focus:_ Prompt Engineering Techniques & Best Practices, Hallucination Risk Management, GenAI and Prompt Versioning Techniques using Git Flow.
+
+- I lead AI strategy, architecture, and full-stack development for TopNetworks’ performance publishing platforms, serving the U.S., U.K., Mexico, and Latin America.
+- I designed and built the internal SaaS ecosystem:
+  - **EmailGenius**: AI email generation with Vertex AI + PostgreSQL.
+  - **TrafficGenius**: Invalid traffic detection and security analytics with BigQuery + Cloud Armor.
+  - **RouteGenius**: Probabilistic traffic distribution with Supabase.
+  - **Social Media Genius**: Social content generation with an AI canvas editor.
+- **Stack:** Next.js 15-16 (App Router), TypeScript, React 19, Astro 5, Tailwind CSS v4, Vertex AI (Gemini 2.5 Flash), PostgreSQL, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS), PM2, Docker, Vercel.
+
+---
+
+### Prompt Engineer and AI Consultant
+
+**Juan Jaramillo** · Independent  
+_Nov. 2022 – Present (4 years)_  
+📍 Bogotá D.C. Metropolitan Area · Remote / On-Site  
+_Key Focus:_ Prompt Engineering Techniques & Best Practices, LLM Fundamentals & Hallucination Risk Management, GenAI and Prompt Versioning Techniques using Git Flow.
+
+- Prompt Engineer and expert AI consultant.
+- UX/UI designer.
+- Front-end and back-end developer for AI projects.
+
+---
+
+### Co-founder / Director of Innovation
+
+**TRADEBOG S.A.S.** · Full-time  
+_Dec. 2020 – Jun. 2023 (2 years 7 months)_  
+📍 Bogotá D.C. Metropolitan Area · On-Site
+
+- Front-end and back-end developer, UI/UX designer, consultant, and specialist in digital marketing, internet advertising, and social media advertising.
+
+---
+
+### Co-founder / Operations Director
+
+**FreshWorks | Ideas Frescas** · Full-time  
+_May 2014 – Jun. 2023 (9 years 2 months)_  
+📍 Mexico City, México / Bogotá, Colombia / Madrid, España
+
+- Web designer, WordPress developer, UI/UX designer, digital marketing specialist, and digital project manager.
+
+---
+
+### Project Director
+
+**2W Agencia Digital** · Full-time  
+_Nov. 2012 – Jan. 2014 (1 year 3 months)_  
+📍 Bogotá D.C. Metropolitan Area · On-Site
+
+- Digital project director, key accounts director, digital strategist, and digital marketing specialist.
+
+---
+
+### Co-founder / Project Manager
+
+**La Quinta P Digital Agency** · Full-time  
+_Aug. 2009 – Oct. 2012 (3 years 3 months)_  
+📍 Bogotá D.C. Metropolitan Area · Remote / On-Site
+
+- Digital project director, digital marketing specialist, web designer, and WordPress developer.
+
+---
+
+## Skills & Core Proficiencies
+
+- **Prompt Engineering** — _Advanced_
+- **GenAI and LLMs** — _Advanced_
+- **AI-Based Automation** — _Advanced_
+- **Hallucination Risk Management** — _Advanced_
+- **JavaScript** — _Advanced_
+
+
+
+--- Executing blocking command at Wed Jul  8 18:20:04 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && head -n 100 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/juan-jaramillo-advanced-cover-letter.md
+--- Output ---
+# Cover Letter
+
+---
+
+**Juan Miguel Jaramillo Gaviria**
+AI Development Lead | Full-Stack Architect | Generative AI Specialist
+
+---
+
+Dear Hiring Team,
+
+I am writing to express my strong interest in contributing to your AI-driven digital initiatives. With over 17 years of experience at the intersection of technology, entrepreneurship, and artificial intelligence, I bring a rare combination of executive vision and hands-on engineering capability — the kind of profile that can take an AI concept from whiteboard to production at every layer of the stack.
+
+## A Career Built Around AI-Native Thinking
+
+My journey into technology began in 2007 and has been defined by a forward-looking obsession with emerging digital tools. Long before Generative AI became a mainstream priority, I was co-founding and leading technology ventures — LaQuintaP (2009), FreshWorks Digital Agency (2014, operating across Colombia, Mexico, and Spain with clients including Grupo Herdez and El Corte Inglés), and TRADEBOG/ZIONE Shop (2020), recognized as Colombia's leading dropshipping platform. This entrepreneurial foundation means I don't just build AI features — I understand the business problems they must solve.
+
+## Deep, Production-Proven AI Expertise
+
+Since 2022, I have specialized exclusively in Generative AI, with a focused practice in LLM fine-tuning (PEFT, RLHF), prompt engineering, and enterprise AI architecture. As **AI Development Lead at TopNetworks Inc.**, I designed and shipped an entire internal SaaS ecosystem — **EmailGenius** (AI email generation via Vertex AI + PostgreSQL), **TrafficGenius** (invalid traffic detection with BigQuery + Cloud Armor), **RouteGenius** (probabilistic traffic distribution on Supabase), and **Social Media Genius** (AI-powered social content generation with a canvas editor) — all on a modern stack including Next.js 15–16, TypeScript, React 19, Astro 5, and Gemini 2.5 Flash on Google Cloud. These are not proofs of concept; they are live, revenue-supporting platforms.
+
+## Advisory Reach and Measurable Impact
+
+My consulting practice has delivered AI strategy and implementation to organizations including the **Telefónica Movistar Foundation**, **Universidad Francisco Marroquín (Guatemala)**, and **Wundermann Thompson Miami**. The outcomes I drive are quantifiable: AI-powered tool adoption has delivered up to a **46% increase in productivity** and a **66% reduction in monthly costs** for clients — figures that translate directly into competitive advantage for any organization investing in AI.
+
+## Advanced Tooling and Agentic Systems
+
+Beyond prompt engineering, my technical depth extends to **LangChain, LangGraph, CrewAI, and Vertex AI Agent-to-Agent (A2A) frameworks** — all at an advanced level. I hold certified training from the **University of Toronto** (Generative AI for Business), the **University of Michigan**, and **Platzi**, with coursework spanning AI ethics, governance, organizational transformation, and applied prompt engineering. I write production-grade code in JavaScript/TypeScript, Python, and SQL, and I am deeply fluent in cloud-native infrastructure on Google Cloud Platform.
+
+## Why This Matters for Your Team
+
+What sets me apart is not just technical breadth — it is the ability to operate as a **one-person AI center of excellence**: architecting systems, writing the code, engineering the prompts, managing hallucination risk, and communicating strategy to non-technical stakeholders. I hold a firm belief, stated publicly in my professional presentations, that _"Artificial Intelligence is not a replacement — it is a tool"_. This philosophy drives pragmatic, responsible AI deployment that amplifies human capability rather than replacing it.
+
+I am excited by the opportunity to bring this full-stack AI leadership to your organization and would welcome the chance to discuss how my experience aligns with your goals.
+
+Warm regards,
+
+**Juan Miguel Jaramillo Gaviria**
+[juanjaramillo.tech](https://juanjaramillo.tech) | [LinkedIn](https://www.linkedin.com/in/juan-jaramillo-ai) | [GitHub](https://github.com/juanjaragavi) | 📧 <info@juanjaramillo.tech> | 🌐 <https://juanjaramillo.tech> | 📞 +57 305 420 6139 | 📍 Bogotá, Colombia
+
+
+
+--- Executing blocking command at Wed Jul  8 18:20:07 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && tail -n 100 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/juan-jaramillo-resume.md
+--- Output ---
+---
+
+### Project Director
+
+**2W Agencia Digital** · Full-time  
+_Nov. 2012 – Jan. 2014 (1 year 3 months)_  
+📍 Bogotá D.C. Metropolitan Area · On-Site
+
+- Digital project director, key accounts director, digital strategist, and digital marketing specialist.
+
+---
+
+### Co-founder / Project Manager
+
+**La Quinta P Digital Agency** · Full-time  
+_Aug. 2009 – Oct. 2012 (3 years 3 months)_  
+📍 Bogotá D.C. Metropolitan Area · Remote / On-Site
+
+- Digital project director, digital marketing specialist, web designer, and WordPress developer.
+
+---
+
+## Skills & Core Proficiencies
+
+- **Prompt Engineering** — _Advanced_
+- **GenAI and LLMs** — _Advanced_
+- **AI-Based Automation** — _Advanced_
+- **Hallucination Risk Management** — _Advanced_
+- **JavaScript** — _Advanced_
+- **ReactJS** — _Advanced_
+- **Python** — _Advanced / Intermediate_
+- **Machine Learning** — _Advanced / Intermediate_
+
+---
+
+## AI Tools
+
+- **LangChain** — _Advanced_
+- **LangGraph** — _Advanced_
+- **CrewAI** — _Advanced_
+- **Vertex AI A2A** — _Advanced_
+
+---
+
+## Languages
+
+- **English** — _Full professional proficiency_  
+  Technical English focused on technology and digital marketing.
+
+---
+
+## Education
+
+### University of Toronto
+
+**Generative AI for Business: Driving Growth and Competitive Advantage**  
+_Dec. 2022 – Feb. 2023 (3 months)_  
+🎓 Certified Diploma · Remote  
+_Focus:_ AI strategy, innovation, ethics, decision-making, governance, and organizational transformation, with case studies from major companies like Goldman Sachs, Pfizer, and Citibank.
+
+### Platzi
+
+**Prompt Engineer with Emphasis on ChatGPT**  
+_Feb. 2023 – Apr. 2023 (2 months)_  
+🎓 Certified Course · Remote  
+_Focus:_ What prompt engineering is, prompt structure, introduction to ChatGPT, prompting in ChatGPT, ChatGPT plugins, ChatGPT extensions and integrations, business use cases, limitations, and ethical use of ChatGPT.
+
+### University of Michigan
+
+**Social Network Analysis: Digital Communication & Contents**  
+_Sep. 2013 – Dec. 2013 (3 months)_  
+🎓 Certified Course · Remote  
+_Skills:_ English as a Foreign Language, Digital Marketing.
+
+### Universidad Central
+
+**Advertising and Marketing**  
+_Feb. 2002 – Nov. 2007 (5 years)_  
+🎓 Professional Degree · On-Site  
+_Skills:_ Advertising, marketing, copywriting, graphic design, creative direction, advertising strategy, art direction.
+
+---
+
+## Interests
+
+- Golf
+- Reading
+- Film
+- Music
+- Blogging
+- Writing
+- Consulting
+- Teaching
+
+---
+
+## Portfolio & Projects
+
+To see my portfolio of work across different areas, featured projects, and a list of specific services I provide, please visit:  
+🔗 **[juanjaramillo.tech](https://juanjaramillo.tech)**
+
+
+
+--- Executing blocking command at Wed Jul  8 18:20:11 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/resume.css
+--- Output ---
+/* Professional Resume CSS stylesheet for Pandoc Markdown to PDF conversion */
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif;
+  color: #2d3748; /* Off-black/Charcoal for elegant readability */
+  line-height: 1.5;
+  font-size: 10.5pt;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+}
+
+/* Page Margins and Size */
+@page {
+  size: letter;
+  margin: 20mm 20mm 20mm 20mm;
+}
+
+/* Hyperlinks */
+a {
+  color: #1e3a8a; /* Deep Navy blue */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Typography & Headings */
+h1 {
+  font-size: 26pt;
+  color: #1a202c; /* Slate black */
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+/* Subtitle/Tagline under Name */
+h1 + h2 {
+  font-size: 12pt;
+  color: #4a5568; /* Slate grey */
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: none;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Main Section Headings */
+h2 {
+  font-size: 13pt;
+  color: #1e3a8a; /* Premium Navy blue */
+  border-bottom: 1.5px solid #cbd5e1; /* Subtle line separator */
+  padding-bottom: 4px;
+  margin-top: 24px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/* Job Titles and Institution Names */
+h3 {
+  font-size: 11pt;
+  color: #1a202c;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+/* Sub-details (Company name, dates, location) */
+h3 + p {
+  font-size: 9.5pt;
+  color: #4a5568;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+/* Contact Info Paragraph (Immediately follows tagline) */
+h1 + h2 + p {
+  text-align: center;
+  font-size: 9.5pt;
+  color: #4a5568;
+  margin-top: 0;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+/* Content Blocks */
+p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 4px;
+  text-align: justify;
+}
+
+/* Strong details in lists */
+li strong {
+  color: #1a202c;
+}
+
+/* Horizontal Rule Divider */
+hr {
+  border: 0;
+  border-top: 1px solid #e2e8f0;
+  margin: 18px 0;
+  display: none; /* Hide standard Markdown rules since we have h2 borders */
+}
+
+/* Print Page-Break Optimizations */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+.work-entry,
+.education-entry {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+li {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+
+
+--- Executing blocking command at Wed Jul  8 18:20:29 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && which pdftoppm
 --- Output ---
 
 
 
---- Executing blocking command at Wed Jul  8 18:08:18 2026 ---
-> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/terminal_logs/blocking_commands.log | head -n 50
+--- Executing blocking command at Wed Jul  8 18:20:43 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 -c "
+from xhtml2pdf import pisa
+html = '<html><body><h1>Test</h1></body></html>'
+with open('test_output.pdf', 'wb') as f:
+    pisa_status = pisa.CreatePDF(html, dest=f)
+print('Error status:', pisa_status.err)
+"
 --- Output ---
---- Executing blocking command at Wed Jul  8 18:06:50 2026 ---
-> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && ls -la /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts
+/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Error status: 0
+
+
+
+--- Writing content to file at Wed Jul  8 18:22:07 2026 ---
+> /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_pdfs.py
+
+-------- 
+import sys
+from xhtml2pdf import pisa
+
+def generate_pdf(html_content, output_filename):
+    with open(output_filename, "wb") as f:
+        pisa_status = pisa.CreatePDF(html_content, dest=f)
+    if pisa_status.err:
+        print(f"Error generating {output_filename}")
+        return False
+    else:
+        print(f"Successfully generated {output_filename}")
+        return True
+
+# HTML content for Resume
+resume_html = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Juan Miguel Jaramillo Gaviria - Master Resume</title>
+<style>
+    @page {
+        size: letter;
+        margin: 16mm 16mm 16mm 16mm;
+        @bottom-right {
+            content: "Page " counter(page) " of " counter(pages);
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 8pt;
+            color: #718096;
+        }
+    }
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #2d3748;
+        line-height: 1.4;
+        font-size: 9.5pt;
+    }
+    a {
+        color: #1e3a8a;
+        text-decoration: none;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 12px;
+        border-bottom: 2px solid #1e3a8a;
+        padding-bottom: 8px;
+    }
+    .name {
+        font-size: 24pt;
+        font-weight: bold;
+        color: #1a202c;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+    }
+    .tagline {
+        font-size: 11pt;
+        font-weight: bold;
+        color: #1e3a8a;
+        margin: 4px 0 6px 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .contact-info {
+        font-size: 9pt;
+        color: #4a5568;
+        margin: 4px 0 0 0;
+    }
+    .contact-info a {
+        color: #1e3a8a;
+    }
+    .contact-sep {
+        color: #cbd5e1;
+        margin: 0 6px;
+    }
+    h2 {
+        font-size: 12pt;
+        color: #1e3a8a;
+        border-bottom: 1px solid #cbd5e1;
+        padding-bottom: 2px;
+        margin-top: 14px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+    .summary-text {
+        text-align: justify;
+        margin-bottom: 8px;
+        font-size: 9.5pt;
+    }
+    /* Skills Table Grid */
+    .skills-table {
+        width: 100%;
+        margin-bottom: 8px;
+        border-collapse: collapse;
+    }
+    .skills-table td {
+        width: 50%;
+        vertical-align: top;
+        padding: 2px 10px 4px 0;
+    }
+    .skills-category {
+        font-size: 9pt;
+        margin-bottom: 2px;
+    }
+    .skills-category-title {
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .skills-items {
+        color: #4a5568;
+    }
+    /* Experience section */
+    .entry {
+        margin-bottom: 12px;
+    }
+    .entry-header-table {
+        width: 100%;
+        margin-bottom: 2px;
+        border-collapse: collapse;
+    }
+    .entry-header-table td {
+        padding: 0;
+        vertical-align: top;
+    }
+    .job-title {
+        font-size: 10pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .company {
+        font-size: 10pt;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+    .date-location {
+        font-size: 9pt;
+        color: #4a5568;
+        text-align: right;
+        font-style: italic;
+    }
+    .focus-text {
+        font-size: 8.5pt;
+        color: #718096;
+        margin-bottom: 4px;
+        font-style: italic;
+    }
+    .entry-bullets {
+        margin: 0;
+        padding-left: 15px;
+    }
+    .entry-bullets li {
+        margin-bottom: 3px;
+        text-align: justify;
+        font-size: 9pt;
+    }
+    .education-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 8px;
+    }
+    .education-table td {
+        padding: 4px 0;
+        vertical-align: top;
+    }
+    .degree-title {
+        font-size: 9.5pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .institution-name {
+        font-size: 9.5pt;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+    .edu-meta {
+        font-size: 8.5pt;
+        color: #4a5568;
+        text-align: right;
+        font-style: italic;
+    }
+    .edu-focus {
+        font-size: 8.5pt;
+        color: #4a5568;
+        margin-top: 2px;
+    }
+    .portfolio-box {
+        text-align: center;
+        background-color: #f8fafc;
+        border: 1px solid #e2e8f0;
+        padding: 8px;
+        margin-top: 10px;
+        font-size: 9.5pt;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="name">Juan Miguel Jaramillo Gaviria</div>
+        <div class="tagline">AI-Native Full-Stack Architect | AI Development Lead | Tech Entrepreneur</div>
+        <div class="contact-info">
+            Bogotá, Colombia <span class="contact-sep">|</span> 
+            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            +57 305 420 6139 <span class="contact-sep">|</span> 
+            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
+        </div>
+    </div>
+
+    <h2>Professional Summary</h2>
+    <div class="summary-text">
+        Enterprise AI Development Lead and Full-Stack Architect with over 17 years of leadership experience spanning digital transformation, software engineering, and technology entrepreneurship. Expert in designing and deploying production-grade generative AI systems, orchestrating multi-agent frameworks, executing LLM fine-tuning (PEFT, RLHF), and managing hallucination risk. Highly proficient across Next.js 15/16, React 19, TypeScript, Python, and cloud-native architectures on Google Cloud Platform. Well before generative AI reshaped the global tech landscape, founded and scaled multiple successful digital and technology ventures. A pioneer in combining modern legacy-modernization expertise (CMS/WordPress) with AI-assisted high-velocity coding workflows.
+    </div>
+
+    <h2>Core Proficiencies & Technical Expertise</h2>
+    <table class="skills-table">
+        <tr>
+            <td>
+                <div class="skills-category">
+                    <span class="skills-category-title">AI & Machine Learning:</span>
+                    <span class="skills-items">LLM Fine-Tuning (PEFT, RLHF), Advanced Prompt Engineering, Hallucination Risk Mitigation, Prompt Versioning (Git Flow), RAG Pipelines, Vector Databases.</span>
+                </div>
+                <div class="skills-category" style="margin-top: 4px;">
+                    <span class="skills-category-title">AI Frameworks & Tools:</span>
+                    <span class="skills-items">LangChain, LangGraph, CrewAI, Vertex AI Agent-to-Agent (A2A), n8n Workflow Automation, Gemini 2.5 Flash, Cursor AI IDE workflows.</span>
+                </div>
+            </td>
+            <td>
+                <div class="skills-category">
+                    <span class="skills-category-title">Full-Stack Software Engineering:</span>
+                    <span class="skills-items">TypeScript, JavaScript, ReactJS/React 19 (App Router), Next.js 15/16, Astro 5, Node.js, Python, SQL, WordPress Legacy Architecture (15+ years).</span>
+                </div>
+                <div class="skills-category" style="margin-top: 4px;">
+                    <span class="skills-category-title">Cloud & Infrastructure:</span>
+                    <span class="skills-items">Google Cloud Platform (Cloud Run, Cloud Armor, BigQuery, Compute Engine, DNS), Supabase, PostgreSQL, Docker, Vercel, PM2, Git.</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Professional Experience</h2>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">AI Development Lead</span> <span class="company">- TopNetworks Inc.</span></td>
+                <td class="date-location">Feb 2025 – Jun 2026 | Remote / Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <div class="focus-text">Key Focus: Prompt Engineering, Hallucination Risk Management, GenAI Prompt Versioning with Git Flow, High-velocity AI-Native Development Workflows</div>
+        <ul class="entry-bullets">
+            <li>Spearheaded AI engineering strategy and full-stack architecture for high-performance publishing platforms serving markets across the US, UK, Mexico, and Latin America.</li>
+            <li>Designed, built, and launched a core proprietary internal SaaS ecosystem leveraging rapid, spec-first, AI-native workflows (such as Cursor, agentic coding, and advanced prompt-driven rapid iteration):
+                <ul>
+                    <li><strong>EmailGenius:</strong> Scalable, high-throughput AI email generation engine engineered with Vertex AI and PostgreSQL.</li>
+                    <li><strong>TrafficGenius:</strong> Real-time invalid traffic detection and security intelligence platform utilizing BigQuery and Cloud Armor.</li>
+                    <li><strong>RouteGenius:</strong> High-concurrency probabilistic traffic routing distribution engine built on Supabase, featuring multi-agent workflow integration in n8n via webhooks to automate traffic optimization.</li>
+                    <li><strong>Social Media Genius:</strong> AI-driven social content generation application featuring a custom interactive canvas editor.</li>
+                </ul>
+            </li>
+            <li>Managed prompt versioning via Git Flow, structured hallucination risk frameworks, and deployed all services using Next.js 15/16, TypeScript, React 19, Astro 5, Tailwind v4, and Gemini 2.5 Flash on GCP.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Prompt Engineer & AI Consultant</span> <span class="company">- Juan Jaramillo (Independent Practice)</span></td>
+                <td class="date-location">Nov 2022 – Present | Remote & On-Site</td>
+            </tr>
+        </table>
+        <div class="focus-text">Key Focus: Prompt Engineering & Optimization, LLM Fundamentals, Hallucination Mitigation, UI/UX Design workflows</div>
+        <ul class="entry-bullets">
+            <li>Deliver specialized technical consulting on generative AI architecture, prompt engineering optimization, and custom LLM integrations for mid-market and enterprise clients, including the <strong>Telefónica Movistar Foundation</strong>, <strong>Universidad Francisco Marroquín (Guatemala)</strong>, and <strong>Wundermann Thompson Miami</strong>.</li>
+            <li>Architect and build front-end and back-end environments for custom AI applications while directly managing UI/UX design workflows.</li>
+            <li>Achieved documented client outcomes including up to a <strong>46% increase in operational productivity</strong> and a <strong>66% reduction in monthly infrastructure</strong> and operational overhead.</li>
+        </ul>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Director of Innovation</span> <span class="company">- TRADEBOG S.A.S.</span></td>
+                <td class="date-location">Dec 2020 – Jun 2023 | Bogotá, Colombia (On-Site)</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Oversaw full-stack development, UI/UX systems, and technical product direction for Colombia’s leading dropshipping and e-commerce platform.</li>
+            <li>Designed and optimized complex digital advertising architectures, social media acquisition pipelines, and transactional backend workflows.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Operations Director</span> <span class="company">- FreshWorks | Ideas Frescas</span></td>
+                <td class="date-location">May 2014 – Jun 2023 | Mexico, Colombia, Spain</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Managed technical delivery, web architecture, and custom WordPress development for enterprise brands including <strong>Grupo Herdez</strong> and <strong>El Corte Inglés</strong>.</li>
+            <li>Led cross-functional teams across three countries, managing digital product design, UI/UX engineering, and client transformation roadmaps.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Project Director</span> <span class="company">- 2W Agencia Digital</span></td>
+                <td class="date-location">Nov 2012 – Jan 2014 | Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Digital project director, key accounts director, digital strategist, and digital marketing specialist.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Project Manager</span> <span class="company">- La Quinta P Digital Agency</span></td>
+                <td class="date-location">Aug 2009 – Oct 2012 | Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Digital project director, digital marketing specialist, web designer, and custom WordPress developer.</li>
+        </ul>
+    </div>
+
+    <h2>Education & Certifications</h2>
+    <table class="education-table">
+        <tr>
+            <td>
+                <span class="degree-title">Generative AI for Business: Driving Growth and Competitive Advantage</span><br>
+                <span class="institution-name">University of Toronto</span><br>
+                <span class="edu-focus">Focus: AI strategy, innovation, ethics, decision-making, governance, and organizational transformation, with case studies from major companies like Goldman Sachs, Pfizer, and Citibank.</span>
+            </td>
+            <td class="edu-meta">Dec 2022 – Feb 2023<br>Certified Diploma (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Prompt Engineer with Emphasis on ChatGPT</span><br>
+                <span class="institution-name">Platzi</span><br>
+                <span class="edu-focus">Focus: Advanced prompt structures, extension and plugin integrations, business use cases, and ethical LLM constraints.</span>
+            </td>
+            <td class="edu-meta">Feb 2023 – Apr 2023<br>Certified Course (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Social Network Analysis: Digital Communication & Contents</span><br>
+                <span class="institution-name">University of Michigan</span><br>
+                <span class="edu-focus">Skills: Digital Marketing, Content Strategy.</span>
+            </td>
+            <td class="edu-meta">Sep 2013 – Dec 2013<br>Certified Course (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Bachelor's Degree in Advertising and Marketing</span><br>
+                <span class="institution-name">Universidad Central</span><br>
+                <span class="edu-focus">Focus: Creative direction, art direction, copywriting strategy, and campaign design.</span>
+            </td>
+            <td class="edu-meta">Feb 2002 – Nov 2007<br>Professional Degree (On-Site)</td>
+        </tr>
+    </table>
+
+    <h2>Languages & Interests</h2>
+    <div style="font-size: 9.5pt; margin-bottom: 4px;">
+        <strong>Languages:</strong> Spanish (Native) <span class="contact-sep">|</span> English (Full Professional & Technical Proficiency)
+    </div>
+    <div style="font-size: 9.5pt;">
+        <strong>Interests:</strong> Golf, Reading, Film, Music, Blogging, Writing, Technical Consulting, and Teaching.
+    </div>
+
+    <div class="portfolio-box">
+        To view my full portfolio of work, featured projects, case studies, and services, please visit:<br>
+        <strong><a href="https://juanjaramillo.tech">juanjaramillo.tech</a></strong>
+    </div>
+
+</body>
+</html>
+"""
+
+# HTML content for Cover Letter
+cover_letter_html = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Juan Miguel Jaramillo Gaviria - Master Cover Letter</title>
+<style>
+    @page {
+        size: letter;
+        margin: 20mm 20mm 20mm 20mm;
+    }
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #2d3748;
+        line-height: 1.45;
+        font-size: 10pt;
+    }
+    a {
+        color: #1e3a8a;
+        text-decoration: none;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 18px;
+        border-bottom: 2px solid #1e3a8a;
+        padding-bottom: 10px;
+    }
+    .name {
+        font-size: 22pt;
+        font-weight: bold;
+        color: #1a202c;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+    }
+    .tagline {
+        font-size: 10.5pt;
+        font-weight: bold;
+        color: #1e3a8a;
+        margin: 4px 0 6px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .contact-info {
+        font-size: 8.5pt;
+        color: #4a5568;
+        margin: 4px 0 0 0;
+        line-height: 1.4;
+    }
+    .contact-info a {
+        color: #1e3a8a;
+    }
+    .contact-sep {
+        color: #cbd5e1;
+        margin: 0 5px;
+    }
+    .letter-date {
+        margin-bottom: 14px;
+        font-size: 10pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .recipient {
+        margin-bottom: 18px;
+        font-size: 10pt;
+        line-height: 1.4;
+    }
+    .salutation {
+        margin-bottom: 12px;
+        font-weight: bold;
+    }
+    p {
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    .section-title {
+        font-weight: bold;
+        color: #1e3a8a;
+        margin-top: 14px;
+        margin-bottom: 6px;
+        font-size: 10.5pt;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        border-left: 3px solid #1e3a8a;
+        padding-left: 8px;
+    }
+    .closing {
+        margin-top: 18px;
+        margin-bottom: 24px;
+    }
+    .signature-block {
+        line-height: 1.4;
+    }
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="name">Juan Miguel Jaramillo Gaviria</div>
+        <div class="tagline">AI-Native Full-Stack Architect | AI Development Lead | Tech Entrepreneur</div>
+        <div class="contact-info">
+            Bogotá, Colombia <span class="contact-sep">|</span> 
+            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            +57 305 420 6139 <span class="contact-sep">|</span> 
+            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="letter-date">July 8, 2026</div>
+
+    <div class="recipient">
+        <strong>To:</strong> Hiring Team / Talent Acquisition<br>
+        <strong>Re:</strong> Application for AI Engineering Leadership / Full-Stack Architect Role
+    </div>
+
+    <div class="salutation">Dear Hiring Team,</div>
+
+    <p>I am writing to express my strong interest in joining your team as an AI Engineering leader. Bringing over 17 years of technical execution and entrepreneurial leadership, I specialize in navigating the space between abstract generative AI concepts and scalable, production-grade architectures. I offer your organization a rare combination of strategic vision and full-stack engineering depth.</p>
+
+    <div class="section-title">A Career Built Around AI-Native Thinking</div>
+    <p>My career has been defined by an early adoption of emerging technology paradigms. Well before generative AI reshaped the global tech landscape, I founded and scaled multiple successful digital and technology ventures—including LaQuintaP, FreshWorks Digital Agency across Europe and LATAM, and TRADEBOG, an industry-leading dropshipping platform in Colombia. This deep entrepreneurial foundation ensures that every AI system I architect is engineered to solve a concrete business problem and drive measurable bottom-line value.</p>
+
+    <div class="section-title">Deep, Production-Proven AI Expertise</div>
+    <p>Since 2022, I have focused exclusively on enterprise-grade generative AI development, LLM fine-tuning (PEFT, RLHF), advanced prompt engineering, and agentic product design. As the AI Development Lead for TopNetworks Inc., I personally designed, built, and shipped a highly profitable internal SaaS ecosystem:
+        <strong>EmailGenius</strong> (high-throughput AI email generation utilizing Vertex AI and PostgreSQL),
+        <strong>TrafficGenius</strong> (real-time invalid traffic detection using Google BigQuery and Cloud Armor),
+        <strong>RouteGenius</strong> (probabilistic web traffic distribution running on Supabase infrastructure), and
+        <strong>Social Media Genius</strong> (an AI-native social content generator complete with an interactive canvas editor).
+        These systems are not experimental prototypes; they are highly scalable, revenue-generating platforms built on Next.js 15/16, React 19, Astro 5, TypeScript, and the Gemini 2.5 Flash model deployed on Google Cloud Platform.
+    </p>
+
+    <div class="section-title">Advisory Reach and Measurable Impact</div>
+    <p>Beyond internal product execution, my technical advisory work for organizations like the Telefónica Movistar Foundation, Universidad Francisco Marroquín, and Wundermann Thompson Miami has delivered definitive operational impacts. My AI implementations have consistently driven up to a 46% increase in team productivity while securing up to a 66% reduction in monthly infrastructure and operational costs.</p>
+
+    <div class="section-title">Advanced Tooling and Agentic Systems</div>
+    <p>I possess advanced, production-proven mastery of LangChain, LangGraph, CrewAI, and Vertex AI Agent-to-Agent (A2A) frameworks. Backed by academic credentials in generative AI strategy and ethics from the University of Toronto and applied prompt engineering from Platzi, I write clean, production-grade code across Python, JavaScript/TypeScript, and SQL.</p>
+
+    <p>I view artificial intelligence not as a human replacement, but as an exponential leverage tool. I am eager to bring this exact philosophy, along with my full-stack execution capabilities, to your organization. Thank you for your time and consideration; I welcome the opportunity for a technical interview.</p>
+
+    <div class="closing">
+        Warm regards,
+    </div>
+
+    <div class="signature-block">
+        <strong>Juan Miguel Jaramillo Gaviria</strong><br>
+        AI Development Lead | Full-Stack Architect | Generative AI Specialist<br>
+        <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> | +57 305 420 6139 | <a href="https://juanjaramillo.tech">juanjaramillo.tech</a>
+    </div>
+
+</body>
+</html>
+"""
+
+# Save and compile
+import os
+working_dir = "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts"
+resume_path = os.path.join(working_dir, "Juan_Jaramillo_Master_Resume.pdf")
+cover_letter_path = os.path.join(working_dir, "Juan_Jaramillo_Master_Cover_Letter.pdf")
+
+success_resume = generate_pdf(resume_html, resume_path)
+success_cl = generate_pdf(cover_letter_html, cover_letter_path)
+
+if success_resume and success_cl:
+    print("SUCCESS")
+else:
+    print("FAILED")
+    sys.exit(1)
+
+--------
+
+--- Executing blocking command at Wed Jul  8 18:22:09 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_pdfs.py
 --- Output ---
-total 744
-drwxr-xr-x@ 13 macbookpro  staff     416 Jul  8 18:06 .
+/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_pdfs.py", line 552, in <module>
+    success_resume = generate_pdf(resume_html, resume_path)
+  File "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_pdfs.py", line 6, in generate_pdf
+    pisa_status = pisa.CreatePDF(html_content, dest=f)
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/xhtml2pdf/document.py", line 139, in pisaDocument
+    context = pisaStory(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/xhtml2pdf/document.py", line 75, in pisaStory
+    pisaParser(src, context, default_css, xhtml, encoding, xml_output)
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/xhtml2pdf/parser.py", line 823, in pisaParser
+    context.parseCSS()
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/xhtml2pdf/context.py", line 690, in parseCSS
+    self.css = self.cssParser.parse(self.cssText)
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/xhtml2pdf/w3c/cssParser.py", line 458, in parse
+    src, stylesheet = self._parseStylesheet(src)
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/xhtml2pdf/w3c/cssParser.py", line 561, in _parseStylesheet
+    src, atResults = self._parseAtKeyword(src)
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/xhtml2pdf/w3c/cssParser.py", line 683, in _parseAtKeyword
+    src, result = self._parseAtPage(src)
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/xhtml2pdf/w3c/cssParser.py", line 793, in _parseAtPage
+    stylesheetElements.extend(atResults)
+TypeError: 'NotImplementedType' object is not iterable
+
+
+
+--- Executing blocking command at Wed Jul  8 18:22:16 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 -c "
+from xhtml2pdf import pisa
+html = '''
+<html>
+<head>
+<style>
+    @page {
+        size: letter;
+        margin: 16mm;
+    }
+</style>
+</head>
+<body><h1>Hello World</h1></body>
+</html>
+'''
+with open('test_output.pdf', 'wb') as f:
+    pisa_status = pisa.CreatePDF(html, dest=f)
+print('Error status:', pisa_status.err)
+"
+--- Output ---
+/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Error status: 0
+
+
+
+--- Writing content to file at Wed Jul  8 18:22:50 2026 ---
+> /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_pdfs.py
+
+-------- 
+import sys
+import os
+from xhtml2pdf import pisa
+
+def generate_pdf(html_content, output_filename):
+    with open(output_filename, "wb") as f:
+        pisa_status = pisa.CreatePDF(html_content, dest=f)
+    if pisa_status.err:
+        print(f"Error generating {output_filename}")
+        return False
+    else:
+        print(f"Successfully generated {output_filename}")
+        return True
+
+# HTML content for Resume
+resume_html = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Juan Miguel Jaramillo Gaviria - Master Resume</title>
+<style>
+    @page {
+        size: letter;
+        margin: 15mm;
+    }
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #2d3748;
+        line-height: 1.4;
+        font-size: 9.5pt;
+    }
+    a {
+        color: #1e3a8a;
+        text-decoration: none;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 12px;
+        border-bottom: 2px solid #1e3a8a;
+        padding-bottom: 8px;
+    }
+    .name {
+        font-size: 24pt;
+        font-weight: bold;
+        color: #1a202c;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+    }
+    .tagline {
+        font-size: 11pt;
+        font-weight: bold;
+        color: #1e3a8a;
+        margin: 4px 0 6px 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .contact-info {
+        font-size: 9pt;
+        color: #4a5568;
+        margin: 4px 0 0 0;
+    }
+    .contact-info a {
+        color: #1e3a8a;
+    }
+    .contact-sep {
+        color: #cbd5e1;
+        margin: 0 6px;
+    }
+    h2 {
+        font-size: 12pt;
+        color: #1e3a8a;
+        border-bottom: 1px solid #cbd5e1;
+        padding-bottom: 2px;
+        margin-top: 14px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+    .summary-text {
+        text-align: justify;
+        margin-bottom: 8px;
+        font-size: 9.5pt;
+    }
+    /* Skills Table Grid */
+    .skills-table {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .skills-table td {
+        width: 50%;
+        vertical-align: top;
+        padding: 2px 10px 4px 0;
+    }
+    .skills-category {
+        font-size: 9pt;
+        margin-bottom: 2px;
+    }
+    .skills-category-title {
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .skills-items {
+        color: #4a5568;
+    }
+    /* Experience section */
+    .entry {
+        margin-bottom: 12px;
+    }
+    .entry-header-table {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    .entry-header-table td {
+        padding: 0;
+        vertical-align: top;
+    }
+    .job-title {
+        font-size: 10pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .company {
+        font-size: 10pt;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+    .date-location {
+        font-size: 9pt;
+        color: #4a5568;
+        text-align: right;
+        font-style: italic;
+    }
+    .focus-text {
+        font-size: 8.5pt;
+        color: #718096;
+        margin-bottom: 4px;
+        font-style: italic;
+    }
+    .entry-bullets {
+        margin: 0;
+        padding-left: 15px;
+    }
+    .entry-bullets li {
+        margin-bottom: 3px;
+        text-align: justify;
+        font-size: 9pt;
+    }
+    .education-table {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .education-table td {
+        padding: 4px 0;
+        vertical-align: top;
+    }
+    .degree-title {
+        font-size: 9.5pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .institution-name {
+        font-size: 9.5pt;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+    .edu-meta {
+        font-size: 8.5pt;
+        color: #4a5568;
+        text-align: right;
+        font-style: italic;
+    }
+    .edu-focus {
+        font-size: 8.5pt;
+        color: #4a5568;
+        margin-top: 2px;
+    }
+    .portfolio-box {
+        text-align: center;
+        background-color: #f8fafc;
+        border: 1px solid #e2e8f0;
+        padding: 8px;
+        margin-top: 10px;
+        font-size: 9.5pt;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="name">Juan Miguel Jaramillo Gaviria</div>
+        <div class="tagline">AI-Native Full-Stack Architect | AI Development Lead | Tech Entrepreneur</div>
+        <div class="contact-info">
+            Bogotá, Colombia <span class="contact-sep">|</span> 
+            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            +57 305 420 6139 <span class="contact-sep">|</span> 
+            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
+        </div>
+    </div>
+
+    <h2>Professional Summary</h2>
+    <div class="summary-text">
+        Enterprise AI Development Lead and Full-Stack Architect with over 17 years of leadership experience spanning digital transformation, software engineering, and technology entrepreneurship. Expert in designing and deploying production-grade generative AI systems, orchestrating multi-agent frameworks, executing LLM fine-tuning (PEFT, RLHF), and managing hallucination risk. Highly proficient across Next.js 15/16, React 19, TypeScript, Python, and cloud-native architectures on Google Cloud Platform. Well before generative AI reshaped the global tech landscape, founded and scaled multiple successful digital and technology ventures. A pioneer in combining modern legacy-modernization expertise (CMS/WordPress) with AI-assisted high-velocity coding workflows.
+    </div>
+
+    <h2>Core Proficiencies & Technical Expertise</h2>
+    <table class="skills-table">
+        <tr>
+            <td>
+                <div class="skills-category">
+                    <span class="skills-category-title">AI & Machine Learning:</span>
+                    <span class="skills-items">LLM Fine-Tuning (PEFT, RLHF), Advanced Prompt Engineering, Hallucination Risk Mitigation, Prompt Versioning (Git Flow), RAG Pipelines, Vector Databases.</span>
+                </div>
+                <div class="skills-category" style="margin-top: 4px;">
+                    <span class="skills-category-title">AI Frameworks & Tools:</span>
+                    <span class="skills-items">LangChain, LangGraph, CrewAI, Vertex AI Agent-to-Agent (A2A), n8n Workflow Automation, Gemini 2.5 Flash, Cursor AI IDE workflows.</span>
+                </div>
+            </td>
+            <td>
+                <div class="skills-category">
+                    <span class="skills-category-title">Full-Stack Software Engineering:</span>
+                    <span class="skills-items">TypeScript, JavaScript, ReactJS/React 19 (App Router), Next.js 15/16, Astro 5, Node.js, Python, SQL, WordPress Legacy Architecture (15+ years).</span>
+                </div>
+                <div class="skills-category" style="margin-top: 4px;">
+                    <span class="skills-category-title">Cloud & Infrastructure:</span>
+                    <span class="skills-items">Google Cloud Platform (Cloud Run, Cloud Armor, BigQuery, Compute Engine, DNS), Supabase, PostgreSQL, Docker, Vercel, PM2, Git.</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Professional Experience</h2>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">AI Development Lead</span> <span class="company">- TopNetworks Inc.</span></td>
+                <td class="date-location">Feb 2025 – Jun 2026 | Remote / Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <div class="focus-text">Key Focus: Prompt Engineering, Hallucination Risk Management, GenAI Prompt Versioning with Git Flow, High-velocity AI-Native Development Workflows</div>
+        <ul class="entry-bullets">
+            <li>Spearheaded AI engineering strategy and full-stack architecture for high-performance publishing platforms serving markets across the US, UK, Mexico, and Latin America.</li>
+            <li>Designed, built, and launched a core proprietary internal SaaS ecosystem leveraging rapid, spec-first, AI-native workflows (such as Cursor, agentic coding, and advanced prompt-driven rapid iteration):
+                <ul>
+                    <li><strong>EmailGenius:</strong> Scalable, high-throughput AI email generation engine engineered with Vertex AI and PostgreSQL.</li>
+                    <li><strong>TrafficGenius:</strong> Real-time invalid traffic detection and security intelligence platform utilizing BigQuery and Cloud Armor.</li>
+                    <li><strong>RouteGenius:</strong> High-concurrency probabilistic traffic routing distribution engine built on Supabase, featuring multi-agent workflow integration in n8n via webhooks to automate traffic optimization.</li>
+                    <li><strong>Social Media Genius:</strong> AI-driven social content generation application featuring a custom interactive canvas editor.</li>
+                </ul>
+            </li>
+            <li>Managed prompt versioning via Git Flow, structured hallucination risk frameworks, and deployed all services using Next.js 15/16, TypeScript, React 19, Astro 5, Tailwind v4, and Gemini 2.5 Flash on GCP.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Prompt Engineer & AI Consultant</span> <span class="company">- Juan Jaramillo (Independent Practice)</span></td>
+                <td class="date-location">Nov 2022 – Present | Remote & On-Site</td>
+            </tr>
+        </table>
+        <div class="focus-text">Key Focus: Prompt Engineering & Optimization, LLM Fundamentals, Hallucination Mitigation, UI/UX Design workflows</div>
+        <ul class="entry-bullets">
+            <li>Deliver specialized technical consulting on generative AI architecture, prompt engineering optimization, and custom LLM integrations for mid-market and enterprise clients, including the <strong>Telefónica Movistar Foundation</strong>, <strong>Universidad Francisco Marroquín (Guatemala)</strong>, and <strong>Wundermann Thompson Miami</strong>.</li>
+            <li>Architect and build front-end and back-end environments for custom AI applications while directly managing UI/UX design workflows.</li>
+            <li>Achieved documented client outcomes including up to a <strong>46% increase in operational productivity</strong> and a <strong>66% reduction in monthly infrastructure</strong> and operational overhead.</li>
+        </ul>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Director of Innovation</span> <span class="company">- TRADEBOG S.A.S.</span></td>
+                <td class="date-location">Dec 2020 – Jun 2023 | Bogotá, Colombia (On-Site)</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Oversaw full-stack development, UI/UX systems, and technical product direction for Colombia’s leading dropshipping and e-commerce platform.</li>
+            <li>Designed and optimized complex digital advertising architectures, social media acquisition pipelines, and transactional backend workflows.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Operations Director</span> <span class="company">- FreshWorks | Ideas Frescas</span></td>
+                <td class="date-location">May 2014 – Jun 2023 | Mexico, Colombia, Spain</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Managed technical delivery, web architecture, and custom WordPress development for enterprise brands including <strong>Grupo Herdez</strong> and <strong>El Corte Inglés</strong>.</li>
+            <li>Led cross-functional teams across three countries, managing digital product design, UI/UX engineering, and client transformation roadmaps.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Project Director</span> <span class="company">- 2W Agencia Digital</span></td>
+                <td class="date-location">Nov 2012 – Jan 2014 | Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Digital project director, key accounts director, digital strategist, and digital marketing specialist.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Project Manager</span> <span class="company">- La Quinta P Digital Agency</span></td>
+                <td class="date-location">Aug 2009 – Oct 2012 | Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Digital project director, digital marketing specialist, web designer, and custom WordPress developer.</li>
+        </ul>
+    </div>
+
+    <h2>Education & Certifications</h2>
+    <table class="education-table">
+        <tr>
+            <td>
+                <span class="degree-title">Generative AI for Business: Driving Growth and Competitive Advantage</span><br>
+                <span class="institution-name">University of Toronto</span><br>
+                <span class="edu-focus">Focus: AI strategy, innovation, ethics, decision-making, governance, and organizational transformation, with case studies from major companies like Goldman Sachs, Pfizer, and Citibank.</span>
+            </td>
+            <td class="edu-meta">Dec 2022 – Feb 2023<br>Certified Diploma (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Prompt Engineer with Emphasis on ChatGPT</span><br>
+                <span class="institution-name">Platzi</span><br>
+                <span class="edu-focus">Focus: Advanced prompt structures, extension and plugin integrations, business use cases, and ethical LLM constraints.</span>
+            </td>
+            <td class="edu-meta">Feb 2023 – Apr 2023<br>Certified Course (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Social Network Analysis: Digital Communication & Contents</span><br>
+                <span class="institution-name">University of Michigan</span><br>
+                <span class="edu-focus">Skills: Digital Marketing, Content Strategy.</span>
+            </td>
+            <td class="edu-meta">Sep 2013 – Dec 2013<br>Certified Course (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Bachelor's Degree in Advertising and Marketing</span><br>
+                <span class="institution-name">Universidad Central</span><br>
+                <span class="edu-focus">Focus: Creative direction, art direction, copywriting strategy, and campaign design.</span>
+            </td>
+            <td class="edu-meta">Feb 2002 – Nov 2007<br>Professional Degree (On-Site)</td>
+        </tr>
+    </table>
+
+    <h2>Languages & Interests</h2>
+    <div style="font-size: 9.5pt; margin-bottom: 4px;">
+        <strong>Languages:</strong> Spanish (Native) <span class="contact-sep">|</span> English (Full Professional & Technical Proficiency)
+    </div>
+    <div style="font-size: 9.5pt;">
+        <strong>Interests:</strong> Golf, Reading, Film, Music, Blogging, Writing, Technical Consulting, and Teaching.
+    </div>
+
+    <div class="portfolio-box">
+        To view my full portfolio of work, featured projects, case studies, and services, please visit:<br>
+        <strong><a href="https://juanjaramillo.tech">juanjaramillo.tech</a></strong>
+    </div>
+
+</body>
+</html>
+"""
+
+# HTML content for Cover Letter
+cover_letter_html = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Juan Miguel Jaramillo Gaviria - Master Cover Letter</title>
+<style>
+    @page {
+        size: letter;
+        margin: 20mm;
+    }
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #2d3748;
+        line-height: 1.45;
+        font-size: 10pt;
+    }
+    a {
+        color: #1e3a8a;
+        text-decoration: none;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 18px;
+        border-bottom: 2px solid #1e3a8a;
+        padding-bottom: 10px;
+    }
+    .name {
+        font-size: 22pt;
+        font-weight: bold;
+        color: #1a202c;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+    }
+    .tagline {
+        font-size: 10.5pt;
+        font-weight: bold;
+        color: #1e3a8a;
+        margin: 4px 0 6px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .contact-info {
+        font-size: 8.5pt;
+        color: #4a5568;
+        margin: 4px 0 0 0;
+        line-height: 1.4;
+    }
+    .contact-info a {
+        color: #1e3a8a;
+    }
+    .contact-sep {
+        color: #cbd5e1;
+        margin: 0 5px;
+    }
+    .letter-date {
+        margin-bottom: 14px;
+        font-size: 10pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .recipient {
+        margin-bottom: 18px;
+        font-size: 10pt;
+        line-height: 1.4;
+    }
+    .salutation {
+        margin-bottom: 12px;
+        font-weight: bold;
+    }
+    p {
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    .section-title {
+        font-weight: bold;
+        color: #1e3a8a;
+        margin-top: 14px;
+        margin-bottom: 6px;
+        font-size: 10.5pt;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        border-left: 3px solid #1e3a8a;
+        padding-left: 8px;
+    }
+    .closing {
+        margin-top: 18px;
+        margin-bottom: 24px;
+    }
+    .signature-block {
+        line-height: 1.4;
+    }
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="name">Juan Miguel Jaramillo Gaviria</div>
+        <div class="tagline">AI-Native Full-Stack Architect | AI Development Lead | Tech Entrepreneur</div>
+        <div class="contact-info">
+            Bogotá, Colombia <span class="contact-sep">|</span> 
+            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            +57 305 420 6139 <span class="contact-sep">|</span> 
+            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="letter-date">July 8, 2026</div>
+
+    <div class="recipient">
+        <strong>To:</strong> Hiring Team / Talent Acquisition<br>
+        <strong>Re:</strong> Application for AI Engineering Leadership / Full-Stack Architect Role
+    </div>
+
+    <div class="salutation">Dear Hiring Team,</div>
+
+    <p>I am writing to express my strong interest in joining your team as an AI Engineering leader. Bringing over 17 years of technical execution and entrepreneurial leadership, I specialize in navigating the space between abstract generative AI concepts and scalable, production-grade architectures. I offer your organization a rare combination of strategic vision and full-stack engineering depth.</p>
+
+    <div class="section-title">A Career Built Around AI-Native Thinking</div>
+    <p>My career has been defined by an early adoption of emerging technology paradigms. Well before generative AI reshaped the global tech landscape, I founded and scaled multiple successful digital and technology ventures—including LaQuintaP, FreshWorks Digital Agency across Europe and LATAM, and TRADEBOG, an industry-leading dropshipping platform in Colombia. This deep entrepreneurial foundation ensures that every AI system I architect is engineered to solve a concrete business problem and drive measurable bottom-line value.</p>
+
+    <div class="section-title">Deep, Production-Proven AI Expertise</div>
+    <p>Since 2022, I have focused exclusively on enterprise-grade generative AI development, LLM fine-tuning (PEFT, RLHF), advanced prompt engineering, and agentic product design. As the AI Development Lead for TopNetworks Inc., I personally designed, built, and shipped a highly profitable internal SaaS ecosystem:
+        <strong>EmailGenius</strong> (high-throughput AI email generation utilizing Vertex AI and PostgreSQL),
+        <strong>TrafficGenius</strong> (real-time invalid traffic detection using Google BigQuery and Cloud Armor),
+        <strong>RouteGenius</strong> (probabilistic web traffic distribution running on Supabase infrastructure), and
+        <strong>Social Media Genius</strong> (an AI-native social content generator complete with an interactive canvas editor).
+        These systems are not experimental prototypes; they are highly scalable, revenue-generating platforms built on Next.js 15/16, React 19, Astro 5, TypeScript, and the Gemini 2.5 Flash model deployed on Google Cloud Platform.
+    </p>
+
+    <div class="section-title">Advisory Reach and Measurable Impact</div>
+    <p>Beyond internal product execution, my technical advisory work for organizations like the Telefónica Movistar Foundation, Universidad Francisco Marroquín, and Wundermann Thompson Miami has delivered definitive operational impacts. My AI implementations have consistently driven up to a 46% increase in team productivity while securing up to a 66% reduction in monthly infrastructure and operational costs.</p>
+
+    <div class="section-title">Advanced Tooling and Agentic Systems</div>
+    <p>I possess advanced, production-proven mastery of LangChain, LangGraph, CrewAI, and Vertex AI Agent-to-Agent (A2A) frameworks. Backed by academic credentials in generative AI strategy and ethics from the University of Toronto and applied prompt engineering from Platzi, I write clean, production-grade code across Python, JavaScript/TypeScript, and SQL.</p>
+
+    <p>I view artificial intelligence not as a human replacement, but as an exponential leverage tool. I am eager to bring this exact philosophy, along with my full-stack execution capabilities, to your organization. Thank you for your time and consideration; I welcome the opportunity for a technical interview.</p>
+
+    <div class="closing">
+        Warm regards,
+    </div>
+
+    <div class="signature-block">
+        <strong>Juan Miguel Jaramillo Gaviria</strong><br>
+        AI Development Lead | Full-Stack Architect | Generative AI Specialist<br>
+        <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> | +57 305 420 6139 | <a href="https://juanjaramillo.tech">juanjaramillo.tech</a>
+    </div>
+
+</body>
+</html>
+"""
+
+# Save and compile
+working_dir = "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts"
+resume_path = os.path.join(working_dir, "Juan_Jaramillo_Master_Resume.pdf")
+cover_letter_path = os.path.join(working_dir, "Juan_Jaramillo_Master_Cover_Letter.pdf")
+
+success_resume = generate_pdf(resume_html, resume_path)
+success_cl = generate_pdf(cover_letter_html, cover_letter_path)
+
+if success_resume and success_cl:
+    print("SUCCESS")
+else:
+    print("FAILED")
+    sys.exit(1)
+
+--------
+
+--- Executing blocking command at Wed Jul  8 18:22:50 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_pdfs.py
+--- Output ---
+/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Successfully generated /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf
+Successfully generated /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Cover_Letter.pdf
+SUCCESS
+
+
+
+--- Executing blocking command at Wed Jul  8 18:22:58 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && ls -lh /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/*.pdf
+--- Output ---
+-rw-r--r--@ 1 macbookpro  staff   6.5K Jul  8 18:22 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Cover_Letter.pdf
+-rw-r--r--@ 1 macbookpro  staff    11K Jul  8 18:22 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf
+-rw-r--r--@ 1 macbookpro  staff   194K Jul  6 17:44 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/juan-jaramillo-resume.pdf
+-rw-r--r--@ 1 macbookpro  staff   115K Jul  7 12:22 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/loom-video-script.pdf
+-rw-r--r--@ 1 macbookpro  staff   1.7K Jul  8 18:22 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/test_output.pdf
+
+
+
+--- Executing blocking command at Wed Jul  8 18:23:04 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && pdftoppm -png -r 150 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/resume_page
+--- Output ---
+/bin/sh: pdftoppm: command not found
+
+
+
+--- Executing blocking command at Wed Jul  8 18:23:04 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && pdftoppm -png -r 150 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Cover_Letter.pdf /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/cover_letter_page
+--- Output ---
+/bin/sh: pdftoppm: command not found
+
+
+
+--- Executing blocking command at Wed Jul  8 18:23:08 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 -c "
+import pypdf
+for name in ['Juan_Jaramillo_Master_Resume.pdf', 'Juan_Jaramillo_Master_Cover_Letter.pdf']:
+    reader = pypdf.PdfReader('/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/' + name)
+    print(name, 'has', len(reader.pages), 'pages')
+    for i, page in enumerate(reader.pages):
+        text = page.extract_text()
+        print('  Page', i+1, 'has', len(text), 'chars')
+"
+--- Output ---
+Juan_Jaramillo_Master_Resume.pdf has 3 pages
+  Page 1 has 3583 chars
+  Page 2 has 302 chars
+  Page 3 has 2425 chars
+Juan_Jaramillo_Master_Cover_Letter.pdf has 2 pages
+  Page 1 has 2924 chars
+  Page 2 has 638 chars
+
+
+
+--- Executing blocking command at Wed Jul  8 18:23:14 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 -c "
+import pypdf
+reader = pypdf.PdfReader('/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf')
+for i, page in enumerate(reader.pages):
+    print(f'=== PAGE {i+1} ===')
+    print(page.extract_text()[:400])
+"
+--- Output ---
+=== PAGE 1 ===
+Juan Miguel Jaramillo Gaviria
+ AI-Native Full-Stack Architect | AI Development Lead | Tech Entrepreneur
+ Bogotá, Colombia | info@juanjaramillo.tech | +57 305 420 6139 | juanjaramillo.tech | LinkedIn
+Professional Summary
+Enterprise AI Development Lead and Full-Stack Architect with over 17 years of leadership experience spanning digital
+transformation, software engineering, and technology entreprene
+=== PAGE 2 ===
+ Architect and build front-end and back-end environments for custom AI applications while directly managing UI/UX design
+workflows.
+ Achieved documented client outcomes including up to a 46% increase in operational productivity and a 66% reduction in
+monthly infrastructure and operational overhead.
+
+=== PAGE 3 ===
+Co-founder & Director of Innovation - TRADEBOG
+S.A.S.
+ Dec 2020 – Jun 2023 | Bogotá, Colombia (On-Site)
+ Oversaw full-stack development, UI/UX systems, and technical product direction for Colombia’s leading dropshipping and
+e-commerce platform.
+ Designed and optimized complex digital advertising architectures, social media acquisition pipelines, and transactional
+backend workflows.
+Co-founder & 
+
+
+
+--- Writing content to file at Wed Jul  8 18:23:50 2026 ---
+> /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_pdfs.py
+
+-------- 
+import sys
+import os
+import pypdf
+from xhtml2pdf import pisa
+
+def generate_pdf(html_content, output_filename):
+    with open(output_filename, "wb") as f:
+        pisa_status = pisa.CreatePDF(html_content, dest=f)
+    if pisa_status.err:
+        return False
+    return True
+
+working_dir = "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts"
+
+# Optimized Resume HTML (targeting exactly 2 pages)
+resume_html = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Juan Miguel Jaramillo Gaviria - Master Resume</title>
+<style>
+    @page {
+        size: letter;
+        margin: 10mm 12mm 10mm 12mm;
+    }
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #2d3748;
+        line-height: 1.3;
+        font-size: 8.5pt;
+    }
+    a {
+        color: #1e3a8a;
+        text-decoration: none;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 6px;
+        border-bottom: 1.5px solid #1e3a8a;
+        padding-bottom: 4px;
+    }
+    .name {
+        font-size: 18pt;
+        font-weight: bold;
+        color: #1a202c;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+    }
+    .tagline {
+        font-size: 9.5pt;
+        font-weight: bold;
+        color: #1e3a8a;
+        margin: 2px 0 3px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .contact-info {
+        font-size: 8pt;
+        color: #4a5568;
+        margin: 2px 0 0 0;
+    }
+    .contact-sep {
+        color: #cbd5e1;
+        margin: 0 4px;
+    }
+    h2 {
+        font-size: 10pt;
+        color: #1e3a8a;
+        border-bottom: 1px solid #cbd5e1;
+        padding-bottom: 1px;
+        margin-top: 8px;
+        margin-bottom: 4px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+    .summary-text {
+        text-align: justify;
+        margin-bottom: 4px;
+        font-size: 8.5pt;
+    }
+    /* Skills Table Grid */
+    .skills-table {
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .skills-table td {
+        width: 50%;
+        vertical-align: top;
+        padding: 1px 6px 2px 0;
+    }
+    .skills-category {
+        font-size: 8pt;
+        margin-bottom: 1px;
+    }
+    .skills-category-title {
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .skills-items {
+        color: #4a5568;
+    }
+    /* Experience section */
+    .entry {
+        margin-bottom: 6px;
+    }
+    .entry-header-table {
+        width: 100%;
+        margin-bottom: 1px;
+    }
+    .entry-header-table td {
+        padding: 0;
+        vertical-align: top;
+    }
+    .job-title {
+        font-size: 9pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .company {
+        font-size: 9pt;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+    .date-location {
+        font-size: 8pt;
+        color: #4a5568;
+        text-align: right;
+        font-style: italic;
+    }
+    .focus-text {
+        font-size: 8pt;
+        color: #718096;
+        margin-bottom: 2px;
+        font-style: italic;
+    }
+    .entry-bullets {
+        margin: 0;
+        padding-left: 12px;
+    }
+    .entry-bullets li {
+        margin-bottom: 2px;
+        text-align: justify;
+        font-size: 8.2pt;
+    }
+    .education-table {
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .education-table td {
+        padding: 2px 0;
+        vertical-align: top;
+    }
+    .degree-title {
+        font-size: 8.5pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .institution-name {
+        font-size: 8.5pt;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+    .edu-meta {
+        font-size: 8pt;
+        color: #4a5568;
+        text-align: right;
+        font-style: italic;
+    }
+    .edu-focus {
+        font-size: 8pt;
+        color: #4a5568;
+        margin-top: 1px;
+    }
+    .portfolio-box {
+        text-align: center;
+        background-color: #f8fafc;
+        border: 1px solid #e2e8f0;
+        padding: 4px;
+        margin-top: 6px;
+        font-size: 8.5pt;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="name">Juan Miguel Jaramillo Gaviria</div>
+        <div class="tagline">AI-Native Full-Stack Architect | AI Development Lead | Tech Entrepreneur</div>
+        <div class="contact-info">
+            Bogotá, Colombia <span class="contact-sep">|</span> 
+            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            +57 305 420 6139 <span class="contact-sep">|</span> 
+            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
+        </div>
+    </div>
+
+    <h2>Professional Summary</h2>
+    <div class="summary-text">
+        Enterprise AI Development Lead and Full-Stack Architect with over 17 years of leadership experience spanning digital transformation, software engineering, and technology entrepreneurship. Expert in designing and deploying production-grade generative AI systems, orchestrating multi-agent frameworks, executing LLM fine-tuning (PEFT, RLHF), and managing hallucination risk. Highly proficient across Next.js 15/16, React 19, TypeScript, Python, and cloud-native architectures on Google Cloud Platform. Well before generative AI reshaped the global tech landscape, founded and scaled multiple successful digital and technology ventures. A pioneer in combining modern legacy-modernization expertise (CMS/WordPress) with AI-assisted high-velocity coding workflows.
+    </div>
+
+    <h2>Core Proficiencies & Technical Expertise</h2>
+    <table class="skills-table">
+        <tr>
+            <td>
+                <div class="skills-category">
+                    <span class="skills-category-title">AI & Machine Learning:</span>
+                    <span class="skills-items">LLM Fine-Tuning (PEFT, RLHF), Advanced Prompt Engineering, Hallucination Risk Mitigation, Prompt Versioning (Git Flow), RAG Pipelines, Vector Databases.</span>
+                </div>
+                <div class="skills-category" style="margin-top: 2px;">
+                    <span class="skills-category-title">AI Frameworks & Tools:</span>
+                    <span class="skills-items">LangChain, LangGraph, CrewAI, Vertex AI Agent-to-Agent (A2A), n8n Workflow Automation, Gemini 2.5 Flash, Cursor AI IDE.</span>
+                </div>
+            </td>
+            <td>
+                <div class="skills-category">
+                    <span class="skills-category-title">Full-Stack Software Engineering:</span>
+                    <span class="skills-items">TypeScript, JavaScript, ReactJS/React 19, Next.js 15/16, Astro 5, Node.js, Python, SQL, WordPress Legacy Architecture (15+ years).</span>
+                </div>
+                <div class="skills-category" style="margin-top: 2px;">
+                    <span class="skills-category-title">Cloud & Infrastructure:</span>
+                    <span class="skills-items">Google Cloud Platform (Cloud Run, Cloud Armor, BigQuery, Compute), Supabase, PostgreSQL, Docker, Vercel, PM2, Git.</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Professional Experience</h2>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">AI Development Lead</span> <span class="company">- TopNetworks Inc.</span></td>
+                <td class="date-location">Feb 2025 – Jun 2026 | Remote / Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <div class="focus-text">Key Focus: Prompt Engineering, Hallucination Risk Management, GenAI Prompt Versioning with Git Flow, High-velocity AI-Native Workflows</div>
+        <ul class="entry-bullets">
+            <li>Spearheaded AI engineering strategy and full-stack architecture for high-performance publishing platforms serving markets across the US, UK, Mexico, and Latin America.</li>
+            <li>Designed, built, and launched a core proprietary internal SaaS ecosystem leveraging rapid, spec-first, AI-native workflows (such as Cursor, agentic coding, and advanced prompt-driven rapid iteration):
+                <ul>
+                    <li><strong>EmailGenius:</strong> Scalable, high-throughput AI email generation engine engineered with Vertex AI and PostgreSQL.</li>
+                    <li><strong>TrafficGenius:</strong> Real-time invalid traffic detection and security intelligence platform utilizing BigQuery and Cloud Armor.</li>
+                    <li><strong>RouteGenius:</strong> High-concurrency probabilistic traffic routing distribution engine built on Supabase, featuring multi-agent workflow integration in n8n via webhooks to automate traffic optimization.</li>
+                    <li><strong>Social Media Genius:</strong> AI-driven social content generation application featuring a custom interactive canvas editor.</li>
+                </ul>
+            </li>
+            <li>Managed prompt versioning via Git Flow, structured hallucination risk frameworks, and deployed all services using Next.js 15/16, TypeScript, React 19, Astro 5, Tailwind v4, and Gemini 2.5 Flash on GCP.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Prompt Engineer & AI Consultant</span> <span class="company">- Juan Jaramillo (Independent Practice)</span></td>
+                <td class="date-location">Nov 2022 – Present | Remote & On-Site</td>
+            </tr>
+        </table>
+        <div class="focus-text">Key Focus: Prompt Engineering & Optimization, LLM Fundamentals, Hallucination Mitigation, UI/UX Design workflows</div>
+        <ul class="entry-bullets">
+            <li>Deliver specialized technical consulting on generative AI architecture, prompt engineering optimization, and custom LLM integrations for mid-market and enterprise clients, including the <strong>Telefónica Movistar Foundation</strong>, <strong>Universidad Francisco Marroquín (Guatemala)</strong>, and <strong>Wundermann Thompson Miami</strong>.</li>
+            <li>Architect and build front-end and back-end environments for custom AI applications while directly managing UI/UX design workflows.</li>
+            <li>Achieved documented client outcomes including up to a <strong>46% increase in operational productivity</strong> and a <strong>66% reduction in monthly infrastructure</strong> and operational overhead.</li>
+        </ul>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Director of Innovation</span> <span class="company">- TRADEBOG S.A.S.</span></td>
+                <td class="date-location">Dec 2020 – Jun 2023 | Bogotá, Colombia (On-Site)</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Oversaw full-stack development, UI/UX systems, and technical product direction for Colombia’s leading dropshipping and e-commerce platform.</li>
+            <li>Designed and optimized complex digital advertising architectures, social media acquisition pipelines, and transactional backend workflows.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Operations Director</span> <span class="company">- FreshWorks | Ideas Frescas</span></td>
+                <td class="date-location">May 2014 – Jun 2023 | Mexico, Colombia, Spain</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Managed technical delivery, web architecture, and custom WordPress development for enterprise brands including <strong>Grupo Herdez</strong> and <strong>El Corte Inglés</strong>.</li>
+            <li>Led cross-functional teams across three countries, managing digital product design, UI/UX engineering, and client transformation roadmaps.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Project Director</span> <span class="company">- 2W Agencia Digital</span></td>
+                <td class="date-location">Nov 2012 – Jan 2014 | Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Digital project director, key accounts director, digital strategist, and digital marketing specialist.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Project Manager</span> <span class="company">- La Quinta P Digital Agency</span></td>
+                <td class="date-location">Aug 2009 – Oct 2012 | Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Digital project director, digital marketing specialist, web designer, and custom WordPress developer.</li>
+        </ul>
+    </div>
+
+    <h2>Education & Certifications</h2>
+    <table class="education-table">
+        <tr>
+            <td>
+                <span class="degree-title">Generative AI for Business: Driving Growth and Competitive Advantage</span><br>
+                <span class="institution-name">University of Toronto</span><br>
+                <span class="edu-focus">Focus: AI strategy, innovation, ethics, decision-making, governance, and organizational transformation, with case studies from major companies.</span>
+            </td>
+            <td class="edu-meta">Dec 2022 – Feb 2023<br>Certified Diploma (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Prompt Engineer with Emphasis on ChatGPT</span><br>
+                <span class="institution-name">Platzi</span><br>
+                <span class="edu-focus">Focus: Advanced prompt structures, extension and plugin integrations, business use cases, and ethical LLM constraints.</span>
+            </td>
+            <td class="edu-meta">Feb 2023 – Apr 2023<br>Certified Course (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Social Network Analysis: Digital Communication & Contents</span><br>
+                <span class="institution-name">University of Michigan</span><br>
+                <span class="edu-focus">Skills: Digital Marketing, Content Strategy.</span>
+            </td>
+            <td class="edu-meta">Sep 2013 – Dec 2013<br>Certified Course (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Bachelor's Degree in Advertising and Marketing</span><br>
+                <span class="institution-name">Universidad Central</span><br>
+                <span class="edu-focus">Focus: Creative direction, art direction, copywriting strategy, and campaign design.</span>
+            </td>
+            <td class="edu-meta">Feb 2002 – Nov 2007<br>Professional Degree (On-Site)</td>
+        </tr>
+    </table>
+
+    <h2>Languages & Interests</h2>
+    <div style="font-size: 8pt; margin-bottom: 2px;">
+        <strong>Languages:</strong> Spanish (Native) <span class="contact-sep">|</span> English (Full Professional & Technical Proficiency)
+    </div>
+    <div style="font-size: 8pt;">
+        <strong>Interests:</strong> Golf, Reading, Film, Music, Blogging, Writing, Technical Consulting, and Teaching.
+    </div>
+
+    <div class="portfolio-box">
+        To view my full portfolio of work, featured projects, case studies, and services, please visit:<br>
+        <strong><a href="https://juanjaramillo.tech">juanjaramillo.tech</a></strong>
+    </div>
+
+</body>
+</html>
+"""
+
+# Optimized Cover Letter HTML (targeting exactly 1 page)
+cover_letter_html = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Juan Miguel Jaramillo Gaviria - Master Cover Letter</title>
+<style>
+    @page {
+        size: letter;
+        margin: 10mm 15mm 10mm 15mm;
+    }
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #2d3748;
+        line-height: 1.35;
+        font-size: 8.8pt;
+    }
+    a {
+        color: #1e3a8a;
+        text-decoration: none;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 8px;
+        border-bottom: 1.5px solid #1e3a8a;
+        padding-bottom: 4px;
+    }
+    .name {
+        font-size: 18pt;
+        font-weight: bold;
+        color: #1a202c;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+    }
+    .tagline {
+        font-size: 9.5pt;
+        font-weight: bold;
+        color: #1e3a8a;
+        margin: 2px 0 3px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .contact-info {
+        font-size: 8pt;
+        color: #4a5568;
+        margin: 2px 0 0 0;
+    }
+    .contact-sep {
+        color: #cbd5e1;
+        margin: 0 4px;
+    }
+    .letter-date {
+        margin-bottom: 6px;
+        font-size: 8.8pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .recipient {
+        margin-bottom: 8px;
+        font-size: 8.8pt;
+        line-height: 1.3;
+    }
+    .salutation {
+        margin-bottom: 6px;
+        font-weight: bold;
+    }
+    p {
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+    .section-title {
+        font-weight: bold;
+        color: #1e3a8a;
+        margin-top: 8px;
+        margin-bottom: 3px;
+        font-size: 9pt;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        border-left: 2px solid #1e3a8a;
+        padding-left: 6px;
+    }
+    .closing {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    .signature-block {
+        line-height: 1.3;
+        font-size: 8.5pt;
+    }
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="name">Juan Miguel Jaramillo Gaviria</div>
+        <div class="tagline">AI-Native Full-Stack Architect | AI Development Lead | Tech Entrepreneur</div>
+        <div class="contact-info">
+            Bogotá, Colombia <span class="contact-sep">|</span> 
+            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            +57 305 420 6139 <span class="contact-sep">|</span> 
+            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="letter-date">July 8, 2026</div>
+
+    <div class="recipient">
+        <strong>To:</strong> Hiring Team / Talent Acquisition<br>
+        <strong>Re:</strong> Application for AI Engineering Leadership / Full-Stack Architect Role
+    </div>
+
+    <div class="salutation">Dear Hiring Team,</div>
+
+    <p>I am writing to express my strong interest in joining your team as an AI Engineering leader. Bringing over 17 years of technical execution and entrepreneurial leadership, I specialize in navigating the space between abstract generative AI concepts and scalable, production-grade architectures. I offer your organization a rare combination of strategic vision and full-stack engineering depth.</p>
+
+    <div class="section-title">A Career Built Around AI-Native Thinking</div>
+    <p>My career has been defined by an early adoption of emerging technology paradigms. Well before generative AI reshaped the global tech landscape, I founded and scaled multiple successful digital and technology ventures—including LaQuintaP, FreshWorks Digital Agency across Europe and LATAM, and TRADEBOG, an industry-leading dropshipping platform in Colombia. This deep entrepreneurial foundation ensures that every AI system I architect is engineered to solve a concrete business problem and drive measurable bottom-line value.</p>
+
+    <div class="section-title">Deep, Production-Proven AI Expertise</div>
+    <p>Since 2022, I have focused exclusively on enterprise-grade generative AI development, LLM fine-tuning (PEFT, RLHF), advanced prompt engineering, and agentic product design. As the AI Development Lead for TopNetworks Inc., I personally designed, built, and shipped a highly profitable internal SaaS ecosystem:
+        <strong>EmailGenius</strong> (high-throughput AI email generation utilizing Vertex AI and PostgreSQL),
+        <strong>TrafficGenius</strong> (real-time invalid traffic detection using Google BigQuery and Cloud Armor),
+        <strong>RouteGenius</strong> (probabilistic web traffic distribution running on Supabase infrastructure), and
+        <strong>Social Media Genius</strong> (an AI-native social content generator complete with an interactive canvas editor).
+        These systems are not experimental prototypes; they are highly scalable, revenue-generating platforms built on Next.js 15/16, React 19, Astro 5, TypeScript, and the Gemini 2.5 Flash model deployed on Google Cloud Platform.
+    </p>
+
+    <div class="section-title">Advisory Reach and Measurable Impact</div>
+    <p>Beyond internal product execution, my technical advisory work for organizations like the Telefónica Movistar Foundation, Universidad Francisco Marroquín, and Wundermann Thompson Miami has delivered definitive operational impacts. My AI implementations have consistently driven up to a 46% increase in team productivity while securing up to a 66% reduction in monthly infrastructure and operational costs.</p>
+
+    <div class="section-title">Advanced Tooling and Agentic Systems</div>
+    <p>I possess advanced, production-proven mastery of LangChain, LangGraph, CrewAI, and Vertex AI Agent-to-Agent (A2A) frameworks. Backed by academic credentials in generative AI strategy and ethics from the University of Toronto and applied prompt engineering from Platzi, I write clean, production-grade code across Python, JavaScript/TypeScript, and SQL.</p>
+
+    <p>I view artificial intelligence not as a human replacement, but as an exponential leverage tool. I am eager to bring this exact philosophy, along with my full-stack execution capabilities, to your organization. Thank you for your time and consideration; I welcome the opportunity for a technical interview.</p>
+
+    <div class="closing">
+        Warm regards,
+    </div>
+
+    <div class="signature-block">
+        <strong>Juan Miguel Jaramillo Gaviria</strong><br>
+        AI Development Lead | Full-Stack Architect | Generative AI Specialist<br>
+        <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> | +57 305 420 6139 | <a href="https://juanjaramillo.tech">juanjaramillo.tech</a>
+    </div>
+
+</body>
+</html>
+"""
+
+# Compile and check pages
+resume_path = os.path.join(working_dir, "Juan_Jaramillo_Master_Resume.pdf")
+cover_letter_path = os.path.join(working_dir, "Juan_Jaramillo_Master_Cover_Letter.pdf")
+
+generate_pdf(resume_html, resume_path)
+generate_pdf(cover_letter_html, cover_letter_path)
+
+reader_r = pypdf.PdfReader(resume_path)
+reader_cl = pypdf.PdfReader(cover_letter_path)
+
+print(f"RESUME: {len(reader_r.pages)} pages")
+for i, page in enumerate(reader_r.pages):
+    print(f"  Page {i+1} size: {len(page.extract_text())} chars")
+
+print(f"COVER LETTER: {len(reader_cl.pages)} pages")
+for i, page in enumerate(reader_cl.pages):
+    print(f"  Page {i+1} size: {len(page.extract_text())} chars")
+
+--------
+
+--- Executing blocking command at Wed Jul  8 18:23:50 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_pdfs.py
+--- Output ---
+/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+RESUME: 2 pages
+  Page 1 size: 3838 chars
+  Page 2 size: 2384 chars
+COVER LETTER: 1 pages
+  Page 1 size: 3561 chars
+
+
+
+--- Executing blocking command at Wed Jul  8 18:23:58 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 -c "import os; os.remove('/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/test_output.pdf') if os.path.exists('/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/test_output.pdf') else None"
+--- Output ---
+
+
+
+--- Executing blocking command at Wed Jul  8 18:24:29 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_pdfs.py
+--- Output ---
+import sys
+import os
+import pypdf
+from xhtml2pdf import pisa
+
+def generate_pdf(html_content, output_filename):
+    with open(output_filename, "wb") as f:
+        pisa_status = pisa.CreatePDF(html_content, dest=f)
+    if pisa_status.err:
+        return False
+    return True
+
+working_dir = "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts"
+
+# Optimized Resume HTML (targeting exactly 2 pages)
+resume_html = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Juan Miguel Jaramillo Gaviria - Master Resume</title>
+<style>
+    @page {
+        size: letter;
+        margin: 10mm 12mm 10mm 12mm;
+    }
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #2d3748;
+        line-height: 1.3;
+        font-size: 8.5pt;
+    }
+    a {
+        color: #1e3a8a;
+        text-decoration: none;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 6px;
+        border-bottom: 1.5px solid #1e3a8a;
+        padding-bottom: 4px;
+    }
+    .name {
+        font-size: 18pt;
+        font-weight: bold;
+        color: #1a202c;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+    }
+    .tagline {
+        font-size: 9.5pt;
+        font-weight: bold;
+        color: #1e3a8a;
+        margin: 2px 0 3px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .contact-info {
+        font-size: 8pt;
+        color: #4a5568;
+        margin: 2px 0 0 0;
+    }
+    .contact-sep {
+        color: #cbd5e1;
+        margin: 0 4px;
+    }
+    h2 {
+        font-size: 10pt;
+        color: #1e3a8a;
+        border-bottom: 1px solid #cbd5e1;
+        padding-bottom: 1px;
+        margin-top: 8px;
+        margin-bottom: 4px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+    .summary-text {
+        text-align: justify;
+        margin-bottom: 4px;
+        font-size: 8.5pt;
+    }
+    /* Skills Table Grid */
+    .skills-table {
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .skills-table td {
+        width: 50%;
+        vertical-align: top;
+        padding: 1px 6px 2px 0;
+    }
+    .skills-category {
+        font-size: 8pt;
+        margin-bottom: 1px;
+    }
+    .skills-category-title {
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .skills-items {
+        color: #4a5568;
+    }
+    /* Experience section */
+    .entry {
+        margin-bottom: 6px;
+    }
+    .entry-header-table {
+        width: 100%;
+        margin-bottom: 1px;
+    }
+    .entry-header-table td {
+        padding: 0;
+        vertical-align: top;
+    }
+    .job-title {
+        font-size: 9pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .company {
+        font-size: 9pt;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+    .date-location {
+        font-size: 8pt;
+        color: #4a5568;
+        text-align: right;
+        font-style: italic;
+    }
+    .focus-text {
+        font-size: 8pt;
+        color: #718096;
+        margin-bottom: 2px;
+        font-style: italic;
+    }
+    .entry-bullets {
+        margin: 0;
+        padding-left: 12px;
+    }
+    .entry-bullets li {
+        margin-bottom: 2px;
+        text-align: justify;
+        font-size: 8.2pt;
+    }
+    .education-table {
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .education-table td {
+        padding: 2px 0;
+        vertical-align: top;
+    }
+    .degree-title {
+        font-size: 8.5pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .institution-name {
+        font-size: 8.5pt;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+    .edu-meta {
+        font-size: 8pt;
+        color: #4a5568;
+        text-align: right;
+        font-style: italic;
+    }
+    .edu-focus {
+        font-size: 8pt;
+        color: #4a5568;
+        margin-top: 1px;
+    }
+    .portfolio-box {
+        text-align: center;
+        background-color: #f8fafc;
+        border: 1px solid #e2e8f0;
+        padding: 4px;
+        margin-top: 6px;
+        font-size: 8.5pt;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="name">Juan Miguel Jaramillo Gaviria</div>
+        <div class="tagline">AI-Native Full-Stack Architect | AI Development Lead | Tech Entrepreneur</div>
+        <div class="contact-info">
+            Bogotá, Colombia <span class="contact-sep">|</span> 
+            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            +57 305 420 6139 <span class="contact-sep">|</span> 
+            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
+        </div>
+    </div>
+
+    <h2>Professional Summary</h2>
+    <div class="summary-text">
+        Enterprise AI Development Lead and Full-Stack Architect with over 17 years of leadership experience spanning digital transformation, software engineering, and technology entrepreneurship. Expert in designing and deploying production-grade generative AI systems, orchestrating multi-agent frameworks, executing LLM fine-tuning (PEFT, RLHF), and managing hallucination risk. Highly proficient across Next.js 15/16, React 19, TypeScript, Python, and cloud-native architectures on Google Cloud Platform. Well before generative AI reshaped the global tech landscape, founded and scaled multiple successful digital and technology ventures. A pioneer in combining modern legacy-modernization expertise (CMS/WordPress) with AI-assisted high-velocity coding workflows.
+    </div>
+
+    <h2>Core Proficiencies & Technical Expertise</h2>
+    <table class="skills-table">
+        <tr>
+            <td>
+                <div class="skills-category">
+                    <span class="skills-category-title">AI & Machine Learning:</span>
+                    <span class="skills-items">LLM Fine-Tuning (PEFT, RLHF), Advanced Prompt Engineering, Hallucination Risk Mitigation, Prompt Versioning (Git Flow), RAG Pipelines, Vector Databases.</span>
+                </div>
+                <div class="skills-category" style="margin-top: 2px;">
+                    <span class="skills-category-title">AI Frameworks & Tools:</span>
+                    <span class="skills-items">LangChain, LangGraph, CrewAI, Vertex AI Agent-to-Agent (A2A), n8n Workflow Automation, Gemini 2.5 Flash, Cursor AI IDE.</span>
+                </div>
+            </td>
+            <td>
+                <div class="skills-category">
+                    <span class="skills-category-title">Full-Stack Software Engineering:</span>
+                    <span class="skills-items">TypeScript, JavaScript, ReactJS/React 19, Next.js 15/16, Astro 5, Node.js, Python, SQL, WordPress Legacy Architecture (15+ years).</span>
+                </div>
+                <div class="skills-category" style="margin-top: 2px;">
+                    <span class="skills-category-title">Cloud & Infrastructure:</span>
+                    <span class="skills-items">Google Cloud Platform (Cloud Run, Cloud Armor, BigQuery, Compute), Supabase, PostgreSQL, Docker, Vercel, PM2, Git.</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Professional Experience</h2>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">AI Development Lead</span> <span class="company">- TopNetworks Inc.</span></td>
+                <td class="date-location">Feb 2025 – Jun 2026 | Remote / Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <div class="focus-text">Key Focus: Prompt Engineering, Hallucination Risk Management, GenAI Prompt Versioning with Git Flow, High-velocity AI-Native Workflows</div>
+        <ul class="entry-bullets">
+            <li>Spearheaded AI engineering strategy and full-stack architecture for high-performance publishing platforms serving markets across the US, UK, Mexico, and Latin America.</li>
+            <li>Designed, built, and launched a core proprietary internal SaaS ecosystem leveraging rapid, spec-first, AI-native workflows (such as Cursor, agentic coding, and advanced prompt-driven rapid iteration):
+                <ul>
+                    <li><strong>EmailGenius:</strong> Scalable, high-throughput AI email generation engine engineered with Vertex AI and PostgreSQL.</li>
+                    <li><strong>TrafficGenius:</strong> Real-time invalid traffic detection and security intelligence platform utilizing BigQuery and Cloud Armor.</li>
+                    <li><strong>RouteGenius:</strong> High-concurrency probabilistic traffic routing distribution engine built on Supabase, featuring multi-agent workflow integration in n8n via webhooks to automate traffic optimization.</li>
+                    <li><strong>Social Media Genius:</strong> AI-driven social content generation application featuring a custom interactive canvas editor.</li>
+                </ul>
+            </li>
+            <li>Managed prompt versioning via Git Flow, structured hallucination risk frameworks, and deployed all services using Next.js 15/16, TypeScript, React 19, Astro 5, Tailwind v4, and Gemini 2.5 Flash on GCP.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Prompt Engineer & AI Consultant</span> <span class="company">- Juan Jaramillo (Independent Practice)</span></td>
+                <td class="date-location">Nov 2022 – Present | Remote & On-Site</td>
+            </tr>
+        </table>
+        <div class="focus-text">Key Focus: Prompt Engineering & Optimization, LLM Fundamentals, Hallucination Mitigation, UI/UX Design workflows</div>
+        <ul class="entry-bullets">
+            <li>Deliver specialized technical consulting on generative AI architecture, prompt engineering optimization, and custom LLM integrations for mid-market and enterprise clients, including the <strong>Telefónica Movistar Foundation</strong>, <strong>Universidad Francisco Marroquín (Guatemala)</strong>, and <strong>Wundermann Thompson Miami</strong>.</li>
+            <li>Architect and build front-end and back-end environments for custom AI applications while directly managing UI/UX design workflows.</li>
+            <li>Achieved documented client outcomes including up to a <strong>46% increase in operational productivity</strong> and a <strong>66% reduction in monthly infrastructure</strong> and operational overhead.</li>
+        </ul>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Director of Innovation</span> <span class="company">- TRADEBOG S.A.S.</span></td>
+                <td class="date-location">Dec 2020 – Jun 2023 | Bogotá, Colombia (On-Site)</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Oversaw full-stack development, UI/UX systems, and technical product direction for Colombia’s leading dropshipping and e-commerce platform.</li>
+            <li>Designed and optimized complex digital advertising architectures, social media acquisition pipelines, and transactional backend workflows.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Operations Director</span> <span class="company">- FreshWorks | Ideas Frescas</span></td>
+                <td class="date-location">May 2014 – Jun 2023 | Mexico, Colombia, Spain</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Managed technical delivery, web architecture, and custom WordPress development for enterprise brands including <strong>Grupo Herdez</strong> and <strong>El Corte Inglés</strong>.</li>
+            <li>Led cross-functional teams across three countries, managing digital product design, UI/UX engineering, and client transformation roadmaps.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Project Director</span> <span class="company">- 2W Agencia Digital</span></td>
+                <td class="date-location">Nov 2012 – Jan 2014 | Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Digital project director, key accounts director, digital strategist, and digital marketing specialist.</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <table class="entry-header-table">
+            <tr>
+                <td><span class="job-title">Co-founder & Project Manager</span> <span class="company">- La Quinta P Digital Agency</span></td>
+                <td class="date-location">Aug 2009 – Oct 2012 | Bogotá, Colombia</td>
+            </tr>
+        </table>
+        <ul class="entry-bullets">
+            <li>Digital project director, digital marketing specialist, web designer, and custom WordPress developer.</li>
+        </ul>
+    </div>
+
+    <h2>Education & Certifications</h2>
+    <table class="education-table">
+        <tr>
+            <td>
+                <span class="degree-title">Generative AI for Business: Driving Growth and Competitive Advantage</span><br>
+                <span class="institution-name">University of Toronto</span><br>
+                <span class="edu-focus">Focus: AI strategy, innovation, ethics, decision-making, governance, and organizational transformation, with case studies from major companies.</span>
+            </td>
+            <td class="edu-meta">Dec 2022 – Feb 2023<br>Certified Diploma (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Prompt Engineer with Emphasis on ChatGPT</span><br>
+                <span class="institution-name">Platzi</span><br>
+                <span class="edu-focus">Focus: Advanced prompt structures, extension and plugin integrations, business use cases, and ethical LLM constraints.</span>
+            </td>
+            <td class="edu-meta">Feb 2023 – Apr 2023<br>Certified Course (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Social Network Analysis: Digital Communication & Contents</span><br>
+                <span class="institution-name">University of Michigan</span><br>
+                <span class="edu-focus">Skills: Digital Marketing, Content Strategy.</span>
+            </td>
+            <td class="edu-meta">Sep 2013 – Dec 2013<br>Certified Course (Remote)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="degree-title">Bachelor's Degree in Advertising and Marketing</span><br>
+                <span class="institution-name">Universidad Central</span><br>
+                <span class="edu-focus">Focus: Creative direction, art direction, copywriting strategy, and campaign design.</span>
+            </td>
+            <td class="edu-meta">Feb 2002 – Nov 2007<br>Professional Degree (On-Site)</td>
+        </tr>
+    </table>
+
+    <h2>Languages & Interests</h2>
+    <div style="font-size: 8pt; margin-bottom: 2px;">
+        <strong>Languages:</strong> Spanish (Native) <span class="contact-sep">|</span> English (Full Professional & Technical Proficiency)
+    </div>
+    <div style="font-size: 8pt;">
+        <strong>Interests:</strong> Golf, Reading, Film, Music, Blogging, Writing, Technical Consulting, and Teaching.
+    </div>
+
+    <div class="portfolio-box">
+        To view my full portfolio of work, featured projects, case studies, and services, please visit:<br>
+        <strong><a href="https://juanjaramillo.tech">juanjaramillo.tech</a></strong>
+    </div>
+
+</body>
+</html>
+"""
+
+# Optimized Cover Letter HTML (targeting exactly 1 page)
+cover_letter_html = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Juan Miguel Jaramillo Gaviria - Master Cover Letter</title>
+<style>
+    @page {
+        size: letter;
+        margin: 10mm 15mm 10mm 15mm;
+    }
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #2d3748;
+        line-height: 1.35;
+        font-size: 8.8pt;
+    }
+    a {
+        color: #1e3a8a;
+        text-decoration: none;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 8px;
+        border-bottom: 1.5px solid #1e3a8a;
+        padding-bottom: 4px;
+    }
+    .name {
+        font-size: 18pt;
+        font-weight: bold;
+        color: #1a202c;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+    }
+    .tagline {
+        font-size: 9.5pt;
+        font-weight: bold;
+        color: #1e3a8a;
+        margin: 2px 0 3px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .contact-info {
+        font-size: 8pt;
+        color: #4a5568;
+        margin: 2px 0 0 0;
+    }
+    .contact-sep {
+        color: #cbd5e1;
+        margin: 0 4px;
+    }
+    .letter-date {
+        margin-bottom: 6px;
+        font-size: 8.8pt;
+        font-weight: bold;
+        color: #1a202c;
+    }
+    .recipient {
+        margin-bottom: 8px;
+        font-size: 8.8pt;
+        line-height: 1.3;
+    }
+    .salutation {
+        margin-bottom: 6px;
+        font-weight: bold;
+    }
+    p {
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+    .section-title {
+        font-weight: bold;
+        color: #1e3a8a;
+        margin-top: 8px;
+        margin-bottom: 3px;
+        font-size: 9pt;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        border-left: 2px solid #1e3a8a;
+        padding-left: 6px;
+    }
+    .closing {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    .signature-block {
+        line-height: 1.3;
+        font-size: 8.5pt;
+    }
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="name">Juan Miguel Jaramillo Gaviria</div>
+        <div class="tagline">AI-Native Full-Stack Architect | AI Development Lead | Tech Entrepreneur</div>
+        <div class="contact-info">
+            Bogotá, Colombia <span class="contact-sep">|</span> 
+            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            +57 305 420 6139 <span class="contact-sep">|</span> 
+            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="letter-date">July 8, 2026</div>
+
+    <div class="recipient">
+        <strong>To:</strong> Hiring Team / Talent Acquisition<br>
+        <strong>Re:</strong> Application for AI Engineering Leadership / Full-Stack Architect Role
+    </div>
+
+    <div class="salutation">Dear Hiring Team,</div>
+
+    <p>I am writing to express my strong interest in joining your team as an AI Engineering leader. Bringing over 17 years of technical execution and entrepreneurial leadership, I specialize in navigating the space between abstract generative AI concepts and scalable, production-grade architectures. I offer your organization a rare combination of strategic vision and full-stack engineering depth.</p>
+
+    <div class="section-title">A Career Built Around AI-Native Thinking</div>
+    <p>My career has been defined by an early adoption of emerging technology paradigms. Well before generative AI reshaped the global tech landscape, I founded and scaled multiple successful digital and technology ventures—including LaQuintaP, FreshWorks Digital Agency across Europe and LATAM, and TRADEBOG, an industry-leading dropshipping platform in Colombia. This deep entrepreneurial foundation ensures that every AI system I architect is engineered to solve a concrete business problem and drive measurable bottom-line value.</p>
+
+    <div class="section-title">Deep, Production-Proven AI Expertise</div>
+    <p>Since 2022, I have focused exclusively on enterprise-grade generative AI development, LLM fine-tuning (PEFT, RLHF), advanced prompt engineering, and agentic product design. As the AI Development Lead for TopNetworks Inc., I personally designed, built, and shipped a highly profitable internal SaaS ecosystem:
+        <strong>EmailGenius</strong> (high-throughput AI email generation utilizing Vertex AI and PostgreSQL),
+        <strong>TrafficGenius</strong> (real-time invalid traffic detection using Google BigQuery and Cloud Armor),
+        <strong>RouteGenius</strong> (probabilistic web traffic distribution running on Supabase infrastructure), and
+        <strong>Social Media Genius</strong> (an AI-native social content generator complete with an interactive canvas editor).
+        These systems are not experimental prototypes; they are highly scalable, revenue-generating platforms built on Next.js 15/16, React 19, Astro 5, TypeScript, and the Gemini 2.5 Flash model deployed on Google Cloud Platform.
+    </p>
+
+    <div class="section-title">Advisory Reach and Measurable Impact</div>
+    <p>Beyond internal product execution, my technical advisory work for organizations like the Telefónica Movistar Foundation, Universidad Francisco Marroquín, and Wundermann Thompson Miami has delivered definitive operational impacts. My AI implementations have consistently driven up to a 46% increase in team productivity while securing up to a 66% reduction in monthly infrastructure and operational costs.</p>
+
+    <div class="section-title">Advanced Tooling and Agentic Systems</div>
+    <p>I possess advanced, production-proven mastery of LangChain, LangGraph, CrewAI, and Vertex AI Agent-to-Agent (A2A) frameworks. Backed by academic credentials in generative AI strategy and ethics from the University of Toronto and applied prompt engineering from Platzi, I write clean, production-grade code across Python, JavaScript/TypeScript, and SQL.</p>
+
+    <p>I view artificial intelligence not as a human replacement, but as an exponential leverage tool. I am eager to bring this exact philosophy, along with my full-stack execution capabilities, to your organization. Thank you for your time and consideration; I welcome the opportunity for a technical interview.</p>
+
+    <div class="closing">
+        Warm regards,
+    </div>
+
+    <div class="signature-block">
+        <strong>Juan Miguel Jaramillo Gaviria</strong><br>
+        AI Development Lead | Full-Stack Architect | Generative AI Specialist<br>
+        <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> | +57 305 420 6139 | <a href="https://juanjaramillo.tech">juanjaramillo.tech</a>
+    </div>
+
+</body>
+</html>
+"""
+
+# Compile and check pages
+resume_path = os.path.join(working_dir, "Juan_Jaramillo_Master_Resume.pdf")
+cover_letter_path = os.path.join(working_dir, "Juan_Jaramillo_Master_Cover_Letter.pdf")
+
+generate_pdf(resume_html, resume_path)
+generate_pdf(cover_letter_html, cover_letter_path)
+
+reader_r = pypdf.PdfReader(resume_path)
+reader_cl = pypdf.PdfReader(cover_letter_path)
+
+print(f"RESUME: {len(reader_r.pages)} pages")
+for i, page in enumerate(reader_r.pages):
+    print(f"  Page {i+1} size: {len(page.extract_text())} chars")
+
+print(f"COVER LETTER: {len(reader_cl.pages)} pages")
+for i, page in enumerate(reader_cl.pages):
+    print(f"  Page {i+1} size: {len(page.extract_text())} chars")
+
+
+
+--- Executing blocking command at Wed Jul  8 18:24:35 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && ls -la /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts
+--- Output ---
+total 944
+drwxr-xr-x@ 25 macbookpro  staff     800 Jul  8 18:23 .
 drwxr-xr-x@ 17 macbookpro  staff     544 Jul  6 20:43 ..
+-rw-r--r--@  1 macbookpro  staff      82 Jul  8 18:16 .note_register
+-rw-r--r--@  1 macbookpro  staff   11149 Jul  8 18:20 30_day_execution_strategy.md
+-rw-r--r--@  1 macbookpro  staff    5900 Jul  8 18:23 Juan_Jaramillo_Master_Cover_Letter.pdf
+-rw-r--r--@  1 macbookpro  staff   10495 Jul  8 18:23 Juan_Jaramillo_Master_Resume.pdf
 -rw-r--r--@  1 macbookpro  staff    2165 Jul  3 15:19 ai-recruiter-outreach-networking.md
+-rw-r--r--@  1 macbookpro  staff   14431 Jul  8 18:10 extracted_bogota_jobs.md
+-rw-r--r--@  1 macbookpro  staff   23534 Jul  8 18:23 generate_pdfs.py
 -rw-r--r--@  1 macbookpro  staff    8589 Jul  8 17:37 job-search-strategy-three-target-lanes.md
 -rw-r--r--@  1 macbookpro  staff    4240 Jul  8 16:46 juan-jaramillo-advanced-cover-letter.md
 -rw-r--r--@  1 macbookpro  staff    5871 Jul  6 17:42 juan-jaramillo-resume.md
 -rw-r--r--@  1 macbookpro  staff  198199 Jul  6 17:44 juan-jaramillo-resume.pdf
 -rw-r--r--@  1 macbookpro  staff    6843 Jul  3 16:23 linkedin-ai-teaching-contract-projects-assistant.md
 -rw-r--r--@  1 macbookpro  staff    6189 Jul  3 15:37 linkedin-job-application-assistant.md
+-rw-r--r--@  1 macbookpro  staff     822 Jul  8 18:16 linkedin_auth_findings.md
+-rw-r--r--@  1 macbookpro  staff      36 Jul  8 18:16 linkedin_auth_status.txt
+-rw-r--r--@  1 macbookpro  staff    3010 Jul  8 18:20 linkedin_automation_prompt.md
+-rw-r--r--@  1 macbookpro  staff    1152 Jul  8 18:09 linkedin_search_findings.md
 -rw-r--r--@  1 macbookpro  staff    4795 Jul  7 11:03 loom-video-script.md
 -rw-r--r--@  1 macbookpro  staff  117439 Jul  7 12:22 loom-video-script.pdf
+-rw-r--r--@  1 macbookpro  staff    3785 Jul  8 18:21 loom_video_script.md
 -rw-r--r--@  1 macbookpro  staff    2588 Jul  6 20:51 resume.css
-drwxr-xr-x@  2 macbookpro  staff      64 Jul  8 18:06 terminal_logs
+-rw-r--r--@  1 macbookpro  staff    1378 Jul  8 18:24 shared_files.md
+drwxr-xr-x@  3 macbookpro  staff      96 Jul  8 18:19 terminal_logs
 
 
 
---- Executing blocking command at Wed Jul  8 18:06:53 2026 ---
-> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin-job-application-assistant.md
+--- Executing blocking command at Wed Jul  8 18:26:00 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py
 --- Output ---
-# LinkedIn Job Application Assistant
+/bin/sh: python: command not found
 
-## Goal
 
-Use a browser to research Juan Jaramillo’s background, find relevant LinkedIn jobs, and submit up to 10 applications that fit the target profile.
 
-## Sources to Review First
+--- Executing blocking command at Wed Jul  8 18:26:02 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && python3 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py
+--- Output ---
+/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Starting generation...
+Successfully generated Juan_Jaramillo_Resume_AI_LLM.pdf
+  Page count for Juan_Jaramillo_Resume_AI_LLM.pdf: 2
+    Page 1 character count: 4091
+    Page 2 character count: 1987
+Successfully generated Juan_Jaramillo_Resume_Vibe_Coding.pdf
+  Page count for Juan_Jaramillo_Resume_Vibe_Coding.pdf: 2
+    Page 1 character count: 3871
+    Page 2 character count: 1948
+Successfully generated Juan_Jaramillo_Resume_CMS_React.pdf
+  Page count for Juan_Jaramillo_Resume_CMS_React.pdf: 2
+    Page 1 character count: 3713
+    Page 2 character count: 2423
 
-Open and review these sources before applying anywhere:
 
-- LinkedIn profile: <https://www.linkedin.com/in/juan-jaramillo-ai/>
-- Website: <https://juanjaramillo.tech>
-- Resume: <https://files.catbox.moe/pswa9k.pdf>
-- Current resume is attached in PDF format.
 
-Use only facts from these sources when answering application questions or describing experience.
-
-Assume the LinkedIn session is already authenticated. If a login wall, CAPTCHA, or verification challenge appears, pause and report the blocker instead of trying to bypass it.
-
-## LinkedIn Job Preferences
-
-Use these saved LinkedIn preferences as the baseline for search and screening:
-
-- Job titles:
-  - Artificial Intelligence Engineer
-  - Prompt Engineer
-  - Machine Learning Engineer
+--- Executing blocking command at Wed Jul  8 18:26:13 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783552705435-1187/runs/1783552705633-6940/document_agent/.venv/bin/activate" && ls -lh /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Resume_*.pdf
+--- Output ---
+-rw-r--r--@ 1 macbookpro  staff    10K Jul  8 18:26 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Resume_AI_LLM.pdf
+-rw-r--r--@ 1 macbookpro  staff    10K Jul  8 18:26 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Resume_CMS_React.pdf
+-rw-r--r--@ 1 macbookpro  staff    10K Jul  8 18:26 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Resume_Vibe_Coding.pdf
 
 
 
