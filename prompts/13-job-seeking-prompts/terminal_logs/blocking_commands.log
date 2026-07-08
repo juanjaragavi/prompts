@@ -1,0 +1,260 @@
+--- Executing blocking command at Wed Jul  8 18:06:50 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && ls -la /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts
+--- Output ---
+total 744
+drwxr-xr-x@ 13 macbookpro  staff     416 Jul  8 18:06 .
+drwxr-xr-x@ 17 macbookpro  staff     544 Jul  6 20:43 ..
+-rw-r--r--@  1 macbookpro  staff    2165 Jul  3 15:19 ai-recruiter-outreach-networking.md
+-rw-r--r--@  1 macbookpro  staff    8589 Jul  8 17:37 job-search-strategy-three-target-lanes.md
+-rw-r--r--@  1 macbookpro  staff    4240 Jul  8 16:46 juan-jaramillo-advanced-cover-letter.md
+-rw-r--r--@  1 macbookpro  staff    5871 Jul  6 17:42 juan-jaramillo-resume.md
+-rw-r--r--@  1 macbookpro  staff  198199 Jul  6 17:44 juan-jaramillo-resume.pdf
+-rw-r--r--@  1 macbookpro  staff    6843 Jul  3 16:23 linkedin-ai-teaching-contract-projects-assistant.md
+-rw-r--r--@  1 macbookpro  staff    6189 Jul  3 15:37 linkedin-job-application-assistant.md
+-rw-r--r--@  1 macbookpro  staff    4795 Jul  7 11:03 loom-video-script.md
+-rw-r--r--@  1 macbookpro  staff  117439 Jul  7 12:22 loom-video-script.pdf
+-rw-r--r--@  1 macbookpro  staff    2588 Jul  6 20:51 resume.css
+drwxr-xr-x@  2 macbookpro  staff      64 Jul  8 18:06 terminal_logs
+
+
+
+--- Executing blocking command at Wed Jul  8 18:06:53 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin-job-application-assistant.md
+--- Output ---
+# LinkedIn Job Application Assistant
+
+## Goal
+
+Use a browser to research Juan Jaramillo’s background, find relevant LinkedIn jobs, and submit up to 10 applications that fit the target profile.
+
+## Sources to Review First
+
+Open and review these sources before applying anywhere:
+
+- LinkedIn profile: <https://www.linkedin.com/in/juan-jaramillo-ai/>
+- Website: <https://juanjaramillo.tech>
+- Resume: <https://files.catbox.moe/pswa9k.pdf>
+- Current resume is attached in PDF format.
+
+Use only facts from these sources when answering application questions or describing experience.
+
+Assume the LinkedIn session is already authenticated. If a login wall, CAPTCHA, or verification challenge appears, pause and report the blocker instead of trying to bypass it.
+
+## LinkedIn Job Preferences
+
+Use these saved LinkedIn preferences as the baseline for search and screening:
+
+- Job titles:
+  - Artificial Intelligence Engineer
+  - Prompt Engineer
+  - Machine Learning Engineer
+
+- Location types:
+  - On-site
+  - Hybrid
+  - Remote
+
+- Locations:
+  - Bogota, D.C., Capital District, Colombia
+  - Medellín, Antioquia, Colombia
+  - Miguel Hidalgo, Mexico City, Mexico
+  - Greater Buenos Aires
+  - Buenos Aires Province, Argentina
+
+- Employment types:
+  - Full-time
+  - Contract
+
+- Start date: Immediately, I am actively applying
+- Visibility: All LinkedIn members
+
+Use the saved job titles and locations above as the primary preference set when searching LinkedIn Jobs. Keep the existing full-time application focus unless a contract role is an exceptional match to the target role families.
+
+Developer roles should only be considered when they are clearly centered on AI, machine learning, or LLMs. Exclude generic front-end, back-end, and full-stack development postings unless the title or description explicitly makes AI, LLMs, or adjacent AI engineering work a primary responsibility.
+
+## Target Roles
+
+Only consider jobs that match one of these role families:
+
+- AI Engineer
+- AI Developer
+- Prompt Engineer
+- Machine Learning Engineer
+
+## Exclusions
+
+Do not apply to jobs that are primarily about:
+
+- Data analysis
+- Data science
+- Data engineering
+- Analytics
+- Reporting
+- Business intelligence
+- Dashboarding
+- Any other data-related role
+
+Do not exclude AI or ML roles just because they mention datasets, pipelines, evaluation, experimentation, or model training as part of the job. Exclude only roles whose primary function is data analysis or data engineering.
+
+## Job Filters
+
+In LinkedIn Jobs, search for full-time roles and apply these filters whenever possible:
+
+- Job type: Full-time
+- Work mode: Remote or Hybrid
+- Geography: Only locations that are clearly within Juan’s eligible regions
+- Compensation: Prefer roles with a visible monthly salary of about $3,500 to $4,500 USD
+
+If Juan’s eligible regions are not stated explicitly in the source materials, use his LinkedIn profile location and only consider roles that are either remote or clearly in that same region.
+
+If salary is shown annually, treat $42,000 to $54,000 USD per year as the equivalent range. If salary is shown in another currency, keep the role only when the converted monthly amount is reasonably close to $3,500 to $4,500 USD and the match is otherwise strong.
+
+If salary is not shown, keep the job only when the title and responsibilities strongly match the target role families and the company looks credible.
+
+## Application Rules
+
+1. Prioritize Easy Apply listings.
+2. Apply only to jobs that match the Target Roles and pass the Exclusions criteria.
+3. Use the resume at <https://files.catbox.moe/pswa9k.pdf> whenever a resume upload is requested.
+4. Answer custom questions using only verified information from the profile, website, and resume.
+5. Do not invent skills, employers, credentials, or locations.
+6. If a required answer cannot be supported by the sources, skip that job.
+7. Avoid duplicate postings by tracking the job title, company name, and posting link before applying.
+8. Verify that each submission succeeds before counting it toward the total.
+9. Stop after 10 successful applications, or sooner if suitable jobs are exhausted.
+10. If an optional question cannot be answered confidently, leave it blank when allowed and continue.
+11. For mandatory questions that are not supported by the sources, skip the job unless the answer can be safely inferred without guessing.
+
+## Browser Workflow
+
+1. Open the LinkedIn profile and website.
+2. Extract the key facts needed for applications:
+   - current role title and responsibilities
+   - core technical skills related to AI, ML, and prompt engineering
+   - relevant frameworks, libraries, and platforms
+   - consulting services and offerings
+   - experience highlights that help answer application questions
+3. Open LinkedIn Jobs and search for the target roles.
+4. Apply the filters above and review results carefully.
+5. Shortlist only the best-matching jobs.
+6. For each shortlisted job:
+   - open the posting
+   - confirm it is full-time, remote or hybrid, and not data-related using the Exclusions criteria above
+   - use Easy Apply if available; if it is not available, continue only when the job is an excellent match and the standard application can still be completed with the available information
+   - download the resume PDF first, then upload the local file if prompted
+   - complete any required questions truthfully
+   - submit the application
+   - confirm that the site shows a success or application submitted state before counting it
+7. Continue until 10 applications are submitted.
+
+## Operating Guidance
+
+- Prefer the strongest matches first: exact target title match, visible salary match, then recency.
+- Wait about 15 to 30 seconds between applications to reduce the chance of rate limiting.
+- If a form cannot be completed because a mandatory field is unsupported by the sources, skip the role and move on.
+
+## Reporting
+
+At the end, provide a concise summary with one entry per application including:
+
+- Job title
+- Company name
+- Job posting link
+
+Also include:
+
+- total number of applications submitted
+- any jobs skipped and why
+- any missing salary information
+- any blockers encountered during the process
+
+
+
+--- Executing blocking command at Wed Jul  8 18:08:04 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && grep -in "login" /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/*.md
+--- Output ---
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/ai-recruiter-outreach-networking.md:38:- If LinkedIn shows a login wall, CAPTCHA, or verification challenge, pause and report the blocker instead of trying to bypass it.
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin-ai-teaching-contract-projects-assistant.md:18:Assume the LinkedIn session is already authenticated. If a login wall, CAPTCHA, or verification challenge appears, pause and report the blocker instead of trying to bypass it.
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin-job-application-assistant.md:18:Assume the LinkedIn session is already authenticated. If a login wall, CAPTCHA, or verification challenge appears, pause and report the blocker instead of trying to bypass it.
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/loom-video-script.md:56:| **Screen share** | Optional: briefly show the RouteGenius UI at https://route.topnetworks.co/login during that section |
+
+
+
+--- Executing blocking command at Wed Jul  8 18:08:09 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && grep -rn "password" /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/
+--- Output ---
+
+
+
+--- Executing blocking command at Wed Jul  8 18:08:15 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && ls -la /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/terminal_logs
+--- Output ---
+total 24
+drwxr-xr-x@  3 macbookpro  staff    96 Jul  8 18:06 .
+drwxr-xr-x@ 13 macbookpro  staff   416 Jul  8 18:06 ..
+-rw-r--r--@  1 macbookpro  staff  9630 Jul  8 18:08 blocking_commands.log
+
+
+
+--- Executing blocking command at Wed Jul  8 18:08:15 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && grep -rn "cookies" /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/
+--- Output ---
+
+
+
+--- Executing blocking command at Wed Jul  8 18:08:18 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/terminal_logs/blocking_commands.log | head -n 50
+--- Output ---
+--- Executing blocking command at Wed Jul  8 18:06:50 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && ls -la /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts
+--- Output ---
+total 744
+drwxr-xr-x@ 13 macbookpro  staff     416 Jul  8 18:06 .
+drwxr-xr-x@ 17 macbookpro  staff     544 Jul  6 20:43 ..
+-rw-r--r--@  1 macbookpro  staff    2165 Jul  3 15:19 ai-recruiter-outreach-networking.md
+-rw-r--r--@  1 macbookpro  staff    8589 Jul  8 17:37 job-search-strategy-three-target-lanes.md
+-rw-r--r--@  1 macbookpro  staff    4240 Jul  8 16:46 juan-jaramillo-advanced-cover-letter.md
+-rw-r--r--@  1 macbookpro  staff    5871 Jul  6 17:42 juan-jaramillo-resume.md
+-rw-r--r--@  1 macbookpro  staff  198199 Jul  6 17:44 juan-jaramillo-resume.pdf
+-rw-r--r--@  1 macbookpro  staff    6843 Jul  3 16:23 linkedin-ai-teaching-contract-projects-assistant.md
+-rw-r--r--@  1 macbookpro  staff    6189 Jul  3 15:37 linkedin-job-application-assistant.md
+-rw-r--r--@  1 macbookpro  staff    4795 Jul  7 11:03 loom-video-script.md
+-rw-r--r--@  1 macbookpro  staff  117439 Jul  7 12:22 loom-video-script.pdf
+-rw-r--r--@  1 macbookpro  staff    2588 Jul  6 20:51 resume.css
+drwxr-xr-x@  2 macbookpro  staff      64 Jul  8 18:06 terminal_logs
+
+
+
+--- Executing blocking command at Wed Jul  8 18:06:53 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783551917105-438/runs/1783551969426-9826/browser_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin-job-application-assistant.md
+--- Output ---
+# LinkedIn Job Application Assistant
+
+## Goal
+
+Use a browser to research Juan Jaramillo’s background, find relevant LinkedIn jobs, and submit up to 10 applications that fit the target profile.
+
+## Sources to Review First
+
+Open and review these sources before applying anywhere:
+
+- LinkedIn profile: <https://www.linkedin.com/in/juan-jaramillo-ai/>
+- Website: <https://juanjaramillo.tech>
+- Resume: <https://files.catbox.moe/pswa9k.pdf>
+- Current resume is attached in PDF format.
+
+Use only facts from these sources when answering application questions or describing experience.
+
+Assume the LinkedIn session is already authenticated. If a login wall, CAPTCHA, or verification challenge appears, pause and report the blocker instead of trying to bypass it.
+
+## LinkedIn Job Preferences
+
+Use these saved LinkedIn preferences as the baseline for search and screening:
+
+- Job titles:
+  - Artificial Intelligence Engineer
+  - Prompt Engineer
+  - Machine Learning Engineer
+
+
+
