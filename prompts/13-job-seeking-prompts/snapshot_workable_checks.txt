@@ -1,0 +1,103 @@
+uid=38_0 RootWebArea "AI Engineer Jobs in Argentina | LinkedIn" url="https://www.linkedin.com/jobs/search/?currentJobId=4407163930&f_AL=true&keywords=AI%20Engineer&location=Argentina"
+  uid=38_1 region "Toast message"
+    uid=38_2 heading "0 notifications total" level="2"
+    uid=38_3 alert atomic live="assertive" relevant="additions text"
+  uid=50_0 dialog "Apply to Huzzle.com"
+    uid=50_1 StaticText "Dialog content start."
+    uid=50_2 button "Dismiss"
+    uid=50_3 heading "Apply to Huzzle.com" level="2"
+    uid=50_4 region "Your job application progress is at 80 percent."
+      uid=57_0 StaticText "80%"
+      uid=50_6 form
+        uid=57_1 heading "Additional Questions" level="3"
+        uid=57_2 generic
+          uid=57_3 StaticText "What is your level of proficiency in English?"
+          uid=50_14 StaticText "*"
+          uid=57_4 StaticText "Required"
+          uid=59_0 radio "Native/Fluent"
+          uid=59_1 radio "Advanced" checked
+          uid=60_0 StaticText "Advanced"
+          uid=59_2 radio "Intermediate"
+          uid=59_3 radio "Basic"
+          uid=59_4 radio "Beginner"
+        uid=57_10 generic
+          uid=57_11 StaticText "What language(s) are you business proficient in?"
+          uid=50_14 StaticText "*"
+          uid=57_12 textbox "What language(s) are you business proficient in?*" required value="Spanish, English"
+        uid=57_13 generic
+          uid=57_14 StaticText "Which of the following timezones are you able to work in?"
+          uid=50_14 StaticText "*"
+          uid=57_15 StaticText "Required"
+          uid=60_1 checkbox "US" checked
+          uid=60_2 checkbox "UK" checked
+          uid=60_3 checkbox "Europe"
+          uid=60_4 checkbox "Australia"
+        uid=57_20 generic
+          uid=57_21 StaticText "Can you list all of the tools, software and platforms that you have used in your previous roles?"
+          uid=50_14 StaticText "*"
+          uid=57_22 textbox "Can you list all of the tools, software and platforms that you have used in your previous roles?" multiline required value="Next.js, TypeScript, React, Astro, Tailwind CSS, Vertex AI, Gemini, Google BigQuery, Google Cloud Platform, PostgreSQL, Supabase, PM2, Docker, Vercel, Python, Javascript, LangChain, LangGraph, CrewAI."
+        uid=57_23 generic
+          uid=57_24 StaticText "Have you worked directly with LLM APIs (e.g., OpenAI, Claude) to build or integrate AI-powered features or automations?"
+          uid=50_14 StaticText "*"
+          uid=57_25 StaticText "Required"
+          uid=60_5 radio "Yes" checked focusable focused
+          uid=60_6 radio "No"
+        uid=57_28 generic
+          uid=57_29 StaticText "Do you have hands-on experience building and deploying AI workflows using tools like n8n, Zapier, or Go High Level?"
+          uid=50_14 StaticText "*"
+          uid=57_30 StaticText "Required"
+          uid=57_31 radio "Yes"
+          uid=57_32 radio "No"
+        uid=57_33 generic
+          uid=57_34 StaticText "Are you comfortable debugging, optimizing, and scaling automation workflows across multiple systems and APIs?"
+          uid=50_14 StaticText "*"
+          uid=57_35 StaticText "Required"
+          uid=57_36 radio "Yes"
+          uid=57_37 radio "No"
+        uid=57_38 generic
+          uid=57_39 StaticText "Which industries have you worked in your roles? (e.g., AI, Tech, SaaS, Marketing etc)"
+          uid=50_14 StaticText "*"
+          uid=57_40 textbox "Which industries have you worked in your roles? (e.g., AI, Tech, SaaS, Marketing etc)" multiline required value="AI, Tech, SaaS, Digital Marketing, Advertising"
+        uid=57_41 generic
+          uid=57_42 StaticText "What type of company do you prefer to work for?"
+          uid=50_14 StaticText "*"
+          uid=57_43 StaticText "Required"
+          uid=60_7 checkbox "Startup (Early-stage, fast-paced, building from the ground up)"
+          uid=60_8 checkbox "Scale-up (Growing company, some structure but still evolving)"
+          uid=60_9 checkbox "Enterprise (Well-established, structured processes)"
+          uid=60_10 checkbox "Open to all" checked
+        uid=57_48 generic
+          uid=57_49 StaticText "Have you ever worked with clients or companies based outside of your home country (e.g., U.S., U.K., or other countries)? If yes, please specify the countries)?"
+          uid=50_14 StaticText "*"
+          uid=57_50 textbox "Have you ever worked with clients or companies based outside of your home country (e.g., U.S., U.K., or other countries)? If yes, please specify the countries)?" multiline required value="Yes (U.S., U.K., Mexico, Spain, and Latin America)"
+        uid=57_51 generic
+          uid=57_52 StaticText "What are your monthly salary expectations in USD?"
+          uid=50_14 StaticText "*"
+          uid=57_53 textbox "What are your monthly salary expectations in USD?*" required value="4000"
+        uid=57_54 generic
+          uid=57_55 StaticText "What were you making in your previous role as a monthly salary? Mention your base and any commissions separately (if applicable)."
+          uid=50_14 StaticText "*"
+          uid=57_56 textbox "What were you making in your previous role as a monthly salary? Mention your base and any commissions separately (if applicable).*" required value="Confidential (Consultant/Contract rates comparable to $4,000 USD monthly)"
+        uid=57_57 generic
+          uid=57_58 StaticText "If you have a LinkedIn profile, please provide the URL below (if you don't have a LinkedIn profile, put N/A)"
+          uid=50_14 StaticText "*"
+          uid=57_59 textbox "If you have a LinkedIn profile, please provide the URL below (if you don't have a LinkedIn profile, put N/A)*" required value="https://www.linkedin.com/in/juan-jaramillo-ai/"
+        uid=57_60 generic
+          uid=57_61 StaticText "How did you hear about this opportunity? (Please note, this has no impact on your application)"
+          uid=50_14 StaticText "*"
+          uid=57_62 StaticText "Required"
+          uid=57_63 combobox "How did you hear about this opportunity? (Please note, this has no impact on your application) *" expandable haspopup="menu" value="Select an option"
+            uid=57_64 option " Select an option " selectable selected value=" Select an option "
+            uid=57_65 option " Job posting " selectable value=" Job posting "
+            uid=57_66 option " Someone from your company reached out to me " selectable value=" Someone from your company reached out to me "
+            uid=57_67 option " Through a friend / referral " selectable value=" Through a friend / referral "
+            uid=57_68 option " Google or another search engine " selectable value=" Google or another search engine "
+            uid=57_69 option " Other " selectable value=" Other "
+        uid=57_70 StaticText "Submitting this application won’t change your LinkedIn profile."
+        uid=57_71 StaticText "Application powered by Workable. "
+        uid=57_72 link "Visit help center to know more" url="https://www.linkedin.com/help/linkedin/answer/71792?lang=en_US"
+          uid=57_73 StaticText "Help Center"
+        uid=57_74 button "Back to previous step"
+        uid=57_75 button "Review your application"
+    uid=50_298 StaticText "Dialog content end."
+  uid=38_285 generic live="polite" relevant="additions text"

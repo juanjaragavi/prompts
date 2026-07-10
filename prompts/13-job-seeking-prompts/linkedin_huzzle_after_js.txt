@@ -1,0 +1,90 @@
+uid=37_0 RootWebArea "Technical Project Manager (AI Systems) | Huzzle.com | LinkedIn" url="https://www.linkedin.com/jobs/view/4398372126/"
+  uid=37_1 region "Toast message"
+    uid=37_2 heading "0 notifications total" level="2"
+    uid=37_3 alert atomic live="assertive" relevant="additions text"
+  uid=37_4 dialog "Apply to Huzzle.com"
+    uid=37_5 StaticText "Dialog content start."
+    uid=37_6 button "Dismiss"
+    uid=37_7 heading "Apply to Huzzle.com" level="2"
+    uid=37_8 region "Your job application progress is at 80 percent."
+      uid=43_0 StaticText "80%"
+      uid=37_10 form
+        uid=43_1 heading "Additional Questions" level="3"
+        uid=43_2 generic
+          uid=43_3 StaticText "What is your level of proficiency in English?"
+          uid=37_18 StaticText "*"
+          uid=43_4 StaticText "Required"
+          uid=44_0 radio "Native/Fluent"
+          uid=44_1 radio "Advanced" checked
+          uid=44_2 radio "Intermediate"
+          uid=44_3 radio "Basic"
+          uid=44_4 radio "Beginner"
+        uid=43_10 generic
+          uid=43_11 StaticText "How many years of client-facing experience do you have?"
+          uid=37_18 StaticText "*"
+          uid=43_12 textbox "How many years of client-facing experience do you have?*" required value="15"
+        uid=43_13 generic
+          uid=43_14 StaticText "Have you gathered client requirements and translated them into workflows?"
+          uid=37_18 StaticText "*"
+          uid=43_15 StaticText "Required"
+          uid=44_5 radio "Yes" checked
+          uid=44_6 radio "No"
+        uid=43_18 generic
+          uid=43_19 StaticText "Can you list all of the tools, software and platforms that you have used in your previous roles? (This includes CRMs, Project management platforms, communication platforms and any other relevant tools)"
+          uid=37_18 StaticText "*"
+          uid=43_20 textbox "Can you list all of the tools, software and platforms that you have used in your previous roles? (This includes CRMs, Project management platforms, communication platforms and any other relevant tools)" multiline required value="Figma, WordPress, Webflow, Shopify, Framer, Asana, Monday.com, Jira, Vertex AI, BigQuery, Supabase, PostgreSQL, Docker, Git, Slack, Google Workspace, PM2, Vercel"
+        uid=43_21 generic
+          uid=43_22 StaticText "Have you used AI tools like ChatGPT (OpenAI) or Claude for work purposes?"
+          uid=37_18 StaticText "*"
+          uid=43_23 StaticText "Required"
+          uid=44_7 radio "Yes" checked
+          uid=44_8 radio "No"
+        uid=43_26 generic
+          uid=43_27 StaticText "Have you set up an automation workflow from scratch before?"
+          uid=37_18 StaticText "*"
+          uid=43_28 StaticText "Required"
+          uid=44_9 radio "Yes" checked focusable focused
+          uid=44_10 radio "No"
+        uid=43_31 generic
+          uid=43_32 StaticText "Which industries have you worked in your previous roles?"
+          uid=37_18 StaticText "*"
+          uid=43_33 textbox "Which industries have you worked in your previous roles?" multiline required value="Technology, AI & Generative AI SaaS, Digital Marketing, Advertising, Web Design & Development Agencies, E-commerce"
+        uid=43_34 generic
+          uid=43_35 StaticText "Do you have experience working in a remote environment?"
+          uid=37_18 StaticText "*"
+          uid=43_36 textbox "Do you have experience working in a remote environment?" multiline required value="Yes, I have been working in fully remote and hybrid roles since 2012, leading distributed teams across the US, UK, Canada, and Spain."
+        uid=43_37 generic
+          uid=43_38 StaticText "Have you ever worked with clients or companies based outside of your home country (e.g., U.S., U.K., or other countries)? If yes, please specify the countries and describe your experience."
+          uid=37_18 StaticText "*"
+          uid=43_39 textbox "Have you ever worked with clients or companies based outside of your home country (e.g., U.S., U.K., or other countries)? If yes, please specify the countries and describe your experience." multiline required value="Yes, I have extensive experience collaborating with clients and teams in the United States, United Kingdom, Mexico, and Spain. At TopNetworks, I led AI platform strategy serving the US, UK, and LATAM markets."
+        uid=43_40 generic
+          uid=43_41 StaticText "What are your monthly salary expectations in USD?"
+          uid=37_18 StaticText "*"
+          uid=43_42 textbox "What are your monthly salary expectations in USD?*" required value="4000"
+        uid=43_43 generic
+          uid=43_44 StaticText "What were you making in your previous role as a monthly salary in USD? We may ask for previous salary slips to confirm this."
+          uid=37_18 StaticText "*"
+          uid=43_45 textbox "What were you making in your previous role as a monthly salary in USD? We may ask for previous salary slips to confirm this.*" required value="3800"
+        uid=43_46 generic
+          uid=43_47 StaticText "If you have a LinkedIn profile, please provide the URL below"
+          uid=37_18 StaticText "*"
+          uid=43_48 textbox "If you have a LinkedIn profile, please provide the URL below*" required value="https://www.linkedin.com/in/juan-jaramillo-ai/"
+        uid=43_49 generic
+          uid=43_50 StaticText "How did you hear about this opportunity? (Please note, this has no impact on your application)"
+          uid=37_18 StaticText "*"
+          uid=43_51 StaticText "Required"
+          uid=43_52 combobox "How did you hear about this opportunity? (Please note, this has no impact on your application) *" expandable haspopup="menu" value="Job posting"
+            uid=44_11 option " Select an option " selectable value=" Select an option "
+            uid=44_12 option " Job posting " selectable selected value=" Job posting "
+            uid=44_13 option " Someone from your company reached out to me " selectable value=" Someone from your company reached out to me "
+            uid=44_14 option " Through a friend / referral " selectable value=" Through a friend / referral "
+            uid=44_15 option " Google or another search engine " selectable value=" Google or another search engine "
+            uid=44_16 option " Other " selectable value=" Other "
+        uid=43_59 StaticText "Submitting this application won’t change your LinkedIn profile."
+        uid=43_60 StaticText "Application powered by Workable. "
+        uid=43_61 link "Visit help center to know more" url="https://www.linkedin.com/help/linkedin/answer/71792?lang=en_US"
+          uid=43_62 StaticText "Help Center"
+        uid=43_63 button "Back to previous step"
+        uid=43_64 button "Review your application"
+    uid=37_302 StaticText "Dialog content end."
+  uid=37_303 generic live="polite" relevant="additions text"

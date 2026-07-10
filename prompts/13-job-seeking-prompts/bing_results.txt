@@ -1,0 +1,24 @@
+uid=3_0 RootWebArea "site:linkedin.com/jobs/view "Web Project Manager" OR "Web Strategy" (Colombia OR Mexico OR Argentina) - Search" url="https://www.bing.com/search?q=site:linkedin.com/jobs/view+%22Web+Project+Manager%22+OR+%22Web+Strategy%22+(Colombia+OR+Mexico+OR+Argentina)&rdr=1&rdrig=E5818B26FD46429CB8DF41C59013C7FE"
+  uid=3_1 banner
+    uid=3_2 button "Skip to content"
+    uid=3_3 button "Accessibility Feedback"
+    uid=3_4 form
+      uid=3_5 link "Back to Bing search" url="https://www.bing.com/?FORM=Z9FD1"
+        uid=3_6 heading "Back to Bing search" level="1"
+      uid=3_7 search
+        uid=3_8 button "Search"
+        uid=3_9 searchbox "Enter your search here - Search suggestions will show as you type" autocomplete="both" value="site:linkedin.com/jobs/view "Web Project Manager" OR "Web Strategy" (Colombia OR Mexico OR Argentina)"
+        uid=3_10 button "Search using an image" expandable
+        uid=3_11 status atomic live="polite" relevant="additions text"
+    uid=3_12 complementary "Account Rewards and Preferences"
+      uid=3_13 button "Microsoft Rewards" expandable haspopup="menu"
+      uid=3_14 link "Sign in" haspopup="menu" url="javascript:void(0)"
+        uid=3_15 generic "Sign in"
+    uid=3_16 StaticText "One last step"
+    uid=3_17 StaticText "Please solve the challenge below to continue"
+    uid=3_18 Iframe "Widget containing a Cloudflare security challenge"
+      uid=3_19 RootWebArea "Checking your Browser…" url="https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/s85yr/0x4AAAAAABgNScUsbCFCjwIZ/light/fbE/new/normal?lang=en"
+        uid=3_20 generic atomic live="polite" relevant="additions text"
+          uid=3_21 alert atomic live="assertive" relevant="additions text"
+            uid=3_22 checkbox "Verify you are human"
+            uid=3_23 StaticText "Verify you are human"

@@ -1,0 +1,38 @@
+uid=26_0 RootWebArea "Senior Web Project Manager Jobs | LinkedIn" url="https://www.linkedin.com/jobs/search/?currentJobId=4427576354&f_AL=true&f_WT=2&keywords=Senior%20Web%20Project%20Manager"
+  uid=26_1 region "Toast message"
+    uid=26_2 heading "0 notifications total" level="2"
+    uid=26_3 alert atomic live="assertive" relevant="additions text"
+  uid=27_0 dialog "Apply to Pyramid Consulting, Inc"
+    uid=27_1 StaticText "Dialog content start."
+    uid=27_2 button "Dismiss"
+    uid=27_3 heading "Apply to Pyramid Consulting, Inc" level="2"
+    uid=27_4 region "Your job application progress is at 67 percent."
+      uid=29_0 StaticText "67%"
+      uid=27_6 form
+        uid=29_1 heading "Additional Questions" level="3"
+        uid=29_2 generic
+          uid=29_3 StaticText "Have you completed the following level of education: Bachelor's Degree?"
+          uid=26_167 StaticText "*"
+          uid=29_4 StaticText "Required"
+          uid=30_0 radio "Yes" checked focusable focused
+          uid=30_1 radio "No"
+        uid=29_7 generic
+          uid=29_8 StaticText "How many years of work experience do you have with Amazon Web Services (AWS)?"
+          uid=26_167 StaticText "*"
+          uid=29_9 textbox "How many years of work experience do you have with Amazon Web Services (AWS)?*" required value="6"
+        uid=29_10 generic
+          uid=29_11 StaticText "How many years of work experience do you have with Microsoft PowerPoint?"
+          uid=26_167 StaticText "*"
+          uid=29_12 textbox "How many years of work experience do you have with Microsoft PowerPoint?*" required value="10"
+        uid=29_13 generic
+          uid=29_14 StaticText "How many years of work experience do you have with Project Management?"
+          uid=26_167 StaticText "*"
+          uid=29_15 textbox "How many years of work experience do you have with Project Management?*" required value="15"
+        uid=27_278 StaticText "Submitting this application won’t change your LinkedIn profile."
+        uid=27_279 StaticText "Application powered by LinkedIn. "
+        uid=27_280 link "Visit help center to know more" url="https://www.linkedin.com/help/linkedin/answer/71792?lang=en_US"
+          uid=27_281 StaticText "Help Center"
+        uid=28_19 button "Back to previous step"
+        uid=29_16 button "Review your application"
+    uid=27_283 StaticText "Dialog content end."
+  uid=26_300 generic live="polite" relevant="additions text"
