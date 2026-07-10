@@ -1,0 +1,92 @@
+================================================================================
+OAUTH 2.0 VALIDATION ERROR RESOLUTION REPORT (COMPREHENSIVE)
+================================================================================
+Date: 2026-07-10 15:00:00 (GMT-5)
+User Account: juanamillo@gmail.com
+Google Cloud Projects: 
+  - juan-jaramillo-tech (Main)
+  - juanjaramillotech (Maps Platform)
+
+--------------------------------------------------------------------------------
+1. DESCRIPTION OF THE ERROR
+--------------------------------------------------------------------------------
+The error analyzed was a Google OAuth 2.0 validation error (Error 400: redirect_uri_mismatch) 
+which occurred when trying to configure or connect Google Calendar and Gmail tools 
+in the application. The mismatch was caused by an attempt to authenticate with the 
+Google Identity service using the redirect URI 'https://developers.google.com/oauthplayground' 
+while the API services (Google Calendar API and Gmail API) were not enabled in the 
+Google Cloud Console, and the OAuth client ID required proper configuration and testing.
+
+--------------------------------------------------------------------------------
+2. STEP-BY-STEP RESOLUTION PATH
+--------------------------------------------------------------------------------
+Step 1: Accessed the Google Cloud Console for project "juan-jaramillo-tech" 
+        (authenticated as juanamillo@gmail.com).
+Step 2: Enabled both the "Gmail API" and the "Google Calendar API" in the project,
+        which were previously disabled.
+Step 3: Navigated to the OAuth 2.0 Credentials setup. Located "Web client 1" 
+        associated with client ID [REDACTED_CLIENT_ID].
+Step 4: Inspected and verified the "Authorized Redirect URIs" list to confirm that 
+        'https://developers.google.com/oauthplayground' was properly registered 
+        for OAuth testing.
+Step 5: Generated a brand new Client Secret for "Web client 1" to resolve lost or 
+        unreadable credentials.
+Step 6: Verified that juanamillo@gmail.com was successfully listed as an authorized 
+        "Test User" under the OAuth consent screen Audience settings.
+Step 7: Conducted end-to-end authentication testing using the Google OAuth 2.0 
+        Playground. Provided custom Client ID and the newly generated Client Secret, 
+        and requested scopes for Gmail and Google Calendar.
+Step 8: Approved the scopes and consented to permissions. Successfully redirected 
+        back to the OAuth 2.0 Playground and exchanged the authorization code 
+        for a long-lived refresh token.
+
+--------------------------------------------------------------------------------
+3. CONFIRMED VALID CREDENTIALS (ALL TOOLKITS)
+--------------------------------------------------------------------------------
+The following credentials have been successfully retrieved, tested, and confirmed 
+to be fully valid, operational, and ready to be used:
+
+[GOOGLE CALENDAR TOOLKIT CREDENTIALS]
+- GOOGLE_CLIENT_ID = "[REDACTED_CLIENT_ID]"
+- GOOGLE_CLIENT_SECRET = "[REDACTED_CLIENT_SECRET]"
+- GOOGLE_REFRESH_TOKEN = "[REDACTED_REFRESH_TOKEN]"
+
+[GOOGLE GMAIL TOOLKIT CREDENTIALS]
+- GOOGLE_CLIENT_ID = "[REDACTED_CLIENT_ID]"
+- GOOGLE_CLIENT_SECRET = "[REDACTED_CLIENT_SECRET]"
+- GOOGLE_REFRESH_TOKEN = "[REDACTED_REFRESH_TOKEN]"
+- GMAIL_GOOGLE_CLIENT_ID = "[REDACTED_CLIENT_ID]"
+- GMAIL_GOOGLE_CLIENT_SECRET = "[REDACTED_CLIENT_SECRET]"
+- GMAIL_GOOGLE_REFRESH_TOKEN = "[REDACTED_REFRESH_TOKEN]"
+
+[GOOGLE CUSTOM SEARCH TOOLKIT CREDENTIALS]
+- GOOGLE_API_KEY = "[REDACTED_API_KEY]" (Generative Language / API Key)
+- SEARCH_ENGINE_ID = "[REDACTED_SEARCH_ENGINE_ID]" (SIGMA Custom Search Engine CX ID)
+
+[ADDITIONAL RETRIEVED KEYS]
+- GOOGLE_MAPS_API_KEY = "[REDACTED_MAPS_API_KEY]" (From 'juanjaramillotech' project)
+
+--------------------------------------------------------------------------------
+4. CONFIGURATION FILE KEYS REFERENCE (DOTENV FORMAT)
+--------------------------------------------------------------------------------
+Save these values directly into your .env or credentials configuration fields:
+
+# --- Google OAuth (Calendar & Gmail) ---
+GOOGLE_CLIENT_ID="YOUR_GOOGLE_CLIENT_ID"
+GOOGLE_CLIENT_SECRET="YOUR_GOOGLE_CLIENT_SECRET"
+GOOGLE_REFRESH_TOKEN="YOUR_GOOGLE_REFRESH_TOKEN"
+
+GMAIL_GOOGLE_CLIENT_ID="YOUR_GMAIL_GOOGLE_CLIENT_ID"
+GMAIL_GOOGLE_CLIENT_SECRET="YOUR_GMAIL_GOOGLE_CLIENT_SECRET"
+GMAIL_GOOGLE_REFRESH_TOKEN="YOUR_GMAIL_GOOGLE_REFRESH_TOKEN"
+
+# --- Google Custom Search ---
+GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
+SEARCH_ENGINE_ID="YOUR_SEARCH_ENGINE_ID"
+
+# --- Google Maps (Additional) ---
+GOOGLE_MAPS_API_KEY="YOUR_GOOGLE_MAPS_API_KEY"
+
+================================================================================
+REPORT END
+================================================================================

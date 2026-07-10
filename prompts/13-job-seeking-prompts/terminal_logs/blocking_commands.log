@@ -1,0 +1,1097 @@
+--- Executing blocking command at Fri Jul 10 17:17:54 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/browser_agent/.venv/bin/activate" && ls -la /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts
+--- Output ---
+total 6072
+drwxr-xr-x@ 99 macbookpro  staff    3168 Jul 10 16:52 .
+drwxr-xr-x@ 17 macbookpro  staff     544 Jul  6 20:43 ..
+-rw-r--r--@  1 macbookpro  staff    6148 Jul 10 15:32 .DS_Store
+drwxr-xr-x@  4 macbookpro  staff     128 Jul 10 14:35 .agent
+-rw-r--r--@  1 macbookpro  staff     192 Jul 10 16:04 .note_register
+-rw-r--r--@  1 macbookpro  staff   11154 Jul  8 18:28 30_day_execution_strategy.md
+-rw-r--r--@  1 macbookpro  staff    5900 Jul  8 18:23 Juan_Jaramillo_Master_Cover_Letter.pdf
+-rw-r--r--@  1 macbookpro  staff   10495 Jul  8 18:23 Juan_Jaramillo_Master_Resume.pdf
+-rw-r--r--@  1 macbookpro  staff   10359 Jul  8 18:26 Juan_Jaramillo_Resume_AI_LLM.pdf
+-rw-r--r--@  1 macbookpro  staff   10484 Jul  8 18:26 Juan_Jaramillo_Resume_CMS_React.pdf
+-rw-r--r--@  1 macbookpro  staff   10197 Jul  8 18:26 Juan_Jaramillo_Resume_Vibe_Coding.pdf
+drwxr-xr-x   3 macbookpro  staff      96 Jul 10 15:32 Skills
+-rw-r--r--@  1 macbookpro  staff    4074 Jul  8 21:07 additional_applications_report.md
+-rw-r--r--@  1 macbookpro  staff    2165 Jul  3 15:19 ai-recruiter-outreach-networking.md
+-rw-r--r--@  1 macbookpro  staff    2919 Jul  8 20:51 applications_report.md
+-rw-r--r--@  1 macbookpro  staff    1861 Jul  8 20:32 bing_results.txt
+-rw-r--r--@  1 macbookpro  staff    2205 Jul  8 20:32 ddg_results.txt
+-rw-r--r--@  1 macbookpro  staff   13232 Jul  8 18:28 extracted_bogota_jobs.md
+-rw-r--r--@  1 macbookpro  staff    5537 Jul  8 19:25 extracted_resume_text.txt
+-rw-r--r--@  1 macbookpro  staff    4723 Jul  8 20:30 extracted_screenshots.txt
+-rw-r--r--@  1 macbookpro  staff     988 Jul  8 19:13 filter_jobs.py
+-rw-r--r--@  1 macbookpro  staff   23534 Jul  8 18:23 generate_pdfs.py
+-rw-r--r--@  1 macbookpro  staff   39084 Jul  8 18:25 generate_three_resumes.py
+-rw-r--r--@  1 macbookpro  staff    1335 Jul 10 16:04 google_search_keys_screenshot.md
+-rw-r--r--@  1 macbookpro  staff    8589 Jul  8 17:37 job-search-strategy-three-target-lanes.md
+-rw-r--r--@  1 macbookpro  staff    4240 Jul  8 16:46 juan-jaramillo-advanced-cover-letter.md
+-rw-r--r--@  1 macbookpro  staff    5871 Jul  6 17:42 juan-jaramillo-resume.md
+-rw-r--r--@  1 macbookpro  staff  198199 Jul  6 17:44 juan-jaramillo-resume.pdf
+-rw-r--r--@  1 macbookpro  staff    7644 Jul  8 19:26 juan_profile.md
+-rw-r--r--@  1 macbookpro  staff    2180 Jul 10 15:57 keys_screenshot_1.md
+-rw-r--r--@  1 macbookpro  staff    2231 Jul 10 16:04 keys_screenshot_2.md
+-rw-r--r--@  1 macbookpro  staff    6843 Jul  3 16:23 linkedin-ai-teaching-contract-projects-assistant.md
+-rw-r--r--@  1 macbookpro  staff    6189 Jul  3 15:37 linkedin-job-application-assistant.md
+-rw-r--r--@  1 macbookpro  staff    1193 Jul  8 20:46 linkedin_app1_submitted.txt
+-rw-r--r--@  1 macbookpro  staff    1193 Jul  8 20:47 linkedin_app2_submitted.txt
+-rw-r--r--@  1 macbookpro  staff    1193 Jul  8 20:47 linkedin_app3_submitted.txt
+-rw-r--r--@  1 macbookpro  staff    1193 Jul  8 20:48 linkedin_app4_submitted.txt
+-rw-r--r--@  1 macbookpro  staff    1161 Jul  8 20:50 linkedin_app5_submitted.txt
+-rw-r--r--@  1 macbookpro  staff    4353 Jul  8 20:21 linkedin_applications_report.md
+-rw-r--r--@  1 macbookpro  staff     823 Jul  8 18:28 linkedin_auth_findings.md
+-rw-r--r--@  1 macbookpro  staff      36 Jul  8 18:16 linkedin_auth_status.txt
+-rw-r--r--@  1 macbookpro  staff    3035 Jul  8 19:15 linkedin_automation_prompt.md
+-rw-r--r--@  1 macbookpro  staff     987 Jul 10 15:52 linkedin_credentials.md
+-rw-r--r--@  1 macbookpro  staff   24991 Jul  8 21:02 linkedin_designshopp.txt
+-rw-r--r--@  1 macbookpro  staff   28699 Jul  8 20:49 linkedin_dpm_snapshot.txt
+-rw-r--r--@  1 macbookpro  staff   64227 Jul  8 21:05 linkedin_emapta.txt
+-rw-r--r--@  1 macbookpro  staff    4529 Jul  8 21:06 linkedin_emapta_after_js.txt
+-rw-r--r--@  1 macbookpro  staff   25748 Jul  8 21:06 linkedin_emapta_apply.txt
+-rw-r--r--@  1 macbookpro  staff   25669 Jul  8 20:49 linkedin_figma_pm_snapshot.txt
+-rw-r--r--@  1 macbookpro  staff   19050 Jul  8 20:31 linkedin_home.txt
+-rw-r--r--@  1 macbookpro  staff   38423 Jul  8 21:04 linkedin_huzzle.txt
+-rw-r--r--@  1 macbookpro  staff    6866 Jul  8 21:05 linkedin_huzzle_after_js.txt
+-rw-r--r--@  1 macbookpro  staff   26136 Jul  8 21:04 linkedin_huzzle_apply.txt
+-rw-r--r--@  1 macbookpro  staff   16602 Jul  8 20:44 linkedin_jobs_snapshot.txt
+-rw-r--r--@  1 macbookpro  staff    2444 Jul  8 21:03 linkedin_pyramid_after_js.txt
+-rw-r--r--@  1 macbookpro  staff   25717 Jul  8 20:48 linkedin_search_5_snapshot.txt
+-rw-r--r--@  1 macbookpro  staff   29052 Jul  8 21:00 linkedin_search_colombia.txt
+-rw-r--r--@  1 macbookpro  staff    1154 Jul  8 18:28 linkedin_search_findings.md
+-rw-r--r--@  1 macbookpro  staff   27784 Jul  8 21:03 linkedin_search_remote.txt
+-rw-r--r--@  1 macbookpro  staff   25317 Jul  8 20:45 linkedin_search_results_2.txt
+-rw-r--r--@  1 macbookpro  staff   25520 Jul  8 20:45 linkedin_search_results_snapshot.txt
+-rw-r--r--@  1 macbookpro  staff   35428 Jul  8 20:58 linkedin_search_snapshot.txt
+-rw-r--r--@  1 macbookpro  staff    5818 Jul  8 21:00 linkedin_search_snapshot_after_js.txt
+-rw-r--r--@  1 macbookpro  staff   25798 Jul  8 21:01 linkedin_search_webflow.txt
+-rw-r--r--@  1 macbookpro  staff   23309 Jul  8 21:01 linkedin_search_worldwide.txt
+-rw-r--r--@  1 macbookpro  staff    3075 Jul  8 21:02 linkedin_walsh_after_js.txt
+-rw-r--r--@  1 macbookpro  staff   22255 Jul  8 20:45 linkedin_worldwide_snapshot.txt
+-rw-r--r--@  1 macbookpro  staff    4795 Jul  7 11:03 loom-video-script.md
+-rw-r--r--@  1 macbookpro  staff  117439 Jul  7 12:22 loom-video-script.pdf
+-rw-r--r--@  1 macbookpro  staff    3785 Jul  8 18:21 loom_video_script.md
+-rw-r--r--@  1 macbookpro  staff    1204 Jul  8 20:29 ocr.swift
+-rw-r--r--@  1 macbookpro  staff  701135 Jul  8 20:09 pswa9k.pdf
+-rw-r--r--@  1 macbookpro  staff    2139 Jul  8 20:43 reference_job_details.json
+-rw-r--r--@  1 macbookpro  staff    2588 Jul  6 20:51 resume.css
+-rw-r--r--@  1 macbookpro  staff  701135 Jul  8 20:03 resume.pdf
+-rw-r--r--@  1 macbookpro  staff    1968 Jul 10 16:04 screenshot_1_analysis.md
+-rw-r--r--@  1 macbookpro  staff  151522 Jul  8 21:00 screenshot_wisevu_form.png
+-rw-r--r--@  1 macbookpro  staff    4664 Jul 10 16:52 shared_files.md
+-rw-r--r--@  1 macbookpro  staff   29618 Jul  8 20:15 snapshot_developer_colombia.txt
+-rw-r--r--@  1 macbookpro  staff    3123 Jul  8 20:11 snapshot_dialog.txt
+-rw-r--r--@  1 macbookpro  staff   51950 Jul  8 20:10 snapshot_feed.txt
+-rw-r--r--@  1 macbookpro  staff   22207 Jul  8 20:17 snapshot_jobs_argentina.txt
+-rw-r--r--@  1 macbookpro  staff   23838 Jul  8 20:10 snapshot_jobs_list.txt
+-rw-r--r--@  1 macbookpro  staff   20563 Jul  8 20:13 snapshot_jobs_mexico.txt
+-rw-r--r--@  1 macbookpro  staff   22722 Jul  8 20:16 snapshot_ml_colombia.txt
+-rw-r--r--@  1 macbookpro  staff    1122 Jul  8 20:11 snapshot_submit_state.txt
+-rw-r--r--@  1 macbookpro  staff    1133 Jul  8 20:13 snapshot_submit_state2.txt
+-rw-r--r--@  1 macbookpro  staff    1124 Jul  8 20:14 snapshot_submit_state3.txt
+-rw-r--r--@  1 macbookpro  staff    1129 Jul  8 20:18 snapshot_submit_state4.txt
+-rw-r--r--@  1 macbookpro  staff    1130 Jul  8 20:20 snapshot_submit_state5.txt
+-rw-r--r--@  1 macbookpro  staff    7319 Jul  8 20:20 snapshot_workable_checks.txt
+-rw-r--r--@  1 macbookpro  staff    4922 Jul  8 20:34 target_similar_jobs.md
+-rw-r--r--@  1 macbookpro  staff    1540 Jul  8 19:47 temp_filter_script.md
+drwxr-xr-x@  2 macbookpro  staff      64 Jul 10 17:16 terminal_logs
+-rw-r--r--@  1 macbookpro  staff    4577 Jul 10 16:36 validation_error_analysis.md
+-rw-r--r--@  1 macbookpro  staff    5623 Jul 10 17:12 validation_resolution_report.txt
+-rw-r--r--@  1 macbookpro  staff   11044 Jul  8 20:33 yahoo_results.txt
+-rw-r--r--@  1 macbookpro  staff   11760 Jul  8 20:33 yahoo_results2.txt
+-rw-r--r--@  1 macbookpro  staff   10657 Jul  8 20:33 yahoo_results3.txt
+
+
+
+--- Executing blocking command at Fri Jul 10 17:17:57 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/browser_agent/.venv/bin/activate" && grep -i "vibe" /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/*results*.txt || true
+--- Output ---
+
+
+
+--- Executing blocking command at Fri Jul 10 17:18:00 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/browser_agent/.venv/bin/activate" && grep -rnwi "vibe" /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/ || true
+--- Output ---
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin_jobs_snapshot.txt:35:      uid=1_34 link "Juan Jaramillo, AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt Enginer • Professional Vibe Coder, Bogota, D.C., Capital District, Verified profile" url="https://www.linkedin.com/in/juan-jaramillo-ai/en/"
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin_jobs_snapshot.txt:38:        uid=1_37 StaticText "AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt Enginer • Professional Vibe Coder"
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin_auth_findings.md:9:  - Tagline: AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt Enginer • Professional Vibe Coder
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:5:The AI developer market is strong: 9,125 active AI roles, $229k average salary, with agents (2,766 openings, $232k avg) and LLM/fine-tuning skills (816 openings, $253k avg) as the top drivers. Vibe coding has become a legitimate hiring category — 1,842+ listings, $160k median salary, 73% remote, growing 340% year-over-year — and top employers now explicitly list "vibe coding" as a required skill, including Coinbase, JPMorgan, and NVIDIA. React/WordPress hybrid roles remain a stable niche, with 336 active listings paying $80k–$158k.[1][2][3][4]
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:10:| Vibe coding                     | 1,842 listings, $160k median, 340% YoY growth, "AI-native" culture tags [1][5] | Strong — TopNetworks SaaS builds (EmailGenius, RouteGenius) are vibe-coding proof points |
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:17:- Lead with "AI-Native Full-Stack Architect" positioning rather than generic "AI Development Lead," since "AI-native" and "ai-tools" are now recognized vibe-tags in job listings.[5]
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:18:- Reframe the TopNetworks SaaS ecosystem (EmailGenius, TrafficGenius, RouteGenius, Social Media Genius) explicitly as "vibe-coded" AI-assisted builds — naming the workflow (AI IDE, Cursor-style agent-driven development, rapid prototyping) since employers now screen for this term directly.[2][6]
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:19:- Keep three résumé/portfolio variants tailored to each track: (1) AI/LLM Engineering, (2) Vibe Coding / AI-Native Product Builder, (3) Full-Stack CMS + React Developer.
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:29:**Vibe coding (target: $137k–$200k, remote-first)**
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:31:- Update LinkedIn/portfolio language to explicitly say "vibe coding," "AI-native," and "AI IDE workflows" — these are the exact terms recruiters are searching, and Python, TypeScript, and prompt engineering are the top requested skills in this segment.[5]
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:33:- Watch for the newly emerging "Vibe Coding Specialist" title, and target companies like Replit, Webflow, GitLab, and Stripe that actively post in this category.[7][8]
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:43:- Week 1: Rebuild LinkedIn headline/summary around "AI-Native Full-Stack Architect | LLM Engineering, Agentic Systems, Vibe Coding, CMS-to-Headless Migration"; publish one technical post on the TopNetworks SaaS stack framed as a vibe-coding case study.
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:44:- Week 2: Produce three tailored résumé versions and a one-page portfolio site section per track (AI/LLM, vibe coding, CMS+React) on juanjaramillo.tech.
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:45:- Week 3: Apply to 15–20 roles per track weekly, prioritizing remote-first companies flagged in vibe-coding reports (Replit, GitLab, Webflow, Spotify, Stripe) and AI-heavy employers from the 539-company AI jobs dataset.[8][3]
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:46:- Week 4: Activate consulting/freelance channel (Upwork AI project analysis shows 1,304+ postings mentioning vibe coding) as a parallel revenue stream while pursuing full-time roles.[9]
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:51:[1] Where Vibe Coding Jobs Are (Pay, Skills, Portfolio in 2026 ... <https://sorceress.games/blog/where-vibe-coding-jobs-are-pay-skills-portfolio-in-2026>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:52:[2] Vibe Coding Is Now on Job Descriptions: What It Means for You <https://www.vibecodingresources.com/guides/vibe-coding-jobs-hiring-2026>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:55:[5] Vibe Coding Jobs Report — Trends & Insights | GoodVibeCode <https://www.goodvibecode.com/report>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:56:[6] Vibe Coding in March 2026: Hiring Booms, Vibe Deploying, and ... <https://porkicoder.com/blog/posts/vibe-coding-in-march-2026-hiring-booms-vibe-deploying-and-new-realities.html>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:57:[7] Vibe Coding Jobs Report: February 2026 — 181 Listings, $160K Median, Big Tech Goes All-In <https://vibehackers.io/blog/vibe-coding-jobs-report-2026-02>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:58:[8] 05company Landscape <https://remotevibecodingjobs.com/state-of-vibe-coding-2026>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:59:[9] Upwork AI & Vibe Coding Jobs: 1304 Postings Analyzed (2026 Data) <https://vibehackers.io/blog/upwork-vibe-coding-jobs>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:63:[13] Vibe Coding and the Workforce: Jobs, Skills, and Economic ... <https://museumofvibecoding.org/vibe-coding-and-the-workforce-jobs-skills-and-economic-transformation-unbiased-rsearch-2026/>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:67:[17] Vibe Coding in 2026: What Does It Look Like for Businesses - LinkedIn <https://www.linkedin.com/pulse/vibe-coding-2026-what-does-look-like-businesses-scott-gulliver-e9zve>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:68:[18] Top 10 Best AI Companies Hiring Vibe Coders In 2026 <https://nubiapage.com/top-10-best-ai-companies-hiring-vibe-coders-in-2026-the-rise-of-non-technical-ai-builders/>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin_emapta.txt:396:        uid=48_341 link "Every quarter, Kenny, Mina and I make it a point to report onsite so we can still experience the office atmosphere and connect with colleagues in person. Two weeks ago, we planned another onsite day, but this time we invited a few team members to join us. We're glad they didn't hesitate to come along. Our group of onsite buddies continues to grow, and the experience was made even better by the newly renovated Alabang office, which brought an even more positive and refreshing vibe to the day. #Emapta #EmaptaExperience #ASBSite #Alabang #WeLoveABMG" url="https://www.linkedin.com/feed/update/urn:li:activity:7470823140483411969/"
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin_emapta.txt:398:            uid=48_343 StaticText "Every quarter, Kenny, Mina and I make it a point to report onsite so we can still experience the office atmosphere and connect with colleagues in person. Two weeks ago, we planned another onsite day, but this time we invited a few team members to join us. We're glad they didn't hesitate to come along. Our group of onsite buddies continues to grow, and the experience was made even better by the newly renovated Alabang office, which brought an even more positive and refreshing vibe to the day."
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin_huzzle_apply.txt:15:        uid=37_14 StaticText "AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt Enginer • Professional Vibe Coder"
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/30_day_execution_strategy.md:55:### Track 2: Vibe Coding & AI-Native Product Engineering
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/30_day_execution_strategy.md:63:  - Vibe Coder / AI Velocity Specialist
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/30_day_execution_strategy.md:76:  - Record a high-impact, 3-minute video showcase (Loom) presenting the TopNetworks SaaS ecosystem as a production-grade, vibe-coded build with extreme reliability.
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/30_day_execution_strategy.md:120:  - **Days 8-9:** Craft **Resume Variant B (Vibe Coding / AI-Native Product)** focusing on rapid prototyping, Next.js 15/16, React 19, Astro 5, and the TopNetworks SaaS stack.
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/linkedin_emapta_apply.txt:15:        uid=49_14 StaticText "AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt Enginer • Professional Vibe Coder"
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:360:# 2. Vibe Coding & AI-Native Engineering Resume
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:366:<title>Juan Miguel Jaramillo Gaviria - AI-Native Full-Stack Architect (Vibe Coding)</title>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:373:        <div class="tagline">AI-Native Full-Stack Architect | Vibe Coder | Product Engineer</div>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:385:        Pioneering AI-Native Full-Stack Architect with over 17 years of leadership experience, specializing in the modern "vibe coding" paradigm. Master of high-velocity, spec-first AI engineering workflows leveraging modern AI IDEs (Cursor, Copilot) and multi-agent execution systems to design, build, and deploy production-grade software ecosystems at 10x traditional speed. Renowned for shipping scalable, secure, and revenue-generating SaaS platforms by translating plain-text design specifications into robust, production-grade architectures. Deeply proficient across Next.js 15/16, React 19, Astro 5, Tailwind CSS v4, TypeScript, Python, and Google Cloud Platform.
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:393:                    <span class="skills-category-title">Vibe Coding & AI Workflows:</span>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:423:        <div class="focus-text">Key Focus: Vibe Coding Workflow, Cursor IDE, Spec-First Synthesis, Multi-Agent Orchestration, Production-Grade Deployments</div>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:426:            <li>Architected, vibe-coded, and launched TopNetworks' entire proprietary internal SaaS ecosystem from plain-text specifications, achieving extraordinary shipping velocity and direct-to-production deployment:
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:429:                    <li><strong>RouteGenius:</strong> High-concurrency traffic routing engine on Supabase; integrates multi-agent n8n workflows via concurrent webhooks. Vibe-coded to process high volumes of live web traffic with zero latency.</li>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:434:            <li>Maintained strict engineering discipline: paired rapid vibe coding with structured Git Flow versioning, comprehensive automated prompt validation, and rigorous architectural checks.</li>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:522:        <strong>Interests:</strong> Vibe Coding Research, Rapid Prototyping, DevEx Optimization, Blogging, Tech Mentorship.
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/terminal_logs/blocking_commands.log:108:> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/browser_agent/.venv/bin/activate" && grep -i "vibe" /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/*results*.txt || true
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/snapshot_feed.txt:33:      uid=2_32 link "Juan Jaramillo, AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt Enginer • Professional Vibe Coder, Bogota, D.C., Capital District, Verified profile" url="https://www.linkedin.com/in/juan-jaramillo-ai/en/"
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/snapshot_feed.txt:36:        uid=2_35 StaticText "AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt Enginer • Professional Vibe Coder"
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Resume_Vibe_Coding.pdf:79:  /Subject () /Title (Juan Miguel Jaramillo Gaviria - AI-Native Full-Stack Architect \(Vibe Coding\)) /Trapped /False
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/shared_files.md:11:- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Resume_Vibe_Coding.pdf: Tailored PDF resume variant emphasizing Vibe Coding & AI-Native Engineering (Cursor workflows, rapid AI builds, TopNetworks SaaS as vibe-coded builds).
+
+
+
+--- Executing blocking command at Fri Jul 10 17:18:01 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/browser_agent/.venv/bin/activate" && grep -rnwi "assisted" /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/ || true
+--- Output ---
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:18:- Reframe the TopNetworks SaaS ecosystem (EmailGenius, TrafficGenius, RouteGenius, Social Media Genius) explicitly as "vibe-coded" AI-assisted builds — naming the workflow (AI IDE, Cursor-style agent-driven development, rapid prototyping) since employers now screen for this term directly.[2][6]
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:32:- Package a portfolio piece showing spec-first, iterative AI-assisted build process (the emerging best practice: write spec → build incrementally → review architecture) to demonstrate professional rigor beyond "prompt and pray".[6]
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/extracted_bogota_jobs.md:186:"title": "QA Automation Engineer (AI-Assisted Quality Engineering)",
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/extracted_bogota_jobs.md:189:"link": "https://co.linkedin.com/jobs/view/qa-automation-engineer-ai-assisted-quality-engineering-at-oowlish-4422140579"
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:430:                    <li><strong>TrafficGenius:</strong> Real-time invalid traffic detection and security platform using BigQuery and Cloud Armor; optimized using AI-assisted query design.</li>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:445:        <div class="focus-text">Key Focus: AI Developer Experience (DevEx), Cursor IDE Mentoring, High-Velocity Workflows, AI-Assisted Architecture</div>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_three_resumes.py:620:        <div class="focus-text">Key Focus: CMS Legacy Modernization, Headless Next.js Migrations, AI-Assisted Editorial Workflows</div>
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/terminal_logs/blocking_commands.log:122:/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job-search-strategy-three-target-lanes.md:18:- Reframe the TopNetworks SaaS ecosystem (EmailGenius, TrafficGenius, RouteGenius, Social Media Genius) explicitly as "vibe-coded" AI-assisted builds — naming the workflow (AI IDE, Cursor-style agent-driven development, rapid prototyping) since employers now screen for this term directly.[2][6]
+/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/generate_pdfs.py:206:        Enterprise AI Development Lead and Full-Stack Architect with over 17 years of leadership experience spanning digital transformation, software engineering, and technology entrepreneurship. Expert in designing and deploying production-grade generative AI systems, orchestrating multi-agent frameworks, executing LLM fine-tuning (PEFT, RLHF), and managing hallucination risk. Highly proficient across Next.js 15/16, React 19, TypeScript, Python, and cloud-native architectures on Google Cloud Platform. Well before generative AI reshaped the global tech landscape, founded and scaled multiple successful digital and technology ventures. A pioneer in combining modern legacy-modernization expertise (CMS/WordPress) with AI-assisted high-velocity coding workflows.
+
+
+
+--- Executing blocking command at Fri Jul 10 17:20:45 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/browser_agent/.venv/bin/activate" && cat << 'EOF' > /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/write_json.py
+import json
+
+jobs = [
+    {
+        "title": "Vibe Coder",
+        "company": "Darwin AI",
+        "url": "https://co.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449",
+        "requirements": "Experience building products — whether through startups, side projects, open source contributions, or shipping tools inside a company. Experience working with vibe coding tools such as v0, Bolt, Lovable, or Chef by Convex. Experience working with AI coding editors (e.g., Cursor) to speed up development and experimentation. A creative, curious mindset: you love tinkering, prototyping, and bringing abstract ideas to life fast. A collaborative spirit: you enjoy partnering with non-technical teams to uncover needs and build impactful solutions. Strong problem-solving skills: you're comfortable moving from vague problem spaces to concrete, usable products."
+    },
+    {
+        "title": "Vibe Coder (AI-Assisted Software Engineer / Full-Stack) - OPS00069",
+        "company": "Dev.Pro",
+        "url": "https://ar.linkedin.com/jobs/view/vibe-coder-ai-assisted-software-engineer-full-stack-ops00069-at-dev-pro-4403797050",
+        "requirements": "AI engineer with AI coding experience to build scalable, high-performance digital products. Value engineers who can navigate ambiguity, work across the stack, and leverage tools like AI copilots to enhance productivity while maintaining strong technical fundamentals. Strong focus on emerging development workflows, exploring how AI-native coding practices can accelerate product delivery, improve code quality, and enable smaller, highly efficient engineering teams."
+    },
+    {
+        "title": "Programador/a con enfoque Vibe Coding (IA)",
+        "company": "Inteligencia Artificial",
+        "url": "https://es.linkedin.com/jobs/view/programador-a-con-enfoque-vibe-coding-ia-at-inteligencia-artificial-4204687223",
+        "requirements": "Perfil creativo y resolutivo, con experiencia en desarrollo web (HTML, CSS, JavaScript y frameworks como React o similares), que trabaje de forma fluida en modo vibe coding: diseño y desarrollo ágil de landings y proyectos web, con apoyo de inteligencia artificial. Imprescindible tener buen criterio visual, rapidez ejecutando y utilizar IA como parte clave del proceso, con herramientas como Claude Sonnet, Bolt AI, Cursor u otras similares. Puesto presencial en Barcelona, jornada completa. Se valorará el envío de ejemplos de proyectos realizados con enfoque vibe coding."
+    },
+    {
+        "title": "Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD",
+        "company": "Trilogy",
+        "url": "https://ar.linkedin.com/jobs/view/vibe-coder-software-engineer-trilogy-remote-%2460-000-year-usd-at-trilogy-4255590650",
+        "requirements": "4+ years of proven commercial software development experience, specifically building production-grade server-side web applications. Demonstrated proficiency with GenAI code assistants (Github Copilot, Cursor, v0.dev) in professional development environments. Commitment to integrating GenAI tools throughout your development workflow to maximize efficiency and output quality."
+    },
+    {
+        "title": "Desarrollador AI-Native (Vibe Coder)",
+        "company": "Vibeast",
+        "url": "https://es.linkedin.com/jobs/view/desarrollador-ai-native-vibe-coder-at-vibeast-4401002722",
+        "requirements": "Expertos en Task Stewardship: Validar y guiar código generado por IA con alta fidelidad. Fluidez técnica para capturar el premium salarial del 56% que el mercado global ya está pagando. Pasión por proyectos cross-border entre regiones LATAM, MENA y EEUU. Dominar agentes de IA (Cursor, Claude Code, Bolt) para construir el futuro del empleo en el mundo árabe, EE. UU. y LATAM."
+    }
+]
+
+with open('/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/discovered_jobs.json', 'w', encoding='utf-8') as f:
+    json.dump(jobs, f, indent=4, ensure_ascii=False)
+
+print("JSON saved successfully!")
+EOF
+python3 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/write_json.py
+
+--- Output ---
+JSON saved successfully!
+
+
+
+--- Executing blocking command at Fri Jul 10 17:20:48 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/browser_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/discovered_jobs.json
+--- Output ---
+[
+    {
+        "title": "Vibe Coder",
+        "company": "Darwin AI",
+        "url": "https://co.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449",
+        "requirements": "Experience building products — whether through startups, side projects, open source contributions, or shipping tools inside a company. Experience working with vibe coding tools such as v0, Bolt, Lovable, or Chef by Convex. Experience working with AI coding editors (e.g., Cursor) to speed up development and experimentation. A creative, curious mindset: you love tinkering, prototyping, and bringing abstract ideas to life fast. A collaborative spirit: you enjoy partnering with non-technical teams to uncover needs and build impactful solutions. Strong problem-solving skills: you're comfortable moving from vague problem spaces to concrete, usable products."
+    },
+    {
+        "title": "Vibe Coder (AI-Assisted Software Engineer / Full-Stack) - OPS00069",
+        "company": "Dev.Pro",
+        "url": "https://ar.linkedin.com/jobs/view/vibe-coder-ai-assisted-software-engineer-full-stack-ops00069-at-dev-pro-4403797050",
+        "requirements": "AI engineer with AI coding experience to build scalable, high-performance digital products. Value engineers who can navigate ambiguity, work across the stack, and leverage tools like AI copilots to enhance productivity while maintaining strong technical fundamentals. Strong focus on emerging development workflows, exploring how AI-native coding practices can accelerate product delivery, improve code quality, and enable smaller, highly efficient engineering teams."
+    },
+    {
+        "title": "Programador/a con enfoque Vibe Coding (IA)",
+        "company": "Inteligencia Artificial",
+        "url": "https://es.linkedin.com/jobs/view/programador-a-con-enfoque-vibe-coding-ia-at-inteligencia-artificial-4204687223",
+        "requirements": "Perfil creativo y resolutivo, con experiencia en desarrollo web (HTML, CSS, JavaScript y frameworks como React o similares), que trabaje de forma fluida en modo vibe coding: diseño y desarrollo ágil de landings y proyectos web, con apoyo de inteligencia artificial. Imprescindible tener buen criterio visual, rapidez ejecutando y utilizar IA como parte clave del proceso, con herramientas como Claude Sonnet, Bolt AI, Cursor u otras similares. Puesto presencial en Barcelona, jornada completa. Se valorará el envío de ejemplos de proyectos realizados con enfoque vibe coding."
+    },
+    {
+        "title": "Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD",
+        "company": "Trilogy",
+        "url": "https://ar.linkedin.com/jobs/view/vibe-coder-software-engineer-trilogy-remote-%2460-000-year-usd-at-trilogy-4255590650",
+        "requirements": "4+ years of proven commercial software development experience, specifically building production-grade server-side web applications. Demonstrated proficiency with GenAI code assistants (Github Copilot, Cursor, v0.dev) in professional development environments. Commitment to integrating GenAI tools throughout your development workflow to maximize efficiency and output quality."
+    },
+    {
+        "title": "Desarrollador AI-Native (Vibe Coder)",
+        "company": "Vibeast",
+        "url": "https://es.linkedin.com/jobs/view/desarrollador-ai-native-vibe-coder-at-vibeast-4401002722",
+        "requirements": "Expertos en Task Stewardship: Validar y guiar código generado por IA con alta fidelidad. Fluidez técnica para capturar el premium salarial del 56% que el mercado global ya está pagando. Pasión por proyectos cross-border entre regiones LATAM, MENA y EEUU. Dominar agentes de IA (Cursor, Claude Code, Bolt) para construir el futuro del empleo en el mundo árabe, EE. UU. y LATAM."
+    }
+]
+
+
+--- Executing blocking command at Fri Jul 10 17:21:28 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/document_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/discovered_jobs.json
+--- Output ---
+[
+    {
+        "title": "Vibe Coder",
+        "company": "Darwin AI",
+        "url": "https://co.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449",
+        "requirements": "Experience building products — whether through startups, side projects, open source contributions, or shipping tools inside a company. Experience working with vibe coding tools such as v0, Bolt, Lovable, or Chef by Convex. Experience working with AI coding editors (e.g., Cursor) to speed up development and experimentation. A creative, curious mindset: you love tinkering, prototyping, and bringing abstract ideas to life fast. A collaborative spirit: you enjoy partnering with non-technical teams to uncover needs and build impactful solutions. Strong problem-solving skills: you're comfortable moving from vague problem spaces to concrete, usable products."
+    },
+    {
+        "title": "Vibe Coder (AI-Assisted Software Engineer / Full-Stack) - OPS00069",
+        "company": "Dev.Pro",
+        "url": "https://ar.linkedin.com/jobs/view/vibe-coder-ai-assisted-software-engineer-full-stack-ops00069-at-dev-pro-4403797050",
+        "requirements": "AI engineer with AI coding experience to build scalable, high-performance digital products. Value engineers who can navigate ambiguity, work across the stack, and leverage tools like AI copilots to enhance productivity while maintaining strong technical fundamentals. Strong focus on emerging development workflows, exploring how AI-native coding practices can accelerate product delivery, improve code quality, and enable smaller, highly efficient engineering teams."
+    },
+    {
+        "title": "Programador/a con enfoque Vibe Coding (IA)",
+        "company": "Inteligencia Artificial",
+        "url": "https://es.linkedin.com/jobs/view/programador-a-con-enfoque-vibe-coding-ia-at-inteligencia-artificial-4204687223",
+        "requirements": "Perfil creativo y resolutivo, con experiencia en desarrollo web (HTML, CSS, JavaScript y frameworks como React o similares), que trabaje de forma fluida en modo vibe coding: diseño y desarrollo ágil de landings y proyectos web, con apoyo de inteligencia artificial. Imprescindible tener buen criterio visual, rapidez ejecutando y utilizar IA como parte clave del proceso, con herramientas como Claude Sonnet, Bolt AI, Cursor u otras similares. Puesto presencial en Barcelona, jornada completa. Se valorará el envío de ejemplos de proyectos realizados con enfoque vibe coding."
+    },
+    {
+        "title": "Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD",
+        "company": "Trilogy",
+        "url": "https://ar.linkedin.com/jobs/view/vibe-coder-software-engineer-trilogy-remote-%2460-000-year-usd-at-trilogy-4255590650",
+        "requirements": "4+ years of proven commercial software development experience, specifically building production-grade server-side web applications. Demonstrated proficiency with GenAI code assistants (Github Copilot, Cursor, v0.dev) in professional development environments. Commitment to integrating GenAI tools throughout your development workflow to maximize efficiency and output quality."
+    },
+    {
+        "title": "Desarrollador AI-Native (Vibe Coder)",
+        "company": "Vibeast",
+        "url": "https://es.linkedin.com/jobs/view/desarrollador-ai-native-vibe-coder-at-vibeast-4401002722",
+        "requirements": "Expertos en Task Stewardship: Validar y guiar código generado por IA con alta fidelidad. Fluidez técnica para capturar el premium salarial del 56% que el mercado global ya está pagando. Pasión por proyectos cross-border entre regiones LATAM, MENA y EEUU. Dominar agentes de IA (Cursor, Claude Code, Bolt) para construir el futuro del empleo en el mundo árabe, EE. UU. y LATAM."
+    }
+]
+
+
+--- Executing blocking command at Fri Jul 10 17:21:32 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/document_agent/.venv/bin/activate" && head -n 100 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/juan_profile.md
+--- Output ---
+# Job Application Profile - Juan Jaramillo
+
+## 1. Basic Contact Information
+
+- **Full Name:** Juan Miguel Jaramillo Gaviria
+- **Email:** <mailto:info@juanjaramillo.tech>
+- **Phone:** (+57) 305 420 6139
+- **Location:** Bogotá, Colombia (Bogotá D.C. Metropolitan Area)
+- **LinkedIn:** [https://www.linkedin.com/in/juan-jaramillo-ai/](https://www.linkedin.com/in/juan-jaramillo-ai/)
+- **Portfolio:** [https://juanjaramillo.tech](https://juanjaramillo.tech)
+- **GitHub:** [https://github.com/juanjaragavi](https://github.com/juanjaragavi)
+- **Facebook:** [https://www.facebook.com/juanjaramilloai](https://www.facebook.com/juanjaramilloai)
+
+---
+
+## 2. Work History
+
+### AI Development Lead
+
+- **Company:** TopNetworks Inc. (Independent)
+- **Job Title:** AI Development Lead
+- **Exact Dates:** Feb. 2025 – Jun. 2026 (1 year 4 months)
+- **Location:** Bogotá D.C. Metropolitan Area · Remote
+- **Achievements & Responsibilities:**
+  - Lead AI strategy, architecture, and full-stack development for TopNetworks’ performance publishing platforms, serving the U.S., U.K., Mexico, and Latin America.
+  - Designed and built the internal SaaS ecosystem:
+    - **EmailGenius:** AI email generation utilizing Vertex AI + PostgreSQL.
+    - **TrafficGenius:** Invalid traffic detection and security analytics utilizing BigQuery + Cloud Armor.
+    - **RouteGenius:** Probabilistic traffic distribution utilizing Supabase.
+    - **Social Media Genius:** Social content generation with an AI canvas editor.
+  - Stack: Next.js 15-16 (App Router), TypeScript, React 19, Astro 5, Tailwind CSS v4, Vertex AI (Gemini 2.5 Flash), PostgreSQL, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS), PM2, Docker, Vercel.
+  - Core Focus Areas: Prompt Engineering Techniques & Best Practices, Hallucination Risk Management, GenAI and Prompt Versioning Techniques using Git Flow.
+
+### Prompt Engineer and AI Consultant
+
+- **Company:** Juan Jaramillo (Independent)
+- **Job Title:** Prompt Engineer and AI Consultant
+- **Exact Dates:** Nov. 2022 – Present (Approx. 3 years 8 months as of July 2026)
+- **Location:** Bogotá D.C. Metropolitan Area · Remote / On-Site
+- **Achievements & Responsibilities:**
+  - Provide expert prompt engineering and AI consultancy services to diverse clients.
+  - Serve as UX/UI designer for multiple digital and AI solutions.
+  - Work as front-end and back-end developer for specialized AI projects.
+  - Focus on Prompt Engineering Techniques & Best Practices, LLM Fundamentals & Hallucination Risk Management, and GenAI & Prompt Versioning Techniques using Git Flow.
+
+### Co-founder / Director of Innovation
+
+- **Company:** TRADEBOG S.A.S.
+- **Job Title:** Co-founder / Director of Innovation
+- **Exact Dates:** Dec. 2020 – Jun. 2023 (2 years 7 months)
+- **Location:** Bogotá D.C. Metropolitan Area · On-Site
+- **Achievements & Responsibilities:**
+  - Managed front-end and back-end development, UI/UX design, and consultation.
+  - Acted as a specialist in digital marketing, internet advertising, and social media advertising.
+
+### Co-founder / Operations Director
+
+- **Company:** FreshWorks | Ideas Frescas
+- **Job Title:** Co-founder / Operations Director
+- **Exact Dates:** May 2014 – Jun. 2023 (9 years 2 months)
+- **Location:** Mexico City, Mexico / Bogotá, Colombia / Madrid, Spain
+- **Achievements & Responsibilities:**
+  - Led digital project management, web design, and UI/UX design.
+  - Developed custom WordPress sites and implemented comprehensive digital marketing strategies.
+
+### Project Director
+
+- **Company:** 2W Agencia Digital
+- **Job Title:** Project Director
+- **Exact Dates:** Nov. 2012 – Jan. 2014 (1 year 3 months)
+- **Location:** Bogotá D.C. Metropolitan Area · On-Site
+- **Achievements & Responsibilities:**
+  - Served as digital project director and key accounts director.
+  - Devised digital strategies and managed digital marketing campaigns.
+
+### Co-founder / Project Manager
+
+- **Company:** La Quinta P Digital Agency
+- **Job Title:** Co-founder / Project Manager
+- **Exact Dates:** Aug. 2009 – Oct. 2012 (3 years 3 months)
+- **Location:** Bogotá D.C. Metropolitan Area · Remote / On-Site
+- **Achievements & Responsibilities:**
+  - Directed digital projects, web design, and custom WordPress development.
+  - Designed and executed digital marketing campaigns.
+
+---
+
+## 3. Categorized Skills Matrix
+
+### Core Programming Languages
+
+- Python (Advanced / Intermediate)
+- JavaScript / TypeScript (Advanced / Intermediate)
+- SQL (Advanced / Intermediate)
+
+### AI/ML Tools & Libraries
+
+- GenAI & Large Language Models (LLMs) (Advanced)
+- Vertex AI / Vertex AI A2A (Advanced)
+- LangChain (Advanced)
+
+
+
+--- Executing blocking command at Fri Jul 10 17:21:39 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/document_agent/.venv/bin/activate" && wc -l /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/juan_profile.md
+--- Output ---
+     163 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/juan_profile.md
+
+
+
+--- Executing blocking command at Fri Jul 10 17:21:42 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/document_agent/.venv/bin/activate" && tail -n +60 /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/juan_profile.md
+--- Output ---
+- **Exact Dates:** May 2014 – Jun. 2023 (9 years 2 months)
+- **Location:** Mexico City, Mexico / Bogotá, Colombia / Madrid, Spain
+- **Achievements & Responsibilities:**
+  - Led digital project management, web design, and UI/UX design.
+  - Developed custom WordPress sites and implemented comprehensive digital marketing strategies.
+
+### Project Director
+
+- **Company:** 2W Agencia Digital
+- **Job Title:** Project Director
+- **Exact Dates:** Nov. 2012 – Jan. 2014 (1 year 3 months)
+- **Location:** Bogotá D.C. Metropolitan Area · On-Site
+- **Achievements & Responsibilities:**
+  - Served as digital project director and key accounts director.
+  - Devised digital strategies and managed digital marketing campaigns.
+
+### Co-founder / Project Manager
+
+- **Company:** La Quinta P Digital Agency
+- **Job Title:** Co-founder / Project Manager
+- **Exact Dates:** Aug. 2009 – Oct. 2012 (3 years 3 months)
+- **Location:** Bogotá D.C. Metropolitan Area · Remote / On-Site
+- **Achievements & Responsibilities:**
+  - Directed digital projects, web design, and custom WordPress development.
+  - Designed and executed digital marketing campaigns.
+
+---
+
+## 3. Categorized Skills Matrix
+
+### Core Programming Languages
+
+- Python (Advanced / Intermediate)
+- JavaScript / TypeScript (Advanced / Intermediate)
+- SQL (Advanced / Intermediate)
+
+### AI/ML Tools & Libraries
+
+- GenAI & Large Language Models (LLMs) (Advanced)
+- Vertex AI / Vertex AI A2A (Advanced)
+- LangChain (Advanced)
+- LangGraph (Advanced)
+- CrewAI (Advanced)
+- Prompt Engineering (Advanced)
+- Hallucination Risk Management (Advanced)
+- AI-Based Automation (Advanced)
+- Machine Learning (Advanced / Intermediate)
+- Prompt Versioning (using Git Flow)
+
+### Frameworks & Libraries
+
+- Next.js 15/16 (App Router)
+- React 19 / ReactJS (Advanced)
+- Astro 5
+- Tailwind CSS v4
+- WordPress
+- PM2
+
+### Cloud Platforms & Infrastructure
+
+- Google Cloud Platform (GCP) (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS, BigQuery)
+- Supabase
+- PostgreSQL
+- Vercel
+- Docker / Containerization
+
+---
+
+## 4. Pre-Calculated Answers for Typical Form Questions
+
+_Note: Calculations are based on the current date of July 8, 2026._
+
+- **Years of Experience with Python:**
+  - **Answer:** 4 Years
+  - **Details:** Commenced Python Programmer certification (University of Toronto) in September 2022, and has continuously developed Python-based AI applications and scripts since then (~3.8 years, rounded to 4 years).
+- **Years of Experience with Machine Learning:**
+  - **Answer:** 4 Years
+  - **Details:** Commenced specialized work in AI/ML modeling and implementation in 2022 (~3.8 years, rounded to 4 years).
+- **Years of Experience with Generative AI:**
+  - **Answer:** 4 Years
+  - **Details:** Commenced enterprise Generative AI development in late 2022 (~3.7 years, rounded to 4 years).
+- **Years of Experience with LLMs:**
+  - **Answer:** 4 Years
+  - **Details:** Began working on LLM fine-tuning (PEFT, RLHF) and prompt engineering workflows in late 2022 (~3.7 years, rounded to 4 years).
+- **Years of Experience with NLP (Natural Language Processing):**
+  - **Answer:** 4 Years
+  - **Details:** Integrated NLP solutions and LLM-based language understanding models since late 2022 (~3.7 years, rounded to 4 years).
+- **Years of Experience with Prompt Engineering:**
+  - **Answer:** 4 Years
+  - **Details:** Began working as a professional Prompt Engineer and AI Consultant in November 2022 (~3.7 years, rounded to 4 years).
+- **Work Authorization Status:**
+  - **Answer:** Authorized to work in Colombia. Does not possess US, UK, or EU work authorization or citizenship, but is fully set up and legally authorized to work globally as an independent contractor or remote developer.
+- **Salary Expectations:**
+  - **Answer:** $3,500 to $4,500 USD monthly ($42,000 to $54,000 USD annualized equivalent)
+
+---
+
+## 5. Education & Certifications
+
+- **Universidad Central:** Advertising and Marketing (Feb. 2002 – Nov. 2007) — Professional degree
+- **University of Toronto:** Python Programmer with emphasis on Data Analysis (Sep. 2022 – Dec. 2022) — Certified diploma
+- **University of Toronto:** Generative AI for Business (Dec. 2022 – Feb. 2023) — Certified diploma
+- **Platzi:** Prompt Engineer with emphasis on ChatGPT (Feb. 2023 – Apr. 2023) — Certified course
+- **University of Michigan:** Social Network Analysis: Digital Communication & Contents (Sep. 2013 – Dec. 2013) — Certified course
+
+
+
+--- Executing blocking command at Fri Jul 10 17:22:06 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/document_agent/.venv/bin/activate" && mkdir -p /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/cover_letters/
+--- Output ---
+
+
+
+--- Executing blocking command at Fri Jul 10 17:22:19 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/document_agent/.venv/bin/activate" && cat /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/juan-jaramillo-advanced-cover-letter.md
+--- Output ---
+# Cover Letter
+
+---
+
+**Juan Miguel Jaramillo Gaviria**
+AI Development Lead | Full-Stack Architect | Generative AI Specialist
+
+---
+
+Dear Hiring Team,
+
+I am writing to express my strong interest in contributing to your AI-driven digital initiatives. With over 17 years of experience at the intersection of technology, entrepreneurship, and artificial intelligence, I bring a rare combination of executive vision and hands-on engineering capability — the kind of profile that can take an AI concept from whiteboard to production at every layer of the stack.
+
+## A Career Built Around AI-Native Thinking
+
+My journey into technology began in 2007 and has been defined by a forward-looking obsession with emerging digital tools. Long before Generative AI became a mainstream priority, I was co-founding and leading technology ventures — LaQuintaP (2009), FreshWorks Digital Agency (2014, operating across Colombia, Mexico, and Spain with clients including Grupo Herdez and El Corte Inglés), and TRADEBOG/ZIONE Shop (2020), recognized as Colombia's leading dropshipping platform. This entrepreneurial foundation means I don't just build AI features — I understand the business problems they must solve.
+
+## Deep, Production-Proven AI Expertise
+
+Since 2022, I have specialized exclusively in Generative AI, with a focused practice in LLM fine-tuning (PEFT, RLHF), prompt engineering, and enterprise AI architecture. As **AI Development Lead at TopNetworks Inc.**, I designed and shipped an entire internal SaaS ecosystem — **EmailGenius** (AI email generation via Vertex AI + PostgreSQL), **TrafficGenius** (invalid traffic detection with BigQuery + Cloud Armor), **RouteGenius** (probabilistic traffic distribution on Supabase), and **Social Media Genius** (AI-powered social content generation with a canvas editor) — all on a modern stack including Next.js 15–16, TypeScript, React 19, Astro 5, and Gemini 2.5 Flash on Google Cloud. These are not proofs of concept; they are live, revenue-supporting platforms.
+
+## Advisory Reach and Measurable Impact
+
+My consulting practice has delivered AI strategy and implementation to organizations including the **Telefónica Movistar Foundation**, **Universidad Francisco Marroquín (Guatemala)**, and **Wundermann Thompson Miami**. The outcomes I drive are quantifiable: AI-powered tool adoption has delivered up to a **46% increase in productivity** and a **66% reduction in monthly costs** for clients — figures that translate directly into competitive advantage for any organization investing in AI.
+
+## Advanced Tooling and Agentic Systems
+
+Beyond prompt engineering, my technical depth extends to **LangChain, LangGraph, CrewAI, and Vertex AI Agent-to-Agent (A2A) frameworks** — all at an advanced level. I hold certified training from the **University of Toronto** (Generative AI for Business), the **University of Michigan**, and **Platzi**, with coursework spanning AI ethics, governance, organizational transformation, and applied prompt engineering. I write production-grade code in JavaScript/TypeScript, Python, and SQL, and I am deeply fluent in cloud-native infrastructure on Google Cloud Platform.
+
+## Why This Matters for Your Team
+
+What sets me apart is not just technical breadth — it is the ability to operate as a **one-person AI center of excellence**: architecting systems, writing the code, engineering the prompts, managing hallucination risk, and communicating strategy to non-technical stakeholders. I hold a firm belief, stated publicly in my professional presentations, that _"Artificial Intelligence is not a replacement — it is a tool"_. This philosophy drives pragmatic, responsible AI deployment that amplifies human capability rather than replacing it.
+
+I am excited by the opportunity to bring this full-stack AI leadership to your organization and would welcome the chance to discuss how my experience aligns with your goals.
+
+Warm regards,
+
+**Juan Miguel Jaramillo Gaviria**
+[juanjaramillo.tech](https://juanjaramillo.tech) | [LinkedIn](https://www.linkedin.com/in/juan-jaramillo-ai) | [GitHub](https://github.com/juanjaragavi) | 📧 <info@juanjaramillo.tech> | 🌐 <https://juanjaramillo.tech> | 📞 +57 305 420 6139 | 📍 Bogotá, Colombia
+
+
+
+--- Executing blocking command at Fri Jul 10 17:22:19 2026 ---
+> . "/Users/macbookpro/.eigent/user_38991/spaces/space_9aff162414314151a8e3507d061435b9/projects/1783721792753-8301/runs/1783721793318-2755/document_agent/.venv/bin/activate" && cat /Users/macbookpro/.eigent/skills/recruiter-outreach-response/templates.md
+--- Output ---
+# Templates: Recruiter Outreach Responses
+
+Canned building blocks for LinkedIn InMail and WhatsApp replies. Use
+these as a starting point, then personalize to the specific recruiter
+message. Always apply the Tone Rules and Attachment Protocol from
+SKILL.md.
+
+## English Templates
+
+### Opener (first contact, InMail)
+> Hi [Recruiter Name], thank you for reaching out! I'm very
+> interested in learning more about the [Role] position.
+
+### Positioning statement
+> With 17+ years in digital/AI initiatives -- most recently as AI
+> Development Lead at TopNetworks Inc., where I built enterprise
+> GenAI SaaS tools (Next.js, Vertex AI, PostgreSQL) -- I believe
+> there's strong alignment with this role.
+
+### Attachment line (first substantive reply only)
+> I'm attaching my CV, cover letter, and services portfolio for your
+> review -- happy to answer any questions.
+
+### Closing / call-to-action
+> Would you have 20 minutes this week for a call? I'm based in
+> Bogota, Colombia (GMT-5), and can be flexible with timing.
+
+### Full example -- LinkedIn InMail (first contact, impersonated)
+> Hi [Recruiter Name], thank you for reaching out! I'm very
+> interested in learning more about the [Role] position. With 17+
+> years in digital/AI initiatives -- most recently as AI Development
+> Lead at TopNetworks Inc., where I built enterprise GenAI SaaS tools
+> (Next.js, Vertex AI, PostgreSQL) -- I believe there's strong
+> alignment. I'm attaching my CV, cover letter, and services
+> portfolio for your review. Would you have 20 minutes this week for
+> a call? I'm based in Bogota (GMT-5). Best, Juan
+
+### Full example -- WhatsApp (follow-up, impersonated)
+> Hi [Name], thanks for the update! Tuesday 10am (Bogota time) works
+> well for me. Looking forward to it. Best, Juan
+
+### Deferring compensation questions
+> I'd prefer to discuss compensation in more detail on a call, once
+> we've covered the role's scope -- but I'm generally open and
+> flexible depending on the full package.
+
+### Requesting more info
+> Could you share the job description or more details about the
+> team structure? That will help me speak more specifically to how
+> my experience fits.
+
+## Spanish Templates (Plantillas en Espanol)
+
+### Apertura (primer contacto)
+> Hola [Nombre], ¡muchas gracias por escribirme! Me interesa mucho
+> conocer más sobre la vacante de [Rol].
+
+### Declaracion de posicionamiento
+> Cuento con más de 17 años de experiencia en iniciativas
+> digitales y de IA -- recientemente como AI Development Lead en
+> TopNetworks Inc., donde diseñé herramientas SaaS de GenAI
+> empresarial (Next.js, Vertex AI, PostgreSQL) -- por lo que creo que
+> hay una gran afinidad con esta posición.
+
+### Linea de adjuntos (solo primera respuesta sustantiva)
+> Adjunto mi CV, carta de presentación y portafolio de servicios
+> para tu revisión -- quedo atento a cualquier pregunta.
+
+### Cierre / llamado a la accion
+> ¿Tendrías 20 minutos esta semana para una llamada? Estoy en
+> Bogotá, Colombia (GMT-5) y puedo ajustarme a tu disponibilidad.
+
+### Ejemplo completo -- WhatsApp (seguimiento, personificado)
+> Hola [Nombre], ¡gracias por la actualización! El martes a las
+> 10am (hora Bogotá) me queda perfecto. Quedo atento. Saludos, Juan
+
+## Usage Notes
+- Always replace bracketed placeholders before sending.
+- Never send a message containing unresolved placeholders like
+  [Role] or [Recruiter Name].
+- Match the recruiter's language; do not switch languages mid-thread
+  unless they do first.
+
+
+--- Writing content to file at Fri Jul 10 17:29:13 2026 ---
+> /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/apply_darwin_click.py
+
+-------- 
+import sys
+import time
+from playwright.sync_api import sync_playwright
+
+def main():
+    print("Connecting to Chrome over CDP on port 9222...")
+    with sync_playwright() as p:
+        try:
+            browser = p.chromium.connect_over_cdp("http://localhost:9222")
+            print("Connected successfully!")
+            context = browser.contexts[0]
+            
+            # Open page
+            page = context.new_page()
+            print("Navigating to Darwin AI job URL...")
+            page.goto("https://www.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449/")
+            
+            print("Waiting for page load...")
+            page.wait_for_timeout(8000)
+            
+            # Let's list all buttons
+            buttons = page.query_selector_all("button")
+            print(f"Found {len(buttons)} buttons on page.")
+            for i, btn in enumerate(buttons):
+                text = btn.inner_text().strip()
+                if text:
+                    print(f"Button {i}: '{text}'")
+            
+            # Find apply button. On LinkedIn jobs, it can have class 'jobs-apply-button' or text containing 'Solicitar' or 'Apply'
+            apply_btn = None
+            for btn in buttons:
+                text = btn.inner_text().strip()
+                # Check for "Solicitar", "Apply", or classes
+                classes = btn.get_attribute("class") or ""
+                if "Solicitar" in text or "Apply" in text or "jobs-apply-button" in classes:
+                    apply_btn = btn
+                    print(f"Found Apply Button: '{text}' with classes '{classes}'")
+                    break
+            
+            if not apply_btn:
+                # Also try looking for link with 'jobs-apply-button'
+                apply_links = page.query_selector_all("a")
+                for link in apply_links:
+                    text = link.inner_text().strip()
+                    classes = link.get_attribute("class") or ""
+                    if "Solicitar" in text or "Apply" in text or "jobs-apply-button" in classes:
+                        apply_btn = link
+                        print(f"Found Apply Link: '{text}' with classes '{classes}'")
+                        break
+            
+            if apply_btn:
+                print("Clicking Apply button...")
+                apply_btn.click()
+                print("Waiting for 10 seconds after click...")
+                page.wait_for_timeout(10000)
+                
+                # Check current pages in context (did it open a new tab?)
+                print(f"Active pages in context: {len(context.pages)}")
+                for i, pg in enumerate(context.pages):
+                    print(f"Page {i}: Title: '{pg.title()}' URL: '{pg.url}'")
+                    pg.screenshot(path=f"/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/darwin_page_{i}_after_click.png")
+                    print(f"Saved screenshot for Page {i}")
+            else:
+                print("Apply button not found!")
+                
+        except Exception as e:
+            print(f"Error occurred: {e}", file=sys.stderr)
+
+if __name__ == "__main__":
+    main()
+
+--------
+
+--- Writing content to file at Fri Jul 10 17:29:53 2026 ---
+> /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/inspect_darwin.py
+
+-------- 
+import sys
+from playwright.sync_api import sync_playwright
+
+def main():
+    print("Connecting to Chrome over CDP on port 9222...")
+    with sync_playwright() as p:
+        try:
+            browser = p.chromium.connect_over_cdp("http://localhost:9222")
+            print("Connected successfully!")
+            context = browser.contexts[0]
+            
+            # Find the page with the Darwin AI job URL
+            darwin_page = None
+            for page in context.pages:
+                if "4436992449" in page.url:
+                    darwin_page = page
+                    break
+            
+            if not darwin_page:
+                print("Darwin AI page not found in active tabs, creating a new one...")
+                darwin_page = context.new_page()
+                darwin_page.goto("https://www.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449/")
+                darwin_page.wait_for_timeout(8000)
+            else:
+                print(f"Found active tab: '{darwin_page.title()}'")
+                darwin_page.bring_to_front()
+            
+            print(f"Current page URL: {darwin_page.url}")
+            
+            # Let's find all buttons and links in the job card or top card
+            # LinkedIn job top card action buttons are usually in .jobs-search__actions or .jobs-apply-button or similar
+            print("Inspecting buttons...")
+            buttons = darwin_page.query_selector_all("button")
+            for i, btn in enumerate(buttons):
+                text = btn.inner_text().strip()
+                attrs = darwin_page.evaluate("(el) => { return { id: el.id, class: el.className, text: el.innerText }; }", btn)
+                print(f"Button {i}: text='{attrs['text']}', class='{attrs['class']}', id='{attrs['id']}'")
+                
+            print("Inspecting links...")
+            links = darwin_page.query_selector_all("a")
+            for i, link in enumerate(links):
+                text = link.inner_text().strip()
+                if "Apply" in text or "Solicitar" in text or "jobs-apply" in (link.get_attribute("class") or ""):
+                    attrs = darwin_page.evaluate("(el) => { return { href: el.href, class: el.className, text: el.innerText }; }", link)
+                    print(f"Link {i}: text='{attrs['text']}', class='{attrs['class']}', href='{attrs['href']}'")
+            
+            darwin_page.screenshot(path="/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/darwin_inspect.png")
+            print("Inspection screenshot saved.")
+            
+        except Exception as e:
+            print(f"Error: {e}", file=sys.stderr)
+
+if __name__ == "__main__":
+    main()
+
+--------
+
+--- Writing content to file at Fri Jul 10 17:30:11 2026 ---
+> /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/find_and_click_apply.py
+
+-------- 
+import sys
+import time
+from playwright.sync_api import sync_playwright
+
+def main():
+    print("Connecting to Chrome over CDP on port 9222...")
+    with sync_playwright() as p:
+        try:
+            browser = p.chromium.connect_over_cdp("http://localhost:9222")
+            print("Connected successfully!")
+            context = browser.contexts[0]
+            
+            # Create a brand new page to avoid interference from other tabs
+            page = context.new_page()
+            print("Navigating to Darwin AI job URL in a fresh page...")
+            page.goto("https://www.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449/", wait_until="load")
+            
+            print("Waiting for page to fully load...")
+            page.wait_for_timeout(8000)
+            
+            print(f"Loaded page title: '{page.title()}'")
+            print(f"Loaded page URL: '{page.url}'")
+            
+            # Take a screenshot before clicking
+            page.screenshot(path="/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/darwin_before_click.png")
+            print("Screenshot before click saved.")
+            
+            # Find the actual apply button.
+            # LinkedIn uses button.jobs-apply-button or div.jobs-apply-button button, etc.
+            apply_btn = page.query_selector("button.jobs-apply-button")
+            if not apply_btn:
+                # Let's try finding by text or general class
+                buttons = page.query_selector_all("button")
+                for btn in buttons:
+                    text = btn.inner_text().strip()
+                    classes = btn.get_attribute("class") or ""
+                    if "Solicitar" in text or "Apply" in text or "jobs-apply" in classes:
+                        apply_btn = btn
+                        break
+            
+            if not apply_btn:
+                # Also try looking for an <a> link with apply class
+                links = page.query_selector_all("a")
+                for link in links:
+                    text = link.inner_text().strip()
+                    classes = link.get_attribute("class") or ""
+                    if "Solicitar" in text or "Apply" in text or "jobs-apply" in classes:
+                        apply_btn = link
+                        break
+
+            if apply_btn:
+                btn_text = apply_btn.inner_text().strip()
+                print(f"Found Apply Button/Link: '{btn_text}'")
+                print("Clicking it...")
+                apply_btn.click()
+                print("Waiting 10 seconds for action...")
+                page.wait_for_timeout(10000)
+                
+                # Check all open pages in context
+                print(f"Active pages in context: {len(context.pages)}")
+                for i, pg in enumerate(context.pages):
+                    print(f"Page {i}: '{pg.title()}' - URL: '{pg.url}'")
+                    pg.screenshot(path=f"/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/darwin_after_click_page_{i}.png")
+                    print(f"Saved screenshot for Page {i} to darwin_after_click_page_{i}.png")
+            else:
+                print("Error: Could not find any Apply button on the page!")
+                # Print some button texts to help debugging
+                buttons = page.query_selector_all("button")
+                print(f"List of all button texts found on page:")
+                for i, btn in enumerate(buttons[:15]):
+                    print(f"  {i}: '{btn.inner_text().strip()}'")
+                
+        except Exception as e:
+            print(f"Error: {e}", file=sys.stderr)
+
+if __name__ == "__main__":
+    main()
+
+--------
+
+--- Writing content to file at Fri Jul 10 17:30:52 2026 ---
+> /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/click_real_apply.py
+
+-------- 
+import sys
+from playwright.sync_api import sync_playwright
+
+def main():
+    print("Connecting to Chrome over CDP on port 9222...")
+    with sync_playwright() as p:
+        try:
+            browser = p.chromium.connect_over_cdp("http://localhost:9222")
+            print("Connected successfully!")
+            context = browser.contexts[0]
+            
+            # Create a fresh page
+            page = context.new_page()
+            print("Navigating to Darwin AI job URL...")
+            page.goto("https://www.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449/", wait_until="load")
+            page.wait_for_timeout(8000)
+            
+            # Print page title and URL
+            print(f"Page title: {page.title()}")
+            print(f"Page URL: {page.url}")
+            
+            # Let's search for buttons on the page that have exactly 'Solicitar' or 'Apply' or similar
+            buttons = page.query_selector_all("button")
+            real_apply_btn = None
+            
+            for btn in buttons:
+                text = btn.inner_text().strip()
+                classes = btn.get_attribute("class") or ""
+                # Check if it has class 'jobs-apply-button'
+                if "jobs-apply-button" in classes:
+                    real_apply_btn = btn
+                    print(f"Found button with jobs-apply-button class: text='{text}'")
+                    break
+                # Check for exact text matches or 'Solicitar'
+                if text == "Solicitar" or text == "Apply" or text == "Apply now":
+                    real_apply_btn = btn
+                    print(f"Found button with exact text: '{text}'")
+                    break
+                    
+            if not real_apply_btn:
+                # Let's search inside the top card container
+                # The top card class is usually 'jobs-top-card' or contains 'topcard'
+                topcard = page.query_selector("[class*='top-card']") or page.query_selector("[class*='topcard']")
+                if topcard:
+                    print("Found top card container, searching buttons inside it...")
+                    topcard_buttons = topcard.query_selector_all("button")
+                    for btn in topcard_buttons:
+                        text = btn.inner_text().strip()
+                        if text:
+                            print(f"  Topcard button: '{text}'")
+                        if "Solicitar" in text or "Apply" in text:
+                            real_apply_btn = btn
+                            print(f"  Found apply button in top card: '{text}'")
+                            break
+                            
+            if not real_apply_btn:
+                # Try finding any link inside the top card
+                if topcard:
+                    topcard_links = topcard.query_selector_all("a")
+                    for link in topcard_links:
+                        text = link.inner_text().strip()
+                        if text:
+                            print(f"  Topcard link: '{text}'")
+                        if "Solicitar" in text or "Apply" in text:
+                            real_apply_btn = link
+                            print(f"  Found apply link in top card: '{text}'")
+                            break
+
+            if not real_apply_btn:
+                # General search for elements containing 'Solicitar' or 'Apply' but not similar jobs
+                all_links = page.query_selector_all("a")
+                for link in all_links:
+                    text = link.inner_text().strip()
+                    classes = link.get_attribute("class") or ""
+                    # Ensure it's not a similar job link
+                    if ("Solicitar" in text or "Apply" in text) and "similar-jobs" not in (link.get_attribute("href") or ""):
+                        real_apply_btn = link
+                        print(f"Found link by general search: '{text}'")
+                        break
+
+            if real_apply_btn:
+                print(f"Clicking real apply element: '{real_apply_btn.inner_text().strip()}'")
+                real_apply_btn.click()
+                print("Waiting 10 seconds for navigation or popup...")
+                page.wait_for_timeout(10000)
+                
+                # Check open pages in context
+                print(f"Active pages in context: {len(context.pages)}")
+                for i, pg in enumerate(context.pages):
+                    print(f"Page {i}: '{pg.title()}' - URL: '{pg.url}'")
+                    pg.screenshot(path=f"/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/darwin_real_apply_{i}.png")
+                    print(f"Saved screenshot for Page {i} to darwin_real_apply_{i}.png")
+            else:
+                print("Error: Could not find the real Apply button!")
+                
+        except Exception as e:
+            print(f"Error: {e}", file=sys.stderr)
+
+if __name__ == "__main__":
+    main()
+
+--------
+
+--- Writing content to file at Fri Jul 10 17:31:19 2026 ---
+> /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/save_html.py
+
+-------- 
+import sys
+from playwright.sync_api import sync_playwright
+
+def main():
+    print("Connecting to Chrome over CDP on port 9222...")
+    with sync_playwright() as p:
+        try:
+            browser = p.chromium.connect_over_cdp("http://localhost:9222")
+            print("Connected successfully!")
+            context = browser.contexts[0]
+            
+            # Create a fresh page
+            page = context.new_page()
+            print("Navigating to Darwin AI job URL...")
+            page.goto("https://www.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449/", wait_until="load")
+            page.wait_for_timeout(8000)
+            
+            print(f"Page title: {page.title()}")
+            print(f"Page URL: {page.url}")
+            
+            # Let's save the HTML
+            html_content = page.content()
+            with open("/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/darwin_page.html", "w", encoding="utf-8") as f:
+                f.write(html_content)
+            print("Saved full page HTML to /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/darwin_page.html")
+            
+            # Let's print all buttons with any text
+            buttons = page.query_selector_all("button")
+            print(f"Found {len(buttons)} buttons on page:")
+            for i, btn in enumerate(buttons):
+                text = btn.inner_text().strip()
+                classes = btn.get_attribute("class") or ""
+                id_val = btn.get_attribute("id") or ""
+                if text:
+                    print(f"  Button {i}: text='{text}', class='{classes}', id='{id_val}'")
+            
+            # Let's print all links with any text containing "Apply" or "Solicitar"
+            links = page.query_selector_all("a")
+            print(f"Found {len(links)} links on page. Checking for Apply/Solicitar:")
+            for i, link in enumerate(links):
+                text = link.inner_text().strip()
+                href = link.get_attribute("href") or ""
+                classes = link.get_attribute("class") or ""
+                if text and ("Apply" in text or "Solicitar" in text):
+                    print(f"  Link {i}: text='{text}', href='{href}', class='{classes}'")
+                    
+        except Exception as e:
+            print(f"Error: {e}", file=sys.stderr)
+
+if __name__ == "__main__":
+    main()
+
+--------
+
+--- Writing content to file at Fri Jul 10 17:32:01 2026 ---
+> /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/capture_confirmation.py
+
+-------- 
+import sys
+from playwright.sync_api import sync_playwright
+
+def main():
+    print("Connecting to Chrome over CDP on port 9222...")
+    with sync_playwright() as p:
+        try:
+            browser = p.chromium.connect_over_cdp("http://localhost:9222")
+            print("Connected successfully!")
+            context = browser.contexts[0]
+            
+            # Find the page with the Darwin AI job URL
+            darwin_page = None
+            for page in context.pages:
+                if "4436992449" in page.url:
+                    darwin_page = page
+                    break
+            
+            if not darwin_page:
+                print("Darwin AI page not found in active tabs, creating a new one...")
+                darwin_page = context.new_page()
+                darwin_page.goto("https://www.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449/")
+                darwin_page.wait_for_timeout(8000)
+            else:
+                print(f"Found active tab: '{darwin_page.title()}'")
+                darwin_page.bring_to_front()
+                darwin_page.wait_for_timeout(3000)
+            
+            # Take a high-quality screenshot of the page showing "Application submitted"
+            screenshot_path = "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/darwin_application_submitted.png"
+            darwin_page.screenshot(path=screenshot_path, full_page=False)
+            print(f"Confirmation screenshot successfully captured and saved to {screenshot_path}")
+            
+        except Exception as e:
+            print(f"Error: {e}", file=sys.stderr)
+
+if __name__ == "__main__":
+    main()
+
+--------
+

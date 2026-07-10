@@ -24,7 +24,7 @@ uid=1_0 RootWebArea "LinkedIn: Log In or Sign Up" url="https://www.linkedin.com/
     uid=1_23 heading "Welcome to your professional community" level="1"
     uid=1_24 button "Continue with google"
       uid=1_25 Iframe "Sign in with Google Button"
-        uid=1_26 RootWebArea "Sign In - Google Accounts" url="https://accounts.google.com/gsi/button?logo_alignment=center&shape=pill&size=large&text=continue_with&theme=filled_blue&type=undefined&width=400px&client_id=990339570472-k6nqn1tpmitg8pui82bfaun3jrpmiuhs.apps.googleusercontent.com&iframe_id=gsi_693538_165141&as=beZGIq0ccqvvOUGRCsnBMg&hl=en_US"
+        uid=1_26 RootWebArea "Sign In - Google Accounts" url="https://accounts.google.com/gsi/button?logo_alignment=center&shape=pill&size=large&text=continue_with&theme=filled_blue&type=undefined&width=400px&client_id=REDACTED_GOOGLE_CLIENT_ID.apps.googleusercontent.com&iframe_id=gsi_693538_165141&as=beZGIq0ccqvvOUGRCsnBMg&hl=en_US"
           uid=1_27 button "Continue with Google. Opens in new tab"
     uid=1_28 link "Sign in with email" url="https://www.linkedin.com/login"
       uid=1_29 StaticText "Sign in with email"

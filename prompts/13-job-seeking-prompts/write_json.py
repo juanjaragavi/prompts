@@ -1,0 +1,39 @@
+import json
+
+jobs = [
+    {
+        "title": "Vibe Coder",
+        "company": "Darwin AI",
+        "url": "https://co.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449",
+        "requirements": "Experience building products — whether through startups, side projects, open source contributions, or shipping tools inside a company. Experience working with vibe coding tools such as v0, Bolt, Lovable, or Chef by Convex. Experience working with AI coding editors (e.g., Cursor) to speed up development and experimentation. A creative, curious mindset: you love tinkering, prototyping, and bringing abstract ideas to life fast. A collaborative spirit: you enjoy partnering with non-technical teams to uncover needs and build impactful solutions. Strong problem-solving skills: you're comfortable moving from vague problem spaces to concrete, usable products."
+    },
+    {
+        "title": "Vibe Coder (AI-Assisted Software Engineer / Full-Stack) - OPS00069",
+        "company": "Dev.Pro",
+        "url": "https://ar.linkedin.com/jobs/view/vibe-coder-ai-assisted-software-engineer-full-stack-ops00069-at-dev-pro-4403797050",
+        "requirements": "AI engineer with AI coding experience to build scalable, high-performance digital products. Value engineers who can navigate ambiguity, work across the stack, and leverage tools like AI copilots to enhance productivity while maintaining strong technical fundamentals. Strong focus on emerging development workflows, exploring how AI-native coding practices can accelerate product delivery, improve code quality, and enable smaller, highly efficient engineering teams."
+    },
+    {
+        "title": "Programador/a con enfoque Vibe Coding (IA)",
+        "company": "Inteligencia Artificial",
+        "url": "https://es.linkedin.com/jobs/view/programador-a-con-enfoque-vibe-coding-ia-at-inteligencia-artificial-4204687223",
+        "requirements": "Perfil creativo y resolutivo, con experiencia en desarrollo web (HTML, CSS, JavaScript y frameworks como React o similares), que trabaje de forma fluida en modo vibe coding: diseño y desarrollo ágil de landings y proyectos web, con apoyo de inteligencia artificial. Imprescindible tener buen criterio visual, rapidez ejecutando y utilizar IA como parte clave del proceso, con herramientas como Claude Sonnet, Bolt AI, Cursor u otras similares. Puesto presencial en Barcelona, jornada completa. Se valorará el envío de ejemplos de proyectos realizados con enfoque vibe coding."
+    },
+    {
+        "title": "Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD",
+        "company": "Trilogy",
+        "url": "https://ar.linkedin.com/jobs/view/vibe-coder-software-engineer-trilogy-remote-%2460-000-year-usd-at-trilogy-4255590650",
+        "requirements": "4+ years of proven commercial software development experience, specifically building production-grade server-side web applications. Demonstrated proficiency with GenAI code assistants (Github Copilot, Cursor, v0.dev) in professional development environments. Commitment to integrating GenAI tools throughout your development workflow to maximize efficiency and output quality."
+    },
+    {
+        "title": "Desarrollador AI-Native (Vibe Coder)",
+        "company": "Vibeast",
+        "url": "https://es.linkedin.com/jobs/view/desarrollador-ai-native-vibe-coder-at-vibeast-4401002722",
+        "requirements": "Expertos en Task Stewardship: Validar y guiar código generado por IA con alta fidelidad. Fluidez técnica para capturar el premium salarial del 56% que el mercado global ya está pagando. Pasión por proyectos cross-border entre regiones LATAM, MENA y EEUU. Dominar agentes de IA (Cursor, Claude Code, Bolt) para construir el futuro del empleo en el mundo árabe, EE. UU. y LATAM."
+    }
+]
+
+with open('/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/discovered_jobs.json', 'w', encoding='utf-8') as f:
+    json.dump(jobs, f, indent=4, ensure_ascii=False)
+
+print("JSON saved successfully!")

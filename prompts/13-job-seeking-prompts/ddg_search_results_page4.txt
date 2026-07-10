@@ -1,0 +1,22 @@
+uid=39_0 RootWebArea "Sign in - Google Accounts" url="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&dsh=S1779296115%3A1783722492559398&followup=https%3A%2F%2Faccounts.google.com%2F&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsZ8XbhR8YSopL0dYSY5eMY7XdJgkMx1TT49YNZNJf-xettdnfMoybGDEAHpG7rG0jmZk9geg"
+  uid=39_1 main
+    uid=39_2 heading "Sign in" level="1"
+    uid=39_3 StaticText "Use your Google Account"
+    uid=39_4 textbox "Email or phone" focusable focused
+    uid=39_5 generic live="polite" relevant="additions text"
+    uid=39_6 button "Forgot email?"
+    uid=39_7 StaticText "Not your computer? Use Guest mode to sign in privately. "
+    uid=39_8 link "Learn more about using Guest mode (external, opens in a new window)" url="https://support.google.com/chrome/answer/6130773?hl=en-US"
+      uid=39_9 StaticText "Learn more about using Guest mode"
+    uid=39_10 button "Next"
+    uid=39_11 button "Create account" expandable haspopup="menu"
+  uid=39_12 contentinfo
+    uid=39_13 combobox "Change language English (United States)" expandable haspopup="listbox" live="polite" relevant="additions text" value="English (United States)"
+    uid=39_14 link "Open Google Account Help Center (external, opens in a new window)" url="https://support.google.com/accounts?hl=en-US&p=account_iph"
+      uid=39_15 StaticText "Help"
+    uid=39_16 link "Privacy Policy (external, opens in a new window)" url="https://accounts.google.com/TOS?loc=CO&hl=en-US&privacy=true"
+      uid=39_17 StaticText "Privacy"
+    uid=39_18 link "Google Terms of Service (external, opens in a new window)" url="https://accounts.google.com/TOS?loc=CO&hl=en-US"
+      uid=39_19 StaticText "Terms"
+  uid=39_20 Iframe
+    uid=39_21 RootWebArea url="https://accounts.youtube.com/accounts/CheckConnection?pmpo=https%3A%2F%2Faccounts.google.com&v=-602093475&timestamp=1783722493016"

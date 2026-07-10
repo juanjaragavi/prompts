@@ -1,0 +1,979 @@
+uid=20_0 RootWebArea "Darwin AI busca personal para el cargo de Vibe Coder en Bogotá, Distrito Capital, Colombia | LinkedIn" url="https://www.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449"
+  uid=20_1 ignored
+    uid=20_2 generic
+      uid=20_3 link "Pasar al contenido principal" url="https://www.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449#main-content"
+        uid=20_4 StaticText "Pasar al contenido principal"
+          uid=20_5 InlineTextBox "Pasar al contenido principal"
+      uid=20_6 banner
+        uid=20_7 navigation "Principal"
+          uid=20_8 link "LinkedIn" url="https://www.linkedin.com/?trk=public_jobs_nav-header-logo"
+            uid=20_9 ignored
+              uid=20_10 StaticText "LinkedIn"
+                uid=20_5 InlineTextBox "LinkedIn"
+          uid=20_11 generic
+            uid=20_12 ignored
+              uid=20_13 button "Empleos" description="Este botón muestra el tipo de búsqueda seleccionado. Cuando se amplía, se proporciona una lista de opciones de búsqueda para que los resultados coincidan con la selección actual." expandable
+                uid=20_14 ignored
+                  uid=20_15 StaticText "Empleos"
+                    uid=20_5 InlineTextBox "Empleos"
+              uid=20_16 ignored
+                uid=20_17 ignored
+              uid=20_18 ignored
+                uid=20_19 ignored
+              uid=20_20 ignored
+                uid=20_21 ignored
+              uid=20_22 ignored
+                uid=20_23 ignored
+            uid=20_24 ignored
+            uid=20_25 ignored
+            uid=20_26 ignored
+              uid=20_27 ignored
+            uid=20_28 ignored
+            uid=20_29 ignored
+            uid=20_30 ignored
+              uid=20_31 ignored
+            uid=20_32 tabpanel " Empleos "
+              uid=20_33 search
+                uid=20_34 generic
+                  uid=20_35 combobox "Buscar cargos o empresas" autocomplete="list" expandable haspopup="listbox" value="Vibe Coder"
+                    uid=20_36 ignored
+                    uid=20_37 ignored
+                      uid=20_38 generic
+                        uid=20_39 StaticText "Vibe Coder"
+                          uid=20_5 InlineTextBox "Vibe Coder"
+                  uid=20_40 button "Borrar texto"
+                    uid=20_41 LabelText
+                      uid=20_42 StaticText "Borrar texto"
+                        uid=20_5 InlineTextBox "Borrar texto"
+                uid=20_43 generic
+                  uid=20_44 combobox "Ubicación" autocomplete="list" expandable haspopup="listbox" value="Bogotá"
+                    uid=20_45 ignored
+                    uid=20_46 ignored
+                      uid=20_47 generic
+                        uid=20_48 StaticText "Bogotá"
+                          uid=20_5 InlineTextBox "Bogotá"
+                  uid=20_49 button "Borrar texto"
+                    uid=20_50 LabelText
+                      uid=20_51 StaticText "Borrar texto"
+                        uid=20_5 InlineTextBox "Borrar texto"
+                uid=20_52 button "Buscar"
+            uid=20_53 ignored
+            uid=20_54 ignored
+            uid=20_55 ignored
+              uid=20_56 ignored
+            uid=20_57 status atomic live="polite" relevant="additions text"
+          uid=20_58 ignored
+            uid=20_59 link "Iniciar sesión" url="https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fview%2Fvibe-coder-at-darwin-ai-4436992449&trk=public_jobs_nav-header-signin"
+              uid=20_60 StaticText "Iniciar sesión"
+                uid=20_5 InlineTextBox "Iniciar sesión"
+            uid=20_61 link "Unirse ahora" url="https://www.linkedin.com/signup/cold-join?source=jobs_registration&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fview%2Fvibe-coder-at-darwin-ai-4436992449&trk=public_jobs_nav-header-join"
+              uid=20_62 StaticText "Unirse ahora"
+                uid=20_5 InlineTextBox "Unirse ahora"
+      uid=20_63 main
+        uid=20_64 generic
+          uid=20_65 ignored
+            uid=20_66 ignored
+              uid=20_67 ignored
+            uid=20_68 generic
+              uid=20_69 generic
+                uid=20_70 link "Darwin AI" url="https://br.linkedin.com/company/getdarwinai?trk=public_jobs_topcard_logo"
+                  uid=20_71 image "Darwin AI" url="https://media.licdn.com/dms/image/v2/D4D0BAQHZQelng8JWGQ/company-logo_100_100/B4DZaUAHEaHQAQ-/0/1746239780046/getdarwinai_logo?e=2147483647&v=beta&t=6CNA_VmuOLRa-36yynFjFfc0ZtFxS0SMnChecl3JvO4"
+                uid=20_72 ignored
+                  uid=20_73 ignored
+                    uid=20_74 heading "Vibe Coder" level="1"
+                      uid=20_75 StaticText "Vibe Coder"
+                        uid=20_5 InlineTextBox "Vibe Coder"
+                    uid=20_76 heading "Darwin AI · Bogotá, Distrito Capital, Colombia Hace 1 mes Descubre a quién ha contratado Darwin AI para este puesto" level="4"
+                      uid=20_77 generic
+                        uid=20_78 link "Darwin AI " url="https://br.linkedin.com/company/getdarwinai?trk=public_jobs_topcard-org-name"
+                          uid=20_79 StaticText "Darwin AI "
+                            uid=20_5 InlineTextBox "Darwin AI "
+                        uid=20_80 ignored
+                          uid=20_81 ignored
+                            uid=20_5 StaticText "·"
+                              uid=20_5 InlineTextBox "·"
+                          uid=20_82 StaticText " Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox " Bogotá, Distrito Capital, Colombia"
+                      uid=20_83 generic
+                        uid=20_84 StaticText "Hace 1 mes "
+                          uid=20_5 InlineTextBox "Hace 1 mes "
+                        uid=20_85 figure
+                          uid=20_86 ignored
+                            uid=20_5 StaticText "·"
+                              uid=20_5 InlineTextBox "·"
+                          uid=20_87 generic
+                          uid=20_88 Figcaption
+                            uid=20_89 StaticText "Sé de los primeros 25 solicitantes"
+                              uid=20_5 InlineTextBox "Sé de los primeros 25 solicitantes"
+                      uid=20_90 link " Descubre a quién ha contratado Darwin AI para este puesto" url="https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D96679363%26title%3DProgramador&emailAddress=&fromSignIn=&trk=public_jobs_see-who-was-hired_people-search-link_face-pile-cta"
+                        uid=20_91 generic
+                          uid=20_92 StaticText " "
+                            uid=20_5 InlineTextBox " "
+                          uid=20_93 StaticText " "
+                            uid=20_5 InlineTextBox " "
+                        uid=20_94 ignored
+                          uid=20_95 paragraph
+                            uid=20_96 StaticText "Descubre a quién ha contratado Darwin AI para este puesto"
+                              uid=20_5 InlineTextBox "Descubre a quién ha contratado Darwin AI para este puesto"
+                    uid=20_97 ignored
+                      uid=20_98 button "Solicitar"
+                        uid=20_99 StaticText "Solicitar"
+                          uid=20_5 InlineTextBox "Solicitar"
+                      uid=20_100 link "Guardar" url="https://www.linkedin.com/login?emailAddress=&fromSignIn=&session_redirect=https%3A%2F%2Fco.linkedin.com%2Fjobs%2Fview%2Fvibe-coder-at-darwin-ai-4436992449&trk=public_jobs"
+                        uid=20_101 StaticText "Guardar"
+                          uid=20_5 InlineTextBox "Guardar"
+                uid=20_102 generic
+                  uid=20_103 generic
+                    uid=20_104 button "Abrir menú" expandable
+                    uid=20_105 ignored
+            uid=20_106 ignored
+              uid=20_107 generic
+                uid=20_108 ignored
+                  uid=20_109 ignored
+                    uid=20_110 generic
+                      uid=20_111 generic
+                        uid=20_112 StaticText "We're looking for a "
+                          uid=20_5 InlineTextBox "We're looking for a "
+                        uid=20_113 strong
+                          uid=20_114 StaticText "Vibe Coder"
+                            uid=20_5 InlineTextBox "Vibe Coder"
+                        uid=20_115 StaticText " — a creative builder who thrives at the intersection of code, AI, and culture."
+                          uid=20_5 InlineTextBox " — a creative builder who thrives at the "
+                          uid=20_5 InlineTextBox "intersection of code, AI, and culture."
+                        uid=20_116 LineBreak "
+"
+                          uid=20_5 InlineTextBox "
+"
+                        uid=20_117 LineBreak "
+"
+                          uid=20_5 InlineTextBox "
+"
+                        uid=20_118 StaticText "As a Vibe Coder, you'll shape the way our teams work by designing tools, automations, and AI-powered utilities that make internal workflows smoother, faster, and more fun. You'll prototype new ideas quickly, experiment fearlessly, and bring a hacker's mindset to enhancing human creativity and productivity."
+                          uid=20_5 InlineTextBox "As a Vibe Coder, you'll shape the way our teams work by designing tools, "
+                          uid=20_5 InlineTextBox "automations, and AI-powered utilities that make internal workflows smoother, "
+                          uid=20_5 InlineTextBox "faster, and more fun. You'll prototype new ideas quickly, experiment fearlessly, "
+                          uid=20_5 InlineTextBox "and bring a hacker's mindset to enhancing human creativity and productivity."
+                        uid=20_119 LineBreak "
+"
+                          uid=20_5 InlineTextBox "
+"
+                        uid=20_120 LineBreak "
+"
+                          uid=20_5 InlineTextBox "
+"
+                        uid=20_121 strong
+                          uid=20_122 StaticText "What You'll Do"
+                            uid=20_5 InlineTextBox "What You'll Do"
+                          uid=20_123 LineBreak "
+"
+                            uid=20_5 InlineTextBox "
+"
+                          uid=20_124 LineBreak "
+"
+                            uid=20_5 InlineTextBox "
+"
+                        uid=20_125 list
+                          uid=20_126 listitem level="1"
+                            uid=20_127 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_128 StaticText "Design, build, and maintain internal tools, automations, and AI integrations that empower teams and improve workflows."
+                              uid=20_5 InlineTextBox "Design, build, and maintain internal tools, automations, and AI integrations "
+                              uid=20_5 InlineTextBox "that empower teams and improve workflows."
+                          uid=20_129 listitem level="1"
+                            uid=20_130 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_131 StaticText "Prototype new AI utilities and productivity features that let humans focus on human things — creativity, strategy, and collaboration."
+                              uid=20_5 InlineTextBox "Prototype new AI utilities and productivity features that let humans focus on "
+                              uid=20_5 InlineTextBox "human things — creativity, strategy, and collaboration."
+                          uid=20_132 listitem level="1"
+                            uid=20_133 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_134 StaticText "Partner with cross-functional teams to discover pain points, design AI-driven solutions, and measure their impact."
+                              uid=20_5 InlineTextBox "Partner with cross-functional teams to discover pain points, design AI-"
+                              uid=20_5 InlineTextBox "driven solutions, and measure their impact."
+                          uid=20_135 listitem level="1"
+                            uid=20_136 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_137 StaticText "Experiment with emerging tools and frameworks, pushing the boundaries of what's possible with vibe coding platforms and AI coding assistants."
+                              uid=20_5 InlineTextBox "Experiment with emerging tools and frameworks, pushing the boundaries of "
+                              uid=20_5 InlineTextBox "what's possible with vibe coding platforms and AI coding assistants."
+                          uid=20_138 listitem level="1"
+                            uid=20_139 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_140 StaticText "Translate ambiguous problems into tangible prototypes, testing and iterating quickly to validate ideas."
+                              uid=20_5 InlineTextBox "Translate ambiguous problems into tangible prototypes, testing and "
+                              uid=20_5 InlineTextBox "iterating quickly to validate ideas."
+                          uid=20_141 listitem level="1"
+                            uid=20_142 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_143 StaticText "Contribute to a culture of playful innovation, helping make technology feel approachable, inspiring, and even a little magical"
+                              uid=20_5 InlineTextBox "Contribute to a culture of playful innovation, helping make technology feel "
+                              uid=20_5 InlineTextBox "approachable, inspiring, and even a little magical"
+                            uid=20_144 LineBreak "
+"
+                              uid=20_5 InlineTextBox "
+"
+                            uid=20_145 LineBreak "
+"
+                              uid=20_5 InlineTextBox "
+"
+                        uid=20_146 strong
+                          uid=20_147 StaticText "Requirements"
+                            uid=20_5 InlineTextBox "Requirements"
+                          uid=20_148 LineBreak "
+"
+                            uid=20_5 InlineTextBox "
+"
+                          uid=20_149 LineBreak "
+"
+                            uid=20_5 InlineTextBox "
+"
+                        uid=20_150 list
+                          uid=20_151 listitem level="1"
+                            uid=20_152 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_153 StaticText "Experience building products — whether through startups, side projects, open source contributions, or shipping tools inside a company."
+                              uid=20_5 InlineTextBox "Experience building products — whether through startups, side projects, "
+                              uid=20_5 InlineTextBox "open source contributions, or shipping tools inside a company."
+                          uid=20_154 listitem level="1"
+                            uid=20_155 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_156 StaticText "Experience working with vibe coding tools such as v0, Bolt, Lovable, or Chef by Convex."
+                              uid=20_5 InlineTextBox "Experience working with vibe coding tools such as v0, Bolt, Lovable, or Chef "
+                              uid=20_5 InlineTextBox "by Convex."
+                          uid=20_157 listitem level="1"
+                            uid=20_158 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_159 StaticText "Experience working with AI coding editors (e.g., Cursor) to speed up development and experimentation."
+                              uid=20_5 InlineTextBox "Experience working with AI coding editors (e.g., Cursor) to speed up "
+                              uid=20_5 InlineTextBox "development and experimentation."
+                          uid=20_160 listitem level="1"
+                            uid=20_161 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_162 StaticText "A creative, curious mindset: you love tinkering, prototyping, and bringing abstract ideas to life fast."
+                              uid=20_5 InlineTextBox "A creative, curious mindset: you love tinkering, prototyping, and bringing "
+                              uid=20_5 InlineTextBox "abstract ideas to life fast."
+                          uid=20_163 listitem level="1"
+                            uid=20_164 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_165 StaticText "A collaborative spirit: you enjoy partnering with non-technical teams to uncover needs and build impactful solutions."
+                              uid=20_5 InlineTextBox "A collaborative spirit: you enjoy partnering with non-technical teams to "
+                              uid=20_5 InlineTextBox "uncover needs and build impactful solutions."
+                          uid=20_166 listitem level="1"
+                            uid=20_167 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_168 StaticText "Strong problem-solving skills: you're comfortable moving from vague problem spaces to concrete, usable products"
+                              uid=20_5 InlineTextBox "Strong problem-solving skills: you're comfortable moving from vague "
+                              uid=20_5 InlineTextBox "problem spaces to concrete, usable products"
+                            uid=20_169 LineBreak "
+"
+                              uid=20_5 InlineTextBox "
+"
+                            uid=20_170 LineBreak "
+"
+                              uid=20_5 InlineTextBox "
+"
+                        uid=20_171 strong
+                          uid=20_172 StaticText "Benefits"
+                            uid=20_5 InlineTextBox "Benefits"
+                          uid=20_173 LineBreak "
+"
+                            uid=20_5 InlineTextBox "
+"
+                          uid=20_174 LineBreak "
+"
+                            uid=20_5 InlineTextBox "
+"
+                        uid=20_175 list
+                          uid=20_176 listitem level="1"
+                            uid=20_177 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_178 StaticText "Language Classes: Access to language classes (English, Portuguese, Spanish) to enhance communication skills"
+                              uid=20_5 InlineTextBox "Language Classes: Access to language classes (English, Portuguese, "
+                              uid=20_5 InlineTextBox "Spanish) to enhance communication skills"
+                          uid=20_179 listitem level="1"
+                            uid=20_180 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_181 StaticText "OpenAI Premium License: Complimentary access to an OpenAI premium license for personal or professional use"
+                              uid=20_5 InlineTextBox "OpenAI Premium License: Complimentary access to an OpenAI premium "
+                              uid=20_5 InlineTextBox "license for personal or professional use"
+                          uid=20_182 listitem level="1"
+                            uid=20_183 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_184 StaticText "Paid Time Off: Enjoy 25 days/year of paid vacations and holidays to recharge and maintain a healthy work-life balance"
+                              uid=20_5 InlineTextBox "Paid Time Off: Enjoy 25 days/year of paid vacations and holidays to "
+                              uid=20_5 InlineTextBox "recharge and maintain a healthy work-life balance"
+                          uid=20_185 listitem level="1"
+                            uid=20_186 ListMarker "• "
+                              uid=20_5 ignored
+                            uid=20_187 StaticText "Soft Hybrid Work: We meet 1 days/week in our Co Work offices, the rest of the time you can work remotely from wherever you like!"
+                              uid=20_5 InlineTextBox "Soft Hybrid Work: We meet 1 days/week in our Co Work offices, the rest of "
+                              uid=20_5 InlineTextBox "the time you can work remotely from wherever you like!"
+                      uid=20_188 button "Show more" expandable
+                        uid=20_189 StaticText "Show more "
+                          uid=20_5 InlineTextBox "Show more "
+                  uid=20_190 list
+                    uid=20_191 listitem level="1"
+                      uid=20_192 heading "Nivel de antigüedad" level="3"
+                        uid=20_193 StaticText "Nivel de antigüedad"
+                          uid=20_5 InlineTextBox "Nivel de antigüedad"
+                      uid=20_194 StaticText "Intermedio"
+                        uid=20_5 InlineTextBox "Intermedio"
+                    uid=20_195 listitem level="1"
+                      uid=20_196 heading "Tipo de empleo" level="3"
+                        uid=20_197 StaticText "Tipo de empleo"
+                          uid=20_5 InlineTextBox "Tipo de empleo"
+                      uid=20_198 StaticText "Jornada completa"
+                        uid=20_5 InlineTextBox "Jornada completa"
+                    uid=20_199 listitem level="1"
+                      uid=20_200 heading "Función laboral" level="3"
+                        uid=20_201 StaticText "Función laboral"
+                          uid=20_5 InlineTextBox "Función laboral"
+                      uid=20_202 StaticText "Analista"
+                        uid=20_5 InlineTextBox "Analista"
+                    uid=20_203 listitem level="1"
+                      uid=20_204 heading "Sectores" level="3"
+                        uid=20_205 StaticText "Sectores"
+                          uid=20_5 InlineTextBox "Sectores"
+                      uid=20_206 StaticText "Servicios y consultoría de TI"
+                        uid=20_5 InlineTextBox "Servicios y consultoría de TI"
+              uid=20_207 generic
+                uid=20_208 ignored
+                  uid=20_209 ignored
+                    uid=20_210 generic
+                      uid=20_211 StaticText " "
+                        uid=20_5 InlineTextBox " "
+                      uid=20_212 StaticText " "
+                        uid=20_5 InlineTextBox " "
+                    uid=20_213 ignored
+                      uid=20_214 paragraph
+                        uid=20_215 StaticText "Las recomendaciones duplican tus probabilidades de conseguir una entrevista con Darwin AI"
+                          uid=20_5 InlineTextBox "Las recomendaciones duplican tus probabilidades de conseguir "
+                          uid=20_5 InlineTextBox "una entrevista con Darwin AI"
+                      uid=20_216 link "Mira a quién conoces" url="https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D96679363&emailAddress=&fromSignIn=&trk=public_jobs_find-a-referral-cta"
+                        uid=20_217 StaticText "Mira a quién conoces"
+                          uid=20_5 InlineTextBox "Mira a quién conoces"
+            uid=20_218 generic
+              uid=20_219 ignored
+              uid=20_220 ignored
+                uid=20_221 paragraph
+                  uid=20_222 StaticText "Recibe notificaciones sobre nuevos empleos de "
+                    uid=20_5 InlineTextBox "Recibe notificaciones sobre nuevos empleos de "
+                  uid=20_223 StaticText "Programador"
+                    uid=20_5 InlineTextBox "Programador"
+                  uid=20_224 StaticText " en "
+                    uid=20_5 InlineTextBox " en "
+                  uid=20_225 strong
+                    uid=20_226 StaticText "Bogotá, Distrito Capital, Colombia"
+                      uid=20_5 InlineTextBox "Bogotá, "
+                      uid=20_5 InlineTextBox "Distrito Capital, Colombia"
+                  uid=20_227 StaticText "."
+                    uid=20_5 InlineTextBox "."
+                uid=20_228 link "Inicia sesión para crear una alerta de empleo" url="https://www.linkedin.com/login?emailAddress=&fromSignIn=&session_redirect=https%3A%2F%2Fco.linkedin.com%2Fjobs%2Fview%2Fvibe-coder-at-darwin-ai-4436992449&trk=public_jobs_job-alert-guest-redirect-cta"
+                  uid=20_229 StaticText "Inicia sesión para crear una alerta de empleo"
+                    uid=20_5 InlineTextBox "Inicia sesión para crear una alerta de empleo"
+            uid=20_230 generic
+              uid=20_231 heading "Empleos similares" level="2"
+                uid=20_232 StaticText "Empleos similares"
+                  uid=20_5 InlineTextBox "Empleos similares"
+              uid=20_233 ignored
+                uid=20_234 ignored
+                  uid=20_235 list
+                    uid=20_236 listitem level="1"
+                      uid=20_237 link "Realizador Audiovisual Bogotá, Distrito Capital, Colombia Hace 8 horas" url="https://co.linkedin.com/jobs/view/realizador-audiovisual-4439089281?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=EsAqHTHc7iFTkdN4%2B%2Fck1g%3D%3D&trk=public_jobs_similar-jobs"
+                        uid=20_238 ignored
+                        uid=20_239 generic
+                          uid=20_240 heading "Realizador Audiovisual" level="3"
+                            uid=20_241 StaticText "Realizador Audiovisual"
+                              uid=20_5 InlineTextBox "Realizador Audiovisual"
+                          uid=20_242 heading level="4"
+                          uid=20_243 ignored
+                            uid=20_244 ignored
+                              uid=20_245 StaticText "Bogotá, Distrito Capital, Colombia"
+                                uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                            uid=20_246 time
+                              uid=20_247 StaticText "Hace 8 horas"
+                                uid=20_5 InlineTextBox "Hace 8 horas"
+                    uid=20_248 listitem level="1"
+                      uid=20_249 generic
+                        uid=20_250 link "AI Content Creator" url="https://co.linkedin.com/jobs/view/ai-content-creator-at-high-scale-4366594549?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=kfnp0jZtSuVq6b%2F8Jcl%2BrA%3D%3D"
+                          uid=20_251 ignored
+                            uid=20_252 StaticText "AI Content Creator"
+                              uid=20_5 InlineTextBox "AI Content Creator"
+                        uid=20_253 ignored
+                        uid=20_254 generic
+                          uid=20_255 heading "AI Content Creator" level="3"
+                            uid=20_256 StaticText "AI Content Creator"
+                              uid=20_5 InlineTextBox "AI Content Creator"
+                          uid=20_257 heading "High Scale" level="4"
+                            uid=20_258 link "High Scale" url="https://www.linkedin.com/company/high-scale-ai?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=20_259 StaticText "High Scale"
+                                uid=20_5 InlineTextBox "High Scale"
+                          uid=20_260 ignored
+                            uid=20_261 ignored
+                              uid=20_262 StaticText "Bogotá, Distrito Capital, Colombia"
+                                uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                            uid=20_263 time
+                              uid=20_264 StaticText "Hace 5 meses"
+                                uid=20_5 InlineTextBox "Hace 5 meses"
+                    uid=20_265 listitem level="1"
+                      uid=20_266 generic
+                        uid=20_267 link "LLM Developer" url="https://co.linkedin.com/jobs/view/llm-developer-at-accenture-colombia-4427472118?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=wN5rtX%2B%2B2lIy%2BWDx%2Bb%2Fnjw%3D%3D"
+                          uid=20_268 ignored
+                            uid=20_269 StaticText "LLM Developer"
+                              uid=20_5 InlineTextBox "LLM Developer"
+                        uid=20_270 ignored
+                        uid=20_271 generic
+                          uid=20_272 heading "LLM Developer" level="3"
+                            uid=20_273 StaticText "LLM Developer"
+                              uid=20_5 InlineTextBox "LLM Developer"
+                          uid=20_274 heading "Accenture Colombia" level="4"
+                            uid=20_275 link "Accenture Colombia" url="https://co.linkedin.com/company/accenture-colombia?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=20_276 StaticText "Accenture Colombia"
+                                uid=20_5 InlineTextBox "Accenture Colombia"
+                          uid=20_277 ignored
+                            uid=20_278 ignored
+                              uid=20_279 StaticText "Bogotá, Distrito Capital, Colombia"
+                                uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                            uid=20_280 time
+                              uid=20_281 StaticText "Hace 4 días"
+                                uid=20_5 InlineTextBox "Hace 4 días"
+                    uid=20_282 listitem level="1"
+                      uid=20_283 generic
+                        uid=20_284 link "Android Developer" url="https://co.linkedin.com/jobs/view/android-developer-at-rappi-4428301812?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=WV%2BWQ7qUL%2FQSHaL%2FWPk9SA%3D%3D"
+                          uid=20_285 ignored
+                            uid=20_286 StaticText "Android Developer"
+                              uid=20_5 InlineTextBox "Android Developer"
+                        uid=20_287 ignored
+                        uid=20_288 generic
+                          uid=20_289 heading "Android Developer" level="3"
+                            uid=20_290 StaticText "Android Developer"
+                              uid=20_5 InlineTextBox "Android Developer"
+                          uid=20_291 heading "Rappi" level="4"
+                            uid=20_292 link "Rappi" url="https://www.linkedin.com/company/rappi?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=20_293 StaticText "Rappi"
+                                uid=20_5 InlineTextBox "Rappi"
+                          uid=20_294 ignored
+                            uid=20_295 ignored
+                              uid=20_296 StaticText "Bogotá, Distrito Capital, Colombia"
+                                uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                            uid=20_297 time
+                              uid=20_298 StaticText "Hace 3 semanas"
+                                uid=20_5 InlineTextBox "Hace 3 semanas"
+                    uid=20_299 listitem level="1"
+                      uid=20_300 generic
+                        uid=20_301 link "Junior iOS Developer, Colombia" url="https://co.linkedin.com/jobs/view/junior-ios-developer-colombia-at-ci-t-4343246760?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=IfbO4T1ezrWDw7kk0b8qBg%3D%3D"
+                          uid=20_302 ignored
+                            uid=20_303 StaticText "Junior iOS Developer, Colombia"
+                              uid=20_5 InlineTextBox "Junior iOS Developer, Colombia"
+                        uid=20_304 ignored
+                        uid=20_305 generic
+                          uid=20_306 heading "Junior iOS Developer, Colombia" level="3"
+                            uid=20_307 StaticText "Junior iOS Developer, Colombia"
+                              uid=20_5 InlineTextBox "Junior iOS Developer, Colombia"
+                          uid=20_308 heading "CI&T" level="4"
+                            uid=20_309 link "CI&T" url="https://www.linkedin.com/company/ciandt?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=20_310 StaticText "CI&T"
+                                uid=20_5 InlineTextBox "CI&T"
+                          uid=20_311 ignored
+                            uid=20_312 ignored
+                              uid=20_313 StaticText "Área metropolitana de Bogotá D.C."
+                                uid=20_5 InlineTextBox "Área metropolitana de Bogotá D.C."
+                            uid=20_314 time
+                              uid=20_315 StaticText "Hace 2 semanas"
+                                uid=20_5 InlineTextBox "Hace 2 semanas"
+                    uid=20_316 listitem level="1"
+                      uid=20_317 generic
+                        uid=20_318 link "Técnico/a Especialista en Audio y Electrónica" url="https://co.linkedin.com/jobs/view/t%C3%A9cnico-a-especialista-en-audio-y-electr%C3%B3nica-at-dna-music-4436709852?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=7QjwE8gIGKkqrkJmxQpmMw%3D%3D"
+                          uid=20_319 ignored
+                            uid=20_320 StaticText "Técnico/a Especialista en Audio y Electrónica"
+                              uid=20_5 InlineTextBox "Técnico/a Especialista en Audio y Electrónica"
+                        uid=20_321 ignored
+                        uid=20_322 generic
+                          uid=20_323 heading "Técnico/a Especialista en Audio y Electrónica" level="3"
+                            uid=20_324 StaticText "Técnico/a Especialista en Audio y Electrónica"
+                              uid=20_5 InlineTextBox "Técnico/a Especialista en Audio y Electrónica"
+                          uid=20_325 heading "DNA MUSIC" level="4"
+                            uid=20_326 link "DNA MUSIC" url="https://co.linkedin.com/school/dnamusicdj/?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=20_327 StaticText "DNA MUSIC"
+                                uid=20_5 InlineTextBox "DNA MUSIC"
+                          uid=20_328 ignored
+                            uid=20_329 ignored
+                              uid=20_330 StaticText "Bogotá, Distrito Capital, Colombia"
+                                uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                            uid=20_331 time
+                              uid=20_332 StaticText "Hace 1 semana"
+                                uid=20_5 InlineTextBox "Hace 1 semana"
+                  uid=20_333 button "Ver más empleos como este " expandable
+                    uid=20_334 StaticText "Ver más empleos como este "
+                      uid=20_5 InlineTextBox "Ver más empleos como este "
+        uid=20_335 generic
+          uid=20_336 generic
+            uid=20_337 heading "Otros perfiles vistos" level="2"
+              uid=20_338 StaticText "Otros perfiles vistos"
+                uid=20_5 InlineTextBox "Otros perfiles vistos"
+            uid=20_339 ignored
+              uid=20_340 list
+                uid=20_341 listitem level="1"
+                  uid=20_342 generic
+                    uid=20_343 link "Software Engineer, iOS Core Product - Bogotá, Colombia" url="https://co.linkedin.com/jobs/view/software-engineer-ios-core-product-bogot%C3%A1-colombia-at-speechify-4437137208?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=CZ0%2BpQJSUNM56AZYnbJRWA%3D%3D"
+                      uid=20_344 ignored
+                        uid=20_345 StaticText "Software Engineer, iOS Core Product - Bogotá, Colombia"
+                          uid=20_5 InlineTextBox "Software Engineer, iOS Core Product - Bogotá, Colombia"
+                    uid=20_346 ignored
+                      uid=20_347 heading "Software Engineer, iOS Core Product - Bogotá, Colombia" level="3"
+                        uid=20_348 StaticText "Software Engineer, iOS Core Product - Bogotá, Colombia"
+                          uid=20_5 InlineTextBox "Software Engineer, iOS Core Product - "
+                          uid=20_5 InlineTextBox "Bogotá, Colombia"
+                      uid=20_349 paragraph
+                        uid=20_350 link "Speechify" url="https://www.linkedin.com/company/speechifyinc?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=20_351 StaticText "Speechify"
+                            uid=20_5 InlineTextBox "Speechify"
+                      uid=20_352 ignored
+                        uid=20_353 ignored
+                          uid=20_354 StaticText "Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                        uid=20_355 time
+                          uid=20_356 StaticText "Hace 4 semanas"
+                            uid=20_5 InlineTextBox "Hace 4 semanas"
+                uid=20_357 listitem level="1"
+                  uid=20_358 generic
+                    uid=20_359 link "MuleSoft Developer - Colombia" url="https://co.linkedin.com/jobs/view/mulesoft-developer-colombia-at-slalom-4424273511?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=PNiZy4ac8d652x1mgO8nAA%3D%3D"
+                      uid=20_360 ignored
+                        uid=20_361 StaticText "MuleSoft Developer - Colombia"
+                          uid=20_5 InlineTextBox "MuleSoft Developer - Colombia"
+                    uid=20_362 ignored
+                      uid=20_363 heading "MuleSoft Developer - Colombia" level="3"
+                        uid=20_364 StaticText "MuleSoft Developer - Colombia"
+                          uid=20_5 InlineTextBox "MuleSoft Developer - Colombia"
+                      uid=20_365 paragraph
+                        uid=20_366 link "Slalom" url="https://www.linkedin.com/company/slalom-consulting?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=20_367 StaticText "Slalom"
+                            uid=20_5 InlineTextBox "Slalom"
+                      uid=20_368 ignored
+                        uid=20_369 ignored
+                          uid=20_370 StaticText "Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                        uid=20_371 time
+                          uid=20_372 StaticText "Hace 1 semana"
+                            uid=20_5 InlineTextBox "Hace 1 semana"
+                uid=20_373 listitem level="1"
+                  uid=20_374 generic
+                    uid=20_375 link "iOS Developer" url="https://co.linkedin.com/jobs/view/ios-developer-at-applaudo-4432808779?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=0X5u%2ByXezozVIJWffqip1A%3D%3D"
+                      uid=20_376 ignored
+                        uid=20_377 StaticText "iOS Developer"
+                          uid=20_5 InlineTextBox "iOS Developer"
+                    uid=20_378 ignored
+                      uid=20_379 heading "iOS Developer" level="3"
+                        uid=20_380 StaticText "iOS Developer"
+                          uid=20_5 InlineTextBox "iOS Developer"
+                      uid=20_381 paragraph
+                        uid=20_382 link "Applaudo" url="https://sv.linkedin.com/company/applaudo?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=20_383 StaticText "Applaudo"
+                            uid=20_5 InlineTextBox "Applaudo"
+                      uid=20_384 ignored
+                        uid=20_385 ignored
+                          uid=20_386 StaticText "Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                        uid=20_387 time
+                          uid=20_388 StaticText "Hace 2 semanas"
+                            uid=20_5 InlineTextBox "Hace 2 semanas"
+                uid=20_389 listitem level="1"
+                  uid=20_390 generic
+                    uid=20_391 link "Join Marvik – Future Talent" url="https://co.linkedin.com/jobs/view/join-marvik-%E2%80%93-future-talent-at-marvik-4331052999?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=3pn1c9DrdMokgTIUzIhwjQ%3D%3D"
+                      uid=20_392 ignored
+                        uid=20_393 StaticText "Join Marvik – Future Talent"
+                          uid=20_5 InlineTextBox "Join Marvik – Future Talent"
+                    uid=20_394 ignored
+                      uid=20_395 heading "Join Marvik – Future Talent" level="3"
+                        uid=20_396 StaticText "Join Marvik – Future Talent"
+                          uid=20_5 InlineTextBox "Join Marvik – Future Talent"
+                      uid=20_397 paragraph
+                        uid=20_398 link "Marvik" url="https://uy.linkedin.com/company/marvik-ai?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=20_399 StaticText "Marvik"
+                            uid=20_5 InlineTextBox "Marvik"
+                      uid=20_400 ignored
+                        uid=20_401 ignored
+                          uid=20_402 StaticText "Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                        uid=20_403 time
+                          uid=20_404 StaticText "Hace 6 meses"
+                            uid=20_5 InlineTextBox "Hace 6 meses"
+                uid=20_405 listitem level="1"
+                  uid=20_406 generic
+                    uid=20_407 link "AI Engineer I (Remote)" url="https://co.linkedin.com/jobs/view/ai-engineer-i-remote-at-sezzle-4373977440?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=AXWPqdJQY%2B0ZzlEMCnf0pQ%3D%3D"
+                      uid=20_408 ignored
+                        uid=20_409 StaticText "AI Engineer I (Remote)"
+                          uid=20_5 InlineTextBox "AI Engineer I (Remote)"
+                    uid=20_410 ignored
+                      uid=20_411 heading "AI Engineer I (Remote)" level="3"
+                        uid=20_412 StaticText "AI Engineer I (Remote)"
+                          uid=20_5 InlineTextBox "AI Engineer I (Remote)"
+                      uid=20_413 paragraph
+                        uid=20_414 link "Sezzle" url="https://www.linkedin.com/company/sezzle?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=20_415 StaticText "Sezzle"
+                            uid=20_5 InlineTextBox "Sezzle"
+                      uid=20_416 ignored
+                        uid=20_417 ignored
+                          uid=20_418 StaticText "Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                        uid=20_419 time
+                          uid=20_420 StaticText "Hace 1 semana"
+                            uid=20_5 InlineTextBox "Hace 1 semana"
+                uid=20_421 listitem level="1"
+                  uid=20_422 generic
+                    uid=20_423 link "DESARROLLADOR COBOL JUNIOR" url="https://co.linkedin.com/jobs/view/desarrollador-cobol-junior-at-bbva-en-colombia-4426511819?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=vUWjg%2FbZ1napSdgqS3N02g%3D%3D"
+                      uid=20_424 ignored
+                        uid=20_425 StaticText "DESARROLLADOR COBOL JUNIOR"
+                          uid=20_5 InlineTextBox "DESARROLLADOR COBOL JUNIOR"
+                    uid=20_426 ignored
+                      uid=20_427 heading "DESARROLLADOR COBOL JUNIOR" level="3"
+                        uid=20_428 StaticText "DESARROLLADOR COBOL JUNIOR"
+                          uid=20_5 InlineTextBox "DESARROLLADOR COBOL JUNIOR"
+                      uid=20_429 paragraph
+                        uid=20_430 link "BBVA en Colombia" url="https://co.linkedin.com/company/bbva-colombia?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=20_431 StaticText "BBVA en Colombia"
+                            uid=20_5 InlineTextBox "BBVA en Colombia"
+                      uid=20_432 ignored
+                        uid=20_433 ignored
+                          uid=20_434 StaticText "Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                        uid=20_435 time
+                          uid=20_436 StaticText "Hace 1 semana"
+                            uid=20_5 InlineTextBox "Hace 1 semana"
+                uid=20_437 listitem level="1"
+                  uid=20_438 generic
+                    uid=20_439 link "Content Creator (Freelancer) - CO" url="https://co.linkedin.com/jobs/view/content-creator-freelancer-co-at-within-4329729683?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=%2Fio7USxIQ13kNs906bA%2BGg%3D%3D"
+                      uid=20_440 ignored
+                        uid=20_441 StaticText "Content Creator (Freelancer) - CO"
+                          uid=20_5 InlineTextBox "Content Creator (Freelancer) - CO"
+                    uid=20_442 ignored
+                      uid=20_443 heading "Content Creator (Freelancer) - CO" level="3"
+                        uid=20_444 StaticText "Content Creator (Freelancer) - CO"
+                          uid=20_5 InlineTextBox "Content Creator (Freelancer) - CO"
+                      uid=20_445 paragraph
+                        uid=20_446 link "WITHIN" url="https://www.linkedin.com/company/withinmarketingagency?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=20_447 StaticText "WITHIN"
+                            uid=20_5 InlineTextBox "WITHIN"
+                      uid=20_448 ignored
+                        uid=20_449 ignored
+                          uid=20_450 StaticText "Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                        uid=20_451 time
+                          uid=20_452 StaticText "Hace 6 meses"
+                            uid=20_5 InlineTextBox "Hace 6 meses"
+                uid=20_453 listitem level="1"
+                  uid=20_454 generic
+                    uid=20_455 link "Software Engineer Associate" url="https://co.linkedin.com/jobs/view/software-engineer-associate-at-scotiabank-4403688856?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=mCQ%2FQLkH%2BCB94qq9G9fnNg%3D%3D"
+                      uid=20_456 ignored
+                        uid=20_457 StaticText "Software Engineer Associate"
+                          uid=20_5 InlineTextBox "Software Engineer Associate"
+                    uid=20_458 ignored
+                      uid=20_459 heading "Software Engineer Associate" level="3"
+                        uid=20_460 StaticText "Software Engineer Associate"
+                          uid=20_5 InlineTextBox "Software Engineer Associate"
+                      uid=20_461 paragraph
+                        uid=20_462 link "Scotiabank" url="https://ca.linkedin.com/company/scotiabank?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=20_463 StaticText "Scotiabank"
+                            uid=20_5 InlineTextBox "Scotiabank"
+                      uid=20_464 ignored
+                        uid=20_465 ignored
+                          uid=20_466 StaticText "Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                        uid=20_467 time
+                          uid=20_468 StaticText "Hace 2 semanas"
+                            uid=20_5 InlineTextBox "Hace 2 semanas"
+                uid=20_469 listitem level="1"
+                  uid=20_470 generic
+                    uid=20_471 link "Python Developer (GIS)" url="https://co.linkedin.com/jobs/view/python-developer-gis-at-capgemini-engineering-4432692880?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=Cclow1QPs0Mh3o7pMBku3A%3D%3D"
+                      uid=20_472 ignored
+                        uid=20_473 StaticText "Python Developer (GIS)"
+                          uid=20_5 InlineTextBox "Python Developer (GIS)"
+                    uid=20_474 ignored
+                      uid=20_475 heading "Python Developer (GIS)" level="3"
+                        uid=20_476 StaticText "Python Developer (GIS)"
+                          uid=20_5 InlineTextBox "Python Developer (GIS)"
+                      uid=20_477 paragraph
+                        uid=20_478 link "Capgemini Engineering" url="https://fr.linkedin.com/company/capgemini-engineering?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=20_479 StaticText "Capgemini Engineering"
+                            uid=20_5 InlineTextBox "Capgemini Engineering"
+                      uid=20_480 ignored
+                        uid=20_481 ignored
+                          uid=20_482 StaticText "Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                        uid=20_483 time
+                          uid=20_484 StaticText "Hace 5 horas"
+                            uid=20_5 InlineTextBox "Hace 5 horas"
+                uid=20_485 listitem level="1"
+                  uid=20_486 generic
+                    uid=20_487 link "Digital Video Editor" url="https://co.linkedin.com/jobs/view/digital-video-editor-at-emapta-global-4432534814?refId=6I%2FqD5WbXUfpWF9NTSs7bQ%3D%3D&trackingId=Q0%2FSwJiH111PVJABvxy%2FuA%3D%3D"
+                      uid=20_488 ignored
+                        uid=20_489 StaticText "Digital Video Editor"
+                          uid=20_5 InlineTextBox "Digital Video Editor"
+                    uid=20_490 ignored
+                      uid=20_491 heading "Digital Video Editor" level="3"
+                        uid=20_492 StaticText "Digital Video Editor"
+                          uid=20_5 InlineTextBox "Digital Video Editor"
+                      uid=20_493 paragraph
+                        uid=20_494 link "Emapta Global" url="https://ph.linkedin.com/company/emaptaglobal?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=20_495 StaticText "Emapta Global"
+                            uid=20_5 InlineTextBox "Emapta Global"
+                      uid=20_496 ignored
+                        uid=20_497 ignored
+                          uid=20_498 StaticText "Bogotá, Distrito Capital, Colombia"
+                            uid=20_5 InlineTextBox "Bogotá, Distrito Capital, Colombia"
+                        uid=20_499 time
+                          uid=20_500 StaticText "Hace 3 días"
+                            uid=20_5 InlineTextBox "Hace 3 días"
+          uid=20_501 generic
+            uid=20_502 heading "Búsquedas similares" level="2"
+              uid=20_503 StaticText "Búsquedas similares"
+                uid=20_5 InlineTextBox "Búsquedas similares"
+            uid=20_504 ignored
+              uid=20_505 ignored
+                uid=20_506 list
+                  uid=20_507 listitem level="1"
+                    uid=20_508 link "Empleos de Auditor de ingresos 222 empleos abiertos" url="https://es.linkedin.com/jobs/auditor-de-ingresos-empleos?trk=public_jobs_full-click"
+                      uid=20_509 ignored
+                        uid=20_510 heading "Empleos de Auditor de ingresos" level="3"
+                          uid=20_511 StaticText "Empleos de Auditor de ingresos"
+                            uid=20_5 InlineTextBox "Empleos de Auditor de ingresos"
+                        uid=20_512 generic
+                          uid=20_513 StaticText "222 empleos abiertos"
+                            uid=20_5 InlineTextBox "222 empleos abiertos"
+                  uid=20_514 listitem level="1"
+                    uid=20_515 link "Empleos de Auditor 1793 empleos abiertos" url="https://es.linkedin.com/jobs/auditor-empleos?trk=public_jobs_full-click"
+                      uid=20_516 ignored
+                        uid=20_517 heading "Empleos de Auditor" level="3"
+                          uid=20_518 StaticText "Empleos de Auditor"
+                            uid=20_5 InlineTextBox "Empleos de Auditor"
+                        uid=20_519 generic
+                          uid=20_520 StaticText "1793 empleos abiertos"
+                            uid=20_5 InlineTextBox "1793 empleos abiertos"
+                  uid=20_521 listitem level="1"
+                    uid=20_522 link "Empleos de Desarrollador 6863 empleos abiertos" url="https://es.linkedin.com/jobs/desarrollador-empleos?trk=public_jobs_full-click"
+                      uid=20_523 ignored
+                        uid=20_524 heading "Empleos de Desarrollador" level="3"
+                          uid=20_525 StaticText "Empleos de Desarrollador"
+                            uid=20_5 InlineTextBox "Empleos de Desarrollador"
+                        uid=20_526 generic
+                          uid=20_527 StaticText "6863 empleos abiertos"
+                            uid=20_5 InlineTextBox "6863 empleos abiertos"
+                  uid=20_528 listitem level="1"
+                    uid=20_529 link "Empleos de DJ 14 empleos abiertos" url="https://es.linkedin.com/jobs/dj-empleos?trk=public_jobs_full-click"
+                      uid=20_530 ignored
+                        uid=20_531 heading "Empleos de DJ" level="3"
+                          uid=20_532 StaticText "Empleos de DJ"
+                            uid=20_5 InlineTextBox "Empleos de DJ"
+                        uid=20_533 generic
+                          uid=20_534 StaticText "14 empleos abiertos"
+                            uid=20_5 InlineTextBox "14 empleos abiertos"
+                  uid=20_535 listitem level="1"
+                    uid=20_536 link "Empleos de Ingeniero de software 11.074 empleos abiertos" url="https://es.linkedin.com/jobs/ingeniero-de-software-empleos?trk=public_jobs_full-click"
+                      uid=20_537 ignored
+                        uid=20_538 heading "Empleos de Ingeniero de software" level="3"
+                          uid=20_539 StaticText "Empleos de Ingeniero de software"
+                            uid=20_5 InlineTextBox "Empleos de Ingeniero de software"
+                        uid=20_540 generic
+                          uid=20_541 StaticText "11.074 empleos abiertos"
+                            uid=20_5 InlineTextBox "11.074 empleos abiertos"
+                  uid=20_542 listitem level="1"
+                    uid=20_543 link "Empleos de Programador de sistemas 427 empleos abiertos" url="https://es.linkedin.com/jobs/programador-de-sistemas-empleos?trk=public_jobs_full-click"
+                      uid=20_544 ignored
+                        uid=20_545 heading "Empleos de Programador de sistemas" level="3"
+                          uid=20_546 StaticText "Empleos de Programador de sistemas"
+                            uid=20_5 InlineTextBox "Empleos de Programador de sistemas"
+                        uid=20_547 generic
+                          uid=20_548 StaticText "427 empleos abiertos"
+                            uid=20_5 InlineTextBox "427 empleos abiertos"
+                  uid=20_549 listitem level="1"
+                    uid=20_550 link "Empleos de Desarrollador web 2407 empleos abiertos" url="https://es.linkedin.com/jobs/desarrollador-web-empleos?trk=public_jobs_full-click"
+                      uid=20_551 ignored
+                        uid=20_552 heading "Empleos de Desarrollador web" level="3"
+                          uid=20_553 StaticText "Empleos de Desarrollador web"
+                            uid=20_5 InlineTextBox "Empleos de Desarrollador web"
+                        uid=20_554 generic
+                          uid=20_555 StaticText "2407 empleos abiertos"
+                            uid=20_5 InlineTextBox "2407 empleos abiertos"
+                  uid=20_556 listitem level="1"
+                    uid=20_557 link "Empleos de Analista de datos 11.991 empleos abiertos" url="https://es.linkedin.com/jobs/analista-de-datos-empleos?trk=public_jobs_full-click"
+                      uid=20_558 ignored
+                        uid=20_559 heading "Empleos de Analista de datos" level="3"
+                          uid=20_560 StaticText "Empleos de Analista de datos"
+                            uid=20_5 InlineTextBox "Empleos de Analista de datos"
+                        uid=20_561 generic
+                          uid=20_562 StaticText "11.991 empleos abiertos"
+                            uid=20_5 InlineTextBox "11.991 empleos abiertos"
+                  uid=20_563 listitem level="1"
+                    uid=20_564 link "Empleos de Director de TI 96 empleos abiertos" url="https://es.linkedin.com/jobs/director-de-ti-empleos?trk=public_jobs_full-click"
+                      uid=20_565 ignored
+                        uid=20_566 heading "Empleos de Director de TI" level="3"
+                          uid=20_567 StaticText "Empleos de Director de TI"
+                            uid=20_5 InlineTextBox "Empleos de Director de TI"
+                        uid=20_568 generic
+                          uid=20_569 StaticText "96 empleos abiertos"
+                            uid=20_5 InlineTextBox "96 empleos abiertos"
+                  uid=20_570 listitem level="1"
+                    uid=20_571 link "Empleos de Desarrollador de aplicaciones 3200 empleos abiertos" url="https://es.linkedin.com/jobs/desarrollador-de-aplicaciones-empleos?trk=public_jobs_full-click"
+                      uid=20_572 ignored
+                        uid=20_573 heading "Empleos de Desarrollador de aplicaciones" level="3"
+                          uid=20_574 StaticText "Empleos de Desarrollador de aplicaciones"
+                            uid=20_5 InlineTextBox "Empleos de Desarrollador de "
+                            uid=20_5 InlineTextBox "aplicaciones"
+                        uid=20_575 generic
+                          uid=20_576 StaticText "3200 empleos abiertos"
+                            uid=20_5 InlineTextBox "3200 empleos abiertos"
+                  uid=20_577 listitem level="1"
+                    uid=20_578 link "Empleos de Analista 15.600 empleos abiertos" url="https://es.linkedin.com/jobs/analista-empleos?trk=public_jobs_full-click"
+                      uid=20_579 ignored
+                        uid=20_580 heading "Empleos de Analista" level="3"
+                          uid=20_581 StaticText "Empleos de Analista"
+                            uid=20_5 InlineTextBox "Empleos de Analista"
+                        uid=20_582 generic
+                          uid=20_583 StaticText "15.600 empleos abiertos"
+                            uid=20_5 InlineTextBox "15.600 empleos abiertos"
+                  uid=20_584 listitem level="1"
+                    uid=20_585 link "Empleos de Psiquiatra 63 empleos abiertos" url="https://es.linkedin.com/jobs/psiquiatra-empleos?trk=public_jobs_full-click"
+                      uid=20_586 ignored
+                        uid=20_587 heading "Empleos de Psiquiatra" level="3"
+                          uid=20_588 StaticText "Empleos de Psiquiatra"
+                            uid=20_5 InlineTextBox "Empleos de Psiquiatra"
+                        uid=20_589 generic
+                          uid=20_590 StaticText "63 empleos abiertos"
+                            uid=20_5 InlineTextBox "63 empleos abiertos"
+                uid=20_591 button "Mostrar más búsquedas similares" expandable
+                  uid=20_592 StaticText "Mostrar más "
+                    uid=20_5 InlineTextBox "Mostrar más "
+          uid=20_593 generic
+            uid=20_594 ignored
+              uid=20_595 generic
+                uid=20_596 ignored
+                  uid=20_597 ignored
+                  uid=20_598 heading "Explora contenido destacado en LinkedIn" level="2"
+                    uid=20_599 StaticText "Explora contenido destacado en LinkedIn"
+                      uid=20_5 InlineTextBox "Explora contenido "
+                      uid=20_5 InlineTextBox "destacado en LinkedIn"
+                uid=20_600 paragraph
+                  uid=20_601 StaticText "Encuentra publicaciones e información sobre los temas que te interesan en un mismo lugar."
+                    uid=20_5 InlineTextBox "Encuentra publicaciones e información "
+                    uid=20_5 InlineTextBox "sobre los temas que te interesan en un "
+                    uid=20_5 InlineTextBox "mismo lugar."
+                uid=20_602 link "Ver contenido destacado" url="https://www.linkedin.com/top-content/"
+                  uid=20_603 StaticText "Ver contenido destacado"
+                    uid=20_5 InlineTextBox "Ver contenido destacado"
+      uid=20_604 ignored
+        uid=20_605 generic
+          uid=20_606 generic
+            uid=20_607 ignored
+              uid=20_608 button "Más búsquedas " expandable
+                uid=20_609 StaticText "Más búsquedas "
+                  uid=20_5 InlineTextBox "Más búsquedas "
+              uid=20_610 list
+      uid=20_611 contentinfo
+        uid=20_612 list
+          uid=20_613 ignored
+            uid=20_614 StaticText "LinkedIn"
+              uid=20_5 InlineTextBox "LinkedIn"
+          uid=20_615 ignored
+          uid=20_616 ignored
+            uid=20_617 StaticText "© 2026"
+              uid=20_5 InlineTextBox "© 2026"
+          uid=20_618 listitem level="1"
+            uid=20_619 link "Acerca de" url="https://about.linkedin.com/?trk=d_jobs_guest_details_footer-about"
+              uid=20_620 StaticText "Acerca de"
+                uid=20_5 InlineTextBox "Acerca de"
+          uid=20_621 listitem level="1"
+            uid=20_622 link "Accesibilidad" url="https://www.linkedin.com/accessibility?trk=d_jobs_guest_details_footer-accessibility"
+              uid=20_623 StaticText "Accesibilidad"
+                uid=20_5 InlineTextBox "Accesibilidad"
+          uid=20_624 listitem level="1"
+            uid=20_625 link "Condiciones de uso" url="https://www.linkedin.com/legal/user-agreement?trk=d_jobs_guest_details_footer-user-agreement"
+              uid=20_626 StaticText "Condiciones de uso"
+                uid=20_5 InlineTextBox "Condiciones de uso"
+          uid=20_627 listitem level="1"
+            uid=20_628 link "Política de privacidad" url="https://www.linkedin.com/legal/privacy-policy?trk=d_jobs_guest_details_footer-privacy-policy"
+              uid=20_629 StaticText "Política de privacidad"
+                uid=20_5 InlineTextBox "Política de privacidad"
+          uid=20_630 listitem level="1"
+            uid=20_631 link "Política de cookies" url="https://www.linkedin.com/legal/cookie-policy?trk=d_jobs_guest_details_footer-cookie-policy"
+              uid=20_632 StaticText "Política de cookies"
+                uid=20_5 InlineTextBox "Política de cookies"
+          uid=20_633 listitem level="1"
+            uid=20_634 link "Política de copyright" url="https://www.linkedin.com/legal/copyright-policy?trk=d_jobs_guest_details_footer-copyright-policy"
+              uid=20_635 StaticText "Política de copyright"
+                uid=20_5 InlineTextBox "Política de copyright"
+          uid=20_636 listitem level="1"
+            uid=20_637 link "Política de marca" url="https://brand.linkedin.com/policies?trk=d_jobs_guest_details_footer-brand-policy"
+              uid=20_638 StaticText "Política de marca"
+                uid=20_5 InlineTextBox "Política de marca"
+          uid=20_639 listitem level="1"
+            uid=20_640 link "Controles de invitados" url="https://www.linkedin.com/psettings/guest-controls?trk=d_jobs_guest_details_footer-guest-controls"
+              uid=20_641 StaticText "Controles de invitados"
+                uid=20_5 InlineTextBox "Controles de invitados"
+          uid=20_642 listitem level="1"
+            uid=20_643 link "Pautas comunitarias" url="https://www.linkedin.com/legal/professional-community-policies?trk=d_jobs_guest_details_footer-community-guide"
+              uid=20_644 StaticText "Pautas comunitarias"
+                uid=20_5 InlineTextBox "Pautas comunitarias"
+          uid=20_645 listitem level="1"
+            uid=20_646 generic
+              uid=20_647 ignored
+                uid=20_648 ignored
+                uid=20_649 ignored
+                uid=20_650 ignored
+                uid=20_651 ignored
+                uid=20_652 ignored
+                uid=20_653 ignored
+                uid=20_654 ignored
+                uid=20_655 ignored
+                uid=20_656 ignored
+                uid=20_657 ignored
+                uid=20_658 ignored
+                uid=20_659 ignored
+                uid=20_660 ignored
+                uid=20_661 ignored
+                uid=20_662 ignored
+                uid=20_663 ignored
+                uid=20_664 ignored
+                uid=20_665 ignored
+                uid=20_666 ignored
+                uid=20_667 ignored
+                uid=20_668 ignored
+                uid=20_669 ignored
+                uid=20_670 ignored
+                uid=20_671 ignored
+                uid=20_672 ignored
+                uid=20_673 ignored
+                uid=20_674 ignored
+                uid=20_675 ignored
+                uid=20_676 ignored
+                uid=20_677 ignored
+                uid=20_678 ignored
+                uid=20_679 ignored
+                uid=20_680 ignored
+                uid=20_681 ignored
+                uid=20_682 ignored
+                uid=20_683 ignored
+              uid=20_684 button "Idioma" expandable
+                uid=20_685 StaticText "Idioma"
+                  uid=20_5 InlineTextBox "Idioma"
+                uid=20_686 generic
+      uid=20_687 ignored
+        uid=20_688 form
+        uid=20_689 ignored
+          uid=20_690 ignored
+            uid=20_691 generic
+              uid=20_692 ignored
+                uid=20_693 ignored
+              uid=20_694 ignored
+                uid=20_695 ignored
+              uid=20_696 ignored
+                uid=20_697 ignored
+              uid=20_698 ignored
+              uid=20_699 ignored
+                uid=20_700 ignored
+              uid=20_701 ignored
+              uid=20_702 ignored
+              uid=20_703 ignored
+                uid=20_704 ignored
+      uid=20_705 generic
+      uid=20_706 ignored

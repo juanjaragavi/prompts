@@ -1,16 +1,267 @@
-uid=6_0 RootWebArea ""Senior Web Project Manager" Jobs in Worldwide | LinkedIn" url="https://www.linkedin.com/jobs/search/post-apply/next-best-action/?currentJobId=4436767377&f_AL=true&keywords=%22Senior%20Web%20Project%20Manager%22&location=Worldwide&postApplyJobId=4436767377"
-  uid=6_1 region "Toast message"
-    uid=6_2 heading "0 notifications total" level="2"
-    uid=6_3 alert atomic live="assertive" relevant="additions text"
-  uid=41_0 dialog "Next best action" focusable focused
-    uid=41_1 StaticText "Dialog content start."
-    uid=41_2 button "Dismiss"
-    uid=41_3 heading "Next best action" level="2"
-    uid=41_4 heading "Your application was sent to Digital Silk - Growing Brands Online!" level="3"
-    uid=41_5 StaticText "You can keep track of your application in the "Applied" tab of My Jobs"
-    uid=41_6 heading "Turn your resume into a profile that recruiters notice" level="2"
-    uid=41_7 StaticText "Easily use your resume to enhance your profile, save time and stand out in your job search"
-    uid=41_8 button "Not now"
-    uid=41_9 button "Update profile"
-    uid=41_10 StaticText "Dialog content end."
-  uid=6_317 generic live="polite" relevant="additions text"
+URL: https://www.linkedin.com/jobs/view/vibe-coder-software-engineer-trilogy-remote-$60-000-year-usd-at-trilogy-4255590650/
+Title: Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD | Trilogy | LinkedIn
+Status: CLOSED - No longer accepting applications
+
+Full Body Text:
+0 notifications
+Skip to search
+Skip to main content
+Skip to primary content
+Skip to aside
+Skip to footer
+Home
+My Network
+Jobs
+Messaging
+Notifications
+Me
+For Business
+Advertise
+
+Trilogy
+
+Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD
+
+Greater Buenos Aires · Reposted 1 year ago · 0 people clicked apply
+
+Promoted by hirer · Responses managed off LinkedIn
+
+$30/hr - $30/hr
+Remote
+Full-time
+
+No longer accepting applications
+
+Use AI to assess how you fit
+
+Show match details
+
+Tailor my resume
+
+Create cover letter
+
+Help me stand out
+
+People you can reach out to
+
+School alumni from University of Toronto
+
+Show all
+About the job
+
+Elite engineers don't just write code—they weaponize AI to make traditional development obsolete. If you're still debugging manually while others are deploying autonomously, you're already behind.
+
+At Trilogy, we've eliminated the gap between AI potential and engineering reality. Our development ecosystem doesn't merely incorporate AI tools—it's fundamentally built around them. While most teams debate whether to adopt Copilot, our engineers are orchestrating AI agents to detect defects before they occur, auto-generate solutions, and optimize performance at scale.
+
+This role demands an engineer who can dismantle legacy B2B products and reconstruct them as AI-enhanced cloud-native applications. You'll architect systems where every component—from feature ideation to deployment—leverages advanced AI capabilities like retrieval-augmented generation. Your mandate: zero defects, zero downtime, zero compromises. If you prefer architectural debates over shipped products, look elsewhere.
+
+What You Will Be Doing
+
+
+Harness advanced RAG vector stores and AI analysis tools to preemptively identify, diagnose, and eliminate product defects with precision and speed
+Architect and deploy AI development agents that autonomously design and implement innovative features for enterprise-grade cloud-native applications
+Drive collaboration across global engineering teams to deliver scalable solutions that exceed enterprise quality standards
+
+
+What You Won’t Be Doing
+
+
+Managing infrastructure overhead: Our AI-optimized DevOps eliminates the burden of routine configuration and maintenance tasks
+Sacrificing development time for excessive meetings: We maintain a strict engineering-focused environment where implementation trumps discussion
+Writing manual test cases: Our AI testing framework automates test generation, execution, and validation
+Building features without AI augmentation: Every component you develop will leverage advanced AI capabilities
+
+
+Vibe Coder / Software Engineer Key Responsibilities
+
+Transform service provider capabilities by implementing sophisticated AI-driven features that eliminate workflow inefficiencies and deliver measurable business impact.
+
+Basic Requirements
+
+
+4+ years of proven commercial software development experience, specifically building production-grade server-side web applications
+Demonstrated proficiency with GenAI code assistants (Github Copilot, Cursor, v0.dev) in professional development environments
+Commitment to integrating GenAI tools throughout your development workflow to maximize efficiency and output quality
+
+
+About Trilogy
+
+Hundreds of software businesses run on the Trilogy Business Platform. For three decades, Trilogy has been known for 3 things: Relentlessly seeking top talent, Innovating new technology, and incubating new businesses. Our technological innovation is spearheaded by a passion for simple customer-facing designs. Our incubation of new businesses ranges from entirely new moon-shot ideas to rearchitecting existing projects for today's modern cloud-based stack. Trilogy is a place where you can be surrounded with great people, be proud of doing great work, and grow your career by leaps and bounds.
+
+There is so much to cover for this exciting role, and space here is limited. Hit the Apply button if you found this interesting and want to learn more. We look forward to meeting you!
+
+Working with us
+
+This is a full-time (40 hours per week), long-term position. The position is immediately available and requires entering into an independent contractor agreement with Crossover as a Contractor of Record. The compensation level for this role is $30 USD/hour, which equates to $60,000 USD/year assuming 40 hours per week and 50 weeks per year. The payment period is weekly. Consult www.crossover.com/help-and-faqs for more details on this topic.
+
+Crossover Job Code: LJ-3889-AR-BuenosAi-VibeCoder/Soft.003
+
+
+… more
+
+Set alert for similar jobs
+
+Coder, Greater Buenos Aires
+
+Off
+Put your best foot forward with your application
+
+Hire a resume writer
+
+Get a resume review
+Based on LinkedIn data. Excludes subsidiaries.
+
+0
+
+Candidates
+
+We’re waiting on more data to deliver Competitive intelligence
+
+Once there are 3 or more candidates for this job, we will show how you compare to the competition.
+
+Exclusive Job Seeker Insights about Trilogy
+Powered by Bing
+
+Company focus areas
+
+• Talent Acquisition and Retention: Finding and retaining passionate individuals who thrive in a unique and unorthodox culture to drive innovation and performance.
+
+...more
+
+Sources: chegg.com +1 more
+
+Hiring & headcount
+
+Significant growth in Healthcare Services: The 'Healthcare Services' department has seen a 21% increase in employee count, indicating a major focus on expanding healthcare initiatives. Expansion in Operations and Sales: Both 'Operations' and 'Sales' departments have experienced a 26% increase in headcount, suggesting a strategic push to enhance operational efficiency and boost sales capabilities. Steady growth in Education and Administrative functions: The 'Education' and 'Administrative' departments have grown by 33% and 17% respectively, highlighting an investment in educational programs and administrative support. Decline in Engineering and Customer Success: The 'Engineering' and 'Customer Success and Support' departments have seen a decrease of 3% and 6% respectively, which may indicate a shift in focus or restructuring in these areas.
+… more
+
+The latest hiring trend
+
+1,452
+
+Total employees
+
+40%
+
+Company-wide
+
+2 year growth
+
+0%
+
+Business Development
+
+2 year growth
+
+Chart
+Chart with 25 data points.
+The chart has 1 X axis displaying Time. Data ranges from 2024-07-01 00:00:00 to 2026-07-01 00:00:00.
+The chart has 1 Y axis displaying values. Data ranges from 1036 to 1452.
+Sep 2024
+Jan 2025
+May 2025
+Sep 2025
+Jan 2026
+May 2026
+0
+1K
+2K
+End of interactive chart.
+
+Median employee tenure: 3 years
+
+Trilogy hires candidates from some of these companies and schools
+
+Trilogy hired 2 people from University of Toronto. See all
+
+Competitors
+
+Trilogy Enterprises operates in a highly competitive landscape, focusing on acquiring and transforming software companies through an AI-first strategy. The company leverages advanced AI and automation solutions to drive technological modernization and operational efficiency. Trilogy's cloud-first strategy and use of VMware Cloud on AWS for application migration and modernization further enhance its competitive edge. The company faces competition from other enterprise software and IT services firms that are also integrating AI and cloud solutions to stay ahead in the market.
+… more
+
+Sources: comparably.com +2 more
+
+Show Premium Insights
+
+Looking for talent?
+
+Post a job
+
+About
+
+Accessibility
+
+Talent Solutions
+
+Community Guidelines
+
+Careers
+
+Marketing Solutions 
+
+Privacy & Terms
+
+Ad Choices
+
+Advertising
+
+Sales Solutions
+
+Mobile
+
+Small Business
+
+Safety Center
+
+LinkedIn Corporation © 2026
+
+Questions?
+
+Visit our Help Center.
+
+Manage your account and privacy
+
+Go to your Settings.
+
+Recommendation transparency
+
+Learn more about Recommended Content.
+
+Select language
+
+العربية (Arabic)
+বাংলা (Bangla)
+Čeština (Czech)
+Dansk (Danish)
+Deutsch (German)
+Ελληνικά (Greek)
+English (English)
+Español (Spanish)
+فارسی (Persian)
+Suomi (Finnish)
+Français (French)
+हिंदी (Hindi)
+Magyar (Hungarian)
+Bahasa Indonesia (Indonesian)
+Italiano (Italian)
+עברית (Hebrew)
+日本語 (Japanese)
+한국어 (Korean)
+मराठी (Marathi)
+Bahasa Malaysia (Malay)
+Nederlands (Dutch)
+Norsk (Norwegian)
+ਪੰਜਾਬੀ (Punjabi)
+Polski (Polish)
+Português (Portuguese)
+Română (Romanian)
+Русский (Russian)
+Svenska (Swedish)
+తెలుగు (Telugu)
+ภาษาไทย (Thai)
+Tagalog (Tagalog)
+Türkçe (Turkish)
+Українська (Ukrainian)
+Tiếng Việt (Vietnamese)
+简体中文 (Chinese (Simplified))
+正體中文 (Chinese (Traditional))

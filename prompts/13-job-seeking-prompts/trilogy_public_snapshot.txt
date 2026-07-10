@@ -1,0 +1,952 @@
+uid=58_0 RootWebArea "Trilogy busca personal para el cargo de Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD en Buenos Aires y alrededores | LinkedIn" url="https://ar.linkedin.com/jobs/view/vibe-coder-software-engineer-trilogy-remote-%2460-000-year-usd-at-trilogy-4255590650"
+  uid=58_1 ignored
+    uid=58_2 generic
+      uid=58_3 link "Pasar al contenido principal" url="https://ar.linkedin.com/jobs/view/vibe-coder-software-engineer-trilogy-remote-%2460-000-year-usd-at-trilogy-4255590650#main-content"
+        uid=58_4 StaticText "Pasar al contenido principal"
+          uid=58_266 InlineTextBox "Pasar al contenido principal"
+      uid=59_0 banner
+        uid=59_1 navigation "Principal"
+          uid=58_5 link "LinkedIn" url="https://ar.linkedin.com/?trk=public_jobs_nav-header-logo"
+            uid=58_6 ignored
+              uid=58_7 StaticText "LinkedIn"
+                uid=58_266 InlineTextBox "LinkedIn"
+          uid=59_2 generic
+            uid=59_3 ignored
+              uid=58_12 button "Empleos" description="Este botón muestra el tipo de búsqueda seleccionado. Cuando se amplía, se proporciona una lista de opciones de búsqueda para que los resultados coincidan con la selección actual." expandable
+                uid=58_13 ignored
+                  uid=58_14 StaticText "Empleos"
+                    uid=58_266 InlineTextBox "Empleos"
+              uid=58_18 ignored
+                uid=58_19 ignored
+              uid=58_20 ignored
+                uid=58_21 ignored
+              uid=58_22 ignored
+                uid=58_23 ignored
+              uid=58_24 ignored
+                uid=58_25 ignored
+            uid=58_26 ignored
+            uid=58_27 ignored
+            uid=58_28 ignored
+              uid=58_29 ignored
+            uid=58_30 ignored
+            uid=58_31 ignored
+            uid=58_32 ignored
+              uid=58_33 ignored
+            uid=59_4 tabpanel " Empleos "
+              uid=59_5 search
+                uid=59_6 generic
+                  uid=59_7 combobox "Buscar cargos o empresas" autocomplete="list" expandable haspopup="listbox" value="Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD"
+                    uid=58_34 ignored
+                    uid=58_35 ignored
+                      uid=59_8 generic
+                        uid=59_9 StaticText "Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD"
+                          uid=58_266 InlineTextBox "Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD"
+                          uid=58_266 InlineTextBox "Vibe Coder / Software E"
+                          uid=58_266 InlineTextBox "…"
+                  uid=58_36 button "Borrar texto"
+                    uid=58_37 LabelText
+                      uid=58_38 StaticText "Borrar texto"
+                        uid=58_266 InlineTextBox "Borrar texto"
+                uid=59_10 generic
+                  uid=59_11 combobox "Ubicación" autocomplete="list" expandable haspopup="listbox" value="Bogotá"
+                    uid=58_41 ignored
+                    uid=58_42 ignored
+                      uid=59_12 generic
+                        uid=59_13 StaticText "Bogotá"
+                          uid=58_266 InlineTextBox "Bogotá"
+                  uid=58_43 button "Borrar texto"
+                    uid=58_44 LabelText
+                      uid=58_45 StaticText "Borrar texto"
+                        uid=58_266 InlineTextBox "Borrar texto"
+                uid=58_48 button "Buscar"
+            uid=58_52 ignored
+            uid=58_53 ignored
+            uid=58_54 ignored
+              uid=58_55 ignored
+            uid=59_14 status atomic live="polite" relevant="additions text"
+          uid=59_15 ignored
+            uid=58_56 link "Iniciar sesión" url="https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Far.linkedin.com%2Fjobs%2Fview%2Fvibe-coder-software-engineer-trilogy-remote-%252460-000-year-usd-at-trilogy-4255590650&trk=public_jobs_nav-header-signin"
+              uid=58_57 StaticText "Iniciar sesión"
+                uid=58_266 InlineTextBox "Iniciar sesión"
+            uid=58_58 link "Unirse ahora" url="https://www.linkedin.com/signup/cold-join?source=jobs_registration&session_redirect=https%3A%2F%2Far.linkedin.com%2Fjobs%2Fview%2Fvibe-coder-software-engineer-trilogy-remote-%252460-000-year-usd-at-trilogy-4255590650&trk=public_jobs_nav-header-join"
+              uid=58_59 StaticText "Unirse ahora"
+                uid=58_266 InlineTextBox "Unirse ahora"
+      uid=59_16 main
+        uid=59_17 generic
+          uid=59_18 ignored
+            uid=58_60 ignored
+              uid=58_61 ignored
+            uid=59_19 generic
+              uid=59_20 generic
+                uid=58_62 link "Trilogy" url="https://www.linkedin.com/company/trilogy?trk=public_jobs_topcard_logo"
+                  uid=58_63 image "Trilogy" url="https://media.licdn.com/dms/image/v2/D4D0BAQHo46awkKVsFg/company-logo_100_100/B4DZY4U_eJHAAQ-/0/1744701749693/trilogy_logo?e=2147483647&v=beta&t=W4tooyMlcMPn_j2D6bmsg-3JPrlXD7qIAJEcsoP05Is"
+                uid=59_21 ignored
+                  uid=59_22 ignored
+                    uid=59_23 heading "Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD" level="1"
+                      uid=59_24 StaticText "Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD"
+                        uid=58_266 InlineTextBox "Vibe Coder / Software Engineer, Trilogy (Remote) - "
+                        uid=58_266 InlineTextBox "$60,000/year USD"
+                    uid=59_25 heading "Trilogy · Buenos Aires y alrededores Hace 1 año Descubre a quién ha contratado Trilogy para este puesto" level="4"
+                      uid=59_26 generic
+                        uid=58_64 link "Trilogy " url="https://www.linkedin.com/company/trilogy?trk=public_jobs_topcard-org-name"
+                          uid=58_65 StaticText "Trilogy "
+                            uid=58_266 InlineTextBox "Trilogy "
+                        uid=58_66 ignored
+                          uid=58_67 ignored
+                            uid=58_266 StaticText "·"
+                              uid=58_266 InlineTextBox "·"
+                          uid=59_27 StaticText " Buenos Aires y alrededores"
+                            uid=58_266 InlineTextBox " Buenos Aires y alrededores"
+                      uid=59_28 generic
+                        uid=59_29 StaticText "Hace 1 año "
+                          uid=58_266 InlineTextBox "Hace 1 año "
+                        uid=58_68 figure
+                          uid=58_69 ignored
+                            uid=58_266 StaticText "·"
+                              uid=58_266 InlineTextBox "·"
+                          uid=59_30 generic
+                          uid=59_31 Figcaption
+                            uid=59_32 StaticText "Sé de los primeros 25 solicitantes"
+                              uid=58_266 InlineTextBox "Sé de los primeros 25 solicitantes"
+                      uid=58_70 link " Descubre a quién ha contratado Trilogy para este puesto" url="https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D3607%26title%3DProgramador&emailAddress=&fromSignIn=&trk=public_jobs_see-who-was-hired_people-search-link_face-pile-cta"
+                        uid=58_71 generic
+                          uid=58_73 StaticText " "
+                            uid=58_266 InlineTextBox " "
+                          uid=58_75 StaticText " "
+                            uid=58_266 InlineTextBox " "
+                        uid=58_77 ignored
+                          uid=58_78 paragraph
+                            uid=58_79 StaticText "Descubre a quién ha contratado Trilogy para este puesto"
+                              uid=58_266 InlineTextBox "Descubre a quién ha contratado Trilogy para este puesto"
+                      uid=59_33 figure
+                        uid=59_34 generic
+                        uid=59_35 Figcaption
+                          uid=59_36 StaticText "Ya no se aceptan solicitudes"
+                            uid=58_266 InlineTextBox "Ya no se aceptan solicitudes"
+                    uid=59_37 ignored
+                uid=59_38 generic
+                  uid=59_39 generic
+                    uid=58_80 button "Abrir menú" expandable
+                    uid=58_84 ignored
+            uid=59_40 ignored
+              uid=59_41 generic
+                uid=59_42 heading "Trilogy ha indicado el rango de sueldo" level="2"
+                  uid=59_43 StaticText "Trilogy ha indicado el rango de sueldo"
+                    uid=58_266 InlineTextBox "Trilogy ha indicado el rango de sueldo"
+                uid=59_44 ignored
+                  uid=59_45 paragraph
+                    uid=59_46 StaticText "Este rango lo ha facilitado Trilogy. El sueldo real dependerá de tus aptitudes y experiencia. Pide información al técnico de selección."
+                      uid=58_266 InlineTextBox "Este rango lo ha facilitado Trilogy. El sueldo real dependerá de tus aptitudes y experiencia. Pide "
+                      uid=58_266 InlineTextBox "información al técnico de selección."
+                  uid=59_47 ignored
+                    uid=59_48 heading "Rango de sueldo base" level="3"
+                      uid=59_49 StaticText "Rango de sueldo base"
+                        uid=58_266 InlineTextBox "Rango de sueldo base"
+                    uid=59_50 generic
+                      uid=59_51 StaticText "30,00 US$/hora - 30,00 US$/hora"
+                        uid=58_266 InlineTextBox "30,00 US$/hora - 30,00 US$/hora"
+              uid=59_52 generic
+                uid=59_53 ignored
+                  uid=59_54 ignored
+                    uid=59_55 generic
+                      uid=58_85 generic
+                        uid=59_56 StaticText "Elite engineers don't just write code—they weaponize AI to make traditional development obsolete. If you're still debugging manually while others are deploying autonomously, you're already behind."
+                          uid=58_266 InlineTextBox "Elite engineers don't just write code—they weaponize AI to make traditional "
+                          uid=58_266 InlineTextBox "development obsolete. If you're still debugging manually while others are "
+                          uid=58_266 InlineTextBox "deploying autonomously, you're already behind."
+                        uid=59_57 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_58 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_59 StaticText "At Trilogy, we've eliminated the gap between AI potential and engineering reality. Our development ecosystem doesn't merely incorporate AI tools—it's fundamentally built around them. While most teams debate whether to adopt Copilot, our engineers are orchestrating AI agents to detect defects before they occur, auto-generate solutions, and optimize performance at scale."
+                          uid=58_266 InlineTextBox "At Trilogy, we've eliminated the gap between AI potential and engineering "
+                          uid=58_266 InlineTextBox "reality. Our development ecosystem doesn't merely incorporate AI tools—it's "
+                          uid=58_266 InlineTextBox "fundamentally built around them. While most teams debate whether to adopt "
+                          uid=58_266 InlineTextBox "Copilot, our engineers are orchestrating AI agents to detect defects before they "
+                          uid=58_266 InlineTextBox "occur, auto-generate solutions, and optimize performance at scale."
+                        uid=59_60 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_61 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_62 StaticText "This role demands an engineer who can dismantle legacy B2B products and reconstruct them as AI-enhanced cloud-native applications. You'll architect systems where every component—from feature ideation to deployment—leverages advanced AI capabilities like retrieval-augmented generation. Your mandate: zero defects, zero downtime, zero compromises. If you prefer architectural debates over shipped products, look elsewhere."
+                          uid=58_266 InlineTextBox "This role demands an engineer who can dismantle legacy B2B products and "
+                          uid=58_266 InlineTextBox "reconstruct them as AI-enhanced cloud-native applications. You'll architect "
+                          uid=58_266 InlineTextBox "systems where every component—from feature ideation to deployment—"
+                          uid=58_266 InlineTextBox "leverages advanced AI capabilities like retrieval-augmented generation. Your "
+                          uid=58_266 InlineTextBox "mandate: zero defects, zero downtime, zero compromises. If you prefer "
+                          uid=58_266 InlineTextBox "architectural debates over shipped products, look elsewhere."
+                        uid=59_63 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_64 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_65 strong
+                          uid=59_66 StaticText "What You Will Be Doing"
+                            uid=58_266 InlineTextBox "What You Will Be Doing"
+                          uid=59_67 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                          uid=59_68 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                        uid=59_69 list
+                          uid=58_86 listitem level="1"
+                            uid=58_87 ListMarker "• "
+                              uid=58_266 ignored
+                            uid=59_70 StaticText "Harness advanced RAG vector stores and AI analysis tools to preemptively identify, diagnose, and eliminate product defects with precision and speed"
+                              uid=58_266 InlineTextBox "Harness advanced RAG vector stores and AI analysis tools to preemptively "
+                              uid=58_266 InlineTextBox "identify, diagnose, and eliminate product defects with precision and speed"
+                          uid=58_88 listitem level="1"
+                            uid=58_89 ListMarker "• "
+                              uid=58_266 ignored
+                            uid=59_71 StaticText "Architect and deploy AI development agents that autonomously design and implement innovative features for enterprise-grade cloud-native applications"
+                              uid=58_266 InlineTextBox "Architect and deploy AI development agents that autonomously design and "
+                              uid=58_266 InlineTextBox "implement innovative features for enterprise-grade cloud-native "
+                              uid=58_266 InlineTextBox "applications"
+                          uid=58_90 listitem level="1"
+                            uid=58_91 ListMarker "• "
+                              uid=58_266 ignored
+                            uid=59_72 StaticText "Drive collaboration across global engineering teams to deliver scalable solutions that exceed enterprise quality standards"
+                              uid=58_266 InlineTextBox "Drive collaboration across global engineering teams to deliver scalable "
+                              uid=58_266 InlineTextBox "solutions that exceed enterprise quality standards"
+                            uid=59_73 LineBreak "
+"
+                              uid=58_266 InlineTextBox "
+"
+                            uid=59_74 LineBreak "
+"
+                              uid=58_266 InlineTextBox "
+"
+                        uid=59_75 strong
+                          uid=59_76 StaticText "What You Won’t Be Doing"
+                            uid=58_266 InlineTextBox "What You Won’t Be Doing"
+                          uid=59_77 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                          uid=59_78 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                        uid=59_79 list
+                          uid=58_92 listitem level="1"
+                            uid=58_93 ListMarker "• "
+                              uid=58_266 ignored
+                            uid=59_80 StaticText "Managing infrastructure overhead: Our AI-optimized DevOps eliminates the burden of routine configuration and maintenance tasks"
+                              uid=58_266 InlineTextBox "Managing infrastructure overhead: Our AI-optimized DevOps eliminates the "
+                              uid=58_266 InlineTextBox "burden of routine configuration and maintenance tasks"
+                          uid=58_94 listitem level="1"
+                            uid=58_95 ListMarker "• "
+                              uid=58_266 ignored
+                            uid=59_81 StaticText "Sacrificing development time for excessive meetings: We maintain a strict engineering-focused environment where implementation trumps discussion"
+                              uid=58_266 InlineTextBox "Sacrificing development time for excessive meetings: We maintain a strict "
+                              uid=58_266 InlineTextBox "engineering-focused environment where implementation trumps discussion"
+                          uid=58_96 listitem level="1"
+                            uid=58_97 ListMarker "• "
+                              uid=58_266 ignored
+                            uid=59_82 StaticText "Writing manual test cases: Our AI testing framework automates test generation, execution, and validation"
+                              uid=58_266 InlineTextBox "Writing manual test cases: Our AI testing framework automates test "
+                              uid=58_266 InlineTextBox "generation, execution, and validation"
+                          uid=58_98 listitem level="1"
+                            uid=58_99 ListMarker "• "
+                              uid=58_266 ignored
+                            uid=59_83 StaticText "Building features without AI augmentation: Every component you develop will leverage advanced AI capabilities"
+                              uid=58_266 InlineTextBox "Building features without AI augmentation: Every component you develop "
+                              uid=58_266 InlineTextBox "will leverage advanced AI capabilities"
+                            uid=59_84 LineBreak "
+"
+                              uid=58_266 InlineTextBox "
+"
+                            uid=59_85 LineBreak "
+"
+                              uid=58_266 InlineTextBox "
+"
+                        uid=59_86 strong
+                          uid=59_87 StaticText "Vibe Coder / Software Engineer Key Responsibilities"
+                            uid=58_266 InlineTextBox "Vibe Coder / Software Engineer Key Responsibilities"
+                          uid=59_88 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                          uid=59_89 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                        uid=59_90 StaticText "Transform service provider capabilities by implementing sophisticated AI-driven features that eliminate workflow inefficiencies and deliver measurable business impact."
+                          uid=58_266 InlineTextBox "Transform service provider capabilities by implementing sophisticated AI-"
+                          uid=58_266 InlineTextBox "driven features that eliminate workflow inefficiencies and deliver measurable "
+                          uid=58_266 InlineTextBox "business impact."
+                        uid=59_91 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_92 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_93 strong
+                          uid=59_94 StaticText "Basic Requirements"
+                            uid=58_266 InlineTextBox "Basic Requirements"
+                          uid=59_95 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                          uid=59_96 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                        uid=59_97 list
+                          uid=58_100 listitem level="1"
+                            uid=58_101 ListMarker "• "
+                              uid=58_266 ignored
+                            uid=59_98 StaticText "4+ years of proven commercial software development experience, specifically building production-grade server-side web applications"
+                              uid=58_266 InlineTextBox "4+ years of proven commercial software development experience, "
+                              uid=58_266 InlineTextBox "specifically building production-grade server-side web applications"
+                          uid=58_102 listitem level="1"
+                            uid=58_103 ListMarker "• "
+                              uid=58_266 ignored
+                            uid=59_99 StaticText "Demonstrated proficiency with GenAI code assistants (Github Copilot, Cursor, v0.dev) in professional development environments"
+                              uid=58_266 InlineTextBox "Demonstrated proficiency with GenAI code assistants (Github Copilot, "
+                              uid=58_266 InlineTextBox "Cursor, v0.dev) in professional development environments"
+                          uid=58_104 listitem level="1"
+                            uid=58_105 ListMarker "• "
+                              uid=58_266 ignored
+                            uid=59_100 StaticText "Commitment to integrating GenAI tools throughout your development workflow to maximize efficiency and output quality"
+                              uid=58_266 InlineTextBox "Commitment to integrating GenAI tools throughout your development "
+                              uid=58_266 InlineTextBox "workflow to maximize efficiency and output quality"
+                            uid=59_101 LineBreak "
+"
+                              uid=58_266 InlineTextBox "
+"
+                            uid=59_102 LineBreak "
+"
+                              uid=58_266 InlineTextBox "
+"
+                        uid=59_103 strong
+                          uid=59_104 StaticText "About Trilogy"
+                            uid=58_266 InlineTextBox "About Trilogy"
+                          uid=59_105 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                          uid=59_106 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                        uid=59_107 StaticText "Hundreds of software businesses run on the Trilogy Business Platform. For three decades, Trilogy has been known for 3 things: Relentlessly seeking top talent, Innovating new technology, and incubating new businesses. Our technological innovation is spearheaded by a passion for simple customer-facing designs. Our incubation of new businesses ranges from entirely new moon-shot ideas to rearchitecting existing projects for today's modern cloud-based stack. Trilogy is a place where you can be surrounded with great people, be proud of doing great work, and grow your career by leaps and bounds."
+                          uid=58_266 InlineTextBox "Hundreds of software businesses run on the Trilogy Business Platform. For "
+                          uid=58_266 InlineTextBox "three decades, Trilogy has been known for 3 things: Relentlessly seeking top "
+                          uid=58_266 InlineTextBox "talent, Innovating new technology, and incubating new businesses. Our "
+                          uid=58_266 InlineTextBox "technological innovation is spearheaded by a passion for simple customer-"
+                          uid=58_266 InlineTextBox "facing designs. Our incubation of new businesses ranges from entirely new "
+                          uid=58_266 InlineTextBox "moon-shot ideas to rearchitecting existing projects for today's modern cloud-"
+                          uid=58_266 InlineTextBox "based stack. Trilogy is a place where you can be surrounded with great people, "
+                          uid=58_266 InlineTextBox "be proud of doing great work, and grow your career by leaps and bounds."
+                        uid=59_108 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_109 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_110 StaticText "There is so much to cover for this exciting role, and space here is limited. Hit the Apply button if you found this interesting and want to learn more. We look forward to meeting you!"
+                          uid=58_266 InlineTextBox "There is so much to cover for this exciting role, and space here is limited. Hit "
+                          uid=58_266 InlineTextBox "the Apply button if you found this interesting and want to learn more. We look "
+                          uid=58_266 InlineTextBox "forward to meeting you!"
+                        uid=59_111 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_112 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_113 strong
+                          uid=59_114 StaticText "Working with us"
+                            uid=58_266 InlineTextBox "Working with us"
+                          uid=59_115 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                          uid=59_116 LineBreak "
+"
+                            uid=58_266 InlineTextBox "
+"
+                        uid=59_117 StaticText "This is a full-time (40 hours per week), long-term position. The position is immediately available and requires entering into an independent contractor agreement with Crossover as a Contractor of Record. The compensation level for this role is $30 USD/hour, which equates to $60,000 USD/year assuming 40 hours per week and 50 weeks per year. The payment period is weekly. Consult www.crossover.com/help-and-faqs for more details on this topic."
+                          uid=58_266 InlineTextBox "This is a full-time (40 hours per week), long-term position. The position is "
+                          uid=58_266 InlineTextBox "immediately available and requires entering into an independent contractor "
+                          uid=58_266 InlineTextBox "agreement with Crossover as a Contractor of Record. The compensation level "
+                          uid=58_266 InlineTextBox "for this role is $30 USD/hour, which equates to $60,000 USD/year assuming 40 "
+                          uid=58_266 InlineTextBox "hours per week and 50 weeks per year. The payment period is weekly. Consult "
+                          uid=58_266 InlineTextBox "www.crossover.com/help-and-faqs for more details on this topic."
+                        uid=59_118 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_119 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_120 StaticText "Crossover Job Code: LJ-3889-AR-BuenosAi-VibeCoder/Soft.003"
+                          uid=58_266 InlineTextBox "Crossover Job Code: LJ-3889-AR-BuenosAi-VibeCoder/Soft.003"
+                        uid=59_121 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                        uid=59_122 LineBreak "
+"
+                          uid=58_266 InlineTextBox "
+"
+                      uid=58_106 button "Show more" expandable
+                        uid=58_107 StaticText "Show more "
+                          uid=58_266 InlineTextBox "Show more "
+                  uid=59_123 list
+                    uid=59_124 listitem level="1"
+                      uid=59_125 heading "Nivel de antigüedad" level="3"
+                        uid=59_126 StaticText "Nivel de antigüedad"
+                          uid=58_266 InlineTextBox "Nivel de antigüedad"
+                      uid=59_127 StaticText "Algo de responsabilidad"
+                        uid=58_266 InlineTextBox "Algo de responsabilidad"
+                    uid=59_128 listitem level="1"
+                      uid=59_129 heading "Tipo de empleo" level="3"
+                        uid=59_130 StaticText "Tipo de empleo"
+                          uid=58_266 InlineTextBox "Tipo de empleo"
+                      uid=59_131 StaticText "Jornada completa"
+                        uid=58_266 InlineTextBox "Jornada completa"
+                    uid=59_132 listitem level="1"
+                      uid=59_133 heading "Función laboral" level="3"
+                        uid=59_134 StaticText "Función laboral"
+                          uid=58_266 InlineTextBox "Función laboral"
+                      uid=59_135 StaticText "Desarrollo empresarial, Ingeniería y Tecnología de la información"
+                        uid=58_266 InlineTextBox "Desarrollo empresarial, Ingeniería "
+                        uid=58_266 InlineTextBox "y Tecnología de la información"
+                    uid=59_136 listitem level="1"
+                      uid=59_137 heading "Sectores" level="3"
+                        uid=59_138 StaticText "Sectores"
+                          uid=58_266 InlineTextBox "Sectores"
+                      uid=59_139 StaticText "Desarrollo de software, Servicios y consultoría de TI y Tecnología, información e internet"
+                        uid=58_266 InlineTextBox "Desarrollo de software, Servicios y "
+                        uid=58_266 InlineTextBox "consultoría de TI y Tecnología, "
+                        uid=58_266 InlineTextBox "información e internet"
+              uid=59_140 generic
+                uid=59_141 ignored
+                  uid=59_142 ignored
+                    uid=59_143 generic
+                      uid=59_144 StaticText " "
+                        uid=58_266 InlineTextBox " "
+                      uid=59_145 StaticText " "
+                        uid=58_266 InlineTextBox " "
+                    uid=59_146 ignored
+                      uid=59_147 paragraph
+                        uid=59_148 StaticText "Las recomendaciones duplican tus probabilidades de conseguir una entrevista con Trilogy"
+                          uid=58_266 InlineTextBox "Las recomendaciones duplican tus probabilidades de conseguir "
+                          uid=58_266 InlineTextBox "una entrevista con Trilogy"
+                      uid=58_109 link "Mira a quién conoces" url="https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D3607&emailAddress=&fromSignIn=&trk=public_jobs_find-a-referral-cta"
+                        uid=58_110 StaticText "Mira a quién conoces"
+                          uid=58_266 InlineTextBox "Mira a quién conoces"
+            uid=59_149 generic
+              uid=59_150 ignored
+              uid=59_151 ignored
+                uid=59_152 paragraph
+                  uid=59_153 StaticText "Recibe notificaciones sobre nuevos empleos de "
+                    uid=58_266 InlineTextBox "Recibe notificaciones sobre nuevos empleos de "
+                  uid=59_154 StaticText "Programador"
+                    uid=58_266 InlineTextBox "Programador"
+                  uid=59_155 StaticText " en "
+                    uid=58_266 InlineTextBox " en "
+                  uid=59_156 strong
+                    uid=59_157 StaticText "Buenos Aires y alrededores"
+                      uid=58_266 InlineTextBox "Buenos "
+                      uid=58_266 InlineTextBox "Aires y alrededores"
+                  uid=59_158 StaticText "."
+                    uid=58_266 InlineTextBox "."
+                uid=58_111 link "Inicia sesión para crear una alerta de empleo" url="https://www.linkedin.com/login?emailAddress=&fromSignIn=&session_redirect=https%3A%2F%2Far.linkedin.com%2Fjobs%2Fview%2Fvibe-coder-software-engineer-trilogy-remote-%252460-000-year-usd-at-trilogy-4255590650&trk=public_jobs_job-alert-guest-redirect-cta"
+                  uid=58_112 StaticText "Inicia sesión para crear una alerta de empleo"
+                    uid=58_266 InlineTextBox "Inicia sesión para crear una alerta de empleo"
+            uid=59_159 generic
+              uid=59_160 heading "Empleos similares" level="2"
+                uid=59_161 StaticText "Empleos similares"
+                  uid=58_266 InlineTextBox "Empleos similares"
+              uid=59_162 ignored
+                uid=59_163 ignored
+                  uid=59_164 list
+                    uid=59_165 listitem level="1"
+                      uid=59_166 generic
+                        uid=58_113 link "Software Engineer II (Argentina)" url="https://ar.linkedin.com/jobs/view/software-engineer-ii-argentina-at-sezzle-4336815907?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=G8VAASnid2LnNMCWLoMhhA%3D%3D"
+                          uid=58_114 ignored
+                            uid=58_115 StaticText "Software Engineer II (Argentina)"
+                              uid=58_266 InlineTextBox "Software Engineer II (Argentina)"
+                        uid=59_167 ignored
+                        uid=59_168 generic
+                          uid=59_169 heading "Software Engineer II (Argentina)" level="3"
+                            uid=59_170 StaticText "Software Engineer II (Argentina)"
+                              uid=58_266 InlineTextBox "Software Engineer II (Argentina)"
+                          uid=59_171 heading "Sezzle" level="4"
+                            uid=58_116 link "Sezzle" url="https://www.linkedin.com/company/sezzle?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=58_117 StaticText "Sezzle"
+                                uid=58_266 InlineTextBox "Sezzle"
+                          uid=59_172 ignored
+                            uid=59_173 ignored
+                              uid=59_174 StaticText "Argentina"
+                                uid=58_266 InlineTextBox "Argentina"
+                            uid=59_175 time
+                              uid=59_176 StaticText "Hace 2 semanas"
+                                uid=58_266 InlineTextBox "Hace 2 semanas"
+                    uid=59_177 listitem level="1"
+                      uid=59_178 generic
+                        uid=58_118 link "Software Engineer, AI" url="https://ar.linkedin.com/jobs/view/software-engineer-ai-at-backblaze-4408107610?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=kZB8%2FKhB%2F0%2Bt2Pm7ilCphQ%3D%3D"
+                          uid=58_119 ignored
+                            uid=58_120 StaticText "Software Engineer, AI"
+                              uid=58_266 InlineTextBox "Software Engineer, AI"
+                        uid=59_179 ignored
+                        uid=59_180 generic
+                          uid=59_181 heading "Software Engineer, AI" level="3"
+                            uid=59_182 StaticText "Software Engineer, AI"
+                              uid=58_266 InlineTextBox "Software Engineer, AI"
+                          uid=59_183 heading "Backblaze" level="4"
+                            uid=58_121 link "Backblaze" url="https://www.linkedin.com/company/backblaze?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=58_122 StaticText "Backblaze"
+                                uid=58_266 InlineTextBox "Backblaze"
+                          uid=59_184 ignored
+                            uid=59_185 ignored
+                              uid=59_186 StaticText "Argentina"
+                                uid=58_266 InlineTextBox "Argentina"
+                            uid=59_187 time
+                              uid=59_188 StaticText "Hace 2 meses"
+                                uid=58_266 InlineTextBox "Hace 2 meses"
+                    uid=59_189 listitem level="1"
+                      uid=59_190 generic
+                        uid=58_123 link "Software Engineer (AI developer)" url="https://ar.linkedin.com/jobs/view/software-engineer-ai-developer-at-backblaze-4433550955?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=jGMZvkaER66ZD820gRtTNQ%3D%3D"
+                          uid=58_124 ignored
+                            uid=58_125 StaticText "Software Engineer (AI developer)"
+                              uid=58_266 InlineTextBox "Software Engineer (AI developer)"
+                        uid=59_191 ignored
+                        uid=59_192 generic
+                          uid=59_193 heading "Software Engineer (AI developer)" level="3"
+                            uid=59_194 StaticText "Software Engineer (AI developer)"
+                              uid=58_266 InlineTextBox "Software Engineer (AI developer)"
+                          uid=59_195 heading "Backblaze" level="4"
+                            uid=58_126 link "Backblaze" url="https://www.linkedin.com/company/backblaze?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=58_127 StaticText "Backblaze"
+                                uid=58_266 InlineTextBox "Backblaze"
+                          uid=59_196 ignored
+                            uid=59_197 ignored
+                              uid=59_198 StaticText "Argentina"
+                                uid=58_266 InlineTextBox "Argentina"
+                            uid=59_199 time
+                              uid=59_200 StaticText "Hace 2 semanas"
+                                uid=58_266 InlineTextBox "Hace 2 semanas"
+                    uid=59_201 listitem level="1"
+                      uid=59_202 generic
+                        uid=58_128 link "Bare Developer (100% Remote - Worldwide) - C / JavaScript" url="https://ar.linkedin.com/jobs/view/bare-developer-100%25-remote-worldwide-c-javascript-at-tether-io-4427017221?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=iLTRuekdwTX0APsQ9ouvcg%3D%3D"
+                          uid=58_129 ignored
+                            uid=58_130 StaticText "Bare Developer (100% Remote - Worldwide) - C / JavaScript"
+                              uid=58_266 InlineTextBox "Bare Developer (100% Remote - Worldwide) - C / JavaScript"
+                        uid=59_203 ignored
+                        uid=59_204 generic
+                          uid=59_205 heading "Bare Developer (100% Remote - Worldwide) - C / JavaScript" level="3"
+                            uid=59_206 StaticText "Bare Developer (100% Remote - Worldwide) - C / JavaScript"
+                              uid=58_266 InlineTextBox "Bare Developer (100% Remote - Worldwide) - C / JavaScript"
+                          uid=59_207 heading "Tether.io" level="4"
+                            uid=58_131 link "Tether.io" url="https://www.linkedin.com/company/tether?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=58_132 StaticText "Tether.io"
+                                uid=58_266 InlineTextBox "Tether.io"
+                          uid=59_208 ignored
+                            uid=59_209 ignored
+                              uid=59_210 StaticText "Argentina"
+                                uid=58_266 InlineTextBox "Argentina"
+                            uid=59_211 time
+                              uid=59_212 StaticText "Hace 1 mes"
+                                uid=58_266 InlineTextBox "Hace 1 mes"
+                    uid=59_213 listitem level="1"
+                      uid=59_214 generic
+                        uid=58_133 link "AI Engineer" url="https://ar.linkedin.com/jobs/view/ai-engineer-at-avantstay-4396396244?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=YYdOeh1teHL51kGYKEd1rw%3D%3D"
+                          uid=58_134 ignored
+                            uid=58_135 StaticText "AI Engineer"
+                              uid=58_266 InlineTextBox "AI Engineer"
+                        uid=59_215 ignored
+                        uid=59_216 generic
+                          uid=59_217 heading "AI Engineer" level="3"
+                            uid=59_218 StaticText "AI Engineer"
+                              uid=58_266 InlineTextBox "AI Engineer"
+                          uid=59_219 heading "AvantStay" level="4"
+                            uid=58_136 link "AvantStay" url="https://www.linkedin.com/company/avantstay?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=58_137 StaticText "AvantStay"
+                                uid=58_266 InlineTextBox "AvantStay"
+                          uid=59_220 ignored
+                            uid=59_221 ignored
+                              uid=59_222 StaticText "Argentina"
+                                uid=58_266 InlineTextBox "Argentina"
+                            uid=59_223 ignored
+                              uid=59_224 StaticText "90.000,00 US$ - 140.000,00 US$"
+                                uid=58_266 InlineTextBox "90.000,00 US$ - 140.000,00 US$"
+                            uid=59_225 time
+                              uid=59_226 StaticText "Hace 3 meses"
+                                uid=58_266 InlineTextBox "Hace 3 meses"
+                    uid=59_227 listitem level="1"
+                      uid=59_228 generic
+                        uid=58_138 link "Software Engineer II (Marketing & Mobile)" url="https://ar.linkedin.com/jobs/view/software-engineer-ii-marketing-mobile-at-sezzle-4404517983?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=1rbJy%2FYK3j4XEJbT3LmsTA%3D%3D"
+                          uid=58_139 ignored
+                            uid=58_140 StaticText "Software Engineer II (Marketing & Mobile)"
+                              uid=58_266 InlineTextBox "Software Engineer II (Marketing & Mobile)"
+                        uid=59_229 ignored
+                        uid=59_230 generic
+                          uid=59_231 heading "Software Engineer II (Marketing & Mobile)" level="3"
+                            uid=59_232 StaticText "Software Engineer II (Marketing & Mobile)"
+                              uid=58_266 InlineTextBox "Software Engineer II (Marketing & Mobile)"
+                          uid=59_233 heading "Sezzle" level="4"
+                            uid=58_141 link "Sezzle" url="https://www.linkedin.com/company/sezzle?trk=public_jobs_similar-jobs_main-jobs-card-subtitle"
+                              uid=58_142 StaticText "Sezzle"
+                                uid=58_266 InlineTextBox "Sezzle"
+                          uid=59_234 ignored
+                            uid=59_235 ignored
+                              uid=59_236 StaticText "Argentina"
+                                uid=58_266 InlineTextBox "Argentina"
+                            uid=59_237 time
+                              uid=59_238 StaticText "Hace 2 semanas"
+                                uid=58_266 InlineTextBox "Hace 2 semanas"
+                  uid=58_143 button "Ver más empleos como este " expandable
+                    uid=58_144 StaticText "Ver más empleos como este "
+                      uid=58_266 InlineTextBox "Ver más empleos como este "
+        uid=59_239 generic
+          uid=59_240 generic
+            uid=59_241 heading "Otros perfiles vistos" level="2"
+              uid=59_242 StaticText "Otros perfiles vistos"
+                uid=58_266 InlineTextBox "Otros perfiles vistos"
+            uid=59_243 ignored
+              uid=59_244 list
+                uid=59_245 listitem level="1"
+                  uid=59_246 generic
+                    uid=58_146 link "Software Engineer, GTM AI - Python" url="https://ar.linkedin.com/jobs/view/software-engineer-gtm-ai-python-at-telnyx-4424774653?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=v6TJllWOODsuwmNMYfc%2Fmw%3D%3D"
+                      uid=58_147 ignored
+                        uid=58_148 StaticText "Software Engineer, GTM AI - Python"
+                          uid=58_266 InlineTextBox "Software Engineer, GTM AI - Python"
+                    uid=59_247 ignored
+                      uid=59_248 heading "Software Engineer, GTM AI - Python" level="3"
+                        uid=59_249 StaticText "Software Engineer, GTM AI - Python"
+                          uid=58_266 InlineTextBox "Software Engineer, GTM AI - Python"
+                      uid=59_250 paragraph
+                        uid=58_149 link "Telnyx" url="https://www.linkedin.com/company/telnyx?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=58_150 StaticText "Telnyx"
+                            uid=58_266 InlineTextBox "Telnyx"
+                      uid=59_251 ignored
+                        uid=59_252 ignored
+                          uid=59_253 StaticText "Argentina"
+                            uid=58_266 InlineTextBox "Argentina"
+                        uid=59_254 time
+                          uid=59_255 StaticText "Hace 1 semana"
+                            uid=58_266 InlineTextBox "Hace 1 semana"
+                uid=59_256 listitem level="1"
+                  uid=59_257 generic
+                    uid=58_151 link "Implementations Engineer" url="https://ar.linkedin.com/jobs/view/implementations-engineer-at-altscore-4405261769?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=kLOdsi0qnLY6%2BysiVhf3Rw%3D%3D"
+                      uid=58_152 ignored
+                        uid=58_153 StaticText "Implementations Engineer"
+                          uid=58_266 InlineTextBox "Implementations Engineer"
+                    uid=59_258 ignored
+                      uid=59_259 heading "Implementations Engineer" level="3"
+                        uid=59_260 StaticText "Implementations Engineer"
+                          uid=58_266 InlineTextBox "Implementations Engineer"
+                      uid=59_261 paragraph
+                        uid=58_154 link "AltScore" url="https://mx.linkedin.com/company/altscore?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=58_155 StaticText "AltScore"
+                            uid=58_266 InlineTextBox "AltScore"
+                      uid=59_262 ignored
+                        uid=59_263 ignored
+                          uid=59_264 StaticText "Argentina"
+                            uid=58_266 InlineTextBox "Argentina"
+                        uid=59_265 time
+                          uid=59_266 StaticText "Hace 3 meses"
+                            uid=58_266 InlineTextBox "Hace 3 meses"
+                uid=59_267 listitem level="1"
+                  uid=59_268 generic
+                    uid=58_156 link "Software Engineer (DevOps) - Site Reliability" url="https://ar.linkedin.com/jobs/view/software-engineer-devops-site-reliability-at-revolut-4430007551?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=x8E9%2BmyIgPIC2gRfwwpszQ%3D%3D"
+                      uid=58_157 ignored
+                        uid=58_158 StaticText "Software Engineer (DevOps) - Site Reliability"
+                          uid=58_266 InlineTextBox "Software Engineer (DevOps) - Site Reliability"
+                    uid=59_269 ignored
+                      uid=59_270 heading "Software Engineer (DevOps) - Site Reliability" level="3"
+                        uid=59_271 StaticText "Software Engineer (DevOps) - Site Reliability"
+                          uid=58_266 InlineTextBox "Software Engineer (DevOps) - Site "
+                          uid=58_266 InlineTextBox "Reliability"
+                      uid=59_272 paragraph
+                        uid=58_159 link "Revolut" url="https://uk.linkedin.com/company/revolut?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=58_160 StaticText "Revolut"
+                            uid=58_266 InlineTextBox "Revolut"
+                      uid=59_273 ignored
+                        uid=59_274 ignored
+                          uid=59_275 StaticText "Argentina"
+                            uid=58_266 InlineTextBox "Argentina"
+                        uid=59_276 time
+                          uid=59_277 StaticText "Hace 3 semanas"
+                            uid=58_266 InlineTextBox "Hace 3 semanas"
+                uid=59_278 listitem level="1"
+                  uid=59_279 generic
+                    uid=58_161 link "Python Developer (AI)" url="https://ar.linkedin.com/jobs/view/python-developer-ai-at-epam-systems-4428949992?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=m6vkb1GZKI1zLT1T1ekdXQ%3D%3D"
+                      uid=58_162 ignored
+                        uid=58_163 StaticText "Python Developer (AI)"
+                          uid=58_266 InlineTextBox "Python Developer (AI)"
+                    uid=59_280 ignored
+                      uid=59_281 heading "Python Developer (AI)" level="3"
+                        uid=59_282 StaticText "Python Developer (AI)"
+                          uid=58_266 InlineTextBox "Python Developer (AI)"
+                      uid=59_283 paragraph
+                        uid=58_164 link "EPAM Systems" url="https://www.linkedin.com/company/epam-systems?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=58_165 StaticText "EPAM Systems"
+                            uid=58_266 InlineTextBox "EPAM Systems"
+                      uid=59_284 ignored
+                        uid=59_285 ignored
+                          uid=59_286 StaticText "Argentina"
+                            uid=58_266 InlineTextBox "Argentina"
+                        uid=59_287 time
+                          uid=59_288 StaticText "Hace 2 semanas"
+                            uid=58_266 InlineTextBox "Hace 2 semanas"
+                uid=59_289 listitem level="1"
+                  uid=59_290 generic
+                    uid=58_166 link "Full Stack Developer (Python)" url="https://ar.linkedin.com/jobs/view/full-stack-developer-python-at-perform-4398414261?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=W%2FkD0dj%2B9vEC%2FlYKz0ffUg%3D%3D"
+                      uid=58_167 ignored
+                        uid=58_168 StaticText "Full Stack Developer (Python)"
+                          uid=58_266 InlineTextBox "Full Stack Developer (Python)"
+                    uid=59_291 ignored
+                      uid=59_292 heading "Full Stack Developer (Python)" level="3"
+                        uid=59_293 StaticText "Full Stack Developer (Python)"
+                          uid=58_266 InlineTextBox "Full Stack Developer (Python)"
+                      uid=59_294 paragraph
+                        uid=58_169 link "Perform" url="https://www.linkedin.com/company/total-performance-consulting?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=58_170 StaticText "Perform"
+                            uid=58_266 InlineTextBox "Perform"
+                      uid=59_295 ignored
+                        uid=59_296 ignored
+                          uid=59_297 StaticText "Argentina"
+                            uid=58_266 InlineTextBox "Argentina"
+                        uid=59_298 time
+                          uid=59_299 StaticText "Hace 6 días"
+                            uid=58_266 InlineTextBox "Hace 6 días"
+                uid=59_300 listitem level="1"
+                  uid=59_301 generic
+                    uid=58_171 link "Backend Engineer" url="https://ar.linkedin.com/jobs/view/backend-engineer-at-nango-4423398256?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=p%2B%2FA86%2BKR8BRUu0Q2jPcyQ%3D%3D"
+                      uid=58_172 ignored
+                        uid=58_173 StaticText "Backend Engineer"
+                          uid=58_266 InlineTextBox "Backend Engineer"
+                    uid=59_302 ignored
+                      uid=59_303 heading "Backend Engineer" level="3"
+                        uid=59_304 StaticText "Backend Engineer"
+                          uid=58_266 InlineTextBox "Backend Engineer"
+                      uid=59_305 paragraph
+                        uid=58_174 link "Nango" url="https://www.linkedin.com/company/nangohq?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=58_175 StaticText "Nango"
+                            uid=58_266 InlineTextBox "Nango"
+                      uid=59_306 ignored
+                        uid=59_307 ignored
+                          uid=59_308 StaticText "Argentina"
+                            uid=58_266 InlineTextBox "Argentina"
+                        uid=59_309 ignored
+                          uid=59_310 StaticText "120.000,00 US$ - 200.000,00 US$"
+                            uid=58_266 InlineTextBox "120.000,00 US$ - 200.000,00 US$"
+                        uid=59_311 time
+                          uid=59_312 StaticText "Hace 1 mes"
+                            uid=58_266 InlineTextBox "Hace 1 mes"
+                uid=59_313 listitem level="1"
+                  uid=59_314 generic
+                    uid=58_176 link "Pro Code Developer" url="https://ar.linkedin.com/jobs/view/pro-code-developer-at-e-solutions-4437880844?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=cnDtNrorA6VDgP4LrECZbA%3D%3D"
+                      uid=58_177 ignored
+                        uid=58_178 StaticText "Pro Code Developer"
+                          uid=58_266 InlineTextBox "Pro Code Developer"
+                    uid=59_315 ignored
+                      uid=59_316 heading "Pro Code Developer" level="3"
+                        uid=59_317 StaticText "Pro Code Developer"
+                          uid=58_266 InlineTextBox "Pro Code Developer"
+                      uid=59_318 paragraph
+                        uid=58_179 link "E-Solutions" url="https://www.linkedin.com/company/e-solutions-global?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=58_180 StaticText "E-Solutions"
+                            uid=58_266 InlineTextBox "E-Solutions"
+                      uid=59_319 ignored
+                        uid=59_320 ignored
+                          uid=59_321 StaticText "Argentina"
+                            uid=58_266 InlineTextBox "Argentina"
+                        uid=59_322 time
+                          uid=59_323 StaticText "Hace 3 días"
+                            uid=58_266 InlineTextBox "Hace 3 días"
+                uid=59_324 listitem level="1"
+                  uid=59_325 generic
+                    uid=58_181 link "Fullstack Software Engineer" url="https://ar.linkedin.com/jobs/view/fullstack-software-engineer-at-avature-4402040371?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=EeigUXKlklInJ0LpGHm9AQ%3D%3D"
+                      uid=58_182 ignored
+                        uid=58_183 StaticText "Fullstack Software Engineer"
+                          uid=58_266 InlineTextBox "Fullstack Software Engineer"
+                    uid=59_326 ignored
+                      uid=59_327 heading "Fullstack Software Engineer" level="3"
+                        uid=59_328 StaticText "Fullstack Software Engineer"
+                          uid=58_266 InlineTextBox "Fullstack Software Engineer"
+                      uid=59_329 paragraph
+                        uid=58_184 link "Avature" url="https://www.linkedin.com/company/avature?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=58_185 StaticText "Avature"
+                            uid=58_266 InlineTextBox "Avature"
+                      uid=59_330 ignored
+                        uid=59_331 ignored
+                          uid=59_332 StaticText "Argentina"
+                            uid=58_266 InlineTextBox "Argentina"
+                        uid=59_333 time
+                          uid=59_334 StaticText "Hace 1 mes"
+                            uid=58_266 InlineTextBox "Hace 1 mes"
+                uid=59_335 listitem level="1"
+                  uid=59_336 generic
+                    uid=58_186 link "FULL STACK ENGINEER" url="https://ar.linkedin.com/jobs/view/full-stack-engineer-at-svitla-systems-inc-4387812414?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=V89TGeuudbxt3A%2BbKy5k3A%3D%3D"
+                      uid=58_187 ignored
+                        uid=58_188 StaticText "FULL STACK ENGINEER"
+                          uid=58_266 InlineTextBox "FULL STACK ENGINEER"
+                    uid=59_337 ignored
+                      uid=59_338 heading "FULL STACK ENGINEER" level="3"
+                        uid=59_339 StaticText "FULL STACK ENGINEER"
+                          uid=58_266 InlineTextBox "FULL STACK ENGINEER"
+                      uid=59_340 paragraph
+                        uid=58_189 link "Svitla Systems, Inc." url="https://www.linkedin.com/company/svitla-systems-inc-?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=58_190 StaticText "Svitla Systems, Inc."
+                            uid=58_266 InlineTextBox "Svitla Systems, Inc."
+                      uid=59_341 ignored
+                        uid=59_342 ignored
+                          uid=59_343 StaticText "Argentina"
+                            uid=58_266 InlineTextBox "Argentina"
+                        uid=59_344 time
+                          uid=59_345 StaticText "Hace 3 meses"
+                            uid=58_266 InlineTextBox "Hace 3 meses"
+                uid=59_346 listitem level="1"
+                  uid=59_347 generic
+                    uid=58_191 link "Full Stack Developer" url="https://ar.linkedin.com/jobs/view/full-stack-developer-at-flatiron-software-4438626765?refId=eQNNRidMYX%2BYHk6XaYUkgA%3D%3D&trackingId=nEgTjWIjb1X9KqHsYyucFQ%3D%3D"
+                      uid=58_192 ignored
+                        uid=58_193 StaticText "Full Stack Developer"
+                          uid=58_266 InlineTextBox "Full Stack Developer"
+                    uid=59_348 ignored
+                      uid=59_349 heading "Full Stack Developer" level="3"
+                        uid=59_350 StaticText "Full Stack Developer"
+                          uid=58_266 InlineTextBox "Full Stack Developer"
+                      uid=59_351 paragraph
+                        uid=58_194 link "Flatiron Software" url="https://www.linkedin.com/company/flatironsoftware?trk=public_jobs_people-also-viewed_aside-job-card-subtitle"
+                          uid=58_195 StaticText "Flatiron Software"
+                            uid=58_266 InlineTextBox "Flatiron Software"
+                      uid=59_352 ignored
+                        uid=59_353 ignored
+                          uid=59_354 StaticText "Argentina"
+                            uid=58_266 InlineTextBox "Argentina"
+                        uid=59_355 time
+                          uid=59_356 StaticText "Hace 1 día"
+                            uid=58_266 InlineTextBox "Hace 1 día"
+          uid=59_357 generic
+            uid=59_358 ignored
+      uid=59_359 ignored
+      uid=59_360 contentinfo
+        uid=59_361 list
+          uid=59_362 ignored
+            uid=59_363 StaticText "LinkedIn"
+              uid=58_266 InlineTextBox "LinkedIn"
+          uid=59_364 ignored
+          uid=59_365 ignored
+            uid=59_366 StaticText "© 2026"
+              uid=58_266 InlineTextBox "© 2026"
+          uid=59_367 listitem level="1"
+            uid=58_196 link "Acerca de" url="https://about.linkedin.com/?trk=d_jobs_guest_details_footer-about"
+              uid=58_197 StaticText "Acerca de"
+                uid=58_266 InlineTextBox "Acerca de"
+          uid=59_368 listitem level="1"
+            uid=58_198 link "Accesibilidad" url="https://www.linkedin.com/accessibility?trk=d_jobs_guest_details_footer-accessibility"
+              uid=58_199 StaticText "Accesibilidad"
+                uid=58_266 InlineTextBox "Accesibilidad"
+          uid=59_369 listitem level="1"
+            uid=58_200 link "Condiciones de uso" url="https://www.linkedin.com/legal/user-agreement?trk=d_jobs_guest_details_footer-user-agreement"
+              uid=58_201 StaticText "Condiciones de uso"
+                uid=58_266 InlineTextBox "Condiciones de uso"
+          uid=59_370 listitem level="1"
+            uid=58_202 link "Política de privacidad" url="https://www.linkedin.com/legal/privacy-policy?trk=d_jobs_guest_details_footer-privacy-policy"
+              uid=58_203 StaticText "Política de privacidad"
+                uid=58_266 InlineTextBox "Política de privacidad"
+          uid=59_371 listitem level="1"
+            uid=58_204 link "Política de cookies" url="https://www.linkedin.com/legal/cookie-policy?trk=d_jobs_guest_details_footer-cookie-policy"
+              uid=58_205 StaticText "Política de cookies"
+                uid=58_266 InlineTextBox "Política de cookies"
+          uid=59_372 listitem level="1"
+            uid=58_206 link "Política de copyright" url="https://www.linkedin.com/legal/copyright-policy?trk=d_jobs_guest_details_footer-copyright-policy"
+              uid=58_207 StaticText "Política de copyright"
+                uid=58_266 InlineTextBox "Política de copyright"
+          uid=59_373 listitem level="1"
+            uid=58_208 link "Política de marca" url="https://brand.linkedin.com/policies?trk=d_jobs_guest_details_footer-brand-policy"
+              uid=58_209 StaticText "Política de marca"
+                uid=58_266 InlineTextBox "Política de marca"
+          uid=59_374 listitem level="1"
+            uid=58_210 link "Controles de invitados" url="https://www.linkedin.com/psettings/guest-controls?trk=d_jobs_guest_details_footer-guest-controls"
+              uid=58_211 StaticText "Controles de invitados"
+                uid=58_266 InlineTextBox "Controles de invitados"
+          uid=59_375 listitem level="1"
+            uid=58_212 link "Pautas comunitarias" url="https://www.linkedin.com/legal/professional-community-policies?trk=d_jobs_guest_details_footer-community-guide"
+              uid=58_213 StaticText "Pautas comunitarias"
+                uid=58_266 InlineTextBox "Pautas comunitarias"
+          uid=59_376 listitem level="1"
+            uid=59_377 generic
+              uid=58_214 ignored
+                uid=58_215 ignored
+                uid=58_216 ignored
+                uid=58_217 ignored
+                uid=58_218 ignored
+                uid=58_219 ignored
+                uid=58_220 ignored
+                uid=58_221 ignored
+                uid=58_222 ignored
+                uid=58_223 ignored
+                uid=58_224 ignored
+                uid=58_225 ignored
+                uid=58_226 ignored
+                uid=58_227 ignored
+                uid=58_228 ignored
+                uid=58_229 ignored
+                uid=58_230 ignored
+                uid=58_231 ignored
+                uid=58_232 ignored
+                uid=58_233 ignored
+                uid=58_234 ignored
+                uid=58_235 ignored
+                uid=58_236 ignored
+                uid=58_237 ignored
+                uid=58_238 ignored
+                uid=58_239 ignored
+                uid=58_240 ignored
+                uid=58_241 ignored
+                uid=58_242 ignored
+                uid=58_243 ignored
+                uid=58_244 ignored
+                uid=58_245 ignored
+                uid=58_246 ignored
+                uid=58_247 ignored
+                uid=58_248 ignored
+                uid=58_249 ignored
+                uid=58_250 ignored
+              uid=58_251 button "Idioma" expandable
+                uid=58_253 StaticText "Idioma"
+                  uid=58_266 InlineTextBox "Idioma"
+                uid=58_254 generic
+      uid=59_378 ignored
+        uid=59_379 form
+        uid=59_380 ignored
+          uid=59_381 ignored
+            uid=58_256 generic
+              uid=58_264 ignored
+                uid=58_265 ignored
+              uid=58_289 ignored
+                uid=58_290 ignored
+              uid=58_291 ignored
+              uid=58_292 ignored
+                uid=58_293 ignored
+              uid=58_294 ignored
+              uid=58_298 ignored
+      uid=59_382 generic
+      uid=58_255 ignored
