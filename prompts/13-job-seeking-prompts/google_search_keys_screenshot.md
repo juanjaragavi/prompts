@@ -2,22 +2,22 @@
 
 ## Visible Text Extraction
 
-* **Header:**
-    * `Google Search` (with Google "G" logo)
-* **Description / Instruction:**
-    * `Connect to Google Custom Search. Requires a Google API key and a Custom Search Engine (CSE) ID.`
-* **Section Heading:**
-    * `Tools`
-* **Input Field 1:**
-    * Label: `Google API Key`
-    * Placeholder text: `Enter your Google API key from Google Cloud Console`
-* **Helper Text and URL:**
-    * `Learn how to get your Google API key → https://developers.google.com/custom-search/v1/overview`
-* **Input Field 2:**
-    * Label: `Search Engine ID`
-    * Placeholder text: `Enter the Custom Search Engine ID associated with your API key`
-* **Button Text:**
-    * `Save Changes`
+- **Header:**
+  - `Google Search` (with Google "G" logo)
+- **Description / Instruction:**
+  - `Connect to Google Custom Search. Requires a Google API key and a Custom Search Engine (CSE) ID.`
+- **Section Heading:**
+  - `Tools`
+- **Input Field 1:**
+  - Label: `Google API Key`
+  - Placeholder text: `Enter your Google API key from Google Cloud Console`
+- **Helper Text and URL:**
+  - `Learn how to get your Google API key → https://developers.google.com/custom-search/v1/overview`
+- **Input Field 2:**
+  - Label: `Search Engine ID`
+  - Placeholder text: `Enter the Custom Search Engine ID associated with your API key`
+- **Button Text:**
+  - `Save Changes`
 
 ---
 

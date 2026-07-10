@@ -1,8 +1,8 @@
 import json
 
 def filter_non_matched():
-    with open('/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/extracted_bogota_jobs.md', 'r') as f:
-        text = f.read()
+with open('/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/extracted_bogota_jobs.md', 'r') as f:
+text = f.read()
 
     # Strip markdown code blocks if present
     if '```json' in text:
@@ -36,5 +36,5 @@ def filter_non_matched():
         print(f"- **Reason for Exclusion:** Does not match the permitted target job titles or is a generic/unrelated role.")
         print()
 
-if __name__ == '__main__':
-    filter_non_matched()
+if **name** == '**main**':
+filter_non_matched()

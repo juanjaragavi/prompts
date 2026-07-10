@@ -4,19 +4,20 @@ This report documents five (5) new, distinct job opportunities applied to on Lin
 
 ## Summary of Applied Opportunities
 
-| # | Company Name | Job Title | Job Posting URL | Application Status | Notes |
-|---|---|---|---|---|---|
-| 1 | Wisevu | Web Development Project Manager | [View Posting](https://www.linkedin.com/jobs/view/4435835712) | Submitted | Fully remote role in Argentina. Completed 8-lifecycle questions and developer language checklist. |
-| 2 | Walsh Employment | Web Project Manager | [View Posting](https://www.linkedin.com/jobs/view/4432394980) | Submitted | Fully remote role in Chile. Verified 8+ years experience and roadmap ownership. |
-| 3 | Pyramid Consulting, Inc | Technical Project Manager | [View Posting](https://www.linkedin.com/jobs/view/4427576354) | Submitted | Remote contract role in Colombia. Verified Bachelor's, Project Management (15 yrs), and PowerPoint (10 yrs) experience. |
-| 4 | Huzzle.com | Technical Project Manager (AI Systems) | [View Posting](https://www.linkedin.com/jobs/view/4398372126) | Submitted | Fully remote AI Operations role. Successfully submitted detailed questionnaire answers covering AI tools, automation, and salary expectations ($4,000 USD). |
-| 5 | Emapta Global | Technical Project Manager | [View Posting](https://www.linkedin.com/jobs/view/4437715661) | Submitted | Remote indefinitely-contracted healthcare tech role. Successfully submitted detailed questionnaire covering Agile, CRM/ERP systems, and salary expectations (15,000,000 COP). |
+| #   | Company Name            | Job Title                              | Job Posting URL                                               | Application Status | Notes                                                                                                                                                                         |
+| --- | ----------------------- | -------------------------------------- | ------------------------------------------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Wisevu                  | Web Development Project Manager        | [View Posting](https://www.linkedin.com/jobs/view/4435835712) | Submitted          | Fully remote role in Argentina. Completed 8-lifecycle questions and developer language checklist.                                                                             |
+| 2   | Walsh Employment        | Web Project Manager                    | [View Posting](https://www.linkedin.com/jobs/view/4432394980) | Submitted          | Fully remote role in Chile. Verified 8+ years experience and roadmap ownership.                                                                                               |
+| 3   | Pyramid Consulting, Inc | Technical Project Manager              | [View Posting](https://www.linkedin.com/jobs/view/4427576354) | Submitted          | Remote contract role in Colombia. Verified Bachelor's, Project Management (15 yrs), and PowerPoint (10 yrs) experience.                                                       |
+| 4   | Huzzle.com              | Technical Project Manager (AI Systems) | [View Posting](https://www.linkedin.com/jobs/view/4398372126) | Submitted          | Fully remote AI Operations role. Successfully submitted detailed questionnaire answers covering AI tools, automation, and salary expectations ($4,000 USD).                   |
+| 5   | Emapta Global           | Technical Project Manager              | [View Posting](https://www.linkedin.com/jobs/view/4437715661) | Submitted          | Remote indefinitely-contracted healthcare tech role. Successfully submitted detailed questionnaire covering Agile, CRM/ERP systems, and salary expectations (15,000,000 COP). |
 
 ---
 
 ## Detailed Submission Log
 
 ### 1. Web Development Project Manager (Argentina - Remote)
+
 - **Company:** Wisevu
 - **Job URL:** `https://www.linkedin.com/jobs/view/4435835712`
 - **Status:** Submitted via Easy Apply
@@ -28,6 +29,7 @@ This report documents five (5) new, distinct job opportunities applied to on Lin
   - Selected all 8 development lifecycle phases and 7 development languages.
 
 ### 2. Web Project Manager (Chile - Remote)
+
 - **Company:** Walsh Employment
 - **Job URL:** `https://www.linkedin.com/jobs/view/4432394980`
 - **Status:** Submitted via Easy Apply
@@ -37,6 +39,7 @@ This report documents five (5) new, distinct job opportunities applied to on Lin
   - Verified experience owning web program roadmaps.
 
 ### 3. Technical Project Manager (Colombia - Remote)
+
 - **Company:** Pyramid Consulting, Inc
 - **Job URL:** `https://www.linkedin.com/jobs/view/4427576354`
 - **Status:** Submitted via Easy Apply
@@ -47,6 +50,7 @@ This report documents five (5) new, distinct job opportunities applied to on Lin
   - Entered 15 years of Project Management experience.
 
 ### 4. Technical Project Manager (AI Systems) (Colombia - Remote)
+
 - **Company:** Huzzle.com
 - **Job URL:** `https://www.linkedin.com/jobs/view/4398372126`
 - **Status:** Submitted via Easy Apply
@@ -60,6 +64,7 @@ This report documents five (5) new, distinct job opportunities applied to on Lin
   - Salary expectation: $4,000 USD monthly (past salary: $3,800 USD).
 
 ### 5. Technical Project Manager (Colombia - Remote)
+
 - **Company:** Emapta Global
 - **Job URL:** `https://www.linkedin.com/jobs/view/4437715661`
 - **Status:** Submitted via Easy Apply

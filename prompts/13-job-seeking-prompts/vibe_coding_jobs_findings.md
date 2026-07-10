@@ -5,6 +5,7 @@ I have successfully discovered exactly 5 job opportunities related to "vibe codi
 Below are the details of the job postings:
 
 ## 1. Vibe Coder at Darwin AI
+
 - **Job Title:** Vibe Coder
 - **Company:** Darwin AI
 - **LinkedIn URL:** https://co.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449
@@ -17,6 +18,7 @@ Below are the details of the job postings:
   - Strong problem-solving skills: you're comfortable moving from vague problem spaces to concrete, usable products.
 
 ## 2. Vibe Coder (AI-Assisted Software Engineer / Full-Stack) at Dev.Pro
+
 - **Job Title:** Vibe Coder (AI-Assisted Software Engineer / Full-Stack) - OPS00069
 - **Company:** Dev.Pro
 - **LinkedIn URL:** https://ar.linkedin.com/jobs/view/vibe-coder-ai-assisted-software-engineer-full-stack-ops00069-at-dev-pro-4403797050
@@ -26,6 +28,7 @@ Below are the details of the job postings:
   - Strong focus on emerging development workflows, exploring how AI-native coding practices can accelerate product delivery, improve code quality, and enable smaller, highly efficient engineering teams.
 
 ## 3. Programador/a con enfoque Vibe Coding (IA) at Inteligencia Artificial
+
 - **Job Title:** Programador/a con enfoque Vibe Coding (IA)
 - **Company:** Inteligencia Artificial
 - **LinkedIn URL:** https://es.linkedin.com/jobs/view/programador-a-con-enfoque-vibe-coding-ia-at-inteligencia-artificial-4204687223
@@ -36,6 +39,7 @@ Below are the details of the job postings:
   - Se valorará el envío de ejemplos de proyectos realizados con enfoque vibe coding.
 
 ## 4. Vibe Coder / Software Engineer at Trilogy
+
 - **Job Title:** Vibe Coder / Software Engineer, Trilogy (Remote) - $60,000/year USD
 - **Company:** Trilogy
 - **LinkedIn URL:** https://ar.linkedin.com/jobs/view/vibe-coder-software-engineer-trilogy-remote-%2460-000-year-usd-at-trilogy-4255590650
@@ -45,6 +49,7 @@ Below are the details of the job postings:
   - Commitment to integrating GenAI tools throughout your development workflow to maximize efficiency and output quality.
 
 ## 5. Desarrollador AI-Native (Vibe Coder) at Vibeast
+
 - **Job Title:** Desarrollador AI-Native (Vibe Coder)
 - **Company:** Vibeast
 - **LinkedIn URL:** https://es.linkedin.com/jobs/view/desarrollador-ai-native-vibe-coder-at-vibeast-4401002722

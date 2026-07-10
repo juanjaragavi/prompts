@@ -5,6 +5,7 @@ trigger: always_on
 # Workspace Skill Catalog
 
 ## recruiter-outreach-response
+
 - Location: `.agent/skills/recruiter-outreach-response/SKILL.md`
 - Use this skill for: drafting, reviewing, and sending recruiter-facing
   LinkedIn InMail and WhatsApp replies on Juan Jaramillo's behalf.

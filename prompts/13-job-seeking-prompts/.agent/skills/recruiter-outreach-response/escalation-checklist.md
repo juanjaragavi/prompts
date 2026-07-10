@@ -6,6 +6,7 @@ before sending; if any item fails, do NOT send automatically -- flag
 the draft for Juan's manual review instead.
 
 ## Pre-Send Verification Checklist
+
 1. Fact-check: Does the reply contradict any fact in the
    source-of-truth files (resume, CV, cover letter, portfolio)?
 2. Scheduling: Does it commit Juan to a specific date/time without
@@ -21,6 +22,7 @@ the draft for Juan's manual review instead.
    first substantive reply in the thread (not repeated needlessly)?
 
 ## Do-Not-Send Conditions (Always Escalate to Juan)
+
 - Sender identity is unclear or looks like spam/phishing (generic
   greeting, suspicious links, too-good-to-be-true offer).
 - Recruiter asks for sensitive personal data (national ID numbers,
@@ -36,7 +38,9 @@ the draft for Juan's manual review instead.
   in Juan's CV/resume and asks Juan to confirm undocumented details.
 
 ## Escalation Action
+
 When any Do-Not-Send condition is met:
+
 1. Do not send the drafted reply.
 2. Present the draft to Juan with a short note explaining which
    condition was triggered.
