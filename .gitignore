@@ -1,3 +1,4 @@
 .DS_Store
 .llm_commit_message.txt
 documents/credenciales.txt
+json/dialogflow-connection.json
