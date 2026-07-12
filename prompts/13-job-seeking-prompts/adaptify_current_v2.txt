@@ -1,0 +1,710 @@
+uid=8_0 RootWebArea "AI/ML Computational Science Sr Analyst at Accenture | Vibehackers" url="https://vibehackers.io/jobs/aiml-computational-science-sr-analyst-accenture"
+  uid=11_0 ignored
+    uid=11_1 generic
+      uid=8_3 navigation
+        uid=11_2 ignored
+          uid=11_3 ignored
+            uid=11_4 ignored
+              uid=8_7 link "vibehackers" url="https://vibehackers.io/"
+                uid=11_5 ignored
+                  uid=8_9 StaticText "vibehackers"
+                    uid=11_6 InlineTextBox "vibehackers"
+              uid=11_7 ignored
+                uid=11_8 ignored
+                  uid=8_13 link "Gallery" url="https://vibehackers.io/"
+                    uid=8_14 StaticText "Gallery"
+                      uid=11_6 InlineTextBox "Gallery"
+                  uid=8_15 link "Ideas" url="https://vibehackers.io/ideas"
+                    uid=8_16 StaticText "Ideas"
+                      uid=11_6 InlineTextBox "Ideas"
+                  uid=8_17 link "Blog" url="https://vibehackers.io/blog"
+                    uid=8_18 StaticText "Blog"
+                      uid=11_6 InlineTextBox "Blog"
+                  uid=8_19 link "Jobs" url="https://vibehackers.io/vibe-coding-jobs"
+                    uid=8_20 StaticText "Jobs"
+                      uid=11_6 InlineTextBox "Jobs"
+                  uid=8_21 link "MCP Servers" url="https://vibehackers.io/mcp"
+                    uid=8_22 StaticText "MCP Servers"
+                      uid=11_6 InlineTextBox "MCP Servers"
+            uid=11_9 ignored
+              uid=11_10 ignored
+                uid=8_25 button "Current theme: system. Click to switch." description="Theme: system"
+                  uid=11_11 image
+                uid=8_27 link "Sign In" url="https://vibehackers.io/login"
+                  uid=8_28 StaticText "Sign In"
+                    uid=11_6 InlineTextBox "Sign In"
+      uid=8_29 main
+        uid=8_30 main
+          uid=11_12 ignored
+            uid=8_32 link "← Back to Jobs" url="https://vibehackers.io/jobs"
+              uid=8_33 StaticText "← Back to Jobs"
+                uid=11_6 InlineTextBox "← Back to Jobs"
+            uid=11_13 ignored
+              uid=11_14 ignored
+                uid=11_15 generic
+                  uid=8_37 image "Accenture logo" url="https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/e1bd47363c07b64a9578dbf71edbf4e4"
+              uid=11_16 ignored
+                uid=8_39 heading "AI/ML Computational Science Sr Analyst" level="1"
+                  uid=11_17 StaticText "AI/ML Computational Science Sr Analyst"
+                    uid=11_6 InlineTextBox "AI/ML Computational Science Sr "
+                    uid=11_6 InlineTextBox "Analyst"
+                uid=11_18 ignored
+                  uid=11_19 ignored
+                    uid=11_20 image
+                    uid=11_21 ignored
+                      uid=8_45 StaticText "Accenture"
+                        uid=11_6 InlineTextBox "Accenture"
+                  uid=11_22 ignored
+                    uid=11_23 ignored
+                      uid=8_48 StaticText "⭐"
+                        uid=11_6 InlineTextBox "⭐"
+                    uid=11_24 ignored
+                      uid=8_50 StaticText "3.9"
+                        uid=11_6 InlineTextBox "3.9"
+                    uid=11_25 ignored
+                      uid=8_52 StaticText "("
+                        uid=11_6 InlineTextBox "("
+                      uid=8_53 StaticText "28686"
+                        uid=11_6 InlineTextBox "28686"
+                      uid=8_54 StaticText ")"
+                        uid=11_6 InlineTextBox ")"
+                  uid=11_26 ignored
+                    uid=11_27 ignored
+                      uid=8_57 StaticText "👥"
+                        uid=11_6 InlineTextBox "👥"
+                    uid=11_28 ignored
+                      uid=8_59 StaticText "10k+"
+                        uid=11_6 InlineTextBox "10k+"
+                  uid=8_60 link "Software Engineering" url="https://vibehackers.io/jobs/category/software-engineering"
+                    uid=8_61 StaticText "Software Engineering"
+                      uid=11_6 InlineTextBox "Software Engineering"
+                uid=11_29 ignored
+                  uid=11_30 ignored
+                    uid=11_31 image
+                    uid=11_32 ignored
+                      uid=8_66 StaticText "Bengaluru, Karnataka"
+                        uid=11_6 InlineTextBox "Bengaluru, Karnataka"
+                  uid=11_33 ignored
+                    uid=11_34 image
+                    uid=11_35 ignored
+                      uid=8_70 StaticText "1 days ago"
+                        uid=11_6 InlineTextBox "1 days ago"
+                  uid=11_36 ignored
+                    uid=8_72 StaticText "💻 Open Source"
+                      uid=11_6 InlineTextBox "💻 Open Source"
+                  uid=11_37 ignored
+                    uid=8_74 StaticText "🔥 Hot"
+                      uid=11_6 InlineTextBox "🔥 Hot"
+              uid=11_38 ignored
+                uid=8_76 link "Apply →" focusable focused url="https://vibehackers.io/jobs/aiml-computational-science-sr-analyst-accenture/apply"
+                  uid=8_77 StaticText "Apply →"
+                    uid=11_6 InlineTextBox "Apply →"
+                uid=8_78 button "Bookmark"
+                  uid=11_39 image
+                  uid=11_40 ignored
+                    uid=11_41 StaticText "Bookmark"
+                      uid=11_6 InlineTextBox "Bookmark"
+          uid=11_42 generic
+            uid=11_43 paragraph
+              uid=8_84 StaticText "Mentions vibe-coding and AI-assisted tools (GitHub Copilot, Kiro) and expects familiarity with LLMs, LangChain and prompt engineering."
+                uid=11_6 InlineTextBox "Mentions vibe-coding and AI-assisted tools (GitHub Copilot, Kiro) and expects familiarity with LLMs, "
+                uid=11_6 InlineTextBox "LangChain and prompt engineering."
+          uid=11_44 ignored
+            uid=11_45 ignored
+              uid=11_46 generic
+                uid=8_88 heading "About the Role" level="2"
+                  uid=11_47 StaticText "About the Role"
+                    uid=11_6 InlineTextBox "About the Role"
+                uid=11_48 paragraph
+                  uid=8_91 StaticText "Senior Analyst role focused on Python-based development and AI/ML integration, responsible for designing, building, testing, and deploying scalable backend services and APIs. The role also involves working with generative AI tools (LLMs, LangChain, OpenAI, Hugging Face), cloud platforms, and contributing as a domain SME in solution design and delivery."
+                    uid=11_6 InlineTextBox "Senior Analyst role focused on Python-based development and AI/ML integration, "
+                    uid=11_6 InlineTextBox "responsible for designing, building, testing, and deploying scalable backend services "
+                    uid=11_6 InlineTextBox "and APIs. The role also involves working with generative AI tools (LLMs, LangChain, "
+                    uid=11_6 InlineTextBox "OpenAI, Hugging Face), cloud platforms, and contributing as a domain SME in "
+                    uid=11_6 InlineTextBox "solution design and delivery."
+              uid=11_49 generic
+                uid=8_93 heading "Job Description" level="2"
+                  uid=11_50 StaticText "Job Description"
+                    uid=11_6 InlineTextBox "Job Description"
+                uid=11_51 ignored
+                  uid=8_96 heading "Role" level="2"
+                    uid=11_52 StaticText "Role"
+                      uid=11_6 InlineTextBox "Role"
+                  uid=11_53 paragraph
+                    uid=8_99 StaticText "AI/ML Computational Science Senior Analyst (Python Developer) responsible for designing, developing, testing, and deploying scalable Python applications and services, building RESTful APIs and microservices, and integrating AI/ML components. The position expects independent contribution, participation in architecture and design discussions, and becoming a subject-matter expert in the assigned domain."
+                      uid=11_6 InlineTextBox "AI/ML Computational Science Senior Analyst (Python Developer) responsible for "
+                      uid=11_6 InlineTextBox "designing, developing, testing, and deploying scalable Python applications and "
+                      uid=11_6 InlineTextBox "services, building RESTful APIs and microservices, and integrating AI/ML "
+                      uid=11_6 InlineTextBox "components. The position expects independent contribution, participation in "
+                      uid=11_6 InlineTextBox "architecture and design discussions, and becoming a subject-matter expert in the "
+                      uid=11_6 InlineTextBox "assigned domain."
+                  uid=8_100 heading "Key Responsibilities" level="2"
+                    uid=11_54 StaticText "Key Responsibilities"
+                      uid=11_6 InlineTextBox "Key Responsibilities"
+                  uid=11_55 list
+                    uid=11_56 listitem level="1"
+                      uid=11_57 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_105 StaticText "Design, develop, and maintain enterprise-grade applications using Python."
+                        uid=11_6 InlineTextBox "Design, develop, and maintain enterprise-grade applications using Python."
+                    uid=11_58 listitem level="1"
+                      uid=11_59 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_108 StaticText "Build scalable RESTful APIs and microservices; integrate third-party APIs."
+                        uid=11_6 InlineTextBox "Build scalable RESTful APIs and microservices; integrate third-party APIs."
+                    uid=11_60 listitem level="1"
+                      uid=11_61 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_111 StaticText "Develop and optimize backend services for performance and reliability."
+                        uid=11_6 InlineTextBox "Develop and optimize backend services for performance and reliability."
+                    uid=11_62 listitem level="1"
+                      uid=11_63 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_114 StaticText "Participate in solution design, code reviews, testing, and deployment activities."
+                        uid=11_6 InlineTextBox "Participate in solution design, code reviews, testing, and deployment activities."
+                    uid=11_64 listitem level="1"
+                      uid=11_65 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_117 StaticText "Troubleshoot application issues and provide timely resolutions."
+                        uid=11_6 InlineTextBox "Troubleshoot application issues and provide timely resolutions."
+                    uid=11_66 listitem level="1"
+                      uid=11_67 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_120 StaticText "Create and maintain technical documentation, workflows, and user guides."
+                        uid=11_6 InlineTextBox "Create and maintain technical documentation, workflows, and user guides."
+                    uid=11_68 listitem level="1"
+                      uid=11_69 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_123 StaticText "Follow software development best practices, coding standards, and security guidelines."
+                        uid=11_6 InlineTextBox "Follow software development best practices, coding standards, and security "
+                        uid=11_6 InlineTextBox "guidelines."
+                    uid=11_70 listitem level="1"
+                      uid=11_71 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_126 StaticText "Contribute to Agile delivery processes, continuous improvement, and delivery success."
+                        uid=11_6 InlineTextBox "Contribute to Agile delivery processes, continuous improvement, and delivery "
+                        uid=11_6 InlineTextBox "success."
+                    uid=11_72 listitem level="1"
+                      uid=11_73 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_129 StaticText "Mentor junior developers and support knowledge-sharing initiatives."
+                        uid=11_6 InlineTextBox "Mentor junior developers and support knowledge-sharing initiatives."
+                  uid=8_130 heading "Requirements" level="2"
+                    uid=11_74 StaticText "Requirements"
+                      uid=11_6 InlineTextBox "Requirements"
+                  uid=11_75 list
+                    uid=11_76 listitem level="1"
+                      uid=11_77 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_135 StaticText "Education: Bachelor’s degree (Computer Science, Engineering, IT, or related discipline) or equivalent."
+                        uid=11_6 InlineTextBox "Education: Bachelor’s degree (Computer Science, Engineering, IT, or related "
+                        uid=11_6 InlineTextBox "discipline) or equivalent."
+                    uid=11_78 listitem level="1"
+                      uid=11_79 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_138 StaticText "Experience: Posting contains conflicting experience requirements (listed as 3 years in some places and 5+ years of Python development experience in the core Python section)."
+                        uid=11_6 InlineTextBox "Experience: Posting contains conflicting experience requirements (listed as 3 "
+                        uid=11_6 InlineTextBox "years in some places and 5+ years of Python development experience in the core "
+                        uid=11_6 InlineTextBox "Python section)."
+                    uid=11_80 listitem level="1"
+                      uid=11_81 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_141 StaticText "Strong proficiency in Python and Object-Oriented Programming; familiarity with design patterns and software engineering principles."
+                        uid=11_6 InlineTextBox "Strong proficiency in Python and Object-Oriented Programming; familiarity with "
+                        uid=11_6 InlineTextBox "design patterns and software engineering principles."
+                    uid=11_82 listitem level="1"
+                      uid=11_83 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_144 StaticText "Experience with Python frameworks such as Django, FastAPI, or Flask."
+                        uid=11_6 InlineTextBox "Experience with Python frameworks such as Django, FastAPI, or Flask."
+                    uid=11_84 listitem level="1"
+                      uid=11_85 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_147 StaticText "RESTful API development and microservices architecture experience."
+                        uid=11_6 InlineTextBox "RESTful API development and microservices architecture experience."
+                    uid=11_86 listitem level="1"
+                      uid=11_87 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_150 StaticText "Database experience: SQL (PostgreSQL, MySQL, SQL Server) and NoSQL (MongoDB, DynamoDB); database design and optimization."
+                        uid=11_6 InlineTextBox "Database experience: SQL (PostgreSQL, MySQL, SQL Server) and NoSQL "
+                        uid=11_6 InlineTextBox "(MongoDB, DynamoDB); database design and optimization."
+                    uid=11_88 listitem level="1"
+                      uid=11_89 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_153 StaticText "Version control (Git) and DevOps practices including CI/CD pipelines, Docker; Kubernetes preferred."
+                        uid=11_6 InlineTextBox "Version control (Git) and DevOps practices including CI/CD pipelines, Docker; "
+                        uid=11_6 InlineTextBox "Kubernetes preferred."
+                    uid=11_90 listitem level="1"
+                      uid=11_91 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_156 StaticText "Cloud platform experience (Azure, AWS, GCP)."
+                        uid=11_6 InlineTextBox "Cloud platform experience (Azure, AWS, GCP)."
+                    uid=11_92 listitem level="1"
+                      uid=11_93 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_159 StaticText "Testing and quality practices: unit and integration testing, debugging, and performance optimization."
+                        uid=11_6 InlineTextBox "Testing and quality practices: unit and integration testing, debugging, and "
+                        uid=11_6 InlineTextBox "performance optimization."
+                    uid=11_94 listitem level="1"
+                      uid=11_95 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_162 StaticText "Strong analytical, communication, stakeholder management, and collaboration skills; ability to work independently."
+                        uid=11_6 InlineTextBox "Strong analytical, communication, stakeholder management, and collaboration "
+                        uid=11_6 InlineTextBox "skills; ability to work independently."
+                    uid=11_96 listitem level="1"
+                      uid=11_97 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_165 StaticText "Exposure to Generative AI concepts: LLMs, prompt engineering, RAG, embeddings, vector databases; familiarity with agentic AI architectures."
+                        uid=11_6 InlineTextBox "Exposure to Generative AI concepts: LLMs, prompt engineering, RAG, "
+                        uid=11_6 InlineTextBox "embeddings, vector databases; familiarity with agentic AI architectures."
+                    uid=11_98 listitem level="1"
+                      uid=11_99 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_168 StaticText "Experience with AI/ML tools and libraries such as LangChain, OpenAI APIs, Hugging Face, LangGraph; exposure to Pandas, NumPy, Scikit-Learn."
+                        uid=11_6 InlineTextBox "Experience with AI/ML tools and libraries such as LangChain, OpenAI APIs, "
+                        uid=11_6 InlineTextBox "Hugging Face, LangGraph; exposure to Pandas, NumPy, Scikit-Learn."
+                  uid=8_169 heading "Preferred / Good to Have" level="2"
+                    uid=11_100 StaticText "Preferred / Good to Have"
+                      uid=11_6 InlineTextBox "Preferred / Good to Have"
+                  uid=11_101 list
+                    uid=11_102 listitem level="1"
+                      uid=11_103 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_174 StaticText "Experience with GitHub Copilot, Kiro, or other AI-assisted development tools."
+                        uid=11_6 InlineTextBox "Experience with GitHub Copilot, Kiro, or other AI-assisted development tools."
+                    uid=11_104 listitem level="1"
+                      uid=11_105 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_177 StaticText "Prior vibe-coding experience or rapid prototyping with AI tools."
+                        uid=11_6 InlineTextBox "Prior vibe-coding experience or rapid prototyping with AI tools."
+                    uid=11_106 listitem level="1"
+                      uid=11_107 ListMarker "• "
+                        uid=11_6 ignored
+                      uid=8_180 StaticText "Experience deploying and monitoring AI applications."
+                        uid=11_6 InlineTextBox "Experience deploying and monitoring AI applications."
+            uid=11_108 ignored
+              uid=11_109 generic
+                uid=11_110 ignored
+                  uid=11_111 image
+                  uid=8_185 heading "Tech Stack" level="3"
+                    uid=11_112 StaticText "Tech Stack"
+                      uid=11_6 InlineTextBox "Tech Stack"
+                uid=11_113 ignored
+                  uid=11_114 ignored
+                    uid=8_189 StaticText "Python"
+                      uid=11_6 InlineTextBox "Python"
+                  uid=11_115 ignored
+                    uid=8_191 StaticText "Django"
+                      uid=11_6 InlineTextBox "Django"
+                  uid=11_116 ignored
+                    uid=8_193 StaticText "FastAPI"
+                      uid=11_6 InlineTextBox "FastAPI"
+                  uid=11_117 ignored
+                    uid=8_195 StaticText "Flask"
+                      uid=11_6 InlineTextBox "Flask"
+                  uid=11_118 ignored
+                    uid=8_197 StaticText "RESTful APIs"
+                      uid=11_6 InlineTextBox "RESTful APIs"
+                  uid=11_119 ignored
+                    uid=8_199 StaticText "PostgreSQL"
+                      uid=11_6 InlineTextBox "PostgreSQL"
+                  uid=11_120 ignored
+                    uid=8_201 StaticText "MySQL"
+                      uid=11_6 InlineTextBox "MySQL"
+                  uid=11_121 ignored
+                    uid=8_203 StaticText "SQL Server"
+                      uid=11_6 InlineTextBox "SQL Server"
+                  uid=11_122 ignored
+                    uid=8_205 StaticText "MongoDB"
+                      uid=11_6 InlineTextBox "MongoDB"
+                  uid=11_123 ignored
+                    uid=8_207 StaticText "DynamoDB"
+                      uid=11_6 InlineTextBox "DynamoDB"
+                  uid=11_124 ignored
+                    uid=8_209 StaticText "Git"
+                      uid=11_6 InlineTextBox "Git"
+                  uid=11_125 ignored
+                    uid=8_211 StaticText "CI/CD Pipelines"
+                      uid=11_6 InlineTextBox "CI/CD Pipelines"
+                  uid=11_126 ignored
+                    uid=8_213 StaticText "Docker"
+                      uid=11_6 InlineTextBox "Docker"
+                  uid=11_127 ignored
+                    uid=8_215 StaticText "Kubernetes"
+                      uid=11_6 InlineTextBox "Kubernetes"
+                  uid=11_128 ignored
+                    uid=8_217 StaticText "Microsoft Azure"
+                      uid=11_6 InlineTextBox "Microsoft Azure"
+                  uid=11_129 ignored
+                    uid=8_219 StaticText "AWS"
+                      uid=11_6 InlineTextBox "AWS"
+                  uid=11_130 ignored
+                    uid=8_221 StaticText "Google Cloud Platform"
+                      uid=11_6 InlineTextBox "Google Cloud Platform"
+                  uid=11_131 ignored
+                    uid=8_223 StaticText "Pandas"
+                      uid=11_6 InlineTextBox "Pandas"
+                  uid=11_132 ignored
+                    uid=8_225 StaticText "NumPy"
+                      uid=11_6 InlineTextBox "NumPy"
+                  uid=11_133 ignored
+                    uid=8_227 StaticText "Scikit-Learn"
+                      uid=11_6 InlineTextBox "Scikit-Learn"
+                  uid=11_134 ignored
+                    uid=8_229 StaticText "LangChain"
+                      uid=11_6 InlineTextBox "LangChain"
+                  uid=11_135 ignored
+                    uid=8_231 StaticText "OpenAI APIs"
+                      uid=11_6 InlineTextBox "OpenAI APIs"
+                  uid=11_136 ignored
+                    uid=8_233 StaticText "Hugging Face"
+                      uid=11_6 InlineTextBox "Hugging Face"
+                  uid=11_137 ignored
+                    uid=8_235 StaticText "LangGraph"
+                      uid=11_6 InlineTextBox "LangGraph"
+                  uid=11_138 ignored
+                    uid=8_237 StaticText "LLMs"
+                      uid=11_6 InlineTextBox "LLMs"
+                  uid=11_139 ignored
+                    uid=8_239 StaticText "Prompt Engineering"
+                      uid=11_6 InlineTextBox "Prompt Engineering"
+                  uid=11_140 ignored
+                    uid=8_241 StaticText "RAG"
+                      uid=11_6 InlineTextBox "RAG"
+                  uid=11_141 ignored
+                    uid=8_243 StaticText "Embeddings"
+                      uid=11_6 InlineTextBox "Embeddings"
+                  uid=11_142 ignored
+                    uid=8_245 StaticText "Vector Databases"
+                      uid=11_6 InlineTextBox "Vector Databases"
+                  uid=11_143 ignored
+                    uid=8_247 StaticText "Agentic AI architectures"
+                      uid=11_6 InlineTextBox "Agentic AI architectures"
+                  uid=11_144 ignored
+                    uid=8_249 StaticText "GitHub Copilot"
+                      uid=11_6 InlineTextBox "GitHub Copilot"
+                  uid=11_145 ignored
+                    uid=8_251 StaticText "Kiro"
+                      uid=11_6 InlineTextBox "Kiro"
+                  uid=11_146 ignored
+                    uid=8_253 StaticText "SynOps"
+                      uid=11_6 InlineTextBox "SynOps"
+              uid=11_147 generic
+                uid=11_148 ignored
+                  uid=11_149 image
+                  uid=8_257 heading "Skills" level="3"
+                    uid=11_150 StaticText "Skills"
+                      uid=11_6 InlineTextBox "Skills"
+                uid=11_151 ignored
+                  uid=11_152 ignored
+                    uid=8_261 StaticText "Python development"
+                      uid=11_6 InlineTextBox "Python development"
+                  uid=11_153 ignored
+                    uid=8_263 StaticText "Object-Oriented Programming"
+                      uid=11_6 InlineTextBox "Object-Oriented Programming"
+                  uid=11_154 ignored
+                    uid=8_265 StaticText "Design Patterns"
+                      uid=11_6 InlineTextBox "Design Patterns"
+                  uid=11_155 ignored
+                    uid=8_267 StaticText "API Development"
+                      uid=11_6 InlineTextBox "API Development"
+                  uid=11_156 ignored
+                    uid=8_269 StaticText "Microservices Architecture"
+                      uid=11_6 InlineTextBox "Microservices Architecture"
+                  uid=11_157 ignored
+                    uid=8_271 StaticText "Database Design"
+                      uid=11_6 InlineTextBox "Database Design"
+                  uid=11_158 ignored
+                    uid=8_273 StaticText "Version Control"
+                      uid=11_6 InlineTextBox "Version Control"
+                  uid=11_159 ignored
+                    uid=8_275 StaticText "CI/CD"
+                      uid=11_6 InlineTextBox "CI/CD"
+                  uid=11_160 ignored
+                    uid=8_277 StaticText "Testing & Quality"
+                      uid=11_6 InlineTextBox "Testing & Quality"
+                  uid=11_161 ignored
+                    uid=8_279 StaticText "Debugging"
+                      uid=11_6 InlineTextBox "Debugging"
+                  uid=11_162 ignored
+                    uid=8_281 StaticText "Performance Optimization"
+                      uid=11_6 InlineTextBox "Performance Optimization"
+                  uid=11_163 ignored
+                    uid=8_283 StaticText "Cloud Platforms"
+                      uid=11_6 InlineTextBox "Cloud Platforms"
+                  uid=11_164 ignored
+                    uid=8_285 StaticText "Analytical & Problem-Solving"
+                      uid=11_6 InlineTextBox "Analytical & Problem-Solving"
+                  uid=11_165 ignored
+                    uid=8_287 StaticText "Communication"
+                      uid=11_6 InlineTextBox "Communication"
+                  uid=11_166 ignored
+                    uid=8_289 StaticText "Stakeholder Management"
+                      uid=11_6 InlineTextBox "Stakeholder Management"
+                  uid=11_167 ignored
+                    uid=8_291 StaticText "Collaboration"
+                      uid=11_6 InlineTextBox "Collaboration"
+                  uid=11_168 ignored
+                    uid=8_293 StaticText "Mentoring"
+                      uid=11_6 InlineTextBox "Mentoring"
+                  uid=11_169 ignored
+                    uid=8_295 StaticText "Agile"
+                      uid=11_6 InlineTextBox "Agile"
+                  uid=11_170 ignored
+                    uid=8_297 StaticText "Solution Design / Architecture"
+                      uid=11_6 InlineTextBox "Solution Design / Architecture"
+                  uid=11_171 ignored
+                    uid=8_299 StaticText "Technical Documentation"
+                      uid=11_6 InlineTextBox "Technical Documentation"
+                  uid=11_172 ignored
+                    uid=8_301 StaticText "SME / Domain Expertise"
+                      uid=11_6 InlineTextBox "SME / Domain Expertise"
+                  uid=11_173 ignored
+                    uid=8_303 StaticText "Familiarity with Generative AI concepts (LLMs, Prompt Engineering, RAG)"
+                      uid=11_6 InlineTextBox "Familiarity with Generative AI "
+                      uid=11_6 InlineTextBox "concepts (LLMs, Prompt "
+                      uid=11_6 InlineTextBox "Engineering, RAG)"
+              uid=11_174 generic
+                uid=11_175 ignored
+                  uid=11_176 ignored
+                    uid=11_177 ignored
+                      uid=11_178 image
+                      uid=8_309 heading "Experience Level" level="3"
+                        uid=11_179 StaticText "Experience Level"
+                          uid=11_6 InlineTextBox "Experience Level"
+                    uid=11_180 generic
+                      uid=8_312 StaticText "Senior"
+                        uid=11_6 InlineTextBox "Senior"
+                  uid=11_181 ignored
+                    uid=8_314 heading "Employment Type" level="3"
+                      uid=11_182 StaticText "Employment Type"
+                        uid=11_6 InlineTextBox "Employment Type"
+                    uid=11_183 ignored
+                      uid=11_184 ignored
+                        uid=8_318 StaticText "Full-time"
+                          uid=11_6 InlineTextBox "Full-time"
+          uid=8_319 navigation "Related job listings"
+            uid=8_320 link "More jobs in India →" url="https://vibehackers.io/jobs/in/in"
+              uid=8_321 StaticText "More jobs in "
+                uid=11_6 InlineTextBox "More jobs in "
+              uid=8_322 StaticText "India"
+                uid=11_6 InlineTextBox "India"
+              uid=8_323 StaticText " →"
+                uid=11_6 InlineTextBox " →"
+            uid=8_324 link "More Software Engineering jobs →" url="https://vibehackers.io/jobs/category/software-engineering"
+              uid=8_325 StaticText "More "
+                uid=11_6 InlineTextBox "More "
+              uid=8_326 StaticText "Software Engineering"
+                uid=11_6 InlineTextBox "Software Engineering"
+              uid=8_327 StaticText " jobs →"
+                uid=11_6 InlineTextBox " jobs →"
+            uid=8_328 link "All jobs →" url="https://vibehackers.io/jobs"
+              uid=8_329 StaticText "All jobs →"
+                uid=11_6 InlineTextBox "All jobs →"
+      uid=8_330 contentinfo
+        uid=11_185 ignored
+          uid=11_186 ignored
+            uid=11_187 ignored
+              uid=8_334 heading "About vibehackers" level="3"
+                uid=11_188 StaticText "About vibehackers"
+                  uid=11_6 InlineTextBox "About vibehackers"
+              uid=11_189 paragraph
+                uid=8_337 StaticText "vibehackers is where builders ship before they profit."
+                  uid=11_6 InlineTextBox "vibehackers is where builders ship before they profit."
+                uid=8_338 LineBreak "
+"
+                  uid=11_6 InlineTextBox "
+"
+                uid=8_339 LineBreak "
+"
+                  uid=11_6 InlineTextBox "
+"
+                uid=8_340 StaticText "We're a community of indie hackers, weekend warriors, career pivoters, and AI-first developers who build in public while learning. No revenue required. No corporate polish needed. Just real projects, rapid prototyping, and the journey from zero to first dollar."
+                  uid=11_6 InlineTextBox "We're a community of indie hackers, weekend warriors, "
+                  uid=11_6 InlineTextBox "career pivoters, and AI-first developers who build in public "
+                  uid=11_6 InlineTextBox "while learning. No revenue required. No corporate polish "
+                  uid=11_6 InlineTextBox "needed. Just real projects, rapid prototyping, and the "
+                  uid=11_6 InlineTextBox "journey from zero to first dollar."
+                uid=8_341 LineBreak "
+"
+                  uid=11_6 InlineTextBox "
+"
+                uid=8_342 LineBreak "
+"
+                  uid=11_6 InlineTextBox "
+"
+                uid=8_343 StaticText "Ship fast. Build publicly. Stay accountable."
+                  uid=11_6 InlineTextBox "Ship fast. Build publicly. Stay accountable."
+              uid=11_190 ignored
+                uid=8_345 heading "Connect" level="3"
+                  uid=11_191 StaticText "Connect"
+                    uid=11_6 InlineTextBox "Connect"
+                uid=11_192 ignored
+                  uid=8_348 link "Follow us on X (Twitter)" url="https://x.com/vibehackers_io"
+                  uid=8_349 link "Follow us on Instagram" url="https://www.instagram.com/vibehackers_io"
+                  uid=8_350 link "View our GitHub" url="https://github.com/vibehackers"
+                  uid=8_351 link "Send us an email" url="mailto:hello@vibehackers.io"
+            uid=11_193 ignored
+              uid=8_353 heading "Platform" level="3"
+                uid=11_194 StaticText "Platform"
+                  uid=11_6 InlineTextBox "Platform"
+              uid=11_195 list
+                uid=11_196 listitem level="1"
+                  uid=8_357 link "Gallery" url="https://vibehackers.io/"
+                    uid=8_358 StaticText "Gallery"
+                      uid=11_6 InlineTextBox "Gallery"
+                uid=11_197 listitem level="1"
+                  uid=8_360 link "Build in Public" url="https://vibehackers.io/build-in-public"
+                    uid=8_361 StaticText "Build in Public"
+                      uid=11_6 InlineTextBox "Build in Public"
+                uid=11_198 listitem level="1"
+                  uid=8_363 link "Submit Project" url="https://vibehackers.io/submit"
+                    uid=8_364 StaticText "Submit Project"
+                      uid=11_6 InlineTextBox "Submit Project"
+                uid=11_199 listitem level="1"
+                  uid=8_366 link "Updates" url="https://vibehackers.io/updates"
+                    uid=8_367 StaticText "Updates"
+                      uid=11_6 InlineTextBox "Updates"
+                uid=11_200 listitem level="1"
+                  uid=8_369 link "About" url="https://vibehackers.io/about"
+                    uid=8_370 StaticText "About"
+                      uid=11_6 InlineTextBox "About"
+            uid=11_201 ignored
+              uid=8_372 heading "Vibe Coding Jobs" level="3"
+                uid=11_202 StaticText "Vibe Coding Jobs"
+                  uid=11_6 InlineTextBox "Vibe Coding Jobs"
+              uid=11_203 list
+                uid=11_204 listitem level="1"
+                  uid=8_376 link "All Jobs" url="https://vibehackers.io/vibe-coding-jobs"
+                    uid=8_377 StaticText "All Jobs"
+                      uid=11_6 InlineTextBox "All Jobs"
+                uid=11_205 listitem level="1"
+                  uid=8_379 StaticText "CATEGORIES"
+                    uid=11_6 InlineTextBox "CATEGORIES"
+                uid=11_206 listitem level="1"
+                  uid=8_381 link "Product & UX / Design / Prototyping" url="https://vibehackers.io/jobs/category/product-ux-design-prototyping"
+                    uid=8_382 StaticText "Product & UX / Design / Prototyping"
+                      uid=11_6 InlineTextBox "Product & UX / Design / Prototyping"
+                uid=11_207 listitem level="1"
+                  uid=8_384 link "Software Engineering" url="https://vibehackers.io/jobs/category/software-engineering"
+                    uid=8_385 StaticText "Software Engineering"
+                      uid=11_6 InlineTextBox "Software Engineering"
+                uid=11_208 listitem level="1"
+                  uid=8_387 link "AI/ML & Data" url="https://vibehackers.io/jobs/category/ai-ml-data"
+                    uid=8_388 StaticText "AI/ML & Data"
+                      uid=11_6 InlineTextBox "AI/ML & Data"
+                uid=11_209 listitem level="1"
+                  uid=8_390 link "Product/Program/Architecture/Operations" url="https://vibehackers.io/jobs/category/product-program-architecture-operations"
+                    uid=8_391 StaticText "Product/Program/Architecture/Operations"
+                      uid=11_6 InlineTextBox "Product/Program/Architecture/Operations"
+                uid=11_210 listitem level="1"
+                  uid=8_393 link "GTM / Marketing / Sales / Customer / DevRel / Training" url="https://vibehackers.io/jobs/category/gtm-marketing-sales-customer-devrel-training"
+                    uid=8_394 StaticText "GTM / Marketing / Sales / Customer / DevRel / Training"
+                      uid=11_6 InlineTextBox "GTM / Marketing / Sales / Customer / DevRel / Training"
+                uid=11_211 listitem level="1"
+                  uid=8_396 StaticText "LOCATIONS"
+                    uid=11_6 InlineTextBox "LOCATIONS"
+                uid=11_212 listitem level="1"
+                  uid=8_398 link "Remote" url="https://vibehackers.io/jobs/in/remote"
+                    uid=8_399 StaticText "Remote"
+                      uid=11_6 InlineTextBox "Remote"
+                uid=11_213 listitem level="1"
+                  uid=8_401 link "United States" url="https://vibehackers.io/jobs/in/us"
+                    uid=8_402 StaticText "United States"
+                      uid=11_6 InlineTextBox "United States"
+                uid=11_214 listitem level="1"
+                  uid=8_404 link "United Kingdom" url="https://vibehackers.io/jobs/in/gb"
+                    uid=8_405 StaticText "United Kingdom"
+                      uid=11_6 InlineTextBox "United Kingdom"
+                uid=11_215 listitem level="1"
+                  uid=8_407 link "Germany" url="https://vibehackers.io/jobs/in/de"
+                    uid=8_408 StaticText "Germany"
+                      uid=11_6 InlineTextBox "Germany"
+                uid=11_216 listitem level="1"
+                  uid=8_410 link "India" url="https://vibehackers.io/jobs/in/in"
+                    uid=8_411 StaticText "India"
+                      uid=11_6 InlineTextBox "India"
+                uid=11_217 listitem level="1"
+                  uid=8_413 link "Canada" url="https://vibehackers.io/jobs/in/ca"
+                    uid=8_414 StaticText "Canada"
+                      uid=11_6 InlineTextBox "Canada"
+                uid=11_218 listitem level="1"
+                  uid=8_416 link "Australia" url="https://vibehackers.io/jobs/in/au"
+                    uid=8_417 StaticText "Australia"
+                      uid=11_6 InlineTextBox "Australia"
+            uid=11_219 ignored
+              uid=8_419 heading "Resources" level="3"
+                uid=11_220 StaticText "Resources"
+                  uid=11_6 InlineTextBox "Resources"
+              uid=11_221 list
+                uid=11_222 listitem level="1"
+                  uid=8_423 link "Validate IdeaBETA" url="https://vibehackers.io/validate"
+                    uid=8_424 StaticText "Validate Idea"
+                      uid=11_6 InlineTextBox "Validate Idea"
+                    uid=8_425 StaticText "BETA"
+                      uid=11_6 InlineTextBox "BETA"
+                uid=11_223 listitem level="1"
+                  uid=8_427 link "Ideas Gallery" url="https://vibehackers.io/ideas"
+                    uid=8_428 StaticText "Ideas Gallery"
+                      uid=11_6 InlineTextBox "Ideas Gallery"
+                uid=11_224 listitem level="1"
+                  uid=8_430 link "MCP Servers" url="https://vibehackers.io/mcp"
+                    uid=8_431 StaticText "MCP Servers"
+                      uid=11_6 InlineTextBox "MCP Servers"
+                uid=11_225 listitem level="1"
+                  uid=8_433 link "Blog" url="https://vibehackers.io/blog"
+                    uid=8_434 StaticText "Blog"
+                      uid=11_6 InlineTextBox "Blog"
+                uid=11_226 listitem level="1"
+                  uid=8_436 link "Contact" url="mailto:hello@vibehackers.io"
+                    uid=8_437 StaticText "Contact"
+                      uid=11_6 InlineTextBox "Contact"
+                uid=11_227 listitem level="1"
+                  uid=8_439 link "Vibe Board" url="https://vibehackers.io/vibe-board"
+                    uid=8_440 StaticText "Vibe Board"
+                      uid=11_6 InlineTextBox "Vibe Board"
+                uid=11_228 listitem level="1"
+                  uid=8_442 link "MisfeatureBETA" url="https://vibehackers.io/misfeature"
+                    uid=8_443 StaticText "Misfeature"
+                      uid=11_6 InlineTextBox "Misfeature"
+                    uid=8_444 StaticText "BETA"
+                      uid=11_6 InlineTextBox "BETA"
+              uid=11_229 ignored
+                uid=8_446 heading "Legal" level="3"
+                  uid=11_230 StaticText "Legal"
+                    uid=11_6 InlineTextBox "Legal"
+                uid=11_231 list
+                  uid=11_232 listitem level="1"
+                    uid=8_450 link "Terms of Service" url="https://vibehackers.io/terms"
+                      uid=8_451 StaticText "Terms of Service"
+                        uid=11_6 InlineTextBox "Terms of Service"
+                  uid=11_233 listitem level="1"
+                    uid=8_453 link "Privacy Policy" url="https://vibehackers.io/privacy"
+                      uid=8_454 StaticText "Privacy Policy"
+                        uid=11_6 InlineTextBox "Privacy Policy"
+          uid=11_234 ignored
+            uid=11_235 generic
+              uid=8_457 StaticText "© "
+                uid=11_6 InlineTextBox "© "
+              uid=8_458 StaticText "2026"
+                uid=11_6 InlineTextBox "2026"
+              uid=8_459 StaticText " vibehackers"
+                uid=11_6 InlineTextBox " vibehackers"
+              uid=8_460 StaticText "Not cybersecurity. A community for shipping software fast."
+                uid=11_6 InlineTextBox "Not cybersecurity. A community for shipping software fast."
+            uid=11_236 ignored
+              uid=8_462 link "Vibehackers - Featured on Startup Fame" url="https://startupfa.me/s/vibehackers?utm_source=vibehackers.io"
+                uid=8_463 image "Vibehackers - Featured on Startup Fame" url="https://startupfa.me/badges/featured-badge-small.webp"
+            uid=11_237 ignored
+              uid=11_238 ignored
+                uid=8_466 StaticText "Made by"
+                  uid=11_6 InlineTextBox "Made by"
+              uid=8_467 link "@vibehackers" url="https://vibehackers.io/users/vibehackers"
+                uid=8_468 StaticText "@vibehackers"
+                  uid=11_6 InlineTextBox "@vibehackers"
+          uid=11_239 ignored
+            uid=8_470 button "Current theme: system. Click to switch." description="Theme: system"
+              uid=11_240 image
+      uid=11_241 generic
+      uid=11_242 generic
+        uid=8_474 alert atomic live="assertive" relevant="additions text"

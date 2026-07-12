@@ -1,0 +1,48 @@
+{
+  "company": "Dentco",
+  "title": "App Development Assistant (AI-Assisted / \"Vibe Coding\") Onsite- Laguna Hills",
+  "job_url": "https://vibehackers.io/jobs/app-development-assistant-ai-assisted-vibe-coding-onsite-laguna-hills-dentco",
+  "application_url": "https://www.indeed.com/viewjob?jk=d0be6f168bdeafa1",
+  "status": "Requires Manual Action",
+  "reason": "The application redirects to Indeed, which requires creating an account, signing in with an existing account, or using third-party auth (Google/Apple) to fill out and submit the application.",
+  "resume_to_upload": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf",
+  "screenshots": {
+    "login_wall": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshot_job_4_login.png"
+  },
+  "candidate_mapped_data": {
+    "first_name": "Juan Miguel",
+    "last_name": "Jaramillo Gaviria",
+    "email": "info@juanjaramillo.tech",
+    "phone": "+57 305 420 6139",
+    "location": "Bogotá, Colombia (willing to work onsite/relocate to Laguna Hills, CA)",
+    "linkedin": "https://www.linkedin.com/in/juan-jaramillo-ai/",
+    "portfolio": "https://juanjaramillo.tech",
+    "github": "https://github.com/juanjaragavi",
+    "years_of_experience": {
+      "python": "4 Years",
+      "machine_learning": "4 Years",
+      "generative_ai": "4 Years",
+      "llms": "4 Years",
+      "nlp": "4 Years",
+      "prompt_engineering": "4 Years"
+    },
+    "work_authorization": "Authorized to work in Colombia. Ready to work onsite in Laguna Hills, CA as an independent contractor or under an authorized visa/arrangement.",
+    "salary_expectations": "$20.00 - $40.00 per hour ($3,500 to $4,500 USD monthly equivalent)",
+    "screening_questions": {
+      "portfolio_link": "https://juanjaramillo.tech (GitHub: https://github.com/juanjaragavi)",
+      "ai_workflow_sentences": "I rely on AI coding assistants like Cursor and Claude Code as high-leverage collaborative partners. I use them for rapid prototyping, translating complex design schemas into functional code, and handling repetitive boilerplates, while focusing my efforts on system design, prompt architecture, and refining AI-generated logic to maintain product quality.",
+      "availability_and_rate": "Available to start immediately for onsite/hybrid work in Laguna Hills, CA. Rate expectations are $20.00 to $40.00 per hour (or $3,500 to $4,500 USD monthly equivalent)."
+    }
+  },
+  "steps_taken": [
+    "Retrieved candidate information from juan_profile.md and verified master resume path.",
+    "Identified Dentco job listed as index 3 in found_jobs.json.",
+    "Navigated to the job posting page on vibehackers.io and extracted application options.",
+    "Discovered the application link redirecting to the Indeed platform at https://www.indeed.com/viewjob?jk=d0be6f168bdeafa1.",
+    "Attempted to click the 'Apply with Indeed' button in the browser.",
+    "Encountered a mandatory Indeed authentication page (Sign In / Account Creation) requiring user-specific credentials or third-party OAuth.",
+    "Captured a screenshot of the login wall and saved it as screenshot_job_4_login.png.",
+    "Drafted pre-calculated answers for Dentco's custom application questions based on candidate profile.",
+    "Created detailed application status mapping file to guide the user through the manual completion of the application."
+  ]
+}

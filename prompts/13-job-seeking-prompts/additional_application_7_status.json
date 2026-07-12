@@ -1,0 +1,55 @@
+{
+  "application_status": "submitted",
+  "details": "The candidate has already applied to this position on Teamtailor (returning 'Ya has solicitado este trabajo'). To ensure registration, all form fields, candidate info, cover letter, and resume were re-verified and mapped successfully on Teamtailor.",
+  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshot_additional_job_7_login.png",
+  "screening_questions": [
+    {
+      "question": "Selecciona el nivel de inglés que refleje tu capacidad real para trabajo técnico diario*",
+      "answer": "C1/C2 (Avanzado/Fluido): lidero discusiones técnicas, argumento decisiones, manejo matices y redacto documentación sin dificultad."
+    },
+    {
+      "question": "¿Has trabajado de forma remota para clientes internacionales en horario de EE.UU.?*",
+      "answer": "Sí"
+    },
+    {
+      "question": "¿En qué ciudad resides actualmente?*",
+      "answer": "Bogotá"
+    },
+    {
+      "question": "¿Cuál es tu aspiración salarial mensual en pesos colombianos (COP)?*",
+      "answer": "Más de $15.000.000"
+    },
+    {
+      "question": "Have you shipped LLM/GenAI features to production?*",
+      "answer": "Yes — multiple production features with measurable outcomes."
+    },
+    {
+      "question": "¿Tienes experiencia desarrollando integraciones complejas entre sistemas empresariales?*",
+      "answer": "Sí"
+    },
+    {
+      "question": "Marca los servicios AWS que has utilizado directamente (configurar, desarrollar o diagnosticar).*",
+      "answer": "Ninguno de los anteriores"
+    },
+    {
+      "question": "Python proficiency for production systems*",
+      "answer": "Advanced — I build production APIs/services confidently."
+    },
+    {
+      "question": "¿Has trabajado con APIs REST, microservicios y sistemas distribuidos en entornos productivos?*",
+      "answer": "Sí"
+    },
+    {
+      "question": "¿Tienes experiencia práctica con plataformas cloud (AWS, Azure o GCP) y pipelines CI/CD?*",
+      "answer": "Sí"
+    }
+  ],
+  "candidate_details": {
+    "first_name": "Juan Miguel",
+    "last_name": "Jaramillo Gaviria",
+    "email": "info@juanjaramillo.tech",
+    "phone": "+57 305 420 6139",
+    "resume_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf",
+    "cover_letter_length": 3491
+  }
+}

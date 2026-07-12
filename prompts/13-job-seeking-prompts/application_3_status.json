@@ -1,0 +1,38 @@
+{
+  "company": "Accenture",
+  "title": "AI/ML Computational Science Sr Analyst",
+  "job_url": "https://vibehackers.io/jobs/aiml-computational-science-sr-analyst-accenture",
+  "application_url": "https://mycareer.accenture.com/?source=acn_5&JRID=AIOC-S01653989",
+  "status": "Requires Manual Action",
+  "reason": "Accenture's external portal requires creating a candidate profile or signing in with an existing account to fill out the form.",
+  "resume_to_upload": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf",
+  "candidate_mapped_data": {
+    "first_name": "Juan Miguel",
+    "last_name": "Jaramillo Gaviria",
+    "email": "info@juanjaramillo.tech",
+    "phone": "+57 305 420 6139",
+    "location": "Bogotá, Colombia",
+    "linkedin": "https://www.linkedin.com/in/juan-jaramillo-ai/",
+    "portfolio": "https://juanjaramillo.tech",
+    "github": "https://github.com/juanjaragavi",
+    "years_of_experience": {
+      "python": "4 Years",
+      "machine_learning": "4 Years",
+      "generative_ai": "4 Years",
+      "llms": "4 Years",
+      "nlp": "4 Years",
+      "prompt_engineering": "4 Years"
+    },
+    "work_authorization": "Authorized to work in Colombia. Ready to work globally as an independent contractor or remote developer.",
+    "salary_expectations": "$3,500 to $4,500 USD monthly ($42,000 to $54,000 USD annualized equivalent)"
+  },
+  "steps_taken": [
+    "Retrieved candidate information from juan_profile.md and verified master resume path.",
+    "Identified Accenture job listed as index 2 in found_jobs.json.",
+    "Navigated to vibehackers.io job page and clicked 'Apply →' link.",
+    "Bypassed and accepted cookie banner on Accenture's main career page.",
+    "Clicked 'Apply for this job' to proceed to the candidate portal login/registration screen.",
+    "Detected mandatory registration/sign-in page preventing automated profile submission without credentials.",
+    "Created detailed application status mapping file to guide the user through the manual completion of the application."
+  ]
+}

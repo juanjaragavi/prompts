@@ -1,0 +1,203 @@
+uid=17_0 RootWebArea "Job application" url="https://tally.so/r/w7V17L"
+  uid=19_0 ignored
+    uid=19_1 ignored
+      uid=19_2 generic
+        uid=19_3 ignored
+          uid=17_5 main
+            uid=17_6 status atomic live="polite" relevant="additions text"
+            uid=19_4 generic
+              uid=17_8 image "Form logo" url="https://storage.tally.so/d9e8da1d-adcc-4c45-8eb4-0345fa9b0d55/app-store-icon.png"
+            uid=19_5 generic
+              uid=17_10 form
+                uid=19_6 progressbar value="1" valuemax="2" valuemin="0" valuetext=""
+                uid=19_7 ignored
+                  uid=19_8 ignored
+                    uid=17_14 heading "Job application" level="1"
+                      uid=19_9 StaticText "Job application"
+                        uid=19_10 InlineTextBox "Job application"
+                  uid=19_11 ignored
+                    uid=19_12 generic
+                      uid=17_19 StaticText "Are you an aspiring "
+                        uid=19_10 InlineTextBox "Are you an aspiring "
+                      uid=17_20 StaticText "Software Engineer"
+                        uid=19_10 InlineTextBox "Software Engineer"
+                      uid=17_21 StaticText " looking for an opportunity to take on new challenges and advance your career?"
+                        uid=19_10 InlineTextBox " looking for an opportunity to take on new challenges"
+                        uid=19_10 InlineTextBox " "
+                        uid=19_10 InlineTextBox "and advance your career?"
+                  uid=19_13 ignored
+                    uid=19_14 ignored
+                  uid=19_15 ignored
+                    uid=19_16 generic
+                      uid=19_17 generic
+                        uid=17_27 heading "Tell us a bit more about yourself" level="2"
+                          uid=19_18 StaticText "Tell us a bit more about yourself"
+                            uid=19_10 InlineTextBox "Tell us a bit more about yourself"
+                  uid=19_19 ignored
+                    uid=19_20 ignored
+                      uid=19_21 ignored
+                        uid=19_22 generic
+                          uid=19_23 generic
+                            uid=17_34 textbox "First Name" required value="Juan Miguel"
+                              uid=19_24 ignored
+                              uid=19_25 generic
+                                uid=19_26 StaticText "Juan Miguel"
+                                  uid=19_10 InlineTextBox "Juan Miguel"
+                    uid=19_27 ignored
+                      uid=19_28 ignored
+                        uid=19_29 generic
+                          uid=19_30 generic
+                            uid=17_41 textbox "Last Name" required value="Jaramillo Gaviria"
+                              uid=19_31 ignored
+                              uid=19_32 generic
+                                uid=19_33 StaticText "Jaramillo Gaviria"
+                                  uid=19_10 InlineTextBox "Jaramillo Gaviria"
+                  uid=19_34 ignored
+                    uid=19_35 ignored
+                      uid=19_36 ignored
+                        uid=19_37 generic
+                          uid=19_38 generic
+                            uid=17_49 textbox "Email" required value="info@juanjaramillo.tech"
+                              uid=19_39 ignored
+                              uid=19_40 generic
+                                uid=19_41 StaticText "info@juanjaramillo.tech"
+                                  uid=19_10 InlineTextBox "info@juanjaramillo.tech"
+                    uid=19_42 ignored
+                      uid=19_43 ignored
+                        uid=19_44 generic
+                          uid=19_45 generic
+                            uid=19_46 generic
+                              uid=17_57 combobox "Phone" expandable haspopup="listbox" value="+57 305 4206139"
+                                uid=19_47 ignored
+                                uid=19_48 generic
+                                  uid=19_49 StaticText "+57 305 4206139"
+                                    uid=19_10 InlineTextBox "+57 305 4206139"
+                  uid=19_50 ignored
+                    uid=19_51 ignored
+                      uid=19_52 ignored
+                        uid=19_53 generic
+                          uid=19_54 generic
+                            uid=17_65 textbox "Location" required value="Bogotá, Colombia"
+                              uid=19_55 ignored
+                              uid=19_56 generic
+                                uid=19_57 StaticText "Bogotá, Colombia"
+                                  uid=19_10 InlineTextBox "Bogotá, Colombia"
+                    uid=19_58 ignored
+                      uid=19_59 ignored
+                        uid=19_60 generic
+                          uid=19_61 generic
+                            uid=17_72 textbox "LinkedIn Profile" value="https://www.linkedin.com/in/juan-jaramillo-ai/"
+                              uid=19_62 ignored
+                              uid=19_63 generic
+                                uid=19_64 StaticText "https://www.linkedin.com/in/juan-jaramillo-ai/"
+                                  uid=19_10 InlineTextBox "https://www.linkedin.com/in/juan-jaramillo-ai/"
+                  uid=19_65 ignored
+                    uid=19_66 ignored
+                      uid=19_67 ignored
+                        uid=19_68 generic
+                          uid=19_69 generic
+                            uid=17_80 textbox "Website" value="https://juanjaramillo.tech"
+                              uid=19_70 ignored
+                              uid=19_71 generic
+                                uid=19_72 StaticText "https://juanjaramillo.tech"
+                                  uid=19_10 InlineTextBox "https://juanjaramillo.tech"
+                    uid=19_73 ignored
+                      uid=19_74 ignored
+                        uid=19_75 generic
+                          uid=19_76 generic
+                            uid=17_87 textbox "Other links (Github etc)" value="https://github.com/juanjaragavi"
+                              uid=19_77 ignored
+                              uid=19_78 generic
+                                uid=19_79 StaticText "https://github.com/juanjaragavi"
+                                  uid=19_10 InlineTextBox "https://github.com/juanjaragavi"
+                  uid=19_80 ignored
+                    uid=19_81 generic
+                      uid=19_82 generic
+                        uid=17_93 heading "Anything else we should know?" level="3"
+                          uid=19_83 StaticText "Anything else we should know?"
+                            uid=19_10 InlineTextBox "Anything else we should know?"
+                  uid=19_84 ignored
+                    uid=19_85 generic
+                      uid=19_86 generic
+                        uid=17_98 textbox "Anything else we should know?" multiline required value="I am a remote full-stack AI/ML developer and vibe coder with 17+ years of total software engineering experience and 4 years of deep, hands-on experience with LLMs, prompt engineering, and GenAI-powered web platforms (Vertex AI, LangChain, Supabase). I build and ship SaaS solutions daily using AI-assisted development tools like Cursor, Claude, and GitHub Copilot. Your focus-prioritized, async-first remote culture aligns perfectly with my professional drive to build impactful, rapid-prototype products and scale SEO automation architectures."
+                          uid=19_87 ignored
+                          uid=19_88 generic
+                            uid=19_89 StaticText "I am a remote full-stack AI/ML developer and vibe coder with 17+ years of total software engineering experience and 4 years of deep, hands-on experience with LLMs, prompt engineering, and GenAI-powered web platforms (Vertex AI, LangChain, Supabase). I build and ship SaaS solutions daily using AI-assisted development tools like Cursor, Claude, and GitHub Copilot. Your focus-prioritized, async-first remote culture aligns perfectly with my professional drive to build impactful, rapid-prototype products and scale SEO automation architectures."
+                              uid=19_10 InlineTextBox "I am a remote full-stack AI/ML developer and vibe coder with 17+ years of total software"
+                              uid=19_10 InlineTextBox " "
+                              uid=19_10 InlineTextBox "engineering experience and 4 years of deep, hands-on experience with LLMs, prompt"
+                              uid=19_10 InlineTextBox " "
+                              uid=19_10 InlineTextBox "engineering, and GenAI-powered web platforms (Vertex AI, LangChain, Supabase). I build"
+                              uid=19_10 InlineTextBox " "
+                              uid=19_10 InlineTextBox "and ship SaaS solutions daily using AI-assisted development tools like Cursor, Claude,"
+                              uid=19_10 InlineTextBox " "
+                              uid=19_10 InlineTextBox "and GitHub Copilot. Your focus-prioritized, async-first remote culture aligns perfectly with"
+                              uid=19_10 InlineTextBox " "
+                              uid=19_10 InlineTextBox "my professional drive to build impactful, rapid-prototype products and scale SEO"
+                              uid=19_10 InlineTextBox " "
+                              uid=19_10 InlineTextBox "automation architectures."
+                  uid=19_90 ignored
+                    uid=19_91 generic
+                      uid=19_92 generic
+                        uid=17_104 heading "Upload your resume and cover letter" level="3"
+                          uid=19_93 StaticText "Upload your resume and cover letter"
+                            uid=19_10 InlineTextBox "Upload your resume and cover letter"
+                  uid=19_94 ignored
+                    uid=19_95 generic
+                      uid=17_108 button "Upload your resume and cover letter" value="No file chosen"
+                      uid=17_109 button "Click to choose a file or drag here"
+                        uid=19_96 ignored
+                          uid=19_97 StaticText "Click to choose a file or drag here"
+                            uid=19_10 InlineTextBox "Click to choose a file or drag here"
+                  uid=19_98 ignored
+                    uid=19_99 ignored
+                  uid=19_100 ignored
+                    uid=19_101 generic
+                      uid=19_102 generic
+                        uid=17_117 heading "How did you hear about this job?" level="3"
+                          uid=19_103 StaticText "How did you hear about this job?"
+                            uid=19_10 InlineTextBox "How did you hear about this job?"
+                  uid=19_104 group "How did you hear about this job?"
+                    uid=19_105 Legend
+                      uid=17_121 StaticText "How did you hear about this job?"
+                        uid=19_10 InlineTextBox "How did you hear about this job?"
+                    uid=19_106 ignored
+                      uid=19_107 generic
+                        uid=19_108 generic
+                          uid=19_109 generic
+                            uid=19_110 generic
+                              uid=17_127 checkbox "Company website"
+                            uid=19_111 ignored
+                              uid=19_112 ignored
+                    uid=19_113 ignored
+                      uid=19_114 generic
+                        uid=19_115 generic
+                          uid=19_116 generic
+                            uid=19_117 generic
+                              uid=17_135 checkbox "Word of mouth"
+                            uid=19_118 ignored
+                              uid=19_119 ignored
+                    uid=19_120 ignored
+                      uid=19_121 generic
+                        uid=19_122 generic
+                          uid=19_123 generic
+                            uid=19_124 generic
+                              uid=17_143 checkbox "LinkedIn" checked focusable focused
+                            uid=19_125 ignored
+                              uid=19_126 ignored
+                    uid=19_127 ignored
+                      uid=19_128 generic
+                        uid=19_129 generic
+                          uid=19_130 generic
+                            uid=19_131 generic
+                              uid=17_151 checkbox "Other"
+                            uid=19_132 ignored
+                              uid=19_133 ignored
+                uid=19_134 ignored
+                  uid=19_135 ignored
+                    uid=17_156 button "Submit"
+                      uid=19_136 ignored
+                        uid=19_137 StaticText "Submit"
+                          uid=19_10 InlineTextBox "Submit"
+      uid=19_138 generic
+        uid=17_160 alert atomic live="assertive" relevant="additions text"

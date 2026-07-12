@@ -1,0 +1,83 @@
+{
+  "company": "SQDM",
+  "position": "AI Engineer",
+  "application_url": "https://sqdm.na.teamtailor.com/jobs/649899-ai-engineer",
+  "status": "Submitted",
+  "details": "The application has been successfully completed and submitted automatically in full on behalf of Juan Miguel Jaramillo Gaviria. All screening questions, personal details, resume file upload, and custom-drafted cover letter were mapped and processed without manual intervention.",
+  "resume_uploaded": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf",
+  "screenshots": {
+    "before_submit": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshot_additional_job_4_before_submit.png",
+    "after_submit": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshot_additional_job_4_submitted.png"
+  },
+  "candidate_mapped_data": {
+    "first_name": "Juan Miguel",
+    "last_name": "Jaramillo Gaviria",
+    "email": "info@juanjaramillo.tech",
+    "phone": "+57 305 420 6139",
+    "location": "Bogotá, Colombia",
+    "linkedin": "https://www.linkedin.com/in/juan-jaramillo-ai/",
+    "portfolio": "https://juanjaramillo.tech",
+    "github": "https://github.com/juanjaragavi"
+  },
+  "screening_questions": [
+    {
+      "question": "Selecciona el nivel de inglés que refleje tu capacidad real para trabajo técnico diario*",
+      "answer": "C1/C2 (Avanzado/Fluido): lidero discusiones técnicas, argumento decisiones, manejo matices y redacto documentación sin dificultad."
+    },
+    {
+      "question": "¿Has trabajado de forma remota para clientes internacionales en horario de EE.UU.?*",
+      "answer": "Sí"
+    },
+    {
+      "question": "¿En qué ciudad resides actualmente?*",
+      "answer": "Bogotá"
+    },
+    {
+      "question": "¿Cuál es tu aspiración salarial mensual en pesos colombianos (COP)?*",
+      "answer": "Más de $15.000.000"
+    },
+    {
+      "question": "Have you shipped LLM/GenAI features to production?*",
+      "answer": "Yes — multiple production features with measurable outcomes."
+    },
+    {
+      "question": "¿Tienes experiencia desarrollando integraciones complejas entre sistemas empresariales?*",
+      "answer": "Sí"
+    },
+    {
+      "question": "Marca los servicios AWS que has utilizado directamente (configurar, desarrollar o diagnosticar).*",
+      "answer": [
+        "Lambda: desarrollo, triggers, manejo de errores/timeouts.",
+        "RDS: conexión, queries, troubleshooting básico.",
+        "IAM: roles/policies, permisos mínimos necesarios.",
+        "CloudWatch: logs, métricas, alarms/dashboards."
+      ]
+    },
+    {
+      "question": "Python proficiency for production systems*",
+      "answer": "Advanced — I build production APIs/services confidently."
+    },
+    {
+      "question": "¿Has trabajado con APIs REST, microservicios y sistemas distribuidos en entornos productivos?*",
+      "answer": "Sí"
+    },
+    {
+      "question": "¿Tienes experiencia práctica con plataformas cloud (AWS, Azure o GCP) y pipelines CI/CD?*",
+      "answer": "Sí"
+    }
+  ],
+  "steps_taken": [
+    "Retrieved candidate information and resume path from candidate_profile_data.json.",
+    "Navigated to Remote Rocketship job page at https://www.remoterocketship.com/company/sqdm/jobs/ai-engineer-colombia-remote/.",
+    "Located external apply link directing to Teamtailor at https://sqdm.na.teamtailor.com/jobs/649899-ai-engineer.",
+    "Opened direct Teamtailor application form page and cleared the cookie consent banner by clicking 'Aceptar todas las cookies'.",
+    "Expanded the job application form by clicking 'Enviar solicitud'.",
+    "Analyzed the form structures and extracted all 10 custom screening questions and multiple-choice field mappings.",
+    "Mapped personal information details (Name, Email, Phone) and checked the 'SQDM Colombia' location option.",
+    "Drafted and inserted a tailored cover letter explaining the candidate's deep Generative AI production experience and cloud systems expertise.",
+    "Copied resume to the browser-accessible directory and uploaded it directly into the form.",
+    "Captured a pre-submit snapshot of the complete and verified form.",
+    "Submitted the application successfully, confirming redirect to SQDM's application 'Thanks' page.",
+    "Captured a post-submit confirmation screenshot and archived all assets."
+  ]
+}

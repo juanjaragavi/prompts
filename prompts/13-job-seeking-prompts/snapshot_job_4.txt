@@ -1,0 +1,8 @@
+uid=17_0 RootWebArea "Job application" url="https://tally.so/r/w7V17L"
+  uid=17_5 main
+    uid=17_6 status atomic live="polite" relevant="additions text"
+      uid=23_0 StaticText "Form submitted"
+    uid=17_8 image "Form logo" url="https://storage.tally.so/d9e8da1d-adcc-4c45-8eb4-0345fa9b0d55/app-store-icon.png"
+    uid=17_10 form
+      uid=23_1 heading "Thank you for applying! We'll be in touch shortly." level="3"
+  uid=17_160 alert atomic live="assertive" relevant="additions text"

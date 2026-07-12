@@ -1,0 +1,693 @@
+uid=12_0 RootWebArea "AI/ML Computational Science Sr Analyst" url="https://www.accenture.com/in-en/careers/jobdetails?id=AIOC-S01653989_en&utm_source=vibehackers.io&utm_medium=referral&utm_campaign=vibehackers_apply"
+  uid=12_1 ignored
+    uid=12_2 generic
+      uid=12_3 region "skip navigation"
+        uid=12_4 link "Skip to main content" url="https://www.accenture.com/in-en/careers/jobdetails?id=AIOC-S01653989_en&utm_source=vibehackers.io&utm_medium=referral&utm_campaign=vibehackers_apply#main"
+          uid=12_5 StaticText "Skip to main content"
+            uid=12_6 InlineTextBox "Skip to main content"
+        uid=12_7 link "Skip to footer" url="https://www.accenture.com/in-en/careers/jobdetails?id=AIOC-S01653989_en&utm_source=vibehackers.io&utm_medium=referral&utm_campaign=vibehackers_apply#footer"
+          uid=12_8 StaticText "Skip to footer"
+            uid=12_6 InlineTextBox "Skip to footer"
+      uid=12_9 ignored
+        uid=12_10 generic
+          uid=12_11 banner
+            uid=12_12 generic
+              uid=12_13 generic
+                uid=12_14 ignored
+                  uid=12_15 ignored
+                    uid=12_16 generic
+                      uid=12_17 generic
+                        uid=12_18 navigation "global"
+                          uid=12_19 ignored
+                            uid=12_20 link "Accenture Home" url="https://www.accenture.com/in-en"
+                              uid=12_21 ignored
+                                uid=12_22 image "Accenture"
+                          uid=12_23 toolbar orientation="horizontal"
+                            uid=12_24 list
+                              uid=12_25 listitem level="1"
+                                uid=12_26 button "What we do" expandable haspopup="menu"
+                                  uid=12_27 generic
+                                    uid=12_28 StaticText "What we do"
+                                      uid=12_6 InlineTextBox "What we do"
+                                  uid=12_29 ignored
+                                    uid=12_30 generic
+                                      uid=12_6 StaticText ""
+                                        uid=12_6 InlineTextBox ""
+                                uid=12_31 ignored
+                                  uid=12_32 generic
+                                    uid=12_33 ignored
+                                      uid=12_34 ignored
+                                        uid=12_35 ignored
+                                        uid=12_36 ignored
+                                          uid=12_37 ignored
+                                        uid=12_38 ignored
+                                          uid=12_39 ignored
+                                        uid=12_40 ignored
+                                        uid=12_41 ignored
+                                        uid=12_42 ignored
+                                        uid=12_43 ignored
+                                        uid=12_44 ignored
+                                        uid=12_45 ignored
+                                        uid=12_46 ignored
+                                        uid=12_47 ignored
+                                        uid=12_48 ignored
+                                        uid=12_49 ignored
+                                        uid=12_50 ignored
+                                        uid=12_51 ignored
+                                        uid=12_52 ignored
+                                        uid=12_53 ignored
+                                        uid=12_54 ignored
+                                        uid=12_55 ignored
+                                        uid=12_56 ignored
+                                        uid=12_57 ignored
+                                        uid=12_58 ignored
+                                        uid=12_59 ignored
+                                          uid=12_60 ignored
+                                        uid=12_61 ignored
+                                        uid=12_62 ignored
+                                        uid=12_63 ignored
+                                        uid=12_64 ignored
+                                        uid=12_65 ignored
+                                        uid=12_66 ignored
+                                        uid=12_67 ignored
+                                        uid=12_68 ignored
+                                        uid=12_69 ignored
+                                        uid=12_70 ignored
+                                        uid=12_71 ignored
+                                        uid=12_72 ignored
+                                        uid=12_73 ignored
+                                        uid=12_74 ignored
+                                        uid=12_75 ignored
+                                        uid=12_76 ignored
+                                        uid=12_77 ignored
+                                        uid=12_78 ignored
+                                        uid=12_79 ignored
+                                        uid=12_80 ignored
+                              uid=12_81 listitem level="1"
+                                uid=12_82 link "What we think" url="https://www.accenture.com/in-en/insights"
+                                  uid=12_83 generic
+                                    uid=12_84 StaticText "What we think"
+                                      uid=12_6 InlineTextBox "What we think"
+                              uid=12_85 listitem level="1"
+                                uid=12_86 button "Who we are" expandable haspopup="menu"
+                                  uid=12_87 generic
+                                    uid=12_88 StaticText "Who we are"
+                                      uid=12_6 InlineTextBox "Who we are"
+                                  uid=12_89 ignored
+                                    uid=12_90 generic
+                                      uid=12_6 StaticText ""
+                                        uid=12_6 InlineTextBox ""
+                                uid=12_91 ignored
+                                  uid=12_92 generic
+                                    uid=12_93 ignored
+                                      uid=12_94 ignored
+                                        uid=12_95 ignored
+                                        uid=12_96 ignored
+                                          uid=12_97 ignored
+                                        uid=12_98 ignored
+                                          uid=12_99 ignored
+                                        uid=12_100 ignored
+                                        uid=12_101 ignored
+                                        uid=12_102 ignored
+                                        uid=12_103 ignored
+                                        uid=12_104 ignored
+                                        uid=12_105 ignored
+                                          uid=12_106 ignored
+                                        uid=12_107 ignored
+                                        uid=12_108 ignored
+                                        uid=12_109 ignored
+                                          uid=12_110 ignored
+                                        uid=12_111 ignored
+                                        uid=12_112 ignored
+                                        uid=12_113 ignored
+                              uid=12_114 listitem level="1"
+                                uid=12_115 button "Careers" expandable haspopup="menu"
+                                  uid=12_116 generic
+                                    uid=12_117 StaticText "Careers"
+                                      uid=12_6 InlineTextBox "Careers"
+                                  uid=12_118 ignored
+                                    uid=12_119 generic
+                                      uid=12_6 StaticText ""
+                                        uid=12_6 InlineTextBox ""
+                                uid=12_120 ignored
+                                  uid=12_121 generic
+                                    uid=12_122 ignored
+                                      uid=12_123 ignored
+                                        uid=12_124 ignored
+                                        uid=12_125 ignored
+                                          uid=12_126 ignored
+                                        uid=12_127 ignored
+                                          uid=12_128 ignored
+                                        uid=12_129 ignored
+                                        uid=12_130 ignored
+                                        uid=12_131 ignored
+                                          uid=12_132 ignored
+                                        uid=12_133 ignored
+                                        uid=12_134 ignored
+                                        uid=12_135 ignored
+                                        uid=12_136 ignored
+                                        uid=12_137 ignored
+                                          uid=12_138 ignored
+                                        uid=12_139 ignored
+                                        uid=12_140 ignored
+                                        uid=12_141 ignored
+                          uid=12_142 ignored
+                            uid=12_143 ignored
+                              uid=12_144 link "Search" url="https://www.accenture.com/in-en/search"
+                                uid=12_145 generic
+                                  uid=12_146 StaticText "Search"
+                                    uid=12_6 InlineTextBox "Search"
+                                uid=12_147 ignored
+                                  uid=12_148 ignored
+                            uid=12_149 ignored
+                              uid=12_150 button "Country and language selector. Current Country: India" expandable haspopup="listbox"
+                                uid=12_151 ignored
+                                  uid=12_6 generic
+                                    uid=12_6 StaticText ""
+                                      uid=12_6 InlineTextBox ""
+                                uid=12_152 ignored
+                                  uid=12_153 StaticText "India"
+                                    uid=12_6 InlineTextBox "India"
+                                uid=12_154 ignored
+                                  uid=12_155 ignored
+                                    uid=12_6 generic
+                                      uid=12_6 StaticText ""
+                                        uid=12_6 InlineTextBox ""
+                              uid=12_156 ignored
+        uid=12_157 main
+          uid=12_158 generic
+            uid=12_159 ignored
+              uid=12_160 generic
+                uid=12_161 generic
+                  uid=12_162 generic
+                    uid=12_163 generic
+                      uid=12_164 generic
+                        uid=12_165 ignored
+                          uid=12_166 link "Careers" url="https://www.accenture.com/in-en/careers"
+                            uid=12_167 StaticText "Careers"
+                              uid=12_6 InlineTextBox "Careers"
+                        uid=12_168 ignored
+                          uid=12_169 navigation "Page"
+                            uid=12_170 link "Job Search" url="https://www.accenture.com/in-en/careers/jobsearch"
+                              uid=12_171 ignored
+                                uid=12_172 StaticText "Job Search"
+                                  uid=12_6 InlineTextBox "Job Search"
+                            uid=12_173 link "Saved Jobs" url="https://www.accenture.com/in-en/careers/saved-jobs"
+                              uid=12_174 ignored
+                                uid=12_175 StaticText "Saved Jobs"
+                                  uid=12_6 InlineTextBox "Saved Jobs"
+                            uid=12_176 link "Access Application" description="This opens a new tab away from Accenture.com." url="https://accenture.wd103.myworkdayjobs.com/AccentureCareers/userHome"
+                              uid=12_177 ignored
+                                uid=12_178 StaticText "Access Application"
+                                  uid=12_6 InlineTextBox "Access Application"
+            uid=12_179 ignored
+              uid=12_180 ignored
+                uid=12_181 ignored
+            uid=12_182 ignored
+              uid=12_183 generic
+                uid=12_184 ignored
+                  uid=12_185 heading "AI/ML Computational Science Sr Analyst" level="1"
+                    uid=12_186 StaticText "AI/ML Computational Science Sr Analyst"
+                      uid=12_6 InlineTextBox "AI/ML Computational Science Sr "
+                      uid=12_6 InlineTextBox "Analyst"
+                  uid=12_187 ignored
+                    uid=12_188 generic
+                      uid=12_189 StaticText "AI/ML Computational Science Senior Analyst "
+                        uid=12_6 InlineTextBox "AI/ML Computational Science Senior Analyst "
+                      uid=12_190 StaticText "|"
+                        uid=12_6 InlineTextBox "|"
+                      uid=12_191 StaticText " Full time "
+                        uid=12_6 InlineTextBox " Full time "
+                      uid=12_192 StaticText "|"
+                        uid=12_6 InlineTextBox "|"
+                      uid=12_193 StaticText " Experience: 2-5 years"
+                        uid=12_6 InlineTextBox " Experience: 2-5 years"
+                    uid=12_194 generic
+                      uid=12_195 StaticText "Job No. AIOC-S01653989 "
+                        uid=12_6 InlineTextBox "Job No. AIOC-S01653989 "
+                      uid=12_196 StaticText "|"
+                        uid=12_6 InlineTextBox "|"
+                      uid=12_197 StaticText " Bengaluru"
+                        uid=12_6 InlineTextBox " Bengaluru"
+                  uid=12_198 ignored
+                    uid=12_199 button "Save this job AI/ML Computational Science Sr Analyst"
+                      uid=12_200 generic description="Select to save job"
+                        uid=12_201 generic
+                          uid=12_202 StaticText "Save this job"
+                            uid=12_6 InlineTextBox "Save this job"
+                        uid=12_203 ignored
+                          uid=12_204 ignored
+                    uid=12_205 generic
+                      uid=12_206 button "Share this job" expandable
+                        uid=12_207 generic
+                          uid=12_208 StaticText "Share this job"
+                            uid=12_6 InlineTextBox "Share this job"
+                        uid=12_209 ignored
+                          uid=12_210 ignored
+                      uid=12_211 list
+                        uid=12_212 listitem level="1"
+                          uid=12_213 ignored
+                            uid=12_214 ignored
+                        uid=12_215 listitem level="1"
+                          uid=12_216 ignored
+                            uid=12_217 ignored
+                        uid=12_218 listitem level="1"
+                          uid=12_219 ignored
+                            uid=12_220 ignored
+                        uid=12_221 listitem level="1"
+                          uid=12_222 ignored
+                            uid=12_223 ignored
+                        uid=12_224 listitem level="1"
+                          uid=12_225 ignored
+                            uid=12_226 ignored
+                  uid=12_227 link "Apply for this job. This will open the job application in a new tab." description="This will open the job application in a new tab." url="https://mycareer.accenture.com/?source=careers&JRID=AIOC-S01653989"
+                    uid=12_228 generic
+                      uid=12_229 StaticText "Apply for this job"
+                        uid=12_6 InlineTextBox "Apply for this job"
+                uid=12_230 ignored
+                  uid=12_231 ignored
+                    uid=12_232 ignored
+                      uid=12_233 generic
+                        uid=12_234 button "Job Description" expandable expanded
+                          uid=12_235 heading "Job Description" level="2"
+                            uid=12_236 StaticText "Job Description"
+                              uid=12_6 InlineTextBox "Job Description"
+                          uid=12_237 generic
+                        uid=12_238 generic
+                          uid=12_239 generic
+                            uid=12_240 StaticText "Skill required:"
+                              uid=12_6 InlineTextBox "Skill required:"
+                            uid=12_241 StaticText " Tech for Operations - Artificial Intelligence (AI)"
+                              uid=12_6 InlineTextBox " Tech for Operations - Artificial Intelligence (AI)"
+                            uid=12_242 LineBreak "
+"
+                              uid=12_6 InlineTextBox "
+"
+                            uid=12_243 StaticText "Designation:"
+                              uid=12_6 InlineTextBox "Designation:"
+                            uid=12_244 StaticText " AI/ML Computational Science Sr Analyst"
+                              uid=12_6 InlineTextBox " AI/ML Computational Science Sr Analyst"
+                            uid=12_245 LineBreak "
+"
+                              uid=12_6 InlineTextBox "
+"
+                            uid=12_246 StaticText "Qualifications:"
+                              uid=12_6 InlineTextBox "Qualifications:"
+                            uid=12_247 StaticText "Any Graduation"
+                              uid=12_6 InlineTextBox "Any Graduation"
+                            uid=12_248 LineBreak "
+"
+                              uid=12_6 InlineTextBox "
+"
+                            uid=12_249 StaticText "Years of Experience:"
+                              uid=12_6 InlineTextBox "Years of Experience:"
+                            uid=12_250 StaticText "3 years"
+                              uid=12_6 InlineTextBox "3 years"
+                            uid=12_251 LineBreak "
+"
+                              uid=12_6 InlineTextBox "
+"
+                            uid=12_252 StaticText "Language - Ability:"
+                              uid=12_6 InlineTextBox "Language - Ability:"
+                            uid=12_253 StaticText "English(International) - Intermediate"
+                              uid=12_6 InlineTextBox "English(International) - Intermediate"
+                            uid=12_254 LineBreak "
+"
+                              uid=12_6 InlineTextBox "
+"
+                            uid=12_255 StaticText "About Accenture"
+                              uid=12_6 InlineTextBox "About Accenture"
+                            uid=12_256 LineBreak "
+"
+                              uid=12_6 InlineTextBox "
+"
+                            uid=12_257 StaticText "Accenture is a global professional services company with leading capabilities in digital, cloud and security.Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Technology and Operations services, and Accenture Song— all powered by the world’s largest network of Advanced Technology and Intelligent Operations centers. Our 784,000 people deliver on the promise of technology and human ingenuity every day, serving clients in more than 120 countries. We embrace the power of change to create value and shared success for our clients, people, shareholders, partners and communities.Visit us at www.accenture.com"
+                              uid=12_6 InlineTextBox "Accenture is a global professional services company with leading capabilities in "
+                              uid=12_6 InlineTextBox "digital, cloud and security.Combining unmatched experience and specialized skills "
+                              uid=12_6 InlineTextBox "across more than 40 industries, we offer Strategy and Consulting, Technology and "
+                              uid=12_6 InlineTextBox "Operations services, and Accenture Song— all powered by the world’s largest "
+                              uid=12_6 InlineTextBox "network of Advanced Technology and Intelligent Operations centers. Our 784,000 "
+                              uid=12_6 InlineTextBox "people deliver on the promise of technology and human ingenuity every day, serving "
+                              uid=12_6 InlineTextBox "clients in more than 120 countries. We embrace the power of change to create value "
+                              uid=12_6 InlineTextBox "and shared success for our clients, people, shareholders, partners and "
+                              uid=12_6 InlineTextBox "communities.Visit us at www.accenture.com"
+                            uid=12_258 LineBreak "
+"
+                              uid=12_6 InlineTextBox "
+"
+                            uid=12_259 StaticText "What would you do?"
+                              uid=12_6 InlineTextBox "What would you do?"
+                            uid=12_260 StaticText " About Accenture Operations Accenture Operations is a global leader in transforming business processes through technology, data, and human ingenuity. We help organizations move from transactional to transformational operations by leveraging advanced analytics, automation, and AI-powered platforms like SynOps. With over 220,000 professionals across 50+ delivery locations, Accenture Operations enables clients to access new performance frontiers, improve agility, and deliver exceptional experiences for customers and employees. Our approach creates 360° value—driving efficiency, innovation, and sustainable growth across industries. Python Developer – Level 10 (Senior Analyst) Job Title - Python Developer Career Level - Level 10 – Senior Analyst Location - Bengaluru (as applicable) Experience - 3 Years Qualification - Bachelor s Degree in Computer Science, Engineering, Information Technology, or related discipline (15 years of full-time education required). As a Python Developer, you will be responsible for designing, developing, testing, and deploying scalable applications and services using Python technologies. You will collaborate with cross-functional teams to deliver high-quality software solutions while ensuring performance, reliability, and maintainability. The ideal candidate should possess strong problem-solving skills, hands-on experience with Python frameworks, API development, databases, cloud technologies, and modern software engineering practices. You will be expected to work independently, contribute to technical discussions, and become a Subject Matter Expert (SME) in the assigned domain."
+                              uid=12_6 InlineTextBox " About Accenture Operations Accenture Operations is a global "
+                              uid=12_6 InlineTextBox "leader in transforming business processes through technology, data, and human "
+                              uid=12_6 InlineTextBox "ingenuity. We help organizations move from transactional to transformational "
+                              uid=12_6 InlineTextBox "operations by leveraging advanced analytics, automation, and AI-powered platforms "
+                              uid=12_6 InlineTextBox "like SynOps. With over 220,000 professionals across 50+ delivery locations, "
+                              uid=12_6 InlineTextBox "Accenture Operations enables clients to access new performance frontiers, improve "
+                              uid=12_6 InlineTextBox "agility, and deliver exceptional experiences for customers and employees. Our "
+                              uid=12_6 InlineTextBox "approach creates 360° value—driving efficiency, innovation, and sustainable growth "
+                              uid=12_6 InlineTextBox "across industries. Python Developer – Level 10 (Senior Analyst) Job Title - Python "
+                              uid=12_6 InlineTextBox "Developer Career Level - Level 10 – Senior Analyst Location - Bengaluru (as applicable) "
+                              uid=12_6 InlineTextBox "Experience - 3 Years Qualification - Bachelor s Degree in Computer Science, "
+                              uid=12_6 InlineTextBox "Engineering, Information Technology, or related discipline (15 years of full-time "
+                              uid=12_6 InlineTextBox "education required). As a Python Developer, you will be responsible for designing, "
+                              uid=12_6 InlineTextBox "developing, testing, and deploying scalable applications and services using Python "
+                              uid=12_6 InlineTextBox "technologies. You will collaborate with cross-functional teams to deliver high-quality "
+                              uid=12_6 InlineTextBox "software solutions while ensuring performance, reliability, and maintainability. The "
+                              uid=12_6 InlineTextBox "ideal candidate should possess strong problem-solving skills, hands-on experience "
+                              uid=12_6 InlineTextBox "with Python frameworks, API development, databases, cloud technologies, and "
+                              uid=12_6 InlineTextBox "modern software engineering practices. You will be expected to work independently, "
+                              uid=12_6 InlineTextBox "contribute to technical discussions, and become a Subject Matter Expert (SME) in the "
+                              uid=12_6 InlineTextBox "assigned domain."
+                            uid=12_261 LineBreak "
+"
+                              uid=12_6 InlineTextBox "
+"
+                            uid=12_262 StaticText "What are we looking for?"
+                              uid=12_6 InlineTextBox "What are we looking for?"
+                            uid=12_263 StaticText " Core Python Development • Strong proficiency in Python with 5+ years of development experience. • Experience with Python frameworks such as: o Django o FastAPI o Flask • Object-Oriented Programming (OOP) • Design Patterns and Software Engineering Principles API & Integration • RESTful API Development • Microservices Architecture • Third-party API Integration Database Technologies • SQL (PostgreSQL, MySQL, SQL Server) • NoSQL Databases (MongoDB, DynamoDB) • Database Design and Optimization Version Control & DevOps • Git and Version Control Systems • CI/CD Pipelines • Docker • Kubernetes (preferred) Cloud Platforms • Microsoft Azure • AWS • Google Cloud Platform (GCP) Testing & Quality • Unit Testing • Integration Testing • Debugging and Performance Optimization Professional Skills • Strong analytical and problem-solving abilities. • Excellent communication and stakeholder management skills. • Ability to work independently with minimal supervision. • Active participation in technical discussions and solutioning sessions. • Strong collaboration and teamwork skills. • Ability to mentor junior developers and support knowledge-sharing initiatives. • Adaptability to fast-paced Agile environments. • Exposure to Generative AI concepts including: o Large Language Models (LLMs) o Prompt Engineering o Retrieval Augmented Generation (RAG) o Embeddings o Vector Databases • Experience with: o LangChain o OpenAI APIs o Hugging Face o LangGraph • Knowledge of Agentic AI architectures. • Exposure to ML/Data Science libraries such as: o Pandas o NumPy o Scikit-Learn • Familiarity with AI application deployment and monitoring. Good to have skills: • Github Copilot, Kiro • Any relevant vibe-coding experience."
+                              uid=12_6 InlineTextBox " Core Python Development • Strong proficiency in Python "
+                              uid=12_6 InlineTextBox "with 5+ years of development experience. • Experience with Python frameworks such "
+                              uid=12_6 InlineTextBox "as: o Django o FastAPI o Flask • Object-Oriented Programming (OOP) • Design Patterns "
+                              uid=12_6 InlineTextBox "and Software Engineering Principles API & Integration • RESTful API Development • "
+                              uid=12_6 InlineTextBox "Microservices Architecture • Third-party API Integration Database Technologies • SQL "
+                              uid=12_6 InlineTextBox "(PostgreSQL, MySQL, SQL Server) • NoSQL Databases (MongoDB, DynamoDB) • "
+                              uid=12_6 InlineTextBox "Database Design and Optimization Version Control & DevOps • Git and Version "
+                              uid=12_6 InlineTextBox "Control Systems • CI/CD Pipelines • Docker • Kubernetes (preferred) Cloud Platforms • "
+                              uid=12_6 InlineTextBox "Microsoft Azure • AWS • Google Cloud Platform (GCP) Testing & Quality • Unit Testing • "
+                              uid=12_6 InlineTextBox "Integration Testing • Debugging and Performance Optimization Professional Skills • "
+                              uid=12_6 InlineTextBox "Strong analytical and problem-solving abilities. • Excellent communication and "
+                              uid=12_6 InlineTextBox "stakeholder management skills. • Ability to work independently with minimal "
+                              uid=12_6 InlineTextBox "supervision. • Active participation in technical discussions and solutioning sessions. • "
+                              uid=12_6 InlineTextBox "Strong collaboration and teamwork skills. • Ability to mentor junior developers and "
+                              uid=12_6 InlineTextBox "support knowledge-sharing initiatives. • Adaptability to fast-paced Agile "
+                              uid=12_6 InlineTextBox "environments. • Exposure to Generative AI concepts including: o Large Language "
+                              uid=12_6 InlineTextBox "Models (LLMs) o Prompt Engineering o Retrieval Augmented Generation (RAG) o "
+                              uid=12_6 InlineTextBox "Embeddings o Vector Databases • Experience with: o LangChain o OpenAI APIs o "
+                              uid=12_6 InlineTextBox "Hugging Face o LangGraph • Knowledge of Agentic AI architectures. • Exposure to "
+                              uid=12_6 InlineTextBox "ML/Data Science libraries such as: o Pandas o NumPy o Scikit-Learn • Familiarity with "
+                              uid=12_6 InlineTextBox "AI application deployment and monitoring. Good to have skills: • Github Copilot, Kiro • "
+                              uid=12_6 InlineTextBox "Any relevant vibe-coding experience."
+                            uid=12_264 LineBreak "
+"
+                              uid=12_6 InlineTextBox "
+"
+                            uid=12_265 StaticText "Roles and Responsibilities:"
+                              uid=12_6 InlineTextBox "Roles and Responsibilities:"
+                            uid=12_266 StaticText " • Design, develop, and maintain enterprise-grade applications using Python. • Build scalable RESTful APIs and microservices. • Develop and optimize backend services for performance and reliability. • Collaborate with business stakeholders, architects, and development teams to translate requirements into technical solutions. • Participate in solution design, code reviews, testing, and deployment activities. • Troubleshoot application issues and provide timely resolutions. • Create and maintain technical documentation, workflows, and user guides. • Follow software development best practices, coding standards, and security guidelines. • Contribute to Agile delivery processes and continuous improvement initiatives. • Stay current with emerging technologies and industry trends. • Expected to perform independently and become an SME. • Provide technical solutions to work-related challenges. • Participate in architecture and design discussions. • Drive quality, innovation, and engineering excellence. • Contribute to delivery success and project objectives."
+                              uid=12_6 InlineTextBox " • Design, develop, and maintain enterprise-grade "
+                              uid=12_6 InlineTextBox "applications using Python. • Build scalable RESTful APIs and microservices. • Develop "
+                              uid=12_6 InlineTextBox "and optimize backend services for performance and reliability. • Collaborate with "
+                              uid=12_6 InlineTextBox "business stakeholders, architects, and development teams to translate requirements "
+                              uid=12_6 InlineTextBox "into technical solutions. • Participate in solution design, code reviews, testing, and "
+                              uid=12_6 InlineTextBox "deployment activities. • Troubleshoot application issues and provide timely "
+                              uid=12_6 InlineTextBox "resolutions. • Create and maintain technical documentation, workflows, and user "
+                              uid=12_6 InlineTextBox "guides. • Follow software development best practices, coding standards, and security "
+                              uid=12_6 InlineTextBox "guidelines. • Contribute to Agile delivery processes and continuous improvement "
+                              uid=12_6 InlineTextBox "initiatives. • Stay current with emerging technologies and industry trends. • Expected "
+                              uid=12_6 InlineTextBox "to perform independently and become an SME. • Provide technical solutions to work-"
+                              uid=12_6 InlineTextBox "related challenges. • Participate in architecture and design discussions. • Drive quality, "
+                              uid=12_6 InlineTextBox "innovation, and engineering excellence. • Contribute to delivery success and project "
+                              uid=12_6 InlineTextBox "objectives."
+                      uid=12_267 generic
+                        uid=12_268 button "Qualification" expandable
+                          uid=12_269 heading "Qualification" level="2"
+                            uid=12_270 StaticText "Qualification"
+                              uid=12_6 InlineTextBox "Qualification"
+                          uid=12_271 generic
+                      uid=12_272 generic
+                        uid=12_273 button "Locations" expandable
+                          uid=12_274 heading "Locations" level="2"
+                            uid=12_275 StaticText "Locations"
+                              uid=12_6 InlineTextBox "Locations"
+                          uid=12_276 generic
+                      uid=12_277 generic
+                        uid=12_278 button "Additional Information" expandable
+                          uid=12_279 heading "Additional Information" level="2"
+                            uid=12_280 StaticText "Additional Information"
+                              uid=12_6 InlineTextBox "Additional Information"
+                          uid=12_281 generic
+                      uid=12_282 generic
+                        uid=12_283 button "About Accenture" expandable
+                          uid=12_284 heading "About Accenture" level="2"
+                            uid=12_285 StaticText "About Accenture"
+                              uid=12_6 InlineTextBox "About Accenture"
+                          uid=12_286 generic
+                      uid=12_287 generic
+                        uid=12_288 button "Important Notice" expandable
+                          uid=12_289 heading "Important Notice" level="2"
+                            uid=12_290 StaticText "Important Notice"
+                              uid=12_6 InlineTextBox "Important Notice"
+                          uid=12_291 generic
+                  uid=12_292 ignored
+                    uid=12_293 generic
+                      uid=12_294 heading "Similar jobs" level="2"
+                        uid=12_295 StaticText "Similar jobs"
+                          uid=12_6 InlineTextBox "Similar jobs"
+                      uid=12_296 ignored
+                        uid=12_297 ignored
+                          uid=12_298 ignored
+                            uid=12_299 ignored
+                            uid=12_300 heading "I&F Decision Sci Practitioner Specialist" level="3"
+                              uid=12_301 StaticText "I&F Decision Sci Practitioner Specialist"
+                                uid=12_6 InlineTextBox "I&F Decision Sci Practitioner "
+                                uid=12_6 InlineTextBox "Specialist"
+                            uid=12_302 generic
+                              uid=12_303 StaticText "Bengaluru "
+                                uid=12_6 InlineTextBox "Bengaluru "
+                              uid=12_304 StaticText "| "
+                                uid=12_6 InlineTextBox "| "
+                              uid=12_305 StaticText "Full time "
+                                uid=12_6 InlineTextBox "Full time "
+                              uid=12_306 StaticText "| "
+                                uid=12_6 InlineTextBox "| "
+                              uid=12_307 StaticText "Experience: 5-10 years"
+                                uid=12_6 InlineTextBox "Experience: 5-10 years"
+                          uid=12_308 link "See this job" url="https://www.accenture.com/in-en/careers/jobdetails?id=AIOC-S01600008_en&title=I%26F+Decision+Sci+Practitioner+Specialist"
+                            uid=12_309 generic
+                              uid=12_310 StaticText "See this job"
+                                uid=12_6 InlineTextBox "See this job"
+                            uid=12_311 ignored
+                              uid=12_312 ignored
+                        uid=12_313 ignored
+                          uid=12_314 ignored
+                            uid=12_315 ignored
+                            uid=12_316 heading "S&C Global Network - AI - Song - Growth Analytics - Consultant" level="3"
+                              uid=12_317 StaticText "S&C Global Network - AI - Song - Growth Analytics - Consultant"
+                                uid=12_6 InlineTextBox "S&C Global Network - AI - Song - "
+                                uid=12_6 InlineTextBox "Growth Analytics - Consultant"
+                            uid=12_318 generic
+                              uid=12_319 StaticText "Chennai "
+                                uid=12_6 InlineTextBox "Chennai "
+                              uid=12_320 StaticText "| "
+                                uid=12_6 InlineTextBox "| "
+                              uid=12_321 StaticText "Full time "
+                                uid=12_6 InlineTextBox "Full time "
+                              uid=12_322 StaticText "| "
+                                uid=12_6 InlineTextBox "| "
+                              uid=12_323 StaticText "Experience: 5-10 years"
+                                uid=12_6 InlineTextBox "Experience: 5-10 years"
+                          uid=12_324 link "See this job" url="https://www.accenture.com/in-en/careers/jobdetails?id=R00290199_en&title=S%26C+Global+Network+-+AI+-+Song+-+Growth+Analytics+-+Consultant"
+                            uid=12_325 generic
+                              uid=12_326 StaticText "See this job"
+                                uid=12_6 InlineTextBox "See this job"
+                            uid=12_327 ignored
+                              uid=12_328 ignored
+                        uid=12_329 ignored
+                          uid=12_330 ignored
+                            uid=12_331 ignored
+                            uid=12_332 heading "S&C GN Data & AI - Retail – L7" level="3"
+                              uid=12_333 StaticText "S&C GN Data & AI - Retail – L7"
+                                uid=12_6 InlineTextBox "S&C GN Data & AI - Retail – L7"
+                            uid=12_334 generic
+                              uid=12_335 StaticText "Gurugram "
+                                uid=12_6 InlineTextBox "Gurugram "
+                              uid=12_336 StaticText "| "
+                                uid=12_6 InlineTextBox "| "
+                              uid=12_337 StaticText "Full time "
+                                uid=12_6 InlineTextBox "Full time "
+                              uid=12_338 StaticText "| "
+                                uid=12_6 InlineTextBox "| "
+                              uid=12_339 StaticText "Experience: 10-12 years"
+                                uid=12_6 InlineTextBox "Experience: 10-12 years"
+                          uid=12_340 link "See this job" url="https://www.accenture.com/in-en/careers/jobdetails?id=R00288301_en&title=S%26C+GN+Data+%26+AI+-+Retail+%E2%80%93+L7"
+                            uid=12_341 generic
+                              uid=12_342 StaticText "See this job"
+                                uid=12_6 InlineTextBox "See this job"
+                            uid=12_343 ignored
+                              uid=12_344 ignored
+            uid=12_345 ignored
+              uid=12_346 generic
+                uid=12_347 ignored
+                  uid=12_348 heading "Learn more about the hiring process at Accenture" level="2"
+                    uid=12_349 StaticText "Learn more about the hiring process at Accenture"
+                      uid=12_6 InlineTextBox "Learn more about "
+                      uid=12_6 InlineTextBox "the hiring process "
+                      uid=12_6 InlineTextBox "at Accenture"
+                  uid=12_350 list
+                    uid=12_351 listitem level="1"
+                      uid=12_352 generic
+                        uid=12_6 StaticText ""
+                          uid=12_6 InlineTextBox ""
+                      uid=12_353 link "Learn more about Benefits information" url="https://www.accenture.com/in-en/careers/local/benefits"
+                        uid=12_354 StaticText "Benefits information"
+                          uid=12_6 InlineTextBox "Benefits information"
+                    uid=12_355 listitem level="1"
+                      uid=12_356 generic
+                        uid=12_6 StaticText ""
+                          uid=12_6 InlineTextBox ""
+                      uid=12_357 link "Learn more about Hiring process (Q&A)" url="https://www.accenture.com/in-en/careers/explore-careers/area-of-interest/journey-to-accenture"
+                        uid=12_358 StaticText "Hiring process (Q&A)"
+                          uid=12_6 InlineTextBox "Hiring process (Q&A)"
+                    uid=12_359 listitem level="1"
+                      uid=12_360 generic
+                        uid=12_6 StaticText ""
+                          uid=12_6 InlineTextBox ""
+                      uid=12_361 link "Learn more about Interview tips" url="https://www.accenture.com/in-en/careers/explore-careers/area-of-interest/pro-tips"
+                        uid=12_362 StaticText "Interview tips"
+                          uid=12_6 InlineTextBox "Interview tips"
+                    uid=12_363 listitem level="1"
+                      uid=12_364 generic
+                        uid=12_6 StaticText ""
+                          uid=12_6 InlineTextBox ""
+                      uid=12_365 link "Learn more about Using AI" url="https://www.accenture.com/in-en/careers/explore-careers/area-of-interest/ai-usage-job-search"
+                        uid=12_366 StaticText "Using AI"
+                          uid=12_6 InlineTextBox "Using AI"
+        uid=12_367 contentinfo
+          uid=12_368 generic
+            uid=12_369 generic
+              uid=12_370 ignored
+                uid=12_371 ignored
+                  uid=12_372 generic
+                    uid=12_373 generic
+                      uid=12_374 heading "Let there be change" level="2"
+                        uid=12_375 StaticText "Let there be change"
+                          uid=12_6 InlineTextBox "Let there be change"
+                      uid=12_376 ignored
+                        uid=12_377 ignored
+                          uid=12_378 list
+                            uid=12_379 listitem level="1"
+                              uid=12_380 link "About Us" url="https://www.accenture.com/in-en/about/company-index"
+                                uid=12_381 StaticText "About Us"
+                                  uid=12_6 InlineTextBox "About Us"
+                            uid=12_382 listitem level="1"
+                              uid=12_383 link "Contact Us" url="https://www.accenture.com/in-en/about/contact-us"
+                                uid=12_384 StaticText "Contact Us"
+                                  uid=12_6 InlineTextBox "Contact Us"
+                            uid=12_385 listitem level="1"
+                              uid=12_386 link "Alumni" description="Accenture Alumni Network. This opens a new tab away from Accenture.com." url="https://www.accenturealumni.com/"
+                                uid=12_387 StaticText "Alumni"
+                                  uid=12_6 InlineTextBox "Alumni"
+                            uid=12_388 listitem level="1"
+                              uid=12_389 link "Privacy Statement" url="https://www.accenture.com/in-en/support/privacy-policy"
+                                uid=12_390 StaticText "Privacy Statement"
+                                  uid=12_6 InlineTextBox "Privacy Statement"
+                          uid=12_391 list
+                            uid=12_392 listitem level="1"
+                              uid=12_393 link "Recruiting and Hiring Privacy Statement" url="https://www.accenture.com/in-en/careers/support/privacy-statement"
+                                uid=12_394 StaticText "Recruiting and Hiring Privacy Statement"
+                                  uid=12_6 InlineTextBox "Recruiting and Hiring "
+                                  uid=12_6 InlineTextBox "Privacy Statement"
+                            uid=12_395 listitem level="1"
+                              uid=12_396 link "Terms & Conditions" url="https://www.accenture.com/in-en/support/terms-of-use"
+                                uid=12_397 StaticText "Terms & Conditions"
+                                  uid=12_6 InlineTextBox "Terms & Conditions"
+                            uid=12_398 listitem level="1"
+                              uid=12_399 link "Cookie Policy" url="https://www.accenture.com/in-en/support/company-cookies-similar-technology"
+                                uid=12_400 StaticText "Cookie Policy"
+                                  uid=12_6 InlineTextBox "Cookie Policy"
+                            uid=12_401 listitem level="1"
+                              uid=12_402 link "Accessibility Statement" url="https://www.accenture.com/in-en/support/accessibility-statement"
+                                uid=12_403 StaticText "Accessibility Statement"
+                                  uid=12_6 InlineTextBox "Accessibility Statement"
+                            uid=12_404 listitem level="1"
+                              uid=12_405 link "Sitemap" url="https://www.accenture.com/in-en/support/site-map"
+                                uid=12_406 StaticText "Sitemap"
+                                  uid=12_6 InlineTextBox "Sitemap"
+                            uid=12_407 listitem level="1"
+                              uid=12_408 link "Global Meritocracy" url="https://www.accenture.com/in-en/support/global-meritocracy"
+                                uid=12_409 StaticText "Global Meritocracy"
+                                  uid=12_6 InlineTextBox "Global Meritocracy"
+                        uid=12_410 paragraph
+                          uid=12_411 StaticText "© "
+                            uid=12_6 InlineTextBox "© "
+                          uid=12_412 StaticText "2026"
+                            uid=12_6 InlineTextBox "2026"
+                          uid=12_413 StaticText " Accenture. All Rights Reserved."
+                            uid=12_6 InlineTextBox " Accenture. All Rights Reserved."
+                    uid=12_414 generic
+                      uid=12_415 ignored
+            uid=12_416 ignored
+      uid=12_417 generic
+        uid=12_418 region "Cookie banner" focusable focused
+          uid=12_419 dialog "Privacy"
+            uid=12_420 generic
+              uid=12_421 ignored
+                uid=12_422 generic
+                  uid=12_423 generic
+                    uid=12_424 generic
+                      uid=12_425 StaticText "Welcome to accenture.com! In order to provide a more relevant experience for you, we use cookies to enable some website functionality. Cookies help us see which articles most interest you; allow you to easily share articles on social media; permit us to deliver content, jobs and ads tailored to your interests and locations; and provide many other site benefits. For more information, please review our "
+                        uid=12_6 InlineTextBox "Welcome to accenture.com! In order to provide a more relevant experience for you, we use cookies to enable some website "
+                        uid=12_6 InlineTextBox "functionality. Cookies help us see which articles most interest you; allow you to easily share articles on social media; permit us "
+                        uid=12_6 InlineTextBox "to deliver content, jobs and ads tailored to your interests and locations; and provide many other site benefits. For more "
+                        uid=12_6 InlineTextBox "information, please review our "
+                      uid=12_426 link "Read more about Accenture Cookie Policy" url="https://www.accenture.com/us-en/support/company-cookies-similar-technology"
+                        uid=12_427 StaticText "Cookies Policy"
+                          uid=12_6 InlineTextBox "Cookies Policy"
+                      uid=12_428 StaticText " and "
+                        uid=12_6 InlineTextBox " and "
+                      uid=12_429 link "Read more about Accenture Privacy Policy" url="https://www.accenture.com/us-en/support/privacy-policy"
+                        uid=12_430 StaticText "Privacy Statement"
+                          uid=12_6 InlineTextBox "Privacy Statement"
+                      uid=12_431 StaticText "."
+                        uid=12_6 InlineTextBox "."
+                uid=12_432 generic
+                  uid=12_433 generic
+                    uid=12_434 button "Cookies Settings, Opens the preference center dialog"
+                      uid=12_435 StaticText "Cookies Settings"
+                        uid=12_6 InlineTextBox "Cookies Settings"
+                    uid=12_436 button "Reject All"
+                      uid=12_437 StaticText "Reject All"
+                        uid=12_6 InlineTextBox "Reject All"
+                    uid=12_438 button "Accept All Cookies"
+                      uid=12_439 StaticText "Accept All Cookies"
+                        uid=12_6 InlineTextBox "Accept All Cookies"
+            uid=12_440 generic
+        uid=12_441 ignored
+          uid=12_442 ignored
+            uid=12_443 ignored
+          uid=12_444 ignored
+            uid=12_445 ignored
+          uid=12_446 ignored
+            uid=12_447 ignored
+          uid=12_448 ignored
+            uid=12_449 ignored
+            uid=12_450 ignored
+              uid=12_451 ignored
+          uid=12_452 ignored
+            uid=12_453 ignored
+          uid=12_454 ignored
+            uid=12_455 ignored
+            uid=12_456 ignored
+              uid=12_457 ignored
+          uid=12_458 ignored
+            uid=12_459 ignored
+          uid=12_460 ignored
+            uid=12_461 ignored
+            uid=12_462 ignored
+              uid=12_463 ignored
+          uid=12_464 ignored
+          uid=12_465 ignored
+          uid=12_466 ignored
+          uid=12_467 ignored
+            uid=12_468 ignored
+              uid=12_469 ignored
+          uid=12_470 ignored
+            uid=12_471 ignored
+              uid=12_472 ignored
+          uid=12_473 ignored
+            uid=12_474 ignored
+              uid=12_475 ignored
+          uid=12_476 ignored
+            uid=12_477 ignored
+              uid=12_478 ignored

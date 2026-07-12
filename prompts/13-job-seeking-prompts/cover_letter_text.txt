@@ -1,0 +1,40 @@
+Juan Miguel Jaramillo Gaviria
+ AI-Native Full-Stack Architect | AI Development Lead | Tech Entrepreneur
+ Bogotá, Colombia | info@juanjaramillo.tech | +57 305 420 6139 | juanjaramillo.tech | LinkedIn
+July 8, 2026
+To: Hiring Team / Talent Acquisition
+Re: Application for AI Engineering Leadership / Full-Stack Architect Role
+Dear Hiring Team,
+I am writing to express my strong interest in joining your team as an AI Engineering leader. Bringing over 17 years of technical
+execution and entrepreneurial leadership, I specialize in navigating the space between abstract generative AI concepts and scalable,
+production-grade architectures. I offer your organization a rare combination of strategic vision and full-stack engineering depth.
+A Career Built Around AI-Native Thinking
+My career has been defined by an early adoption of emerging technology paradigms. Well before generative AI reshaped the global
+tech landscape, I founded and scaled multiple successful digital and technology ventures—including LaQuintaP, FreshWorks Digital
+Agency across Europe and LATAM, and TRADEBOG, an industry-leading dropshipping platform in Colombia. This deep
+entrepreneurial foundation ensures that every AI system I architect is engineered to solve a concrete business problem and drive
+measurable bottom-line value.
+Deep, Production-Proven AI Expertise
+Since 2022, I have focused exclusively on enterprise-grade generative AI development, LLM fine-tuning (PEFT, RLHF), advanced
+prompt engineering, and agentic product design. As the AI Development Lead for TopNetworks Inc., I personally designed, built, and
+shipped a highly profitable internal SaaS ecosystem: EmailGenius (high-throughput AI email generation utilizing Vertex AI and
+PostgreSQL), TrafficGenius (real-time invalid traffic detection using Google BigQuery and Cloud Armor), RouteGenius (probabilistic
+web traffic distribution running on Supabase infrastructure), and Social Media Genius (an AI-native social content generator complete
+with an interactive canvas editor). These systems are not experimental prototypes; they are highly scalable, revenue-generating
+platforms built on Next.js 15/16, React 19, Astro 5, TypeScript, and the Gemini 2.5 Flash model deployed on Google Cloud Platform.
+Advisory Reach and Measurable Impact
+Beyond internal product execution, my technical advisory work for organizations like the Telefónica Movistar Foundation, Universidad
+Francisco Marroquín, and Wundermann Thompson Miami has delivered definitive operational impacts. My AI implementations have
+consistently driven up to a 46% increase in team productivity while securing up to a 66% reduction in monthly infrastructure and
+operational costs.
+Advanced Tooling and Agentic Systems
+I possess advanced, production-proven mastery of LangChain, LangGraph, CrewAI, and Vertex AI Agent-to-Agent (A2A) frameworks.
+Backed by academic credentials in generative AI strategy and ethics from the University of Toronto and applied prompt engineering
+from Platzi, I write clean, production-grade code across Python, JavaScript/TypeScript, and SQL.
+I view artificial intelligence not as a human replacement, but as an exponential leverage tool. I am eager to bring this exact philosophy,
+along with my full-stack execution capabilities, to your organization. Thank you for your time and consideration; I welcome the
+opportunity for a technical interview.
+Warm regards,
+Juan Miguel Jaramillo Gaviria
+AI Development Lead | Full-Stack Architect | Generative AI Specialist
+info@juanjaramillo.tech | +57 305 420 6139 | juanjaramillo.tech

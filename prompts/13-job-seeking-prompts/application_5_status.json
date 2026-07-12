@@ -1,0 +1,28 @@
+{
+  "company": "Oura",
+  "title": "Director, Integration & Automation Engineering",
+  "job_url": "https://job-boards.greenhouse.io/oura/jobs/4286391009?utm_source=vibecodecareers&utm_medium=job_board&utm_campaign=apply",
+  "candidate": {
+    "name": "Juan Miguel Jaramillo Gaviria",
+    "email": "info@juanjaramillo.tech",
+    "phone": "+57 305 420 6139",
+    "location": "Bogotá, Colombia"
+  },
+  "status": "Submitted",
+  "application_date": "2026-07-10",
+  "screenshots": {
+    "filled_form": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/oura_filled_form.png",
+    "post_submission": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/oura_post_submit.png"
+  },
+  "submission_details": {
+    "resume_uploaded": "Juan_Jaramillo_Master_Resume.pdf",
+    "cover_letter_uploaded": "Juan_Jaramillo_Master_Cover_Letter.pdf",
+    "country": "Colombia",
+    "city": "Bogotá",
+    "state": "NY (Selected as fallback due to required US state dropdown)",
+    "accommodations": "None",
+    "work_authorization": "No",
+    "sponsorship_required": "Yes"
+  },
+  "outcome_message": "Thank you for applying to Ōura. Thank you for applying and for your interest in Oura. We’ll be reviewing your application soon, and if it’s a fit, we’ll be in touch with next steps."
+}

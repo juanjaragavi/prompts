@@ -1,0 +1,103 @@
+# Raw Research Findings: Job Application Details for Medfar & TherapyNotes
+
+## 1. Generative AI (GenAI) | Prompt Engineer at Medfar
+- **Direct Job Description URL:** `https://jobs.smartrecruiters.com/Medfar/744000129503385-generative-ai-genai-prompt-engineer`
+- **Direct Job Application URL:** `https://jobs.smartrecruiters.com/oneclick-ui/company/Medfar/publication/962a7b51-8f78-4cac-9914-2d045f619464?dcr_ci=Medfar`
+- **Salary/Compensation Details:** Not explicitly specified as a numeric salary on the job page, but includes the following benefits and details:
+  - Permanent, full-time contract (40h/week)
+  - Hybrid or remote working mode (candidates must reside in the province of Quebec)
+  - RRSP contribution
+  - Healthcare insurance from day one
+  - Paid time off: 3 weeks + 1 additional week between Christmas and New Year
+  - Annual training allowance ($1,500) to support professional development
+  - All IT equipment is provided, with additional gear if needed
+- **Specific Submission Requirements & Screening Questions:**
+  - **Required Fields:** First name*, Last name*, Email*, Confirm email*, Postal code/zip code*, Phone number* (defaulting country code +1 for Canada), Resume*.
+  - **Resume Requirements:** No explicit format listed on the SmartRecruiters quick apply page, but has a file upload section with a "10MB size limit".
+  - **Optional/Additional Profiles:** Profile image upload, Experience entries (Add), Education entries (Add), Social profiles (LinkedIn, Facebook, X/Twitter, Website), and "Message to the Hiring Team" (acting as a cover letter).
+  - **Bilingualism:** High emphasis on advanced proficiency in English (written and spoken) and French (required due to frequent client interactions).
+  - **Equal Opportunity Self-Identification Section:** Offers voluntary EEOP (Equal Employment Opportunity Program) section self-identification (women, visible minorities, ethnic minorities, aboriginal peoples, people with disabilities).
+- **Full Job Description:**
+  - **Company Description:** MEDFAR Clinical Solutions was founded in 2010 by two aeronautical engineers... certified the first cloud-based Electronic Medical Record in Canada: MYLE (Make Your Life Easy)...
+  - **Role Overview:** As a Senior Prompt Designer, you will play a defining role in shaping the quality, reliability, and evolution of MEDFAR's generative AI features — most notably "CoeurWay", our AI-powered clinical scribe, and emerging AI capabilities within MYLE EMR. Reporting to the Director of UX, you will sit at the intersection of product, clinical quality, and AI craft, working closely with product designers, developers, QA, and client-facing teams...
+  - **Key Responsibilities:**
+    - Audit and re-architect CoeurWay's existing monolithic prompts into a modular chain of focused, maintainable prompts.
+    - Lead the selection, evaluation, and pairing of language models to specific prompt tasks.
+    - Own the quality of AI-generated clinical outputs.
+    - Evolve and re-align our existing evaluation framework (covering 7 clinical note quality rubrics).
+    - Establish and maintain a systematic approach to output validation.
+    - Design and implement new prompts and evaluation suites.
+    - Collaborate with GenAIOps for CI/CD.
+    - Develop deep understanding of clinical workflows.
+    - Stay current on LLMs.
+    - Mentor future prompt designers.
+  - **Qualifications:**
+    - 5+ years of professional experience in AI/ML, product development, computational linguistics, etc.
+    - 2+ years of hands-on prompt engineering experience in production LLM systems (B2B SaaS/regulated preferred).
+    - Demonstrable experience decomposing complex prompts into modular, chained architectures (prompt chaining, routing, reflection, tool use).
+    - Experience designing/improving LLM evaluation frameworks.
+    - Familiarity with frontier commercial LLM APIs.
+    - Experience with healthcare/clinical domain is a strong asset.
+    - Python/scripting proficiency is an asset.
+    - Self-hosted or open-weight models experience is an asset.
+    - Advanced English & French bilingualism.
+
+## 2. Senior Software Developer (Agentic Development) at TherapyNotes.com
+- **Direct Job Description URL:** `https://apply.workable.com/therapynotes/j/2A691CE916/`
+- **Direct Job Application URL:** `https://apply.workable.com/therapynotes/j/2A691CE916/apply/`
+- **Salary/Compensation Details:**
+  - Competitive salary: $110,000 - $135,000 / year (specified in description as "$110,000-$135,000")
+  - Employer sponsored health, dental, vision, life, and disability insurance
+  - Retirement plan with company contribution
+  - Annual company profit sharing
+  - Personal development/training budget
+  - Open, collaborative work environment
+  - Extensive 2-week onboarding plan
+  - Comprehensive mentorship program
+- **Specific Submission Requirements & Screening Questions:**
+  - **Resume Requirements:** File upload is required ("Resume*"). Format accepted: .pdf, .doc, .docx, .odt, or .rtf. (An option to Autofill application exists).
+  - **Required Fields:**
+    - First name*
+    - Last name*
+    - Email*
+    - Phone* (with telephone country code dropdown)
+    - Address* (textbox with instructions: "Include your city, region, and country...")
+  - **Optional/Additional Profiles:**
+    - Resume
+    - Summary (Optional textbox)
+    - Cover letter (Optional textbox)
+  - **Screening/Application Questions (All marked as Required with *):**
+    - "What are your salary requirements?"* (textbox)
+    - "Were you referred by a TherapyNotes’ team member? If so, please enter their name here."* (textbox)
+    - "Do you have a portfolio or GitHub link to share?"* (textbox)
+    - "Please share the link to your LinkedIn profile."* (textbox)
+    - "Will you now, or in the future, require sponsorship for employment visa status (e.g., H-1B status)?"* (combobox dropdown)
+    - "Are you authorized to work in the U.S. without work visa sponsorship?"* (radiogroup: YES / NO)
+    - "This role requires employees to reside within the United States. Do you currently reside in the United States?"* (radiogroup: YES / NO)
+    - "Do you have 5+ years of experience designing, building, and maintaining enterprise-scale software applications in a senior software engineering capacity?"* (radiogroup: YES / NO)
+    - "Do you have professional experience developing production applications using C#/.net?"* (radiogroup: YES / NO)
+    - "Please describe your experience building, deploying, or contributing to AI-powered solutions. This may include AI applications, agentic workflows, AI agents, copilots, or large language model (LLM)-based products."* (large textbox)
+- **Full Job Description:**
+  - **Role Overview:** Seeking a Senior Software Developer to design, build, and evolve agentic orchestrations, workflows, and internal toolsets that improve the efficiency, consistency, and quality of software delivery across the organization...
+  - **Key Responsibilities:**
+    - Design, develop, and maintain agentic orchestrations, automated workflows, and internal tools that improve software delivery outcomes.
+    - Partner with QA, product management, product ownership, engineering leadership, and design to identify workflow bottlenecks...
+    - Develop agent-based workflows that can coordinate multi-step tasks, interact with internal systems, use tools safely, and provide reliable, auditable outputs.
+    - Establish patterns and best practices for building trustworthy AI-assisted software delivery tools, including guardrails, validation steps, human-in-the-loop review, and measurable quality controls...
+    - Perform occasional full-stack feature development within the context of the AI Toolset.
+    - Mentor and assist in training/onboarding of new developers.
+  - **Required Qualifications:**
+    - 5 or more years experience developing software in an Agile, team-based environment.
+    - BS and/or MS in a technical discipline (Computer Science or Software Engineering preferred).
+    - Strong understanding of OOP concepts and design patterns.
+    - Expertise with Angular, ASP.NET Core, C#, JavaScript, TypeScript, CSS, SASS, and HTML.
+    - Experience with PostgreSQL or other relational databases, and Entity Framework Core or similar.
+    - Experience building internal platforms, developer tools, automation frameworks, workflow engines, integrations, or productivity tools.
+    - Strong SDLC understanding.
+    - Scalable software architecture design.
+    - Excellent communication skills.
+  - **Preferred Qualifications:**
+    - Experience building AI-assisted applications, LLM-powered tools, autonomous/semi-autonomous agents, or agentic workflows.
+    - Familiarity with orchestration, tool-calling, RAG, prompt engineering, evals, AI safety.
+    - Knowledge of secure software development, privacy-aware system design, AI governance.
+    - Experience in healthcare tech, SaaS, regulated environments.

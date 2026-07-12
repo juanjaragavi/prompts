@@ -1,0 +1,152 @@
+ 
+SKILLS
+AI Development Lead, full-stack architect, and serial technology 
+entrepreneur with more than 17 years of experience in digital and technology 
+initiatives. 
+Since 2022, I have specialized in enterprise generative AI development, LLM 
+ﬁne-tuning (PEFT, RLHF), and AI-native product engineering. I currently lead 
+AI strategy and platform development at TopNetworks Inc., designing AI-
+powered SaaS tools for the U.S., U.K., Mexico, and Latin American markets. 
+Deep experience in Next.js, TypeScript, Vertex AI, GenAI and LLMs, Machine 
+Learning, Prompt Engineering, and cloud-native full-stack development on 
+Google Cloud.
+info@juanjaramillo.tech (+57) 305 420 6139
+Juan Miguel Jaramillo Gaviria
+Bogotá, Colombia
+WORK EXPERIENCE
+juanjaramillo.tech
+Python
+BASIC ADVANCEDINTERMEDIATE
+Javascript
+BASIC ADVANCEDINTERMEDIATE
+ReactJS
+BASIC ADVANCEDINTERMEDIATE
+BASIC
+Machine Learning
+BASIC ADVANCEDINTERMEDIATE
+GenAI and LLMs
+BASIC ADVANCEDINTERMEDIATE
+AI-Based Automation
+ADVANCEDINTERMEDIATE
+LANGUAGES
+ENGLISH
+BASIC ADVANCEDINTERMEDIATE
+Full professional proﬁciency. 
+Technical English focused on 
+technology and digital 
+marketing.
+AI Development Lead 
+TopNetworks Inc. · Independent 
+feb. 2025 - jun. 2026 · 1 year 4 months 
+Bogotá D.C. Metropolitan Area · Remote 
+Prompt Engineering Techniques & Best Practices, Hallucination Risk Management, 
+GenAI and Prompt Versioning Techniques using Git Flow. 
+• I lead AI strategy, architecture, and full-stack development for TopNetworks’ 
+performance publishing platforms, serving the U.S., U.K., Mexico, and Latin 
+America. 
+• I designed and built the internal SaaS ecosystem: EmailGenius (AI email 
+generation with Vertex AI + PostgreSQL), TrafficGenius (invalid traffic detection 
+and security analytics with BigQuery + Cloud Armor), RouteGenius (probabilistic 
+traffic distribution with Supabase), and Social Media Genius (social content 
+generation with an AI canvas editor). 
+• Stack: Next.js 15-16 (App Router), TypeScript, React 19, Astro 5, Tailwind CSS 
+v4, Vertex AI (Gemini 2.5 Flash), PostgreSQL, Google BigQuery, GCP (Cloud Run, 
+Cloud Armor, Compute Engine, Cloud DNS), PM2, Docker, Vercel.
+Prompt Engineer and AI Consultant 
+Juan Jaramillo · Independent 
+nov. 2022 - present · 4 years 
+Bogotá D.C. Metropolitan Area · Remote / On-Site 
+Prompt Engineering Techniques & Best Practices, LLM Fundamentals & 
+Hallucination Risk Management, GenAI and Prompt Versioning Techniques 
+using Git Flow. 
+• Prompt Engineer, expert AI consultant 
+• UX/UI designer 
+• Front-end and back-end developer for AI projects
+Prompt Engineering
+BASIC ADVANCEDINTERMEDIATE
+Hallucination Risk Management
+BASIC ADVANCEDINTERMEDIATE
+
+ 
+Co-founder / Director of Innovation 
+TRADEBOG S.A.S. · Full-time 
+dec 2020 - jun. 2023 · 2 years 7 months 
+Bogotá D.C. Metropolitan Area · On-Site 
+Front-end and back-end developer, UI/UX designer, consultant, and specialist 
+in digital marketing, internet advertising, and social media advertising.
+Co-founder / Operations Director 
+FreshWorks | Ideas Frescas · Full-time 
+may. 2014 - jun. 2023 · 9 years 2 months 
+Mexico City, México / Bogotá, Colombia / Madrid, España 
+Web designer, WordPress developer, UI/UX designer, digital marketing 
+specialist, and digital project manager.
+Project Director 
+2W Agencia Digital · Full-time 
+nov. 2012 - jan. 2014 · 1 year 3 months 
+Bogotá D.C. Metropolitan Area · On-Site 
+Digital project director, key accounts director, digital strategist, and digital 
+marketing specialist. 
+info@juanjaramillo.tech (+57) 305 420 6139
+WORK EXPERIENCE 
+Co-founder / Project Manager 
+La Quinta P Digital Agency · Full-time 
+ago. 2009 - oct. 2012 · 3 years 3 months 
+Bogotá D.C. Metropolitan Area · Remote / On-Site 
+Digital project director, digital marketing specialist, web designer, and WordPress 
+developer.
+juanjaramillo.tech
+PLATZI  
+Prompt Engineer with emphasis on ChatGPT  
+feb. 2023 - apr. 2023 · 2 months 
+Certiﬁed course · Remote 
+Activities and groups: What prompt engineering is, prompt structure, introduction 
+to ChatGPT, prompting in ChatGPT, ChatGPT plugins, ChatGPT extensions and 
+integrations, business use cases, limitations, and ethical use of ChatGPT.
+EDUCATION 
+AI TOOLS
+LangChain
+BASIC ADVANCEDINTERMEDIATE
+INTERESTS
+• Golf 
+• Reading 
+• Film 
+• Music 
+• Blog 
+• Writing 
+• Consulting 
+• Teaching
+LangGraph
+BASIC ADVANCEDINTERMEDIATE
+CrewAI
+BASIC ADVANCEDINTERMEDIATE
+VertexAI A2A
+BASIC ADVANCEDINTERMEDIATE
+
+UNIVERSITY OF TORONTO  
+Generative AI for Business: Driving Growth and Competitive Advantage  
+dec. 2022 - feb. 2023 · 3 months 
+Certiﬁed diploma · Remote 
+AI strategy, innovation, ethics, decision-making, governance, and organizational 
+transformation, with case studies from major companies like Goldman Sachs, 
+Pﬁzer and Citibank. 
+info@juanjaramillo.tech (+57) 305 420 6139
+juanjaramillo.tech
+TO SEE MY PORTFOLIO OF WORK 
+ACROSS DIFFERENT AREAS, 
+FEATURED PROJECTS, AND A LIST OF 
+THE SPECIFIC SERVICES I PROVIDE, 
+PLEASE VISIT THE FOLLOWING 
+WEBSITE OR SCAN THE QR CODE:
+juanjaramillo.tech
+UNIVERSITY OF MICHIGAN  
+Social Network Analysis: Digital Communication & Contents  
+sep. 2013 - dec. 2013 · 3 months 
+Certiﬁed course · Remote 
+Skills: English as a Foreign Language · Digital Marketing.  
+UNIVERSIDAD CENTRAL 
+Advertising and Marketing 
+feb. 2002 - nov. 2007· 5 years 
+Professional degree · On-Site 
+Skills: Advertising, marketing, copywriting, graphic design, creative direction, 
+advertising strategy, art direction.
+EDUCATION 

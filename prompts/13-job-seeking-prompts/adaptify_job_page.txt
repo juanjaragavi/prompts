@@ -1,0 +1,1144 @@
+uid=1_0 RootWebArea "Vibe Coder (Full-Stack AI/SEO) at Adaptify SEO | Remote Vibe Coding Jobs" url="https://remotevibecodingjobs.com/jobs/adaptify-seo-vibe-coder-full-stack-ai-seo-fe2b15d1"
+  uid=1_1 ignored
+    uid=1_2 generic
+      uid=1_3 generic
+        uid=1_4 alert atomic live="assertive" relevant="additions text"
+      uid=1_5 generic
+        uid=1_6 generic
+        uid=1_7 ignored
+          uid=1_8 ignored
+            uid=1_9 StaticText "HIRING"
+              uid=1_10 InlineTextBox "HIRING"
+          uid=1_11 paragraph
+            uid=1_12 StaticText "Adaptify SEO"
+              uid=1_10 InlineTextBox "Adaptify SEO"
+            uid=1_13 StaticText " is looking for a "
+              uid=1_10 InlineTextBox " is looking for a "
+            uid=1_14 StaticText "Vibe Coder"
+              uid=1_10 InlineTextBox "Vibe Coder"
+            uid=1_15 StaticText " — "
+              uid=1_10 InlineTextBox " — "
+            uid=1_16 StaticText "AI-powered SEO at scale. Vibe coders wanted — async, remote, and building the future of search."
+              uid=1_10 InlineTextBox "AI-powered SEO at scale. Vibe coders wanted — async, remote, and building the future of search."
+          uid=1_17 link "View Role" url="https://remotevibecodingjobs.com/jobs/fe2b15d1-9284-4644-b9a7-50ad2e0458d7"
+            uid=1_18 StaticText "View Role"
+              uid=1_10 InlineTextBox "View Role"
+            uid=1_19 image
+      uid=1_20 ignored
+      uid=1_21 banner
+        uid=1_22 ignored
+          uid=1_23 ignored
+            uid=1_24 link "R remotevibecodingjobs" url="https://remotevibecodingjobs.com/"
+              uid=1_25 generic
+                uid=1_26 ignored
+                  uid=1_27 StaticText "R"
+                    uid=1_10 InlineTextBox "R"
+              uid=1_28 ignored
+                uid=1_29 StaticText "remote"
+                  uid=1_10 InlineTextBox "remote"
+                uid=1_30 StaticText "vibe"
+                  uid=1_10 InlineTextBox "vibe"
+                uid=1_31 StaticText "coding"
+                  uid=1_10 InlineTextBox "coding"
+                uid=1_32 StaticText "jobs"
+                  uid=1_10 InlineTextBox "jobs"
+            uid=1_33 navigation
+              uid=1_34 link "Jobs" url="https://remotevibecodingjobs.com/"
+                uid=1_35 StaticText "Jobs"
+                  uid=1_10 InlineTextBox "Jobs"
+              uid=1_36 link "Companies" url="https://remotevibecodingjobs.com/companies"
+                uid=1_37 StaticText "Companies"
+                  uid=1_10 InlineTextBox "Companies"
+              uid=1_38 link "Salaries" url="https://remotevibecodingjobs.com/salaries"
+                uid=1_39 StaticText "Salaries"
+                  uid=1_10 InlineTextBox "Salaries"
+              uid=1_40 link "Blog" url="https://blog.remotevibecodingjobs.com/"
+                uid=1_41 StaticText "Blog"
+                  uid=1_10 InlineTextBox "Blog"
+              uid=1_42 generic
+                uid=1_43 button "More"
+                  uid=1_44 StaticText "More"
+                    uid=1_10 InlineTextBox "More"
+                  uid=1_45 image
+          uid=1_46 ignored
+            uid=1_47 button "Search"
+              uid=1_48 image
+              uid=1_49 ignored
+                uid=1_50 StaticText "Search"
+                  uid=1_10 InlineTextBox "Search"
+              uid=1_51 generic
+                uid=1_52 StaticText "⌘K"
+                  uid=1_10 InlineTextBox "⌘K"
+            uid=1_53 link "Post a Job" url="https://remotevibecodingjobs.com/post-job"
+              uid=1_54 button "Post a Job"
+                uid=1_55 StaticText "Post a Job"
+                  uid=1_10 InlineTextBox "Post a Job"
+      uid=1_56 main
+        uid=1_57 ignored
+          uid=1_58 navigation "Breadcrumb"
+            uid=1_59 ignored
+              uid=1_60 link "Jobs" url="https://remotevibecodingjobs.com/"
+                uid=1_61 StaticText "Jobs"
+                  uid=1_10 InlineTextBox "Jobs"
+            uid=1_62 ignored
+              uid=1_63 link "Adaptify SEO" url="https://remotevibecodingjobs.com/company/adaptify-seo"
+                uid=1_64 StaticText "Adaptify SEO"
+                  uid=1_10 InlineTextBox "Adaptify SEO"
+            uid=1_65 ignored
+              uid=1_66 ignored
+                uid=1_67 StaticText "Vibe Coder (Full-Stack AI/SEO) at Adaptify SEO"
+                  uid=1_10 InlineTextBox "Vibe Coder (Full-Stack AI/SEO) at Adaptify SEO"
+          uid=1_68 ignored
+            uid=1_69 image "Adaptify SEO" url="https://www.google.com/s2/favicons?domain=adaptify.ai&sz=128"
+            uid=1_70 ignored
+              uid=1_71 heading "Vibe Coder (Full-Stack AI/SEO)" level="1"
+                uid=1_72 StaticText "Vibe Coder (Full-Stack AI/SEO)"
+                  uid=1_10 InlineTextBox "Vibe Coder (Full-Stack AI/SEO)"
+              uid=1_73 paragraph
+                uid=1_74 link "Adaptify SEO" url="https://remotevibecodingjobs.com/company/adaptify-seo"
+                  uid=1_75 StaticText "Adaptify SEO"
+                    uid=1_10 InlineTextBox "Adaptify SEO"
+                uid=1_76 StaticText " · "
+                  uid=1_10 InlineTextBox " · "
+                uid=1_77 StaticText "Remote (Worldwide)"
+                  uid=1_10 InlineTextBox "Remote (Worldwide)"
+                uid=1_78 StaticText " · "
+                  uid=1_10 InlineTextBox " · "
+                uid=1_79 StaticText "$40k+ USD/year"
+                  uid=1_10 InlineTextBox "$40k+ USD/year"
+          uid=1_80 ignored
+            uid=1_81 ignored
+              uid=1_82 StaticText "Featured"
+                uid=1_10 InlineTextBox "Featured"
+            uid=1_83 ignored
+              uid=1_84 StaticText "Full-time"
+                uid=1_10 InlineTextBox "Full-time"
+            uid=1_85 ignored
+              uid=1_86 StaticText "Mid"
+                uid=1_10 InlineTextBox "Mid"
+            uid=1_87 link "TypeScript" url="https://remotevibecodingjobs.com/jobs/t/typescript"
+              uid=1_88 StaticText "TypeScript"
+                uid=1_10 InlineTextBox "TypeScript"
+            uid=1_89 link "Next.js" url="https://remotevibecodingjobs.com/jobs/t/nextjs"
+              uid=1_90 StaticText "Next.js"
+                uid=1_10 InlineTextBox "Next.js"
+            uid=1_91 link "Python" url="https://remotevibecodingjobs.com/jobs/t/python"
+              uid=1_92 StaticText "Python"
+                uid=1_10 InlineTextBox "Python"
+            uid=1_93 link "Node.js" url="https://remotevibecodingjobs.com/jobs/t/nodejs"
+              uid=1_94 StaticText "Node.js"
+                uid=1_10 InlineTextBox "Node.js"
+            uid=1_95 link "PostgreSQL" url="https://remotevibecodingjobs.com/jobs/t/postgresql"
+              uid=1_96 StaticText "PostgreSQL"
+                uid=1_10 InlineTextBox "PostgreSQL"
+          uid=1_97 ignored
+            uid=1_98 ignored
+              uid=1_99 StaticText "🔥"
+                uid=1_10 InlineTextBox "🔥"
+            uid=1_100 ignored
+              uid=1_101 StaticText "3,419"
+                uid=1_10 InlineTextBox "3,419"
+              uid=1_102 StaticText " people viewed this job"
+                uid=1_10 InlineTextBox " people viewed this job"
+          uid=1_103 ignored
+            uid=1_104 paragraph
+              uid=1_105 StaticText "VIBES"
+                uid=1_10 InlineTextBox "VIBES"
+            uid=1_106 ignored
+              uid=1_107 link "Async-First No mandatory meetings" url="https://remotevibecodingjobs.com/jobs/v/async-first"
+                uid=1_108 ignored
+                  uid=1_109 StaticText "Async-First"
+                    uid=1_10 InlineTextBox "Async-First"
+                uid=1_110 ignored
+                  uid=1_111 StaticText "No mandatory meetings"
+                    uid=1_10 InlineTextBox "No mandatory meetings"
+              uid=1_112 link "No BS Transparent, direct culture" url="https://remotevibecodingjobs.com/jobs/v/no-bs"
+                uid=1_113 ignored
+                  uid=1_114 StaticText "No BS"
+                    uid=1_10 InlineTextBox "No BS"
+                uid=1_115 ignored
+                  uid=1_116 StaticText "Transparent, direct culture"
+                    uid=1_10 InlineTextBox "Transparent, direct culture"
+              uid=1_117 link "Deep Work Focus time prioritized" url="https://remotevibecodingjobs.com/jobs/v/deep-work"
+                uid=1_118 ignored
+                  uid=1_119 StaticText "Deep Work"
+                    uid=1_10 InlineTextBox "Deep Work"
+                uid=1_120 ignored
+                  uid=1_121 StaticText "Focus time prioritized"
+                    uid=1_10 InlineTextBox "Focus time prioritized"
+              uid=1_122 link "Global-Friendly Any timezone welcome" url="https://remotevibecodingjobs.com/jobs/v/global-friendly"
+                uid=1_123 ignored
+                  uid=1_124 StaticText "Global-Friendly"
+                    uid=1_10 InlineTextBox "Global-Friendly"
+                uid=1_125 ignored
+                  uid=1_126 StaticText "Any timezone welcome"
+                    uid=1_10 InlineTextBox "Any timezone welcome"
+              uid=1_127 link "Vibe Coding AI-assisted development is the norm" url="https://remotevibecodingjobs.com/jobs/v/vibe-coding"
+                uid=1_128 ignored
+                  uid=1_129 StaticText "Vibe Coding"
+                    uid=1_10 InlineTextBox "Vibe Coding"
+                uid=1_130 ignored
+                  uid=1_131 StaticText "AI-assisted development is the norm"
+                    uid=1_10 InlineTextBox "AI-assisted development is the norm"
+          uid=1_132 ignored
+            uid=1_133 heading "About the Role" level="2"
+              uid=1_134 StaticText "About the Role"
+                uid=1_10 InlineTextBox "About the Role"
+            uid=1_135 generic
+              uid=1_136 StaticText "Adaptify is building the future of AI-powered SEO at scale. We're looking for a vibe coder who can ship fast, think creatively, and build AI-driven tools that help businesses rank and grow organically.
+
+You'll work across the full stack — from LLM integrations and content pipelines to frontend dashboards and analytics. We move fast, ship daily, and trust our team to own their work.
+
+This is a fully remote, async-first role. No standups, no micromanagement — just great work."
+                uid=1_10 InlineTextBox "Adaptify is building the future of AI-powered SEO at scale. We're looking for a vibe coder who can ship fast,"
+                uid=1_10 InlineTextBox " "
+                uid=1_10 InlineTextBox "think creatively, and build AI-driven tools that help businesses rank and grow organically."
+                uid=1_10 InlineTextBox "
+"
+                uid=1_10 InlineTextBox "
+"
+                uid=1_10 InlineTextBox "You'll work across the full stack — from LLM integrations and content pipelines to frontend dashboards and"
+                uid=1_10 InlineTextBox " "
+                uid=1_10 InlineTextBox "analytics. We move fast, ship daily, and trust our team to own their work."
+                uid=1_10 InlineTextBox "
+"
+                uid=1_10 InlineTextBox "
+"
+                uid=1_10 InlineTextBox "This is a fully remote, async-first role. No standups, no micromanagement — just great work."
+          uid=1_137 ignored
+            uid=1_138 heading "Requirements" level="2"
+              uid=1_139 StaticText "Requirements"
+                uid=1_10 InlineTextBox "Requirements"
+            uid=1_140 list
+              uid=1_141 listitem level="1"
+                uid=1_142 ignored
+                  uid=1_143 StaticText "-"
+                    uid=1_10 InlineTextBox "-"
+                uid=1_144 ignored
+                  uid=1_145 StaticText "Experience building with LLMs (Claude, GPT, etc.)"
+                    uid=1_10 InlineTextBox "Experience building with LLMs (Claude, GPT, etc.)"
+              uid=1_146 listitem level="1"
+                uid=1_147 ignored
+                  uid=1_148 StaticText "-"
+                    uid=1_10 InlineTextBox "-"
+                uid=1_149 ignored
+                  uid=1_150 StaticText "Strong full-stack skills (TypeScript, React/Next.js, Python, Node.js)"
+                    uid=1_10 InlineTextBox "Strong full-stack skills (TypeScript, React/Next.js, Python, Node.js)"
+              uid=1_151 listitem level="1"
+                uid=1_152 ignored
+                  uid=1_153 StaticText "-"
+                    uid=1_10 InlineTextBox "-"
+                uid=1_154 ignored
+                  uid=1_155 StaticText "Comfortable with databases (PostgreSQL, Supabase)"
+                    uid=1_10 InlineTextBox "Comfortable with databases (PostgreSQL, Supabase)"
+              uid=1_156 listitem level="1"
+                uid=1_157 ignored
+                  uid=1_158 StaticText "-"
+                    uid=1_10 InlineTextBox "-"
+                uid=1_159 ignored
+                  uid=1_160 StaticText "Self-directed and comfortable working async"
+                    uid=1_10 InlineTextBox "Self-directed and comfortable working async"
+              uid=1_161 listitem level="1"
+                uid=1_162 ignored
+                  uid=1_163 StaticText "-"
+                    uid=1_10 InlineTextBox "-"
+                uid=1_164 ignored
+                  uid=1_165 StaticText "Bonus: SEO knowledge or interest in search/content"
+                    uid=1_10 InlineTextBox "Bonus: SEO knowledge or interest in search/content"
+          uid=1_166 ignored
+            uid=1_167 ignored
+              uid=1_168 link "About Adaptify SEO →" url="https://remotevibecodingjobs.com/company/adaptify-seo"
+                uid=1_169 StaticText "About "
+                  uid=1_10 InlineTextBox "About "
+                uid=1_170 StaticText "Adaptify SEO"
+                  uid=1_10 InlineTextBox "Adaptify SEO"
+                uid=1_171 StaticText " →"
+                  uid=1_10 InlineTextBox " →"
+              uid=1_172 ignored
+                uid=1_173 ignored
+                  uid=1_174 StaticText "Startup"
+                    uid=1_10 InlineTextBox "Startup"
+            uid=1_175 ignored
+              uid=1_176 ignored
+                uid=1_177 image
+                uid=1_178 StaticText "AI Marketing / SEO"
+                  uid=1_10 InlineTextBox "AI Marketing / SEO"
+              uid=1_179 ignored
+                uid=1_180 image
+                uid=1_181 StaticText "1-50"
+                  uid=1_10 InlineTextBox "1-50"
+                uid=1_182 StaticText " employees"
+                  uid=1_10 InlineTextBox " employees"
+              uid=1_183 ignored
+                uid=1_184 image
+                uid=1_185 StaticText "Remote"
+                  uid=1_10 InlineTextBox "Remote"
+              uid=1_186 ignored
+                uid=1_187 image
+                uid=1_188 StaticText "Founded "
+                  uid=1_10 InlineTextBox "Founded "
+                uid=1_189 StaticText "2023"
+                  uid=1_10 InlineTextBox "2023"
+            uid=1_190 ignored
+              uid=1_191 ignored
+                uid=1_192 StaticText "Python"
+                  uid=1_10 InlineTextBox "Python"
+              uid=1_193 ignored
+                uid=1_194 StaticText "AI/ML"
+                  uid=1_10 InlineTextBox "AI/ML"
+              uid=1_195 ignored
+                uid=1_196 StaticText "SEO tools"
+                  uid=1_10 InlineTextBox "SEO tools"
+            uid=1_197 ignored
+            uid=1_198 ignored
+              uid=1_199 link "Website" url="https://adaptify.ai/"
+                uid=1_200 StaticText "Website"
+                  uid=1_10 InlineTextBox "Website"
+              uid=1_201 link "GitHub" url="https://github.com/adaptify-seo"
+                uid=1_202 StaticText "GitHub"
+                  uid=1_10 InlineTextBox "GitHub"
+          uid=1_203 ignored
+            uid=1_204 ignored
+              uid=1_205 button "Smart Apply with profile page"
+                uid=1_206 image
+                uid=1_207 StaticText "Smart Apply"
+                  uid=1_10 InlineTextBox "Smart Apply"
+                uid=1_208 ignored
+                  uid=1_209 StaticText "with profile page"
+                    uid=1_10 InlineTextBox "with profile page"
+              uid=1_210 button "Apply for this position"
+                uid=1_211 StaticText "Apply for this position"
+                  uid=1_10 InlineTextBox "Apply for this position"
+                uid=1_212 image
+            uid=1_213 ignored
+              uid=1_214 button "Save job"
+                uid=1_215 image
+                uid=1_216 StaticText "Save"
+                  uid=1_10 InlineTextBox "Save"
+              uid=1_217 button "Copy"
+                uid=1_218 image
+                uid=1_219 StaticText "Copy"
+                  uid=1_10 InlineTextBox "Copy"
+              uid=1_220 generic
+                uid=1_221 button "Share & Refer"
+                  uid=1_222 image
+                  uid=1_223 StaticText "Share & Refer"
+                    uid=1_10 InlineTextBox "Share & Refer"
+          uid=1_224 ignored
+            uid=1_225 button "Report"
+              uid=1_226 image
+              uid=1_227 StaticText "Report"
+                uid=1_10 InlineTextBox "Report"
+          uid=1_228 generic
+            uid=1_229 ignored
+              uid=1_230 heading "💬 Developer Questions 18 asked" level="2"
+                uid=1_231 StaticText "💬 Developer Questions"
+                  uid=1_10 InlineTextBox "💬 Developer Questions"
+                uid=1_232 ignored
+                  uid=1_233 StaticText "18"
+                    uid=1_10 InlineTextBox "18"
+                  uid=1_234 StaticText " asked"
+                    uid=1_10 InlineTextBox " asked"
+              uid=1_235 paragraph
+                uid=1_236 StaticText "Ask the team a question — answers show up here"
+                  uid=1_10 InlineTextBox "Ask the team a question — answers show up here"
+            uid=1_237 ignored
+              uid=1_238 ignored
+                uid=1_239 ignored
+                  uid=1_240 ignored
+                    uid=1_241 ignored
+                      uid=1_242 StaticText "💰"
+                        uid=1_10 InlineTextBox "💰"
+                    uid=1_243 ignored
+                      uid=1_244 paragraph
+                        uid=1_245 StaticText "Is there a salary range you can share?"
+                          uid=1_10 InlineTextBox "Is there a salary range you can share?"
+                      uid=1_246 paragraph
+                        uid=1_247 StaticText "4"
+                          uid=1_10 InlineTextBox "4"
+                        uid=1_248 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_249 StaticText "s"
+                          uid=1_10 InlineTextBox "s"
+                        uid=1_250 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_251 button "Ask"
+                    uid=1_252 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_253 ignored
+                  uid=1_254 ignored
+                    uid=1_255 ignored
+                      uid=1_256 StaticText "✅ ANSWERED"
+                        uid=1_10 InlineTextBox "✅ ANSWERED"
+                  uid=1_257 paragraph
+                    uid=1_258 StaticText "Compensation is competitive and depends on experience, scope, and location. We share the most relevant range early in the process so expectations stay aligned."
+                      uid=1_10 InlineTextBox "Compensation is competitive and depends on experience, scope, and location. We share the most "
+                      uid=1_10 InlineTextBox "relevant range early in the process so expectations stay aligned."
+              uid=1_259 ignored
+                uid=1_260 ignored
+                  uid=1_261 ignored
+                    uid=1_262 ignored
+                      uid=1_263 StaticText "🎯"
+                        uid=1_10 InlineTextBox "🎯"
+                    uid=1_264 ignored
+                      uid=1_265 paragraph
+                        uid=1_266 StaticText "What does the interview process look like?"
+                          uid=1_10 InlineTextBox "What does the interview process look like?"
+                      uid=1_267 paragraph
+                        uid=1_268 StaticText "3"
+                          uid=1_10 InlineTextBox "3"
+                        uid=1_269 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_270 StaticText "s"
+                          uid=1_10 InlineTextBox "s"
+                        uid=1_271 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_272 button "Ask"
+                    uid=1_273 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_274 ignored
+                  uid=1_275 ignored
+                    uid=1_276 ignored
+                      uid=1_277 StaticText "✅ ANSWERED"
+                        uid=1_10 InlineTextBox "✅ ANSWERED"
+                  uid=1_278 paragraph
+                    uid=1_279 StaticText "Our process is usually 3 stages: (1) a quick intro call, (2) a practical technical exercise focused on real-world problem solving (not gotcha puzzles), and (3) a final conversation about team fit, ownership, and how you work remotely. We keep it fast and communicate clearly between each step."
+                      uid=1_10 InlineTextBox "Our process is usually 3 stages: (1) a quick intro call, (2) a practical technical exercise focused on "
+                      uid=1_10 InlineTextBox "real-world problem solving (not gotcha puzzles), and (3) a final conversation about team fit, "
+                      uid=1_10 InlineTextBox "ownership, and how you work remotely. We keep it fast and communicate clearly between each step."
+              uid=1_280 ignored
+                uid=1_281 ignored
+                  uid=1_282 ignored
+                    uid=1_283 ignored
+                      uid=1_284 StaticText "🤖"
+                        uid=1_10 InlineTextBox "🤖"
+                    uid=1_285 ignored
+                      uid=1_286 paragraph
+                        uid=1_287 StaticText "What AI/vibe coding tools does the team use daily?"
+                          uid=1_10 InlineTextBox "What AI/vibe coding tools does the team use daily?"
+                      uid=1_288 paragraph
+                        uid=1_289 StaticText "1"
+                          uid=1_10 InlineTextBox "1"
+                        uid=1_290 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_291 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_292 button "Ask"
+                    uid=1_293 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_294 ignored
+                  uid=1_295 ignored
+                    uid=1_296 ignored
+                      uid=1_297 StaticText "✅ ANSWERED"
+                        uid=1_10 InlineTextBox "✅ ANSWERED"
+                  uid=1_298 paragraph
+                    uid=1_299 StaticText "We use modern AI-assisted workflows day to day. Expect a mix of coding copilots, LLM chat for debugging/refactoring, and lightweight internal automation for content/SEO workflows. The exact toolset can vary by task, but AI-assisted development is a normal part of how we ship."
+                      uid=1_10 InlineTextBox "We use modern AI-assisted workflows day to day. Expect a mix of coding copilots, LLM chat for "
+                      uid=1_10 InlineTextBox "debugging/refactoring, and lightweight internal automation for content/SEO workflows. The exact "
+                      uid=1_10 InlineTextBox "toolset can vary by task, but AI-assisted development is a normal part of how we ship."
+              uid=1_300 ignored
+                uid=1_301 ignored
+                  uid=1_302 ignored
+                    uid=1_303 ignored
+                      uid=1_304 StaticText "👥"
+                        uid=1_10 InlineTextBox "👥"
+                    uid=1_305 ignored
+                      uid=1_306 paragraph
+                        uid=1_307 StaticText "How big is the engineering team?"
+                          uid=1_10 InlineTextBox "How big is the engineering team?"
+                      uid=1_308 paragraph
+                        uid=1_309 StaticText "2"
+                          uid=1_10 InlineTextBox "2"
+                        uid=1_310 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_311 StaticText "s"
+                          uid=1_10 InlineTextBox "s"
+                        uid=1_312 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_313 button "Ask"
+                    uid=1_314 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_315 paragraph
+                  uid=1_316 StaticText "⏳ Awaiting response from employer"
+                    uid=1_10 InlineTextBox "⏳ Awaiting response from employer"
+              uid=1_317 ignored
+                uid=1_318 ignored
+                  uid=1_319 ignored
+                    uid=1_320 ignored
+                      uid=1_321 StaticText "⏰"
+                        uid=1_10 InlineTextBox "⏰"
+                    uid=1_322 ignored
+                      uid=1_323 paragraph
+                        uid=1_324 StaticText "Is the team fully async or are there required meetings?"
+                          uid=1_10 InlineTextBox "Is the team fully async or are there required meetings?"
+                      uid=1_325 paragraph
+                        uid=1_326 StaticText "1"
+                          uid=1_10 InlineTextBox "1"
+                        uid=1_327 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_328 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_329 button "Ask"
+                    uid=1_330 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_331 paragraph
+                  uid=1_332 StaticText "⏳ Awaiting response from employer"
+                    uid=1_10 InlineTextBox "⏳ Awaiting response from employer"
+              uid=1_333 ignored
+                uid=1_334 ignored
+                  uid=1_335 ignored
+                    uid=1_336 ignored
+                      uid=1_337 StaticText "🚀"
+                        uid=1_10 InlineTextBox "🚀"
+                    uid=1_338 ignored
+                      uid=1_339 paragraph
+                        uid=1_340 StaticText "What does onboarding look like for remote hires?"
+                          uid=1_10 InlineTextBox "What does onboarding look like for remote hires?"
+                      uid=1_341 paragraph
+                        uid=1_342 StaticText "1"
+                          uid=1_10 InlineTextBox "1"
+                        uid=1_343 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_344 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_345 button "Ask"
+                    uid=1_346 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_347 paragraph
+                  uid=1_348 StaticText "⏳ Awaiting response from employer"
+                    uid=1_10 InlineTextBox "⏳ Awaiting response from employer"
+              uid=1_349 ignored
+                uid=1_350 ignored
+                  uid=1_351 ignored
+                    uid=1_352 ignored
+                      uid=1_353 StaticText "🔧"
+                        uid=1_10 InlineTextBox "🔧"
+                    uid=1_354 ignored
+                      uid=1_355 paragraph
+                        uid=1_356 StaticText "Can you share more about the tech stack and architecture?"
+                          uid=1_10 InlineTextBox "Can you share more about the tech stack and architecture?"
+                      uid=1_357 paragraph
+                        uid=1_358 StaticText "1"
+                          uid=1_10 InlineTextBox "1"
+                        uid=1_359 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_360 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_361 button "Ask"
+                    uid=1_362 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_363 paragraph
+                  uid=1_364 StaticText "⏳ Awaiting response from employer"
+                    uid=1_10 InlineTextBox "⏳ Awaiting response from employer"
+              uid=1_365 ignored
+                uid=1_366 ignored
+                  uid=1_367 ignored
+                    uid=1_368 ignored
+                      uid=1_369 StaticText "📈"
+                        uid=1_10 InlineTextBox "📈"
+                    uid=1_370 ignored
+                      uid=1_371 paragraph
+                        uid=1_372 StaticText "What does career growth look like in this role?"
+                          uid=1_10 InlineTextBox "What does career growth look like in this role?"
+                      uid=1_373 paragraph
+                        uid=1_374 StaticText "1"
+                          uid=1_10 InlineTextBox "1"
+                        uid=1_375 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_376 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_377 button "Ask"
+                    uid=1_378 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_379 paragraph
+                  uid=1_380 StaticText "⏳ Awaiting response from employer"
+                    uid=1_10 InlineTextBox "⏳ Awaiting response from employer"
+              uid=1_381 ignored
+                uid=1_382 ignored
+                  uid=1_383 ignored
+                    uid=1_384 ignored
+                      uid=1_385 StaticText "📅"
+                        uid=1_10 InlineTextBox "📅"
+                    uid=1_386 ignored
+                      uid=1_387 paragraph
+                        uid=1_388 StaticText "What does a typical day look like?"
+                          uid=1_10 InlineTextBox "What does a typical day look like?"
+                      uid=1_389 paragraph
+                        uid=1_390 StaticText "1"
+                          uid=1_10 InlineTextBox "1"
+                        uid=1_391 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_392 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_393 button "Ask"
+                    uid=1_394 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_395 paragraph
+                  uid=1_396 StaticText "⏳ Awaiting response from employer"
+                    uid=1_10 InlineTextBox "⏳ Awaiting response from employer"
+              uid=1_397 ignored
+                uid=1_398 ignored
+                  uid=1_399 ignored
+                    uid=1_400 ignored
+                      uid=1_401 StaticText "📊"
+                        uid=1_10 InlineTextBox "📊"
+                    uid=1_402 ignored
+                      uid=1_403 paragraph
+                        uid=1_404 StaticText "Is equity or stock options part of the package?"
+                          uid=1_10 InlineTextBox "Is equity or stock options part of the package?"
+                      uid=1_405 paragraph
+                        uid=1_406 StaticText "1"
+                          uid=1_10 InlineTextBox "1"
+                        uid=1_407 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_408 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_409 button "Ask"
+                    uid=1_410 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_411 paragraph
+                  uid=1_412 StaticText "⏳ Awaiting response from employer"
+                    uid=1_10 InlineTextBox "⏳ Awaiting response from employer"
+              uid=1_413 ignored
+                uid=1_414 ignored
+                  uid=1_415 ignored
+                    uid=1_416 ignored
+                      uid=1_417 StaticText "🌍"
+                        uid=1_10 InlineTextBox "🌍"
+                    uid=1_418 ignored
+                      uid=1_419 paragraph
+                        uid=1_420 StaticText "Are there timezone requirements or preferences?"
+                          uid=1_10 InlineTextBox "Are there timezone requirements or preferences?"
+                      uid=1_421 paragraph
+                        uid=1_422 StaticText "1"
+                          uid=1_10 InlineTextBox "1"
+                        uid=1_423 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_424 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_425 button "Ask"
+                    uid=1_426 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_427 paragraph
+                  uid=1_428 StaticText "⏳ Awaiting response from employer"
+                    uid=1_10 InlineTextBox "⏳ Awaiting response from employer"
+              uid=1_429 ignored
+                uid=1_430 ignored
+                  uid=1_431 ignored
+                    uid=1_432 ignored
+                      uid=1_433 StaticText "🛂"
+                        uid=1_10 InlineTextBox "🛂"
+                    uid=1_434 ignored
+                      uid=1_435 paragraph
+                        uid=1_436 StaticText "Do you sponsor work visas?"
+                          uid=1_10 InlineTextBox "Do you sponsor work visas?"
+                      uid=1_437 paragraph
+                        uid=1_438 StaticText "1"
+                          uid=1_10 InlineTextBox "1"
+                        uid=1_439 StaticText " developer"
+                          uid=1_10 InlineTextBox " developer"
+                        uid=1_440 StaticText " asked this"
+                          uid=1_10 InlineTextBox " asked this"
+                  uid=1_441 button "Ask"
+                    uid=1_442 StaticText "Ask"
+                      uid=1_10 InlineTextBox "Ask"
+                uid=1_443 paragraph
+                  uid=1_444 StaticText "⏳ Awaiting response from employer"
+                    uid=1_10 InlineTextBox "⏳ Awaiting response from employer"
+            uid=1_445 ignored
+              uid=1_446 paragraph
+                uid=1_447 StaticText "🏢 Is this your listing?"
+                  uid=1_10 InlineTextBox "🏢 Is this your listing?"
+                uid=1_448 StaticText " "
+                  uid=1_10 InlineTextBox " "
+                uid=1_449 link "Claim it to answer questions" url="https://remotevibecodingjobs.com/claim"
+                  uid=1_450 StaticText "Claim it to answer questions"
+                    uid=1_10 InlineTextBox "Claim it to answer questions"
+          uid=1_451 generic
+            uid=1_452 heading "Similar Jobs" level="2"
+              uid=1_453 StaticText "Similar Jobs"
+                uid=1_10 InlineTextBox "Similar Jobs"
+            uid=1_454 ignored
+              uid=1_455 link "Adaptify SEO Vibe Coder Adaptify SEO Python React Next.js async-first global-friendly" url="https://remotevibecodingjobs.com/jobs/adaptify-seo-vibe-coder-172ec695"
+                uid=1_456 image "Adaptify SEO" url="https://www.google.com/s2/favicons?domain=adaptify.ai&sz=128"
+                uid=1_457 ignored
+                  uid=1_458 paragraph
+                    uid=1_459 StaticText "Vibe Coder"
+                      uid=1_10 InlineTextBox "Vibe Coder"
+                  uid=1_460 paragraph
+                    uid=1_461 StaticText "Adaptify SEO"
+                      uid=1_10 InlineTextBox "Adaptify SEO"
+                  uid=1_462 ignored
+                    uid=1_463 ignored
+                      uid=1_464 StaticText "Python"
+                        uid=1_10 InlineTextBox "Python"
+                    uid=1_465 ignored
+                      uid=1_466 StaticText "React"
+                        uid=1_10 InlineTextBox "React"
+                    uid=1_467 ignored
+                      uid=1_468 StaticText "Next.js"
+                        uid=1_10 InlineTextBox "Next.js"
+                    uid=1_469 ignored
+                      uid=1_470 StaticText "async-first"
+                        uid=1_10 InlineTextBox "async-first"
+                    uid=1_471 ignored
+                      uid=1_472 StaticText "global-friendly"
+                        uid=1_10 InlineTextBox "global-friendly"
+              uid=1_473 link "Vercel Software Engineer, Trust & Safety Vercel Next.js Python TypeScript vibe-coding" url="https://remotevibecodingjobs.com/jobs/vercel-software-engineer-trust-safety-b5c3cb0f"
+                uid=1_474 image "Vercel" url="https://icon.horse/icon/vercel.com"
+                uid=1_475 ignored
+                  uid=1_476 paragraph
+                    uid=1_477 StaticText "Software Engineer, Trust & Safety"
+                      uid=1_10 InlineTextBox "Software Engineer, Trust & Safety"
+                  uid=1_478 paragraph
+                    uid=1_479 StaticText "Vercel"
+                      uid=1_10 InlineTextBox "Vercel"
+                  uid=1_480 ignored
+                    uid=1_481 ignored
+                      uid=1_482 StaticText "Next.js"
+                        uid=1_10 InlineTextBox "Next.js"
+                    uid=1_483 ignored
+                      uid=1_484 StaticText "Python"
+                        uid=1_10 InlineTextBox "Python"
+                    uid=1_485 ignored
+                      uid=1_486 StaticText "TypeScript"
+                        uid=1_10 InlineTextBox "TypeScript"
+                    uid=1_487 ignored
+                      uid=1_488 StaticText "vibe-coding"
+                        uid=1_10 InlineTextBox "vibe-coding"
+              uid=1_489 link "Anthropic Staff+ Application Security Engineer - M&A Anthropic Python Go Rust vibe-coding" url="https://remotevibecodingjobs.com/jobs/anthropic-staff-application-security-engineer-m-a-3cab941c"
+                uid=1_490 image "Anthropic" url="https://icon.horse/icon/anthropic.com"
+                uid=1_491 ignored
+                  uid=1_492 paragraph
+                    uid=1_493 StaticText "Staff+ Application Security Engineer - M&A"
+                      uid=1_10 InlineTextBox "Staff+ Application Security Engineer - M&A"
+                  uid=1_494 paragraph
+                    uid=1_495 StaticText "Anthropic"
+                      uid=1_10 InlineTextBox "Anthropic"
+                  uid=1_496 ignored
+                    uid=1_497 ignored
+                      uid=1_498 StaticText "Python"
+                        uid=1_10 InlineTextBox "Python"
+                    uid=1_499 ignored
+                      uid=1_500 StaticText "Go"
+                        uid=1_10 InlineTextBox "Go"
+                    uid=1_501 ignored
+                      uid=1_502 StaticText "Rust"
+                        uid=1_10 InlineTextBox "Rust"
+                    uid=1_503 ignored
+                      uid=1_504 StaticText "vibe-coding"
+                        uid=1_10 InlineTextBox "vibe-coding"
+              uid=1_505 link "Upstart Software Engineer, Unsecured Installments Upstart React Node.js Python vibe-coding" url="https://remotevibecodingjobs.com/jobs/upstart-software-engineer-unsecured-installments-e0c05924"
+                uid=1_506 image "Upstart" url="https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/bc2cfa2b-221-1.jpeg"
+                uid=1_507 ignored
+                  uid=1_508 paragraph
+                    uid=1_509 StaticText "Software Engineer, Unsecured Installments"
+                      uid=1_10 InlineTextBox "Software Engineer, Unsecured Installments"
+                  uid=1_510 paragraph
+                    uid=1_511 StaticText "Upstart"
+                      uid=1_10 InlineTextBox "Upstart"
+                  uid=1_512 ignored
+                    uid=1_513 ignored
+                      uid=1_514 StaticText "React"
+                        uid=1_10 InlineTextBox "React"
+                    uid=1_515 ignored
+                      uid=1_516 StaticText "Node.js"
+                        uid=1_10 InlineTextBox "Node.js"
+                    uid=1_517 ignored
+                      uid=1_518 StaticText "Python"
+                        uid=1_10 InlineTextBox "Python"
+                    uid=1_519 ignored
+                      uid=1_520 StaticText "vibe-coding"
+                        uid=1_10 InlineTextBox "vibe-coding"
+          uid=1_521 navigation "Job navigation"
+            uid=1_522 link "PREVIOUS iOS Engineer (Swift / SwiftUI) — OOWEE Fitness" url="https://remotevibecodingjobs.com/jobs/oowee-ios-engineer-swift-swiftui-oowee-fitness-15ff65e7"
+              uid=1_523 image
+              uid=1_524 ignored
+                uid=1_525 ignored
+                  uid=1_526 StaticText "PREVIOUS"
+                    uid=1_10 InlineTextBox "PREVIOUS"
+                uid=1_527 StaticText "iOS Engineer (Swift / SwiftUI) — OOWEE Fitness"
+                  uid=1_10 InlineTextBox "iOS Engineer (Swift / SwiftUI) — OOWEE Fitness"
+            uid=1_528 link "NEXT Vibe Coder" url="https://remotevibecodingjobs.com/jobs/adaptify-seo-vibe-coder-172ec695"
+              uid=1_529 ignored
+                uid=1_530 ignored
+                  uid=1_531 StaticText "NEXT"
+                    uid=1_10 InlineTextBox "NEXT"
+                uid=1_532 StaticText "Vibe Coder"
+                  uid=1_10 InlineTextBox "Vibe Coder"
+              uid=1_533 image
+          uid=1_534 generic
+            uid=1_535 heading "HELPFUL RESOURCES" level="2"
+              uid=1_536 StaticText "HELPFUL RESOURCES"
+                uid=1_10 InlineTextBox "HELPFUL RESOURCES"
+            uid=1_537 ignored
+              uid=1_538 link "How to Land a Remote Vibe Coding Job Step-by-step guide to getting hired at async-first companies." url="https://remotevibecodingjobs.com/blog/remote-vibe-coding-jobs-guide"
+                uid=1_539 heading "How to Land a Remote Vibe Coding Job" level="3"
+                  uid=1_540 StaticText "How to Land a Remote Vibe Coding Job"
+                    uid=1_10 InlineTextBox "How to Land a Remote Vibe Coding Job"
+                uid=1_541 paragraph
+                  uid=1_542 StaticText "Step-by-step guide to getting hired at async-first companies."
+                    uid=1_10 InlineTextBox "Step-by-step guide to getting hired at async-first companies."
+              uid=1_543 link "The Complete Vibe Coding Workflow Real tools and processes for building with AI in 2026." url="https://remotevibecodingjobs.com/blog/vibe-coding-workflow-guide"
+                uid=1_544 heading "The Complete Vibe Coding Workflow" level="3"
+                  uid=1_545 StaticText "The Complete Vibe Coding Workflow"
+                    uid=1_10 InlineTextBox "The Complete Vibe Coding Workflow"
+                uid=1_546 paragraph
+                  uid=1_547 StaticText "Real tools and processes for building with AI in 2026."
+                    uid=1_10 InlineTextBox "Real tools and processes for building with AI in 2026."
+              uid=1_548 link "Companies That Skip Leetcode Interviews What practical interview formats look like instead." url="https://remotevibecodingjobs.com/blog/no-leetcode-interview-companies"
+                uid=1_549 heading "Companies That Skip Leetcode Interviews" level="3"
+                  uid=1_550 StaticText "Companies That Skip Leetcode Interviews"
+                    uid=1_10 InlineTextBox "Companies That Skip Leetcode Interviews"
+                uid=1_551 paragraph
+                  uid=1_552 StaticText "What practical interview formats look like instead."
+                    uid=1_10 InlineTextBox "What practical interview formats look like instead."
+              uid=1_553 link "Remote Developer Salary Guide 2026 Salary ranges by level, stack, and location." url="https://remotevibecodingjobs.com/blog/remote-developer-salary-guide-2026"
+                uid=1_554 heading "Remote Developer Salary Guide 2026" level="3"
+                  uid=1_555 StaticText "Remote Developer Salary Guide 2026"
+                    uid=1_10 InlineTextBox "Remote Developer Salary Guide 2026"
+                uid=1_556 paragraph
+                  uid=1_557 StaticText "Salary ranges by level, stack, and location."
+                    uid=1_10 InlineTextBox "Salary ranges by level, stack, and location."
+          uid=1_558 ignored
+            uid=1_559 paragraph
+              uid=1_560 StaticText "Hiring for a similar role?"
+                uid=1_10 InlineTextBox "Hiring for a similar role?"
+              uid=1_561 StaticText " "
+                uid=1_10 InlineTextBox " "
+              uid=1_562 link "Post your job here — it's free →" url="https://remotevibecodingjobs.com/post-job"
+                uid=1_563 StaticText "Post your job here — it's free →"
+                  uid=1_10 InlineTextBox "Post your job here — it's free →"
+      uid=1_564 contentinfo
+        uid=1_565 ignored
+          uid=1_566 ignored
+            uid=1_567 ignored
+              uid=1_568 link "R remotevibe" url="https://remotevibecodingjobs.com/"
+                uid=1_569 ignored
+                  uid=1_570 ignored
+                    uid=1_571 StaticText "R"
+                      uid=1_10 InlineTextBox "R"
+                uid=1_572 ignored
+                  uid=1_573 StaticText "remote"
+                    uid=1_10 InlineTextBox "remote"
+                  uid=1_574 StaticText "vibe"
+                    uid=1_10 InlineTextBox "vibe"
+              uid=1_575 paragraph
+                uid=1_576 StaticText "The job board for AI-first developers. Remote roles at async-first companies that embrace the vibe coding movement."
+                  uid=1_10 InlineTextBox "The job board for AI-first "
+                  uid=1_10 InlineTextBox "developers. Remote roles "
+                  uid=1_10 InlineTextBox "at async-first companies "
+                  uid=1_10 InlineTextBox "that embrace the vibe "
+                  uid=1_10 InlineTextBox "coding movement."
+              uid=1_577 generic
+                uid=1_578 image
+                uid=1_579 ignored
+                  uid=1_580 StaticText "Verified listings"
+                    uid=1_10 InlineTextBox "Verified listings"
+            uid=1_581 ignored
+              uid=1_582 heading "FOR CANDIDATES" level="3"
+                uid=1_583 StaticText "FOR CANDIDATES"
+                  uid=1_10 InlineTextBox "FOR CANDIDATES"
+              uid=1_584 list
+                uid=1_585 listitem level="1"
+                  uid=1_586 link "Browse Jobs" url="https://remotevibecodingjobs.com/"
+                    uid=1_587 StaticText "Browse Jobs"
+                      uid=1_10 InlineTextBox "Browse Jobs"
+                uid=1_588 listitem level="1"
+                  uid=1_589 link "Job Alerts" url="https://remotevibecodingjobs.com/alerts"
+                    uid=1_590 StaticText "Job Alerts"
+                      uid=1_10 InlineTextBox "Job Alerts"
+                uid=1_591 listitem level="1"
+                  uid=1_592 link "AI Profile Review" url="https://remotevibecodingjobs.com/review"
+                    uid=1_593 StaticText "AI Profile Review"
+                      uid=1_10 InlineTextBox "AI Profile Review"
+                uid=1_594 listitem level="1"
+                  uid=1_595 link "Salary Data" url="https://remotevibecodingjobs.com/salaries"
+                    uid=1_596 StaticText "Salary Data"
+                      uid=1_10 InlineTextBox "Salary Data"
+                uid=1_597 listitem level="1"
+                  uid=1_598 link "Companies" url="https://remotevibecodingjobs.com/companies"
+                    uid=1_599 StaticText "Companies"
+                      uid=1_10 InlineTextBox "Companies"
+            uid=1_600 ignored
+              uid=1_601 heading "FOR EMPLOYERS" level="3"
+                uid=1_602 StaticText "FOR EMPLOYERS"
+                  uid=1_10 InlineTextBox "FOR EMPLOYERS"
+              uid=1_603 list
+                uid=1_604 listitem level="1"
+                  uid=1_605 link "Post a Job" url="https://remotevibecodingjobs.com/post-job"
+                    uid=1_606 StaticText "Post a Job"
+                      uid=1_10 InlineTextBox "Post a Job"
+                uid=1_607 listitem level="1"
+                  uid=1_608 link "Hire Developers" url="https://remotevibecodingjobs.com/hire"
+                    uid=1_609 StaticText "Hire Developers"
+                      uid=1_10 InlineTextBox "Hire Developers"
+                uid=1_610 listitem level="1"
+                  uid=1_611 link "Pricing & Features" url="https://remotevibecodingjobs.com/for-employers"
+                    uid=1_612 StaticText "Pricing & Features"
+                      uid=1_10 InlineTextBox "Pricing & Features"
+                uid=1_613 listitem level="1"
+                  uid=1_614 link "Jobs Widget" url="https://remotevibecodingjobs.com/widget"
+                    uid=1_615 StaticText "Jobs Widget"
+                      uid=1_10 InlineTextBox "Jobs Widget"
+                uid=1_616 listitem level="1"
+                  uid=1_617 link "Manage Listing" url="https://remotevibecodingjobs.com/manage/resend"
+                    uid=1_618 StaticText "Manage Listing"
+                      uid=1_10 InlineTextBox "Manage Listing"
+            uid=1_619 ignored
+              uid=1_620 heading "RESOURCES" level="3"
+                uid=1_621 StaticText "RESOURCES"
+                  uid=1_10 InlineTextBox "RESOURCES"
+              uid=1_622 list
+                uid=1_623 listitem level="1"
+                  uid=1_624 link "Blog" url="https://blog.remotevibecodingjobs.com/"
+                    uid=1_625 StaticText "Blog"
+                      uid=1_10 InlineTextBox "Blog"
+                uid=1_626 listitem level="1"
+                  uid=1_627 link "Market Trends" url="https://remotevibecodingjobs.com/trends"
+                    uid=1_628 StaticText "Market Trends"
+                      uid=1_10 InlineTextBox "Market Trends"
+                uid=1_629 listitem level="1"
+                  uid=1_630 link "Who's Hiring" url="https://remotevibecodingjobs.com/whos-hiring"
+                    uid=1_631 StaticText "Who's Hiring"
+                      uid=1_10 InlineTextBox "Who's Hiring"
+                uid=1_632 listitem level="1"
+                  uid=1_633 link "Compare Companies" url="https://remotevibecodingjobs.com/compare"
+                    uid=1_634 StaticText "Compare Companies"
+                      uid=1_10 InlineTextBox "Compare Companies"
+                uid=1_635 listitem level="1"
+                  uid=1_636 link "Cursor vs Copilot" url="https://remotevibecodingjobs.com/compare/cursor-vs-copilot"
+                    uid=1_637 StaticText "Cursor vs Copilot"
+                      uid=1_10 InlineTextBox "Cursor vs Copilot"
+                uid=1_638 listitem level="1"
+                  uid=1_639 link "Best Job Boards" url="https://remotevibecodingjobs.com/compare/remote-job-boards"
+                    uid=1_640 StaticText "Best Job Boards"
+                      uid=1_10 InlineTextBox "Best Job Boards"
+                uid=1_641 listitem level="1"
+                  uid=1_642 link "Get a Remote Job" url="https://remotevibecodingjobs.com/answers/how-to-get-remote-developer-job"
+                    uid=1_643 StaticText "Get a Remote Job"
+                      uid=1_10 InlineTextBox "Get a Remote Job"
+                uid=1_644 listitem level="1"
+                  uid=1_645 link "Career Guides" url="https://remotevibecodingjobs.com/guides"
+                    uid=1_646 StaticText "Career Guides"
+                      uid=1_10 InlineTextBox "Career Guides"
+                uid=1_647 listitem level="1"
+                  uid=1_648 link "State of Vibe Coding 2026" url="https://remotevibecodingjobs.com/state-of-vibe-coding-2026"
+                    uid=1_649 StaticText "State of Vibe Coding 2026"
+                      uid=1_10 InlineTextBox "State of Vibe Coding 2026"
+                uid=1_650 listitem level="1"
+                  uid=1_651 link "2026 Report" url="https://remotevibecodingjobs.com/state-of-vibe-coding-2026"
+                    uid=1_652 StaticText "2026 Report"
+                      uid=1_10 InlineTextBox "2026 Report"
+            uid=1_653 ignored
+              uid=1_654 heading "FREE TOOLS" level="3"
+                uid=1_655 StaticText "FREE TOOLS"
+                  uid=1_10 InlineTextBox "FREE TOOLS"
+              uid=1_656 list
+                uid=1_657 listitem level="1"
+                  uid=1_658 link "All Tools" url="https://remotevibecodingjobs.com/tools"
+                    uid=1_659 StaticText "All Tools"
+                      uid=1_10 InlineTextBox "All Tools"
+                uid=1_660 listitem level="1"
+                  uid=1_661 link "Market Value" url="https://remotevibecodingjobs.com/tools/developer-market-value"
+                    uid=1_662 StaticText "Market Value"
+                      uid=1_10 InlineTextBox "Market Value"
+                uid=1_663 listitem level="1"
+                  uid=1_664 link "AI Productivity" url="https://remotevibecodingjobs.com/tools/ai-productivity-calculator"
+                    uid=1_665 StaticText "AI Productivity"
+                      uid=1_10 InlineTextBox "AI Productivity"
+                uid=1_666 listitem level="1"
+                  uid=1_667 link "Remote Quiz" url="https://remotevibecodingjobs.com/tools/remote-readiness-quiz"
+                    uid=1_668 StaticText "Remote Quiz"
+                      uid=1_10 InlineTextBox "Remote Quiz"
+                uid=1_669 listitem level="1"
+                  uid=1_670 link "Speed Test" url="https://remotevibecodingjobs.com/tools/vibe-coding-speed-test"
+                    uid=1_671 StaticText "Speed Test"
+                      uid=1_10 InlineTextBox "Speed Test"
+                uid=1_672 listitem level="1"
+                  uid=1_673 link "Stack Analyzer" url="https://remotevibecodingjobs.com/tools/tech-stack-analyzer"
+                    uid=1_674 StaticText "Stack Analyzer"
+                      uid=1_10 InlineTextBox "Stack Analyzer"
+                uid=1_675 listitem level="1"
+                  uid=1_676 link "Salary Calculator" url="https://remotevibecodingjobs.com/tools/salary-calculator"
+                    uid=1_677 StaticText "Salary Calculator"
+                      uid=1_10 InlineTextBox "Salary Calculator"
+                uid=1_678 listitem level="1"
+                  uid=1_679 link "Market Stats" url="https://remotevibecodingjobs.com/stats"
+                    uid=1_680 StaticText "Market Stats"
+                      uid=1_10 InlineTextBox "Market Stats"
+            uid=1_681 ignored
+              uid=1_682 heading "COMPANY" level="3"
+                uid=1_683 StaticText "COMPANY"
+                  uid=1_10 InlineTextBox "COMPANY"
+              uid=1_684 list
+                uid=1_685 listitem level="1"
+                  uid=1_686 link "About Us" url="https://remotevibecodingjobs.com/about"
+                    uid=1_687 StaticText "About Us"
+                      uid=1_10 InlineTextBox "About Us"
+                uid=1_688 listitem level="1"
+                  uid=1_689 link "Contact" url="https://remotevibecodingjobs.com/contact"
+                    uid=1_690 StaticText "Contact"
+                      uid=1_10 InlineTextBox "Contact"
+                uid=1_691 listitem level="1"
+                  uid=1_692 link "Privacy Policy" url="https://remotevibecodingjobs.com/privacy"
+                    uid=1_693 StaticText "Privacy Policy"
+                      uid=1_10 InlineTextBox "Privacy Policy"
+                uid=1_694 listitem level="1"
+                  uid=1_695 link "Terms of Service" url="https://remotevibecodingjobs.com/terms"
+                    uid=1_696 StaticText "Terms of Service"
+                      uid=1_10 InlineTextBox "Terms of Service"
+                uid=1_697 listitem level="1"
+                  uid=1_698 link "Affiliate Disclosure" url="https://remotevibecodingjobs.com/disclosure"
+                    uid=1_699 StaticText "Affiliate Disclosure"
+                      uid=1_10 InlineTextBox "Affiliate Disclosure"
+                uid=1_700 listitem level="1"
+                  uid=1_701 link "Stay Active → OOWEE" url="https://oow.ee/"
+                    uid=1_702 StaticText "Stay Active → OOWEE"
+                      uid=1_10 InlineTextBox "Stay Active → OOWEE"
+          uid=1_703 ignored
+            uid=1_704 ignored
+              uid=1_705 ignored
+                uid=1_706 paragraph
+                  uid=1_707 StaticText "JOBS BY TECH"
+                    uid=1_10 InlineTextBox "JOBS BY TECH"
+                uid=1_708 ignored
+                  uid=1_709 ignored
+                    uid=1_710 link "React" url="https://remotevibecodingjobs.com/jobs/t/react"
+                      uid=1_711 StaticText "React"
+                        uid=1_10 InlineTextBox "React"
+                    uid=1_712 ignored
+                      uid=1_713 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_714 ignored
+                    uid=1_715 link "Python" url="https://remotevibecodingjobs.com/jobs/t/python"
+                      uid=1_716 StaticText "Python"
+                        uid=1_10 InlineTextBox "Python"
+                    uid=1_717 ignored
+                      uid=1_718 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_719 ignored
+                    uid=1_720 link "TypeScript" url="https://remotevibecodingjobs.com/jobs/t/typescript"
+                      uid=1_721 StaticText "TypeScript"
+                        uid=1_10 InlineTextBox "TypeScript"
+                    uid=1_722 ignored
+                      uid=1_723 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_724 ignored
+                    uid=1_725 link "Node.js" url="https://remotevibecodingjobs.com/jobs/t/nodejs"
+                      uid=1_726 StaticText "Node.js"
+                        uid=1_10 InlineTextBox "Node.js"
+                    uid=1_727 ignored
+                      uid=1_728 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_729 ignored
+                    uid=1_730 link "Go (Golang)" url="https://remotevibecodingjobs.com/jobs/t/go"
+                      uid=1_731 StaticText "Go (Golang)"
+                        uid=1_10 InlineTextBox "Go (Golang)"
+                    uid=1_732 ignored
+                      uid=1_733 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_734 ignored
+                    uid=1_735 link "Rust" url="https://remotevibecodingjobs.com/jobs/t/rust"
+                      uid=1_736 StaticText "Rust"
+                        uid=1_10 InlineTextBox "Rust"
+                    uid=1_737 ignored
+                      uid=1_738 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_739 ignored
+                    uid=1_740 link "Next.js" url="https://remotevibecodingjobs.com/jobs/t/nextjs"
+                      uid=1_741 StaticText "Next.js"
+                        uid=1_10 InlineTextBox "Next.js"
+                    uid=1_742 ignored
+                      uid=1_743 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_744 ignored
+                    uid=1_745 link "AWS Jobs" url="https://remotevibecodingjobs.com/jobs/t/aws"
+                      uid=1_746 StaticText "AWS"
+                        uid=1_10 InlineTextBox "AWS"
+                      uid=1_747 StaticText " Jobs"
+                        uid=1_10 InlineTextBox " Jobs"
+                    uid=1_748 ignored
+                      uid=1_749 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_750 ignored
+                    uid=1_751 link "Docker" url="https://remotevibecodingjobs.com/jobs/t/docker"
+                      uid=1_752 StaticText "Docker"
+                        uid=1_10 InlineTextBox "Docker"
+                    uid=1_753 ignored
+                      uid=1_754 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_755 ignored
+                    uid=1_756 link "Kubernetes" url="https://remotevibecodingjobs.com/jobs/t/kubernetes"
+                      uid=1_757 StaticText "Kubernetes"
+                        uid=1_10 InlineTextBox "Kubernetes"
+              uid=1_758 ignored
+                uid=1_759 paragraph
+                  uid=1_760 StaticText "JOBS BY CULTURE"
+                    uid=1_10 InlineTextBox "JOBS BY CULTURE"
+                uid=1_761 ignored
+                  uid=1_762 ignored
+                    uid=1_763 link "Async-First" url="https://remotevibecodingjobs.com/jobs/v/async-first"
+                      uid=1_764 StaticText "Async-First"
+                        uid=1_10 InlineTextBox "Async-First"
+                    uid=1_765 ignored
+                      uid=1_766 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_767 ignored
+                    uid=1_768 link "Vibe Coding" url="https://remotevibecodingjobs.com/jobs/v/vibe-coding"
+                      uid=1_769 StaticText "Vibe Coding"
+                        uid=1_10 InlineTextBox "Vibe Coding"
+                    uid=1_770 ignored
+                      uid=1_771 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_772 ignored
+                    uid=1_773 link "Deep Work" url="https://remotevibecodingjobs.com/jobs/v/deep-work"
+                      uid=1_774 StaticText "Deep Work"
+                        uid=1_10 InlineTextBox "Deep Work"
+                    uid=1_775 ignored
+                      uid=1_776 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_777 ignored
+                    uid=1_778 link "No Leetcode" url="https://remotevibecodingjobs.com/jobs/v/no-leetcode"
+                      uid=1_779 StaticText "No Leetcode"
+                        uid=1_10 InlineTextBox "No Leetcode"
+                    uid=1_780 ignored
+                      uid=1_781 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_782 ignored
+                    uid=1_783 link "4-Day Week" url="https://remotevibecodingjobs.com/jobs/v/4-day-week"
+                      uid=1_784 StaticText "4-Day Week"
+                        uid=1_10 InlineTextBox "4-Day Week"
+                    uid=1_785 ignored
+                      uid=1_786 StaticText "·"
+                        uid=1_10 InlineTextBox "·"
+                  uid=1_787 ignored
+                    uid=1_788 link "Open Source" url="https://remotevibecodingjobs.com/jobs/v/open-source"
+                      uid=1_789 StaticText "Open Source"
+                        uid=1_10 InlineTextBox "Open Source"
+          uid=1_790 ignored
+            uid=1_791 paragraph
+              uid=1_792 StaticText "© 2026 Remote Vibe Coding Jobs. All rights reserved."
+                uid=1_10 InlineTextBox "© 2026 Remote Vibe Coding Jobs. All rights reserved."
+            uid=1_793 ignored
+              uid=1_794 link "Privacy Policy" url="https://remotevibecodingjobs.com/privacy"
+                uid=1_795 StaticText "Privacy Policy"
+                  uid=1_10 InlineTextBox "Privacy Policy"
+              uid=1_796 ignored
+                uid=1_797 StaticText "·"
+                  uid=1_10 InlineTextBox "·"
+              uid=1_798 link "Terms of Service" url="https://remotevibecodingjobs.com/terms"
+                uid=1_799 StaticText "Terms of Service"
+                  uid=1_10 InlineTextBox "Terms of Service"
+              uid=1_800 ignored
+                uid=1_801 StaticText "·"
+                  uid=1_10 InlineTextBox "·"
+              uid=1_802 link "Contact" url="https://remotevibecodingjobs.com/contact"
+                uid=1_803 StaticText "Contact"
+                  uid=1_10 InlineTextBox "Contact"
+            uid=1_804 paragraph
+              uid=1_805 StaticText "Built with vibe coding, obviously."
+                uid=1_10 InlineTextBox "Built with vibe coding, obviously."
+      uid=1_806 generic
+        uid=1_807 button "Send feedback" description="Send feedback"
+          uid=1_808 image

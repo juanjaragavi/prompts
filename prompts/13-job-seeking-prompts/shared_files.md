@@ -30,3 +30,29 @@
 - /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/cover_letters/cover_letter_3.md: Tailored Spanish cover letter for Juan Jaramillo applying as Programador/a con enfoque Vibe Coding (IA) at Inteligencia Artificial (Barcelona).
 - /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/cover_letters/cover_letter_4.md: Tailored English cover letter for Juan Jaramillo applying as a Vibe Coder / Software Engineer at Trilogy.
 - /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/cover_letters/cover_letter_5.md: Tailored Spanish cover letter for Juan Jaramillo applying as Desarrollador AI-Native (Vibe Coder) at Vibeast.
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/extract_profile_pdfs.py: Utility script that extracts text from the canonical 2026 CV, cover letter, and corporate portfolio PDFs for candidate-profile verification.
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/resume_path.txt: A text file containing the absolute file path to the verified, complete resume file for Juan Miguel Jaramillo Gaviria.
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/found_jobs.json: A JSON array of 5 active job postings related to vibe coding or AI-assisted software development, containing keys: company, title, job_url, description, and application_type.
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job_application_report.md: Clean, markdown-formatted final application summary report compiling the statuses of the five job applications for Juan Miguel Jaramillo Gaviria.
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/candidate_profile_data.json: Consolidated, structured JSON profile data for Juan Miguel Jaramillo Gaviria containing full personal details, links, portfolio, skills matrix, experience summaries, target compensation, and pre-calculated screening responses.
+
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/medfar_therapynotes_jobs.md: Detailed research findings, direct job URLs, description, salary, and application screening questions for the "Generative AI (GenAI) | Prompt Engineer" role at Medfar and the "Senior Software Developer (Agentic Development)" role at TherapyNotes.com.
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/job_research_findings.md: Detailed markdown research findings including job descriptions, URLs, requirements, and salary details for DataAnnotation and BJAK Applied AI Engineer roles.
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Job_Applications_Report.md: A unified, professional Markdown report compiling the job application details, links, requirements, salaries, and application methods for 10 remote AI and Prompt Engineering roles, along with tailored application recommendation notes for candidate Juan Jaramillo.
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_1_screenshot.png: Medfar SmartRecruiters access block screenshot
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_2_screenshot.png: TherapyNotes.com Workable submitted application screenshot
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_3_screenshot.png: Xsolla Lever submitted application screenshot
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_4_screenshot.png: Bjak Ashby submitted application screenshot
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_5_screenshot.png: Team Red Dog Crelate submitted application screenshot
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_6_screenshot.png: Curve Dental Rippling filled application form screenshot
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_7_screenshot.png: Netomi Lever submitted application screenshot
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_8_screenshot.png: WorkBetterNow Zoho Recruit submitted application screenshot
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_1.json: Medfar application status JSON file
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_2.json: TherapyNotes.com application status JSON file
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_3.json: Xsolla application status JSON file
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_4.json: Bjak application status JSON file
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_5.json: Team Red Dog application status JSON file
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_6.json: Curve Dental application status JSON file
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_7.json: Netomi application status JSON file
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_8.json: WorkBetterNow application status JSON file
+- /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/unfilled_tabs_submission_report.md: A unified Markdown report synthesizing the results from the open applications inventory and the individual application status JSON files, listing statuses (Submitted, Failed, or CAPTCHA Blocked) and corresponding screenshot references.

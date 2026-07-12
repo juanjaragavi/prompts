@@ -1,0 +1,172 @@
+uid=16_0 RootWebArea "Login - IJP-PJP" url="https://b2cprejoinerprod.b2clogin.com/candidate.accenture.com/B2C_1A_SignIn_MyCareer_OIDC/api/SelfAsserted/confirmed?csrf_token=Y01wbEtqMWljbGRpZ2VjaGxBS3RtZTB1dmlwa3BWSW9FL3YycFlBRTAvK1lqcnI2VGZ4VS9mVTlENFFGelVRV2NpckpoNCtMY1lHUTBpeDlFRlRwRFE9PTsyMDI2LTA3LTExVDAyOjI5OjUzLjQwNDM2M1o7bmFZLzMxTGNuUHhhMjE4cjVzWnR4QT09O3siVGFyZ2V0RW50aXR5IjoiVHJhY2tTaWduSW5SZXF1ZXN0QmVnaW4iLCJPcmNoZXN0cmF0aW9uU3RlcCI6M30=&tx=StateProperties=eyJUSUQiOiI3YTFiNjZmYi1iZjQ4LTQyNWYtOTFkMy02ZTc1OGI4NTZlZGMifQ&p=B2C_1A_SignIn_MyCareer_OIDC&diags=%7B%22pageViewId%22%3A%22519e77a2-438d-46d9-9709-23f69b294e82%22%2C%22pageId%22%3A%22SelfAsserted%22%2C%22trace%22%3A%5B%7B%22ac%22%3A%22T005%22%2C%22acST%22%3A1783736993%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T021%20-%20URL%3Ahttps%3A%2F%2Fapp-5292-eus2-prejoiner-prod-web.azurewebsites.net%2FMFASplash.html%22%2C%22acST%22%3A1783736993%2C%22acD%22%3A1110%7D%2C%7B%22ac%22%3A%22T019%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T004%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T003%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T035%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T030Online%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T017T010%22%2C%22acST%22%3A1783736995%2C%22acD%22%3A126%7D%2C%7B%22ac%22%3A%22T002%22%2C%22acST%22%3A1783736995%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T017T010%22%2C%22acST%22%3A1783736995%2C%22acD%22%3A127%7D%5D%7D"
+  uid=16_1 ignored
+    uid=16_2 ignored
+      uid=16_3 ignored
+        uid=16_4 link "Skip to main content" url="https://b2cprejoinerprod.b2clogin.com/candidate.accenture.com/B2C_1A_SignIn_MyCareer_OIDC/api/SelfAsserted/confirmed?csrf_token=Y01wbEtqMWljbGRpZ2VjaGxBS3RtZTB1dmlwa3BWSW9FL3YycFlBRTAvK1lqcnI2VGZ4VS9mVTlENFFGelVRV2NpckpoNCtMY1lHUTBpeDlFRlRwRFE9PTsyMDI2LTA3LTExVDAyOjI5OjUzLjQwNDM2M1o7bmFZLzMxTGNuUHhhMjE4cjVzWnR4QT09O3siVGFyZ2V0RW50aXR5IjoiVHJhY2tTaWduSW5SZXF1ZXN0QmVnaW4iLCJPcmNoZXN0cmF0aW9uU3RlcCI6M30=&tx=StateProperties=eyJUSUQiOiI3YTFiNjZmYi1iZjQ4LTQyNWYtOTFkMy02ZTc1OGI4NTZlZGMifQ&p=B2C_1A_SignIn_MyCareer_OIDC&diags=%7B%22pageViewId%22%3A%22519e77a2-438d-46d9-9709-23f69b294e82%22%2C%22pageId%22%3A%22SelfAsserted%22%2C%22trace%22%3A%5B%7B%22ac%22%3A%22T005%22%2C%22acST%22%3A1783736993%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T021%20-%20URL%3Ahttps%3A%2F%2Fapp-5292-eus2-prejoiner-prod-web.azurewebsites.net%2FMFASplash.html%22%2C%22acST%22%3A1783736993%2C%22acD%22%3A1110%7D%2C%7B%22ac%22%3A%22T019%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T004%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T003%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T035%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T030Online%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T017T010%22%2C%22acST%22%3A1783736995%2C%22acD%22%3A126%7D%2C%7B%22ac%22%3A%22T002%22%2C%22acST%22%3A1783736995%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T017T010%22%2C%22acST%22%3A1783736995%2C%22acD%22%3A127%7D%5D%7D#redesign-main"
+          uid=16_5 StaticText "Skip to main content"
+            uid=16_6 InlineTextBox "Skip to main content"
+        uid=16_7 link "Skip to footer" url="https://b2cprejoinerprod.b2clogin.com/candidate.accenture.com/B2C_1A_SignIn_MyCareer_OIDC/api/SelfAsserted/confirmed?csrf_token=Y01wbEtqMWljbGRpZ2VjaGxBS3RtZTB1dmlwa3BWSW9FL3YycFlBRTAvK1lqcnI2VGZ4VS9mVTlENFFGelVRV2NpckpoNCtMY1lHUTBpeDlFRlRwRFE9PTsyMDI2LTA3LTExVDAyOjI5OjUzLjQwNDM2M1o7bmFZLzMxTGNuUHhhMjE4cjVzWnR4QT09O3siVGFyZ2V0RW50aXR5IjoiVHJhY2tTaWduSW5SZXF1ZXN0QmVnaW4iLCJPcmNoZXN0cmF0aW9uU3RlcCI6M30=&tx=StateProperties=eyJUSUQiOiI3YTFiNjZmYi1iZjQ4LTQyNWYtOTFkMy02ZTc1OGI4NTZlZGMifQ&p=B2C_1A_SignIn_MyCareer_OIDC&diags=%7B%22pageViewId%22%3A%22519e77a2-438d-46d9-9709-23f69b294e82%22%2C%22pageId%22%3A%22SelfAsserted%22%2C%22trace%22%3A%5B%7B%22ac%22%3A%22T005%22%2C%22acST%22%3A1783736993%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T021%20-%20URL%3Ahttps%3A%2F%2Fapp-5292-eus2-prejoiner-prod-web.azurewebsites.net%2FMFASplash.html%22%2C%22acST%22%3A1783736993%2C%22acD%22%3A1110%7D%2C%7B%22ac%22%3A%22T019%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T004%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T003%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T035%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T030Online%22%2C%22acST%22%3A1783736994%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T017T010%22%2C%22acST%22%3A1783736995%2C%22acD%22%3A126%7D%2C%7B%22ac%22%3A%22T002%22%2C%22acST%22%3A1783736995%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T017T010%22%2C%22acST%22%3A1783736995%2C%22acD%22%3A127%7D%5D%7D#footer-block"
+          uid=16_8 StaticText "Skip to footer"
+            uid=16_6 InlineTextBox "Skip to footer"
+        uid=16_9 document
+        uid=16_10 generic
+          uid=16_11 banner
+            uid=16_12 navigation
+              uid=16_13 generic
+                uid=16_14 generic
+                  uid=16_15 generic
+                    uid=16_16 link "Accenture Home" url="https://www.accenture.com/"
+                      uid=16_17 image "Accenture Home" url="https://app-5292-eus2-prejoiner-prod-web.azurewebsites.net/images/Acc_Logo_Black_Purple_RGB.png"
+        uid=16_18 main
+          uid=16_19 ignored
+            uid=16_20 ignored
+              uid=16_21 generic
+                uid=16_22 generic
+                  uid=16_23 heading "Start or complete your application" level="1"
+                    uid=16_24 StaticText "Start or complete your application"
+                      uid=16_6 InlineTextBox "Start or complete your "
+                      uid=16_6 InlineTextBox "application"
+                  uid=16_25 heading "Already registered? Sign in with e-mail and password below. Starting a new application? Sign up below." level="2"
+                    uid=16_26 StaticText "Already registered? Sign in with e-mail and password below."
+                      uid=16_6 InlineTextBox "Already registered? Sign in with e-mail and password below."
+                    uid=16_27 LineBreak "
+"
+                      uid=16_6 InlineTextBox "
+"
+                    uid=16_28 StaticText "Starting a new application? Sign up below."
+                      uid=16_6 InlineTextBox "Starting a new application? Sign up below."
+                  uid=16_29 heading "Sign in using your existing account." level="3"
+                    uid=16_30 StaticText "Sign in using your existing account."
+                      uid=16_6 InlineTextBox "Sign in using your existing account."
+          uid=16_31 ignored
+            uid=16_32 generic
+              uid=16_33 form
+                uid=16_34 ignored
+                  uid=16_35 ignored
+                    uid=16_36 LabelText
+                      uid=16_37 StaticText "Email Address"
+                        uid=16_6 InlineTextBox "Email Address"
+                    uid=16_38 generic
+                      uid=16_39 textbox "Email Address" required
+                        uid=16_40 generic
+                  uid=16_41 ignored
+                    uid=16_42 ignored
+                      uid=16_43 LabelText
+                        uid=16_44 StaticText "Password"
+                          uid=16_6 InlineTextBox "Password"
+                      uid=16_45 generic
+                        uid=16_46 textbox "Password" required
+                          uid=16_47 generic
+                        uid=16_48 generic
+                          uid=16_49 checkbox
+                          uid=16_50 LabelText
+                            uid=16_51 StaticText "Show Password"
+                              uid=16_6 InlineTextBox "Show Password"
+                  uid=16_52 generic
+                    uid=16_53 link "Forgot Password?" url="https://b2cprejoinerprod.b2clogin.com/candidate.accenture.com/B2C_1A_SignIn_MyCareer_OIDC/api/CombinedSigninAndSignup/unified?claimsexchange=ForgotPasswordExchange&csrf_token=aE1LVVRMbnRSQ0Y2b2x5NlU3MFMybmVTSUJBVHlOUTBSclcvaGhqYWQ0U0k3SXBDSjZ2anQ2Uk1xY0pEdndjd3oxOEYvK1YrRFR2QjhETTZkaHM1K2c9PTsyMDI2LTA3LTExVDAyOjI5OjU1LjUwMDYyMDVaO3FydnFLWlptSktwMW5nTWlXSnI0NXc9PTt7Ik9yY2hlc3RyYXRpb25TdGVwIjo1fQ==&tx=StateProperties=eyJUSUQiOiI3YTFiNjZmYi1iZjQ4LTQyNWYtOTFkMy02ZTc1OGI4NTZlZGMifQ&p=B2C_1A_SignIn_MyCareer_OIDC"
+                      uid=16_54 StaticText "Forgot Password?"
+                        uid=16_6 InlineTextBox "Forgot Password?"
+                    uid=16_55 generic
+                      uid=16_56 checkbox "Remember Me"
+                      uid=16_57 LabelText
+                        uid=16_58 StaticText "Remember Me"
+                          uid=16_6 InlineTextBox "Remember Me"
+                  uid=16_59 ignored
+                  uid=16_60 generic
+                    uid=16_61 button "SIGN IN"
+                      uid=16_62 StaticText "SIGN IN"
+                        uid=16_6 InlineTextBox "SIGN IN"
+                uid=16_63 ignored
+                  uid=16_64 ignored
+                    uid=16_65 ignored
+                      uid=16_66 paragraph
+                        uid=16_67 StaticText "Please be aware that our sign-in process only uses strict necessary cookies needed for authentication to Accenture sites. Please see our "
+                          uid=16_6 InlineTextBox "Please be aware that our sign-in process only uses strict necessary cookies needed for authentication to Accenture sites. Please see our "
+                        uid=16_68 link "cookie policy this opens a new window" url="https://www.accenture.com/us-en/company-cookies-similar-technology"
+                          uid=16_69 StaticText "Cookie Policy"
+                            uid=16_6 InlineTextBox "Cookie Policy"
+                        uid=16_70 StaticText " to learn more about these cookies."
+                          uid=16_6 InlineTextBox " to learn more about these cookies."
+                uid=16_71 ignored
+                  uid=16_72 paragraph
+                    uid=16_73 StaticText "To apply to Accenture, please create a profile. Sign up below."
+                      uid=16_6 InlineTextBox "To apply to Accenture, please create a profile. Sign up below."
+                    uid=16_74 link "START APPLICATION" url="https://b2cprejoinerprod.b2clogin.com/candidate.accenture.com/B2C_1A_SignIn_MyCareer_OIDC/api/CombinedSigninAndSignup/unified?local=signup&csrf_token=aE1LVVRMbnRSQ0Y2b2x5NlU3MFMybmVTSUJBVHlOUTBSclcvaGhqYWQ0U0k3SXBDSjZ2anQ2Uk1xY0pEdndjd3oxOEYvK1YrRFR2QjhETTZkaHM1K2c9PTsyMDI2LTA3LTExVDAyOjI5OjU1LjUwMDYyMDVaO3FydnFLWlptSktwMW5nTWlXSnI0NXc9PTt7Ik9yY2hlc3RyYXRpb25TdGVwIjo1fQ==&tx=StateProperties=eyJUSUQiOiI3YTFiNjZmYi1iZjQ4LTQyNWYtOTFkMy02ZTc1OGI4NTZlZGMifQ&p=B2C_1A_SignIn_MyCareer_OIDC"
+                      uid=16_75 StaticText "START APPLICATION"
+                        uid=16_6 InlineTextBox "START APPLICATION"
+        uid=16_76 ignored
+        uid=16_77 contentinfo
+          uid=16_78 ignored
+            uid=16_79 ignored
+              uid=16_80 ignored
+                uid=16_81 ignored
+                  uid=16_82 ignored
+                    uid=16_83 generic
+                      uid=16_84 LayoutTable
+                        uid=16_85 link "Accenture Home" url="https://www.accenture.com/"
+                          uid=16_86 image "Accenture Home" url="https://app-5292-eus2-prejoiner-prod-web.azurewebsites.net/images/ACC_GT_Dimensional_Purple_RGB_REV.svg"
+                    uid=16_87 generic
+                      uid=16_88 generic
+                        uid=16_89 generic
+                          uid=16_90 generic
+                            uid=16_91 link "About Us" url="https://www.accenture.com/us-en/about/company-index"
+                              uid=16_92 StaticText "ABOUT US"
+                                uid=16_6 InlineTextBox "ABOUT US"
+                        uid=16_93 generic
+                          uid=16_94 generic
+                            uid=16_95 link "Contact Us" url="https://www.accenture.com/contact-us"
+                              uid=16_96 StaticText "CONTACT US"
+                                uid=16_6 InlineTextBox "CONTACT US"
+                        uid=16_97 generic
+                          uid=16_98 generic
+                            uid=16_99 link "Careers" url="https://www.accenture.com/careers"
+                              uid=16_100 StaticText "CAREERS"
+                                uid=16_6 InlineTextBox "CAREERS"
+                        uid=16_101 generic
+                          uid=16_102 generic
+                            uid=16_103 link "Locations" url="https://www.accenture.com/office-directory"
+                              uid=16_104 StaticText "LOCATIONS"
+                                uid=16_6 InlineTextBox "LOCATIONS"
+                    uid=16_105 generic
+                      uid=16_106 LayoutTable
+                        uid=16_107 ignored
+                          uid=16_108 link "LinkedIn" url="https://www.linkedin.com/company/accenture/"
+                            uid=16_109 generic
+                              uid=16_6 StaticText ""
+                                uid=16_6 InlineTextBox ""
+                        uid=16_110 ignored
+                          uid=16_111 link "Twitter" url="https://twitter.com/accenture"
+                            uid=16_112 generic
+                              uid=16_6 StaticText ""
+                                uid=16_6 InlineTextBox ""
+                        uid=16_113 ignored
+                          uid=16_114 link "Facebook" url="https://www.facebook.com/accenture"
+                            uid=16_115 generic
+                              uid=16_6 StaticText ""
+                                uid=16_6 InlineTextBox ""
+                        uid=16_116 ignored
+                          uid=16_117 link "Youtube" url="https://www.youtube.com/user/Accenture"
+                            uid=16_118 generic
+                              uid=16_6 StaticText ""
+                                uid=16_6 InlineTextBox ""
+                  uid=16_119 generic
+                    uid=16_120 generic
+                      uid=16_121 generic
+                        uid=16_122 link "Privacy Statement" url="https://www.accenture.com/privacy-policy"
+                          uid=16_123 StaticText "Privacy Statement"
+                            uid=16_6 InlineTextBox "Privacy Statement"
+                      uid=16_124 generic
+                        uid=16_125 link "Terms & Conditions" url="https://www.accenture.com/terms-of-use"
+                          uid=16_126 StaticText "Terms & Conditions"
+                            uid=16_6 InlineTextBox "Terms & Conditions"
+                      uid=16_127 generic
+                        uid=16_128 link "Cookie Policy" url="https://www.accenture.com/us-en/company-cookies-similar-technology"
+                          uid=16_129 StaticText "Cookie Policy"
+                            uid=16_6 InlineTextBox "Cookie Policy"
+                      uid=16_130 generic
+                        uid=16_131 link "Accessibility Statement" url="https://www.accenture.com/us-en/accessibility-statement"
+                          uid=16_132 StaticText "Accessibility Statement"
+                            uid=16_6 InlineTextBox "Accessibility Statement"
+                      uid=16_133 ignored
+                        uid=16_134 StaticText "© 2026 Accenture. All Rights Reserved."
+                          uid=16_6 InlineTextBox "© 2026 Accenture. All Rights Reserved."

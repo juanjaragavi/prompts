@@ -1,0 +1,22 @@
+{
+  "status": "blocked",
+  "details": "The application form was blocked by CAPTCHA or form validation errors on submission.",
+  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshot_additional_job_1_login.png",
+  "pre_drafted_answers": {
+    "first_name": "Juan Miguel",
+    "last_name": "Jaramillo Gaviria",
+    "email": "info@juanjaramillo.tech",
+    "phone": "+57 305 420 6139",
+    "location": "Bogot\u00e1, Colombia",
+    "authorized_to_work_in_colombia": "Yes",
+    "current_residency": "Bogot\u00e1, Colombia",
+    "bachelors_degree_or_equivalent": "Yes",
+    "6_plus_years_ml_experience": "Yes",
+    "undergraduate_gpa": "N/A",
+    "english_level": "C1",
+    "source": "Other (Jobgether)",
+    "linkedin_profile": "https://www.linkedin.com/in/juan-jaramillo-ai/",
+    "monthly_salary_expectation_usd": "4200",
+    "university": "Universidad Central"
+  }
+}
