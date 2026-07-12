@@ -1,67 +1,36 @@
-# Prompt: Automated Job Application Submission
+# Prompt
 
-## Browser Execution Sequence
+We are currently working on the WordPress CMS UI for Actualoft's website, Actualoft.com. Our client has two specific requests.
 
-**Status:** Active Session (Stateless)
+First, they need an LLM-powered chatbot agent plugin with BYOK functionality. The plugin must accept Google AI Studio API keys that start with "AIza..." The instructions or system prompt must be updatable, and the plugin must have a WhatsApp integration feature. The plugin must be free or updated via a paid subscription. The basic set of instructions is below:
 
-**Objective:** Parse the attached résumé, scan the current job listing tab, and apply to the first 5 job offerings, prioritizing "Easy Apply" opportunities.
+```markdown ACTUALOFT-assistant-system-prompt
+<!-- ACTUALOFT-assistant-system-prompt.md -->
 
----
+Eres el asistente virtual de Actualoft, una empresa colombiana especializada en la fabricación y comercialización de muebles de madera para el hogar con sede en Bogotá. Tu nombre es "Loft".
 
-### Phase 1: Context Ingestion & Initialization
+Tu misión es ayudar a los clientes con:
 
-1. **EXTRACT data** from `attached_resume.pdf`
-   - _Action:_ Parse contact information, employment history, skills, and education.
-   - _State:_ Map data to temporary, volatile session memory for automated form-filling.
+- Información sobre los productos disponibles: alcobas, comedores, salas modulares, chaise longue, muebles auxiliares y más.
+- Consultas sobre precios, materiales y disponibilidad.
+- Asesoría en diseño y decoración de interiores.
+- Información sobre puntos de venta y entrega inmediata en Bogotá.
+- Agendar citas o derivar al equipo comercial.
 
-2. **WAIT for element** `css=.jobs-search-results-list` (Timeout: 5s)
-   - _Purpose:_ Verify that the job opportunities list has fully rendered on the current open tab.
+Tono: Amable, profesional y cercano. Habla siempre en español colombiano. Usa un lenguaje cálido pero formal.
 
-3. **EXTRACT data** from visible job card elements (`css=.job-card-container`)
+Normas importantes:
 
-- _Action:_ Identify and index the first 5 available job listings. Prioritize listings displaying the "Easy Apply" badge.
+- Si no sabes la respuesta exacta, invita al cliente a contactar directamente a Actualoft.
+- No inventes precios ni disponibilidad de productos.
+- Siempre finaliza ofreciendo ayuda adicional.
+- Fecha y hora actual: {DATE_TIME}.
+```
 
----
+Second, analyze the current structure of the products' location and organization in this instance of the WordPress CMS configured for Actualoft. We saw that the products are located on the blogs, but we need to identify any additional configurations or plugins that generate shortcodes to display products.
 
-### Phase 2: Execution Loop (Target: 5 Applications)
+This research is necessary because our client's second requirement is a plugin that replaces the WordPress dashboard with a screen showing "aliases" or "direct access" to the two functionalities the client will use most: product listings and chatbot configuration and instructions. The plugin will display links to the settings of other plugins on the initial WordPress screen.
 
-`Set counter: applied_count = 0`
+Your task is to find, install, activate, and fully configure the two required plugins. The client's goal is to have a chatbot agent on the front end of the Actualoft.com website to serve client requests. When he logs in, he wants to see the options he uses most on the first screen of the Actualoft.com CMS WP Admin main dashboard.
 
-#### **For Each Target Job Card (1 through 5):**
-
-#### **Step 2.1: Select and Open Job**
-
-1. **CLICK element** `css=.job-card-container[index]`
-2. **WAIT for element** `css=.jobs-search__job-details` (Timeout: 5s)
-3. **ASSERT** presence of application button.
-
-#### **Step 2.2: Determine Application Path**
-
-- **Scenario A: "Easy Apply" Button Present (Preferred)**
-
-1. **CLICK element** `css=button.jobs-apply-button[data-job-id]` (Launches the LinkedIn application modal).
-2. **WAIT for element** `css=.artdeco-modal` (Timeout: 5s).
-3. **WHILE** `css=button[aria-label="Next"]` or `css=button[aria-label="Review"]` is visible:
-   - **TYPE text** / **SELECT options** in form fields using the mapped résumé data.
-   - **CLICK element** `css=button[aria-label*="Next"]`.
-
-4. **CLICK element** `css=button[aria-label="Submit application"]`.
-5. **WAIT for element** `css=.artdeco-toast-item--success` to confirm successful submission.
-6. `Increment applied_count by 1`.
-
-- **Scenario B: Standard "Apply" Button Present (Fallback)**
-
-1. **CLICK element** `css=button.jobs-apply-button` (Triggers external site redirect).
-2. **WAIT for tab shift / URL change**.
-3. **Pause Execution Warning:** External system navigation detected.
-   - _Constraint Check:_ Because external applications may require account creation or proprietary assessments, automation will attempt basic form-fill using résumé data. If blocked by complex multi-page funnels, control will temporarily yield to the user.
-
-4. `Increment applied_count by 1` upon user confirmation or successful submission.
-
----
-
-### Phase 3: Session Wrap-Up & Safeguards
-
-1. **ASSERT** `applied_count == 5`.
-2. **PURGE memory:** Instantly delete all extracted résumé data, form fields, and session tokens from memory cache.
-3. **OUTPUT Execution Report:** Present a clean list of the 5 job titles and company names successfully applied to.
+Lastly, research the entire WordPress CMS area as well as the Actualoft front-end UI. Look for additional information about the company and its products, primarily luxury furniture, to complete the 'Loft' system prompt. 'Loft' is an LLM-based agent that will address the needs of leads and page visitors.
