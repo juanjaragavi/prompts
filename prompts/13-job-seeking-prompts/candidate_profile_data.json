@@ -1,1 +1,174 @@
-{"personal_info": {"full_name": "Juan Miguel Jaramillo Gaviria", "email": "info@juanjaramillo.tech", "phone": "+57 305 420 6139", "location": "Bogotá, Colombia (Bogotá D.C. Metropolitan Area)"}, "portfolio_and_socials": {"portfolio_website": "https://juanjaramillo.tech", "github": "https://github.com/juanjaragavi", "linkedin": "https://www.linkedin.com/in/juan-jaramillo-ai/", "facebook": "https://www.facebook.com/juanjaramilloai"}, "professional_summary": "Enterprise AI Development Lead and Full-Stack Architect with over 17 years of leadership experience spanning digital transformation, software engineering, and technology entrepreneurship. Expert in designing and deploying production-grade generative AI systems, orchestrating multi-agent frameworks, executing LLM fine-tuning (PEFT, RLHF), and managing hallucination risk. Highly proficient across Next.js 15/16, React 19, TypeScript, Python, and cloud-native architectures on Google Cloud Platform. Pioneer in combining legacy-modernization expertise (CMS/WordPress) with AI-assisted high-velocity coding workflows.", "skills": {"languages": ["Python", "JavaScript", "TypeScript", "SQL"], "ai_ml_tools_and_libraries": ["Generative AI & Large Language Models (LLMs)", "Vertex AI / Vertex AI Agent-to-Agent (A2A)", "LangChain", "LangGraph", "CrewAI", "Prompt Engineering", "Hallucination Risk Mitigation", "AI-Based Automation", "Machine Learning", "Prompt Versioning (using Git Flow)", "RAG Pipelines", "Vector Databases", "NLP (Natural Language Processing)", "Cursor AI IDE", "n8n Workflow Automation"], "frameworks_and_libraries": ["Next.js 15/16 (App Router)", "React 19 / ReactJS", "Astro 5", "Tailwind CSS v4", "WordPress (Legacy Architecture, 15+ years)", "PM2", "Node.js"], "cloud_and_infrastructure": ["Google Cloud Platform (GCP) (Cloud Run, Cloud Armor, BigQuery, Compute Engine, Cloud DNS)", "Supabase", "PostgreSQL", "Vercel", "Docker / Containerization", "Git"]}, "work_history": [{"job_title": "AI Development Lead", "company": "TopNetworks Inc. (Independent)", "start_date": "Feb 2025", "end_date": "Jun 2026", "duration": "1 year 4 months", "location": "Bogotá D.C. Metropolitan Area · Remote", "key_responsibilities": ["Spearheaded AI engineering strategy and full-stack architecture for high-performance publishing platforms serving markets across the US, UK, Mexico, and Latin America.", "Designed, built, and launched a core proprietary internal SaaS ecosystem leveraging rapid, spec-first, AI-native workflows (such as Cursor, agentic coding, and advanced prompt-driven rapid iteration): EmailGenius (high-throughput AI email generation utilizing Vertex AI and PostgreSQL), TrafficGenius (real-time invalid traffic detection using BigQuery and Cloud Armor), RouteGenius (probabilistic traffic routing distribution engine built on Supabase, featuring multi-agent workflow integration in n8n via webhooks), and Social Media Genius (AI-driven social content generation application with an interactive canvas editor).", "Managed prompt versioning via Git Flow, structured hallucination risk frameworks, and deployed all services using Next.js 15/16, TypeScript, React 19, Astro 5, Tailwind v4, and Gemini 2.5 Flash on GCP."]}, {"job_title": "Prompt Engineer & AI Consultant", "company": "Juan Jaramillo (Independent Practice)", "start_date": "Nov 2022", "end_date": "Present", "duration": "approx. 3 years 8 months", "location": "Bogotá D.C. Metropolitan Area · Remote & On-Site", "key_responsibilities": ["Deliver specialized technical consulting on generative AI architecture, prompt engineering optimization, and custom LLM integrations for mid-market and enterprise clients, including the Telefónica Movistar Foundation, Universidad Francisco Marroquín (Guatemala), and Wundermann Thompson Miami.", "Architect and build front-end and back-end environments for custom AI applications while directly managing UI/UX design workflows.", "Achieved documented client outcomes including up to a 46% increase in operational productivity and up to a 66% reduction in monthly infrastructure and operational overhead."]}, {"job_title": "Co-founder & Director of Innovation", "company": "TRADEBOG S.A.S.", "start_date": "Dec 2020", "end_date": "Jun 2023", "duration": "2 years 7 months", "location": "Bogotá, Colombia (On-Site)", "key_responsibilities": ["Oversaw full-stack development, UI/UX systems, and technical product direction for Colombia’s leading dropshipping and e-commerce platform.", "Designed and optimized complex digital advertising architectures, social media acquisition pipelines, and transactional backend workflows."]}, {"job_title": "Co-founder & Operations Director", "company": "FreshWorks | Ideas Frescas", "start_date": "May 2014", "end_date": "Jun 2023", "duration": "9 years 2 months", "location": "Mexico City, Mexico / Bogotá, Colombia / Madrid, Spain", "key_responsibilities": ["Managed technical delivery, web architecture, and custom WordPress development for enterprise brands including Grupo Herdez and El Corte Inglés.", "Led cross-functional teams across three countries, managing digital product design, UI/UX engineering, and client transformation roadmaps."]}, {"job_title": "Project Director", "company": "2W Agencia Digital", "start_date": "Nov 2012", "end_date": "Jan 2014", "duration": "1 year 3 months", "location": "Bogotá D.C. Metropolitan Area · On-Site", "key_responsibilities": ["Digital project director, key accounts director, digital strategist, and digital marketing specialist."]}, {"job_title": "Co-founder & Project Manager", "company": "La Quinta P Digital Agency", "start_date": "Aug 2009", "end_date": "Oct 2012", "duration": "3 years 3 months", "location": "Bogotá D.C. Metropolitan Area · Remote / On-Site", "key_responsibilities": ["Digital project director, digital marketing specialist, web designer, and custom WordPress developer."]}], "education_and_certifications": [{"credential": "Generative AI for Business: Driving Growth and Competitive Advantage", "institution": "University of Toronto", "dates": "Dec 2022 – Feb 2023", "type": "Certified Diploma (Remote)", "focus": "AI strategy, innovation, ethics, decision-making, governance, and organizational transformation, with case studies from major companies."}, {"credential": "Prompt Engineer with Emphasis on ChatGPT", "institution": "Platzi", "dates": "Feb 2023 – Apr 2023", "type": "Certified Course (Remote)", "focus": "Advanced prompt structures, extension and plugin integrations, business use cases, and ethical LLM constraints."}, {"credential": "Social Network Analysis: Digital Communication & Contents", "institution": "University of Michigan", "dates": "Sep 2013 – Dec 2013", "type": "Certified Course (Remote)", "focus": "Digital Marketing, Content Strategy."}, {"credential": "Bachelor's Degree in Advertising and Marketing", "institution": "Universidad Central", "dates": "Feb 2002 – Nov 2007", "type": "Professional Degree (On-Site)", "focus": "Creative direction, art direction, copywriting strategy, and campaign design."}], "target_compensation": {"monthly_target_usd": "3500 - 4500", "annual_target_usd": "42000 - 54000", "description": "$3,500 to $4,500 USD monthly ($42,000 to $54,000 USD annualized equivalent)"}, "screening_question_responses": {"work_authorization_and_visa": "Fully authorized to work in Colombia. Does not possess US, UK, or EU work authorization or citizenship, but is fully set up and legally authorized to work globally as an independent contractor or remote developer. Requires visa sponsorship for US/UK/EU-bound local roles.", "notice_period": "Immediate (available to start immediately)", "preferred_work_mode": "Remote or Hybrid (Bogotá, Colombia)", "years_of_experience": {"python": "4 Years", "machine_learning": "4 Years", "generative_ai": "4 Years", "llms": "4 Years", "nlp": "4 Years", "prompt_engineering": "4 Years"}}}
+{
+  "personal_info": {
+    "full_name": "Juan Miguel Jaramillo Gaviria",
+    "email": "info@juanjaramillo.tech",
+    "phone": "+57 305 420 6139",
+    "location": "Bogotá, Colombia (Bogotá D.C. Metropolitan Area)"
+  },
+  "portfolio_and_socials": {
+    "portfolio_website": "https://juanjaramillo.tech",
+    "github": "https://github.com/juanjaragavi",
+    "linkedin": "https://www.linkedin.com/in/juan-jaramillo-ai/",
+    "facebook": "https://www.facebook.com/juanjaramilloai"
+  },
+  "professional_summary": "Enterprise AI Development Lead and Full-Stack Architect with over 17 years of leadership experience spanning digital transformation, software engineering, and technology entrepreneurship. Expert in designing and deploying production-grade generative AI systems, orchestrating multi-agent frameworks, executing LLM fine-tuning (PEFT, RLHF), and managing hallucination risk. Highly proficient across Next.js 15/16, React 19, TypeScript, Python, and cloud-native architectures on Google Cloud Platform. Pioneer in combining legacy-modernization expertise (CMS/WordPress) with AI-assisted high-velocity coding workflows.",
+  "skills": {
+    "languages": ["Python", "JavaScript", "TypeScript", "SQL"],
+    "ai_ml_tools_and_libraries": [
+      "Generative AI & Large Language Models (LLMs)",
+      "Vertex AI / Vertex AI Agent-to-Agent (A2A)",
+      "LangChain",
+      "LangGraph",
+      "CrewAI",
+      "Prompt Engineering",
+      "Hallucination Risk Mitigation",
+      "AI-Based Automation",
+      "Machine Learning",
+      "Prompt Versioning (using Git Flow)",
+      "RAG Pipelines",
+      "Vector Databases",
+      "NLP (Natural Language Processing)",
+      "Cursor AI IDE",
+      "n8n Workflow Automation"
+    ],
+    "frameworks_and_libraries": [
+      "Next.js 15/16 (App Router)",
+      "React 19 / ReactJS",
+      "Astro 5",
+      "Tailwind CSS v4",
+      "WordPress (Legacy Architecture, 15+ years)",
+      "PM2",
+      "Node.js"
+    ],
+    "cloud_and_infrastructure": [
+      "Google Cloud Platform (GCP) (Cloud Run, Cloud Armor, BigQuery, Compute Engine, Cloud DNS)",
+      "Supabase",
+      "PostgreSQL",
+      "Vercel",
+      "Docker / Containerization",
+      "Git"
+    ]
+  },
+  "work_history": [
+    {
+      "job_title": "AI Development Lead",
+      "company": "TopNetworks Inc. (Independent)",
+      "start_date": "Feb 2025",
+      "end_date": "Jun 2026",
+      "duration": "1 year 4 months",
+      "location": "Bogotá D.C. Metropolitan Area · Remote",
+      "key_responsibilities": [
+        "Spearheaded AI engineering strategy and full-stack architecture for high-performance publishing platforms serving markets across the US, UK, Mexico, and Latin America.",
+        "Designed, built, and launched a core proprietary internal SaaS ecosystem leveraging rapid, spec-first, AI-native workflows (such as Cursor, agentic coding, and advanced prompt-driven rapid iteration): EmailGenius (high-throughput AI email generation utilizing Vertex AI and PostgreSQL), TrafficGenius (real-time invalid traffic detection using BigQuery and Cloud Armor), RouteGenius (probabilistic traffic routing distribution engine built on Supabase, featuring multi-agent workflow integration in n8n via webhooks), and Social Media Genius (AI-driven social content generation application with an interactive canvas editor).",
+        "Managed prompt versioning via Git Flow, structured hallucination risk frameworks, and deployed all services using Next.js 15/16, TypeScript, React 19, Astro 5, Tailwind v4, and Gemini 2.5 Flash on GCP."
+      ]
+    },
+    {
+      "job_title": "Prompt Engineer & AI Consultant",
+      "company": "Juan Jaramillo (Independent Practice)",
+      "start_date": "Nov 2022",
+      "end_date": "Present",
+      "duration": "approx. 3 years 8 months",
+      "location": "Bogotá D.C. Metropolitan Area · Remote & On-Site",
+      "key_responsibilities": [
+        "Deliver specialized technical consulting on generative AI architecture, prompt engineering optimization, and custom LLM integrations for mid-market and enterprise clients, including the Telefónica Movistar Foundation, Universidad Francisco Marroquín (Guatemala), and Wundermann Thompson Miami.",
+        "Architect and build front-end and back-end environments for custom AI applications while directly managing UI/UX design workflows.",
+        "Achieved documented client outcomes including up to a 46% increase in operational productivity and up to a 66% reduction in monthly infrastructure and operational overhead."
+      ]
+    },
+    {
+      "job_title": "Co-founder & Director of Innovation",
+      "company": "TRADEBOG S.A.S.",
+      "start_date": "Dec 2020",
+      "end_date": "Jun 2023",
+      "duration": "2 years 7 months",
+      "location": "Bogotá, Colombia (On-Site)",
+      "key_responsibilities": [
+        "Oversaw full-stack development, UI/UX systems, and technical product direction for Colombia’s leading dropshipping and e-commerce platform.",
+        "Designed and optimized complex digital advertising architectures, social media acquisition pipelines, and transactional backend workflows."
+      ]
+    },
+    {
+      "job_title": "Co-founder & Operations Director",
+      "company": "FreshWorks | Ideas Frescas",
+      "start_date": "May 2014",
+      "end_date": "Jun 2023",
+      "duration": "9 years 2 months",
+      "location": "Mexico City, Mexico / Bogotá, Colombia / Madrid, Spain",
+      "key_responsibilities": [
+        "Managed technical delivery, web architecture, and custom WordPress development for enterprise brands including Grupo Herdez and El Corte Inglés.",
+        "Led cross-functional teams across three countries, managing digital product design, UI/UX engineering, and client transformation roadmaps."
+      ]
+    },
+    {
+      "job_title": "Project Director",
+      "company": "2W Agencia Digital",
+      "start_date": "Nov 2012",
+      "end_date": "Jan 2014",
+      "duration": "1 year 3 months",
+      "location": "Bogotá D.C. Metropolitan Area · On-Site",
+      "key_responsibilities": [
+        "Digital project director, key accounts director, digital strategist, and digital marketing specialist."
+      ]
+    },
+    {
+      "job_title": "Co-founder & Project Manager",
+      "company": "La Quinta P Digital Agency",
+      "start_date": "Aug 2009",
+      "end_date": "Oct 2012",
+      "duration": "3 years 3 months",
+      "location": "Bogotá D.C. Metropolitan Area · Remote / On-Site",
+      "key_responsibilities": [
+        "Digital project director, digital marketing specialist, web designer, and custom WordPress developer."
+      ]
+    }
+  ],
+  "education_and_certifications": [
+    {
+      "credential": "Generative AI for Business: Driving Growth and Competitive Advantage",
+      "institution": "University of Toronto",
+      "dates": "Dec 2022 – Feb 2023",
+      "type": "Certified Diploma (Remote)",
+      "focus": "AI strategy, innovation, ethics, decision-making, governance, and organizational transformation, with case studies from major companies."
+    },
+    {
+      "credential": "Prompt Engineer with Emphasis on ChatGPT",
+      "institution": "Platzi",
+      "dates": "Feb 2023 – Apr 2023",
+      "type": "Certified Course (Remote)",
+      "focus": "Advanced prompt structures, extension and plugin integrations, business use cases, and ethical LLM constraints."
+    },
+    {
+      "credential": "Social Network Analysis: Digital Communication & Contents",
+      "institution": "University of Michigan",
+      "dates": "Sep 2013 – Dec 2013",
+      "type": "Certified Course (Remote)",
+      "focus": "Digital Marketing, Content Strategy."
+    },
+    {
+      "credential": "Bachelor's Degree in Advertising and Marketing",
+      "institution": "Universidad Central",
+      "dates": "Feb 2002 – Nov 2007",
+      "type": "Professional Degree (On-Site)",
+      "focus": "Creative direction, art direction, copywriting strategy, and campaign design."
+    }
+  ],
+  "target_compensation": {
+    "monthly_target_usd": "3500 - 4500",
+    "annual_target_usd": "42000 - 54000",
+    "description": "$3,500 to $4,500 USD monthly ($42,000 to $54,000 USD annualized equivalent)"
+  },
+  "screening_question_responses": {
+    "work_authorization_and_visa": "Fully authorized to work in Colombia. Does not possess US, UK, or EU work authorization or citizenship, but is fully set up and legally authorized to work globally as an independent contractor or remote developer. Requires visa sponsorship for US/UK/EU-bound local roles.",
+    "notice_period": "Immediate (available to start immediately)",
+    "preferred_work_mode": "Remote or Hybrid (Bogotá, Colombia)",
+    "years_of_experience": {
+      "python": "4 Years",
+      "machine_learning": "4 Years",
+      "generative_ai": "4 Years",
+      "llms": "4 Years",
+      "nlp": "4 Years",
+      "prompt_engineering": "4 Years"
+    }
+  }
+}

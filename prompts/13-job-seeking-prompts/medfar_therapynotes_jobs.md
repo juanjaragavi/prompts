@@ -1,6 +1,7 @@
 # Raw Research Findings: Job Application Details for Medfar & TherapyNotes
 
 ## 1. Generative AI (GenAI) | Prompt Engineer at Medfar
+
 - **Direct Job Description URL:** `https://jobs.smartrecruiters.com/Medfar/744000129503385-generative-ai-genai-prompt-engineer`
 - **Direct Job Application URL:** `https://jobs.smartrecruiters.com/oneclick-ui/company/Medfar/publication/962a7b51-8f78-4cac-9914-2d045f619464?dcr_ci=Medfar`
 - **Salary/Compensation Details:** Not explicitly specified as a numeric salary on the job page, but includes the following benefits and details:
@@ -43,6 +44,7 @@
     - Advanced English & French bilingualism.
 
 ## 2. Senior Software Developer (Agentic Development) at TherapyNotes.com
+
 - **Direct Job Description URL:** `https://apply.workable.com/therapynotes/j/2A691CE916/`
 - **Direct Job Application URL:** `https://apply.workable.com/therapynotes/j/2A691CE916/apply/`
 - **Salary/Compensation Details:**
@@ -66,7 +68,7 @@
     - Resume
     - Summary (Optional textbox)
     - Cover letter (Optional textbox)
-  - **Screening/Application Questions (All marked as Required with *):**
+  - *_Screening/Application Questions (All marked as Required with *):*_
     - "What are your salary requirements?"* (textbox)
     - "Were you referred by a TherapyNotes’ team member? If so, please enter their name here."* (textbox)
     - "Do you have a portfolio or GitHub link to share?"* (textbox)

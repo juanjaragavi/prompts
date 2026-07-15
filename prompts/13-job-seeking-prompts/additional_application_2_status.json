@@ -16,16 +16,10 @@
     "cover_letter": "Dear Hiring Team, I am writing to express my strong interest in joining your team as an AI Engineer. Bringing over 17 years of technical execution and entrepreneurial leadership, I specialize in navigating the space between abstract generative AI concepts and scalable, production-grade architectures. I offer your organization a rare combination of strategic vision and full-stack engineering depth. Deep, Production-Proven AI Expertise: Since 2022, I have focused exclusively on enterprise-grade generative AI development, LLM fine-tuning (PEFT, RLHF), advanced prompt engineering, and agentic product design. As the AI Development Lead for TopNetworks Inc., I personally designed, built, and shipped a highly profitable internal SaaS ecosystem: EmailGenius (high-throughput AI email generation utilizing Vertex AI and PostgreSQL), TrafficGenius (real-time invalid traffic detection using BigQuery and Cloud Armor), RouteGenius (probabilistic traffic routing distribution engine built on Supabase, featuring multi-agent workflow integration in n8n via webhooks), and Social Media Genius (AI-driven social content generation application with an interactive canvas editor). These systems are built on Next.js 15/16, React 19, Astro 5, TypeScript, and the Gemini 2.5 Flash model deployed on Google Cloud Platform. Advisory Reach and Measurable Impact: My advisory work for organizations like the Telefónica Movistar Foundation, Universidad Francisco Marroquín, and Wundermann Thompson Miami has boosted operational productivity by up to 46% while securing up to a 66% reduction in monthly infrastructure and operational overhead. I view artificial intelligence not as a human replacement, but as an exponential leverage tool. I am eager to bring this exact philosophy, along with my full-stack execution capabilities, to your organization. Thank you for your time and consideration; I welcome the opportunity for a technical interview. Warm regards, Juan Miguel Jaramillo Gaviria info@juanjaramillo.tech | +57 305 420 6139 | juanjaramillo.tech",
     "english_proficiency": "Native/Fluent",
     "business_languages": "English, Spanish",
-    "timezones": [
-      "US",
-      "UK",
-      "Europe"
-    ],
+    "timezones": ["US", "UK", "Europe"],
     "tools_software_platforms": "Python, JavaScript, TypeScript, SQL, Generative AI & Large Language Models (LLMs), Vertex AI, LangChain, LangGraph, CrewAI, Prompt Engineering, n8n Workflow Automation, Next.js 15/16, React 19, Astro 5, Tailwind CSS v4, WordPress, Node.js, Google Cloud Platform (Cloud Run, Cloud Armor, BigQuery, Compute Engine, Cloud DNS), Supabase, PostgreSQL, Vercel, Docker, Git",
     "industries": "Artificial Intelligence, Software Engineering, SaaS, E-commerce, EdTech, Digital Publishing, and Digital Marketing Agencies.",
-    "company_type_preference": [
-      "Open to all"
-    ],
+    "company_type_preference": ["Open to all"],
     "international_experience": "Yes, I have extensively worked with international clients and companies. I have designed and deployed AI/SaaS solutions for clients and markets across the United States, United Kingdom, Spain, Mexico, and Guatemala (e.g., Telefónica Movistar Foundation, Universidad Francisco Marroquín, and Wundermann Miami).",
     "salary_expectations": "3500 - 4500 USD",
     "previous_salary": "My previous monthly compensation was approximately $3,800 USD base as an AI consultant/lead contractor.",
