@@ -20,18 +20,18 @@ the Agent Platform GenAI Evaluation SDK (`google.genai` / `agentplatform`).
 
 ## When to use this skill
 
--   Evaluating GenAI agents or models with the Agent Platform GenAI
-    Evaluation SDK (`client.evals.evaluate()`).
--   Creating evaluation datasets from session traces, pandas DataFrames, or
-    synthetic generation.
--   Selecting, configuring, or writing custom evaluation metrics.
--   Analyzing rubric verdicts, loss patterns, and clustering failures.
--   Suggesting concrete code/prompt improvements based on eval results.
--   Evaluating a model served on an Agent Platform **endpoint** (BYOM) or a
-    **Model-as-a-Service (MaaS)** model by ID — including deploying the model
-    first if needed. For this case, follow
-    [references/deployment.md](references/deployment.md) and use the
-    `endpoint_evaluation.py` / `maas_evaluation.py` scripts.
+- Evaluating GenAI agents or models with the Agent Platform GenAI
+  Evaluation SDK (`client.evals.evaluate()`).
+- Creating evaluation datasets from session traces, pandas DataFrames, or
+  synthetic generation.
+- Selecting, configuring, or writing custom evaluation metrics.
+- Analyzing rubric verdicts, loss patterns, and clustering failures.
+- Suggesting concrete code/prompt improvements based on eval results.
+- Evaluating a model served on an Agent Platform **endpoint** (BYOM) or a
+  **Model-as-a-Service (MaaS)** model by ID — including deploying the model
+  first if needed. For this case, follow
+  [references/deployment.md](references/deployment.md) and use the
+  `endpoint_evaluation.py` / `maas_evaluation.py` scripts.
 
 ## Safety & Confirmation Tiers (CRITICAL)
 
@@ -39,12 +39,12 @@ Before executing any commands or scripts on behalf of the user, you MUST adhere
 to the following safety tiers based on the action requested:
 
 1.  **Tier R**: Read-only (`inspect_results.py`, `compare_results.py`, `validate_dataset.py`, `parse_adk_traces.py`, `render_html_report.py`)
-    *   **Rule**: No confirmation needed. You may execute these helper scripts immediately to inspect data, validate schemas, parse traces, or compare evaluation results.
+    - **Rule**: No confirmation needed. You may execute these helper scripts immediately to inspect data, validate schemas, parse traces, or compare evaluation results.
 2.  **Tier M: Read-only with Compute Costs (`client.evals.run_inference`, `client.evals.evaluate`, `client.evals.generate_user_scenarios`, `client.evals.generate_loss_clusters`)**
-    *   **Rule**: These operations invoke LLMs or remote evaluation services
-    that consume compute resources and incur costs. This requires
-    **interactive confirmation** with 'Yes'/'No' options. Once granted once,
-    you do not have to prompt for future evaluation.
+    - **Rule**: These operations invoke LLMs or remote evaluation services
+      that consume compute resources and incur costs. This requires
+      **interactive confirmation** with 'Yes'/'No' options. Once granted once,
+      you do not have to prompt for future evaluation.
 
 ## Setup
 
@@ -65,56 +65,56 @@ targets are met.
 
 ### Shortcuts that waste time
 
-| Shortcut                                                 | Why it fails                                                                                              |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| "I'll tune the metric threshold down so it passes."      | Hides real failures. Fix the agent, not the bar.                                                          |
-| "This case is flaky, I'll skip it."                      | Flakiness reveals non-determinism in the agent. Fix with `temperature=0` or stricter instructions.        |
-| "I just need to fix the eval dataset, not the agent."    | If expected outputs keep moving, the agent has a behavior problem.                                        |
-| "I can tell from the trace it works — skip Stage 3."     | Self-grading doesn't generalize. Always run `evaluate()` and read scores.                                 |
-| "One iteration is enough."                               | Expect 5–10+ iterations. Stopping early leaves regressions on other metrics undetected.                   |
+| Shortcut                                              | Why it fails                                                                                       |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| "I'll tune the metric threshold down so it passes."   | Hides real failures. Fix the agent, not the bar.                                                   |
+| "This case is flaky, I'll skip it."                   | Flakiness reveals non-determinism in the agent. Fix with `temperature=0` or stricter instructions. |
+| "I just need to fix the eval dataset, not the agent." | If expected outputs keep moving, the agent has a behavior problem.                                 |
+| "I can tell from the trace it works — skip Stage 3."  | Self-grading doesn't generalize. Always run `evaluate()` and read scores.                          |
+| "One iteration is enough."                            | Expect 5–10+ iterations. Stopping early leaves regressions on other metrics undetected.            |
 
 ### 1. Prepare Data
 
 Produce an `EvaluationDataset`. There are three input shapes, pick the one
 that matches the data the user already has:
 
--   **`EvalCase` list (single-turn or multi-turn):**
+- **`EvalCase` list (single-turn or multi-turn):**
 
-    ```python
-    from agentplatform import types
-    dataset = types.EvaluationDataset(eval_cases=[
-        types.EvalCase(prompt="What is 2+2?", response="4", reference="4"),
-        # For multi-turn agent traces, set agent_data instead of prompt/response.
-    ])
-    ```
+  ```python
+  from agentplatform import types
+  dataset = types.EvaluationDataset(eval_cases=[
+      types.EvalCase(prompt="What is 2+2?", response="4", reference="4"),
+      # For multi-turn agent traces, set agent_data instead of prompt/response.
+  ])
+  ```
 
-    Multi-turn agent traces wrap each conversation in `AgentData` →
-    `ConversationTurn` → `AgentEvent`. See
-    [references/dataset_schema.md](references/dataset_schema.md) for the
-    full type hierarchy.
+  Multi-turn agent traces wrap each conversation in `AgentData` →
+  `ConversationTurn` → `AgentEvent`. See
+  [references/dataset_schema.md](references/dataset_schema.md) for the
+  full type hierarchy.
 
--   **Pandas DataFrame (tabular sources — CSV, BigQuery, Sheets):**
+- **Pandas DataFrame (tabular sources — CSV, BigQuery, Sheets):**
 
-    ```python
-    import pandas as pd
-    from agentplatform import types
+  ```python
+  import pandas as pd
+  from agentplatform import types
 
-    df = pd.DataFrame({
-        "prompt":    ["What is 2+2?", "Capital of France?"],
-        "response":  ["4",            "Paris"],
-        "reference": ["4",            "Paris"],
-    })
-    dataset = types.EvaluationDataset(eval_dataset_df=df)
-    ```
+  df = pd.DataFrame({
+      "prompt":    ["What is 2+2?", "Capital of France?"],
+      "response":  ["4",            "Paris"],
+      "reference": ["4",            "Paris"],
+  })
+  dataset = types.EvaluationDataset(eval_dataset_df=df)
+  ```
 
-    Column names must match the fields the chosen metrics expect (see
-    [references/dataset_schema.md](references/dataset_schema.md) for the
-    per-metric requirements table).
+  Column names must match the fields the chosen metrics expect (see
+  [references/dataset_schema.md](references/dataset_schema.md) for the
+  per-metric requirements table).
 
--   **Cold start (no data at all):** synthesize scenarios server-side with
-    `client.evals.generate_user_scenarios(...)` and a
-    `UserScenarioGenerationConfig` (`user_scenario_count`,
-    `simulation_instruction`, `environment_data`). Stage 2 plays them out.
+- **Cold start (no data at all):** synthesize scenarios server-side with
+  `client.evals.generate_user_scenarios(...)` and a
+  `UserScenarioGenerationConfig` (`user_scenario_count`,
+  `simulation_instruction`, `environment_data`). Stage 2 plays them out.
 
 For ADK session dumps, use `scripts/parse_adk_traces.py` instead of writing
 the conversion by hand.
@@ -181,14 +181,14 @@ result = client.evals.evaluate(dataset=dataset, metrics=[...])
 
 **Domain-specific check no built-in covers:** write a custom metric.
 
--   **Predefined:** `types.RubricMetric.<NAME>` — server-side AutoRater, no
-    judge model needed.
--   **Custom LLM-as-a-judge:** `types.LLMMetric` with `prompt_template` or
-    `types.MetricPromptBuilder` for structured rubrics.
--   **Custom code:** `types.CodeExecutionMetric` with a `custom_function`
-    string containing `def evaluate(instance: dict)` for remote sandboxed
-    execution; or `types.Metric` with `custom_function=<callable>` for
-    local execution.
+- **Predefined:** `types.RubricMetric.<NAME>` — server-side AutoRater, no
+  judge model needed.
+- **Custom LLM-as-a-judge:** `types.LLMMetric` with `prompt_template` or
+  `types.MetricPromptBuilder` for structured rubrics.
+- **Custom code:** `types.CodeExecutionMetric` with a `custom_function`
+  string containing `def evaluate(instance: dict)` for remote sandboxed
+  execution; or `types.Metric` with `custom_function=<callable>` for
+  local execution.
 
 **Always persist the result** so Stage 4 and 5 can read it. Save both JSON
 (machine-readable, diffable) and HTML (human-readable, linkable):
@@ -222,20 +222,20 @@ For each failed metric, see
 [references/failure_patterns.md](references/failure_patterns.md) for deeper
 diagnoses. The compact mapping:
 
-| Failing metric                       | What to change                                                                                                            |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| `multi_turn_task_success` low        | The agent isn't completing the goal — fix orchestration, missing tool calls, premature termination, wrong tool selection. |
-| `multi_turn_trajectory_quality` low  | The agent reaches the goal inefficiently — refine planning prompts, remove redundant tool calls.                          |
-| `multi_turn_tool_use_quality` low    | Fix tool descriptions, parameter docstrings, or agent instructions for tool selection.                                    |
-| `final_response_quality` low         | Read auto-generated rubric verdicts; refine instructions to address the worst-scoring criterion.                          |
-| `final_response_match` low           | The agent's final answer doesn't match the golden reference — adjust response format or update the reference.             |
-| `hallucination` low                  | Tighten instructions to stay grounded in tool output; verify the tool actually returned the claimed data.                 |
-| `grounding` low                      | The response contradicts the provided context — add explicit "cite only from context" instructions.                       |
-| `safety` low                         | Add safety guardrails; review the violating content category in the rubric verdict.                                       |
-| `general_quality` / `text_quality` low | Adjust system instruction wording; the model's default phrasing is too generic for the task.                            |
-| `instruction_following` low          | The agent is ignoring constraints — restate them in the system instruction or use stricter wording.                       |
-| Agent calls wrong tools              | Fix tool descriptions, agent instructions, or `tool_config`.                                                              |
-| Agent calls extra tools              | Add explicit stop instructions, or switch to `multi_turn_tool_use_quality` to surface the extra calls in the rubric.      |
+| Failing metric                         | What to change                                                                                                            |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `multi_turn_task_success` low          | The agent isn't completing the goal — fix orchestration, missing tool calls, premature termination, wrong tool selection. |
+| `multi_turn_trajectory_quality` low    | The agent reaches the goal inefficiently — refine planning prompts, remove redundant tool calls.                          |
+| `multi_turn_tool_use_quality` low      | Fix tool descriptions, parameter docstrings, or agent instructions for tool selection.                                    |
+| `final_response_quality` low           | Read auto-generated rubric verdicts; refine instructions to address the worst-scoring criterion.                          |
+| `final_response_match` low             | The agent's final answer doesn't match the golden reference — adjust response format or update the reference.             |
+| `hallucination` low                    | Tighten instructions to stay grounded in tool output; verify the tool actually returned the claimed data.                 |
+| `grounding` low                        | The response contradicts the provided context — add explicit "cite only from context" instructions.                       |
+| `safety` low                           | Add safety guardrails; review the violating content category in the rubric verdict.                                       |
+| `general_quality` / `text_quality` low | Adjust system instruction wording; the model's default phrasing is too generic for the task.                              |
+| `instruction_following` low            | The agent is ignoring constraints — restate them in the system instruction or use stricter wording.                       |
+| Agent calls wrong tools                | Fix tool descriptions, agent instructions, or `tool_config`.                                                              |
+| Agent calls extra tools                | Add explicit stop instructions, or switch to `multi_turn_tool_use_quality` to surface the extra calls in the rubric.      |
 
 **For 10+ failures on the same metric**, use the **Error Analysis service**
 to cluster failures into themes (L1/L2 taxonomy categories) instead of
@@ -270,11 +270,11 @@ the target improved AND no other metric regressed.
 
 Track progress across iterations:
 
-| Iteration | Metric A | Metric B | Change made             |
-| --------- | -------- | -------- | ----------------------- |
-| Baseline  | 0.62     | 0.55     | —                       |
-| v2        | 0.78     | 0.68     | Added grounding prompt  |
-| v3        | 0.81     | 0.72     | Fixed tool selection    |
+| Iteration | Metric A | Metric B | Change made            |
+| --------- | -------- | -------- | ---------------------- |
+| Baseline  | 0.62     | 0.55     | —                      |
+| v2        | 0.78     | 0.68     | Added grounding prompt |
+| v3        | 0.81     | 0.72     | Fixed tool selection   |
 
 Expect 5–10+ iterations per failing case. Only after a case passes should
 you expand coverage with more eval cases.
@@ -283,11 +283,11 @@ you expand coverage with more eval cases.
 
 Never claim eval results you didn't read from an actual `result` object.
 
--   After running eval, print the `summary_metrics` table
-    (`scripts/inspect_results.py`).
--   After a fix, show before/after via `scripts/compare_results.py`.
--   Before declaring success, confirm ALL cases pass — not just the one you
-    were working on.
+- After running eval, print the `summary_metrics` table
+  (`scripts/inspect_results.py`).
+- After a fix, show before/after via `scripts/compare_results.py`.
+- Before declaring success, confirm ALL cases pass — not just the one you
+  were working on.
 
 If you can't produce the evidence (SDK call failed, result truncated,
 metric unsupported), say so explicitly. Don't paper over gaps.
@@ -299,7 +299,7 @@ metric unsupported), say so explicitly. Don't paper over gaps.
 2.  **Step-by-Step Execution:** Write the script, execute it, wait for
     output, then analyze. Don't do everything in one response.
 3.  **Standard Python:** Use standard Python imports (`import
-    agentplatform`, `from google.genai import types`). Don't use internal
+agentplatform`, `from google.genai import types`). Don't use internal
     import paths.
 4.  **Verify Before Guessing:** When unsure about SDK types or metrics,
     check the SDK source code rather than guessing or hallucinating.
@@ -368,12 +368,12 @@ patterns: synthetic data generation, pairwise comparison,
 
 ## Bundled scripts
 
-Script                   | When to use
------------------------- | -----------
-`validate_dataset.py`    | Before Stage 3 — catch malformed `EvaluationDataset` JSON.
-`parse_adk_traces.py`    | Stage 1 — convert ADK session dumps to the canonical dataset shape.
-`inspect_results.py`     | Stages 3/4 — render summary + per-case scores. `--save-html` for a browsable report.
-`compare_results.py`     | Stage 5 — diff baseline vs. candidate, detect regressions.
-`render_html_report.py`  | Render HTML from a saved result JSON or loss-clusters JSON.
-`endpoint_evaluation.py` | Stages 2/3 against a deployed Agent Platform endpoint (BYOM). See [references/deployment.md](references/deployment.md).
-`maas_evaluation.py`     | Stages 2/3 against a Model-as-a-Service model by ID. See [references/deployment.md](references/deployment.md).
+| Script                   | When to use                                                                                                             |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| `validate_dataset.py`    | Before Stage 3 — catch malformed `EvaluationDataset` JSON.                                                              |
+| `parse_adk_traces.py`    | Stage 1 — convert ADK session dumps to the canonical dataset shape.                                                     |
+| `inspect_results.py`     | Stages 3/4 — render summary + per-case scores. `--save-html` for a browsable report.                                    |
+| `compare_results.py`     | Stage 5 — diff baseline vs. candidate, detect regressions.                                                              |
+| `render_html_report.py`  | Render HTML from a saved result JSON or loss-clusters JSON.                                                             |
+| `endpoint_evaluation.py` | Stages 2/3 against a deployed Agent Platform endpoint (BYOM). See [references/deployment.md](references/deployment.md). |
+| `maas_evaluation.py`     | Stages 2/3 against a Model-as-a-Service model by ID. See [references/deployment.md](references/deployment.md).          |

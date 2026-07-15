@@ -11,8 +11,8 @@ resource name).
 
 ### Supported Flags
 
-*   `--operation-id` (Required): The unique identifier or full resource name of
-    the long-running operation returned from previous commands.
+- `--operation-id` (Required): The unique identifier or full resource name of
+  the long-running operation returned from previous commands.
 
 ```bash
 python3 scripts/skill_registry_ops.py monitor \

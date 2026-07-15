@@ -5,46 +5,46 @@ agent (e.g., brand new agent):
 
 ## 1. Ask the User for the Traffic Pattern and Handle Defaults
 
--   Because no historical metrics data is available and we do NOT perform
-    traffic pattern inference based on the name, description, or context of the
-    agent, you MUST explicitly ask the user directly in your response what
-    traffic pattern they expect for their agent.
--   **Direct Question Format**: You MUST write a direct question in your response
-    (e.g., "What traffic pattern do you expect for your agent?") and explicitly
-    present the following three options for customization:
-    -   **Steady/Consistent**: Maps **Latency** to **Short-Window Z-Score Baseline
-        (1-hour lookback)**.
-    -   **Bursty/Inconsistent**: Maps **Latency** to **Moving Averages (1-hour
-        baseline)**.
-    -   **Seasonal/Cyclical**: Maps **Latency** to **Seasonal Decomposition**
-        (requires offsets `1d` and `1w`).
--   Inform the user that the default traffic pattern is **Steady/Consistent**
-    (which maps to Short-Window Z-Score Baseline), and that you will use this
-    default if they do not specify one.
--   **Handling Automated or Immediate Setup Requests**: If the user's prompt
-    asks you to configure or write the alerting policies immediately (e.g., "Set
-    up its alerting policies in 'monitoring/alerts.tf'"), or if you are running
-    in an automated/non-interactive script, you MUST NOT pause to wait for their
-    response. Instead, ask the question in your response, state that you are
-    deploying the default Steady/Consistent pattern because no choice was
-    specified yet, and **immediately proceed to generate and write the default
-    configuration (Steady / Consistent -> Short-Window Z-Score)**.
--   Regardless of the selected traffic pattern, the other policies MUST use
-    their correct data-class defaults:
+- Because no historical metrics data is available and we do NOT perform
+  traffic pattern inference based on the name, description, or context of the
+  agent, you MUST explicitly ask the user directly in your response what
+  traffic pattern they expect for their agent.
+- **Direct Question Format**: You MUST write a direct question in your response
+  (e.g., "What traffic pattern do you expect for your agent?") and explicitly
+  present the following three options for customization:
+  - **Steady/Consistent**: Maps **Latency** to **Short-Window Z-Score Baseline
+    (1-hour lookback)**.
+  - **Bursty/Inconsistent**: Maps **Latency** to **Moving Averages (1-hour
+    baseline)**.
+  - **Seasonal/Cyclical**: Maps **Latency** to **Seasonal Decomposition**
+    (requires offsets `1d` and `1w`).
+- Inform the user that the default traffic pattern is **Steady/Consistent**
+  (which maps to Short-Window Z-Score Baseline), and that you will use this
+  default if they do not specify one.
+- **Handling Automated or Immediate Setup Requests**: If the user's prompt
+  asks you to configure or write the alerting policies immediately (e.g., "Set
+  up its alerting policies in 'monitoring/alerts.tf'"), or if you are running
+  in an automated/non-interactive script, you MUST NOT pause to wait for their
+  response. Instead, ask the question in your response, state that you are
+  deploying the default Steady/Consistent pattern because no choice was
+  specified yet, and **immediately proceed to generate and write the default
+  configuration (Steady / Consistent -> Short-Window Z-Score)**.
+- Regardless of the selected traffic pattern, the other policies MUST use
+  their correct data-class defaults:
 
-    -   **Error Rate**: ALWAYS use **Multi-Window Multi-Burn Rate SLO Alerting**
-        (or ratio-based static limits).
+  - **Error Rate**: ALWAYS use **Multi-Window Multi-Burn Rate SLO Alerting**
+    (or ratio-based static limits).
 
-*   **Short-Window Z-Score / Moving Averages**: Require **1 hour** of traffic
-    history.
+* **Short-Window Z-Score / Moving Averages**: Require **1 hour** of traffic
+  history.
 
-*   **SLO Burn Rate (Error Rate)**: Requires up to **3 days** for the slow burn
-    component, though the fast burn component (1h/5m) will work after 1 hour.
+* **SLO Burn Rate (Error Rate)**: Requires up to **3 days** for the slow burn
+  component, though the fast burn component (1h/5m) will work after 1 hour.
 
-*   **Seasonal Decomposition**: Requires **1 week** of history (due to the `1w`
-    offset). **WARNING:** If the user switches to Seasonal Decomposition, warn
-    them that they will have a 1-week blind spot, and suggest starting with
-    **Short-Window Z-Score** or **Static Thresholds** as a temporary guard.
+* **Seasonal Decomposition**: Requires **1 week** of history (due to the `1w`
+  offset). **WARNING:** If the user switches to Seasonal Decomposition, warn
+  them that they will have a 1-week blind spot, and suggest starting with
+  **Short-Window Z-Score** or **Static Thresholds** as a temporary guard.
 
 ## 2. User Notification
 

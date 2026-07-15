@@ -18,12 +18,12 @@ For the public-docs version of this workflow, see the
 
 ## When to use this guide
 
--   The user wants to evaluate a **custom-weights / Bring-Your-Own-Model
-    (BYOM)** model deployed to an Agent Platform endpoint.
--   The user wants to evaluate a **Model-as-a-Service (MaaS)** model (e.g.
-    `meta/llama3-8b`, `gemini-1.5-pro`) by model ID.
--   The user is at the deploy-then-eval stage: weights exist in GCS or in Model
-    Garden but no endpoint has been provisioned yet.
+- The user wants to evaluate a **custom-weights / Bring-Your-Own-Model
+  (BYOM)** model deployed to an Agent Platform endpoint.
+- The user wants to evaluate a **Model-as-a-Service (MaaS)** model (e.g.
+  `meta/llama3-8b`, `gemini-1.5-pro`) by model ID.
+- The user is at the deploy-then-eval stage: weights exist in GCS or in Model
+  Garden but no endpoint has been provisioned yet.
 
 For agent (multi-turn) evaluation, dataset preparation, metric selection,
 failure clustering, or iteration, stay in the main SKILL.md flow. This guide
@@ -125,9 +125,9 @@ running.
 
 Recommended starter metrics (confirm with the user first):
 
--   `coherence` — does the response hold together logically?
--   `fluency` — grammatical correctness and natural flow.
--   `text_quality` — overall text quality.
+- `coherence` — does the response hold together logically?
+- `fluency` — grammatical correctness and natural flow.
+- `text_quality` — overall text quality.
 
 For the full metric catalog, see [metric_registry.md](metric_registry.md).
 
@@ -191,9 +191,9 @@ persist the full result for Stage 4/5 analysis, capture the returned
 `eval_result` and serialize it the same way as the main SKILL.md "Always persist
 the result" block. Then:
 
--   `scripts/inspect_results.py --failing-only` for per-case triage.
--   `scripts/compare_results.py --baseline <prev> --candidate <new>` after a fix
-    to confirm the target metric improved and nothing regressed.
+- `scripts/inspect_results.py --failing-only` for per-case triage.
+- `scripts/compare_results.py --baseline <prev> --candidate <new>` after a fix
+  to confirm the target metric improved and nothing regressed.
 
 The deployment workflow is only Stages 1–3 of the Flywheel. Stages 4 (Analyze
 Failures) and 5 (Optimize & Iterate) work identically whether the result came

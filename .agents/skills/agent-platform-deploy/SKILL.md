@@ -30,19 +30,19 @@ Before executing any commands on behalf of the user, you MUST adhere to the
 following safety tiers based on the action requested:
 
 1.  **Tier R: Read-only (`list`, `describe`, `list-deployment-config`)**
-    *   **Rule**: No confirmation needed. You may execute these commands immediately to gather information for the user.
+    - **Rule**: No confirmation needed. You may execute these commands immediately to gather information for the user.
 2.  **Tier M: Mutating & Reversible (`deploy`, `undeploy-model`)**
-    *   **Rule**: This requires explicit user confirmation. You MUST present a
-        clear confirmation prompt to the user explaining the proposed command.
-        You MUST wait for their explicit confirmation before executing. For
-        `undeploy-model`, you MUST first verify that the endpoint and deployed
-        model exist; if `describe` or `list` returns a 404 or empty result, you
-        MUST halt and inform the user rather than attempting undeployment.
+    - **Rule**: This requires explicit user confirmation. You MUST present a
+      clear confirmation prompt to the user explaining the proposed command.
+      You MUST wait for their explicit confirmation before executing. For
+      `undeploy-model`, you MUST first verify that the endpoint and deployed
+      model exist; if `describe` or `list` returns a 404 or empty result, you
+      MUST halt and inform the user rather than attempting undeployment.
 3.  **Tier D: Destructive & Irreversible (`delete`)**
-    *   **Rule**: This requires **explicit typed confirmation**. You MUST output
-        a text message explaining the irreversible nature of endpoint or model
-        deletion and asking the user to type "I confirm" or "Yes, delete it"
-        before executing the deletion command.
+    - **Rule**: This requires **explicit typed confirmation**. You MUST output
+      a text message explaining the irreversible nature of endpoint or model
+      deletion and asking the user to type "I confirm" or "Yes, delete it"
+      before executing the deletion command.
 
 ## 1. Prerequisites
 
@@ -83,7 +83,7 @@ gcloud ai model-garden models list-deployment-config \
 > lightweight tasks). * You **MUST** ensure you are recommending the **latest
 > version** or **popular version** of the suggested model family. * You **MUST**
 > verify the model is currently deployable using `gcloud ai model-garden models
-> list` before suggesting it to the user.
+list` before suggesting it to the user.
 
 ## 3. Deploying a Model
 

@@ -24,25 +24,26 @@ Before executing any commands or scripts on behalf of the user, you must adhere
 to the following safety tiers based on the action requested:
 
 1.  **Tier R: Read-only (`list_corpora`, `list_files`, `get_corpus`, `retrieval_query`)**
-    *   No confirmation needed. Execute immediately to gather information or retrieve grounded contexts.
+    - No confirmation needed. Execute immediately to gather information or retrieve grounded contexts.
 2.  **Tier RC: Read-only but consumes Compute Resources (`client.models.generate_content`)**
-    *   Requires **interactive confirmation** with 'Yes'/'No' options before
-    executing grounded content generation. The confirmation prompt MUST
-    clearly explain the proposed generation execution and its key parameters
-    (e.g., target corpus ID, query text, target model). Natural-language
-    paraphrases without specifying exact parameters are insufficient, as
-    explicit parameter listing is required to ensure unambiguous user approval
-    of the specific resource and configuration.
-    *   **Same-turn restriction**: Do not execute the generation code in the
-    same turn as presenting the confirmation prompt. Stop and wait for the
-    user's reply; only execute after explicit 'Yes' / approval.
-    *   **Gold Standard Example**:
-        > I will perform grounded content generation with the following
-        > parameters. Please confirm this information before I proceed:
-        > *   **Target Corpus ID**: `projects/123/locations/us/ragCorpora/abc`
-        > *   **Target Model**: `gemini-2.5-pro`
-        > *   **Query Text**: "What are the company policies on remote work?"
-        > Do you confirm? [Yes/No]
+    - Requires **interactive confirmation** with 'Yes'/'No' options before
+      executing grounded content generation. The confirmation prompt MUST
+      clearly explain the proposed generation execution and its key parameters
+      (e.g., target corpus ID, query text, target model). Natural-language
+      paraphrases without specifying exact parameters are insufficient, as
+      explicit parameter listing is required to ensure unambiguous user approval
+      of the specific resource and configuration.
+    - **Same-turn restriction**: Do not execute the generation code in the
+      same turn as presenting the confirmation prompt. Stop and wait for the
+      user's reply; only execute after explicit 'Yes' / approval.
+    - **Gold Standard Example**:
+      > I will perform grounded content generation with the following
+      > parameters. Please confirm this information before I proceed:
+      >
+      > - **Target Corpus ID**: `projects/123/locations/us/ragCorpora/abc`
+      > - **Target Model**: `gemini-2.5-pro`
+      > - **Query Text**: "What are the company policies on remote work?"
+      >   Do you confirm? [Yes/No]
 
 ## Phase 0: Environment Setup
 
@@ -52,23 +53,26 @@ the environment is correctly initialized by following these steps:
 1.  **Google Cloud Authentication**: Authenticate with your Google Cloud
     credentials and configure active Application Default Credentials (ADC) for
     Agent Platform access:
-    
+
     ```bash
     gcloud auth login
     gcloud auth application-default login
     ```
+
 2.  **Virtual Environment**: Create and activate a dedicated virtual
     environment:
-    
+
     ```bash
     python3 -m venv ~/rag_agent_venv
     source ~/rag_agent_venv/bin/activate
     ```
+
 3.  **Install Dependencies**: Install the required Agent Platform SDKs:
-    
+
     ```bash
     pip install google-cloud-aiplatform google-genai
     ```
+
 4.  **Execution**: Advise the user that every time they execute a Python
     snippet, they must ensure this virtual environment is activated first.
 
@@ -77,18 +81,18 @@ the environment is correctly initialized by following these steps:
 1.  **Information Gathering**: Has the user provided the Project ID, Region, and
     Corpus ID?
 
-    *   **No** -> Proceed to [1. Listing Corpora and Files] to discover the
-        necessary Resource Names and IDs. Only ask the user if discovery fails.
-    *   **Yes** -> Proceed.
+    - **No** -> Proceed to [1. Listing Corpora and Files] to discover the
+      necessary Resource Names and IDs. Only ask the user if discovery fails.
+    - **Yes** -> Proceed.
 
 2.  **Task Type**: What does the user want to do?
 
-    *   **List Corpora and Files** -> Proceed to [1. Listing Corpora and Files].
-    *   **Inspect a Corpus** -> Proceed to [2. Getting / Inspecting a RAG Engine
-        Corpus].
-    *   **Search for Contexts** -> Proceed to [3. Retrieving Contexts].
-    *   **Answer questions using RAG Engine** -> Proceed to [4. Answering the
-        User with Retrieved Context].
+    - **List Corpora and Files** -> Proceed to [1. Listing Corpora and Files].
+    - **Inspect a Corpus** -> Proceed to [2. Getting / Inspecting a RAG Engine
+      Corpus].
+    - **Search for Contexts** -> Proceed to [3. Retrieving Contexts].
+    - **Answer questions using RAG Engine** -> Proceed to [4. Answering the
+      User with Retrieved Context].
 
 > [!TIP] **Placeholder Parameter Replacement:** The Python scripts below use
 > bracketed string placeholders (like `"{project_id}"`, `"{region}"`, and

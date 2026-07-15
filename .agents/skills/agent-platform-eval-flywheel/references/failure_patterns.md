@@ -5,7 +5,7 @@ causes and concrete fixes. Metric IDs below are the **unversioned** form (the
 SDK auto-resolves them to the latest version); see
 [metric_registry.md](metric_registry.md) for the full catalog.
 
-For the compact failure → fix mapping, see the *What to fix when scores fail*
+For the compact failure → fix mapping, see the _What to fix when scores fail_
 table in SKILL.md.
 
 ## Metric-Specific Failures
@@ -17,9 +17,9 @@ information, or doesn't use the provided context.
 
 **Root causes:**
 
--   System prompt lacks explicit grounding instructions
--   Retrieved context not passed into the prompt
--   Agent ignores context in favor of parametric knowledge
+- System prompt lacks explicit grounding instructions
+- Retrieved context not passed into the prompt
+- Agent ignores context in favor of parametric knowledge
 
 **Fixes:**
 
@@ -35,9 +35,9 @@ information, or doesn't use the provided context.
 
 **Root causes:**
 
--   System prompt too vague
--   Agent over-explains or under-explains
--   Missing output format instructions
+- System prompt too vague
+- Agent over-explains or under-explains
+- Missing output format instructions
 
 **Fixes:**
 
@@ -52,9 +52,9 @@ tools when it should.
 
 **Root causes:**
 
--   Tool descriptions are ambiguous
--   Multiple tools have overlapping functionality
--   Function declaration parameter schemas are incomplete
+- Tool descriptions are ambiguous
+- Multiple tools have overlapping functionality
+- Function declaration parameter schemas are incomplete
 
 **Fixes:**
 
@@ -72,9 +72,9 @@ tool calls, redundant questions, or wrong delegation order.
 
 **Root causes:**
 
--   Router agent lacks clear delegation rules
--   Agent retries failed operations without adaptation
--   Missing escalation logic
+- Router agent lacks clear delegation rules
+- Agent retries failed operations without adaptation
+- Missing escalation logic
 
 **Fixes:**
 
@@ -91,9 +91,9 @@ actual goal.
 
 **Root causes:**
 
--   Agent gets sidetracked by follow-up questions
--   Missing confirmation/completion step
--   Agent doesn't track task state across turns
+- Agent gets sidetracked by follow-up questions
+- Missing confirmation/completion step
+- Agent doesn't track task state across turns
 
 **Fixes:**
 
@@ -108,9 +108,9 @@ actual goal.
 
 **Root causes:**
 
--   System prompt lacks safety constraints
--   Agent follows user instructions too literally
--   Missing refusal logic for out-of-scope requests
+- System prompt lacks safety constraints
+- Agent follows user instructions too literally
+- Missing refusal logic for out-of-scope requests
 
 **Fixes:**
 
@@ -128,9 +128,9 @@ actual goal.
 
 **Root causes:**
 
--   API quota exceeded
--   Network timeout
--   Model endpoint temporarily unavailable
+- API quota exceeded
+- Network timeout
+- Model endpoint temporarily unavailable
 
 **Fix:** Re-run the evaluation. If persistent, check quota and endpoint health.
 
@@ -140,9 +140,9 @@ actual goal.
 
 **Root causes:**
 
--   Dataset too large for a single API call
--   Complex custom metric code takes too long
--   Judge model sampling count too high
+- Dataset too large for a single API call
+- Complex custom metric code takes too long
+- Judge model sampling count too high
 
 **Fixes:**
 
@@ -179,6 +179,6 @@ When eval results show failures:
     caused the failure.
 6.  **Identify the pattern** — is it a prompt issue, tool issue, or data issue?
 7.  **Apply the targeted fix** — from the table above or the SKILL.md
-    *What to fix when scores fail* table.
+    _What to fix when scores fail_ table.
 8.  **Re-run and compare** — use `scripts/compare_results.py` to verify the
     fix improved the target metric without regressing others.

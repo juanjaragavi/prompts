@@ -2,18 +2,18 @@
 
 ## Description
 
-GenerateSkill automates the *initial* scaffolding of new agent skills by generating standardized documentation (`SKILL.md`) and directory structures based on user requirements. Note: This tool serves strictly as a starting point. It generates a foundational draft and requires human intervention to refine the logic, review the architecture, and ensure the final skill meets production-level quality standards.
+GenerateSkill automates the _initial_ scaffolding of new agent skills by generating standardized documentation (`SKILL.md`) and directory structures based on user requirements. Note: This tool serves strictly as a starting point. It generates a foundational draft and requires human intervention to refine the logic, review the architecture, and ensure the final skill meets production-level quality standards.
 
 **Use when:**
 
-* Scaffolding a new agent skill from scratch.
-* Establishing a standardized directory structure for a new tool.
-* Drafting a properly formatted `SKILL.md` for a specific use case.
+- Scaffolding a new agent skill from scratch.
+- Establishing a standardized directory structure for a new tool.
+- Drafting a properly formatted `SKILL.md` for a specific use case.
 
 **Don't use when:**
 
-* Executing an existing skill or performing a general query.
-* Writing general code outside of a skill directory.
+- Executing an existing skill or performing a general query.
+- Writing general code outside of a skill directory.
 
 ---
 
@@ -21,10 +21,10 @@ GenerateSkill automates the *initial* scaffolding of new agent skills by generat
 
 When generating a new skill, the following standardized architecture should be established:
 
-* **`SKILL.md`**: The core documentation and instruction set for the skill *(Required)*.
-* **`references/`**: Directory for storing heavy external documentation, API specs, or knowledge bases *(Optional)*.
-* **`scripts/`**: Directory for executable scripts, helper functions, or setup files *(Optional)*. Offload complex code snippets, deterministic helper functions, or repetitive setup tasks into this directory to keep `SKILL.md` lean and focused entirely on high-level instructions and usage patterns.
-* **`assets/`**: Directory for static files, templates, or media used by the skill *(Optional)*.
+- **`SKILL.md`**: The core documentation and instruction set for the skill _(Required)_.
+- **`references/`**: Directory for storing heavy external documentation, API specs, or knowledge bases _(Optional)_.
+- **`scripts/`**: Directory for executable scripts, helper functions, or setup files _(Optional)_. Offload complex code snippets, deterministic helper functions, or repetitive setup tasks into this directory to keep `SKILL.md` lean and focused entirely on high-level instructions and usage patterns.
+- **`assets/`**: Directory for static files, templates, or media used by the skill _(Optional)_.
 
 ---
 

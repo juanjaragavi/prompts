@@ -24,23 +24,23 @@ Before executing any commands on behalf of the user, you MUST adhere to the
 following safety tiers based on the action requested:
 
 1.  **Tier R: Read-only (`list`, `describe`, `get`)**
-    *   No confirmation needed. Execute immediately to gather information.
+    - No confirmation needed. Execute immediately to gather information.
 2.  **Tier M: Mutating & Reversible (`create`, `update`)**
-    *   Requires **interactive confirmation** with 'Yes'/'No' options. The
-        confirmation prompt MUST contain the exact, literal command string
-        with all required flags (e.g. `--region=us-central1`,
-        `--display-name="..."`) — natural-language paraphrases are NOT
-        sufficient.
-    *   **Same-turn restriction**: NEVER execute the command in the same turn
-        as presenting the confirmation prompt. Stop and wait for the user's
-        reply; only execute after explicit 'Yes' / approval.
+    - Requires **interactive confirmation** with 'Yes'/'No' options. The
+      confirmation prompt MUST contain the exact, literal command string
+      with all required flags (e.g. `--region=us-central1`,
+      `--display-name="..."`) — natural-language paraphrases are NOT
+      sufficient.
+    - **Same-turn restriction**: NEVER execute the command in the same turn
+      as presenting the confirmation prompt. Stop and wait for the user's
+      reply; only execute after explicit 'Yes' / approval.
 3.  **Tier D: Destructive & Irreversible (`delete`)**
-    *   Requires **explicit typed confirmation** (e.g. "I confirm" or "Yes,
-        delete it"). Ask for confirmation IMMEDIATELY — before any pre-flight
-        checks (don't `describe` first, don't check if the endpoint is empty
-        first).
-    *   **Same-turn restriction**: NEVER execute in the same turn as asking
-        for typed confirmation. Wait for the user to reply in a new turn.
+    - Requires **explicit typed confirmation** (e.g. "I confirm" or "Yes,
+      delete it"). Ask for confirmation IMMEDIATELY — before any pre-flight
+      checks (don't `describe` first, don't check if the endpoint is empty
+      first).
+    - **Same-turn restriction**: NEVER execute in the same turn as asking
+      for typed confirmation. Wait for the user to reply in a new turn.
 
 ## Phase 0: Environment Setup
 
@@ -50,16 +50,18 @@ correctly initialized by following these steps:
 1.  **Google Cloud Authentication**: Authenticate with your Google Cloud
     credentials and configure active Application Default Credentials (ADC) for
     Agent Platform access:
-    
+
     ```bash
     gcloud auth login
     gcloud auth application-default login
     ```
+
 2.  **Set Project**: Configure the active project for subsequent commands:
-    
+
     ```bash
     gcloud config set project $PROJECT_ID
     ```
+
 3.  **Region**: Always specify `--region=$LOCATION_ID` on each command below.
     Do NOT use `global`. Ask the user to specify the region if not provided.
 
@@ -164,8 +166,8 @@ undeploying models.
 
 ## Troubleshooting
 
--   **403 Permission Denied**: Ensure `aiplatform.admin` or `owner` role is
-    assigned.
--   **Quota Exceeded**: Verify the region's endpoint quota in the Cloud Console.
--   **Resource Busy**: If a deletion fails, check if models are still being
-    undeployed.
+- **403 Permission Denied**: Ensure `aiplatform.admin` or `owner` role is
+  assigned.
+- **Quota Exceeded**: Verify the region's endpoint quota in the Cloud Console.
+- **Resource Busy**: If a deletion fails, check if models are still being
+  undeployed.

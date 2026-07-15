@@ -39,24 +39,24 @@ Choose a model family based on your task type:
 These values are starting points and should be adjusted based on your dataset
 size.
 
-| Model | Tuning Mode | Learning Rate | Epochs | Adapter Size (PEFT) |
-| :--- | :--- | :--- | :--- | :--- |
-| Gemma 3 1B IT | Full | 2.0E-5 | 3 | N/A |
-| Gemma 3 4B IT | Full | 1.0E-5 | 3 | N/A |
-| Gemma 3 12B IT | Full | 1.0E-5 | 3 | N/A |
-| Gemma 3 27B IT | PEFT | 2.0E-4 | 3 | 32 |
-| Gemma 3 27B IT | Full | 2.0E-4 | 3 | N/A |
-| Llama 3.1 8B | PEFT | 2.0E-4 | 3 | 16 |
-| Llama 3.1 8B | Full | 2.0E-4 | 3 | N/A |
-| Llama 3.1 8B Instruct | PEFT | 2.0E-4 | 3 | 16 |
-| Llama 3.1 8B Instruct | Full | 2.0E-4 | 3 | N/A |
-| Llama 3.2 1B Instruct | Full | 1.5E-6 | 3 | N/A |
-| Llama 3.2 3B Instruct | Full | 1.0E-7 | 3 | N/A |
-| Llama 3.3 70B Instruct | PEFT | 5.0E-5 | 3 | 16 |
-| Llama 3.3 70B Instruct | Full | 5.0E-5 | 3 | N/A |
-| Llama 4 Scout 17B 16E | PEFT | 2.0E-5 | 3 | 16 |
-| Qwen 3 4B | Full | 7.5e-5 | 3 | N/A |
-| Qwen 3 8B | Full | 5e-5 | 3 | N/A |
-| Qwen 3 14B | Full | 4e-5 | 3 | N/A |
-| Qwen 3 32B | PEFT | 2.0E-4 | 3 | 16 |
-| Qwen 3 32B | Full | 2.5e-5 | 3 | N/A |
+| Model                  | Tuning Mode | Learning Rate | Epochs | Adapter Size (PEFT) |
+| :--------------------- | :---------- | :------------ | :----- | :------------------ |
+| Gemma 3 1B IT          | Full        | 2.0E-5        | 3      | N/A                 |
+| Gemma 3 4B IT          | Full        | 1.0E-5        | 3      | N/A                 |
+| Gemma 3 12B IT         | Full        | 1.0E-5        | 3      | N/A                 |
+| Gemma 3 27B IT         | PEFT        | 2.0E-4        | 3      | 32                  |
+| Gemma 3 27B IT         | Full        | 2.0E-4        | 3      | N/A                 |
+| Llama 3.1 8B           | PEFT        | 2.0E-4        | 3      | 16                  |
+| Llama 3.1 8B           | Full        | 2.0E-4        | 3      | N/A                 |
+| Llama 3.1 8B Instruct  | PEFT        | 2.0E-4        | 3      | 16                  |
+| Llama 3.1 8B Instruct  | Full        | 2.0E-4        | 3      | N/A                 |
+| Llama 3.2 1B Instruct  | Full        | 1.5E-6        | 3      | N/A                 |
+| Llama 3.2 3B Instruct  | Full        | 1.0E-7        | 3      | N/A                 |
+| Llama 3.3 70B Instruct | PEFT        | 5.0E-5        | 3      | 16                  |
+| Llama 3.3 70B Instruct | Full        | 5.0E-5        | 3      | N/A                 |
+| Llama 4 Scout 17B 16E  | PEFT        | 2.0E-5        | 3      | 16                  |
+| Qwen 3 4B              | Full        | 7.5e-5        | 3      | N/A                 |
+| Qwen 3 8B              | Full        | 5e-5          | 3      | N/A                 |
+| Qwen 3 14B             | Full        | 4e-5          | 3      | N/A                 |
+| Qwen 3 32B             | PEFT        | 2.0E-4        | 3      | 16                  |
+| Qwen 3 32B             | Full        | 2.5e-5        | 3      | N/A                 |

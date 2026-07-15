@@ -4,56 +4,56 @@ Use these instructions if the agent has historical metrics data available:
 
 ## 1. Run Traffic Analyzer Script
 
--   Run the `analyze_traffic.py` script to classify the metrics traffic pattern
-    profile using one of the following commands:
-    -   **Live Query**: `python3 scripts/analyze_traffic.py --live --project-id
-        [PROJECT_ID] --reasoning-engine-id [REASONING_ENGINE_ID]`
-    -   **Metrics File**: `python3 scripts/analyze_traffic.py --metrics-file
-        [PATH_TO_JSON]`
--   **Handling Tool Failures**: If the `--live` command fails with
-    `CredentialsMissingError` (exit code 1), report the error and instruct the
-    user to run `gcloud auth application-default login` on their terminal.
--   Map the traffic pattern profile classified by the script to **Latency**:
-    -   **Steady**: Maps to **Long-Window Z-Score Baseline (1-week lookback)**
-        (safe since the script verified we have at least 14 days of history).
-    -   **Seasonal**: Maps to **Seasonal Decomposition** (average 1w and 1d).
-    -   **Bursty**: Maps to **Moving Averages** (1h baseline).
+- Run the `analyze_traffic.py` script to classify the metrics traffic pattern
+  profile using one of the following commands:
+  - **Live Query**: `python3 scripts/analyze_traffic.py --live --project-id
+[PROJECT_ID] --reasoning-engine-id [REASONING_ENGINE_ID]`
+  - **Metrics File**: `python3 scripts/analyze_traffic.py --metrics-file
+[PATH_TO_JSON]`
+- **Handling Tool Failures**: If the `--live` command fails with
+  `CredentialsMissingError` (exit code 1), report the error and instruct the
+  user to run `gcloud auth application-default login` on their terminal.
+- Map the traffic pattern profile classified by the script to **Latency**:
+  - **Steady**: Maps to **Long-Window Z-Score Baseline (1-week lookback)**
+    (safe since the script verified we have at least 14 days of history).
+  - **Seasonal**: Maps to **Seasonal Decomposition** (average 1w and 1d).
+  - **Bursty**: Maps to **Moving Averages** (1h baseline).
 
 #### Decision Mapping Reference:
 
-| Variance Ratio   | Autocorrelation | Traffic        | Assigned Latency       |
-: (std_dev / mean) : (1-week lag)    : Classification : Algorithm & baseline   :
+| Variance Ratio | Autocorrelation | Traffic | Assigned Latency |
+: (std_dev / mean) : (1-week lag) : Classification : Algorithm & baseline :
 | :--------------- | :-------------- | :------------- | :--------------------- |
-| `≤ 2.0`          | `≤ 0.75`        | **Steady**     | Long-Window Z-Score    |
-:                  :                 :                : (1-week lookback)      :
-| `≤ 2.0`          | `> 0.75`        | **Seasonal**   | Seasonal Decomposition |
-:                  :                 :                : (1w & 1d avg)          :
-| `> 2.0`          | Any / Not       | **Bursty**     | Moving Averages        |
-:                  : Applicable      :                : (1-hour window)        :
+| `≤ 2.0` | `≤ 0.75` | **Steady** | Long-Window Z-Score |
+: : : : (1-week lookback) :
+| `≤ 2.0` | `> 0.75` | **Seasonal** | Seasonal Decomposition |
+: : : : (1w & 1d avg) :
+| `> 2.0` | Any / Not | **Bursty** | Moving Averages |
+: : Applicable : : (1-hour window) :
 
-*Example classifications:*
+_Example classifications:_
 
--   *Steady*: Low variance traffic (e.g. steady QPS) with little or no weekly
-    cyclical pattern.
--   *Seasonal*: Clear daily/weekly repeating patterns with high weekly
-    correlation (e.g. daily peak traffic).
--   *Bursty*: Highly volatile traffic with rapid spikes and quiet periods (e.g.
-    batch job workloads).
+- _Steady_: Low variance traffic (e.g. steady QPS) with little or no weekly
+  cyclical pattern.
+- _Seasonal_: Clear daily/weekly repeating patterns with high weekly
+  correlation (e.g. daily peak traffic).
+- _Bursty_: Highly volatile traffic with rapid spikes and quiet periods (e.g.
+  batch job workloads).
 
--   **Fallback for Insufficient Data / No Traffic**:
+- **Fallback for Insufficient Data / No Traffic**:
 
-    -   If the script fails with a `ValueError` indicating insufficient data
-        points (less than 14 days of history), or if it outputs "New Agent / No
-        Traffic" (inactive agent), you MUST fallback to the user inquiry
-        instructions in
-        [no_historical_traffic_data.md](no_historical_traffic_data.md) to ask
-        the user for the expected traffic pattern.
+  - If the script fails with a `ValueError` indicating insufficient data
+    points (less than 14 days of history), or if it outputs "New Agent / No
+    Traffic" (inactive agent), you MUST fallback to the user inquiry
+    instructions in
+    [no_historical_traffic_data.md](no_historical_traffic_data.md) to ask
+    the user for the expected traffic pattern.
 
--   Regardless of the script's output profile, the other policies MUST use their
-    correct data-class defaults:
+- Regardless of the script's output profile, the other policies MUST use their
+  correct data-class defaults:
 
-    -   **Error Rate**: ALWAYS use **Multi-Window Multi-Burn Rate SLO Alerting**
-        (or ratio-based static limits).
+  - **Error Rate**: ALWAYS use **Multi-Window Multi-Burn Rate SLO Alerting**
+    (or ratio-based static limits).
 
 ## 2. User Notification
 

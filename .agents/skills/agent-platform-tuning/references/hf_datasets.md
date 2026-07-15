@@ -31,13 +31,14 @@ of the dataset before proceeding.
 **CRITICAL: Ask for Confirmation and Column Selection.**
 Do not proceed with dataset preparation or upload until you perform the
 following steps and get user confirmation:
+
 1. **Dataset and Split Confirmation:** Present the dataset and available splits
-    to the user and have them confirm which to use. Additionally, show a few
-    samples to the user for preview.
+   to the user and have them confirm which to use. Additionally, show a few
+   samples to the user for preview.
 2. **Column Selection:** The tuning entrypoint requires mapping source columns to the target format (either `prompt`/`completion` or `messages` format). You must:
-    - Provide a list of all available columns in the selected dataset split.
-    - Recommend which columns should be mapped to `prompt` (or user message) and `completion` (or assistant response), offering a few reasonable options if applicable.
-    - Ask the user to confirm the column mapping or specify which columns to use.
+   - Provide a list of all available columns in the selected dataset split.
+   - Recommend which columns should be mapped to `prompt` (or user message) and `completion` (or assistant response), offering a few reasonable options if applicable.
+   - Ask the user to confirm the column mapping or specify which columns to use.
 
 ## Datasets List
 
@@ -54,37 +55,36 @@ users request.
 
 #### Mathematical Reasoning
 
-| Name | Description | Sample Count (Split) | Usage Hints |
-|---|---|---|---|
-| [open-r1/OpenR1-Math-220k](https://huggingface.co/datasets/open-r1/OpenR1-Math-220k) | A dataset of math problems and solutions. | 93,700 (default) - 220,000 (full) | The main columns are problem and solution. Some other helpful columns are answer, problem_type, question_type, and messages. |
-| [AI-MO/NuminaMath-TIR](https://huggingface.co/datasets/AI-MO/NuminaMath-TIR) | A dataset for improving model performance in complex logic and calculations. | N/A | Good choice for mathematical reasoning. |
+| Name                                                                                 | Description                                                                  | Sample Count (Split)              | Usage Hints                                                                                                                  |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| [open-r1/OpenR1-Math-220k](https://huggingface.co/datasets/open-r1/OpenR1-Math-220k) | A dataset of math problems and solutions.                                    | 93,700 (default) - 220,000 (full) | The main columns are problem and solution. Some other helpful columns are answer, problem_type, question_type, and messages. |
+| [AI-MO/NuminaMath-TIR](https://huggingface.co/datasets/AI-MO/NuminaMath-TIR)         | A dataset for improving model performance in complex logic and calculations. | N/A                               | Good choice for mathematical reasoning.                                                                                      |
 
 #### Instruction Following
 
-| Name | Description | Sample Count (Split) | Usage Hints |
-|---|---|---|---|
-| [argilla/ifeval-like-data](https://huggingface.co/datasets/argilla/ifeval-like-data) | A dataset that involves instruction following. | 550,000 (default), 56,000 (filtered) | There are multiple languages in this dataset. Prompt the user with this dataset if specific languages are expected. Filter accordingly |
-| [HuggingFaceTB/smoltalk2](https://huggingface.co/datasets/HuggingFaceTB/smoltalk2) | Enhancing broad instruction-following capabilities. | N/A | This needs to be subsetted. as the initial dataset is very large and covers a wide range of tasks. |
+| Name                                                                                 | Description                                         | Sample Count (Split)                 | Usage Hints                                                                                                                            |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| [argilla/ifeval-like-data](https://huggingface.co/datasets/argilla/ifeval-like-data) | A dataset that involves instruction following.      | 550,000 (default), 56,000 (filtered) | There are multiple languages in this dataset. Prompt the user with this dataset if specific languages are expected. Filter accordingly |
+| [HuggingFaceTB/smoltalk2](https://huggingface.co/datasets/HuggingFaceTB/smoltalk2)   | Enhancing broad instruction-following capabilities. | N/A                                  | This needs to be subsetted. as the initial dataset is very large and covers a wide range of tasks.                                     |
 
 #### Multilingual Support
 
-| Name | Description | Sample Count (Split) | Usage Hints |
-|---|---|---|---|
-| [CohereForAI/aya_dataset](https://huggingface.co/datasets/CohereForAI/aya_dataset) | Expanding linguistic capabilities across diverse languages. | N/A | Contains multi-language instruction following data. |
+| Name                                                                               | Description                                                 | Sample Count (Split) | Usage Hints                                         |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------------- | -------------------- | --------------------------------------------------- |
+| [CohereForAI/aya_dataset](https://huggingface.co/datasets/CohereForAI/aya_dataset) | Expanding linguistic capabilities across diverse languages. | N/A                  | Contains multi-language instruction following data. |
 
 ### Specialized and Technical Tasks
 
 #### Programming & Coding
 
-| Name | Description | Sample Count (Split) | Usage Hints |
-|---|---|---|---|
-| [ise-uiuc/Magicoder-Evol-Instruct-110K](https://huggingface.co/datasets/ise-uiuc/Magicoder-Evol-Instruct-110K) | Code generation dataset. | 110,000 | Suitable for advancing coding capabilities. |
-| [open-r1/datasets](https://huggingface.co/open-r1/datasets) | Specialized programming & reasoning data. | N/A | General source for open reasoning technical data. |
+| Name                                                                                                           | Description                               | Sample Count (Split) | Usage Hints                                       |
+| -------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | -------------------- | ------------------------------------------------- |
+| [ise-uiuc/Magicoder-Evol-Instruct-110K](https://huggingface.co/datasets/ise-uiuc/Magicoder-Evol-Instruct-110K) | Code generation dataset.                  | 110,000              | Suitable for advancing coding capabilities.       |
+| [open-r1/datasets](https://huggingface.co/open-r1/datasets)                                                    | Specialized programming & reasoning data. | N/A                  | General source for open reasoning technical data. |
 
 #### Tool Use & Integration
 
-| Name | Description | Sample Count (Split) | Usage Hints |
-|---|---|---|---|
-| [gorilla-llm/Berkeley-Function-Calling-Leaderboard](https://huggingface.co/datasets/gorilla-llm/Berkeley-Function-Calling-Leaderboard) | Adhere to constraints and use external systems. | N/A | High-quality tool usage and function calling data. |
-| [Bingguang/HardGen](https://huggingface.co/datasets/Bingguang/HardGen) | Evaluating handling complex tools and constraints. | N/A | Validated for tool use integration tasks. |
-
+| Name                                                                                                                                   | Description                                        | Sample Count (Split) | Usage Hints                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | -------------------- | -------------------------------------------------- |
+| [gorilla-llm/Berkeley-Function-Calling-Leaderboard](https://huggingface.co/datasets/gorilla-llm/Berkeley-Function-Calling-Leaderboard) | Adhere to constraints and use external systems.    | N/A                  | High-quality tool usage and function calling data. |
+| [Bingguang/HardGen](https://huggingface.co/datasets/Bingguang/HardGen)                                                                 | Evaluating handling complex tools and constraints. | N/A                  | Validated for tool use integration tasks.          |

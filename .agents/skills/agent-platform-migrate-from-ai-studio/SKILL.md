@@ -13,42 +13,42 @@ developer-centric Google AI Studio ecosystem
 (`generativelanguage.googleapis.com`) to the enterprise-grade Google Cloud Agent
 Platform (`aiplatform.googleapis.com`).
 
---------------------------------------------------------------------------------
+---
 
 ## When to Invoke This Skill
 
-*   You want to migrate an application from Google AI Studio to Agent Platform
-    (formerly Vertex AI).
-*   You have **Google Cloud credits** (e.g., the $300 Welcome Free Trial) that
-    you want to apply toward Gemini API inferencing costs.
-*   You need to unify your inferencing pipelines, IAM permissions, telemetry,
-    and billing with existing Google Cloud infrastructure (Compute Engine, Cloud
-    SQL, BigQuery).
-*   You are deploying open-source orchestration engines (like OpenClaw or ADK
-    agents) on Google Cloud VMs, and want the entire system to run under a
-    unified Google Cloud billing structure.
+- You want to migrate an application from Google AI Studio to Agent Platform
+  (formerly Vertex AI).
+- You have **Google Cloud credits** (e.g., the $300 Welcome Free Trial) that
+  you want to apply toward Gemini API inferencing costs.
+- You need to unify your inferencing pipelines, IAM permissions, telemetry,
+  and billing with existing Google Cloud infrastructure (Compute Engine, Cloud
+  SQL, BigQuery).
+- You are deploying open-source orchestration engines (like OpenClaw or ADK
+  agents) on Google Cloud VMs, and want the entire system to run under a
+  unified Google Cloud billing structure.
 
---------------------------------------------------------------------------------
+---
 
 ## Gemini API Comparison
 
-Feature / Control      | Google AI Studio (Gemini Developer API)                               | Agent Platform (Enterprise Gemini API)
-:--------------------- | :-------------------------------------------------------------------- | :-------------------------------------
-**API Endpoint**       | `generativelanguage.googleapis.com`                                   | `aiplatform.googleapis.com`
-**Target Audience**    | Developers, startups, students, researchers building production apps. | Enterprise production, MLOps engineers
-**GCP Credit Support** | No (GCP credits/Free Trial **cannot** be applied)                     | Yes (Fully covered by Welcome or custom credits)
-**Data Privacy**       | Data may be reviewed to improve Google products                       | Prompts/responses are **never** used for training
-**Security & IAM**     | API key, OAuth                                                        | Google Cloud IAM (Service Accounts, OAuth 2.0, VPC-SC)
-**Compliance & SLAs**  | None (Best-effort availability)                                       | 24/7 Enterprise Support, SLAs, HIPAA, SOC2
-**Throughput Options** | Shared / Rate-limited                                                 | Pay-as-you-go OR Provisioned Throughput
-**MLOps Ecosystem**    | Basic prompt management                                               | Model Registry, Model Monitoring, Pipeline Evaluation
-**Inferencing Scope**  | Global endpoints only                                                 | Both Global and strict Regional endpoints
+| Feature / Control      | Google AI Studio (Gemini Developer API)                               | Agent Platform (Enterprise Gemini API)                 |
+| :--------------------- | :-------------------------------------------------------------------- | :----------------------------------------------------- |
+| **API Endpoint**       | `generativelanguage.googleapis.com`                                   | `aiplatform.googleapis.com`                            |
+| **Target Audience**    | Developers, startups, students, researchers building production apps. | Enterprise production, MLOps engineers                 |
+| **GCP Credit Support** | No (GCP credits/Free Trial **cannot** be applied)                     | Yes (Fully covered by Welcome or custom credits)       |
+| **Data Privacy**       | Data may be reviewed to improve Google products                       | Prompts/responses are **never** used for training      |
+| **Security & IAM**     | API key, OAuth                                                        | Google Cloud IAM (Service Accounts, OAuth 2.0, VPC-SC) |
+| **Compliance & SLAs**  | None (Best-effort availability)                                       | 24/7 Enterprise Support, SLAs, HIPAA, SOC2             |
+| **Throughput Options** | Shared / Rate-limited                                                 | Pay-as-you-go OR Provisioned Throughput                |
+| **MLOps Ecosystem**    | Basic prompt management                                               | Model Registry, Model Monitoring, Pipeline Evaluation  |
+| **Inferencing Scope**  | Global endpoints only                                                 | Both Global and strict Regional endpoints              |
 
 See
 [Google Cloud Documentation](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/migrate/migrate-google-ai.md.txt)
 to learn more about the differences between the two offerings.
 
---------------------------------------------------------------------------------
+---
 
 ## Migration Guide
 
@@ -66,9 +66,9 @@ Platform.
 3.  **Avoid Billing Surprises:** To prevent automatic fallback to your standard
     form of payment when credits are exhausted, you should establish a budget
     alert:
-    *   Go to **Billing** -> **Budgets & Alerts** -> **Create Budget**.
-    *   Set the threshold to map to your credit limit or maximum comfortable
-        spend.
+    - Go to **Billing** -> **Budgets & Alerts** -> **Create Budget**.
+    - Set the threshold to map to your credit limit or maximum comfortable
+      spend.
 
 ### Enable the Agent Platform API
 
@@ -130,7 +130,7 @@ gcloud projects add-iam-policy-binding "{project_id}" \
     (`https://www.googleapis.com/auth/cloud-platform`) or explicitly includes
     the standard cloud-platform scope.
 
---------------------------------------------------------------------------------
+---
 
 ## Use the Gemini API in Agent Platform
 
@@ -279,11 +279,10 @@ gcloud iam service-accounts keys create ~/.config/gcloud/application_default_cre
 
 > ⚠️ **Troubleshooting Policy Constraints on New Orgs**: New Google
 > Cloud organizations (created on or after May 4th, 2024) enforce a [legacy Organization Policy, restricting Service Account Key Creation](https://docs.cloud.google.com/organization-policy/restrict-service-accounts.md.txt). To complete this step, this Org Policy must be temporarily disabled.
-> An Organization Policy Admin must set this policy to Inactive. 
-> To the agent: Check if this policy is enforced, and if it is: pause, and 
-> prompt the user to disable it at this Console link: 
+> An Organization Policy Admin must set this policy to Inactive.
+> To the agent: Check if this policy is enforced, and if it is: pause, and
+> prompt the user to disable it at this Console link:
 > https://console.cloud.google.com/iam-admin/orgpolicies
-
 
 5.  Edit the configuration file that's usually located at:
     `~/.openclaw/openclaw.json`. Ensure you prefix the Gemini model with
@@ -332,7 +331,6 @@ gcloud iam service-accounts keys create ~/.config/gcloud/application_default_cre
     "profile": "coding"
   }
 }
-
 ```
 
 6.  Restart OpenClaw.
@@ -350,13 +348,13 @@ openclaw agent --agent main --message "Hello world!"
 
 ```
 
---------------------------------------------------------------------------------
+---
 
 ## Additional Resources
 
-*   [Google Cloud Free Trial Features & Limits](https://docs.cloud.google.com/free/docs/free-cloud-features.md.txt)
-*   [Migrate from Google AI Studio to Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/migrate/migrate-google-ai.md.txt)
-*   [Gemini Enterprise Agent Platform - Models](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/google-models.md.txt)
-*   [Agent Development Kit Documentation - Connect to Models in Agent Platform](https://adk.dev/agents/models/agent-platform/#agent-platform-setup)
-*   [OpenClaw Documentation - Connect to Google models](https://docs.openclaw.ai/providers/google)
-*   [Google Cloud Budget Alerts - Setup Guide](https://docs.cloud.google.com/billing/docs/how-to/budgets#steps-to-create-budget.md.txt)
+- [Google Cloud Free Trial Features & Limits](https://docs.cloud.google.com/free/docs/free-cloud-features.md.txt)
+- [Migrate from Google AI Studio to Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/migrate/migrate-google-ai.md.txt)
+- [Gemini Enterprise Agent Platform - Models](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/google-models.md.txt)
+- [Agent Development Kit Documentation - Connect to Models in Agent Platform](https://adk.dev/agents/models/agent-platform/#agent-platform-setup)
+- [OpenClaw Documentation - Connect to Google models](https://docs.openclaw.ai/providers/google)
+- [Google Cloud Budget Alerts - Setup Guide](https://docs.cloud.google.com/billing/docs/how-to/budgets#steps-to-create-budget.md.txt)

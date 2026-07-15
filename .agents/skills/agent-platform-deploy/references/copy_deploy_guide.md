@@ -11,14 +11,14 @@ with minimal user input and intervention.
 
 The tasks can be described as follows:
 
--   `[]` Configure `gcloud` profile for prod environment.
--   `[]` Add IAM policy binding for P4SA (Service Agent) to the source project
--   `[]` Copy the tuned model to the destination project
--   `[]` Wait for copy operation to complete
--   `[]` Create a new shared endpoint
--   `[]` Deploy copied model to the endpoint
--   `[]` Wait for model deployment to complete
--   `[]` Test the endpoint with test prompts
+- `[]` Configure `gcloud` profile for prod environment.
+- `[]` Add IAM policy binding for P4SA (Service Agent) to the source project
+- `[]` Copy the tuned model to the destination project
+- `[]` Wait for copy operation to complete
+- `[]` Create a new shared endpoint
+- `[]` Deploy copied model to the endpoint
+- `[]` Wait for model deployment to complete
+- `[]` Test the endpoint with test prompts
 
 ## Step 0: Env selection and preparation
 
@@ -27,29 +27,29 @@ If user is copying model in different region, skip the P4SA setup section.
 
 ### 0.0 Pick a development environment & Confirm Destination Context
 
--   **CRITICAL: Ask for Confirmation.** You MUST present a clear confirmation
-    prompt to confirm the development
-    environment (e.g., `prod`), destination project (`dest-proj`), and region
-    (`us-central1`) with the user. You MUST halt execution and wait for the
-    user's explicit confirmation response before running any `gcloud` or `curl`
-    commands. If you are generating a script for the user instead of running
-    commands live, you MUST explicitly include a note in your response explaining
-    that confirming the development environment (e.g., prod) and destination
-    context with the user is required before running the script live.
--   Execute the following command to set the global variable.
-    `export ENV="prod"`
+- **CRITICAL: Ask for Confirmation.** You MUST present a clear confirmation
+  prompt to confirm the development
+  environment (e.g., `prod`), destination project (`dest-proj`), and region
+  (`us-central1`) with the user. You MUST halt execution and wait for the
+  user's explicit confirmation response before running any `gcloud` or `curl`
+  commands. If you are generating a script for the user instead of running
+  commands live, you MUST explicitly include a note in your response explaining
+  that confirming the development environment (e.g., prod) and destination
+  context with the user is required before running the script live.
+- Execute the following command to set the global variable.
+  `export ENV="prod"`
 
 ### 0.1 Authentication & Project Context
 
--   Check if `gcloud` CLI is installed. If it is not installed, prompt the user for permission to install it before proceeding.
--   Verify `gcloud auth list`. If not authenticated, run `gcloud auth login`.
--   Execute the following command to set the global variable.
-    `export PROJECT_ID=${PROJECT_ID} REGION=${REGION}`
--   Check if ${USER} have value, or ask user to set one.
+- Check if `gcloud` CLI is installed. If it is not installed, prompt the user for permission to install it before proceeding.
+- Verify `gcloud auth list`. If not authenticated, run `gcloud auth login`.
+- Execute the following command to set the global variable.
+  `export PROJECT_ID=${PROJECT_ID} REGION=${REGION}`
+- Check if ${USER} have value, or ask user to set one.
 
 ### 0.2 GCloud CLI setup
 
--   use `scripts/config_gcloud_cli.sh ${ENV} ${PROJECT_ID} ${REGION} ${USER}`
+- use `scripts/config_gcloud_cli.sh ${ENV} ${PROJECT_ID} ${REGION} ${USER}`
 
 ### 0.3 P4SA Setup
 
@@ -58,54 +58,59 @@ If user is copying model in different region, skip the P4SA setup section.
 To copy a model from source project ${SOURCE_PROJECT} to the destination project
 ${PROJECT_ID}, and ${REGION}, follow
 <!-- disableFinding(LINE_OVER_80) -->
+
 https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/model-registry/copy-model, add the
 <!-- enableFinding(LINE_OVER_80) -->
+
 P4SA of the destination project as a new principal to the source project and
 assign the Vertex AI Service Agent role to it.
 
 #### 0.3.1 P4SA selection
 
--   Get project number ${PROJECT_NUMBER} from the output of the translator.
+- Get project number ${PROJECT_NUMBER} from the output of the translator.
     `/google/bin/releases/oneplatform/chemist/project_id_number_translator
     --projects=${PROJECT_ID}`
--   Destination project P4SA ${P4SA} based on ${ENV} selection
-    -   **autopush** or **staging**:
-        `service-${PROJECT_NUMBER}@gcp-sa-${ENV}-aiplatform.iam.gserviceaccount.com`
-    -   **prod**:
-        `service-${PROJECT_NUMBER}@gcp-sa-aiplatform.iam.gserviceaccount.com`
+- Destination project P4SA ${P4SA} based on ${ENV} selection
+  - **autopush** or **staging**:
+    `service-${PROJECT_NUMBER}@gcp-sa-${ENV}-aiplatform.iam.gserviceaccount.com`
+  - **prod**:
+    `service-${PROJECT_NUMBER}@gcp-sa-aiplatform.iam.gserviceaccount.com`
 
 #### 0.3.2 P4SA assignment
 
--   The ${MODEL} to copy should in format of
+- The ${MODEL} to copy should in format of
     `projects/${SOURCE_PROJECT}/locations/${SOURCE_REGION}/models/${MODEL_ID}`
 
--   Get source project name `${SOURCE_PROJECT}` from the model to copy.
+- Get source project name `${SOURCE_PROJECT}` from the model to copy.
 
--   Check IAM binding: if destination project `${P4SA}` exist and have `Vertex
-    AI Service Agent` role. Sample command:
-    ```bash
-    gcloud projects get-iam-policy-binding ${SOURCE_PROJECT} \
-    --member="serviceAccount:service-${PROJECT_NUMBER}@gcp-sa-staging-aiplatform.iam.gserviceaccount.com"
-    ```
+- Check IAM binding: if destination project `${P4SA}` exist and have `Vertex
+AI Service Agent` role. Sample command:
 
--   If not, add it with the sample command, save and wait for 2 minutes.
-    ```bash
-    gcloud projects add-iam-policy-binding ${SOURCE_PROJECT} \
-    --member="serviceAccount:service-${PROJECT_NUMBER}@gcp-sa-staging-aiplatform.iam.gserviceaccount.com" \
-    --role="roles/aiplatform.serviceAgent"
+  ```bash
+  gcloud projects get-iam-policy-binding ${SOURCE_PROJECT} \
+  --member="serviceAccount:service-${PROJECT_NUMBER}@gcp-sa-staging-aiplatform.iam.gserviceaccount.com"
+  ```
 
-    gcloud projects add-iam-policy-binding ${SOURCE_PROJECT} \
-    --member="serviceAccount:service-${PROJECT_NUMBER}@gcp-sa-aiplatform.iam.gserviceaccount.com" \
-    --role="roles/aiplatform.serviceAgent"
-    ```
+- If not, add it with the sample command, save and wait for 2 minutes.
 
--   If failed, try to add user's account to destination project.
-    ```bash
-    gcloud projects add-iam-policy-binding gemini-billing-prober-018 \
-    --member="user:${USER}@google.com" --role="roles/aiplatform.admin"
-    ```
+  ```bash
+  gcloud projects add-iam-policy-binding ${SOURCE_PROJECT} \
+  --member="serviceAccount:service-${PROJECT_NUMBER}@gcp-sa-staging-aiplatform.iam.gserviceaccount.com" \
+  --role="roles/aiplatform.serviceAgent"
 
--   If failed again, prompt user to do it.
+  gcloud projects add-iam-policy-binding ${SOURCE_PROJECT} \
+  --member="serviceAccount:service-${PROJECT_NUMBER}@gcp-sa-aiplatform.iam.gserviceaccount.com" \
+  --role="roles/aiplatform.serviceAgent"
+  ```
+
+- If failed, try to add user's account to destination project.
+
+  ```bash
+  gcloud projects add-iam-policy-binding gemini-billing-prober-018 \
+  --member="user:${USER}@google.com" --role="roles/aiplatform.admin"
+  ```
+
+- If failed again, prompt user to do it.
 
 ## Step 1: Verify the source model exists and valid
 
@@ -177,8 +182,7 @@ curl -X GET -H "Authorization: Bearer $(gcloud auth print-access-token)" ${ENDPO
 
 Prompt user `Creating a Public Shared endpoint in selected region: ${REGION}`.
 Ask the user desired endpoint display name ${NAME}, prefer
-`${<publisher_model_id>-tuned}` like "gemini-3-flash-tuned", default is
-`copy-tuned`. If user wants to create a Dedicated Endpoint, say function to be
+`${<publisher_model_id>-tuned}`like "gemini-3-flash-tuned", default is`copy-tuned`. If user wants to create a Dedicated Endpoint, say function to be
 add.
 
 ```bash

@@ -23,14 +23,14 @@ Before executing any commands on behalf of the user, you MUST adhere to the
 following safety tiers based on the action requested:
 
 1.  **Tier R: Read-only (`list`, `get`)**
-    *   **Rule**: No confirmation needed. You may execute these commands
-        immediately to gather information for the user.
+    - **Rule**: No confirmation needed. You may execute these commands
+      immediately to gather information for the user.
 2.  **Tier D: Destructive & Interruptive (`cancel`)**
-    *   **Rule**: This requires **explicit typed confirmation**. You MUST output
-        a text message to the user explaining that this will stop the tuning
-        process and any progress will be lost, and asking them to type
-        "I confirm" or "Yes, cancel it". You MUST ask for this confirmation
-        IMMEDIATELY, before executing the cancel command.
+    - **Rule**: This requires **explicit typed confirmation**. You MUST output
+      a text message to the user explaining that this will stop the tuning
+      process and any progress will be lost, and asking them to type
+      "I confirm" or "Yes, cancel it". You MUST ask for this confirmation
+      IMMEDIATELY, before executing the cancel command.
 
 ## Phase 0: Environment Setup
 
@@ -38,40 +38,43 @@ following safety tiers based on the action requested:
 the environment is correctly initialized by following these steps:
 
 1.  **Virtual Environment**: Create and activate a virtual environment:
-    
+
     ```bash
     python3 -m venv ~/tuning_mgr_venv
     source ~/tuning_mgr_venv/bin/activate
     ```
+
 2.  **Google Cloud Authentication**: Authenticate with your Google Cloud account
     and configure active Application Default Credentials (ADC) for Agent
     Platform access:
-    
+
     ```bash
     gcloud auth login
     gcloud auth application-default login
     ```
+
 3.  **Install Dependencies**: Install the required Agent Platform SDK:
-    
+
     ```bash
     pip install google-cloud-aiplatform
     ```
+
 4.  **Execution**: Advise the user that every time they execute a Python snippet, they must ensure this virtual environment is activated first.
 
 ## Workflow Decision Tree
 
 1. **Information Gathering**: Do you have a Project ID and Region?
-   * **No** -> You **MUST** ask the user for the missing Project ID and Region
-   in plain text, or advise them to check their gcloud configuration. If neither
-   location has this information, then ask the user to provide it. Do not
-   attempt to search random regions on your own.
-   * **Yes** -> Proceed to Step 2.
+   - **No** -> You **MUST** ask the user for the missing Project ID and Region
+     in plain text, or advise them to check their gcloud configuration. If neither
+     location has this information, then ask the user to provide it. Do not
+     attempt to search random regions on your own.
+   - **Yes** -> Proceed to Step 2.
 
 2. **Task Type**: What does the user want to do?
-   * **Find or List Jobs** -> Use the Python SDK to list tuning jobs. (Tier R)
-   * **Check Status / Inspect a Specific Job** -> Use the Python SDK to get
+   - **Find or List Jobs** -> Use the Python SDK to list tuning jobs. (Tier R)
+   - **Check Status / Inspect a Specific Job** -> Use the Python SDK to get
      tuning job details. (Tier R)
-   * **Cancel a Job** -> Ask for confirmation, then use the Python SDK to
+   - **Cancel a Job** -> Ask for confirmation, then use the Python SDK to
      cancel the tuning job. (Tier D)
 
 ## Using the Python SDK
@@ -88,6 +91,7 @@ the environment is correctly initialized by following these steps:
 > user.
 
 ### 1. Listing Tuning Jobs (Tier R)
+
 If the user asks "What tuning jobs do I have running?" or wants to find a
 specific job ID:
 
@@ -110,6 +114,7 @@ for job in jobs:
 ```
 
 ### 2. Getting Details for a Specific Job (Tier R)
+
 If the user provides a Tuning Job ID and asks for its status:
 
 ```python
@@ -132,6 +137,7 @@ print(f"Tuning Model: {job.tuned_model_display_name}")
 ```
 
 ### 3. Canceling a Job (Tier D)
+
 If the user explicitly requests to stop, abort, or cancel a running tuning job:
 
 **Safety Check**: **Action requires explicit typed confirmation before

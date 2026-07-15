@@ -5,15 +5,15 @@ for monitoring Latency and Error Rates of Agent Platform agents.
 
 ## Table of Contents
 
--   [1. Latency (95th Percentile)](#1-latency-95th-percentile)
-    -   [Z-Score (Steady Traffic)](#z-score-recommended-for-steady-traffic)
-    -   [Moving Averages (Bursty Traffic)](#moving-averages-recommended-for-bursty-traffic)
-    -   [Seasonal Decomposition (Seasonal Traffic)](#seasonal-decomposition-recommended-for-traffic-with-seasonal-or-time-of-day-component)
--   [2. Error Rate (SLO)](#2-error-rate-slo)
-    -   [Fast Burn SLO](#fast-burn-slo-1-hour-and-5-minute-windows)
-    -   [Slow Burn SLO](#slow-burn-slo-3-day-and-6-hour-windows)
+- [1. Latency (95th Percentile)](#1-latency-95th-percentile)
+  - [Z-Score (Steady Traffic)](#z-score-recommended-for-steady-traffic)
+  - [Moving Averages (Bursty Traffic)](#moving-averages-recommended-for-bursty-traffic)
+  - [Seasonal Decomposition (Seasonal Traffic)](#seasonal-decomposition-recommended-for-traffic-with-seasonal-or-time-of-day-component)
+- [2. Error Rate (SLO)](#2-error-rate-slo)
+  - [Fast Burn SLO](#fast-burn-slo-1-hour-and-5-minute-windows)
+  - [Slow Burn SLO](#slow-burn-slo-3-day-and-6-hour-windows)
 
---------------------------------------------------------------------------------
+---
 
 ## 1. Latency (95th Percentile)
 
@@ -35,9 +35,9 @@ stddev_over_time(
 ) > 3
 ```
 
-*Note: The denominator uses a subquery `[1w:5m]` to calculate standard deviation
+_Note: The denominator uses a subquery `[1w:5m]` to calculate standard deviation
 of the 5-minute latency over 1 week. The numerator uses `[1w]` rate directly to
-avoid a second subquery for the mean.*
+avoid a second subquery for the mean._
 
 #### Short-Window Z-Score (For Newer Agents - >1 hour history)
 
@@ -88,7 +88,7 @@ histogram_quantile(0.95, sum(rate(aiplatform_googleapis_com:reasoning_engine_req
 > 2
 ```
 
---------------------------------------------------------------------------------
+---
 
 ## 2. Error Rate (SLO)
 

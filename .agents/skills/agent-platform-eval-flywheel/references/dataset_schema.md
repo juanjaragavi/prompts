@@ -67,12 +67,12 @@ dataset = types.EvaluationDataset(eval_dataset_df=df)
 
 ### Required fields by metric type
 
-Metric category          | Required fields
------------------------- | -------------------------------------------
-Predefined (single-turn) | `prompt`, `response`
-Computation-based        | `response`, `reference`
-Translation              | `prompt` (source), `response`, `reference`
-Custom LLM/code          | Fields referenced in your template/function
+| Metric category          | Required fields                             |
+| ------------------------ | ------------------------------------------- |
+| Predefined (single-turn) | `prompt`, `response`                        |
+| Computation-based        | `response`, `reference`                     |
+| Translation              | `prompt` (source), `response`, `reference`  |
+| Custom LLM/code          | Fields referenced in your template/function |
 
 ## Multi-Turn Dataset (AgentData)
 
@@ -264,12 +264,12 @@ dataset_with_responses = client.evals.run_inference(
 
 ## Common Mistakes
 
-| Mistake                          | Fix                                    |
-| -------------------------------- | -------------------------------------- |
+| Mistake                          | Fix                                            |
+| -------------------------------- | ---------------------------------------------- |
 | Using `role="assistant"`         | Use `role="model"` (Agent Platform convention) |
-| Missing `turn_index`             | Always set sequential 0-based indices  |
-| Tool response without            | Wrap in `genai_types.FunctionResponse` |
-: `function_response`              :                                        :
-| Using `response` field for       | Use `agent_data` with full trajectory  |
-: multi-turn                       :                                        :
-| Mixing `prompt` and `agent_data` | Use one or the other per EvalCase      |
+| Missing `turn_index`             | Always set sequential 0-based indices          |
+| Tool response without            | Wrap in `genai_types.FunctionResponse`         |
+| : `function_response` : :        |
+| Using `response` field for       | Use `agent_data` with full trajectory          |
+| : multi-turn : :                 |
+| Mixing `prompt` and `agent_data` | Use one or the other per EvalCase              |

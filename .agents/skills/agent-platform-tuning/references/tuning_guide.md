@@ -22,11 +22,11 @@ The size and quality of your dataset should dictate your parameter choices. Refe
 
 ### 1. Dataset Size Implications
 
-| Dataset Size | Tuning Mode Recommendation | Learning Rate Adjustment | Epochs Recommendation |
-| :--- | :--- | :--- | :--- |
-| **< 100 examples** | PEFT_ADAPTER (Rank 8) | Lower than baseline | 1-2 |
-| **100 - 1000 examples** | PEFT_ADAPTER (Rank 16/32) | Baseline | 3 |
-| **> 1000 examples** | FULL or PEFT_ADAPTER (Rank 32) | Higher than baseline | 3-5 |
+| Dataset Size            | Tuning Mode Recommendation     | Learning Rate Adjustment | Epochs Recommendation |
+| :---------------------- | :----------------------------- | :----------------------- | :-------------------- |
+| **< 100 examples**      | PEFT_ADAPTER (Rank 8)          | Lower than baseline      | 1-2                   |
+| **100 - 1000 examples** | PEFT_ADAPTER (Rank 16/32)      | Baseline                 | 3                     |
+| **> 1000 examples**     | FULL or PEFT_ADAPTER (Rank 32) | Higher than baseline     | 3-5                   |
 
 ### 2. General Best Practices
 
@@ -36,4 +36,5 @@ The size and quality of your dataset should dictate your parameter choices. Refe
 - **Checkpoints**: The final model is always saved to `<output_uri>/postprocess/node-0/checkpoints/final`.
 
 ## Hardware and Limitations
+
 For specific hardware recommendations and sequence length limits per model, please refer to the [Models Catalog](models.md).

@@ -5,11 +5,11 @@
 To successfully export evaluation traces, the agent's deployment spec MUST have
 the following environment variables:
 
-Environment Variable                                 | Required Value                                   | Description
----------------------------------------------------- | ------------------------------------------------ | -----------
-`GOOGLE_CLOUD_AGENT_ENGINE_ENABLE_TELEMETRY`         | `"true"`                                         | Enables tracing and logging export.
-`OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT` | `"EVENT_ONLY"` or `"SPAN_AND_EVENT"` or `"true"` | Captures message payloads for evaluation.
-`OTEL_SEMCONV_STABILITY_OPT_IN`                      | `"gen_ai_latest_experimental"`                   | Opts into Gen AI semantic conventions.
+| Environment Variable                                 | Required Value                                   | Description                               |
+| ---------------------------------------------------- | ------------------------------------------------ | ----------------------------------------- |
+| `GOOGLE_CLOUD_AGENT_ENGINE_ENABLE_TELEMETRY`         | `"true"`                                         | Enables tracing and logging export.       |
+| `OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT` | `"EVENT_ONLY"` or `"SPAN_AND_EVENT"` or `"true"` | Captures message payloads for evaluation. |
+| `OTEL_SEMCONV_STABILITY_OPT_IN`                      | `"gen_ai_latest_experimental"`                   | Opts into Gen AI semantic conventions.    |
 
 ## How to Enable Telemetry via Terraform
 
@@ -48,12 +48,12 @@ decision is to NOT enable the required APIs:
 1.  **API Enablement**: Ensure the following APIs are enabled in the GCP
     project:
 
-    *   **Cloud Trace API**: `cloudtrace.googleapis.com` (needed for exporting
-        spans)
-    *   **Observability API**: `observability.googleapis.com` (needed for trace
-        storage and SQL queries by the evaluator)
+    - **Cloud Trace API**: `cloudtrace.googleapis.com` (needed for exporting
+      spans)
+    - **Observability API**: `observability.googleapis.com` (needed for trace
+      storage and SQL queries by the evaluator)
 
-    *To check if they are enabled:*
+    _To check if they are enabled:_
 
     ```bash
     gcloud services list --enabled --project="[PROJECT_ID]" \

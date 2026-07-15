@@ -15,26 +15,26 @@ the Gemini Enterprise Agent Platform.
 
 ## Core Capabilities
 
--   **Skill Discovery** - Query the registry to easily search, list, get
-    specific skills, and inspect revision histories.
--   **Skill Lifecycle Management** - Upload, update, or permanently delete
-    skills.
--   **Operation Monitoring** - Utility to check the completion status of
-    long-running state changes (LROs).
--   **Generate Skill** - Automate the initial scaffolding of new agent skills
-    locally.
+- **Skill Discovery** - Query the registry to easily search, list, get
+  specific skills, and inspect revision histories.
+- **Skill Lifecycle Management** - Upload, update, or permanently delete
+  skills.
+- **Operation Monitoring** - Utility to check the completion status of
+  long-running state changes (LROs).
+- **Generate Skill** - Automate the initial scaffolding of new agent skills
+  locally.
 
 ## Core Directives
 
--   **Mandatory Validation**: ALWAYS execute the environment validation check
-    before performing any operations.
+- **Mandatory Validation**: ALWAYS execute the environment validation check
+  before performing any operations.
 
-    Before any operation, you **must** validate the core environment.
+  Before any operation, you **must** validate the core environment.
 
-    ```bash
-    # Execute the validation script
-    python3 scripts/validate_env.py
-    ```
+  ```bash
+  # Execute the validation script
+  python3 scripts/validate_env.py
+  ```
 
 ## Prerequisites & Authentication
 
@@ -54,10 +54,10 @@ gcloud auth application-default login
 
 The following variables are required for operations:
 
--   `GCP_PROJECT_ID`: Your Google Cloud Project ID.
--   `GCP_LOCATION`: The region (e.g., `us-central1`).
+- `GCP_PROJECT_ID`: Your Google Cloud Project ID.
+- `GCP_LOCATION`: The region (e.g., `us-central1`).
 
---------------------------------------------------------------------------------
+---
 
 ## Quickstart
 
@@ -69,12 +69,12 @@ python3 scripts/skill_registry_ops.py search \
   --top-k 5
 ```
 
---------------------------------------------------------------------------------
+---
 
 ## Operations
 
--   **Skill Discovery**: [query-skills.md](references/query-skills.md)
--   **Skill Lifecycle**: [manage-skills.md](references/manage-skills.md)
--   **Monitor Operations**:
-    [monitor-operations.md](references/monitor-operations.md)
--   **Generate Skill**: [generate-skill.md](references/generate-skill.md)
+- **Skill Discovery**: [query-skills.md](references/query-skills.md)
+- **Skill Lifecycle**: [manage-skills.md](references/manage-skills.md)
+- **Monitor Operations**:
+  [monitor-operations.md](references/monitor-operations.md)
+- **Generate Skill**: [generate-skill.md](references/generate-skill.md)

@@ -30,38 +30,38 @@ Server-side evaluation via the Agent Platform AutoRater. No judge model needed.
 Start here for agent evaluation. Adaptive rubrics generate criteria from the
 trace at runtime.
 
-| Metric ID                       | What it measures                                                                       | Required fields                  |
-| ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------- |
-| `multi_turn_task_success`       | Whether the user's goal was fulfilled across the full multi-turn conversation.         | `agent_data` with task context   |
-| `multi_turn_trajectory_quality` | Sequential logic, efficiency, and error-recovery robustness across turns.              | `agent_data` with full trajectory |
-| `multi_turn_tool_use_quality`   | Technical and semantic correctness of tool calls across the multi-turn conversation.   | `agent_data` with function calls |
-| `multi_turn_general_quality`    | Overall response quality within a multi-turn dialogue.                                 | `agent_data` (1+ turns)          |
-| `multi_turn_text_quality`       | Linguistic text quality within a multi-turn dialogue.                                  | `agent_data` (1+ turns)          |
-| `final_response_quality`        | Comprehensive evaluation of the final response and intermediate tool usage.            | `agent_data`                     |
-| `final_response_match`          | Compares the agent's final response to a provided golden reference answer.             | `agent_data`, `reference`        |
-| `final_response_reference_free` | Final-response quality without a reference answer (requires custom rubrics).           | `agent_data` + rubric_groups     |
-| `tool_use_quality`              | Tool selection, parameter accuracy, and step sequence correctness (single-turn).       | `agent_data` with tool calls     |
+| Metric ID                       | What it measures                                                                     | Required fields                   |
+| ------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------- |
+| `multi_turn_task_success`       | Whether the user's goal was fulfilled across the full multi-turn conversation.       | `agent_data` with task context    |
+| `multi_turn_trajectory_quality` | Sequential logic, efficiency, and error-recovery robustness across turns.            | `agent_data` with full trajectory |
+| `multi_turn_tool_use_quality`   | Technical and semantic correctness of tool calls across the multi-turn conversation. | `agent_data` with function calls  |
+| `multi_turn_general_quality`    | Overall response quality within a multi-turn dialogue.                               | `agent_data` (1+ turns)           |
+| `multi_turn_text_quality`       | Linguistic text quality within a multi-turn dialogue.                                | `agent_data` (1+ turns)           |
+| `final_response_quality`        | Comprehensive evaluation of the final response and intermediate tool usage.          | `agent_data`                      |
+| `final_response_match`          | Compares the agent's final response to a provided golden reference answer.           | `agent_data`, `reference`         |
+| `final_response_reference_free` | Final-response quality without a reference answer (requires custom rubrics).         | `agent_data` + rubric_groups      |
+| `tool_use_quality`              | Tool selection, parameter accuracy, and step sequence correctness (single-turn).     | `agent_data` with tool calls      |
 
 ### General quality metrics (single-turn, adaptive rubrics)
 
 For model evaluation (no agent orchestration).
 
-| Metric ID               | What it measures                                                  | Required fields      |
-| ----------------------- | ----------------------------------------------------------------- | -------------------- |
+| Metric ID               | What it measures                                                                                                    | Required fields      |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------- |
 | `general_quality`       | Overall response quality with auto-generated content-based criteria. Recommended starting point for non-agent eval. | `prompt`, `response` |
-| `text_quality`          | Linguistic aspects: fluency, coherence, grammar.                  | `prompt`, `response` |
-| `instruction_following` | How well the response adheres to specific constraints / instructions. | `prompt`, `response` |
+| `text_quality`          | Linguistic aspects: fluency, coherence, grammar.                                                                    | `prompt`, `response` |
+| `instruction_following` | How well the response adheres to specific constraints / instructions.                                               | `prompt`, `response` |
 
 ### Static rubric metrics (fixed criteria)
 
 Apply alongside the agent or general-quality metrics above. Fixed rubrics — no
 adaptive generation.
 
-| Metric ID       | What it measures                                                                        | Required fields                 |
-| --------------- | --------------------------------------------------------------------------------------- | ------------------------------- |
-| `hallucination` | Segments the response into atomic claims; verifies each against tool-returned context.  | `response`, intermediate context |
-| `grounding`     | Factuality and consistency against provided context.                                    | `prompt`, `response`, `context`  |
-| `safety`        | Policy compliance (PII, hate speech, dangerous content, harassment, sexual).            | `prompt`, `response`            |
+| Metric ID       | What it measures                                                                       | Required fields                  |
+| --------------- | -------------------------------------------------------------------------------------- | -------------------------------- |
+| `hallucination` | Segments the response into atomic claims; verifies each against tool-returned context. | `response`, intermediate context |
+| `grounding`     | Factuality and consistency against provided context.                                   | `prompt`, `response`, `context`  |
+| `safety`        | Policy compliance (PII, hate speech, dangerous content, harassment, sexual).           | `prompt`, `response`             |
 
 ### Accessing predefined metrics
 
@@ -84,12 +84,12 @@ No LLM judge. Deterministic comparison of `response` vs `reference`. Use only
 when you have exact reference text to compare against; for agent eval prefer
 the rubric-based metrics above.
 
-| Metric ID                  | What it measures                            | Notes          |
-| -------------------------- | ------------------------------------------- | -------------- |
-| `bleu`                     | BLEU score (translation/generation).        | Standard BLEU  |
-| `rouge_1`                  | ROUGE-1 (unigram overlap).                  | Summarization  |
-| `tool_parameter_key_match` | Whether tool parameter keys match reference. | Agent evals    |
-| `tool_parameter_kv_match`  | Whether tool parameter key-value pairs match reference. | Agent evals    |
+| Metric ID                  | What it measures                                        | Notes         |
+| -------------------------- | ------------------------------------------------------- | ------------- |
+| `bleu`                     | BLEU score (translation/generation).                    | Standard BLEU |
+| `rouge_1`                  | ROUGE-1 (unigram overlap).                              | Summarization |
+| `tool_parameter_key_match` | Whether tool parameter keys match reference.            | Agent evals   |
+| `tool_parameter_kv_match`  | Whether tool parameter key-value pairs match reference. | Agent evals   |
 
 ```python
 metric = types.Metric(name="bleu")
@@ -98,15 +98,15 @@ metric = types.Metric(name="tool_parameter_kv_match")
 
 ## Translation Metrics
 
-| Metric ID | Default version      | Notes                                   |
-| --------- | -------------------- | --------------------------------------- |
+| Metric ID | Default version      | Notes                                               |
+| --------- | -------------------- | --------------------------------------------------- |
 | `comet`   | `COMET_22_SRC_REF`   | Requires `prompt` (source), `response`, `reference` |
 | `metricx` | `METRICX_24_SRC_REF` | Requires `prompt` (source), `response`, `reference` |
 
 ## Multimodal Metrics
 
-| Metric ID            | What it measures      | Required fields |
-| -------------------- | --------------------- | --------------- |
+| Metric ID             | What it measures      | Required fields |
+| --------------------- | --------------------- | --------------- |
 | `gecko_text2image_v1` | Text-to-image quality | image content   |
 | `gecko_text2video_v1` | Text-to-video quality | video content   |
 
@@ -117,22 +117,22 @@ falls back to GCS-hosted LLM metric recipes. The names below are the
 **uppercase enum form** of the unversioned IDs above; pass them as
 `types.RubricMetric.<NAME>`.
 
-| Property                        | Resolution           |
-| ------------------------------- | -------------------- |
-| `MULTI_TURN_TASK_SUCCESS`       | API predefined       |
-| `MULTI_TURN_TRAJECTORY_QUALITY` | API predefined       |
-| `MULTI_TURN_TOOL_USE_QUALITY`   | API predefined       |
-| `MULTI_TURN_GENERAL_QUALITY`    | API predefined       |
-| `MULTI_TURN_TEXT_QUALITY`       | API predefined       |
-| `FINAL_RESPONSE_QUALITY`        | API predefined       |
-| `FINAL_RESPONSE_MATCH`          | API predefined (v2)  |
-| `FINAL_RESPONSE_REFERENCE_FREE` | API predefined       |
-| `TOOL_USE_QUALITY`              | API predefined       |
-| `GENERAL_QUALITY`               | API predefined       |
-| `TEXT_QUALITY`                  | API predefined       |
-| `INSTRUCTION_FOLLOWING`         | API predefined       |
-| `HALLUCINATION`                 | API predefined       |
-| `SAFETY`                        | API predefined       |
+| Property                        | Resolution          |
+| ------------------------------- | ------------------- |
+| `MULTI_TURN_TASK_SUCCESS`       | API predefined      |
+| `MULTI_TURN_TRAJECTORY_QUALITY` | API predefined      |
+| `MULTI_TURN_TOOL_USE_QUALITY`   | API predefined      |
+| `MULTI_TURN_GENERAL_QUALITY`    | API predefined      |
+| `MULTI_TURN_TEXT_QUALITY`       | API predefined      |
+| `FINAL_RESPONSE_QUALITY`        | API predefined      |
+| `FINAL_RESPONSE_MATCH`          | API predefined (v2) |
+| `FINAL_RESPONSE_REFERENCE_FREE` | API predefined      |
+| `TOOL_USE_QUALITY`              | API predefined      |
+| `GENERAL_QUALITY`               | API predefined      |
+| `TEXT_QUALITY`                  | API predefined      |
+| `INSTRUCTION_FOLLOWING`         | API predefined      |
+| `HALLUCINATION`                 | API predefined      |
+| `SAFETY`                        | API predefined      |
 
 Any arbitrary name can be tried via `RubricMetric.<NAME>` — it will attempt
 resolution against the API list and then GCS.
@@ -236,16 +236,16 @@ metric = types.Metric(
 
 ## Metric Selection Guide
 
-| Agent Type                    | Recommended Metrics                                                    |
-| ----------------------------- | ---------------------------------------------------------------------- |
-| **RAG agent**                 | `hallucination`, `grounding`, `final_response_quality`, `safety`       |
-| **Tool-use agent (multi-turn)** | `multi_turn_task_success`, `multi_turn_tool_use_quality`, `multi_turn_trajectory_quality` |
-| **Tool-use agent (single-turn)** | `tool_use_quality`, `final_response_quality`                        |
-| **Multi-turn conversational** | `multi_turn_general_quality`, `multi_turn_text_quality`, `safety`      |
-| **Goal-oriented agent**       | `multi_turn_task_success`, `final_response_quality`                    |
-| **Single-turn model eval**    | `general_quality`, `text_quality`, `instruction_following`             |
-| **Translation**               | `comet`, `metricx`                                                     |
-| **Code generation**           | Custom `CodeExecutionMetric` + `instruction_following`                 |
+| Agent Type                       | Recommended Metrics                                                                       |
+| -------------------------------- | ----------------------------------------------------------------------------------------- |
+| **RAG agent**                    | `hallucination`, `grounding`, `final_response_quality`, `safety`                          |
+| **Tool-use agent (multi-turn)**  | `multi_turn_task_success`, `multi_turn_tool_use_quality`, `multi_turn_trajectory_quality` |
+| **Tool-use agent (single-turn)** | `tool_use_quality`, `final_response_quality`                                              |
+| **Multi-turn conversational**    | `multi_turn_general_quality`, `multi_turn_text_quality`, `safety`                         |
+| **Goal-oriented agent**          | `multi_turn_task_success`, `final_response_quality`                                       |
+| **Single-turn model eval**       | `general_quality`, `text_quality`, `instruction_following`                                |
+| **Translation**                  | `comet`, `metricx`                                                                        |
+| **Code generation**              | Custom `CodeExecutionMetric` + `instruction_following`                                    |
 
 ## Pairwise Comparison
 

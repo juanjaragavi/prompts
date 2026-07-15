@@ -6,19 +6,21 @@ format stored in Google Cloud Storage (GCS).
 ## Supported JSONL Formats for Open Models
 
 ### 1. Conversational (Messages) Format
+
 Recommended for chat-based models (Llama 3.1/3.2/3.3 Chat, Gemma 3 IT, etc.).
 
 ```json
 {
   "messages": [
-    {"role": "system", "content": "You are a helpful assistant."},
-    {"role": "user", "content": "What is the capital of France?"},
-    {"role": "assistant", "content": "The capital of France is Paris."}
+    { "role": "system", "content": "You are a helpful assistant." },
+    { "role": "user", "content": "What is the capital of France?" },
+    { "role": "assistant", "content": "The capital of France is Paris." }
   ]
 }
 ```
 
 ### 2. Instruction (Prompt/Completion) Format
+
 Suitable for base models or simple completion tasks.
 
 ```json
