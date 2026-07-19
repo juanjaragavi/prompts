@@ -4,7 +4,7 @@ description: Auto-generated positive-trigger task.
 tags:
   - positive-trigger
 inputs:
-  prompt: "Use juan-jaramillo-job-persona to help me complete this task"
+  prompt: 'Use juan-jaramillo-job-persona to help me complete this task'
 expected:
   should_trigger: true
 graders:
@@ -12,8 +12,7 @@ graders:
     name: contains-keywords
     config:
       contains:
-        - "jaramillo"
-        - "job"
-        - "juan"
-        - "persona"
-
+        - 'jaramillo'
+        - 'job'
+        - 'juan'
+        - 'persona'
