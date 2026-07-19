@@ -54,7 +54,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
 - **Specific Submission Requirements & Screening Questions:**
   - **File Uploads:**
     - English Resume/CV (formats: .doc, .docx, .pdf, .odt, .rtf).
-    - EFSET Certificate (obtained via a free 15-minute test at www.efset.org/quick-check/).
+    - EFSET Certificate (obtained via a free 15-minute test at <https://www.efset.org/quick-check/>).
     - Specs Screenshot (showing RAM and processor. Mac: Apple menu > About This Mac; Windows: Settings > System > About).
     - College or University Degree (Optional).
   - **Screening Questions:**
@@ -69,7 +69,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
     9. Confirm local bank or Payoneer account to receive payments.
     10. Platform familiarity multi-select checklist.
 
-#### Customized Recommendations for Juan Jaramillo:
+#### **Customized Recommendations for Juan Jaramillo:**
 
 - **Positioning & Fit:** 100% fit on location (Bogotá, Colombia is in LATAM) and system requirements (Juan owns a modern Mac matching the requirements). Juan's background of building internal SaaS solutions at TopNetworks (EmailGenius, TrafficGenius) is a perfect match for "replacing paid SaaS with custom internal tools".
 - **Resume Variant:** Use the **Vibe Coding & AI-Native Engineering** resume. It emphasizes rapid, iterative AI-assisted development (Claude Code, GitHub Copilot) and fits the "rapid prototyping" ethos of this role perfectly.
@@ -109,7 +109,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
   - **Background Check:** Offers are contingent on a background check (criminal, employment, education) due to exposure to confidential integration data.
   - **AI in Hiring:** Xsolla discloses they may use AI tools to parse resumes and identify inconsistencies, though final hiring decisions are human-led.
 
-#### Customized Recommendations for Juan Jaramillo:
+#### **Customized Recommendations for Juan Jaramillo:**
 
 - **Positioning & Fit:** Exceptional match. Juan has 16+ years of tech experience, including multiple co-founder and innovation director roles (TRADEBOG, FreshWorks, La Quinta P) where he performed product ownership, roadmap definition, and business strategy. His background as a developer means he has written and shipped production APIs. Crucially, Juan has built systems specifically integrating AI agents and LLM-powered workflows (LangChain, LangGraph, Vertex AI).
 - **Resume Variant:** Use the **AI/LLM Engineering** resume. It positions him as an AI-focused engineering leader who has both founder-level product vision and deep technical chops in agentic frameworks.
@@ -149,7 +149,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
   - SmartRecruiters "I'm interested" portal. Required fields: First Name, Last Name, Email, Phone (+1 Canada default), Postal Code.
   - Optional: "Message to the Hiring Team" textbox, LinkedIn/GitHub profiles, Work/Education history, EEOP voluntary self-identification.
 
-#### Customized Recommendations for Juan Jaramillo:
+#### **Customized Recommendations for Juan Jaramillo:**
 
 - **Positioning & Fit:** Technically, Juan is a flawless match. He has 4 years of professional prompt engineering and AI consulting experience, deep Python knowledge for eval pipelines, and extensive experience with open-weight models (Llama 2). His work history explicitly covers **Prompt Engineering Techniques & Best Practices**, **Hallucination Risk Management**, and **GenAI & Prompt Versioning using Git Flow**—which perfectly maps to Medfar's search.
 - **The Location Constraint Workaround:**
@@ -199,7 +199,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
     9. Do you have professional experience with C#/.NET? (Radio: Yes/No).
     10. Describe your experience building, deploying, or contributing to AI-powered solutions, agentic workflows, or LLM-based products (Large text).
 
-#### Customized Recommendations for Juan Jaramillo:
+#### **Customized Recommendations for Juan Jaramillo:**
 
 - **Positioning & Fit:** Juan has world-class experience in agentic workflows (LangGraph, CrewAI) and has designed and deployed complex AI platforms (EmailGenius, RouteGenius). He fits the "developer tools/workflow engines" description perfectly.
 - **The Location & Stack Constraint Workaround:**
@@ -234,7 +234,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
   - **No Resume or Cover Letter Required.**
   - **Onboarding Assessment:** Registration requires passing a mandatory online coding evaluation (~60 minutes). It tests the ability to find correctness bugs, reason about algorithmic complexity, write clean/idiomatic code, and explain technical concepts clearly in English.
 
-#### Customized Recommendations for Juan Jaramillo:
+#### **Customized Recommendations for Juan Jaramillo:**
 
 - **Positioning & Fit:** Juan has 16+ years of engineering experience and a certified Python background from the University of Toronto. His ability to perform deep, senior-level code reviews, analyze database queries (N+1, transactional isolation), and write clean Python/TypeScript is outstanding.
 - **The Location Constraint Workaround:**
@@ -280,7 +280,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
        - Recommended Answer for Juan: **Select all: Latency/throughput constraints, Compute/cost constraints, Model failures/unexpected behavior, Safety/misuse/long-term behavior.**
   - **Interview Process:** 1. Online technical assessment, 2. Technical interview, 3. CEO/Final round (completed in ~1 week).
 
-#### Customized Recommendations for Juan Jaramillo:
+#### **Customized Recommendations for Juan Jaramillo:**
 
 - **Positioning & Fit:** This is an outstanding match. Juan’s target compensation ($42k - $54k) fits comfortably within BJAK’s $95k - $144k remote salary structure. His experience building **TrafficGenius** (invalid traffic and security analytics using BigQuery and Cloud Armor) is a perfect showcase of "operations automation, risk reviews, and fraud/security automation" inside a production platform—directly aligning with BJAK's neobank domain.
 - **Resume Variant:** Use the **AI/LLM Engineering** resume. It highlights his Vertex AI, Google BigQuery, and Supabase database integrations, and his expertise with LLaMA (which BJAK specifically lists in their core stack).
@@ -327,7 +327,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
     7. _Years of experience in AI:_ (No AI, 1-2 years, **3-5 years**, 6+ years - Select "3-5 years" or "6+ years" based on his AI consultancy timeline).
   - **AI in Hiring:** Netomi discloses they may use AI tools to parse applications and assess responses.
 
-#### Customized Recommendations for Juan Jaramillo:
+#### **Customized Recommendations for Juan Jaramillo:**
 
 - **Positioning & Fit:** Strong match. Juan’s co-founding of digital agencies (FreshWorks, La Quinta P) gives him a deep understanding of customer experience (CX) and B2B SaaS workflows, which is highly valuable for Netomi's enterprise customer base. He has built automated workflow tools (EmailGenius, Social Media Genius) and possesses the software engineering discipline (retries, idempotency, API authentication) that Netomi expects from their "Agentic Engineers."
 - **Resume Variant:** Use the **Vibe Coding & AI-Native Engineering** resume. It emphasizes rapid API integrations, workflow automation, and his work building custom SaaS tools quickly, which aligns with Netomi’s no-code/low-code platform execution.
@@ -368,7 +368,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
   - Contingent on the successful completion of a background check (Corporate Services process).
   - Recruiters may use AI tools to assist in evaluating candidates.
 
-#### Customized Recommendations for Juan Jaramillo:
+#### **Customized Recommendations for Juan Jaramillo:**
 
 - **Positioning & Fit:** Outstanding fit. Juan has 16+ years of tech experience. In his TopNetworks role, he built **TrafficGenius** (specifically designed for invalid traffic detection and security analytics utilizing BigQuery and GCP Cloud Armor), which directly matches the AI security, data classification, and protection requirements of this role. His work as an independent consultant covers **Hallucination Risk Management** and **GenAI & Prompt Versioning (Git Flow)**, which are central to AI governance. He is also highly proficient in "AI coding agent-augmented development" (using Claude Code, Cursor, and Copilot).
 - **Resume Variant:** Use the **AI/LLM Engineering** resume. Ensure it prominently displays "TrafficGenius (Security Analytics & Data Protection)" and lists "OWASP LLM Top 10, Prompt Injection Defenses, GCP Cloud Armor, and Hallucination Mitigation" in the skills section.
@@ -407,7 +407,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
   - **Resume Format:** Must upload in PDF, DOC, or DOCX formats.
   - **Mandatory Consent Checkbox:** Consent to Team Red Dog storing application data in their database.
 
-#### Customized Recommendations for Juan Jaramillo:
+#### **Customized Recommendations for Juan Jaramillo:**
 
 - **Positioning & Fit:** Flawless technical match. Juan has exactly the 5-7 years of professional engineering experience required (and 16+ years in tech overall), with a deep focus on prompt engineering, Git Flow versioning, and conversational AI systems. His background in digital marketing agencies gives him a strong understanding of "conversational design" and "UX alignment," which is highly valued for this role.
 - **Resume Variant:** Use the **AI/LLM Engineering** resume. Focus heavily on his prompt design techniques, versioning practices, and his experience translating complex business requirements into software specifications (from his co-founder/agency days).
@@ -453,7 +453,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
     4. _Are you legally permissioned to work in Canada?_ (Dropdown: Yes/No).
     5. _Do you currently live within 1 hour of Calgary, AB?_ (Dropdown: Yes/No).
 
-#### Customized Recommendations for Juan Jaramillo:
+#### **Customized Recommendations for Juan Jaramillo:**
 
 - **Positioning & Fit:** Technically, this role is a phenomenal match. Juan’s target salary is extremely competitive compared to the $127k - $156k budget. Juan has 16+ years of SaaS development experience (meeting the 8+ years SaaS requirement) and 4 years of AI experience. He has deep Python expertise, has built agentic workflows (LangGraph, CrewAI), and is a certified master of AI-assisted "vibe coding" workflows (Claude Code, Cursor, Copilot), which Curve Dental explicitly prioritizes.
 - **The Location Constraint Strategy:**

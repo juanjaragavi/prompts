@@ -14,7 +14,7 @@ Juan Miguel Jaramillo Gaviria occupies a highly unique, premium niche in the tec
 
 While most AI developers lack deep full-stack engineering discipline, and most CMS developers lack neural network or LLM orchestration experience, Juan stands out as an **AI-Native Full-Stack Architect**.
 
-### Core Positioning Anchors:
+### **Core Positioning Anchors:**
 
 - **Enterprise AI Experience:** Deployed real-world, high-concurrency SaaS platforms at TopNetworks Inc., including _EmailGenius_ (Vertex AI, PostgreSQL), _TrafficGenius_ (BigQuery, Cloud Armor), _RouteGenius_ (Supabase, multi-agent n8n workflow), and _Social Media Genius_ (Next.js 15/16, React 19, Astro 5, Gemini 2.5 Flash on GCP).
 - **Quantifiable Impact:** Proven track record of boosting client operational productivity by up to 46% while reducing infrastructure and operational overhead by up to 66%.
@@ -147,7 +147,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 
 To maintain maximum velocity and structured discipline, the following weekly tracking metrics must be maintained:
 
-### Weekly Target Metrics:
+### **Weekly Target Metrics:**
 
 - **LinkedIn Search Appearances:** Target > 150 appearances per week.
 - **Job Applications Submitted:** Minimum 15 high-quality, targeted applications per week.
@@ -161,9 +161,9 @@ To maintain maximum velocity and structured discipline, the following weekly tra
 
 To automate and streamline the pipeline during Week 3, the following pre-built automation framework is prepared:
 
-- **Primary Resume URL:** https://files.catbox.moe/pswa9k.pdf
-- **LinkedIn Profile:** https://www.linkedin.com/in/juan-jaramillo-ai/
-- **Portfolio Site:** https://juanjaramillo.tech
+- **Primary Resume URL:** <https://files.catbox.moe/pswa9k.pdf>
+- **LinkedIn Profile:** <https://www.linkedin.com/in/juan-jaramillo-ai/>
+- **Portfolio Site:** <https://juanjaramillo.tech>
 - **Job Title Filters:** "Artificial Intelligence Engineer", "AI Engineer", "AI Developer", "Generative AI Developer", "Prompt Engineer", "Machine Learning Engineer"
 - **Strict Exclusions:** Skip standard BI/Data Analyst roles, generic web developer postings with no AI focus, or data pipeline roles with no ML modeling integration.
 - **Rate Limiting:** Wait 15–30 seconds between actions to bypass platform rate limiters.

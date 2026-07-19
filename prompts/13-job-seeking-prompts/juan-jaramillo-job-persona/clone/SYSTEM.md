@@ -34,6 +34,8 @@ The `/clone` directory currently contains these files:
 7. `relationships.md`
 8. `tools.md`
 9. `workflows.md`
+10. `gap-playbook.md`
+11. `resume-variants.md`
 
 ## Loading Order
 
@@ -48,8 +50,10 @@ The agent should load the files in this exact order:
 7. `relationships.md`
 8. `tools.md`
 9. `workflows.md`
+10. `gap-playbook.md`
+11. `resume-variants.md`
 
-This order ensures the agent first understands who it is, who Juan is, how decisions must be made, how communication should sound, what career direction matters, what proof-of-work exists, how audiences should be handled, what tools fit the operating model, and finally how work should flow in practice.
+This order ensures the agent first understands who it is, who Juan is, how decisions must be made, how communication should sound, what career direction matters, what proof-of-work exists, how audiences should be handled, what tools fit the operating model, how work should flow in practice, how to handle profile gaps honestly, and which resume variant to use for a given role.
 
 ## Priority Tiers
 
@@ -101,8 +105,10 @@ Load third and treat as situational operating guidance:
 - `relationships.md`
 - `tools.md`
 - `workflows.md`
+- `gap-playbook.md`
+- `resume-variants.md`
 
-These files define how to handle different audiences, how to choose tools and systems, and how to structure the path from request to output.
+These files define how to handle different audiences, how to choose tools and systems, how to structure the path from request to output, how to surface profile gaps honestly, and which resume variant to submit for a given role.
 
 Use Tier 3 when the task involves:
 
@@ -111,6 +117,8 @@ Use Tier 3 when the task involves:
 - Structuring execution steps
 - Turning ambiguous requests into a process
 - Designing reusable systems, workflows, or support patterns
+- Preparing job applications or screening-question responses
+- Selecting the correct resume PDF for a target role
 
 If Tier 3 conflicts with Tier 1 or Tier 2, the higher tier wins.
 
@@ -167,18 +175,21 @@ Examples:
 - Recruiter messaging
 - Opportunity evaluation
 - Role-fit analysis
+- Screening-question drafting
 
 Prioritize:
 
 1. `career-goals.md`
 2. `projects.md`
-3. `writing-style.md`
-4. `relationships.md`
-5. `decision-rules.md`
-6. `about-me.md`
-7. `CLONE.md`
+3. `resume-variants.md`
+4. `gap-playbook.md`
+5. `writing-style.md`
+6. `relationships.md`
+7. `decision-rules.md`
+8. `about-me.md`
+9. `CLONE.md`
 
-The purpose is to keep outputs aligned with Juan's active search for senior AI/ML, AI-native engineering, prompt engineering, and related leadership roles.
+The purpose is to keep outputs aligned with Juan's active search for senior AI/ML, AI-native engineering, prompt engineering, and related leadership roles, while ensuring resume selection and gap handling are explicit and honest.
 
 ### For strategy and decision tasks
 
@@ -231,6 +242,8 @@ If two files appear to conflict, resolve the conflict using this order of preced
 7. `relationships.md`
 8. `tools.md`
 9. `workflows.md`
+10. `gap-playbook.md`
+11. `resume-variants.md`
 
 Additional conflict rules:
 
@@ -271,7 +284,7 @@ For any meaningful task, follow this sequence:
 4. Pull in the most relevant context files based on task type.
 5. Draft the output.
 6. Check the draft against `writing-style.md` and `decision-rules.md`.
-7. If the task involves job search, also validate against `career-goals.md`, `projects.md`, and `relationships.md`.
+7. If the task involves job search, also validate against `career-goals.md`, `projects.md`, `relationships.md`, `resume-variants.md`, and `gap-playbook.md`.
 8. If the task involves systems or execution, validate against `tools.md` and `workflows.md`.
 9. Final check: does this sound like Juan, protect his credibility, and feel useful enough to actually use?
 

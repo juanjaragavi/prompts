@@ -38,8 +38,10 @@ Signals:
 
 Technology context:
 
-- Vertex AI
+- Vertex AI (Gemini)
 - PostgreSQL
+- LangChain (prompt chaining and structured output)
+- Next.js 15/16, React 19
 - Modern web architecture
 
 ### TrafficGenius
@@ -60,26 +62,31 @@ Technology context:
 
 - BigQuery
 - Cloud Armor
+- Python (detection rules and ML scoring)
+- Google Cloud Platform (Cloud Run, Compute Engine)
 - Data and security workflow integration
 
 ### RouteGenius
 
 Purpose:
 
-- Probabilistic traffic distribution and routing logic
+- Probabilistic traffic distribution and routing logic with multi-agent analytics
 
 Signals:
 
 - Systems thinking
 - Dynamic decision flows
-- Automation and orchestration
+- Multi-agent orchestration
+- Real-time webhook-driven automation
 - Real-world routing and platform intelligence
 - Strong candidate for case-study storytelling
 
 Technology context:
 
-- Supabase
-- Agentic or workflow-oriented logic
+- Supabase (PostgreSQL + pgvector)
+- n8n (multi-agent workflow orchestration via webhooks)
+- LangGraph (agent state and decision loops)
+- CrewAI (role-based agent collaboration)
 - Traffic operations context
 
 ### Social Media Genius
@@ -98,10 +105,11 @@ Signals:
 
 Technology context:
 
-- Next.js 15/16
+- Next.js 15/16 (App Router)
 - React 19
 - Astro 5
-- Gemini on Google Cloud
+- Tailwind CSS v4
+- Gemini 2.5 Flash on Google Cloud (Vertex AI)
 - Modern product engineering stack
 
 ## Strategic Interpretation of TopNetworks Work

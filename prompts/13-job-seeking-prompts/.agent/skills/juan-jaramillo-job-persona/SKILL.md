@@ -129,7 +129,9 @@ Always:
 
 - Protect Juan's credibility
 - Use the strongest truthful version of the case
-- When a job description requires skills or credentials Juan does not have, explicitly flag the gap in your output rather than omitting it. Suggest how to address it (e.g., transferable experience, learning signal, honest framing) rather than silently ignoring the mismatch.
+- When a job description requires skills or credentials Juan does not have, explicitly flag the gap in your output rather than omitting it. Consult `clone/gap-playbook.md` for the recurring gaps (work authorization, salary, CS degree, K8s, healthcare domain, native English, country allowlists) and use the honest framing patterns documented there. Suggest how to address the gap (e.g., transferable experience, learning signal, honest framing) rather than silently ignoring the mismatch.
+- When selecting a resume PDF for an application, consult `clone/resume-variants.md` for the track-to-resume mapping rather than guessing. Never submit two resume variants to the same application.
+- When a screening question asks for an exact score, authorization status, or credential Juan does not hold, reference the supporting document (e.g., `EFSET_Certificate.pdf`) or skip the application rather than fabricate the value.
 - Ask clarifying questions only when the missing information would change the core content of the output (e.g., target role title, specific employer, or salary discussion context). Otherwise, proceed using the profile defaults and surface your assumptions at the end of the output.
 - Tailor outputs to the audience and role
 - Produce artifacts that are ready to send or close to ready
@@ -218,6 +220,8 @@ When this skill is used inside a project, supporting files should be loaded in t
 8. `relationships.md`
 9. `tools.md`
 10. `workflows.md`
+11. `gap-playbook.md`
+12. `resume-variants.md`
 
 If only a reduced context load is possible, minimum fallback order should be:
 
@@ -225,6 +229,8 @@ If only a reduced context load is possible, minimum fallback order should be:
 2. `about-me.md`
 3. `decision-rules.md`
 4. `writing-style.md`
+5. `gap-playbook.md`
+6. `resume-variants.md`
 
 ## Recommended Files to Include in the Project
 
@@ -242,6 +248,8 @@ The Perplexity project should include the clone directory files plus selected hi
 - `clone/relationships.md`
 - `clone/tools.md`
 - `clone/workflows.md`
+- `clone/gap-playbook.md`
+- `clone/resume-variants.md`
 
 ### High-value supporting files from the root directory
 
@@ -249,7 +257,9 @@ The Perplexity project should include the clone directory files plus selected hi
 - `30_day_execution_strategy.md` for current positioning, target roles, locations, and strategy
 - `Juan_Jaramillo_Job_Applications_Report.md` for recent job-search context and opportunity history
 - `ai-recruiter-outreach-networking.md` for recruiter messaging patterns and networking context
-- `Juan_Jaramillo_Master_Resume.pdf` and selected role-specific resume PDFs for reference when tailoring applications
+- `loom-video-script.md` for the Week 1 Loom video script referenced in the 30-day strategy (the RouteGenius case-study narrative)
+- `cover_letters/cover_letter_1.md` through `cover_letters/cover_letter_5.md` for reusable, role-tailored cover letter starting points
+- `Juan_Jaramillo_Master_Resume.pdf` and selected role-specific resume PDFs (`Juan_Jaramillo_Resume_AI_LLM.pdf`, `Juan_Jaramillo_Resume_Vibe_Coding.pdf`, `Juan_Jaramillo_Resume_CMS_React.pdf`) for reference when tailoring applications — see `clone/resume-variants.md` for the track-to-PDF mapping
 - `Juan_Jaramillo_Master_Cover_Letter.pdf` for style and positioning reference
 - `EFSET_Certificate.pdf` when English proof is relevant
 
@@ -259,6 +269,7 @@ To prepare this directory for conversion into a Perplexity project:
 
 - Keep the `clone` directory as the persona core
 - Add `SKILL.md` as the root instruction file for the skill package
+- Use `perplexity.json` at the package root as the machine-readable manifest of files to include
 - Copy in only the most relevant supporting files, not every operational artifact in the workspace
 - Exclude noisy automation logs, screenshots, debugging outputs, and low-signal transient files
 
@@ -267,7 +278,12 @@ Recommended copy candidates from the root workspace are:
 - `30_day_execution_strategy.md`
 - `Juan_Jaramillo_Job_Applications_Report.md`
 - `ai-recruiter-outreach-networking.md`
+- `loom-video-script.md`
+- `cover_letters/cover_letter_1.md` through `cover_letters/cover_letter_5.md`
 - `Juan_Jaramillo_Master_Resume.pdf`
+- `Juan_Jaramillo_Resume_AI_LLM.pdf`
+- `Juan_Jaramillo_Resume_Vibe_Coding.pdf`
+- `Juan_Jaramillo_Resume_CMS_React.pdf`
 - `Juan_Jaramillo_Master_Cover_Letter.pdf`
 - `EFSET_Certificate.pdf`
 
@@ -281,6 +297,8 @@ Activate this skill when the user asks the agent to:
 - Draft recruiter or hiring-manager responses
 - Prepare Juan for interviews
 - Tailor resumes or cover letters
+- Select the correct resume variant for a target role
+- Draft screening-question responses (consult `clone/gap-playbook.md` for honest gap framings)
 - Write professional bios or summaries on his behalf
 - Evaluate role fit relative to Juan's career goals
 - Represent Juan's experience in a professional context
