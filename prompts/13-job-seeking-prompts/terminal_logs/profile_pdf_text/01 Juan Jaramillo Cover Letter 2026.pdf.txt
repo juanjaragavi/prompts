@@ -25,7 +25,7 @@ I designed and shipped an entire internal SaaS ecosystem
 PostgreSQL), TrafficGenius (invalid traffic detection with BigQuery + Cloud 
 Armor), RouteGenius (probabilistic traffic distribution on Supabase), 
 and Social Media Genius (AI-powered social content generation with a 
- Info@juanjaramillo.tech  de 1 3  (+57) 305 420 6139
+ juanamillo@proton.me  de 1 3  (+57) 305 420 6139
 
 
 canvas editor) — all on a modern stack including Next.js 15–16, TypeScript, 
@@ -57,7 +57,7 @@ stated publicly in my professional presentations, that "Artiﬁcial Intelligenc
 is not a replacement — it is a tool". This philosophy drives pragmatic, 
 responsible AI deployment that ampliﬁes human capability rather than 
 replacing it. 
- Info@juanjaramillo.tech  de 2 3  (+57) 305 420 6139
+ juanamillo@proton.me  de 2 3  (+57) 305 420 6139
 
 
 I am excited by the opportunity to bring this full-stack AI leadership to your 
@@ -66,9 +66,9 @@ aligns with your goals.
 Warm regards, 
 Juan Miguel Jaramillo Gaviria 
 LinkedIn | GitHub | 
-📧 info@juanjaramillo.tech | 
+📧 juanamillo@proton.me | 
 🌐 https:/ /
 juanjaramillo.tech | 
 📞 +57 305 420 6139 | 
 📍 Bogotá, Colombia 
- Info@juanjaramillo.tech  de 3 3  (+57) 305 420 6139
+ juanamillo@proton.me  de 3 3  (+57) 305 420 6139

@@ -1,10 +1,11 @@
 {
   "index": 5,
-  "company": "Team Red Dog",
-  "job_title": "AI Prompt Engineer",
-  "platform": "Crelate",
-  "url": "https://jobs.crelate.com/portal/teamreddog/job/apply/ny9o6rxqgq7juw8t8z4oo3zp6c",
-  "status": "Submitted",
-  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_5_screenshot.png",
-  "details": "Form submitted on Crelate."
+  "company": "Provectus",
+  "job_title": "ML/AI Engineer",
+  "platform": "lever",
+  "url": "https://jobs.lever.co/provectus/f76f6c65-1649-4924-970d-a5982db6d684",
+  "status": "Requires Manual Action",
+  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_5_20260719_155807.png",
+  "details": "Blocked by: captcha",
+  "timestamp": "2026-07-19T15:58:07.155453"
 }

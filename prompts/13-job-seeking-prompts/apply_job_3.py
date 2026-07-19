@@ -54,7 +54,7 @@ Adjunto mi currículum y portafolio para su consideración. Me encantaría dispo
 Atentamente,
 
 Juan Miguel Jaramillo Gaviria
-info@juanjaramillo.tech | (+57) 305 420 6139
+juanamillo@proton.me | (+57) 305 420 6139
 https://juanjaramillo.tech
 https://www.linkedin.com/in/juan-jaramillo-ai/
 https://github.com/juanjaragavi

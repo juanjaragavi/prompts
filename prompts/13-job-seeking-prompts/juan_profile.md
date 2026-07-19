@@ -3,7 +3,7 @@
 ## 1. Basic Contact Information
 
 - **Full Name:** Juan Miguel Jaramillo Gaviria
-- **Email:** <mailto:info@juanjaramillo.tech>
+- **Email:** <mailto:juanamillo@proton.me>
 - **Phone:** (+57) 305 420 6139
 - **Location:** Bogotá, Colombia (Bogotá D.C. Metropolitan Area)
 - **LinkedIn:** [https://www.linkedin.com/in/juan-jaramillo-ai/](https://www.linkedin.com/in/juan-jaramillo-ai/)

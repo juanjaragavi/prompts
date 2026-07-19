@@ -1,0 +1,470 @@
+# Juan Jaramillo Job Application Bot Configuration
+# Complete profile with AI Development Lead positioning and TopNetworks experience
+
+candidate:
+  # Identity & Positioning
+  first_name: 'Juan Miguel'
+  last_name: 'Jaramillo Gaviria'
+  full_name: 'Juan Miguel Jaramillo Gaviria'
+  title: 'AI Development Lead'
+  positioning_headline: 'AI-Native Full-Stack Architect / AI Development Lead'
+  professional_title: 'AI/ML Expert, Full-Stack Architect, Consultant, Serial Tech Entrepreneur'
+
+  # Contact Information
+  email: 'juanamillo@proton.me'
+  phone: '3054206139'
+  phone_with_cc: '+573054206139'
+
+  # Location & Geography
+  address: 'Bogotá, Colombia'
+  city: 'Bogotá'
+  postcode: '110111'
+  country: 'Colombia'
+  location: 'Bogotá, Colombia'
+  timezone: 'GMT-5 (Bogotá)'
+
+  # Professional Links & Web Presence
+  linkedin: 'https://www.linkedin.com/in/juan-jaramillo-ai/'
+  github: 'https://github.com/juanjaragavi'
+  portfolio: 'https://juanjaramillo.tech'
+
+  # Experience Metrics
+  years_experience: '17'
+  years_ai_experience: '4'
+  years_digital_leadership: '17'
+
+  # Personal Details
+  dob: '02/06/1984'
+  age: '42'
+
+  # Current Professional Status
+  current_company: 'TopNetworks Inc.'
+  current_role: 'AI Development Lead'
+  employment_status: 'Active job search (independent consultant since Nov 2022)'
+  employment_timeline: 'Feb 2025 - Jun 2026'
+  notice_period: 'Immediate'
+  actively_interviewing: true
+  open_to_contract: true
+  open_to_consulting: true
+
+  # Compensation & Expectations
+  target_monthly_usd: '4500'
+  target_annual_usd: '54000'
+  target_range_monthly: '$3,500 - $4,500 USD / month'
+  target_range_annual: '$42,000 - $54,000 USD / year'
+  target_range_usd_annual: '$42,000 - $54,000'
+  negotiate_based_on: 'Role scope, company stage, equity potential'
+
+  # Work Authorization & Requirements
+  citizenship: 'Colombian'
+  based_in: 'Bogotá, Colombia'
+  work_auth_colombia: true
+  work_auth_us: false
+  work_auth_eu: false
+  requires_visa_sponsorship: true
+  preferred_work_locations:
+    [
+      'Remote (Colombia-based)',
+      'Bogotá',
+      'Medellín',
+      'Mexico City',
+      'Buenos Aires',
+      'Global remote',
+    ]
+  work_preference: 'Remote-first or global remote opportunities'
+
+  # Language Proficiency
+  native_language: 'Spanish (Native)'
+  english_level: 'C2 Proficient (CEFR)'
+  english_proficiency: 'Full professional proficiency'
+  english_daily_use: true
+  efset_certification_level: 'C2 Proficient'
+  efset_score_range: '71-100'
+  english_equivalent_toefl: '~110-120 iBT'
+  english_equivalent_ielts: '8.0-9.0'
+
+  # Professional Summary
+  summary_short: 'AI Development Lead with 17+ years of digital leadership and 4 years of Generative AI specialization.'
+  summary_medium: 'AI Development Lead and full-stack architect with 17+ years of technology leadership and 4 years of deep Generative AI specialization. Recently led AI strategy and full-stack product development at TopNetworks Inc., designing and shipping an internal AI-native SaaS ecosystem. Expert in Prompt Engineering, LLM fine-tuning (PEFT, RLHF), agentic systems, and end-to-end AI product delivery.'
+  summary_long: |
+    AI Development Lead, full-stack architect, and serial technology entrepreneur with more than 17 years of experience in digital and technology initiatives across Latin America and international markets. Since 2022, I have specialized in enterprise Generative AI, LLM fine-tuning (PEFT, RLHF), prompt engineering, hallucination risk management, and AI-native product engineering.
+
+    Currently leading AI strategy and full-stack development at TopNetworks Inc., designing and shipping an internal SaaS ecosystem (EmailGenius, TrafficGenius, RouteGenius, Social Media Genius) serving the U.S., U.K., Mexico, and Latin American markets. Expert in next-generation AI workflows, agentic systems orchestration, and production-grade LLM integration.
+
+    Strong full-stack capabilities across Next.js, TypeScript, React, Python, Vertex AI, and cloud-native architectures. Proven ability to move from strategy to architecture to hands-on implementation. Passionate about building practical AI systems that deliver measurable business value.
+
+  # Core Professional Expertise (Ordered by Priority)
+  core_expertise:
+    - 'Generative AI and Enterprise AI Solutions'
+    - 'Prompt Engineering and Prompt Versioning (Git Flow)'
+    - 'LLM Fine-Tuning, PEFT, RLHF'
+    - 'Hallucination Risk Management'
+    - 'Agentic Systems and Multi-Agent Orchestration'
+    - 'LLM Evaluation and Governance'
+    - 'Full-Stack AI-Native Product Development'
+    - 'Next.js, React 19, TypeScript'
+    - 'Python for AI/ML'
+    - 'Vertex AI, Gemini APIs'
+    - 'LangChain, LangGraph, CrewAI'
+    - 'Cloud-Native Architecture (Google Cloud)'
+    - 'Product Thinking and Technical Leadership'
+    - 'Full-Stack Development (Frontend, Backend, Infrastructure)'
+    - 'Entrepreneurship and Consulting'
+
+  # Technical Skills (Detailed)
+  technical_skills:
+    ai_ml:
+      - 'Generative AI (Advanced)'
+      - 'Prompt Engineering (Advanced)'
+      - 'LLM Fine-Tuning (Advanced)'
+      - 'PEFT & LoRA (Advanced)'
+      - 'RLHF (Advanced)'
+      - 'Machine Learning (Intermediate-Advanced)'
+      - 'NLP & Language Understanding (Advanced)'
+      - 'Agentic Workflows (Advanced)'
+      - 'LLM Evaluation (Advanced)'
+      - 'Hallucination Management (Advanced)'
+
+    frontend:
+      - 'Next.js 15-16 (App Router) (Advanced)'
+      - 'React 19 (Advanced)'
+      - 'TypeScript (Advanced)'
+      - 'Astro 5 (Advanced)'
+      - 'Tailwind CSS v4 (Advanced)'
+      - 'JavaScript (Advanced)'
+      - 'HTML/CSS (Advanced)'
+      - 'UI/UX Design (Intermediate)'
+
+    backend:
+      - 'Node.js (Advanced)'
+      - 'Python (Advanced)'
+      - 'PostgreSQL (Advanced)'
+      - 'Supabase (Advanced)'
+      - 'BigQuery (Advanced)'
+      - 'REST APIs (Advanced)'
+
+    cloud:
+      - 'Google Cloud Platform (Advanced)'
+      - 'Vertex AI (Advanced)'
+      - 'Cloud Run (Advanced)'
+      - 'Compute Engine (Advanced)'
+      - 'Cloud Armor (Advanced)'
+      - 'Cloud DNS (Advanced)'
+      - 'BigQuery (Advanced)'
+      - 'Docker (Advanced)'
+
+    tools_frameworks:
+      - 'LangChain (Advanced)'
+      - 'LangGraph (Advanced)'
+      - 'CrewAI (Advanced)'
+      - 'n8n (Advanced)'
+      - 'Vercel (Advanced)'
+      - 'PM2 (Advanced)'
+      - 'Git/GitHub (Advanced)'
+
+    soft_skills:
+      - 'Technical Leadership'
+      - 'Product Strategy'
+      - 'Architecture Design'
+      - 'Full-Stack Thinking'
+      - 'Executive Communication'
+      - 'Client Relationship Management'
+      - 'Team Collaboration'
+      - 'Rapid Prototyping'
+      - 'Documentation'
+
+  # Key Experience (TopNetworks Ecosystem)
+  key_projects:
+    - name: 'EmailGenius'
+      description: 'AI-powered email generation platform'
+      stack: 'Vertex AI, PostgreSQL, LangChain, Next.js, TypeScript'
+      value: 'Automated email content generation for marketing workflows'
+
+    - name: 'TrafficGenius'
+      description: 'Invalid traffic detection and security analytics'
+      stack: 'BigQuery, Cloud Armor, Python, Google Cloud Platform'
+      value: 'Real-time traffic quality and security scoring'
+
+    - name: 'RouteGenius'
+      description: 'Probabilistic traffic distribution and routing with multi-agent orchestration'
+      stack: 'Supabase (pgvector), n8n, LangGraph, CrewAI, Python'
+      value: 'Dynamic traffic routing and multi-agent decision workflows'
+
+    - name: 'Social Media Genius'
+      description: 'AI-assisted social content generation with interactive canvas'
+      stack: 'Next.js 15-16, React 19, Astro 5, Tailwind CSS v4, Gemini 2.5 Flash'
+      value: 'Accelerated content creation and social media management'
+
+  # Career Themes & Positioning Anchors
+  career_themes:
+    - 'Enterprise Generative AI Implementation'
+    - 'LLM Specialization and Optimization'
+    - 'Agentic Systems and AI Orchestration'
+    - 'Full-Stack AI-Native Product Development'
+    - 'AI-Powered Automation and Workflow Design'
+    - 'Technical Leadership in AI/ML'
+    - 'Practical AI that Delivers Business Value'
+    - 'Responsible and Production-Ready AI'
+
+  # Values & Work Philosophy
+  values:
+    - 'Practical Innovation (not hype)'
+    - 'Shipping Real Systems'
+    - 'Responsible AI'
+    - 'Technical Rigor and Precision'
+    - 'Long-term Value Creation'
+    - 'Continuous Learning'
+    - 'Transparency and Credibility'
+
+  # Career Goals (For Context)
+  primary_objective: 'Secure senior AI/ML role combining leadership, technical depth, and product thinking'
+  target_role_categories:
+    - 'AI Engineering Lead'
+    - 'AI Development Lead'
+    - 'Senior GenAI Engineer'
+    - 'LLM Engineer'
+    - 'AI Solutions Architect'
+    - 'Senior Machine Learning Engineer (GenAI focus)'
+    - 'AI-Native Full-Stack Architect'
+    - 'Forward Deployed AI Engineer'
+
+  # Non-Negotiables for Role Selection
+  non_negotiables:
+    - 'Real technical ownership'
+    - 'Respect for quality and architecture'
+    - 'Practical use of AI (not experimentation)'
+    - 'Strategic exposure, not just ticket execution'
+    - 'Modern engineering environment'
+    - 'Clear room for influence and growth'
+
+  # Messaging & Communication Style
+  communication_style: 'Direct, professional, technically credible, calm, business-aware, concise'
+  brand_positioning: 'Senior AI/ML operator and builder (not just theorist or marketer)'
+
+resumes:
+  ai_llm: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Resume_AI_LLM.pdf'
+  vibe_coding: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Resume_Vibe_Coding.pdf'
+  master: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf'
+
+documents:
+  cover_letter: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Cover_Letter.pdf'
+  cover_letter_2: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01 Juan Jaramillo Cover Letter 2026.pdf'
+  curriculum_vitae: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01-Juan_Jaramillo-Curriculum-Vitae-2026.pdf'
+  corporate_presentation: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01 JUAN JARAMILLO Corporate Presentation.pdf'
+  specs_screenshot: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/System_Specs_Screenshot.png'
+  efset_certificate: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/EFSET_Certificate.pdf'
+
+output:
+  screenshots_dir: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots'
+  status_dir: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts'
+  logs_dir: '/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/logs'
+
+browser:
+  headless: true
+  viewport_width: 1280
+  viewport_height: 800
+  user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+  timeout_ms: 40000
+  page_load_wait_ms: 5000
+  action_wait_ms: 1000
+
+platforms:
+  smartrecruiters:
+    name: 'SmartRecruiters'
+    selectors:
+      first_name: "input[name='firstname']"
+      last_name: "input[name='lastname']"
+      email: "input[name='email']"
+      phone: "input[name='phone']"
+      resume: "input[type='file']"
+    resume_variant: 'ai_llm'
+
+  workable:
+    name: 'Workable'
+    selectors:
+      first_name: '#firstname'
+      last_name: '#lastname'
+      email: '#email'
+      phone: "input[type='tel']"
+      address: '#address'
+      city: '#city'
+      postcode: '#postcode'
+      country: '#country'
+      resume: "input[type='file']"
+    resume_variant: 'ai_llm'
+    questions:
+      CA_9452: '$110,000 - $135,000 / year'
+      CA_9529: 'None'
+      CA_40003: 'Portfolio link (GitHub: link)'
+      CA_41768: 'LinkedIn profile'
+      CA_42077: 'Yes'
+      QA_12020974: 'NO'
+      QA_12020975: 'NO'
+      QA_12020976: 'YES'
+      QA_12020978: 'NO'
+      QA_12085438: 'Essay about AI experience'
+
+  lever:
+    name: 'Lever'
+    selectors:
+      resume: "input[type='file'][id='resume-upload-input']"
+      name: "input[name='name']"
+      email: "input[name='email']"
+      phone: "input[name='phone']"
+      org: "input[name='org']"
+      linkedin: "input[name='urls[LinkedIn]']"
+      github: "input[name='urls[GitHub]']"
+      portfolio: "input[name='urls[Portfolio]']"
+      submit: "button[id='submit-btn']"
+    resume_variant: 'master'
+
+  ashby:
+    name: 'Ashby'
+    selectors:
+      resume: "input[type='file']"
+      name: "input[id*='name'], input[name='name']"
+      email: "input[type='email'], input[name='email']"
+      phone: "input[type='tel'], input[name='phone']"
+      location: "input[id*='location'], input[name*='location']"
+      linkedin: "input[id*='linkedin'], input[name*='linkedin']"
+      github: "input[id*='github'], input[name*='github']"
+      submit: "button[type='submit']"
+    resume_variant: 'ai_llm'
+
+  crelate:
+    name: 'Crelate'
+    selectors:
+      first_name: '#firstName'
+      last_name: '#lastName'
+      email: '#email'
+      phone: '#phone'
+      resume: '#file-uploadResume'
+      consent: "input[type='checkbox']"
+      submit: '#submitButton'
+    resume_variant: 'ai_llm'
+
+  rippling:
+    name: 'Rippling'
+    selectors:
+      first_name: '#field-8'
+      last_name: '#field-12'
+      email: '#field-16'
+      phone: '#field-31'
+      location: '#field-42'
+      company: '#field-27'
+      resume: "input[type='file']"
+      salary: '#field-61'
+      experience: '#field-65'
+      submit: "button[type='submit']"
+    resume_variant: 'vibe_coding'
+
+  zoho_recruit:
+    name: 'Zoho Recruit'
+    selectors:
+      first_name: "input[name='rec-form_746650000000063542']"
+      last_name: "input[name='rec-form_746650000000063544']"
+      full_name: "input[name='rec-form_746650000000063543']"
+      email: "input[name='rec-form_746650000000063548']"
+      phone: "input[name='rec-form_746650000000063554']"
+      dob: "input[name='rec-form_746650000000481107']"
+      resume_easy: "input[name='rec-easyresume_file']"
+      resume_eng: "input[name='rec-form_746650000000072325_file']"
+      efset: "input[name='rec-form_746650000000072329_file']"
+      specs: "input[name='rec-form_746650000034125191_file']"
+      description: "textarea[name='rec-form_746650000000477177']"
+      phone_policy: '#rec-form_746650000008186951'
+      submit: "input[type='submit'], button[type='submit']"
+    resume_variant: 'vibe_coding'
+
+essay_templates:
+  ai_experience: |
+    I have over 17 years of experience in software engineering, with the last 4 years focused on prompt engineering, generative AI, and agentic workflows. As AI Development Lead at TopNetworks, I designed and built four internal SaaS tools (EmailGenius, TrafficGenius, RouteGenius, and Social Media Genius). I designed and deployed production-grade multi-agent orchestrations using LangGraph and CrewAI, establishing strict LLM guardrails and evaluation frameworks.
+
+  previous_role: |
+    As AI Development Lead at TopNetworks, I designed, built, and shipped several internal SaaS tools (EmailGenius, TrafficGenius, RouteGenius) that replaced expensive third-party subscriptions. I utilized Next.js 15, TypeScript, Python, and Vertex AI. I led rapid prototyping using AI-assisted environments (Cursor, Copilot), which significantly reduced engineering time and software licensing costs.
+
+  ai_leadership: |
+    I combine AI expertise with full-stack engineering and product thinking. Over the past 4 years, I've specialized in Generative AI, prompt engineering, LLM fine-tuning (PEFT, RLHF), and agentic system orchestration. At TopNetworks, I led the design and delivery of an AI-native SaaS ecosystem serving performance publishing operations across the US, UK, Mexico, and Latin America. I excel at translating advanced AI capabilities into practical systems that drive measurable business outcomes.
+
+  career_transition: |
+    I am an AI Development Lead and full-stack architect transitioning into my next senior role. My background spans 17 years of technology leadership and 4 years of deep specialization in enterprise Generative AI. I'm passionate about building practical, production-ready AI systems that solve real business problems. I'm seeking a role where I can combine strategic AI leadership with hands-on technical ownership.
+
+anti_patterns:
+  blocked_keywords:
+    - 'access is temporarily restricted'
+    - 'security check'
+    - 'captcha'
+  closed_job_keywords:
+    - 'no longer accepting'
+    - 'no se admiten'
+    - 'closed'
+    - 'expired'
+
+# Job Search Strategy & Positioning
+job_search:
+  # Active Search Parameters
+  actively_seeking: true
+  search_intensity: 'High (daily applications and networking)'
+  application_target_weekly: '15-20 high-quality, targeted applications'
+  outreach_target_weekly: '25+ personalized hiring manager messages'
+
+  # Target Role Tracks
+  track_ai_leadership:
+    focus: 'High-leverage AI/ML roles with leadership scope'
+    target_companies:
+      [
+        'Rappi',
+        'Falabella',
+        'Provectus',
+        'Oowlish',
+        'CBTW Americas',
+        'Google Cloud',
+        'Anthropic',
+      ]
+    job_titles:
+      [
+        'AI Engineering Lead',
+        'LLM Engineer',
+        'AI Solutions Architect',
+        'Senior ML Engineer (GenAI)',
+      ]
+    compensation: '$200k-$253k USD Annually (enterprise market)'
+
+  track_vibe_coding:
+    focus: 'High-velocity AI-native product engineering'
+    target_companies:
+      ['Replit', 'Webflow', 'Stripe', 'Vercel', 'Supabase', 'Retool']
+    job_titles:
+      [
+        'AI-Native Product Engineer',
+        'Full-Stack AI Developer',
+        'Forward Deployed Engineer',
+      ]
+    compensation: '$137k-$200k USD Annually'
+
+  track_cms_react:
+    focus: 'Modern web architecture and headless migrations'
+    target_companies:
+      ['WP Engine', 'Pantheon', 'Automattic', 'Digital agencies']
+    job_titles: ['Headless WordPress Architect', 'React/Next.js Specialist']
+    compensation: '$80k-$158k USD Annually (Freelance/Agency)'
+
+  # Geographic Preferences (Ordered)
+  preferred_locations:
+    [
+      'Remote (Colombia-based)',
+      'Bogotá',
+      'Medellín',
+      'Mexico City',
+      'Buenos Aires',
+      'Global remote',
+    ]
+  market_preferences:
+    ['Colombia remote', 'LatAm remote', 'US remote', 'Global remote']
+
+# 30-Day Execution Plan Reference
+execution_plan:
+  week_1_goal: 'LinkedIn rebranding + technical portfolio launch (RouteGenius case study + Loom video)'
+  week_2_goal: 'Resume variant finalization (AI/LLM, Vibe Coding, CMS React)'
+  week_3_goal: 'High-volume application pipeline (40+ targeted applications)'
+  week_4_goal: 'Freelance profile setup + consulting channels (Upwork, Toptal, Fiverr)'

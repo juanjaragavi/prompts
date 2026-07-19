@@ -28,7 +28,7 @@ async def main():
         # 1. Fill fields
         await page.locator("#first_name").fill("Juan Miguel")
         await page.locator("#last_name").fill("Jaramillo Gaviria")
-        await page.locator("#email").fill("info@juanjaramillo.tech")
+        await page.locator("#email").fill("juanamillo@proton.me")
         await page.locator("#phone").fill("+573054206139")
         
         await select_react_dropdown(page, "candidate-location", "Bogota")
@@ -88,7 +88,7 @@ async def main():
                 "pre_drafted_answers": {
                     "first_name": "Juan Miguel",
                     "last_name": "Jaramillo Gaviria",
-                    "email": "info@juanjaramillo.tech",
+                    "email": "juanamillo@proton.me",
                     "phone": "+57 305 420 6139",
                     "location": "Bogotá, Colombia",
                     "authorized_to_work_in_colombia": "Yes",
@@ -116,7 +116,7 @@ async def main():
                 "pre_drafted_answers": {
                     "first_name": "Juan Miguel",
                     "last_name": "Jaramillo Gaviria",
-                    "email": "info@juanjaramillo.tech",
+                    "email": "juanamillo@proton.me",
                     "phone": "+57 305 420 6139",
                     "location": "Bogotá, Colombia",
                     "authorized_to_work_in_colombia": "Yes",

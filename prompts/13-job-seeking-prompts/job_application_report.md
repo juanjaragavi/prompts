@@ -33,7 +33,7 @@ This report summarizes the status and details of five job applications processed
 
 #### Next Steps
 
-- Monitor Juan's email (`info@juanjaramillo.tech`) and LinkedIn messages for interview invites or response notifications from Darwin AI.
+- Monitor Juan's email (`juanamillo@proton.me`) and LinkedIn messages for interview invites or response notifications from Darwin AI.
 
 ---
 
@@ -80,7 +80,7 @@ This report summarizes the status and details of five job applications processed
 
 - **First Name:** Juan Miguel
 - **Last Name:** Jaramillo Gaviria
-- **Email:** info@juanjaramillo.tech
+- **Email:** juanamillo@proton.me
 - **Phone:** +57 305 420 6139
 - **Location:** Bogotá, Colombia
 - **LinkedIn:** [https://www.linkedin.com/in/juan-jaramillo-ai/](https://www.linkedin.com/in/juan-jaramillo-ai/)
@@ -126,7 +126,7 @@ This report summarizes the status and details of five job applications processed
 
 - **First Name:** Juan Miguel
 - **Last Name:** Jaramillo Gaviria
-- **Email:** info@juanjaramillo.tech
+- **Email:** juanamillo@proton.me
 - **Phone:** +57 305 420 6139
 - **Location:** Bogotá, Colombia (willing to work onsite/relocate to Laguna Hills, CA)
 - **LinkedIn:** [https://www.linkedin.com/in/juan-jaramillo-ai/](https://www.linkedin.com/in/juan-jaramillo-ai/)
@@ -180,4 +180,4 @@ This report summarizes the status and details of five job applications processed
 
 #### Next Steps
 
-- Monitor Juan's email (`info@juanjaramillo.tech`) for correspondence from Oura's talent acquisition team.
+- Monitor Juan's email (`juanamillo@proton.me`) for correspondence from Oura's talent acquisition team.

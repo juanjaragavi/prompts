@@ -13,7 +13,7 @@ CANDIDATE = {
     "first_name": "Juan Miguel",
     "last_name": "Jaramillo Gaviria",
     "full_name": "Juan Miguel Jaramillo Gaviria",
-    "email": "info@juanjaramillo.tech",
+    "email": "juanamillo@proton.me",
     "phone": "3054206139",
     "phone_with_cc": "+573054206139",
     "address": "Bogotá, Colombia",
@@ -28,7 +28,7 @@ CANDIDATE = {
     "notice_period": "Immediate",
     "years_experience": "17",
     "years_ai_experience": "4",
-    "dob": "05/18/1984"
+    "dob": "02/06/1984"
 }
 
 # Ensure directories exist

@@ -9,7 +9,7 @@
 
 ## Candidate Details (Juan Miguel Jaramillo Gaviria)
 
-- **Email**: info@juanjaramillo.tech
+- **Email**: juanamillo@proton.me
 - **Phone**: +57 305 420 6139
 - **Portfolio**: https://juanjaramillo.tech
 - **LinkedIn**: https://www.linkedin.com/in/juan-jaramillo-ai

@@ -1,10 +1,11 @@
 {
   "index": 4,
-  "company": "Bjak",
-  "job_title": "Applied AI Engineer",
-  "platform": "Ashby",
-  "url": "https://jobs.ashbyhq.com/bjakcareer/0ab4a37a-0779-4480-8d3a-bbaf093c2da8/application",
-  "status": "Submitted",
-  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_4_screenshot.png",
-  "details": "Form submitted on Ashby."
+  "company": "Provectus",
+  "job_title": "Senior ML Engineer - Computer Vision",
+  "platform": "lever",
+  "url": "https://jobs.lever.co/provectus/e92413ae-d12d-4aca-b403-c9f84b42cd33",
+  "status": "Requires Manual Action",
+  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_4_20260719_155801.png",
+  "details": "Blocked by: captcha",
+  "timestamp": "2026-07-19T15:58:01.718337"
 }

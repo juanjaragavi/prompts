@@ -3,7 +3,7 @@
 ## AI Development Lead, Full-Stack Architect, and Serial Tech Entrepreneur
 
 📍 Bogotá, Colombia  
-📧 [info@juanjaramillo.tech](mailto:info@juanjaramillo.tech)  
+📧 [juanamillo@proton.me](mailto:juanamillo@proton.me)  
 📞 [+57 305 420 6139](tel:+573054206139)  
 🌐 [juanjaramillo.tech](https://juanjaramillo.tech)
 

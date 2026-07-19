@@ -198,7 +198,7 @@ ai_llm_html = f"""<!DOCTYPE html>
         <div class="tagline">AI Engineering Lead | LLM & Generative AI Architect</div>
         <div class="contact-info">
             Bogotá, Colombia <span class="contact-sep">|</span> 
-            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="mailto:juanamillo@proton.me">juanamillo@proton.me</a> <span class="contact-sep">|</span> 
             +57 305 420 6139 <span class="contact-sep">|</span> 
             <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
             <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
@@ -373,7 +373,7 @@ vibe_coding_html = f"""<!DOCTYPE html>
         <div class="tagline">AI-Native Full-Stack Architect | Vibe Coder | Product Engineer</div>
         <div class="contact-info">
             Bogotá, Colombia <span class="contact-sep">|</span> 
-            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="mailto:juanamillo@proton.me">juanamillo@proton.me</a> <span class="contact-sep">|</span> 
             +57 305 420 6139 <span class="contact-sep">|</span> 
             <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
             <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
@@ -548,7 +548,7 @@ cms_react_html = f"""<!DOCTYPE html>
         <div class="tagline">CMS & Full-Stack Architect | Headless Next.js Specialist | WordPress Expert</div>
         <div class="contact-info">
             Bogotá, Colombia <span class="contact-sep">|</span> 
-            <a href="mailto:info@juanjaramillo.tech">info@juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="mailto:juanamillo@proton.me">juanamillo@proton.me</a> <span class="contact-sep">|</span> 
             +57 305 420 6139 <span class="contact-sep">|</span> 
             <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
             <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>

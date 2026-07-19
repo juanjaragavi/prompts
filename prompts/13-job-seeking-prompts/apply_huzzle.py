@@ -73,7 +73,7 @@ async def main():
         print("Filling personal information...")
         await page.fill("#firstname", "Juan Miguel")
         await page.fill("#lastname", "Jaramillo Gaviria")
-        await page.fill("#email", "info@juanjaramillo.tech")
+        await page.fill("#email", "juanamillo@proton.me")
         
         # Phone
         # Phone input doesn't have an ID. We can fill it by using selector name=phone or input[type="tel"]
@@ -148,7 +148,7 @@ Warm regards,
 
 Juan Miguel Jaramillo Gaviria
 https://juanjaramillo.tech
-info@juanjaramillo.tech
+juanamillo@proton.me
 +57 305 420 6139
 Bogotá, Colombia"""
         await page.fill("#cover_letter", cover_letter_text)

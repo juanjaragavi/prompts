@@ -1,10 +1,11 @@
 {
   "index": 3,
-  "company": "Xsolla",
-  "job_title": "Product Owner, DevX and AI \u2014 Shop Builder",
-  "platform": "Lever",
-  "url": "https://jobs.lever.co/xsolla/d1cc3abc-fc26-4732-97ba-49971da226cf/apply",
-  "status": "Submitted",
-  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_3_screenshot.png",
-  "details": "Form submitted on Lever. Check screenshot for any CAPTCHA or success check."
+  "company": "Provectus",
+  "job_title": "Machine Learning Engineer (GenAI Focus)",
+  "platform": "lever",
+  "url": "https://jobs.lever.co/provectus/eec6c605-dcf5-495f-b1a4-00390dd8cb00",
+  "status": "Requires Manual Action",
+  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_3_20260719_155756.png",
+  "details": "Blocked by: captcha",
+  "timestamp": "2026-07-19T15:57:56.236612"
 }

@@ -1,0 +1,16 @@
+[
+  {
+    "index": 1,
+    "company": "Example Company 1",
+    "job_title": "AI Engineer",
+    "platform": "lever",
+    "url": "https://jobs.example.com/job-1"
+  },
+  {
+    "index": 2,
+    "company": "Example Company 2",
+    "job_title": "Senior AI Developer",
+    "platform": "workable",
+    "url": "https://jobs.example.com/job-2"
+  }
+]

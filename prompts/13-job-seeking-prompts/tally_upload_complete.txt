@@ -57,11 +57,11 @@ uid=17_0 RootWebArea "Job application" url="https://tally.so/r/w7V17L"
                       uid=21_36 ignored
                         uid=21_37 generic
                           uid=21_38 generic
-                            uid=17_49 textbox "Email" required value="info@juanjaramillo.tech"
+                            uid=17_49 textbox "Email" required value="juanamillo@proton.me"
                               uid=21_39 ignored
                               uid=21_40 generic
-                                uid=21_41 StaticText "info@juanjaramillo.tech"
-                                  uid=21_10 InlineTextBox "info@juanjaramillo.tech"
+                                uid=21_41 StaticText "juanamillo@proton.me"
+                                  uid=21_10 InlineTextBox "juanamillo@proton.me"
                     uid=21_42 ignored
                       uid=21_43 ignored
                         uid=21_44 generic

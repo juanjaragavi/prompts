@@ -1,10 +1,11 @@
 {
   "index": 7,
-  "company": "Netomi",
-  "job_title": "Agentic Engineer",
-  "platform": "Lever",
-  "url": "https://jobs.lever.co/netomi/ba379f47-091b-4f2d-82d3-e97a0821227e/apply",
-  "status": "Submitted",
-  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_7_screenshot.png",
-  "details": "Form submitted on Lever."
+  "company": "Provectus",
+  "job_title": "AI Engineer",
+  "platform": "lever",
+  "url": "https://jobs.lever.co/provectus/af7d425d-6ac5-4213-8592-1627aec6479c",
+  "status": "Requires Manual Action",
+  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_7_20260719_155818.png",
+  "details": "Blocked by: captcha",
+  "timestamp": "2026-07-19T15:58:18.139100"
 }

@@ -1,10 +1,11 @@
 {
   "index": 2,
-  "company": "TherapyNotes.com",
-  "job_title": "Senior Software Developer (Agentic Development)",
-  "platform": "Workable",
-  "url": "https://apply.workable.com/therapynotes/j/2A691CE916/apply/",
-  "status": "Submitted",
-  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_2_screenshot.png",
-  "details": "Application submitted on Workable."
+  "company": "Provectus",
+  "job_title": "Machine Learning Engineer",
+  "platform": "lever",
+  "url": "https://jobs.lever.co/provectus/8ea15b95-fc1f-47a5-bc77-f608ca04a4fa",
+  "status": "Requires Manual Action",
+  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_2_20260719_155750.png",
+  "details": "Blocked by: captcha",
+  "timestamp": "2026-07-19T15:57:50.739251"
 }

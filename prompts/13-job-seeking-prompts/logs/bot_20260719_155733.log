@@ -1,0 +1,57 @@
+2026-07-19 15:57:39,654 - JobApplicationBot - INFO - Processing Index 1: Provectus - Senior Machine Learning Engineer (lever)
+2026-07-19 15:57:45,098 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/397ff529-e2e9-4774-9219-5d3060cb6df2
+2026-07-19 15:57:45,200 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_1_20260719_155745.png
+2026-07-19 15:57:45,203 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_1.json - Requires Manual Action
+2026-07-19 15:57:45,203 - JobApplicationBot - INFO - Processing Index 2: Provectus - Machine Learning Engineer (lever)
+2026-07-19 15:57:50,672 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/8ea15b95-fc1f-47a5-bc77-f608ca04a4fa
+2026-07-19 15:57:50,737 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_2_20260719_155750.png
+2026-07-19 15:57:50,739 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_2.json - Requires Manual Action
+2026-07-19 15:57:50,739 - JobApplicationBot - INFO - Processing Index 3: Provectus - Machine Learning Engineer (GenAI Focus) (lever)
+2026-07-19 15:57:56,137 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/eec6c605-dcf5-495f-b1a4-00390dd8cb00
+2026-07-19 15:57:56,234 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_3_20260719_155756.png
+2026-07-19 15:57:56,236 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_3.json - Requires Manual Action
+2026-07-19 15:57:56,237 - JobApplicationBot - INFO - Processing Index 4: Provectus - Senior ML Engineer - Computer Vision (lever)
+2026-07-19 15:58:01,615 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/e92413ae-d12d-4aca-b403-c9f84b42cd33
+2026-07-19 15:58:01,716 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_4_20260719_155801.png
+2026-07-19 15:58:01,718 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_4.json - Requires Manual Action
+2026-07-19 15:58:01,718 - JobApplicationBot - INFO - Processing Index 5: Provectus - ML/AI Engineer (lever)
+2026-07-19 15:58:07,064 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/f76f6c65-1649-4924-970d-a5982db6d684
+2026-07-19 15:58:07,153 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_5_20260719_155807.png
+2026-07-19 15:58:07,155 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_5.json - Requires Manual Action
+2026-07-19 15:58:07,155 - JobApplicationBot - INFO - Processing Index 6: Provectus - Data Scientist - AI (lever)
+2026-07-19 15:58:12,470 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/648e719d-419e-4970-9ce5-752738621443
+2026-07-19 15:58:12,549 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_6_20260719_155812.png
+2026-07-19 15:58:12,552 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_6.json - Requires Manual Action
+2026-07-19 15:58:12,552 - JobApplicationBot - INFO - Processing Index 7: Provectus - AI Engineer (lever)
+2026-07-19 15:58:18,051 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/af7d425d-6ac5-4213-8592-1627aec6479c
+2026-07-19 15:58:18,137 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_7_20260719_155818.png
+2026-07-19 15:58:18,139 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_7.json - Requires Manual Action
+2026-07-19 15:58:18,139 - JobApplicationBot - INFO - Processing Index 8: Provectus - Senior ML Engineer - NLP (lever)
+2026-07-19 15:58:23,450 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/67a220f4-3f0b-4f90-8c88-7456e4e19156
+2026-07-19 15:58:23,540 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_8_20260719_155823.png
+2026-07-19 15:58:23,542 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_8.json - Requires Manual Action
+2026-07-19 15:58:23,542 - JobApplicationBot - INFO - Processing Index 9: Provectus - Python Engineer (lever)
+2026-07-19 15:58:28,841 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/9b48b2bb-ef1d-454a-b060-22dd089051c4
+2026-07-19 15:58:28,910 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_9_20260719_155828.png
+2026-07-19 15:58:28,914 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_9.json - Requires Manual Action
+2026-07-19 15:58:28,914 - JobApplicationBot - INFO - Processing Index 10: Oowlish - Senior Python Engineer (lever)
+2026-07-19 15:58:34,341 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/oowlish/e7ce2491-2ec1-499e-b7f5-931bcb6f19e2
+2026-07-19 15:58:34,430 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_10_20260719_155834.png
+2026-07-19 15:58:34,436 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_10.json - Requires Manual Action
+2026-07-19 15:58:34,436 - JobApplicationBot - INFO - Processing Index 11: Oowlish - Python Engineer (Entry Level) (lever)
+2026-07-19 15:58:39,781 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/oowlish/547116a2-8de4-4825-910d-a4e2eef11558
+2026-07-19 15:58:39,864 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_11_20260719_155839.png
+2026-07-19 15:58:39,872 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_11.json - Requires Manual Action
+2026-07-19 15:58:39,872 - JobApplicationBot - INFO - Processing Index 12: Oowlish - Senior Full Stack Engineer (lever)
+2026-07-19 15:58:45,194 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/oowlish/765cab63-09c4-4963-a095-720abb851e19
+2026-07-19 15:58:45,288 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_12_20260719_155845.png
+2026-07-19 15:58:45,294 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_12.json - Requires Manual Action
+2026-07-19 15:58:45,294 - JobApplicationBot - INFO - Processing Index 13: Oowlish - JavaScript Engineer (lever)
+2026-07-19 15:58:50,634 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/oowlish/4c8734c5-469f-4eb8-bd31-8c983030dd00
+2026-07-19 15:58:50,871 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_13_20260719_155850.png
+2026-07-19 15:58:50,877 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_13.json - Requires Manual Action
+2026-07-19 15:58:50,877 - JobApplicationBot - INFO - Processing Index 14: Oowlish - Product Manager - AI/ML (lever)
+2026-07-19 15:58:56,207 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/oowlish/a88859d9-ba19-41cb-a36f-a1483f4010fc
+2026-07-19 15:58:56,302 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_14_20260719_155856.png
+2026-07-19 15:58:56,308 - JobApplicationBot - INFO - Status saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/application_status_14.json - Requires Manual Action
+2026-07-19 15:58:56,332 - JobApplicationBot - INFO - All applications processed
