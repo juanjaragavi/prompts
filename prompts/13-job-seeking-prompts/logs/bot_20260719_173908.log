@@ -1,0 +1,35 @@
+2026-07-19 17:39:09,897 - JobApplicationBot - INFO - SINGLE HIL RETRY 5 3: Provectus - Machine Learning Engineer (GenAI Focus)
+2026-07-19 17:39:15,316 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/eec6c605-dcf5-495f-b1a4-00390dd8cb00
+2026-07-19 17:39:15,316 - JobApplicationBot - INFO - Solve CAPTCHA/challenge if visible. Waiting for form access...
+2026-07-19 17:39:15,316 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 17:39:19,333 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 17:39:23,340 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 17:39:27,348 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 17:39:27,367 - JobApplicationBot - INFO - Filling Lever form with candidate data...
+2026-07-19 17:39:28,406 - JobApplicationBot - DEBUG - Uploaded resume: #resume-upload-input
+2026-07-19 17:39:28,432 - JobApplicationBot - DEBUG - Filled lever_field: input[name="name"]
+2026-07-19 17:39:28,452 - JobApplicationBot - DEBUG - Filled lever_field: input[name="email"]
+2026-07-19 17:39:28,459 - JobApplicationBot - DEBUG - Filled lever_field: input[name="phone"]
+2026-07-19 17:39:31,485 - JobApplicationBot - DEBUG - Filled lever_field: input[name="org"]
+2026-07-19 17:39:31,495 - JobApplicationBot - DEBUG - Filled lever_field: input[name="urls\[LinkedIn\]"]
+2026-07-19 17:39:31,504 - JobApplicationBot - DEBUG - Filled lever_field: input[name="urls\[GitHub\]"]
+2026-07-19 17:39:31,512 - JobApplicationBot - DEBUG - Filled lever_field: input[name="urls\[Other\]"]
+2026-07-19 17:39:32,523 - JobApplicationBot - DEBUG - Selected lever_select: Advanced
+2026-07-19 17:39:33,275 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 17:39:50,492 - JobApplicationBot - DEBUG - Filled lever_field: textarea[name="cards\[d935d80c-1a16-4ae0-8d65-3c50b142c5f4\]\[field0\]"]
+2026-07-19 17:39:51,539 - JobApplicationBot - DEBUG - Filled lever_field: textarea[name="cards\[d935d80c-1a16-4ae0-8d65-3c50b142c5f4\]\[field3\]"]
+2026-07-19 17:39:51,550 - JobApplicationBot - DEBUG - Filled lever_field: textarea[name="cards\[d935d80c-1a16-4ae0-8d65-3c50b142c5f4\]\[field4\]"]
+2026-07-19 17:39:51,559 - JobApplicationBot - DEBUG - Filled lever_field: textarea[name="cards\[1a8413bb-9b94-44bd-b330-1601788dd0a6\]\[field0\]"]
+2026-07-19 17:39:51,568 - JobApplicationBot - DEBUG - Filled lever_field: textarea[name="cards\[e32027e6-6875-42ae-8260-cce5895723ce\]\[field0\]"]
+2026-07-19 17:39:51,575 - JobApplicationBot - DEBUG - Filled lever_field: textarea[name="cards\[e32027e6-6875-42ae-8260-cce5895723ce\]\[field1\]"]
+2026-07-19 17:39:51,581 - JobApplicationBot - DEBUG - Filled lever_field: textarea[name="cards\[e32027e6-6875-42ae-8260-cce5895723ce\]\[field2\]"]
+2026-07-19 17:39:51,591 - JobApplicationBot - DEBUG - Filled lever_field: textarea[name="cards\[e32027e6-6875-42ae-8260-cce5895723ce\]\[field3\]"]
+2026-07-19 17:39:51,601 - JobApplicationBot - DEBUG - Filled lever_field: textarea[name="cards\[e32027e6-6875-42ae-8260-cce5895723ce\]\[field4\]"]
+2026-07-19 17:39:52,608 - JobApplicationBot - DEBUG - Selected lever_select: Yes
+2026-07-19 17:39:53,362 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 17:39:53,385 - JobApplicationBot - INFO - Form fill summary: deterministic=10, ollama=12, unresolved_required=0
+2026-07-19 17:39:53,386 - JobApplicationBot - INFO - Locating submit button...
+2026-07-19 17:39:53,393 - JobApplicationBot - INFO - Found submit button: button:has-text("Submit application")
+2026-07-19 17:39:54,277 - JobApplicationBot - INFO - Clicked submit button
+2026-07-19 17:39:57,280 - JobApplicationBot - INFO - Verifying submission...
+2026-07-19 17:39:59,498 - JobApplicationBot - DEBUG - Screenshot saved: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/single_hil_retry5_result_3_20260719_173959.png

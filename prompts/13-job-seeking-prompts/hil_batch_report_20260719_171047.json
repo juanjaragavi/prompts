@@ -1,0 +1,136 @@
+{
+  "run_id": "human_in_loop_lever_20260719_171047",
+  "mode": "human_in_loop",
+  "targets": [
+    3,
+    5,
+    6,
+    7,
+    8,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "results": [
+    {
+      "index": 3,
+      "company": "Provectus",
+      "job_title": "Machine Learning Engineer (GenAI Focus)",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/eec6c605-dcf5-495f-b1a4-00390dd8cb00",
+      "status": "Incomplete Required Fields",
+      "details": "Required questions remain unanswered after deterministic and Ollama-assisted filling: Current location \u2731No location found. Try entering a different locationLoading",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/hil_incomplete_3_20260719_171145.png",
+      "timestamp": "2026-07-19T17:11:45.789174"
+    },
+    {
+      "index": 5,
+      "company": "Provectus",
+      "job_title": "ML/AI Engineer",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/f76f6c65-1649-4924-970d-a5982db6d684",
+      "status": "Incomplete Required Fields",
+      "details": "Required questions remain unanswered after deterministic and Ollama-assisted filling: Current location \u2731No location found. Try entering a different locationLoading",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/hil_incomplete_5_20260719_171414.png",
+      "timestamp": "2026-07-19T17:14:14.950864"
+    },
+    {
+      "index": 6,
+      "company": "Provectus",
+      "job_title": "Data Scientist - AI",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/648e719d-419e-4970-9ce5-752738621443",
+      "status": "Incomplete Required Fields",
+      "details": "Required questions remain unanswered after deterministic and Ollama-assisted filling: Current location \u2731No location found. Try entering a different locationLoading",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/hil_incomplete_6_20260719_171616.png",
+      "timestamp": "2026-07-19T17:16:16.263617"
+    },
+    {
+      "index": 7,
+      "company": "Provectus",
+      "job_title": "AI Engineer",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/af7d425d-6ac5-4213-8592-1627aec6479c",
+      "status": "Incomplete Required Fields",
+      "details": "Required questions remain unanswered after deterministic and Ollama-assisted filling: Current location \u2731No location found. Try entering a different locationLoading",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/hil_incomplete_7_20260719_171856.png",
+      "timestamp": "2026-07-19T17:18:56.653250"
+    },
+    {
+      "index": 8,
+      "company": "Provectus",
+      "job_title": "Senior ML Engineer - NLP",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/67a220f4-3f0b-4f90-8c88-7456e4e19156",
+      "status": "Requires Manual Action",
+      "details": "Form fields were not detectable after waiting 420s (likely unresolved CAPTCHA/challenge)",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/hil_no_form_8_20260719_172602.png",
+      "timestamp": "2026-07-19T17:26:02.609029"
+    },
+    {
+      "index": 16,
+      "company": "Provectus",
+      "job_title": "Python Developer",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/e6b3e70e-2ed5-4971-855c-147fb544bc2b",
+      "status": "Incomplete Required Fields",
+      "details": "Required questions remain unanswered after deterministic and Ollama-assisted filling: Current location \u2731No location found. Try entering a different locationLoading",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/hil_incomplete_16_20260719_172648.png",
+      "timestamp": "2026-07-19T17:26:48.891148"
+    },
+    {
+      "index": 17,
+      "company": "Provectus",
+      "job_title": "ML Engineer - Advanced AI",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/124f24b9-cbab-45d5-88eb-2d764d8a279c",
+      "status": "Incomplete Required Fields",
+      "details": "Required questions remain unanswered after deterministic and Ollama-assisted filling: Current location \u2731No location found. Try entering a different locationLoading",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/hil_incomplete_17_20260719_172938.png",
+      "timestamp": "2026-07-19T17:29:38.449795"
+    },
+    {
+      "index": 18,
+      "company": "Provectus",
+      "job_title": "Data Engineer - AI Infrastructure",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/298f9a99-b3a5-4034-97b6-9ffa7e3893b0",
+      "status": "Incomplete Required Fields",
+      "details": "Required questions remain unanswered after deterministic and Ollama-assisted filling: Current location \u2731No location found. Try entering a different locationLoading",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/hil_incomplete_18_20260719_173032.png",
+      "timestamp": "2026-07-19T17:30:32.747613"
+    },
+    {
+      "index": 19,
+      "company": "Provectus",
+      "job_title": "Solutions Architect - GenAI",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/1411c4fa-6e48-4306-a1a1-ab09dce73ea9",
+      "status": "Incomplete Required Fields",
+      "details": "Required questions remain unanswered after deterministic and Ollama-assisted filling: Current location \u2731No location found. Try entering a different locationLoading",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/hil_incomplete_19_20260719_173520.png",
+      "timestamp": "2026-07-19T17:35:20.162368"
+    },
+    {
+      "index": 20,
+      "company": "Provectus",
+      "job_title": "Senior Solutions Architect",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/289e1b0c-7fba-4782-aa6e-9720ea8be207",
+      "status": "Incomplete Required Fields",
+      "details": "Required questions remain unanswered after deterministic and Ollama-assisted filling: Current location \u2731No location found. Try entering a different locationLoading",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/hil_incomplete_20_20260719_173750.png",
+      "timestamp": "2026-07-19T17:37:50.969370"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "submitted": 0,
+    "submission_uncertain": 0,
+    "form_filled": 0,
+    "manual_action": 1,
+    "failed": 0
+  }
+}

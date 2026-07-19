@@ -1,0 +1,40 @@
+2026-07-19 16:56:01,083 - JobApplicationBot - INFO - ================================================================================
+2026-07-19 16:56:01,083 - JobApplicationBot - INFO - HIL Processing 3: Provectus - Machine Learning Engineer (GenAI Focus)
+2026-07-19 16:56:01,083 - JobApplicationBot - INFO - URL: https://jobs.lever.co/provectus/eec6c605-dcf5-495f-b1a4-00390dd8cb00
+2026-07-19 16:56:06,593 - JobApplicationBot - INFO - Loaded: https://jobs.lever.co/provectus/eec6c605-dcf5-495f-b1a4-00390dd8cb00
+2026-07-19 16:56:06,593 - JobApplicationBot - INFO - If CAPTCHA/challenge is visible, solve it now in the opened browser window. Waiting up to 420s...
+2026-07-19 16:56:06,593 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 16:56:10,609 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 16:56:14,615 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 16:56:18,618 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 16:56:18,624 - JobApplicationBot - ERROR - Error detecting form fields: Page.evaluate: SyntaxError: Failed to execute 'closest' on 'Element': '[data-qa], .application-question, .application-field, .postings-input-wrapper, fieldset, .application-page]' is not a valid selector.
+    at detectLabel (eval at evaluate (:303:30), <anonymous>:23:43)
+    at eval (eval at evaluate (:303:30), <anonymous>:69:30)
+    at Array.forEach (<anonymous>)
+    at eval (eval at evaluate (:303:30), <anonymous>:51:28)
+    at UtilityScript.evaluate (<anonymous>:310:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2026-07-19 16:56:22,625 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 16:56:22,629 - JobApplicationBot - ERROR - Error detecting form fields: Page.evaluate: SyntaxError: Failed to execute 'closest' on 'Element': '[data-qa], .application-question, .application-field, .postings-input-wrapper, fieldset, .application-page]' is not a valid selector.
+    at detectLabel (eval at evaluate (:303:30), <anonymous>:23:43)
+    at eval (eval at evaluate (:303:30), <anonymous>:69:30)
+    at Array.forEach (<anonymous>)
+    at eval (eval at evaluate (:303:30), <anonymous>:51:28)
+    at UtilityScript.evaluate (<anonymous>:310:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2026-07-19 16:56:26,632 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 16:56:26,647 - JobApplicationBot - ERROR - Error detecting form fields: Page.evaluate: SyntaxError: Failed to execute 'closest' on 'Element': '[data-qa], .application-question, .application-field, .postings-input-wrapper, fieldset, .application-page]' is not a valid selector.
+    at detectLabel (eval at evaluate (:303:30), <anonymous>:23:43)
+    at eval (eval at evaluate (:303:30), <anonymous>:69:30)
+    at Array.forEach (<anonymous>)
+    at eval (eval at evaluate (:303:30), <anonymous>:51:28)
+    at UtilityScript.evaluate (<anonymous>:310:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2026-07-19 16:56:30,654 - JobApplicationBot - INFO - Detecting Lever form fields dynamically...
+2026-07-19 16:56:30,749 - JobApplicationBot - ERROR - Error detecting form fields: Page.evaluate: SyntaxError: Failed to execute 'closest' on 'Element': '[data-qa], .application-question, .application-field, .postings-input-wrapper, fieldset, .application-page]' is not a valid selector.
+    at detectLabel (eval at evaluate (:303:30), <anonymous>:23:43)
+    at eval (eval at evaluate (:303:30), <anonymous>:69:30)
+    at Array.forEach (<anonymous>)
+    at eval (eval at evaluate (:303:30), <anonymous>:51:28)
+    at UtilityScript.evaluate (<anonymous>:310:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)

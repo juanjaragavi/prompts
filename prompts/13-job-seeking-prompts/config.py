@@ -124,6 +124,10 @@ class Config:
     def get_job_search_config(self) -> Dict[str, Any]:
         """Get job search strategy and parameters"""
         return self.data.get("job_search", {})
+
+    def get_ollama_config(self) -> Dict[str, Any]:
+        """Get local Ollama assistant configuration."""
+        return self.data.get("ollama", {})
     
     def get_execution_plan(self) -> Dict[str, str]:
         """Get 30-day execution plan reference"""

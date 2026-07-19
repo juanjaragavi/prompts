@@ -1,2 +1,8 @@
 playwright>=1.40.0
 pyyaml>=6.0
+apscheduler>=3.10.0
+async-timeout>=4.0.0
+
+# Optional: pyppeteer conflicts with Playwright's pyee pin in a single env.
+# Install in a dedicated venv when Puppeteer mode is required:
+#   pip install pyppeteer

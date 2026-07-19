@@ -1,13 +1,11 @@
 {
-  "status": "Submitted",
-  "company": "Nimble Gravity",
-  "job_title": "Ingeniero de AI - Colombia",
-  "application_url": "https://job-boards.greenhouse.io/nimblegravity/jobs/4711710005?utm_source=Jobgether&utm_content=6a46f4b2ac00a71a5a77840d-ingeniero-de-ai---colombia&utm_campaign=search&utm_medium=website",
-  "candidate_name": "Juan Miguel Jaramillo Gaviria",
-  "submission_date": "2026-07-10",
-  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshot_additional_job_3_submitted.png",
-  "pre_drafted_answers": {
-    "Vives en Colombia?": "Yes",
-    "Expectativa salarial en COP": "14.000.000 - 18.000.000 COP mensuales"
-  }
+  "index": 3,
+  "company": "Provectus",
+  "job_title": "Machine Learning Engineer (GenAI Focus)",
+  "platform": "lever",
+  "url": "https://jobs.lever.co/provectus/eec6c605-dcf5-495f-b1a4-00390dd8cb00",
+  "status": "Requires Manual Action",
+  "details": "Blocked by: captcha",
+  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_3_20260719_163028.png",
+  "timestamp": "2026-07-19T16:30:28.877567"
 }

@@ -268,6 +268,11 @@ browser:
   page_load_wait_ms: 5000
   action_wait_ms: 1000
 
+ollama:
+  enabled: true
+  model: 'llama3-groq-tool-use:8b'
+  timeout_seconds: 20
+
 platforms:
   smartrecruiters:
     name: 'SmartRecruiters'

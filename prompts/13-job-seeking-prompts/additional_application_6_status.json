@@ -1,39 +1,11 @@
 {
-  "status": "Submitted",
-  "details": {
-    "job_title": "AI & Machine Learning Engineer",
-    "company": "ITC Worldwide, LTD.",
-    "url": "https://www.careers-page.com/itc-worldwide-info/job/L699X535/apply?utm_source=Jobgether&utm_content=6a3e54de2da8cde35c7510fc-ai-machine-learning-engineer&utm_campaign=search&utm_medium=website",
-    "submission_message": "Thank you for your application! Your application was successfully submitted.",
-    "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/itc_apply_result.png"
-  },
-  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/itc_apply_result.png",
-  "pre_drafted_answers": {
-    "full_name": "Juan Miguel Jaramillo Gaviria",
-    "email": "juanamillo@proton.me",
-    "phone": "+57 305 420 6139",
-    "job_position": "AI & Machine Learning Engineer",
-    "current_location": "Bogotá, Colombia",
-    "software_sales_experience": "0",
-    "age_or_dob": "1984-06-15",
-    "expected_monthly_salary": "3500 USD",
-    "book_of_business": "No",
-    "availability_to_resume": "2026-07-11",
-    "highest_sales_closed_3_years": "N/A",
-    "terms_accepted": true,
-    "experience": {
-      "title": "AI Development Lead",
-      "company": "TopNetworks Inc.",
-      "start_date": "2025-02-01",
-      "location": "Remote",
-      "description": "Spearheaded AI engineering strategy and full-stack architecture for high-performance publishing platforms serving markets across the US, UK, Mexico, and Latin America."
-    },
-    "education": {
-      "school": "University of Toronto",
-      "specialization": "Generative AI for Business",
-      "start_date": "2022-12-01",
-      "degree": "Bachelor's Degree",
-      "description": "AI strategy, innovation, ethics, decision-making, governance, and organizational transformation, with case studies from major companies."
-    }
-  }
+  "index": 6,
+  "company": "Provectus",
+  "job_title": "Data Scientist - AI",
+  "platform": "lever",
+  "url": "https://jobs.lever.co/provectus/648e719d-419e-4970-9ce5-752738621443",
+  "status": "Requires Manual Action",
+  "details": "Blocked by: captcha",
+  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_6_20260719_163039.png",
+  "timestamp": "2026-07-19T16:30:39.895927"
 }

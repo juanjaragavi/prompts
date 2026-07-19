@@ -1,0 +1,135 @@
+{
+  "run_id": "targeted_additional_20260719_163022",
+  "target_indexes": [
+    3,
+    5,
+    6,
+    7,
+    8,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "selected_count": 10,
+  "results": [
+    {
+      "index": 3,
+      "company": "Provectus",
+      "job_title": "Machine Learning Engineer (GenAI Focus)",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/eec6c605-dcf5-495f-b1a4-00390dd8cb00",
+      "status": "Requires Manual Action",
+      "details": "Blocked by: captcha",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_3_20260719_163028.png",
+      "timestamp": "2026-07-19T16:30:28.877567"
+    },
+    {
+      "index": 5,
+      "company": "Provectus",
+      "job_title": "ML/AI Engineer",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/f76f6c65-1649-4924-970d-a5982db6d684",
+      "status": "Requires Manual Action",
+      "details": "Blocked by: captcha",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_5_20260719_163034.png",
+      "timestamp": "2026-07-19T16:30:34.460215"
+    },
+    {
+      "index": 6,
+      "company": "Provectus",
+      "job_title": "Data Scientist - AI",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/648e719d-419e-4970-9ce5-752738621443",
+      "status": "Requires Manual Action",
+      "details": "Blocked by: captcha",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_6_20260719_163039.png",
+      "timestamp": "2026-07-19T16:30:39.895927"
+    },
+    {
+      "index": 7,
+      "company": "Provectus",
+      "job_title": "AI Engineer",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/af7d425d-6ac5-4213-8592-1627aec6479c",
+      "status": "Requires Manual Action",
+      "details": "Blocked by: captcha",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_7_20260719_163045.png",
+      "timestamp": "2026-07-19T16:30:45.316106"
+    },
+    {
+      "index": 8,
+      "company": "Provectus",
+      "job_title": "Senior ML Engineer - NLP",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/67a220f4-3f0b-4f90-8c88-7456e4e19156",
+      "status": "Requires Manual Action",
+      "details": "Blocked by: captcha",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_8_20260719_163050.png",
+      "timestamp": "2026-07-19T16:30:50.880428"
+    },
+    {
+      "index": 16,
+      "company": "Provectus",
+      "job_title": "Python Developer",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/e6b3e70e-2ed5-4971-855c-147fb544bc2b",
+      "status": "Requires Manual Action",
+      "details": "Blocked by: captcha",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_16_20260719_163056.png",
+      "timestamp": "2026-07-19T16:30:56.282050"
+    },
+    {
+      "index": 17,
+      "company": "Provectus",
+      "job_title": "ML Engineer - Advanced AI",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/124f24b9-cbab-45d5-88eb-2d764d8a279c",
+      "status": "Requires Manual Action",
+      "details": "Blocked by: captcha",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_17_20260719_163101.png",
+      "timestamp": "2026-07-19T16:31:01.688466"
+    },
+    {
+      "index": 18,
+      "company": "Provectus",
+      "job_title": "Data Engineer - AI Infrastructure",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/298f9a99-b3a5-4034-97b6-9ffa7e3893b0",
+      "status": "Requires Manual Action",
+      "details": "Blocked by: captcha",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_18_20260719_163107.png",
+      "timestamp": "2026-07-19T16:31:07.096911"
+    },
+    {
+      "index": 19,
+      "company": "Provectus",
+      "job_title": "Solutions Architect - GenAI",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/1411c4fa-6e48-4306-a1a1-ab09dce73ea9",
+      "status": "Requires Manual Action",
+      "details": "Blocked by: captcha",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_19_20260719_163113.png",
+      "timestamp": "2026-07-19T16:31:13.184921"
+    },
+    {
+      "index": 20,
+      "company": "Provectus",
+      "job_title": "Senior Solutions Architect",
+      "platform": "lever",
+      "url": "https://jobs.lever.co/provectus/289e1b0c-7fba-4782-aa6e-9720ea8be207",
+      "status": "Requires Manual Action",
+      "details": "Blocked by: captcha",
+      "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_20_20260719_163118.png",
+      "timestamp": "2026-07-19T16:31:18.600861"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "submitted": 0,
+    "form_filled": 0,
+    "manual_action": 10,
+    "failed_or_error": 0
+  }
+}

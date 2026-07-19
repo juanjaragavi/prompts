@@ -1,24 +1,11 @@
 {
-  "status": "Submitted",
-  "details": "Successfully completed and submitted the application for the AI Engineer position at ioet on behalf of Juan Miguel Jaramillo Gaviria. No login walls, registration requirements, or CAPTCHAs blocked the submission.",
-  "screenshot_path": null,
-  "pre_drafted_answers": {
-    "Are you based/Do you live in Latin America?": "Yes",
-    "How do you evaluate your English skills?": "Advanced/Fluent",
-    "What are your salary expectations?": "4500 USD/month",
-    "Please introduce the link to your LinkedIn account here": "https://www.linkedin.com/in/juan-jaramillo-ai/",
-    "Have you worked extensively with Large Language Models (LLMs)?": "Yes, including fine-tuning and deployment",
-    "What are the top 3 technologies in your tech stack?": "Python, Next.js (TypeScript), Generative AI / LLMs",
-    "How many years of professional experience as a Machine Learning Engineer or Software Engineer working with ML systems do you have?": "4 - 5 years",
-    "What type of ML systems have you worked on professionally?": [
-      "NLP / text processing systems",
-      "Personalization systems"
-    ],
-    "Please describe the most recent project where you worked with Large Language Models (LLMs).": "As AI Development Lead at TopNetworks Inc., I designed and deployed EmailGenius on GCP. Built using Next.js 15, React 19, TypeScript, and Gemini 2.5 Flash, EmailGenius utilizes advanced prompts and structured JSON outputs for high-throughput AI email generation, incorporating Git Flow for prompt versioning and hallucination risk frameworks to ensure high-quality, high-velocity coding and production-grade delivery.",
-    "Are you experienced with either the LangChain and/or LangGraph?": "Yes",
-    "Which cloud platforms (e.g., AWS, GCP, Azure) have you worked with, and which would you consider yourself most proficient in using?": "I have worked extensively with Google Cloud Platform (GCP) and Supabase. I consider myself most proficient in Google Cloud Platform (GCP), specifically using services like Cloud Run, Cloud Armor, BigQuery, Compute Engine, and Cloud DNS to deploy scalable, containerized AI services.",
-    "Please tell us about your biggest professional challenge": "My biggest professional challenge was architecting and launching the EmailGenius SaaS ecosystem under tight timelines while ensuring near-zero hallucination rates and robust latency profiles for high-throughput operations. By integrating rigorous structured prompt versioning (Git Flow), fine-tuned error handling, and robust caching on Google Cloud Platform, I managed to build a highly available, scalable system that boosted productivity by 46% while ensuring clean, reliable, and consistent AI-generated outputs.",
-    "Which option best describes your professional working style?": "Ownership-driven",
-    "Why did you choose that option as the best description of your professional working style?": "I chose ownership-driven because, throughout my 17-year career, including co-founding companies and leading AI development, I have always taken full accountability for end-to-end technical delivery and business alignment. I treat every project as if it were my own company, proactively identifying potential bottlenecks, optimizing architecture, and aligning engineering outcomes directly with business goals to deliver high-impact results."
-  }
+  "index": 5,
+  "company": "Provectus",
+  "job_title": "ML/AI Engineer",
+  "platform": "lever",
+  "url": "https://jobs.lever.co/provectus/f76f6c65-1649-4924-970d-a5982db6d684",
+  "status": "Requires Manual Action",
+  "details": "Blocked by: captcha",
+  "screenshot_path": "/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/blocked_5_20260719_163034.png",
+  "timestamp": "2026-07-19T16:30:34.460215"
 }
