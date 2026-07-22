@@ -3,6 +3,7 @@
 ## Overview
 
 Phase 3 adds enterprise-level features to the job automation system:
+
 - **Puppeteer** - Superior JavaScript form handling and submission
 - **APScheduler** - Automated scheduled batch runs
 - **Analytics Engine** - Comprehensive tracking and reporting
@@ -36,6 +37,7 @@ python3 test_phase3_bot.py
 ```
 
 Expected output:
+
 ```
 ✓ Config loading passed
 ✓ Candidate registration passed
@@ -52,6 +54,7 @@ Expected output:
 ### 1. Puppeteer Handler (`puppeteer_handler.py`)
 
 Advanced form handling with:
+
 - Dynamic field detection via JavaScript
 - Intelligent data mapping
 - Retry logic with exponential backoff
@@ -59,6 +62,7 @@ Advanced form handling with:
 - Comprehensive error handling
 
 **Key Methods:**
+
 ```python
 handler = PuppeteerFormHandler(logger, config)
 await handler.init_browser()
@@ -72,6 +76,7 @@ await handler.cleanup()
 ### 2. Scheduler Manager (`scheduler_manager.py`)
 
 Automated job scheduling with APScheduler:
+
 - Daily scheduling (specific time)
 - Interval scheduling (every N hours)
 - Custom cron expressions
@@ -79,6 +84,7 @@ Automated job scheduling with APScheduler:
 - Job statistics
 
 **Key Methods:**
+
 ```python
 scheduler = ScheduledJobManager(logger, config)
 scheduler.schedule_daily_applications(hour=9, minute=0, callback)
@@ -93,6 +99,7 @@ scheduler.get_job_stats()
 ### 3. Analytics Engine (`analytics_engine.py`)
 
 Comprehensive tracking and reporting:
+
 - Records every application attempt
 - Tracks success/failure rates
 - Platform and company analysis
@@ -100,6 +107,7 @@ Comprehensive tracking and reporting:
 - Dashboard-ready summaries
 
 **Key Methods:**
+
 ```python
 analytics = AnalyticsEngine(logger, config, status_dir)
 analytics.record_application(index, company, job_title, platform, status, duration)
@@ -114,6 +122,7 @@ analytics.get_dashboard_summary()
 ### 4. Hardened Production Bot (`hardened_bot.py`)
 
 Main orchestration layer combining all components:
+
 - Retry logic (up to 3 attempts with exponential backoff)
 - Concurrency control (max 3 concurrent applications)
 - Multi-candidate support
@@ -121,6 +130,7 @@ Main orchestration layer combining all components:
 - Batch processing
 
 **Key Methods:**
+
 ```python
 bot = HardenedProductionBot(config, logger)
 
@@ -168,14 +178,14 @@ from config import Config
 async def main():
     config = Config()
     bot = HardenedProductionBot(config)
-    
+
     result = await bot.process_application(
         url="https://jobs.lever.co/provectus/397ff529-e2e9-4774-9219-5d3060cb6df2",
         company="Provectus",
         job_title="Senior Machine Learning Engineer",
         platform="lever"
     )
-    
+
     print(f"Status: {result['status']}")
     print(f"Duration: {result['duration']:.2f}s")
     print(f"Details: {result['details']}")
@@ -194,14 +204,14 @@ from config import Config
 async def main():
     config = Config()
     bot = HardenedProductionBot(config)
-    
+
     # Load applications
     with open("open_applications_inventory_expanded.json") as f:
         applications = json.load(f)
-    
+
     # Process batch (max 3 concurrent)
     results = await bot.process_batch(applications[:10])
-    
+
     # Show results
     for i, result in enumerate(results):
         print(f"{i+1}. {result['status']} ({result['duration']:.1f}s)")
@@ -219,7 +229,7 @@ from config import Config
 async def main():
     config = Config()
     bot = HardenedProductionBot(config)
-    
+
     # Register multiple candidates
     candidate1 = {
         "full_name": "John Doe",
@@ -233,10 +243,10 @@ async def main():
         "phone_with_cc": "+0987654321",
         # ... other fields
     }
-    
+
     bot.register_candidate("john", candidate1)
     bot.register_candidate("jane", candidate2)
-    
+
     # Apply with different candidates
     result1 = await bot.process_application(
         url="https://...",
@@ -245,7 +255,7 @@ async def main():
         platform="lever",
         candidate_name="john"
     )
-    
+
     result2 = await bot.process_application(
         url="https://...",
         company="Company B",
@@ -267,7 +277,7 @@ from config import Config
 async def main():
     config = Config()
     bot = HardenedProductionBot(config)
-    
+
     # Schedule daily runs at 9 AM
     bot.schedule_batch_runs(
         applications_file="open_applications_inventory_expanded.json",
@@ -275,10 +285,10 @@ async def main():
         hour=9,
         minute=0
     )
-    
+
     # Start scheduler
     await bot.start_scheduler()
-    
+
     # Keep running (infinite)
     try:
         while True:
@@ -299,17 +309,17 @@ from config import Config
 async def main():
     config = Config()
     bot = HardenedProductionBot(config)
-    
+
     # Get health status
     status = bot.get_health_status()
     print(f"Candidates: {status['candidates_registered']}")
     print(f"Scheduled jobs: {len(status['scheduled_jobs'])}")
-    
+
     # Get quick summary
     summary = bot.get_status_summary()
     print(f"Total applications: {summary['total_applications_recorded']}")
     print(f"Success rate: {summary['success_rate']:.1f}%")
-    
+
     # Export detailed report
     report_file = bot.export_analytics()
     print(f"Report exported: {report_file}")
@@ -322,6 +332,7 @@ asyncio.run(main())
 ## Scheduling Formats
 
 ### Daily Run
+
 ```python
 bot.schedule_batch_runs(
     applications_file="inventory.json",
@@ -330,33 +341,40 @@ bot.schedule_batch_runs(
     minute=0
 )
 ```
+
 Runs every day at 09:00.
 
 ### Every 4 Hours
+
 ```python
 bot.schedule_batch_runs(
     applications_file="inventory.json",
     schedule="every_4_hours"
 )
 ```
+
 Runs every 4 hours.
 
 ### Hourly
+
 ```python
 bot.schedule_batch_runs(
     applications_file="inventory.json",
     schedule="hourly"
 )
 ```
+
 Runs every hour.
 
 ### Custom Cron
+
 ```python
 bot.schedule_batch_runs(
     applications_file="inventory.json",
     schedule="0 9 * * 1-5"  # 9 AM, Monday-Friday
 )
 ```
+
 Cron format: `minute hour day month weekday`
 
 ---
@@ -372,6 +390,7 @@ The hardened bot implements:
 5. **Exception Wrapping**: All errors logged and recorded
 
 **Retry Flow:**
+
 ```
 Attempt 1 → Failed → Wait 1s
 Attempt 2 → Failed → Wait 2s
@@ -385,6 +404,7 @@ Attempt 3 → Failed → Timeout (give up)
 ### Option 1: Systemd Service (Linux)
 
 Create `/etc/systemd/system/job-bot.service`:
+
 ```ini
 [Unit]
 Description=Job Application Bot
@@ -403,6 +423,7 @@ WantedBy=multi-user.target
 ```
 
 Then:
+
 ```bash
 sudo systemctl enable job-bot
 sudo systemctl start job-bot
@@ -412,6 +433,7 @@ sudo systemctl status job-bot
 ### Option 2: Docker
 
 Create `Dockerfile.phase3`:
+
 ```dockerfile
 FROM python:3.11-slim
 
@@ -426,6 +448,7 @@ CMD ["python3", "run_scheduler.py"]
 ```
 
 Build and run:
+
 ```bash
 docker build -f Dockerfile.phase3 -t job-bot .
 docker run -d --name job-bot job-bot
@@ -445,6 +468,7 @@ screen -r job-bot
 ## Monitoring Dashboard
 
 View real-time status:
+
 ```python
 import json
 from hardened_bot import HardenedProductionBot
@@ -463,11 +487,13 @@ print(json.dumps(bot.get_health_status(), indent=2))
 ## Testing
 
 Run the comprehensive test suite:
+
 ```bash
 python3 test_phase3_bot.py
 ```
 
 Tests cover:
+
 - Config loading
 - Multi-candidate registration
 - Analytics recording and export
@@ -485,6 +511,7 @@ Tests cover:
 - Chromium browser (auto-installed by pyppeteer)
 
 Install all:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -493,13 +520,13 @@ pip install -r requirements.txt
 
 ## Troubleshooting
 
-| Issue | Solution |
-|-------|----------|
-| Scheduler not running | Check `bot.scheduler.running`, ensure `await bot.start_scheduler()` called |
-| Analytics not recording | Verify `bot.analytics.record_application()` called after each attempt |
-| Puppeteer browser fails | Install: `python3 -m pyppeteer install`, ensure Chromium installed |
-| Memory usage high | Reduce `max_concurrent` from 3 to 2, add manual GC cleanup |
-| No report generated | Check `bot.export_analytics()` return value and logs directory permissions |
+| Issue                   | Solution                                                                   |
+| ----------------------- | -------------------------------------------------------------------------- |
+| Scheduler not running   | Check `bot.scheduler.running`, ensure `await bot.start_scheduler()` called |
+| Analytics not recording | Verify `bot.analytics.record_application()` called after each attempt      |
+| Puppeteer browser fails | Install: `python3 -m pyppeteer install`, ensure Chromium installed         |
+| Memory usage high       | Reduce `max_concurrent` from 3 to 2, add manual GC cleanup                 |
+| No report generated     | Check `bot.export_analytics()` return value and logs directory permissions |
 
 ---
 

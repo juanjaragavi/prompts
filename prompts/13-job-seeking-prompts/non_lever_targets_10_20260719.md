@@ -39,6 +39,7 @@ Fresh list built from local discovery artifacts, prioritized for AI Developer, P
    - URL: https://ar.linkedin.com/jobs/view/python-developer-ai-at-epam-systems-4428949992
    - Source: trilogy_apply_page_snapshot.txt
 10. **Llm Developer At Accenture Colombia**
-   - Category: Prompt Engineer / LLM Developer
-   - URL: https://co.linkedin.com/jobs/view/llm-developer-at-accenture-colombia-4427472118
-   - Source: linkedin_darwin_snapshot_latest.txt
+
+- Category: Prompt Engineer / LLM Developer
+- URL: https://co.linkedin.com/jobs/view/llm-developer-at-accenture-colombia-4427472118
+- Source: linkedin_darwin_snapshot_latest.txt
