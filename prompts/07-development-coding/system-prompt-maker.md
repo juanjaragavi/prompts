@@ -37,7 +37,7 @@ If you have any suggestions or problems regarding this output,
 <format_your_output_as_follows>
 
 ```markdown
-<agent_output>
+<system>
 
 <agent_name>
 {Name of the AI agent. Use a concise, role-specific title.}
@@ -81,7 +81,7 @@ safety constraints, and interaction style.}
 {Validation checklist: clarity, completeness, consistency, correctness, and policy alignment.}
 </quality_checks>
 
-</agent_output>
+</system>
 ```
 
 Ensure the generated XML is complete, internally consistent, and immediately usable as a production
