@@ -1,10 +1,7 @@
 # **Prompt:**
 
-You have been tasked with carefully reading and following the steps below.
+We are currently working on the `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts` directory. I, Juan Jaramillo, started this project to help me find a well-paying job primarily through LinkedIn and other job websites redirecting from the LinkedIn Jobs section (<https://www.linkedin.com/jobs>). The agent uses MCP Server and other tools to perform tasks such as using the Chrome web browser and searching online.
 
-1. Study and analyze the `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts` directory. Look for key Markdown and PDF files about Juan Jaramillo that can be copied to the `clone` directory in the `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/clone` directory. This is in preparation for the next step.
-2. Create an LLM-based skill that includes its respective `SKILL.md` file, which will need to be generated. This skill will provide the AI agent with context when instructed to impersonate Jaramillo for job applications and interviews.
+You have been tasked with building a local Agentic workflow that can be developed as a Next.js application, executed as a Node service, or built on Python and run through a BASH script (run a local diagnosis of the local codebase and evaluate the best option to deploy it locally). This workflow deploys agents and subagents to perform job application tasks for me on the LinkedIn Jobs section and external sites to which LinkedIn redirects.
 
-The skill should contain all the information about Juan Jaramillo from the Markdown files in the `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/clone` directory, as well as the new files.
-
-This directory should be ready for conversion into a Perplexity project.
+Ollama is installed, including the application, the CLI, and the `ollama` CLI. The `ollama` CLI is a tool that allows you to interact with Ollama from the command line interface. Read the official Ollama documentation to learn how to leverage all the installed local models on this system. Then, run the `ollama ls` command to identify the available local LLMs and select the most suitable ones for the task. These LLMs will compose the logic of the Agentic workflow.
