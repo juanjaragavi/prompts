@@ -32,32 +32,35 @@
   - Target external job boards permit standard browser automation.
   </assumptions>
 
-  <implementation_details>
-  1. Diagnostic Phase:
-     - Analyze `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts` file structure and dependencies as source context.
-     - Determine the optimal runtime environment (Next.js, Node.js, or Python/Bash).
-     - Define a concrete new project directory under `/Users/macbookpro/GitHub` (for example, `/Users/macbookpro/GitHub/job-application-agentic-workflow`).
-  2. Model Selection:
-     - Execute `ollama ls` to inspect available local models.
-     - Map specific models to functional agent roles (e.g., job filtering, browser navigation, form completion).
-  3. Architecture & Orchestration:
-     - Implement primary agent and sub-agent communication interfaces.
-     - Integrate MCP Server tooling for browser control and external site parsing.
-     - Support handling redirected external job portal applications from LinkedIn links.
-     - Copy and adapt any required context files, templates, examples, or configuration assets from `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts` into the new project directory under `/Users/macbookpro/GitHub` when needed.
-  </implementation_details>
+<implementation_details>
 
-  <edge_cases>
-  - Unhandled external job portals requiring unsupported authentication or anti-bot verification.
-  - Missing or inadequate local Ollama models for complex reasoning/parsing tasks.
-  - Navigation failures or broken links during LinkedIn job redirects.
+1. Diagnostic Phase:
+   - Analyze `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts` file structure and dependencies as source context.
+   - Determine the optimal runtime environment (Next.js, Node.js, or Python/Bash).
+   - Define a concrete new project directory under `/Users/macbookpro/GitHub` (for example, `/Users/macbookpro/GitHub/job-application-agentic-workflow`).
+2. Model Selection:
+   - Execute `ollama ls` to inspect available local models.
+   - Map specific models to functional agent roles (e.g., job filtering, browser navigation, form completion).
+3. Architecture & Orchestration:
+   - Implement primary agent and sub-agent communication interfaces.
+   - Integrate MCP Server tooling for browser control and external site parsing.
+   - Support handling redirected external job portal applications from LinkedIn links.
+   - Copy and adapt any required context files, templates, examples, or configuration assets from `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts` into the new project directory under `/Users/macbookpro/GitHub` when needed.
+     </implementation_details>
+
+<edge_cases>
+
+- Unhandled external job portals requiring unsupported authentication or anti-bot verification.
+- Missing or inadequate local Ollama models for complex reasoning/parsing tasks.
+- Navigation failures or broken links during LinkedIn job redirects.
   </edge_cases>
 
-  <acceptance_criteria>
-  - Codebase diagnosis provides a clear rationale for the chosen execution framework (Next.js / Node.js / Python).
-  - Selected local LLMs from `ollama ls` are successfully mapped and integrated into the workflow.
-  - Agentic workflow successfully navigates LinkedIn Jobs and external redirects via MCP/Chrome integration.
-  - Application tasks complete end-to-end without requiring cloud-based model endpoints.
+<acceptance_criteria>
+
+- Codebase diagnosis provides a clear rationale for the chosen execution framework (Next.js / Node.js / Python).
+- Selected local LLMs from `ollama ls` are successfully mapped and integrated into the workflow.
+- Agentic workflow successfully navigates LinkedIn Jobs and external redirects via MCP/Chrome integration.
+- Application tasks complete end-to-end without requiring cloud-based model endpoints.
   </acceptance_criteria>
 
   <validation>

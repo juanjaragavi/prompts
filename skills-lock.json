@@ -73,6 +73,12 @@
       "skillPath": "skills/cloud/agent-platform-tuning-management/SKILL.md",
       "computedHash": "87a9c1aff571a7eb3fac70ae99f03cd8baca4f523e93516e7dbae7c970de4647"
     },
+    "ai-ready": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/ai-ready/SKILL.md",
+      "computedHash": "18b3b83b888d5b770ddc2365c05a366457777c156c4dcda3eda7012820d37d5b"
+    },
     "gcloud": {
       "source": "google/skills",
       "sourceType": "github",
