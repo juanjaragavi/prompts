@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-workflow-designer": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/agent-workflow-designer/SKILL.md",
+      "computedHash": "4eeb978815a7420e99924551d7b98a70daec5f22e1a55afc6066db3f56b75587"
+    },
+    "agentic": {
+      "source": "bergside/awesome-design-skills",
+      "sourceType": "github",
+      "skillPath": "skills/agentic/SKILL.md",
+      "computedHash": "540555fad7d6cabc83d6055d4f9ad053cfcae0748be54187037731f8a2adc320"
+    },
+    "agentic-engineering": {
+      "source": "affaan-m/everything-claude-code",
+      "sourceType": "github",
+      "skillPath": "skills/agentic-engineering/SKILL.md",
+      "computedHash": "4fd2d9976302037efb569251152ebfc39849219ca1c099b65adb77a074acb5f4"
+    },
+    "agentic-workflow": {
+      "source": "parcadei/continuous-claude-v3",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/agentic-workflow/SKILL.md",
+      "computedHash": "da8b7592ef10ae017b44eebbc2ada9b848765e18e701c81148fc014a4d3c5ada"
+    },
+    "agentic-workflow-guide": {
+      "source": "aktsmm/agent-skills",
+      "sourceType": "github",
+      "skillPath": "agentic-workflow-guide/SKILL.md",
+      "computedHash": "610740912a2c1e2912e422ab5d41bfe96f4068913214597573473b51ae7dfe15"
+    },
+    "ai-agent-development": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-agent-development/SKILL.md",
+      "computedHash": "b1b19e3f430a701d95b1dc604c608c5e290dd12d3d10fbf6500c5fdbd8039c0f"
+    },
+    "ai-ready": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/ai-ready/SKILL.md",
+      "computedHash": "18b3b83b888d5b770ddc2365c05a366457777c156c4dcda3eda7012820d37d5b"
+    },
+    "ci-cd-and-automation": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ci-cd-and-automation/SKILL.md",
+      "computedHash": "578b098a7d2352ccdac8b8abdc40eb6803538e81cf8382f138da6188a655087c"
+    },
+    "playwright-automation-fill-in-form": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/playwright-automation-fill-in-form/SKILL.md",
+      "computedHash": "05c39652cc1ef6a3066221d77d51e208f88f3ac8cbdd7ffe57a99de93776efe7"
+    }
+  }
+}

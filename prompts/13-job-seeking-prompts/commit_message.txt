@@ -1,6 +1,8 @@
-feat: add job automation artifacts and coding-ops assistant config
+feat(skills): add agentic workflow and AI agent development skills
 
-- add coding and ops assistant agent configuration under .github/agents
-- add automation scripts and helpers for Darwin/LinkedIn application workflows
-- add captured snapshots, logs, and job search artifacts for execution tracking
-- update status/reporting files for current application progress
+- Add agentic skill from bergside/awesome-design-skills
+- Add agentic-workflow skill from parcadei/continuous-claude-v3
+- Add agentic-workflow-guide skill from aktsmm/agent-skills
+- Add agent-workflow-designer skill from alirezarezvani/claude-skills
+- Add ai-agent-development skill from sickn33/antigravity-awesome-skills
+- Update skills-lock.json and workspace configuration
