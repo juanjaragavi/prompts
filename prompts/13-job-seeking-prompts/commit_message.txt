@@ -1,8 +1,0 @@
-feat(skills): add agentic workflow and AI agent development skills
-
-- Add agentic skill from bergside/awesome-design-skills
-- Add agentic-workflow skill from parcadei/continuous-claude-v3
-- Add agentic-workflow-guide skill from aktsmm/agent-skills
-- Add agent-workflow-designer skill from alirezarezvani/claude-skills
-- Add ai-agent-development skill from sickn33/antigravity-awesome-skills
-- Update skills-lock.json and workspace configuration
