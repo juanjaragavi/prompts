@@ -196,7 +196,7 @@ resume_html = """<!DOCTYPE html>
             Bogotá, Colombia <span class="contact-sep">|</span> 
             <a href="mailto:juanamillo@proton.me">juanamillo@proton.me</a> <span class="contact-sep">|</span> 
             +57 305 420 6139 <span class="contact-sep">|</span> 
-            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://juanjaramilloai.vercel.app">juanjaramilloai.vercel.app</a> <span class="contact-sep">|</span> 
             <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
         </div>
     </div>
@@ -369,7 +369,7 @@ resume_html = """<!DOCTYPE html>
 
     <div class="portfolio-box">
         To view my full portfolio of work, featured projects, case studies, and services, please visit:<br>
-        <strong><a href="https://juanjaramillo.tech">juanjaramillo.tech</a></strong>
+        <strong><a href="https://juanjaramilloai.vercel.app">juanjaramilloai.vercel.app</a></strong>
     </div>
 
 </body>
@@ -479,7 +479,7 @@ cover_letter_html = """<!DOCTYPE html>
             Bogotá, Colombia <span class="contact-sep">|</span> 
             <a href="mailto:juanamillo@proton.me">juanamillo@proton.me</a> <span class="contact-sep">|</span> 
             +57 305 420 6139 <span class="contact-sep">|</span> 
-            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://juanjaramilloai.vercel.app">juanjaramilloai.vercel.app</a> <span class="contact-sep">|</span> 
             <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
         </div>
     </div>
@@ -522,7 +522,7 @@ cover_letter_html = """<!DOCTYPE html>
     <div class="signature-block">
         <strong>Juan Miguel Jaramillo Gaviria</strong><br>
         AI Development Lead | Full-Stack Architect | Generative AI Specialist<br>
-        <a href="mailto:juanamillo@proton.me">juanamillo@proton.me</a> | +57 305 420 6139 | <a href="https://juanjaramillo.tech">juanjaramillo.tech</a>
+        <a href="mailto:juanamillo@proton.me">juanamillo@proton.me</a> | +57 305 420 6139 | <a href="https://juanjaramilloai.vercel.app">juanjaramilloai.vercel.app</a>
     </div>
 
 </body>

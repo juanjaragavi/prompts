@@ -96,11 +96,11 @@ uid=17_0 RootWebArea "Job application" url="https://tally.so/r/w7V17L"
                       uid=21_67 ignored
                         uid=21_68 generic
                           uid=21_69 generic
-                            uid=17_80 textbox "Website" value="https://juanjaramillo.tech"
+                            uid=17_80 textbox "Website" value="https://juanjaramilloai.vercel.app"
                               uid=21_70 ignored
                               uid=21_71 generic
-                                uid=21_72 StaticText "https://juanjaramillo.tech"
-                                  uid=21_10 InlineTextBox "https://juanjaramillo.tech"
+                                uid=21_72 StaticText "https://juanjaramilloai.vercel.app"
+                                  uid=21_10 InlineTextBox "https://juanjaramilloai.vercel.app"
                     uid=21_73 ignored
                       uid=21_74 ignored
                         uid=21_75 generic

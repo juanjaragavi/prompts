@@ -9,7 +9,7 @@ Use a browser to research Juan Jaramillo's background, find relevant LinkedIn op
 Open and review these sources before applying anywhere:
 
 - LinkedIn profile: <https://www.linkedin.com/in/juan-jaramillo-ai/>
-- Website: <https://juanjaramillo.tech>
+- Website: <https://juanjaramilloai.vercel.app>
 - Resume: <https://files.catbox.moe/pswa9k.pdf>
 - Current resume is attached in PDF format.
 

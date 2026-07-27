@@ -36,4 +36,4 @@ I am excited by the opportunity to bring this full-stack AI leadership to your o
 Warm regards,
 
 **Juan Miguel Jaramillo Gaviria**
-[juanjaramillo.tech](https://juanjaramillo.tech) | [LinkedIn](https://www.linkedin.com/in/juan-jaramillo-ai) | [GitHub](https://github.com/juanjaragavi) | 📧 <juanamillo@proton.me> | 🌐 <https://juanjaramillo.tech> | 📞 +57 305 420 6139 | 📍 Bogotá, Colombia
+[juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app) | [LinkedIn](https://www.linkedin.com/in/juan-jaramillo-ai) | [GitHub](https://github.com/juanjaragavi) | 📧 <juanamillo@proton.me> | 🌐 <https://juanjaramilloai.vercel.app> | 📞 +57 305 420 6139 | 📍 Bogotá, Colombia

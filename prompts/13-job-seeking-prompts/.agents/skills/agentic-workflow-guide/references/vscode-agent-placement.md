@@ -56,7 +56,7 @@
 
 ```yaml
 # 1. ユーザーが直接呼ぶ + サブエージェントとしても呼ばれる（デフォルト）
-user-invocable: true    # (省略可)
+user-invocable: true # (省略可)
 
 # 2. サブエージェント専用（ピッカー非表示）
 user-invocable: false
@@ -86,7 +86,7 @@ disable-model-invocation: true
 name: orchestrator
 user-invocable: true
 disable-model-invocation: true
-tools: ["codebase", "terminal", "agent"] # "agent" が必須
+tools: ['codebase', 'terminal', 'agent'] # "agent" が必須
 agents:
   - coding-executor
   - quality-reviewer
@@ -98,7 +98,7 @@ agents:
 ---
 name: coding-executor
 user-invocable: false
-tools: ["codebase", "terminal"]
+tools: ['codebase', 'terminal']
 ---
 ```
 

@@ -16,8 +16,8 @@ Deep Agents are specialized for comprehensive information gathering with citatio
 ```yaml
 ---
 name: DeepResearch
-description: "Comprehensive topic research with citations"
-tools: ["search", "web/fetch", "agent", "edit/editFiles", "todo"]
+description: 'Comprehensive topic research with citations'
+tools: ['search', 'web/fetch', 'agent', 'edit/editFiles', 'todo']
 ---
 ```
 

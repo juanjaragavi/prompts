@@ -3,7 +3,7 @@
 **Juan Miguel Jaramillo Gaviria**  
 AI Development Lead | Full-Stack Architect | Generative AI Specialist  
 Bogotá, Colombia (GMT-5) | <juanamillo@proton.me> | (+57) 305 420 6139  
-[juanjaramillo.tech](https://juanjaramillo.tech) | [LinkedIn](https://www.linkedin.com/in/juan-jaramillo-ai/) | [GitHub](https://github.com/juanjaragavi)
+[juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app) | [LinkedIn](https://www.linkedin.com/in/juan-jaramillo-ai/) | [GitHub](https://github.com/juanjaragavi)
 
 ---
 

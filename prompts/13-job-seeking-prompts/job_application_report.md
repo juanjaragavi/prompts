@@ -84,7 +84,7 @@ This report summarizes the status and details of five job applications processed
 - **Phone:** +57 305 420 6139
 - **Location:** Bogotá, Colombia
 - **LinkedIn:** [https://www.linkedin.com/in/juan-jaramillo-ai/](https://www.linkedin.com/in/juan-jaramillo-ai/)
-- **Portfolio:** [https://juanjaramillo.tech](https://juanjaramillo.tech)
+- **Portfolio:** [https://juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)
 - **GitHub:** [https://github.com/juanjaragavi](https://github.com/juanjaragavi)
 - **Experience Years (Pre-Calculated):**
   - Python: 4 Years
@@ -130,7 +130,7 @@ This report summarizes the status and details of five job applications processed
 - **Phone:** +57 305 420 6139
 - **Location:** Bogotá, Colombia (willing to work onsite/relocate to Laguna Hills, CA)
 - **LinkedIn:** [https://www.linkedin.com/in/juan-jaramillo-ai/](https://www.linkedin.com/in/juan-jaramillo-ai/)
-- **Portfolio:** [https://juanjaramillo.tech](https://juanjaramillo.tech)
+- **Portfolio:** [https://juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)
 - **GitHub:** [https://github.com/juanjaragavi](https://github.com/juanjaragavi)
 - **Work Authorization:** Authorized to work in Colombia. Ready to work onsite in Laguna Hills, CA as an independent contractor or under an authorized visa/arrangement.
 - **Salary Expectations:** $20.00 - $40.00 per hour ($3,500 to $4,500 USD monthly equivalent)
@@ -138,7 +138,7 @@ This report summarizes the status and details of five job applications processed
 #### Screening Questions & Drafted Answers
 
 - **Question:** Portfolio link
-  - **Answer:** `https://juanjaramillo.tech (GitHub: https://github.com/juanjaragavi)`
+  - **Answer:** `https://juanjaramilloai.vercel.app (GitHub: https://github.com/juanjaragavi)`
 - **Question:** Describe your AI-assisted / vibe coding workflow.
   - **Answer:** `"I rely on AI coding assistants like Cursor and Claude Code as high-leverage collaborative partners. I use them for rapid prototyping, translating complex design schemas into functional code, and handling repetitive boilerplates, while focusing my efforts on system design, prompt architecture, and refining AI-generated logic to maintain product quality."`
 - **Question:** Availability and expected hourly rate.

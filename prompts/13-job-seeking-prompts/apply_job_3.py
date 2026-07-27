@@ -55,7 +55,7 @@ Atentamente,
 
 Juan Miguel Jaramillo Gaviria
 juanamillo@proton.me | (+57) 305 420 6139
-https://juanjaramillo.tech
+https://juanjaramilloai.vercel.app
 https://www.linkedin.com/in/juan-jaramillo-ai/
 https://github.com/juanjaragavi
 """

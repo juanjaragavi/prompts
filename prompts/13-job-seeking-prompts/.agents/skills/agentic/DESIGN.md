@@ -1,33 +1,33 @@
 ---
 name: Agentic
 colors:
-  primary: "#FF5701"
-  secondary: "#F6F6F1"
-  success: "#16A34A"
-  warning: "#D97706"
-  danger: "#DC2626"
-  surface: "#FFFFFF"
-  text: "#111827"
-  neutral: "#FFFFFF"
+  primary: '#FF5701'
+  secondary: '#F6F6F1'
+  success: '#16A34A'
+  warning: '#D97706'
+  danger: '#DC2626'
+  surface: '#FFFFFF'
+  text: '#111827'
+  neutral: '#FFFFFF'
 typography:
   h1:
-    fontFamily: "Playfair Display"
+    fontFamily: 'Playfair Display'
     fontSize: 2.5rem
   body-md:
-    fontFamily: "Playfair Display"
+    fontFamily: 'Playfair Display'
     fontSize: 1rem
   label-caps:
-    fontFamily: "JetBrains Mono"
+    fontFamily: 'JetBrains Mono'
     fontSize: 0.875rem
-  sourceScale: "14/16/18/24/32/40"
-  weights: "100, 200, 300, 400, 500, 600, 700, 800, 900"
+  sourceScale: '14/16/18/24/32/40'
+  weights: '100, 200, 300, 400, 500, 600, 700, 800, 900'
 rounded:
   sm: 4px
   md: 8px
 spacing:
   sm: 8px
   md: 16px
-  sourceScale: "8pt baseline grid"
+  sourceScale: '8pt baseline grid'
 ---
 
 ## Overview

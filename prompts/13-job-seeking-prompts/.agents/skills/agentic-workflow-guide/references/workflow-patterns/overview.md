@@ -37,15 +37,15 @@ What's the nature of the task?
 
 ## Pattern Details
 
-| #   | Pattern              | File                                                                   |
-| --- | -------------------- | ---------------------------------------------------------------------- |
-| 0   | Plan-First           | [0-plan-first.md](0-plan-first.md)                                     |
-| 1   | Prompt Chaining      | [1-prompt-chaining.md](1-prompt-chaining.md)                           |
-| 2   | Routing              | [2-routing.md](2-routing.md)                                           |
-| 3   | Parallelization      | [3-parallelization.md](3-parallelization.md)                           |
-| 4   | Orchestrator-Workers | [4-orchestrator-workers.md](4-orchestrator-workers.md)                 |
-| 5   | Evaluator-Optimizer  | [5-evaluator-optimizer.md](5-evaluator-optimizer.md)                   |
-| 6   | Connected Agents     | [6-connected-agents.md](6-connected-agents.md)                         |
+| #   | Pattern              | File                                                                  |
+| --- | -------------------- | --------------------------------------------------------------------- |
+| 0   | Plan-First           | [0-plan-first.md](0-plan-first.md)                                    |
+| 1   | Prompt Chaining      | [1-prompt-chaining.md](1-prompt-chaining.md)                          |
+| 2   | Routing              | [2-routing.md](2-routing.md)                                          |
+| 3   | Parallelization      | [3-parallelization.md](3-parallelization.md)                          |
+| 4   | Orchestrator-Workers | [4-orchestrator-workers.md](4-orchestrator-workers.md)                |
+| 5   | Evaluator-Optimizer  | [5-evaluator-optimizer.md](5-evaluator-optimizer.md)                  |
+| 6   | Connected Agents     | [6-connected-agents.md](6-connected-agents.md)                        |
 | -   | IR Architecture      | [ir-architecture.md](ir-architecture.md) (Advanced transformation)    |
 | -   | Combining Patterns   | [combining-patterns.md](combining-patterns.md) (Real-world workflows) |
 

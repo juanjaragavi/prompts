@@ -25,7 +25,7 @@ CANDIDATE = {
     "location": "Bogotá, Colombia",
     "linkedin": "https://www.linkedin.com/in/juan-jaramillo-ai/",
     "github": "https://github.com/juanjaragavi",
-    "portfolio": "https://juanjaramillo.tech",
+    "portfolio": "https://juanjaramilloai.vercel.app",
     "expected_salary_usd": "4500",
     "notice_period": "Immediate",
     "years_experience": "17",

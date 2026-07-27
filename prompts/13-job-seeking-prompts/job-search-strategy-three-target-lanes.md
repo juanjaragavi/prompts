@@ -41,7 +41,7 @@ Juan's differentiator is combining two rarely-paired skill sets: deep GenAI/LLM 
 ## 30-Day Execution Plan
 
 - Week 1: Rebuild LinkedIn headline/summary around "AI-Native Full-Stack Architect | LLM Engineering, Agentic Systems, Vibe Coding, CMS-to-Headless Migration"; publish one technical post on the TopNetworks SaaS stack framed as a vibe-coding case study.
-- Week 2: Produce three tailored résumé versions and a one-page portfolio site section per track (AI/LLM, vibe coding, CMS+React) on juanjaramillo.tech.
+- Week 2: Produce three tailored résumé versions and a one-page portfolio site section per track (AI/LLM, vibe coding, CMS+React) on juanjaramilloai.vercel.app.
 - Week 3: Apply to 15–20 roles per track weekly, prioritizing remote-first companies flagged in vibe-coding reports (Replit, GitLab, Webflow, Spotify, Stripe) and AI-heavy employers from the 539-company AI jobs dataset.[8][3]
 - Week 4: Activate consulting/freelance channel (Upwork AI project analysis shows 1,304+ postings mentioning vibe coding) as a parallel revenue stream while pursuing full-time roles.[9]
 

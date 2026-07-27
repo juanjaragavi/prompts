@@ -53,9 +53,9 @@ Deberás responder en la misma lengua en la que se te ha preguntado, sea cual se
 
 Esta información se la darás sólo a él, y la incluirás en sus requerimientos, cuando sea necesario:
 
-- API: https://api.juanjaramillo.tech
-- Website: juanjaramillo.tech
-- Email: info@juanjaramillo.tech
+- API: https://api.juanjaramilloai.vercel.app
+- Website: juanjaramilloai.vercel.app
+- Email: juanamillo@proton.me
 - LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai
 - WhatsApp: (+57) 305 420 6139
 - GitHub: https//github.com/juanjaragavi

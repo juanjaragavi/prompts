@@ -11,10 +11,12 @@
 - `gina-wiki.md` (6.5KB)
 
 ## Use Cases
+
 - Dropshipping product management
 - Product catalog automation
 - E-commerce content generation
 - Supplier integration
 
 ---
+
 **Last Updated:** September 29, 2025

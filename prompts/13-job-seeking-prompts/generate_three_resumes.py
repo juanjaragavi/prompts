@@ -200,7 +200,7 @@ ai_llm_html = f"""<!DOCTYPE html>
             Bogotá, Colombia <span class="contact-sep">|</span> 
             <a href="mailto:juanamillo@proton.me">juanamillo@proton.me</a> <span class="contact-sep">|</span> 
             +57 305 420 6139 <span class="contact-sep">|</span> 
-            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://juanjaramilloai.vercel.app">juanjaramilloai.vercel.app</a> <span class="contact-sep">|</span> 
             <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
         </div>
     </div>
@@ -349,7 +349,7 @@ ai_llm_html = f"""<!DOCTYPE html>
 
     <div class="portfolio-box">
         To view my full portfolio of work, featured projects, case studies, and services, please visit:<br>
-        <strong><a href="https://juanjaramillo.tech">juanjaramillo.tech</a></strong>
+        <strong><a href="https://juanjaramilloai.vercel.app">juanjaramilloai.vercel.app</a></strong>
     </div>
 
 </body>
@@ -375,7 +375,7 @@ vibe_coding_html = f"""<!DOCTYPE html>
             Bogotá, Colombia <span class="contact-sep">|</span> 
             <a href="mailto:juanamillo@proton.me">juanamillo@proton.me</a> <span class="contact-sep">|</span> 
             +57 305 420 6139 <span class="contact-sep">|</span> 
-            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://juanjaramilloai.vercel.app">juanjaramilloai.vercel.app</a> <span class="contact-sep">|</span> 
             <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
         </div>
     </div>
@@ -524,7 +524,7 @@ vibe_coding_html = f"""<!DOCTYPE html>
 
     <div class="portfolio-box">
         To view my full portfolio of work, featured projects, case studies, and services, please visit:<br>
-        <strong><a href="https://juanjaramillo.tech">juanjaramillo.tech</a></strong>
+        <strong><a href="https://juanjaramilloai.vercel.app">juanjaramilloai.vercel.app</a></strong>
     </div>
 
 </body>
@@ -550,7 +550,7 @@ cms_react_html = f"""<!DOCTYPE html>
             Bogotá, Colombia <span class="contact-sep">|</span> 
             <a href="mailto:juanamillo@proton.me">juanamillo@proton.me</a> <span class="contact-sep">|</span> 
             +57 305 420 6139 <span class="contact-sep">|</span> 
-            <a href="https://juanjaramillo.tech">juanjaramillo.tech</a> <span class="contact-sep">|</span> 
+            <a href="https://juanjaramilloai.vercel.app">juanjaramilloai.vercel.app</a> <span class="contact-sep">|</span> 
             <a href="https://www.linkedin.com/in/juan-jaramillo-ai">LinkedIn</a>
         </div>
     </div>
@@ -712,7 +712,7 @@ cms_react_html = f"""<!DOCTYPE html>
 
     <div class="portfolio-box">
         To view my full portfolio of work, featured projects, case studies, and services, please visit:<br>
-        <strong><a href="https://juanjaramillo.tech">juanjaramillo.tech</a></strong>
+        <strong><a href="https://juanjaramilloai.vercel.app">juanjaramilloai.vercel.app</a></strong>
     </div>
 
 </body>

@@ -147,7 +147,7 @@ I am excited by the opportunity to bring this full-stack AI leadership to your o
 Warm regards,
 
 Juan Miguel Jaramillo Gaviria
-https://juanjaramillo.tech
+https://juanjaramilloai.vercel.app
 juanamillo@proton.me
 +57 305 420 6139
 Bogotá, Colombia"""

@@ -162,7 +162,7 @@ Generate detailed implementation plans for new features.
 ---
 name: test-writer
 description: Write failing tests first (TDD)
-tools: ["readFile", "edit/editFiles", "execute/runInTerminal"]
+tools: ['readFile', 'edit/editFiles', 'execute/runInTerminal']
 handoffs:
   - label: Make Tests Pass
     agent: implementer
@@ -177,7 +177,7 @@ handoffs:
 ---
 name: implementer
 description: Implement code to pass tests
-tools: ["readFile", "edit/editFiles", "execute/runInTerminal"]
+tools: ['readFile', 'edit/editFiles', 'execute/runInTerminal']
 handoffs:
   - label: Request Code Review
     agent: reviewer
@@ -192,7 +192,7 @@ handoffs:
 ---
 name: researcher
 description: Research a topic thoroughly
-tools: ["web/fetch", "textSearch", "readFile"]
+tools: ['web/fetch', 'textSearch', 'readFile']
 handoffs:
   - label: Write Document
     agent: writer
@@ -211,7 +211,7 @@ Single agent with multiple possible next steps:
 ---
 name: analyzer
 description: Analyze issues and suggest next steps
-tools: ["readFile", "textSearch", "problems"]
+tools: ['readFile', 'textSearch', 'problems']
 handoffs:
   - label: Fix Issues
     agent: fixer

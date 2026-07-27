@@ -15,10 +15,12 @@
 - `code-and-text-optimizer.md` (1.2KB)
 
 ## Use Cases
+
 - SEO blog post generation
 - Image prompt optimization (DALL-E/Midjourney)
 - Text content optimization
 - Multilingual content (English/Spanish)
 
 ---
+
 **Last Updated:** September 29, 2025

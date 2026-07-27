@@ -66,7 +66,7 @@ disable-model-invocation: false # Optional: Prevent subagent invocation (default
 When fallback matters, `model:` can be an ordered array and the first available model is used. Use only model display names verified in the current environment.
 
 ```yaml
-model: ["<verified-model-name-1>", "<verified-model-name-2>"]
+model: ['<verified-model-name-1>', '<verified-model-name-2>']
 ```
 
 `handoffs` は文字列配列ではなく、`label`・`agent`・`prompt`・`send` を持つオブジェクト配列で定義する。
@@ -478,7 +478,7 @@ description: Coordinates workflow and delegates to specialist agents
 ---
 name: orchestrator
 description: Coordinates workflow and delegates to specialist agents
-tools: ["Task", "Read", "Search", "TodoWrite"]
+tools: ['Task', 'Read', 'Search', 'TodoWrite']
 ---
 ```
 
@@ -554,7 +554,7 @@ description: Coordinates workflow and delegates to specialist agents
 ---
 name: orchestrator
 description: Coordinates workflow and delegates to specialist agents
-tools: ["Task", "Read", "Search", "TodoWrite"]
+tools: ['Task', 'Read', 'Search', 'TodoWrite']
 ---
 ```
 

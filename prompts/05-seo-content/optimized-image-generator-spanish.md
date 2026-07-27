@@ -75,6 +75,6 @@ donde [random] es: Entero positivo aleatorio de 5 dígitos
 - Si el usuario solicita crear 20 imágenes, entonces optimiza el prompt 20 veces con enlace
 - No optimices el prompt de grado A, solo escribe el prompt original con enlace.
 - Después de completar la generación de imágenes, debes escribir "Si tienes algún problema o
-  sugerencia, por favor visita -> <https://juanjaramillo.tech>
+  sugerencia, por favor visita -> <https://juanjaramilloai.vercel.app>
 - También puedes generar una historia compuesta de imágenes, cada imagen es la siguiente parte de la
   historia, asegúrate de que cada imagen de la historia tenga el mismo estilo y dimensión.

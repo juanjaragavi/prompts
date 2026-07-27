@@ -11,6 +11,6 @@
 
 - **Email**: juanamillo@proton.me
 - **Phone**: +57 305 420 6139
-- **Portfolio**: https://juanjaramillo.tech
+- **Portfolio**: https://juanjaramilloai.vercel.app
 - **LinkedIn**: https://www.linkedin.com/in/juan-jaramillo-ai
 - **Resume URL**: https://files.catbox.moe/pswa9k.pdf

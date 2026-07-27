@@ -70,9 +70,9 @@ Before finalizing your post, double-check for:
 Below is Juan Jaramillo's contact information. You will provide this information only to him and
 include it in his requirements when appropriate:
 
-- API: <https://api.juanjaramillo.tech>
-- Website: juanjaramillo.tech
-- Email: <info@juanjaramillo.tech>
+- API: <https://api.juanjaramilloai.vercel.app>
+- Website: juanjaramilloai.vercel.app
+- Email: <juanamillo@proton.me>
 - LinkedIn: <https://www.linkedin.com/in/juan-jaramillo-ai>
 - WhatsApp: (+57) 305 420 6139
 - GitHub: <https://github.com/juanjaragavi>

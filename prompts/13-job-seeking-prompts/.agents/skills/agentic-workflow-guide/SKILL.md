@@ -1,7 +1,7 @@
 ---
 name: agentic-workflow-guide
 description: "Design, review, and debug agent workflows, and decide when a request should use a prompt, instruction, skill, agent, or hook before escalating to multi-agent design. Use for .agent.md / .instructions.md / .prompt.md / AGENTS.md work, workflow architecture, orchestration planning, or when agent workflows may be overkill. Triggers on 'agent workflow', 'create agent', 'ワークフロー設計', 'orchestrator'."
-argument-hint: "作りたい .agent.md / .instructions.md / .prompt.md / AGENTS.md、設計したい workflow、または困っている症状"
+argument-hint: '作りたい .agent.md / .instructions.md / .prompt.md / AGENTS.md、設計したい workflow、または困っている症状'
 user-invocable: true
 license: CC BY-NC-SA 4.0
 metadata:
@@ -33,13 +33,13 @@ Selection details: [references/customization-decision.md](references/customizati
 
 ## When to Use
 
-| Action     | Triggers                                                                      |
-| ---------- | ----------------------------------------------------------------------------- |
+| Action     | Triggers                                                                                 |
+| ---------- | ---------------------------------------------------------------------------------------- |
 | **Create** | New `.agent.md`, `.instructions.md`, `.prompt.md`, `AGENTS.md`, or workflow architecture |
-| **Review** | Orchestrator not delegating, design principle check, context overflow         |
-| **Update** | Adding Handoffs, improving delegation, tool configuration                     |
-| **Debug**  | Agent not found, subagent not working, picker visibility, access control      |
-| **Decide** | Determining whether multi-agent is justified or a simpler primitive is enough |
+| **Review** | Orchestrator not delegating, design principle check, context overflow                    |
+| **Update** | Adding Handoffs, improving delegation, tool configuration                                |
+| **Debug**  | Agent not found, subagent not working, picker visibility, access control                 |
+| **Decide** | Determining whether multi-agent is justified or a simpler primitive is enough            |
 
 ## Core Principles
 

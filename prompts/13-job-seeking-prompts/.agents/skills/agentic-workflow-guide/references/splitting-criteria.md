@@ -24,13 +24,13 @@ When a simple approach isn't working, escalate to the next level.
 
 Before escalating into agent design, confirm that the ask is not better served by another primitive.
 
-| If the need is... | Prefer... |
-| ----------------- | --------- |
-| One slash-invoked task | Prompt |
-| Always-on guidance | Instruction |
-| Reusable packaged workflow | Skill |
-| Persona or delegation | Agent |
-| Deterministic enforcement | Hook |
+| If the need is...          | Prefer...   |
+| -------------------------- | ----------- |
+| One slash-invoked task     | Prompt      |
+| Always-on guidance         | Instruction |
+| Reusable packaged workflow | Skill       |
+| Persona or delegation      | Agent       |
+| Deterministic enforcement  | Hook        |
 
 Only continue with the ladder below if an **Agent** is truly required.
 

@@ -23,6 +23,6 @@ Navigate to https://forms.microsoft.com/url-of-my-form
 
 5. Upload image: /Users/myuserName/Downloads/my-image.png
 
-DO NOT SUBMIT THE FORM. 
+DO NOT SUBMIT THE FORM.
 
 Ask for a review of the form before submitting it.

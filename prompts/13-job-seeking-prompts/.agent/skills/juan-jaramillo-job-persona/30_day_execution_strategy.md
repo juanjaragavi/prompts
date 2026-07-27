@@ -108,7 +108,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 - **Goal:** Rebrand LinkedIn identity around the **AI-Native Full-Stack Architect** headline and publish the main technical portfolio assets.
 - **Daily Action Plan:**
   - **Days 1-2:** Update LinkedIn profile (headline, summary, and experience section) using the target keywords and titles. Emphasize the TopNetworks SaaS ecosystem builds.
-  - **Days 3-4:** Publish a deep-dive, metric-driven technical case study on RouteGenius on [juanjaramillo.tech](https://juanjaramillo.tech) and GitHub. Detail the multi-agent n8n workflow and Supabase database.
+  - **Days 3-4:** Publish a deep-dive, metric-driven technical case study on RouteGenius on [juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app) and GitHub. Detail the multi-agent n8n workflow and Supabase database.
   - **Day 5:** Record and publish a 3-minute professional Loom video pitch detailing technical execution and entrepreneurial leadership. Pin it to LinkedIn and embed on the portfolio homepage.
 - **Milestone / KPI:** 100% completed rebranding on LinkedIn and active, live portfolio with the case study and video.
 
@@ -163,7 +163,7 @@ To automate and streamline the pipeline during Week 3, the following pre-built a
 
 - **Primary Resume URL:** <https://files.catbox.moe/pswa9k.pdf>
 - **LinkedIn Profile:** <https://www.linkedin.com/in/juan-jaramillo-ai/>
-- **Portfolio Site:** <https://juanjaramillo.tech>
+- **Portfolio Site:** <https://juanjaramilloai.vercel.app>
 - **Job Title Filters:** "Artificial Intelligence Engineer", "AI Engineer", "AI Developer", "Generative AI Developer", "Prompt Engineer", "Machine Learning Engineer"
 - **Strict Exclusions:** Skip standard BI/Data Analyst roles, generic web developer postings with no AI focus, or data pipeline roles with no ML modeling integration.
 - **Rate Limiting:** Wait 15–30 seconds between actions to bypass platform rate limiters.

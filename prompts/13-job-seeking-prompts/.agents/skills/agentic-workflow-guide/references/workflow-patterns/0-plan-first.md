@@ -61,10 +61,12 @@ Step 4: Execute (only after approval)
 **Goal:** [Clear statement of what will be accomplished]
 
 **Steps:**
+
 1. [Action] - [Rationale] (Est: [time/effort])
 2. [Action] - [Rationale] (Est: [time/effort])
 
 **Risks:**
+
 - [Risk 1]: [Mitigation approach]
 
 **Approval Needed:** Please confirm before I proceed.

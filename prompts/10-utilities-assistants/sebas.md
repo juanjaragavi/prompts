@@ -137,7 +137,7 @@ const metadata = {
   >
     <Fragment slot="content">
       <Image
-        src="https://media.juanjaramillo.tech/sebas/sebas-mini.webp"
+        src="https://media.juanjaramilloai.vercel.app/sebas/sebas-mini.webp"
         alt="Sebas Mini | Sebas,  Chatbot as a Service (CBaaS)"
         class="rounded-lg border border-gray-200 dark:border-gray-700 mx-auto mb-10 sm:mb-10 md:mb-10 lg:mb-12 xl:mb-12 2xl:mb-14"
         width={300}
@@ -154,7 +154,7 @@ const metadata = {
     </Fragment>
     <Fragment slot="content">
       <Image
-        src="https://media.juanjaramillo.tech/sebas/sebas-junior.webp"
+        src="https://media.juanjaramilloai.vercel.app/sebas/sebas-junior.webp"
         alt="Sebas Junior | Sebas,  Chatbot as a Service (CBaaS)"
         class="rounded-lg border border-gray-200 dark:border-gray-700 mx-auto mb-10 sm:mb-10 md:mb-10"
         width={300}
@@ -171,7 +171,7 @@ const metadata = {
     </Fragment>
     <Fragment slot="content">
       <Image
-        src="https://media.juanjaramillo.tech/sebas/sebas-express.webp"
+        src="https://media.juanjaramilloai.vercel.app/sebas/sebas-express.webp"
         alt="Sebas Express | Sebas,  Chatbot as a Service (CBaaS)"
         class="rounded-lg border border-gray-200 dark:border-gray-700 mx-auto mb-10 sm:mb-10 md:mb-10"
         width={300}
@@ -188,7 +188,7 @@ const metadata = {
     </Fragment>
     <Fragment slot="content">
       <Image
-        src="https://media.juanjaramillo.tech/sebas/sebas-pro.webp"
+        src="https://media.juanjaramilloai.vercel.app/sebas/sebas-pro.webp"
         alt="Sebas Pro | Sebas,  Chatbot as a Service (CBaaS)"
         class="rounded-lg border border-gray-200 dark:border-gray-700 mx-auto mb-10"
         width={300}
@@ -414,7 +414,7 @@ const metadata = {
       <Content
         isReversed
         image={{
-          src: 'https://media.juanjaramillo.tech/sebas/Logo_Sebas_Personaje_Logo_Mano.png',
+          src: 'https://media.juanjaramilloai.vercel.app/sebas/Logo_Sebas_Personaje_Logo_Mano.png',
           alt: 'Sebas | El primer Chatbot as a Service (CBaaS)',
         }}
       />
@@ -462,7 +462,7 @@ const metadata = {
       { text: 'Conoce más', href: '#caracteristicas' },
     ]}
     image={{
-      src: 'https://media.juanjaramillo.tech/sebas/hero-image.webp',
+      src: 'https://media.juanjaramilloai.vercel.app/sebas/hero-image.webp',
       alt: 'Sebas | El primer Chatbot as a Service (CBaaS)',
     }}
   >
@@ -552,7 +552,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://media.juanjaramillo.tech/sebas/selector-de-modelos-sebas.webp',
+      src: 'https://media.juanjaramilloai.vercel.app/sebas/selector-de-modelos-sebas.webp',
       alt: 'Sebas | Chatbot as a Service (CBaaS)',
     }}
   >
@@ -593,7 +593,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://media.juanjaramillo.tech/sebas/configuracion-bot-sebas.webp',
+      src: 'https://media.juanjaramilloai.vercel.app/sebas/configuracion-bot-sebas.webp',
       alt: 'Steps image',
     }}
   />
@@ -621,19 +621,19 @@ const metadata = {
   <Brands
     images={[
       {
-        src: 'https://media.juanjaramillo.tech/sebas/OpenAI_Logo.webp',
+        src: 'https://media.juanjaramilloai.vercel.app/sebas/OpenAI_Logo.webp',
         alt: 'OpenAI',
       },
       {
-        src: 'https://media.juanjaramillo.tech/sebas/Google_Logo.webp',
+        src: 'https://media.juanjaramilloai.vercel.app/sebas/Google_Logo.webp',
         alt: 'Google',
       },
       {
-        src: 'https://media.juanjaramillo.tech/sebas/Anthropic_Logo.webp',
+        src: 'https://media.juanjaramilloai.vercel.app/sebas/Anthropic_Logo.webp',
         alt: 'Anthropic',
       },
       {
-        src: 'https://media.juanjaramillo.tech/sebas/Cohere_Logo.webp',
+        src: 'https://media.juanjaramilloai.vercel.app/sebas/Cohere_Logo.webp',
         alt: 'Cohere',
       },
     ]}
@@ -815,7 +815,7 @@ const metadata = {
       <Content
         isReversed
         image={{
-          src: 'https://media.juanjaramillo.tech/sebas/Logo_Sebas_Personaje_Logo_Mano.png',
+          src: 'https://media.juanjaramilloai.vercel.app/sebas/Logo_Sebas_Personaje_Logo_Mano.png',
           alt: 'Sebas | El primer Chatbot as a Service (CBaaS)',
         }}
       />

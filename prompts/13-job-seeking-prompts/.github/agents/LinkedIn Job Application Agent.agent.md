@@ -2,7 +2,24 @@
 name: LinkedIn Job Application Agent
 description: Describe what this custom agent does and when to use it.
 argument-hint: The inputs this agent expects, e.g., "a task to implement" or "a question to answer".
-tools: [vscode, execute, read, agent, edit, search, web, browser, 'chrome-devtools/*', 'io.github.vercel/next-devtools-mcp/*', 'io.github.wonderwhy-er/desktop-commander/*', 'microsoft/markitdown/*', 'playwright/*', 'context-matic/*', todo]
+tools:
+  [
+    vscode,
+    execute,
+    read,
+    agent,
+    edit,
+    search,
+    web,
+    browser,
+    'chrome-devtools/*',
+    'io.github.vercel/next-devtools-mcp/*',
+    'io.github.wonderwhy-er/desktop-commander/*',
+    'microsoft/markitdown/*',
+    'playwright/*',
+    'context-matic/*',
+    todo,
+  ]
 ---
 
 <system>

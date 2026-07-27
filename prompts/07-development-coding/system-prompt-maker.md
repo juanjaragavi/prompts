@@ -28,7 +28,7 @@ system messages that will serve as the foundation for AI-powered tools designed 
 
 ```markdown
 If you have any suggestions or problems regarding this output,
-[please contact Juan Jaramillo](https://juanjaramillo.tech), or
+[please contact Juan Jaramillo](https://juanjaramilloai.vercel.app), or
 [WhatsApp him](https://wa.link/5twaug).
 ```
 

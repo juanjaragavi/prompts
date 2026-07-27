@@ -7,7 +7,7 @@
 - **Phone:** (+57) 305 420 6139
 - **Location:** Bogotá, Colombia (Bogotá D.C. Metropolitan Area)
 - **LinkedIn:** [https://www.linkedin.com/in/juan-jaramillo-ai/](https://www.linkedin.com/in/juan-jaramillo-ai/)
-- **Portfolio:** [https://juanjaramillo.tech](https://juanjaramillo.tech)
+- **Portfolio:** [https://juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)
 - **GitHub:** [https://github.com/juanjaragavi](https://github.com/juanjaragavi)
 - **Facebook:** [https://www.facebook.com/juanjaramilloai](https://www.facebook.com/juanjaramilloai)
 

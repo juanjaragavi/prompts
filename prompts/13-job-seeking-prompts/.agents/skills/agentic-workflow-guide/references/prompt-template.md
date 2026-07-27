@@ -77,13 +77,13 @@ Keep prompt frontmatter minimal unless a bound agent, model, or tool restriction
 
 ```yaml
 ---
-description: "Summarize selected logs into a markdown incident report"
+description: 'Summarize selected logs into a markdown incident report'
 ---
 ```
 
 ```yaml
 ---
-description: "Generate test cases for selected code"
+description: 'Generate test cases for selected code'
 agent: reviewer
 argument-hint: path or selected code context
 ---
@@ -91,7 +91,7 @@ argument-hint: path or selected code context
 
 ```yaml
 ---
-description: "Investigate issue history using GitHub and web search"
+description: 'Investigate issue history using GitHub and web search'
 agent: researcher
 tools: [search, web]
 ---
@@ -137,7 +137,7 @@ Use HTML comments — they are ignored by the validator but preserved in the fil
 
 ```markdown
 ---
-description: "What this prompt does"
+description: 'What this prompt does'
 ---
 
 <!-- author: yourname -->

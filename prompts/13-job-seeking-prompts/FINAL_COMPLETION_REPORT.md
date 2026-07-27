@@ -197,7 +197,7 @@ done
 # Visit each URL and complete manually
 # All form data is ready from your config:
 # - Name: Juan Miguel Jaramillo Gaviria
-# - Email: info@juanjaramillo.tech
+# - Email: juanamillo@proton.me
 # - Phone: +573054206139
 # - Location: Bogotá, Colombia
 # - LinkedIn, GitHub, Portfolio URLs in config.yaml

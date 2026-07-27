@@ -92,12 +92,12 @@ When a workflow matches these scenarios or the thresholds in [splitting-criteria
 # VS Code Copilot
 ---
 name: Orchestrator
-tools: ["agent", "web/fetch", "readFile"]
+tools: ['agent', 'web/fetch', 'readFile']
 ---
 # Claude Code
 ---
 name: Orchestrator
-tools: ["Task", "WebSearch", "Read"]
+tools: ['Task', 'WebSearch', 'Read']
 ---
 ```
 
@@ -222,7 +222,7 @@ Main Agent (Orchestrator)
 ---
 name: Code Review Orchestrator
 description: Reviews code changes across multiple files using sub-agents
-tools: ["agent", "read_file", "grep_search"]
+tools: ['agent', 'read_file', 'grep_search']
 ---
 # Code Review Orchestrator
 

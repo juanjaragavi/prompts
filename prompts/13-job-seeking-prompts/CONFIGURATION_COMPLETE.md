@@ -19,12 +19,12 @@ All Juan Jaramillo's professional data has been integrated into the automation s
 
 **Contact Information:**
 
-- Email: info@juanjaramillo.tech
+- Email: juanamillo@proton.me
 - Phone: +573054206139 (Colombia)
 - Location: Bogotá, Colombia
 - LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai/
 - GitHub: https://github.com/juanjaragavi
-- Portfolio: https://juanjaramillo.tech
+- Portfolio: https://juanjaramilloai.vercel.app
 
 **Experience:**
 

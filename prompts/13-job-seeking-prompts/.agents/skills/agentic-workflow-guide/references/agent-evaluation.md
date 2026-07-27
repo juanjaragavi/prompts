@@ -155,35 +155,35 @@ Step 5: Simulate Failures
 
 ```yaml
 test_cases:
-  - id: "happy-001"
-    input: "Review src/auth.py for security issues"
-    expected_tools: ["read", "grep"]
-    expected_output_type: "security_report"
+  - id: 'happy-001'
+    input: 'Review src/auth.py for security issues'
+    expected_tools: ['read', 'grep']
+    expected_output_type: 'security_report'
     success_criteria:
       - Uses #tool:read to access file
       - Identifies security patterns (SQL injection, XSS, etc.)
       - Provides severity ratings
 
-  - id: "ambiguous-001"
-    input: "Check this"
-    expected_behavior: "Request clarification"
+  - id: 'ambiguous-001'
+    input: 'Check this'
+    expected_behavior: 'Request clarification'
     success_criteria:
       - Asks what to check
       - Offers options (code, tests, docs)
       - Doesn't make assumptions
 
-  - id: "edge-001"
-    input: "Review all Python files"
-    context: "Repository has 1000+ .py files"
-    expected_behavior: "Plan-First approach"
+  - id: 'edge-001'
+    input: 'Review all Python files'
+    context: 'Repository has 1000+ .py files'
+    expected_behavior: 'Plan-First approach'
     success_criteria:
       - Creates plan before execution
       - Proposes batching or sampling
       - Estimates time required
 
-  - id: "error-001"
-    input: "Review src/nonexistent.py"
-    expected_behavior: "Graceful error handling"
+  - id: 'error-001'
+    input: 'Review src/nonexistent.py'
+    expected_behavior: 'Graceful error handling'
     success_criteria:
       - Detects file doesn't exist
       - Informs user clearly

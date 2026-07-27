@@ -5,7 +5,7 @@ You are an advanced Web-Browsing Execution Agent tasked with automating targeted
 ## Baseline Profiles for Application Data
 
 - LinkedIn: <https://www.linkedin.com/in/juan-jaramillo-ai/>
-- Portfolio: <https://juanjaramillo.tech>
+- Portfolio: <https://juanjaramilloai.vercel.app>
 - Document Source: <https://files.catbox.moe/pswa9k.pdf> (Primary Resume PDF)
 
 ## Target Role Criteria

@@ -288,7 +288,7 @@ uid=49_0 RootWebArea "Technical Project Manager | Emapta Global | LinkedIn" url=
           uid=49_285 combobox "Email address *" expandable haspopup="menu" value="juanamillo@proton.me"
             uid=49_286 option " Select an option " selectable value=" Select an option "
             uid=49_287 option " juanamillo@proton.me " selectable value=" juanamillo@proton.me "
-            uid=49_288 option " juan@juanjaramillo.tech " selectable value=" juan@juanjaramillo.tech "
+            uid=49_288 option " juan@juanjaramilloai.vercel.app " selectable value=" juan@juanjaramilloai.vercel.app "
             uid=49_289 option " juanamillo@gmail.com " selectable value=" juanamillo@gmail.com "
             uid=49_290 option " juanamillo@proton.me " selectable selected value=" juanamillo@proton.me "
         uid=49_291 generic

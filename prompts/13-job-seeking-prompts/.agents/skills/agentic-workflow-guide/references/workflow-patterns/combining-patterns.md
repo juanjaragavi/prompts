@@ -25,11 +25,11 @@ graph TD
 
 ## Patterns Used
 
-| Pattern                  | Role in Workflow                         |
-| ------------------------ | ---------------------------------------- |
-| **Routing**              | Branch processing by requirement type    |
-| **Orchestrator-Workers** | Implement changes per file               |
-| **Evaluator-Optimizer**  | Review → fix loop until quality is met   |
+| Pattern                  | Role in Workflow                       |
+| ------------------------ | -------------------------------------- |
+| **Routing**              | Branch processing by requirement type  |
+| **Orchestrator-Workers** | Implement changes per file             |
+| **Evaluator-Optimizer**  | Review → fix loop until quality is met |
 
 ## Combination Guidelines
 
@@ -66,12 +66,12 @@ Input
 
 ## Common Combinations
 
-| Combination                             | Use Case                              |
-| --------------------------------------- | ------------------------------------- |
-| Routing + Orchestrator-Workers          | Multi-type tasks with dynamic subtasks|
-| Prompt Chaining + Evaluator-Optimizer   | Sequential with quality gates         |
-| Parallelization + Evaluator-Optimizer   | Parallel execution with voting        |
-| Connected Agents + IR Architecture      | Shared context with structured output |
+| Combination                           | Use Case                               |
+| ------------------------------------- | -------------------------------------- |
+| Routing + Orchestrator-Workers        | Multi-type tasks with dynamic subtasks |
+| Prompt Chaining + Evaluator-Optimizer | Sequential with quality gates          |
+| Parallelization + Evaluator-Optimizer | Parallel execution with voting         |
+| Connected Agents + IR Architecture    | Shared context with structured output  |
 
 ## Anti-Patterns
 
@@ -93,11 +93,11 @@ Independent tasks:
 
 ## Decision Framework
 
-| Question                               | Yes → Pattern              | No → Alternative           |
-| -------------------------------------- | -------------------------- | -------------------------- |
-| Tasks must be sequential?              | Prompt Chaining            | Parallelization            |
-| Input needs classification?            | Routing                    | Direct processing          |
-| Task count unknown until runtime?      | Orchestrator-Workers       | Static worker assignment   |
-| Quality requires iteration?            | Evaluator-Optimizer        | Single-pass processing     |
-| Agents need shared context?            | Connected Agents           | Independent agents         |
-| Deterministic output required?         | IR Architecture            | Direct generation          |
+| Question                          | Yes → Pattern        | No → Alternative         |
+| --------------------------------- | -------------------- | ------------------------ |
+| Tasks must be sequential?         | Prompt Chaining      | Parallelization          |
+| Input needs classification?       | Routing              | Direct processing        |
+| Task count unknown until runtime? | Orchestrator-Workers | Static worker assignment |
+| Quality requires iteration?       | Evaluator-Optimizer  | Single-pass processing   |
+| Agents need shared context?       | Connected Agents     | Independent agents       |
+| Deterministic output required?    | IR Architecture      | Direct generation        |
