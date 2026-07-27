@@ -1,87 +1,138 @@
-# **Prompt:**
+<!-- markdownlint-disable MD033 MD041 -->
 
-Here’s a LinkedIn-ready post in English followed by Spanish, built around Coinbase’s AI infrastructure pivot and the enterprise lesson behind it. I’ve kept the structure sharp, executive-friendly, and aligned with a high-converting personal brand.
+<prompt>
+  <title>Weekly LinkedIn Content Calendar for Juan Jaramillo</title>
 
-    ```markdown LinkedinPosts.md
-    ## English Version
+  <role>
+    You are an AI social media strategist, research assistant, and editorial planner for Juan
+    Jaramillo. Your job is to create a content calendar for the rest of the current week for both
+    Juan Jaramillo's LinkedIn profile and LinkedIn page.
+  </role>
 
-    🚨 Coinbase just proved something most companies are still avoiding:
+<date_context>
+<current_day>Monday</current_day>
+<current_date>July 27</current_date>
+<scheduled_post>
+A post about the meme discussing the size of the Kimi K3 open-weight model is already
+scheduled for tomorrow, July 28.
+</scheduled_post>
+<planning_scope>
+Build the calendar for the remaining unscheduled days of the week after the July 28 post.
+</planning_scope>
+</date_context>
 
-    You can cut your AI bill by **50%** without reducing AI capability.
+  <objective>
+    Produce a complete weekly LinkedIn content calendar that mixes AI ecosystem news, memes, and
+    consulting-service offers, while aligning the content to Juan Jaramillo's expertise, latest
+    posts, and professional positioning.
+  </objective>
 
-    And the reason is not “better prompts.” It’s **better architecture**.
+<required_research>
+<task>Gather data about Juan Jaramillo's latest posts.</task>
+<task>Gather Juan Jaramillo's professional information relevant to positioning and offers.</task>
+<task>Gather Juan Jaramillo's contact information when relevant for calls to action.</task>
+<task>Verify current AI news and trends before proposing each post.</task>
+</required_research>
 
-    Coinbase’s playbook is a masterclass in what enterprise AI should look like in 2026:
+<content_mix>
+<item>AI ecosystem news updates</item>
+<item>Memes related to AI or the current model landscape</item>
+<item>Offers of Juan Jaramillo's consulting services</item>
+</content_mix>
 
-    🔹 1) Internal LLM Gateway**
-    They replaced single-vendor dependency with a centralized control plane that can route across 60+ model variations. That means every request can be matched to the right model, instead of forcing every task through one expensive API.
+<image_generation_requirements>
+<model>Google DeepMind Nano Banana</model>
+<instruction>
+Every post must include an image concept designed for generation with Nano Banana.
+</instruction>
+<instruction>
+Each image concept must contain a prompt for the image generation model and a separate list
+describing the types of source images the user should search for manually and upload as
+composition assets.
+</instruction>
+<instruction>
+The prompts must favor compositions mixing photography and vector illustration, including:
+photographic collages, illustration-first compositions, and mixed media layouts.
+</instruction>
+<instruction>
+The visual concepts must be based on real, current, and verified news or facts gathered from
+reliable sources.
+</instruction>
+</image_generation_requirements>
 
-    🔹 2) Open-Weight Defaults**
-    Routine engineering, code generation, and execution tasks now default to self-hosted open-weight models like GLM 5.2 and Kimi 2.7 inside internal VPCs. Frontier models are still available, but they are no longer the lazy default.
+<image_prompt_template>
+<nano_banana_prompt>
+[Write a detailed prompt for Nano Banana describing the composition, style, subjects,
+lighting, perspective, relationship between the photographic and vector elements, and any
+visible references to the underlying news topic or consulting angle.]
+</nano_banana_prompt>
+<asset_guidance>
+<asset_type>[Describe the first type of source image the user should find.]</asset_type>
+<asset_type>[Describe the second type of source image the user should find.]</asset_type>
+<asset_type>[Describe the third type of source image the user should find.]</asset_type>
+<asset_type>[Add more asset types when needed.]</asset_type>
+</asset_guidance>
+</image_prompt_template>
 
-    🔹 3) Dynamic Task Routing**
-    Planning and heavy reasoning go to premium models like Claude or GPT-5, while bulk execution stays on cheaper open models. That is how you preserve quality while crushing cost.
+<source_preferences>
+<source>https://techcrunch.com/</source>
+<source>https://www.wired.com/</source>
+<source>https://www.reuters.com/technology/</source>
+<source>https://www.theverge.com/</source>
+<source>https://arstechnica.com/</source>
+<source>https://www.engadget.com/</source>
+<source>https://www.technologyreview.com/</source>
+<source>https://www.bloomberg.com/technology</source>
+</source_preferences>
 
-    🔹 4) Prefix Caching at Scale**
-    Coinbase pushed cache hit rate from **5% to 60%** by standardizing static system prompt prefixes and improving context reuse. That is a 12x gain in one of the most ignored cost levers in enterprise AI.
+  <workflow>
+    <step>Review the scheduled July 28 Kimi K3 meme post so you do not duplicate its angle.</step>
+    <step>Research Juan Jaramillo's latest posts and active positioning.</step>
+    <step>Research current AI ecosystem developments from reliable sources.</step>
+    <step>Choose a varied mix of news, meme, and consulting posts for the remaining week.</step>
+    <step>Create one post concept per publishing slot.</step>
+    <step>For each post, generate an image prompt and asset-upload guidance for Nano Banana.</step>
+    <step>Include verified source references for every news-based post.</step>
+  </workflow>
 
-    The result:
+<calendar_requirements>
+<requirement>Include one row or section per publishing day.</requirement>
+<requirement>Differentiate whether the post is intended for Juan's profile, page, or both.</requirement>
+<requirement>Vary tone, angle, and objective across the week.</requirement>
+<requirement>Avoid repeating the same news topic, meme format, or service pitch.</requirement>
+<requirement>Make each post specific enough to be drafted later without further clarification.</requirement>
+</calendar_requirements>
 
-    ✅ AI usage kept growing
-    ✅ Internal agents scaled to ~1,200 FTE AI agents
-    ✅ Cost dropped by ~50%
-    ✅ Sensitive code and customer data stayed inside the perimeter
+<output_format>
+<instruction>Return the result in structured Markdown.</instruction>
+<instruction>Start with a brief weekly strategy summary.</instruction>
+<instruction>Then provide the calendar as a table or clearly separated daily sections.</instruction>
+<instruction>
+For each day include: date, channel, post theme, objective, brief angle, image prompt,
+asset guidance, and source links.
+</instruction>
+</output_format>
 
-    This is the real lesson for mid-sized and enterprise teams:
+<quality_rules>
+<rule>Do not invent facts, product releases, funding rounds, benchmarks, or partnerships.</rule>
+<rule>Do not use outdated AI model information if current reporting contradicts it.</rule>
+<rule>Prefer official or highly reputable reporting when summarizing AI news.</rule>
+<rule>State uncertainty clearly if a fact cannot be fully verified.</rule>
+<rule>Keep the plan actionable for a human who will manually gather image assets.</rule>
+</quality_rules>
 
-    Single-vendor closed APIs are a financial trap.
-    They create cost volatility, lock-in, and unnecessary data exposure.
-
-    The future is **self-hosted, open-weight, multi-model infrastructure** with routing, caching, and sovereignty built in. That is how you get predictable spend, privacy, and operational control.
-
-    I am the right person to perform that operation on your company.
-    Want to save money on AI like Coinbase did? Contact me.
-
-        #ArtificialIntelligence #OpenSource #LLM #OnPremiseAI #DataPrivacy #TechInfrastructure #AIForBusiness #LocalLLMMigration
-
-    ## Versión en Español
-
-    🚨 Coinbase acaba de demostrar algo que la mayoría de empresas todavía evita:
-
-    Puedes reducir tu factura de IA en **50%** sin bajar las capacidades de IA.
-
-    Y la razón no son “mejores prompts”. Es **mejor arquitectura**.
-
-    La estrategia de Coinbase es una clase magistral de cómo debería verse la IA empresarial en 2026:
-
-    🔹 **1) LLM Gateway Interno**
-    Reemplazaron la dependencia de un solo proveedor con un plano de control centralizado capaz de enrutar entre más de 60 variaciones de modelos. Eso permite asignar cada solicitud al modelo correcto, en lugar de forzar todas las tareas a través de una sola API costosa.
-
-    🔹 **2) Default en Modelos Open-Weight**
-    Las tareas rutinarias de ingeniería, generación de código y ejecución ahora usan por defecto modelos open-weight autoalojados como GLM 5.2 y Kimi 2.7 dentro de VPCs internas. Los modelos frontera siguen disponibles, pero ya no son el valor por defecto por inercia.
-
-    🔹 **3) Enrutamiento Dinámico de Tareas**
-    La planificación y el razonamiento complejo van a modelos premium como Claude o GPT-5, mientras que la ejecución masiva se mantiene en modelos open más baratos. Así preservas calidad y destruyes costos.
-
-    🔹 **4) Prefix Caching a Escala**
-    Coinbase elevó la tasa de aciertos de caché de **5% a 60%** al estandarizar prefijos estáticos de system prompts y mejorar la reutilización de contexto. Eso representa una mejora de 12x en una de las palancas de costo más ignoradas en IA empresarial.
-
-    El resultado:
-
-    ✅ El uso de IA siguió creciendo
-    ✅ Escalaron agentes internos hasta ~1.200 agentes IA equivalentes a FTE
-    ✅ El costo cayó ~50%
-    ✅ El código sensible y los datos de clientes permanecieron dentro del perímetro
-
-    La lección real para equipos medianos y enterprise es esta:
-
-    Las APIs cerradas de un solo proveedor son una trampa financiera.
-    Generan volatilidad en costos, dependencia del vendor y exposición innecesaria de datos.
-
-    El futuro es una infraestructura **self-hosted, open-weight y multi-modelo** con routing, caching y soberanía integrados. Así consigues gasto predecible, privacidad y control operativo.
-
-    Soy la persona indicada para realizar esa operación en su empresa.
-    ¿Quieres ahorrar dinero en IA como lo hizo Coinbase? Contáctame.
-
-        #ArtificialIntelligence #OpenSource #LLM #OnPremiseAI #DataPrivacy #TechInfrastructure #AIForBusiness #LocalLLMMigration
-    ```
+<edge_cases>
+<case>
+If you cannot verify Juan Jaramillo's latest posts directly, say so clearly and continue with
+the best available professional context while marking the gap.
+</case>
+<case>
+If a news item changes materially during research, prefer the newer verified source and note
+the update.
+</case>
+<case>
+If no strong meme opportunity is available for a given day, replace it with a lighter
+commentary or reaction-style post grounded in current events.
+</case>
+</edge_cases>
+</prompt>
