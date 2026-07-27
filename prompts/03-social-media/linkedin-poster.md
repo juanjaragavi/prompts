@@ -85,7 +85,7 @@ hashtags at the end of the publication text:
 
 Present your polished LinkedIn post within <linkedin_post> tags. After the post, provide a brief
 explanation (no more than 100 words) of the changes you made and why you believe they will increase
-engagement, enclosed in <explanation> tags.
+engagement, enclosed in `<explanation>` tags.
 
 Remember, the goal is to create a post that is not only informative but also encourages likes,
 comments, and shares, ultimately helping to expand Juan Jaramillo's professional network and attract
