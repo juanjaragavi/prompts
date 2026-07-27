@@ -10,6 +10,7 @@ single source of truth for his job-search preferences and facts — use it inste
 the user to repeat this information every time.
 
 ## Contact snapshot
+
 - Full name: Juan Miguel Jaramillo Gaviria
 - Email: juanamillo@proton.me
 - Phone: +57 305 420 6139
@@ -18,7 +19,9 @@ the user to repeat this information every time.
 - GitHub: https://github.com/juanjaragavi
 
 ## Target job titles / search keywords
+
 Use these (individually or OR'd together) as LinkedIn Jobs search keywords:
+
 - Artificial Intelligence Engineer / AI Engineer / AI Developer
 - Prompt Engineer
 - AI Strategy Consultant / Artificial Intelligence Consultant
@@ -32,6 +35,7 @@ a fit when AI-assisted development or headless modernization is central to the r
 these out otherwise, they are not a general target.
 
 ## Location & work mode
+
 - Location types: **On-site** and **Remote** (Hybrid is not selected/wanted)
 - On-site and remote locations (same set for both):
   - Bogotá, D.C., Capital District, Colombia
@@ -42,6 +46,7 @@ these out otherwise, they are not a general target.
   based in Colombia (contractor or remote-employee basis).
 
 ## Availability & employment type
+
 - Start date: Immediately — actively applying, available to start right away.
 - Employment types wanted: Full-time, Contract, Temporary, Hourly.
   - Note: LinkedIn's native `f_JT` filter does not have a distinct "Hourly" value (only
@@ -50,11 +55,13 @@ these out otherwise, they are not a general target.
     application message/cover letter instead of relying on a filter.
 
 ## Compensation target
+
 USD $3,500–$4,500/month, or the annual equivalent (~USD $42,000–$54,000/year). Quote this
 range (or state "open to negotiation within this band") whenever a screening question asks
 for desired/expected salary.
 
 ## Work authorization
+
 - Authorized to work in Colombia.
 - **Not** authorized to work in the U.S., U.K., or EU — do not claim otherwise, and do not
   pursue roles that require in-country sponsorship/relocation to those regions.
@@ -62,6 +69,7 @@ for desired/expected salary.
   location, as long as the engagement does not require local work authorization.
 
 ## Experience & skills summary
+
 - 17+ years in digital/technology roles (entrepreneurship, web/software development, digital
   marketing, and — since ~2022 — enterprise generative AI).
 - ~4 years each in Python, ML, GenAI, LLM/NLP, and prompt engineering.
@@ -82,6 +90,7 @@ For ready-to-use answers to common Easy Apply screening questions, read
 `references/screening-answers.md` before filling out an application.
 
 ## Building a LinkedIn Jobs search
+
 Run `scripts/build_search_url.py` to generate a search URL instead of manually reasoning
 through LinkedIn's filter query params (they use short non-obvious codes). Example:
 
@@ -100,7 +109,9 @@ tool available in the session (e.g. a `chrome-devtools`/Playwright MCP `new_page
 call) to actually view results.
 
 ## Screening job postings for fit
+
 Treat a posting as a strong match when it satisfies ALL of:
+
 1. Title/responsibilities align with the target roles above (or is an AI-centric CMS/Next.js
    role).
 2. Location is Remote (open to Colombia-based candidates) OR on-site/hybrid in one of the four
@@ -110,6 +121,7 @@ Treat a posting as a strong match when it satisfies ALL of:
    arrangements are fine even for companies based there.
 
 Flag/skip postings that:
+
 - Require on-site presence outside the four listed cities.
 - Explicitly require U.S./U.K./EU citizenship, green card, or visa sponsorship with no remote
   option.
@@ -118,6 +130,7 @@ Flag/skip postings that:
 - Pay meaningfully below the target compensation band with no stated flexibility.
 
 ## Applying (Easy Apply / forms)
+
 When actually filling out application forms, pair this skill with the
 `playwright-automation-fill-in-form` skill for the mechanics of driving the browser — use this
 skill's contact snapshot, preferences, and `references/screening-answers.md` as the source of

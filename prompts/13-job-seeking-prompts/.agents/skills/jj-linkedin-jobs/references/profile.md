@@ -8,10 +8,12 @@ actually see on his public profile — it is background/context, not a substitut
 user-confirmed facts in `SKILL.md` (if the two ever disagree, `SKILL.md` wins).
 
 ## Headline
+
 "AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt
 Engineer • Professional Vibe Coder"
 
 ## About (condensed from the profile's Spanish-language summary)
+
 Juan Miguel Jaramillo Gaviria is an AI Development Lead, full-stack architect, and serial
 tech entrepreneur with 17+ years leading digital/technology initiatives. Since 2022 he has
 specialized in enterprise generative AI development, LLM fine-tuning (PEFT), RLHF, and
@@ -42,14 +44,17 @@ generation), **TrafficGenius** (invalid-traffic detection), **RouteGenius** (pro
 traffic distribution), and **Social Media Genius** (AI-canvas social content generation).
 
 ## Top skills (as listed on profile)
+
 Artificial intelligence • Prompt Engineer • Machine learning • Deep learning • Artificial
 Intelligence (AI)
 
 ## Services offered (profile "Services" section)
+
 IT Consulting, Web Design, User Experience Design (UED), Web Development, Application
 Development, Mobile Application Development, Cloud Application Development
 
 ## Education
+
 University of Toronto (listed on profile; no further detail was surfaced without opening the
 education detail page).
 
@@ -101,6 +106,7 @@ P Digital Agency · Full-time — Aug 2009 – Oct 2012 (3 yrs 3 mos), Bogotá, 
 Digital project director, digital marketing specialist, web designer, WordPress developer.
 
 ## Publicly stated job search intent (from profile "Open to work" & posts)
+
 The profile itself is set to #OpenToWork and states: "Looking for Remote or On-site roles in
 Bogota, D.C., Medellín, Mexico City, Mexico and Buenos Aires Province, Argentina" and
 "Looking for Artificial Intelligence Engineer, Prompt Engineer, AI Strategy Consultant and
@@ -108,6 +114,7 @@ Artificial Intelligence Consultant roles" — consistent with the preferences ca
 `SKILL.md`.
 
 ## Other public contact point
+
 A pinned post lists `info@juanjaramillo.tech` and the portfolio link `juanjaramillo.tech` as
 a public business contact. Prefer the confirmed email in `SKILL.md`
 (`juanamillo@proton.me`) for actual application forms unless the user says otherwise; the
