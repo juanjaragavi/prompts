@@ -2,7 +2,7 @@
 
 ## Status Checklist
 
-- **Visited URL**: https://www.linkedin.com
+- **Visited URL**: <https://www.linkedin.com>
 - **Initial Verification**: Visited the webpage and identified that the session was already fully authenticated.
 - **Identified Profile Details**:
   - Profile name: Juan Miguel Jaramillo Gaviria
