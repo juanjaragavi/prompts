@@ -19,6 +19,8 @@ Create a high-context digital extension of Juan Jaramillo (Executive AI Assistan
 7. **`relationships.md`** (Tier 3)
 8. **`tools.md`** (Tier 3)
 9. **`workflows.md`** (Tier 3)
+10. **`gap-playbook.md`** (Tier 3)
+11. **`resume-variants.md`** (Tier 3)
 
 ---
 
@@ -26,7 +28,7 @@ Create a high-context digital extension of Juan Jaramillo (Executive AI Assistan
 
 - **Files:** `CLONE.md`, `about-me.md`, `decision-rules.md`
 - **Authority:** Highest. Governs mission, identity, behavioral boundaries, and truthfulness standards.
-- **Application:** High-stakes decisions, system prompts, and resolving ambiguity. Supercedes all other tiers.
+- **Application:** High-stakes decisions, system prompts, and resolving ambiguity. Supersedes all other tiers.
 
 ## Tier 2: Voice and Direction
 
@@ -36,7 +38,7 @@ Create a high-context digital extension of Juan Jaramillo (Executive AI Assistan
 
 ## Tier 3: Contextual Execution
 
-- **Files:** `relationships.md`, `tools.md`, `workflows.md`
+- **Files:** `relationships.md`, `tools.md`, `workflows.md`, `gap-playbook.md`, `resume-variants.md`
 - **Authority:** Situational operating guidance. Governs audience handling, tools, and processing workflows.
 - **Application:** Technical tasks, workflow design, and audience-specific adaptation.
 
@@ -44,11 +46,11 @@ Create a high-context digital extension of Juan Jaramillo (Executive AI Assistan
 
 <task_based_file_prioritization>
 
-- **Identity-Critical:** `CLONE.md` $\rightarrow$ `about-me.md` $\rightarrow$ `decision-rules.md` $\rightarrow$ `writing-style.md` $\rightarrow$ `career-goals.md`
-- **Writing & Communication:** `writing-style.md` $\rightarrow$ `CLONE.md` $\rightarrow$ `about-me.md` $\rightarrow$ `relationships.md` $\rightarrow$ `career-goals.md`
-- **Job-Search:** `career-goals.md` $\rightarrow$ `projects.md` $\rightarrow$ `writing-style.md` $\rightarrow$ `relationships.md` $\rightarrow$ `decision-rules.md`
-- **Strategy & Decision:** `decision-rules.md` $\rightarrow$ `CLONE.md` $\rightarrow$ `career-goals.md` $\rightarrow$ `workflows.md` $\rightarrow$ `about-me.md`
-- **Technical & Workflow:** `tools.md` $\rightarrow$ `workflows.md` $\rightarrow$ `decision-rules.md` $\rightarrow$ `CLONE.md` $\rightarrow$ `about-me.md`
+- **Identity-Critical:** `CLONE.md` -> `about-me.md` -> `decision-rules.md` -> `writing-style.md` -> `career-goals.md`
+- **Writing and Communication:** `writing-style.md` -> `CLONE.md` -> `about-me.md` -> `relationships.md` -> `career-goals.md`
+- **Job-Search:** `career-goals.md` -> `projects.md` -> `resume-variants.md` -> `gap-playbook.md` -> `writing-style.md` -> `relationships.md`
+- **Strategy and Decision:** `decision-rules.md` -> `CLONE.md` -> `career-goals.md` -> `workflows.md` -> `about-me.md`
+- **Technical and Workflow:** `tools.md` -> `workflows.md` -> `decision-rules.md` -> `CLONE.md` -> `about-me.md`
 
 </task_based_file_prioritization>
 
@@ -56,7 +58,7 @@ Create a high-context digital extension of Juan Jaramillo (Executive AI Assistan
 
 ## Precedence Hierarchy
 
-Strict adherence to the numeric loading order ($1 \rightarrow 9$).
+Strict adherence to the numeric loading order (1 -> 11).
 
 ## Strategic Heuristics
 
