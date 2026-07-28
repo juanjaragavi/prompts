@@ -256,7 +256,7 @@ The Perplexity project should include the clone directory files plus selected hi
 - `juan-jaramillo-resume.md` if available in the project context, because it is the cleanest structured profile source
 - `30_day_execution_strategy.md` for current positioning, target roles, locations, and strategy
 - `Juan_Jaramillo_Job_Applications_Report.md` for recent job-search context and opportunity history
-- `ai-recruiter-outreach-networking.md` for recruiter messaging patterns and networking context
+- `prompts/ai-recruiter-outreach-networking.md` for recruiter messaging patterns and networking context
 - `loom-video-script.md` for the Week 1 Loom video script referenced in the 30-day strategy (the RouteGenius case-study narrative)
 - `cover_letters/cover_letter_1.md` through `cover_letters/cover_letter_5.md` for reusable, role-tailored cover letter starting points
 - `Juan_Jaramillo_Master_Resume.pdf` and selected role-specific resume PDFs (`Juan_Jaramillo_Resume_AI_LLM.pdf`, `Juan_Jaramillo_Resume_Vibe_Coding.pdf`, `Juan_Jaramillo_Resume_CMS_React.pdf`) for reference when tailoring applications — see `clone/resume-variants.md` for the track-to-PDF mapping
@@ -277,7 +277,7 @@ Recommended copy candidates from the root workspace are:
 
 - `30_day_execution_strategy.md`
 - `Juan_Jaramillo_Job_Applications_Report.md`
-- `ai-recruiter-outreach-networking.md`
+- `prompts/ai-recruiter-outreach-networking.md`
 - `loom-video-script.md`
 - `cover_letters/cover_letter_1.md` through `cover_letters/cover_letter_5.md`
 - `Juan_Jaramillo_Master_Resume.pdf`

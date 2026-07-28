@@ -16,7 +16,7 @@ trigger: always_on
   - `.agent/skills/recruiter-outreach-response/01 Juan_Jaramillo-Curriculum-Vitae-2026.pdf`
 - Escalation and templates:
   - `.agent/skills/recruiter-outreach-response/escalation-checklist.md`
-  - `.agent/skills/recruiter-outreach-response/templates.md`
+  - `prompts/recruiter-outreach-response-templates.md`
 - Routing rule: if the user asks for recruiter outreach replies,
   compensation responses, interview scheduling replies, or recruiter
   thread triage, load and follow this skill before drafting output.

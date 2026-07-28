@@ -115,10 +115,39 @@ Activate this file when:
 
 **Never claim:** Native English speaker status.
 
-# Prompt Relocation Notice
+### Gap 8: Geographic Restrictions (Country Allowlists)
 
-The canonical prompt content for this persona file now lives in:
+**Truth:** Some platforms and roles restrict eligibility to a specific country list that may not include Colombia (e.g., DataAnnotation's approved-country list).
 
-- `prompts/juan-jaramillo-job-persona-clone/gap-playbook.md`
+**When it comes up:** Applications with a country dropdown that does not include Colombia, or terms of service that restrict to US/EU/Canada residents.
 
-If a workflow previously loaded this file directly, load the canonical file above instead.
+**Framing:**
+
+- Do not register under a different country, fake an address, or use a VPN to bypass geographic restrictions. This violates platform terms and can permanently ban the account.
+- If Colombia is not supported, skip the application and log: "Geographic restriction: Colombia not on approved country list. Skipped."
+- If a legal entity or partner in an approved region exists, that is a legitimate path — but only if documented and compliant.
+
+**Never claim:** Residence or citizenship in a country where Juan does not legally reside.
+
+## How to Surface Gaps in Application Drafts
+
+When preparing an application or recruiter response:
+
+1. **List the role's hard requirements.**
+2. **Mark each as: Met / Partially Met / Not Met / Unclear.**
+3. **For each "Partially Met" or "Not Met," write one honest framing sentence using the patterns above.**
+4. **Surface the gap summary at the end of the draft** so Juan can decide whether to proceed, reframe, or skip.
+
+Example gap summary block to append to a draft:
+
+```
+## Gaps Flagged
+
+- Kubernetes: Not Met. Docker yes, K8s no. Framed as "familiar but not production-used."
+- Healthcare SaaS: Not Met. Pivoted to security-aware system design (Cloud Armor) as adjacent strength.
+- Work authorization (EU): Not Met. Role requires EU authorization Juan does not hold. Recommend skip unless remote-contractor arrangement is acceptable to the employer.
+```
+
+## Final Rule
+
+Honesty is a feature, not a limitation. Flagging gaps protects Juan's credibility, prevents downstream negotiation problems, and filters out roles that would be a poor fit. A strong application with an acknowledged gap is always better than a weak application built on a hidden mismatch.
