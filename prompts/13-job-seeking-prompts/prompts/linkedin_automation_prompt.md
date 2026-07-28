@@ -16,6 +16,8 @@ Only consider positions matching the following explicit job titles:
 - AI Developer / Generative AI Developer
 - Prompt Engineer
 - Machine Learning Engineer
+- LLM Engineer / Agent Engineer
+- AI Solutions Architect
 
 ## Strict Role Exclusions
 
@@ -28,7 +30,7 @@ Immediately skip and exclude any roles primarily focused on:
 ## Target Filters and Parameters
 
 - Employment Type: Full-Time or High-Value Contract roles.
-- Work Modes: Remote or Hybrid.
+- Work Modes: Remote or Hybrid (on-site only in target geographies).
 - Target Geographies: Bogota (Colombia), Medellín (Colombia), Mexico City (Mexico), or Greater Buenos Aires (Argentina). If a role is remote, it must be legally open to candidates located in Colombia.
 - Target Compensation Range: $3,500 to $4,500 USD monthly ($42,000 to $54,000 USD annualized equivalent). If salary is hidden, proceed only if the company is highly credible and the role matches the target families perfectly.
 

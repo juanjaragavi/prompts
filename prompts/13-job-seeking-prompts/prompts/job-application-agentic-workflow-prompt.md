@@ -1,11 +1,11 @@
 <prompt>
 
   <context>
-   Source context for analysis is located in `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts`. The implementation project for the agentic workflow must be created in the parent workspace root `/Users/macbookpro/GitHub` (outside the source prompts directory). The goal is to automate job discovery and application workflows across LinkedIn (`https://www.linkedin.com/jobs`) and third-party redirected sites for the candidate, Juan Jaramillo. The system uses an MCP (Model Context Protocol) Server and browser automation tools (including Chrome) to execute web-based job application tasks. Ollama is fully installed locally (application, service, and CLI).
+   Source context for analysis is located in `prompts/13-job-seeking-prompts`. The implementation project for the agentic workflow must be created in the parent workspace root (outside the source prompts directory). The goal is to automate job discovery and application workflows across LinkedIn (`https://www.linkedin.com/jobs`) and third-party redirected sites for the candidate, Juan Jaramillo. The system uses an MCP (Model Context Protocol) server and browser automation tools (including Chrome) to execute web-based job application tasks. Ollama is fully installed locally (application, service, and CLI).
   </context>
 
   <objective>
-  Evaluate the local codebase to determine the optimal deployment architecture and implement a local, multi-agent automated job application workflow powered by local Ollama LLMs.
+  Evaluate the local codebase to determine the optimal deployment architecture and implement a local, multi-agent automated job application workflow powered by local Ollama LLMs (prefer current families such as Llama 4, Qwen 3, and Gemma 3/4 when available).
   </objective>
 
   <task>
@@ -13,8 +13,8 @@
   </task>
 
   <inputs>
-   - Source context directory: `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts`
-   - Target project root (new implementation location): `/Users/macbookpro/GitHub`
+   - Source context directory: `prompts/13-job-seeking-prompts`
+   - Target project root (new implementation location): workspace parent directory (outside `prompts/13-job-seeking-prompts`)
   - Target URL: `https://www.linkedin.com/jobs` and associated external redirect URLs
   - Environment dependencies: Ollama runtime, `ollama` CLI, MCP Server, Chrome browser automation tools
   </inputs>
@@ -35,9 +35,9 @@
 <implementation_details>
 
 1. Diagnostic Phase:
-   - Analyze `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts` file structure and dependencies as source context.
+   - Analyze `prompts/13-job-seeking-prompts` file structure and dependencies as source context.
    - Determine the optimal runtime environment (Next.js, Node.js, or Python/Bash).
-   - Define a concrete new project directory under `/Users/macbookpro/GitHub` (for example, `/Users/macbookpro/GitHub/job-application-agentic-workflow`).
+   - Define a concrete new project directory under the workspace parent root (for example, `job-application-agentic-workflow`).
 2. Model Selection:
    - Execute `ollama ls` to inspect available local models.
    - Map specific models to functional agent roles (e.g., job filtering, browser navigation, form completion).
@@ -45,7 +45,7 @@
    - Implement primary agent and sub-agent communication interfaces.
    - Integrate MCP Server tooling for browser control and external site parsing.
    - Support handling redirected external job portal applications from LinkedIn links.
-   - Copy and adapt any required context files, templates, examples, or configuration assets from `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts` into the new project directory under `/Users/macbookpro/GitHub` when needed.
+   - Copy and adapt any required context files, templates, examples, or configuration assets from `prompts/13-job-seeking-prompts` into the new project directory when needed.
      </implementation_details>
 
 <edge_cases>
@@ -72,7 +72,7 @@
   <deliverables>
   - Architecture evaluation report identifying the chosen framework.
    - Functional agentic workflow codebase created in a new project directory under `/Users/macbookpro/GitHub`.
-   - Brief migration/context-transfer note listing which files (if any) were copied or adapted from `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts`.
+   - Brief migration/context-transfer note listing which files (if any) were copied or adapted from `prompts/13-job-seeking-prompts`.
   - Execution scripts to initiate and monitor the automated application process locally.
   </deliverables>
 

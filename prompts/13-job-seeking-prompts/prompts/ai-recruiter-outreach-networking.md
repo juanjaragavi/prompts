@@ -6,19 +6,19 @@ Use LinkedIn in a browser to find recruiters and HR professionals who are active
 
 ## Target Search Criteria
 
-Look for Technical Recruiters or HR Managers at target IT companies or within the IT industry who are actively recruiting for AI-related roles.
+Look for Technical Recruiters or HR Managers at target IT companies or within the IT industry who are actively recruiting for AI, LLM, agent engineering, or AI-native full-stack roles.
 
 Prioritize profiles that show one or more of these signals:
 
 - The LinkedIn "Hiring" profile frame
 - Recent posts about AI job openings
-- Headline keywords such as "AI Recruiter"
+- Headline keywords such as "AI Recruiter", "GenAI Recruiter", "ML Recruiter", "LLM Recruiter", or "Technical Recruiter"
 
 ## Outreach Message
 
 Send this connection request message to each relevant profile, replacing the placeholders with the correct details:
 
-"Hello [Name], I noticed you are actively seeking AI talent. I am an AI professional currently open to new opportunities and would love to share my resume with you for any relevant openings you may have. Best regards, [Your Name]."
+"Hello [Name], I noticed you are actively seeking AI talent. I am an AI/LLM engineer currently open to new opportunities and would be glad to share my resume for any relevant openings you may have. Best regards, Juan Jaramillo."
 
 ## Browser Workflow
 
