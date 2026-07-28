@@ -23,6 +23,8 @@ Use these preferences as the baseline for search and screening:
 
 - Job titles:
   - AI Engineer (contract/project-based)
+  - LLM Engineer (contract/project-based)
+  - Agent Engineer (contract/project-based)
   - Prompt Engineer (contract/project-based)
   - Machine Learning Engineer (contract/project-based)
   - AI Instructor
@@ -62,6 +64,8 @@ Developer roles should only be considered when they are clearly centered on AI, 
 Only consider jobs that match one of these role families:
 
 - AI Engineer (contract, hourly, temporary, or project-based)
+- LLM Engineer (contract, hourly, temporary, or project-based)
+- Agent Engineer (contract, hourly, temporary, or project-based)
 - AI Developer (contract, hourly, temporary, or project-based)
 - Prompt Engineer (contract, hourly, temporary, or project-based)
 - Machine Learning Engineer (contract, hourly, temporary, or project-based)
@@ -93,6 +97,7 @@ In LinkedIn Jobs, search for teaching/capacitation and contract-style AI opportu
 - Work mode: Remote or Hybrid (On-site only when location is clearly eligible)
 - Geography: Only locations that are clearly within Juan's eligible regions
 - Compensation: Prefer visible hourly or monthly compensation aligned with senior AI consulting/training work
+- Technical relevance: Prefer postings that mention current agentic/GenAI stacks (for example Gemini 2.5/3, GPT-5.x, Claude 4/5, LangChain, LangGraph, RAG, LLM evaluation)
 
 If compensation is shown annually, keep the role only when it can be reasonably interpreted as competitive with contract-level AI engineering or AI training work.
 

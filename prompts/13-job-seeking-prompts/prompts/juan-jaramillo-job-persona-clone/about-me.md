@@ -72,7 +72,8 @@ My core expertise includes:
 - Prompt engineering and hallucination risk management
 - LLM fine-tuning, PEFT, and RLHF
 - Next.js, React, TypeScript, Python, and cloud-native architectures
-- Vertex AI, LangChain, LangGraph, CrewAI, and agentic systems
+- Vertex AI (Gemini 2.5/3 series), LangChain, LangGraph, CrewAI, and agentic systems
+- Modern model ecosystems: GPT-5.x, Claude 4/5 series, and Llama 4
 - Product thinking, technical leadership, and execution
 
 ## Values

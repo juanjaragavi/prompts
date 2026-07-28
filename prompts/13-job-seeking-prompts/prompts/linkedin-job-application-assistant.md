@@ -9,6 +9,7 @@ Use a browser to research Juan Jaramillo’s background, find relevant LinkedIn 
 Open and review these sources before applying anywhere:
 
 - LinkedIn profile: <https://www.linkedin.com/in/juan-jaramillo-ai/>
+- Website: <https://juanjaramilloai.vercel.app>
 - Resume: <https://files.catbox.moe/pswa9k.pdf>
 - Current resume is attached in PDF format.
 
@@ -22,6 +23,8 @@ Use these saved LinkedIn preferences as the baseline for search and screening:
 
 - Job titles:
   - Artificial Intelligence Engineer
+  - LLM Engineer
+  - Agent Engineer
   - Prompt Engineer
   - Machine Learning Engineer
 
@@ -53,6 +56,8 @@ Developer roles should only be considered when they are clearly centered on AI, 
 Only consider jobs that match one of these role families:
 
 - AI Engineer
+- LLM Engineer
+- Agent Engineer
 - AI Developer
 - Prompt Engineer
 - Machine Learning Engineer
@@ -80,6 +85,7 @@ In LinkedIn Jobs, search for full-time roles and apply these filters whenever po
 - Work mode: Remote or Hybrid
 - Geography: Only locations that are clearly within Juan’s eligible regions
 - Compensation: Prefer roles with a visible monthly salary of about $3,500 to $4,500 USD
+- Technical relevance: Prefer roles explicitly using modern GenAI/agent stacks (for example Gemini 2.5/3, GPT-5.x, Claude 4/5, LangGraph, LangChain, RAG, evaluation workflows)
 
 If Juan’s eligible regions are not stated explicitly in the source materials, use his LinkedIn profile location and only consider roles that are either remote or clearly in that same region.
 
