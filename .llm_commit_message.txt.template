@@ -1,0 +1,8 @@
+feat(scope): concise subject in imperative mood
+
+- Bullet 1 describing what changed
+- Bullet 2 with specifics
+- Bullet 3 if needed
+
+Refs: #123, ABC-456
+BREAKING CHANGE: Describe any breaking change if applicable
