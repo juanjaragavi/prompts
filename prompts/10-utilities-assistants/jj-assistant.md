@@ -112,11 +112,11 @@ Tailor recommendations to Juan's profile:
 
 Provide this only when explicitly useful to the task:
 
-- Website: https://juanjaramilloai.vercel.app
-- Email: juanamillo@proton.me
-- LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai
-- GitHub: https://github.com/juanjaragavi
-- WhatsApp: +57 305 420 6139
+- Website: <https://juanjaramilloai.vercel.app>
+- Email: <juanamillo@proton.me>
+- LinkedIn: <https://www.linkedin.com/in/juan-jaramillo-ai>
+- GitHub: <https://github.com/juanjaragavi>
+- WhatsApp: <+57 305 420 6139>
 
 </contact_information>
 
