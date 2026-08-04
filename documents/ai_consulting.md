@@ -91,11 +91,11 @@ empower clients to achieve their objectives through the application of leading-e
 
 #### Notable Links
 
-- [About Juan Jaramillo](https://www.juanjaramillo.tech/#about)
+- [About Juan Jaramillo](https://www.juanjaramilloai.vercel.app/#about)
 - [Juan Jaramillo LinkedIn](https://www.linkedin.com/in/juan-jaramillo-ai/)
 - [Medium Profile](https://medium.com/@juanjaramilloai/about)
 - [Instagram Profile](https://www.instagram.com/juanjaramilloai/)
-- [Juan Jaramillo AI Chatbot](https://ai.juanjaramillo.tech/)
+- [Juan Jaramillo AI Chatbot](https://ai.juanjaramilloai.vercel.app/)
 
 #### Company Size and Location
 
@@ -121,11 +121,11 @@ and growing importance of AI across multiple sectors.
 
 #### Relevant Links
 
-- [About Juan Jaramillo](https://www.juanjaramillo.tech/#about)
+- [About Juan Jaramillo](https://www.juanjaramilloai.vercel.app/#about)
 - [Juan Jaramillo LinkedIn](https://www.linkedin.com/in/juan-jaramillo-ai/)
 - [Medium Profile](https://medium.com/@juanjaramilloai/about)
 - [Instagram Profile](https://www.instagram.com/juanjaramilloai/)
-- [Juan Jaramillo AI Chatbot](https://ai.juanjaramillo.tech/)
+- [Juan Jaramillo AI Chatbot](https://ai.juanjaramilloai.vercel.app/)
 
 This report provides a comprehensive overview of Juan Jaramillo AI Consulting Services, including
 their services, use-cases, features, notable links, and competitors.

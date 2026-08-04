@@ -15,4 +15,4 @@ Brief description of your project.
 
 ---
 
-Made with ❤️ by [Juan Jaramillo](https://juanjaramillo.tech)
+Made with ❤️ by [Juan Jaramillo](https://juanjaramilloai.vercel.app)

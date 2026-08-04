@@ -326,7 +326,7 @@ STEP 5: AUTO-FILL contact information
   → Phone: +57 305 420 6139 (if field empty or editable)
   → Email: juanamillo@proton.me (if field empty or editable)
   → LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai/
-  → Portfolio/Website: https://juanjaramillo.tech (if requested)
+  → Portfolio/Website: https://juanjaramilloai.vercel.app (if requested)
 
 STEP 6: HANDLE screening questions
   → Years of Experience: Use chart below

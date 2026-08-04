@@ -43,7 +43,7 @@ Focus on these specific role categories in priority order:
 - **Location:** Bogotá, Colombia (GMT-5)
 - **LinkedIn:** https://www.linkedin.com/in/juan-jaramillo-ai/
 - **GitHub:** https://github.com/juanjaragavi
-- **Portfolio:** https://juanjaramillo.tech
+- **Portfolio:** https://juanjaramilloai.vercel.app
 
 ### Professional Identity
 
@@ -298,7 +298,7 @@ STEP 5: AUTO-FILL contact information
   → Phone: +57 305 420 6139 (if field empty or editable)
   → Email: juanamillo@proton.me (if field empty or editable)
   → LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai/
-  → Portfolio/Website: https://juanjaramillo.tech (if requested)
+  → Portfolio/Website: https://juanjaramilloai.vercel.app (if requested)
 
 STEP 6: HANDLE screening questions
   → Years of Experience: Use chart below

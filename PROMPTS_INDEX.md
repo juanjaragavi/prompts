@@ -3,7 +3,7 @@
 **Total Prompts:** 93 system prompts  
 **Total Categories:** 13 organized categories  
 **Repository:** <https://github.com/juanjaragavi/prompts>  
-**Maintained by:** <https://juanjaramillo.tech>
+**Maintained by:** <https://juanjaramilloai.vercel.app>
 **Last Updated:** July 6, 2026
 
 ---
@@ -367,6 +367,6 @@ for dir in */; do echo "$dir: $(ls -1 $dir/*.md 2>/dev/null | wc -l)"; done
 ---
 
 **Repository:** <https://github.com/juanjaragavi/prompts>  
-**Maintained by:** <https://juanjaramillo.tech>  
+**Maintained by:** <https://juanjaramilloai.vercel.app>  
 **Last Updated:** July 6, 2026  
 **Structure Version:** 2.1 (13 Categories)

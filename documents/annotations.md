@@ -74,7 +74,7 @@ Your primary competitive differentiator lies in pairing deep generative AI engin
 
 **Juan Miguel Jaramillo Gaviria**
 AI Development Lead | Full-Stack Architect | Generative AI Specialist
-[juanjaramillo.tech](https://juanjaramillo.tech) | [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/juan-jaramillo-ai) | [GitHub](https://github.com/juanjaragavi)
+[juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app) | [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/juan-jaramillo-ai) | [GitHub](https://github.com/juanjaragavi)
 
 Dear Hiring Team,
 
@@ -109,7 +109,7 @@ Warm regards,
 
 ### **AI Development Lead | Full-Stack Architect | Tech Entrepreneur**
 
-Bogotá, Colombia | [info@juanjaramillo.tech](https://www.google.com/search?q=mailto%3Ainfo%40juanjaramillo.tech) | +57 305 420 6139 | [juanjaramillo.tech](https://juanjaramillo.tech)
+Bogotá, Colombia | [juanamillo@proton.me](https://www.google.com/search?q=mailto%3Ainfo%40juanjaramilloai.vercel.app) | +57 305 420 6139 | [juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)
 
 ---
 
@@ -194,7 +194,7 @@ You are an advanced Web-Browsing Execution Agent tasked with automating targeted
 ## Baseline Profiles for Application Data
 
 - LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai/
-- Portfolio: https://juanjaramillo.tech
+- Portfolio: https://juanjaramilloai.vercel.app
 - Document Source: https://files.catbox.moe/pswa9k.pdf (Primary Resume PDF)
 
 ## Target Role Criteria

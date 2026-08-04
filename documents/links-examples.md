@@ -25,7 +25,7 @@ Automatic link: <https://www.example.com> Email link: <contact@example.com>
 
 ## Image Links
 
-[![Alt text for an image](https://storage.googleapis.com/media.juanjaramillo.tech/email-header.webp)](https://storage.googleapis.com/media.juanjaramillo.tech/email-header.webp)
+[![Alt text for an image](https://storage.googleapis.com/media.juanjaramilloai.vercel.app/email-header.webp)](https://storage.googleapis.com/media.juanjaramilloai.vercel.app/email-header.webp)
 
 ## Nested and Formatted Links
 

@@ -42,7 +42,7 @@ Compensation targets:
 - Location: Bogota, Colombia (GMT-5)
 - LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai/
 - GitHub: https://github.com/juanjaragavi
-- Portfolio: https://juanjaramillo.tech
+- Portfolio: https://juanjaramilloai.vercel.app
 
 ### Professional Identity
 
@@ -154,7 +154,7 @@ For each qualified listing:
    - Phone: +57 305 420 6139
    - Email: juanamillo@proton.me
    - LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai/
-   - Portfolio: https://juanjaramillo.tech
+   - Portfolio: https://juanjaramilloai.vercel.app
 6. Answer screening questions using verified facts only.
 7. Upload the resume. Use local backup files if needed.
 8. Review every required field for accuracy.

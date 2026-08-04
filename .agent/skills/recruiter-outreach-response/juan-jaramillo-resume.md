@@ -3,9 +3,9 @@
 ## AI Development Lead, Full-Stack Architect, and Serial Tech Entrepreneur
 
 📍 Bogotá, Colombia  
-📧 [info@juanjaramillo.tech](mailto:info@juanjaramillo.tech)  
+📧 [juanamillo@proton.me](mailto:juanamillo@proton.me)  
 📞 [+57 305 420 6139](tel:+573054206139)  
-🌐 [juanjaramillo.tech](https://juanjaramillo.tech)
+🌐 [juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)
 
 ---
 
@@ -168,4 +168,4 @@ _Skills:_ Advertising, marketing, copywriting, graphic design, creative directio
 ## Portfolio & Projects
 
 To see my portfolio of work across different areas, featured projects, and a list of specific services I provide, please visit:  
-🔗 **[juanjaramillo.tech](https://juanjaramillo.tech)**
+🔗 **[juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)**

@@ -1,8 +1,8 @@
 # LinkedIn Profile Analysis — Juan Jaramillo
 
 Everything in this file was gathered by visiting
-https://www.linkedin.com/in/juan-jaramillo-ai/ (profile) and
-https://www.linkedin.com/in/juan-jaramillo-ai/details/experience/ (experience). Use it to
+<https://www.linkedin.com/in/juan-jaramillo-ai/> (profile) and
+<https://www.linkedin.com/in/juan-jaramillo-ai/details/experience/> (experience). Use it to
 tailor cover letters, InMail messages, and application answers to what a recruiter will
 actually see on his public profile — it is background/context, not a substitute for the
 user-confirmed facts in `SKILL.md` (if the two ever disagree, `SKILL.md` wins).
@@ -115,8 +115,8 @@ Artificial Intelligence Consultant roles" — consistent with the preferences ca
 
 ## Other public contact point
 
-A pinned post lists `info@juanjaramillo.tech` and the portfolio link `juanjaramillo.tech` as
+A pinned post lists `juanamillo@proton.me` and the portfolio link `juanjaramilloai.vercel.app` as
 a public business contact. Prefer the confirmed email in `SKILL.md`
 (`juanamillo@proton.me`) for actual application forms unless the user says otherwise; the
 `.tech` email/portfolio can be mentioned as a supplementary professional contact/portfolio
-link if a form asks for one.
+link if a form asks for one. The updated contact information is `juanamillo@proton.me` and `juanjaramilloai.vercel.app`.

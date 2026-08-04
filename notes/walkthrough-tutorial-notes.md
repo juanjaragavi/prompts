@@ -19,15 +19,15 @@ please let me know.
 
 Below, I will attach the TalentAssisto logo and the `.webp` files of the character images.
 
-- <https://storage.googleapis.com/media.juanjaramillo.tech/TalentAssisto-Logo-SplashScreen.png>
-- <https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-1.webp>
-- <https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-2.webp>
-- <https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-3.webp>
-- <https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-4.webp>
-- <https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-process-1.jpg>
-- <https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-process-2.jpg>
-- <https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-process-3.jpg>
-- <https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-process-4.jpg>
+- <https://storage.googleapis.com/media.juanjaramilloai.vercel.app/TalentAssisto-Logo-SplashScreen.png>
+- <https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-1.webp>
+- <https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-2.webp>
+- <https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-3.webp>
+- <https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-4.webp>
+- <https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-process-1.jpg>
+- <https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-process-2.jpg>
+- <https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-process-3.jpg>
+- <https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-process-4.jpg>
 
 Here is the `page.tsx` into which the component will be imported and with which components it will
 interact.
@@ -130,7 +130,7 @@ const tutorialSteps: TutorialStep[] = [
     description:
       'En este tutorial, descubriremos todo lo que TalentAssisto puede ofrecerte a ti y a tu departamento o empresa de consultoría de recursos humanos.',
     image:
-      'https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-1.webp',
+      'https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-1.webp',
   },
   {
     id: 2,
@@ -138,7 +138,7 @@ const tutorialSteps: TutorialStep[] = [
     description:
       'Aquí encontrarás todas tus herramientas y los Ajustes de perfil. Podrás crear tus Asistentes, guardar tus prompts y archivar o generar imágenes.',
     image:
-      'https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-2.webp',
+      'https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-2.webp',
   },
   {
     id: 3,
@@ -146,7 +146,7 @@ const tutorialSteps: TutorialStep[] = [
     description:
       'Este es el lugar donde verás tus Chats, Asistentes y Prompts creados, así como los Archivos que hayas subido.',
     image:
-      'https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-3.webp',
+      'https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-3.webp',
   },
   {
     id: 4,
@@ -154,7 +154,7 @@ const tutorialSteps: TutorialStep[] = [
     description:
       'Aquí interactuarás con los asistentes que hayas creado. Haciendo clic en el botón "+", podrás adjuntar archivos para que tus Asistentes los analicen. También podrás seleccionar tus Asistentes para conversar con ellos en la esquina superior derecha.',
     image:
-      'https://storage.googleapis.com/media.juanjaramillo.tech/talent-assisto-walkthrough/onboarding-4.webp',
+      'https://storage.googleapis.com/media.juanjaramilloai.vercel.app/talent-assisto-walkthrough/onboarding-4.webp',
     tip: 'Puedes usar atajos de teclado para acceder más rápido a tus herramientas. Escribe "?" para acceder a tus archivos y "/" para modificar tus prompts. Para conocer todos los atajos de teclado, haz clic en el menú de ayuda, en la esquina inferior derecha.',
   },
 ];
