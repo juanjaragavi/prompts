@@ -3,8 +3,8 @@
     {
       "path": "prompts/13-job-seeking-prompts",
     },
-    {
-      "path": "prompts/13-job-seeking-prompts",
-    },
   ],
+  "chat.promptFilesLocations": {
+    "prompts/13-job-seeking-prompts/.github/prompts": true,
+  },
 }
