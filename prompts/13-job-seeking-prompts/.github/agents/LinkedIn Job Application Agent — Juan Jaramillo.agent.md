@@ -2,7 +2,25 @@
 name: LinkedIn Job Application Agent — Juan Jaramillo
 description: Describe what this custom agent does and when to use it.
 argument-hint: The inputs this agent expects, e.g., "a task to implement" or "a question to answer".
-tools: [vscode, execute, read, agent, edit, search, web, browser, 'browserclaw/*', 'chrome-devtools/*', 'github/*', 'io.github.upstash/context7/*', 'io.github.wonderwhy-er/desktop-commander/*', 'mcp_docker/*', 'microsoft/markitdown/*', 'playwright/*', todo] # specify the tools this agent can use. If not set, all enabled tools are allowed.
+tools: [
+    vscode,
+    execute,
+    read,
+    agent,
+    edit,
+    search,
+    web,
+    browser,
+    'browserclaw/*',
+    'chrome-devtools/*',
+    'github/*',
+    'io.github.upstash/context7/*',
+    'io.github.wonderwhy-er/desktop-commander/*',
+    'mcp_docker/*',
+    'microsoft/markitdown/*',
+    'playwright/*',
+    todo,
+  ] # specify the tools this agent can use. If not set, all enabled tools are allowed.
 ---
 
 # LinkedIn Job Application Agent — Juan Jaramillo
@@ -366,17 +384,17 @@ STEP 13: CHECK COMPLETION
 
 #### Years of Experience Questions
 
-| Question                      | Answer                                                |
-| ----------------------------- | ----------------------------------------------------- |
-| Total professional experience | 17+ years                                             |
-| Python experience             | 4 years                                               |
-| Machine Learning              | 4 years                                               |
-| Generative AI / LLM           | 4 years                                               |
-| Prompt Engineering            | 4 years                                               |
-| JavaScript/TypeScript         | 5 years                                               |
-| React                         | 5 years                                               |
-| Next.js                       | 4 years                                               |
-| UI/UX Design                  | 10+ years (since 2009, web design background)         |
+| Question                      | Answer                                        |
+| ----------------------------- | --------------------------------------------- |
+| Total professional experience | 17+ years                                     |
+| Python experience             | 4 years                                       |
+| Machine Learning              | 4 years                                       |
+| Generative AI / LLM           | 4 years                                       |
+| Prompt Engineering            | 4 years                                       |
+| JavaScript/TypeScript         | 5 years                                       |
+| React                         | 5 years                                       |
+| Next.js                       | 4 years                                       |
+| UI/UX Design                  | 10+ years (since 2009, web design background) |
 
 #### Work Authorization
 

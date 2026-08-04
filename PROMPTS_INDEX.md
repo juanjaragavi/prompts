@@ -1,6 +1,6 @@
 # 📚 Prompts Index & Catalog
 
-**Total Prompts:** 92 system prompts  
+**Total Prompts:** 93 system prompts  
 **Total Categories:** 13 organized categories  
 **Repository:** <https://github.com/juanjaragavi/prompts>  
 **Maintained by:** <https://juanjaramillo.tech>
@@ -158,18 +158,19 @@ prompts/
 **Path:** `prompts/07-development-coding/`  
 **Focus:** Code generation, API integration, system prompt engineering
 
-| Prompt                            | Size  | Description         |
-| --------------------------------- | ----- | ------------------- |
-| `code-converter-system-prompt.md` | 5.7KB | Code converter      |
-| `codecraft-pro.md`                | 5.6KB | Professional coding |
-| `send-grid-api-assistant.md`      | 4.0KB | ⭐ SendGrid API     |
-| `prompt-engineer.md`              | 4.0KB | Prompt engineering  |
-| `techguru.md`                     | 3.6KB | Tech assistance     |
-| `system-prompt-maker.md`          | 2.5KB | Prompt maker (EN)   |
-| `system-prompt-maker-es.md`       | 2.5KB | Prompt maker (ES)   |
-| `expert-programmer.md`            | 2.4KB | Expert programming  |
-| `github-local-repo-analyzer.md`   | 1.3KB | GitHub analyzer     |
-| `api-docs-generator.md`           | 2.8KB | API docs generator  |
+| Prompt                            | Size  | Description              |
+| --------------------------------- | ----- | ------------------------ |
+| `code-converter-system-prompt.md` | 5.7KB | Code converter           |
+| `codecraft-pro.md`                | 5.6KB | Professional coding      |
+| `send-grid-api-assistant.md`      | 4.0KB | ⭐ SendGrid API          |
+| `prompt-engineer.md`              | 4.0KB | Prompt engineering       |
+| `nvidia-deepseek-chatbot.md`      | 12KB  | ⭐ DeepSeek chatbot spec |
+| `techguru.md`                     | 3.6KB | Tech assistance          |
+| `system-prompt-maker.md`          | 2.5KB | Prompt maker (EN)        |
+| `system-prompt-maker-es.md`       | 2.5KB | Prompt maker (ES)        |
+| `expert-programmer.md`            | 2.4KB | Expert programming       |
+| `github-local-repo-analyzer.md`   | 1.3KB | GitHub analyzer          |
+| `api-docs-generator.md`           | 2.8KB | API docs generator       |
 
 [📖 View Category README](./prompts/07-development-coding/README.md)
 
@@ -321,7 +322,7 @@ prompts/
 
 | Metric                  | Count                                           |
 | ----------------------- | ----------------------------------------------- |
-| **Total Prompts**       | 92                                              |
+| **Total Prompts**       | 93                                              |
 | **Total Categories**    | 13                                              |
 | **Largest Category**    | Utilities & Assistants (23)                     |
 | **Smallest Categories** | Landing Pages (3), TalentAssisto (4), Other (4) |
