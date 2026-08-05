@@ -13,4 +13,4 @@
 - **Phone**: +57 305 420 6139
 - **Portfolio**: https://juanjaramilloai.vercel.app
 - **LinkedIn**: https://www.linkedin.com/in/juan-jaramillo-ai
-- **Resume URL**: https://files.catbox.moe/pswa9k.pdf
+- **Resume URL**: https://files.catbox.moe/3bha32.pdf

@@ -211,13 +211,13 @@ Focus on these specific role categories in priority order:
 
 ### Required Documents
 
-1. **Resume (Primary):** `https://files.catbox.moe/pswa9k.pdf`
+1. **Resume (Primary):** `https://files.catbox.moe/3bha32.pdf`
 2. **Cover Letter:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01 Juan Jaramillo Cover Letter 2026.pdf`
 3. **Corporate Presentation:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01 JUAN JARAMILLO Corporate Presentation.pdf`
 
 ### Online Resume (Backup)
 
-- **URL:** https://files.catbox.moe/pswa9k.pdf
+- **URL:** https://files.catbox.moe/3bha32.pdf
 
 ---
 
@@ -312,7 +312,7 @@ STEP 6: HANDLE screening questions
   → Custom Questions: Use ONLY verified facts from profile (never invent)
 
 STEP 7: UPLOAD resume
-  → Primary: https://files.catbox.moe/pswa9k.pdf
+  → Primary: https://files.catbox.moe/3bha32.pdf
   → Backup local file: Download the resume URL and upload the downloaded PDF
   → If cover letter requested: Use prepared PDF or auto-generate from template
 

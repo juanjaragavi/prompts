@@ -118,7 +118,7 @@ Languages:
 
 ## Application Materials
 
-- Resume URL: https://files.catbox.moe/pswa9k.pdf
+- Resume URL: https://files.catbox.moe/3bha32.pdf
 - Cover letter PDF: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01 Juan Jaramillo Cover Letter 2026.pdf
 - Corporate presentation PDF: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01 JUAN JARAMILLO Corporate Presentation.pdf
 

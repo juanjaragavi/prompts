@@ -45,7 +45,7 @@ All resume PDFs live in the root of the persona package:
 - `Juan_Jaramillo_Resume_CMS_React.pdf`
 - `Juan_Jaramillo_Master_Cover_Letter.pdf`
 
-The general-purpose resume source (for the LinkedIn Automation pipeline) is hosted at `https://files.catbox.moe/pswa9k.pdf` per `30_day_execution_strategy.md:164`.
+The general-purpose resume source (for the LinkedIn Automation pipeline) is hosted at `https://files.catbox.moe/3bha32.pdf` per `30_day_execution_strategy.md:164`.
 
 ## Maintenance Rule
 

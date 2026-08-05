@@ -236,13 +236,13 @@ Focus on these specific role categories in priority order:
 
 ### Required Documents
 
-1. **Resume (Primary):** `https://files.catbox.moe/pswa9k.pdf`
+1. **Resume (Primary):** `https://files.catbox.moe/3bha32.pdf`
 2. **Cover Letter:** `01 Juan Jaramillo Cover Letter 2026.pdf`
 3. **Corporate Presentation:** `01 JUAN JARAMILLO Corporate Presentation.pdf`
 
 ### Online Resume (Backup)
 
-- **URL:** https://files.catbox.moe/pswa9k.pdf
+- **URL:** https://files.catbox.moe/3bha32.pdf
 
 ---
 
@@ -340,7 +340,7 @@ STEP 6: HANDLE screening questions
   → Custom Questions: Use ONLY verified facts from profile (never invent)
 
 STEP 7: UPLOAD resume
-  → Primary: https://files.catbox.moe/pswa9k.pdf
+  → Primary: https://files.catbox.moe/3bha32.pdf
   → Backup local file: Download the resume URL and upload the downloaded PDF
   → If a cover letter is requested, upload the prepared PDF at 01 Juan Jaramillo Cover Letter 2026.pdf.
   → Only if the cover letter upload fails or file is inaccessible, generate a cover letter using the "Why Are You a Good Fit" template, substituting [freelance/contract/full-time] with the appropriate employment type, and notify the user.

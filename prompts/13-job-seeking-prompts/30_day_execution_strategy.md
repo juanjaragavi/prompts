@@ -161,7 +161,7 @@ To maintain maximum velocity and structured discipline, the following weekly tra
 
 To automate and streamline the pipeline during Week 3, the following pre-built automation framework is prepared:
 
-- **Primary Resume URL:** <https://files.catbox.moe/pswa9k.pdf>
+- **Primary Resume URL:** <https://files.catbox.moe/3bha32.pdf>
 - **LinkedIn Profile:** <https://www.linkedin.com/in/juan-jaramillo-ai/>
 - **Portfolio Site:** <https://juanjaramilloai.vercel.app>
 - **Job Title Filters:** "Artificial Intelligence Engineer", "AI Engineer", "AI Developer", "Generative AI Developer", "Prompt Engineer", "Machine Learning Engineer"

@@ -45,7 +45,7 @@ To maintain absolute alignment with Juan Jaramillo's professional parameters, se
 
 - **Platform Rate-Limiting & Protection:** To actively mitigate platform blockages or rate-limiting, a standard delay of 20 seconds was strictly enforced after every application submission, navigation, and core interface interaction.
 - **Auto-Fill and Accuracy Alignment:** Auto-fill actions were carefully mapped to existing resume and profile metrics. For specific custom questions regarding third-party tools not present in the candidate’s stack (such as "Microsoft AI Foundry" or "Machine Tools"), the accurate and honest value `0` was submitted to ensure zero invention of credentials.
-- **Resume Preservation:** Every application explicitly utilized and uploaded the requested English resume hosted at `https://files.catbox.moe/pswa9k.pdf`, reinforcing a single, pristine source of truth.
+- **Resume Preservation:** Every application explicitly utilized and uploaded the requested English resume hosted at `https://files.catbox.moe/3bha32.pdf`, reinforcing a single, pristine source of truth.
 - **No Security Checkpoints Encounted:** The simulation ran fluidly and did not encounter any CAPTCHAs, two-factor challenges, or platform authentication locks.
 
 ---

@@ -10,7 +10,7 @@ Open and review these sources before applying anywhere:
 
 - LinkedIn profile: <https://www.linkedin.com/in/juan-jaramillo-ai/>
 - Website: <https://juanjaramilloai.vercel.app>
-- Resume: <https://files.catbox.moe/pswa9k.pdf>
+- Resume: <https://files.catbox.moe/3bha32.pdf>
 - Current resume is attached in PDF format.
 
 Use only facts from these sources when answering application questions or describing experience.
@@ -107,7 +107,7 @@ If compensation is not shown, keep the job only when the title and responsibilit
 
 1. Prioritize Easy Apply listings.
 2. Apply only to jobs that match the Target Roles and pass the Exclusions criteria.
-3. Use the resume at <https://files.catbox.moe/pswa9k.pdf> whenever a resume upload is requested.
+3. Use the resume at <https://files.catbox.moe/3bha32.pdf> whenever a resume upload is requested.
 4. Answer custom questions using only verified information from the profile, website, and resume.
 5. Do not invent skills, employers, credentials, or locations.
 6. If a required answer cannot be supported by the sources, skip that job.
