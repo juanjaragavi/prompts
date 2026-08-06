@@ -1,312 +1,324 @@
 # 📚 Prompts Index & Catalog
 
-**Total Prompts:** 93 system prompts  
+**Total Prompts:** 117 system prompts  
 **Total Categories:** 13 organized categories  
 **Repository:** <https://github.com/juanjaragavi/prompts>  
 **Maintained by:** <https://juanjaramilloai.vercel.app>
-**Last Updated:** July 6, 2026
+**Last Updated:** regenerated automatically from disk
 
 ---
 
 ## 📂 Category Structure
 
-All prompts are now organized into categorized subdirectories within `prompts/`:
+All prompts are organized into categorized subdirectories within `prompts/`:
 
 ```markdown
 prompts/
-├── 01-email-marketing/ (15 prompts) 📧
-├── 02-topfinanzas-content/ (9 prompts) 🏦
-├── 03-social-media/ (10 prompts) 📱
-├── 04-talent-assisto/ (4 prompts) 💼
-├── 05-seo-content/ (8 prompts) 📝
-├── 06-courses-education/ (4 prompts) 🎓
-├── 07-development-coding/ (10 prompts) 💻
-├── 08-ecommerce-dropshipping/ (4 prompts) 🛒
-├── 09-business-proposals/ (4 prompts) 💼
-├── 10-utilities-assistants/ (23 prompts) 🔧
-├── 11-landing-pages/ (3 prompts) 🚀
+├── 01-email-marketing/ (5 prompts) 📧
+├── 02-topfinanzas-content/ (8 prompts) 🏦
+├── 03-social-media/ (5 prompts) 📱
+├── 04-talent-assisto/ (3 prompts) 💼
+├── 05-seo-content/ (6 prompts) 📝
+├── 06-courses-education/ (3 prompts) 🎓
+├── 07-development-coding/ (12 prompts) 💻
+├── 08-ecommerce-dropshipping/ (3 prompts) 🛒
+├── 09-business-proposals/ (3 prompts) 💼
+├── 10-utilities-assistants/ (19 prompts) 🔧
+├── 11-landing-pages/ (1 prompt) 🚀
 ├── 12-templates-system/ (5 prompts) 📋
-└── 13-job-seeking-prompts/ (4 prompts) 💼
+├── 13-job-seeking-prompts/ (44 prompts) 💼
 ```
 
----
-
-## 📧 01. Email Marketing & ActiveCampaign (15 prompts)
+## 📧 01. Email Marketing & ActiveCampaign (5 prompts)
 
 **Path:** `prompts/01-email-marketing/`  
 **Focus:** Email campaign automation, ActiveCampaign/SendGrid integration
 
-| Prompt                                                                 | Size  | Description                       |
-| ---------------------------------------------------------------------- | ----- | --------------------------------- |
-| `system-prompt-emailgenius-broadcasts-generator-with-tools-and-mcp.md` | 22KB  | ⭐ MCP-integrated email generator |
-| `activecampaign-email-builder.md`                                      | 10KB  | ⭐ ActiveCampaign builder         |
-| `v1-system-prompt-emailgenius-broadcasts-generator.md`                 | 17KB  | EmailGenius v1                    |
-| `v2-system-prompt-emailgenius-broadcasts-generator-with-tools.md`      | 18KB  | EmailGenius v2 with tools         |
-| `v3-system-prompt-emailgenius-broadcasts-generator-integrated.md`      | 18KB  | EmailGenius v3 integrated         |
-| `email-genius-activecampaign.md`                                       | 9.9KB | Standard version                  |
-| `email-genius-activecampaign-FINAL-REMOTE.md`                          | 6.7KB | Production version                |
-| `email-genius-activecampaign-agentic.md`                               | 3.7KB | Agentic AI version                |
-| `email-genius-activecampaign-minimal.md`                               | 6.5KB | Minimal version                   |
-| `email-genius-activecampaign-programatic.md`                           | 6.4KB | Programmatic version              |
-| `TF_ActiveCampaign_Email_Generator.md`                                 | 5.9KB | TopFinanzas email gen             |
-| `parcero-emailer.md`                                                   | 3.0KB | Parcero email system              |
-| `system-prompt-emailgenius-broadcasts-generator.md`                    | 0B    | Base (placeholder)                |
-| `system-prompt-emailgenius-broadcasts-generator-with-tools.md`         | 0B    | With tools (placeholder)          |
-| `email-broadcast-genius.md`                                            | 4.2KB | Email broadcast generator         |
+| File                                                                   | Size   | ~Tokens |
+| ---------------------------------------------------------------------- | ------ | ------- |
+| `TF_ActiveCampaign_Email_Generator.md`                                 | 5.9KB  | ~1200   |
+| `activecampaign-email-builder.md`                                      | 10.4KB | ~2000   |
+| `email-genius-activecampaign.md`                                       | 9.9KB  | ~1900   |
+| `parcero-emailer.md`                                                   | 3.0KB  | ~600    |
+| `system-prompt-emailgenius-broadcasts-generator-with-tools-and-mcp.md` | 22.1KB | ~4000   |
 
 [📖 View Category README](./prompts/01-email-marketing/README.md)
 
 ---
 
-## 🏦 02. TopFinanzas Content Creation (9 prompts)
+## 🏦 02. TopFinanzas Content Creation (8 prompts)
 
 **Path:** `prompts/02-topfinanzas-content/`  
 **Focus:** Financial content automation for TopFinanzas ecosystem
 
-| Prompt                                              | Size  | Description            |
-| --------------------------------------------------- | ----- | ---------------------- |
-| `TF_FLOWS_CC_Coder.md`                              | 11KB  | Code generation        |
-| `topfinanzas-pages-mx-system-prompt.md`             | 11KB  | Mexico-specific pages  |
-| `TF_FLOWS_CC_Quiz_Generator_1_0.md`                 | 9.4KB | Quiz generator         |
-| `TF_FLOWS_CC_Recommender_Generator_1_0.md`          | 9.3KB | Recommendation system  |
-| `TF_FLOWS_CC_Reqs_Generator_1_0.md`                 | 8.7KB | Requirements generator |
-| `TF_FLOWS_CC_Review_Generator_1_0.md`               | 8.7KB | Review generator       |
-| `topfinanzas-content-creation-prompt.md`            | 4.3KB | General content        |
-| `TF_FLOWS_CC_Article_Image_Prompt_Generator_1.0.md` | 3.6KB | Image prompts          |
-| `topfinanzas-schema-mapper.md`                      | 5.2KB | Schema mapping         |
+| File                                                | Size   | ~Tokens |
+| --------------------------------------------------- | ------ | ------- |
+| `TF_FLOWS_CC_Article_Image_Prompt_Generator_1.0.md` | 3.6KB  | ~710    |
+| `TF_FLOWS_CC_Coder.md`                              | 10.8KB | ~2000   |
+| `TF_FLOWS_CC_Quiz_Generator_1_0.md`                 | 9.4KB  | ~1800   |
+| `TF_FLOWS_CC_Recommender_Generator_1_0.md`          | 9.3KB  | ~1800   |
+| `TF_FLOWS_CC_Reqs_Generator_1_0.md`                 | 8.7KB  | ~1700   |
+| `TF_FLOWS_CC_Review_Generator_1_0.md`               | 8.7KB  | ~1600   |
+| `topfinanzas-content-creation-prompt.md`            | 4.3KB  | ~940    |
+| `topfinanzas-pages-mx-system-prompt.md`             | 11.1KB | ~2000   |
 
 [📖 View Category README](./prompts/02-topfinanzas-content/README.md)
 
 ---
 
-## 📱 03. Social Media Management (10 prompts)
+## 📱 03. Social Media Management (5 prompts)
 
 **Path:** `prompts/03-social-media/`  
 **Focus:** LinkedIn automation, multi-platform social media management
 
-| Prompt                                         | Size  | Description              |
-| ---------------------------------------------- | ----- | ------------------------ |
-| `budgetbee-social-media-manager-tool-usage.md` | 13KB  | ⭐ BudgetBee MCP version |
-| `budgetbee-social-media-manager.md`            | 12KB  | ⭐ BudgetBee manager     |
-| `jj-linkedin-poster.md`                        | 8.0KB | ⭐ Personal LinkedIn     |
-| `geno-social-media-poster.md`                  | 6.2KB | Multi-platform poster    |
-| `linkedin-poster.md`                           | 5.2KB | LinkedIn automation      |
-| `marstals-community-manager.md`                | 4.8KB | Community management     |
-| `marstals_latam_community_mananger.md`         | 4.8KB | LATAM community          |
-| `linkedin-matic.md`                            | 3.1KB | LinkedIn-Matic v1        |
-| `linkedin-matic-V2.md`                         | 2.5KB | LinkedIn-Matic v2        |
-| `social-content-planner.md`                    | 3.8KB | Content planning         |
+| File                                  | Size   | ~Tokens |
+| ------------------------------------- | ------ | ------- |
+| `budgetbee-social-media-manager.md`   | 12.6KB | ~2300   |
+| `geno-social-media-poster.md`         | 6.2KB  | ~1200   |
+| `image-prompts-and-asset-guidance.md` | 6.5KB  | ~1300   |
+| `jj-linkedin-poster.md`               | 8.0KB  | ~1500   |
+| `marstals-community-manager.md`       | 4.8KB  | ~920    |
 
 [📖 View Category README](./prompts/03-social-media/README.md)
 
 ---
 
-## 💼 04. TalentAssisto SaaS (4 prompts)
+## 💼 04. TalentAssisto SaaS (3 prompts)
 
 **Path:** `prompts/04-talent-assisto/`  
-**Focus:** ⭐ Featured AI talent management platform
+**Focus:** AI talent management platform
 
-| Prompt                        | Size  | Description         |
-| ----------------------------- | ----- | ------------------- |
-| `talent-assisto-saas.md`      | 17KB  | 🌟 Main SaaS prompt |
-| `talent-assisto-SPANISH.md`   | 1.9KB | Spanish version     |
-| `talent-assisto-optimized.md` | 1.6KB | Optimized version   |
-| `talent-assisto-enhanced.md`  | 2.1KB | Enhanced version    |
+| File                          | Size   | ~Tokens |
+| ----------------------------- | ------ | ------- |
+| `talent-assisto-SPANISH.md`   | 1.9KB  | ~390    |
+| `talent-assisto-optimized.md` | 1.6KB  | ~360    |
+| `talent-assisto-saas.md`      | 17.0KB | ~3100   |
 
 [📖 View Category README](./prompts/04-talent-assisto/README.md)
 
 ---
 
-## 📝 05. SEO & Content Optimization (8 prompts)
+## 📝 05. SEO & Content Optimization (6 prompts)
 
 **Path:** `prompts/05-seo-content/`  
 **Focus:** SEO blog posts, image optimization, text enhancement
 
-| Prompt                                      | Size  | Description            |
-| ------------------------------------------- | ----- | ---------------------- |
-| `seo-optimized-blog-posts-generator-xml.md` | 15KB  | ⭐ XML format SEO      |
-| `seo-optimized-blog-posts-generator.md`     | 14KB  | SEO blog generator     |
-| `optimized-image-generator-spanish.md`      | 4.7KB | Spanish images         |
-| `optimized-image-generator-english.md`      | 4.2KB | English images         |
-| `images-prompt-optimization-assistant.md`   | 2.8KB | Image prompt optimizer |
-| `code-and-text-optimizer.md`                | 1.2KB | Code/text optimizer    |
-| `text-optimizer-prompt-gpt5-xml.md`         | 1.1KB | Text optimizer XML     |
-| `seo-schema-generator.md`                   | 3.4KB | Schema generator       |
+| File                                        | Size   | ~Tokens |
+| ------------------------------------------- | ------ | ------- |
+| `code-and-text-optimizer.md`                | 1.2KB  | ~240    |
+| `images-prompt-optimization-assistant.md`   | 2.8KB  | ~520    |
+| `optimized-image-generator-english.md`      | 4.3KB  | ~870    |
+| `optimized-image-generator-spanish.md`      | 4.7KB  | ~930    |
+| `seo-optimized-blog-posts-generator-xml.md` | 14.6KB | ~2800   |
+| `seo-optimized-blog-posts-generator.md`     | 14.4KB | ~2800   |
 
 [📖 View Category README](./prompts/05-seo-content/README.md)
 
 ---
 
-## 🎓 06. Courses & Education (4 prompts)
+## 🎓 06. Courses & Education (3 prompts)
 
 **Path:** `prompts/06-courses-education/`  
 **Focus:** Educational content, AI productivity courses
 
-| Prompt                                          | Size  | Description     |
-| ----------------------------------------------- | ----- | --------------- |
-| `course-designer.md`                            | 7.2KB | Course design   |
-| `generative-ai-course-creator.md`               | 4.9KB | Gen AI courses  |
-| `ai-for-personal-productivity-course-writer.md` | 2.8KB | AI productivity |
-| `learning-path-builder.md`                      | 3.5KB | Learning paths  |
+| File                                            | Size  | ~Tokens |
+| ----------------------------------------------- | ----- | ------- |
+| `ai-for-personal-productivity-course-writer.md` | 2.8KB | ~590    |
+| `course-designer.md`                            | 7.2KB | ~1500   |
+| `generative-ai-course-creator.md`               | 4.9KB | ~960    |
 
 [📖 View Category README](./prompts/06-courses-education/README.md)
 
 ---
 
-## 💻 07. Development & Coding (10 prompts)
+## 💻 07. Development & Coding (12 prompts)
 
 **Path:** `prompts/07-development-coding/`  
 **Focus:** Code generation, API integration, system prompt engineering
 
-| Prompt                            | Size  | Description              |
-| --------------------------------- | ----- | ------------------------ |
-| `code-converter-system-prompt.md` | 5.7KB | Code converter           |
-| `codecraft-pro.md`                | 5.6KB | Professional coding      |
-| `send-grid-api-assistant.md`      | 4.0KB | ⭐ SendGrid API          |
-| `prompt-engineer.md`              | 4.0KB | Prompt engineering       |
-| `nvidia-deepseek-chatbot.md`      | 12KB  | ⭐ DeepSeek chatbot spec |
-| `techguru.md`                     | 3.6KB | Tech assistance          |
-| `system-prompt-maker.md`          | 2.5KB | Prompt maker (EN)        |
-| `system-prompt-maker-es.md`       | 2.5KB | Prompt maker (ES)        |
-| `expert-programmer.md`            | 2.4KB | Expert programming       |
-| `github-local-repo-analyzer.md`   | 1.3KB | GitHub analyzer          |
-| `api-docs-generator.md`           | 2.8KB | API docs generator       |
+| File                                 | Size   | ~Tokens |
+| ------------------------------------ | ------ | ------- |
+| `browser-action-prompt-converter.md` | 4.6KB  | ~740    |
+| `code-converter-system-prompt.md`    | 6.6KB  | ~1300   |
+| `codecraft-pro.md`                   | 4.7KB  | ~850    |
+| `expert-programmer.md`               | 2.4KB  | ~450    |
+| `github-local-repo-analyzer.md`      | 1.3KB  | ~200    |
+| `juan-jaramillo-space.md`            | 7.8KB  | ~1300   |
+| `nvidia-deepseek-chatbot.md`         | 13.2KB | ~2100   |
+| `prompt-engineer.md`                 | 5.6KB  | ~1000   |
+| `send-grid-api-assistant.md`         | 4.0KB  | ~580    |
+| `system-prompt-maker-es.md`          | 2.5KB  | ~520    |
+| `system-prompt-maker.md`             | 4.1KB  | ~670    |
+| `text-optimizer-prompt-gpt5-xml.md`  | 3.7KB  | ~570    |
 
 [📖 View Category README](./prompts/07-development-coding/README.md)
 
 ---
 
-## 🛒 08. E-commerce & Dropshipping (4 prompts)
+## 🛒 08. E-commerce & Dropshipping (3 prompts)
 
 **Path:** `prompts/08-ecommerce-dropshipping/`  
 **Focus:** Product management, dropshipping automation
 
-| Prompt                           | Size  | Description                  |
-| -------------------------------- | ----- | ---------------------------- |
-| `dropshipper-json.md`            | 58KB  | 🔥 LARGEST - Product catalog |
-| `gina-dropshipping-assistant.md` | 13KB  | Dropship assistant           |
-| `gina-wiki.md`                   | 6.5KB | Dropship wiki                |
-| `ecommerce-content-creator.md`   | 4.8KB | Content creator              |
+| File                             | Size   | ~Tokens |
+| -------------------------------- | ------ | ------- |
+| `dropshipper-json.md`            | 12.4KB | ~2600   |
+| `gina-dropshipping-assistant.md` | 12.9KB | ~2600   |
+| `gina-wiki.md`                   | 6.5KB  | ~1200   |
 
 [📖 View Category README](./prompts/08-ecommerce-dropshipping/README.md)
 
 ---
 
-## 💼 09. Business Proposals (4 prompts)
+## 💼 09. Business Proposals (3 prompts)
 
 **Path:** `prompts/09-business-proposals/`  
 **Focus:** Business proposals, economic documents, startup planning
 
-| Prompt                       | Size  | Description        |
-| ---------------------------- | ----- | ------------------ |
-| `economic-proposal-genie.md` | 4.9KB | Economic proposals |
-| `proposal-maker.md`          | 3.5KB | General proposals  |
-| `startup-gpt.md`             | 2.5KB | Startup planning   |
-| `investment-pitch.md`        | 3.2KB | Investment pitches |
+| File                         | Size  | ~Tokens |
+| ---------------------------- | ----- | ------- |
+| `economic-proposal-genie.md` | 4.9KB | ~910    |
+| `proposal-maker.md`          | 3.5KB | ~710    |
+| `startup-gpt.md`             | 2.5KB | ~460    |
 
 [📖 View Category README](./prompts/09-business-proposals/README.md)
 
 ---
 
-## 🔧 10. Utilities & Personal Assistants (23 prompts)
+## 🔧 10. Utilities & Personal Assistants (19 prompts)
 
 **Path:** `prompts/10-utilities-assistants/`  
 **Focus:** General-purpose AI assistants, data tools, communication
 
-| Prompt                              | Size  | Description             |
-| ----------------------------------- | ----- | ----------------------- |
-| `sebas.md`                          | 36KB  | 🔥 SECOND LARGEST       |
-| `milton-v5.md`                      | 6.3KB | Milton communication v5 |
-| `milton-optimized.md`               | 5.1KB | Milton optimized        |
-| `jj-assistant.md`                   | 4.7KB | ⭐ Personal assistant   |
-| `parcero.md`                        | 4.6KB | Parcero system          |
-| `clima-ai.md`                       | 4.0KB | Climate AI              |
-| `milton-v4.md`                      | 3.8KB | Milton v4               |
-| `milton-scheduler.md`               | 2.8KB | Milton scheduler        |
-| `milton-messenger-system-prompt.md` | 2.7KB | Milton messenger        |
-| `structured-data-extractor.md`      | 2.7KB | Data extraction         |
-| `mx-to-uk-migration-agent-pro.md`   | 2.7KB | Migration agent         |
-| `data-extractor.md`                 | 2.6KB | Data extractor          |
-| `multilingual-summarizer-es.md`     | 2.5KB | Multilingual summary    |
-| `super-ai-assistant.md`             | 2.3KB | Super assistant         |
-| `parcero-sms.md`                    | 2.3KB | Parcero SMS             |
-| `reaction-checker.md`               | 2.0KB | Reaction checker        |
-| `claude-reflection.md`              | 1.9KB | Claude reflection       |
-| `milton-filter.md`                  | 1.7KB | Milton filter           |
-| `food-analyzer.md`                  | 1.6KB | Food analyzer           |
-| `model-response.md`                 | 1.4KB | Model response          |
-| `prompt-reflection.md`              | 299B  | Prompt reflection       |
-| `parcero-processor.md`              | 2.1KB | Parcero processor       |
-| `ai-translator.md`                  | 3.0KB | AI translator           |
+| File                                | Size   | ~Tokens |
+| ----------------------------------- | ------ | ------- |
+| `claude-reflection.md`              | 1.9KB  | ~360    |
+| `clima-ai.md`                       | 4.0KB  | ~770    |
+| `data-extractor.md`                 | 2.6KB  | ~540    |
+| `food-analyzer.md`                  | 1.6KB  | ~340    |
+| `jj-assistant.md`                   | 5.4KB  | ~910    |
+| `milton-filter.md`                  | 1.7KB  | ~410    |
+| `milton-messenger-system-prompt.md` | 2.7KB  | ~590    |
+| `milton-scheduler.md`               | 2.8KB  | ~600    |
+| `milton-v5.md`                      | 6.3KB  | ~1400   |
+| `model-response.md`                 | 1.4KB  | ~270    |
+| `multilingual-summarizer-es.md`     | 2.5KB  | ~490    |
+| `mx-to-uk-migration-agent-pro.md`   | 2.7KB  | ~490    |
+| `parcero-sms.md`                    | 2.3KB  | ~470    |
+| `parcero.md`                        | 4.6KB  | ~980    |
+| `prompt-reflection.md`              | 299B   | ~60     |
+| `reaction-checker.md`               | 2.0KB  | ~440    |
+| `sebas.md`                          | 36.4KB | ~5400   |
+| `structured-data-extractor.md`      | 2.7KB  | ~550    |
+| `super-ai-assistant.md`             | 2.3KB  | ~450    |
 
 [📖 View Category README](./prompts/10-utilities-assistants/README.md)
 
 ---
 
-## 🚀 11. Landing Pages & Marketing (3 prompts)
+## 🚀 11. Landing Pages & Marketing (1 prompt)
 
 **Path:** `prompts/11-landing-pages/`  
 **Focus:** Landing page content, marketing copy
 
-| Prompt                    | Size  | Description        |
-| ------------------------- | ----- | ------------------ |
-| `covox-landing-page.md`   | 2.7KB | COVOX landing page |
-| `maker.md`                | 2.2KB | Maker landing page |
-| `saas-landing-builder.md` | 3.1KB | SaaS page builder  |
+| File                    | Size  | ~Tokens |
+| ----------------------- | ----- | ------- |
+| `covox-landing-page.md` | 2.7KB | ~510    |
 
 [📖 View Category README](./prompts/11-landing-pages/README.md)
 
 ---
 
-## 📋 12. Templates & System Files (5 files)
+## 📋 12. Templates & System Files (5 prompts)
 
 **Path:** `prompts/12-templates-system/`  
 **Focus:** Base templates, system configurations
 
-| File                   | Size  | Description            |
-| ---------------------- | ----- | ---------------------- |
-| `system-prompt.md`     | 12KB  | System prompt base     |
-| `prompt.md`            | 9.5KB | Prompt template        |
-| `text-formatter.txt`   | 2.2KB | Text formatter         |
-| `00-template.md`       | 1.1KB | ⭐ Standard template   |
-| `00-template-short.md` | 0.8KB | Short template variant |
+| File                   | Size  | ~Tokens |
+| ---------------------- | ----- | ------- |
+| `00-template-short.md` | 22B   | ~10     |
+| `00-template.md`       | 14B   | ~10     |
+| `prompt.md`            | 9B    | ~10     |
+| `system-prompt.md`     | 9B    | ~10     |
+| `text-formatter.txt`   | 2.2KB | ~450    |
 
 [📖 View Category README](./prompts/12-templates-system/README.md)
 
 ---
 
-## � 13. Job Seeking & Career Development (4 prompts)
+## 💼 13. Job Seeking & Career Development (44 prompts)
 
 **Path:** `prompts/13-job-seeking-prompts/`  
-**Focus:** LinkedIn optimization, job applications, resume assistance
+**Focus:** Job-search automation workspace, skills, and reports
 
-| Prompt                                                | Size  | Description                  |
-| ----------------------------------------------------- | ----- | ---------------------------- |
-| `juan-jaramillo-resume.md`                            | 5.7KB | ⭐ Personal resume assistant |
-| `linkedin-ai-teaching-contract-projects-assistant.md` | 6.7KB | Teaching & contract jobs     |
-| `linkedin-job-application-assistant.md`               | 6.0KB | Job application optimizer    |
-| `ai-recruiter-outreach-networking.md`                 | 2.1KB | Networking & outreach        |
+| File                                                 | Size   | ~Tokens |
+| ---------------------------------------------------- | ------ | ------- |
+| `AUDIT_REPORT.md`                                    | 12.6KB | ~2200   |
+| `AUTOMATION_RUN_REPORT.md`                           | 9.3KB  | ~1700   |
+| `CONFIGURATION_COMPLETE.md`                          | 9.9KB  | ~1800   |
+| `EXECUTION_COMPLETE.md`                              | 12.1KB | ~2300   |
+| `FINAL_COMPLETION_REPORT.md`                         | 13.7KB | ~2400   |
+| `IMPLEMENTATION_SUMMARY.md`                          | 6.1KB  | ~1100   |
+| `INDEX.md`                                           | 10.1KB | ~1900   |
+| `PHASE1_CHECKLIST.md`                                | 11.2KB | ~2000   |
+| `PHASE3_GUIDE.md`                                    | 11.9KB | ~1700   |
+| `PHASE3_IMPLEMENTATION_COMPLETE.md`                  | 14.4KB | ~2400   |
+| `QUICK_REFERENCE.md`                                 | 7.6KB  | ~1200   |
+| `REFACTORED_SETUP.md`                                | 10.3KB | ~1800   |
+| `additional_applications_report.md`                  | 4.9KB  | ~720    |
+| `agentic_ai_jobs_findings.md`                        | 10.4KB | ~1900   |
+| `applications_report.md`                             | 3.1KB  | ~540    |
+| `cover_letter_text.txt`                              | 3.5KB  | ~650    |
+| `extracted_bogota_jobs.md`                           | 12.9KB | ~1600   |
+| `google_search_keys_screenshot.md`                   | 1.3KB  | ~260    |
+| `job-application-agentic-workflow-prompt.md`         | 237B   | ~40     |
+| `job-search-strategy-three-target-lanes.md`          | 8.4KB  | ~1200   |
+| `job_application_report.md`                          | 11.0KB | ~1500   |
+| `job_research_findings.md`                           | 7.8KB  | ~1300   |
+| `juan-jaramillo-advanced-cover-letter.md`            | 4.2KB  | ~780    |
+| `juan-jaramillo-resume.md`                           | 5.8KB  | ~1100   |
+| `juan_profile.md`                                    | 7.5KB  | ~1400   |
+| `linkedin_applications_report.md`                    | 6.0KB  | ~900    |
+| `linkedin_auth_findings.md`                          | 792B   | ~130    |
+| `linkedin_search_findings.md`                        | 1.1KB  | ~180    |
+| `loom-video-script.md`                               | 4.7KB  | ~890    |
+| `loom_video_script.md`                               | 3.7KB  | ~680    |
+| `medfar_therapynotes_jobs.md`                        | 8.7KB  | ~1500   |
+| `non_lever_targets_10_20260719.md`                   | 2.6KB  | ~320    |
+| `requirements.txt`                                   | 238B   | ~40     |
+| `screenshot_1_analysis.md`                           | 1.9KB  | ~350    |
+| `shared_files.md`                                    | 9.0KB  | ~1100   |
+| `target_similar_jobs.md`                             | 4.8KB  | ~760    |
+| `team_red_dog_and_virtual_vocations_job_research.md` | 14.8KB | ~2600   |
+| `temp_filter_script.md`                              | 1.5KB  | ~200    |
+| `unfilled_tabs_submission_report.md`                 | 6.9KB  | ~970    |
+| `validation_error_analysis.md`                       | 4.5KB  | ~900    |
+| `validation_resolution_report.txt`                   | 4.7KB  | ~580    |
+| `vibe_coding_jobs_findings.md`                       | 4.4KB  | ~750    |
+| `workbetternow_job_research.md`                      | 6.0KB  | ~1200   |
+| `xsolla_job_research.md`                             | 7.8KB  | ~1600   |
 
 [📖 View Category README](./prompts/13-job-seeking-prompts/README.md)
 
 ---
 
-## �🔍 Quick Navigation
+## 🔍 Quick Navigation
 
 ### By Use Case
 
-**Email Marketing:** [01-email-marketing](./prompts/01-email-marketing/)  
-**Financial Content:** [02-topfinanzas-content](./prompts/02-topfinanzas-content/)  
-**Social Media:** [03-social-media](./prompts/03-social-media/)  
-**SaaS Product:** [04-talent-assisto](./prompts/04-talent-assisto/)  
-**SEO & Blogging:** [05-seo-content](./prompts/05-seo-content/)  
-**Education:** [06-courses-education](./prompts/06-courses-education/)  
-**Development:** [07-development-coding](./prompts/07-development-coding/)  
-**E-commerce:** [08-ecommerce-dropshipping](./prompts/08-ecommerce-dropshipping/)  
-**Business:** [09-business-proposals](./prompts/09-business-proposals/)  
-**Personal Tools:** [10-utilities-assistants](./prompts/10-utilities-assistants/)  
-**Landing Pages:** [11-landing-pages](./prompts/11-landing-pages/)  
-**Job Seeking:** [13-job-seeking-prompts](./prompts/13-job-seeking-prompts/)
+**Email Marketing & ActiveCampaign:** [01-email-marketing](./prompts/01-email-marketing/)
+**TopFinanzas Content Creation:** [02-topfinanzas-content](./prompts/02-topfinanzas-content/)
+**Social Media Management:** [03-social-media](./prompts/03-social-media/)
+**TalentAssisto SaaS:** [04-talent-assisto](./prompts/04-talent-assisto/)
+**SEO & Content Optimization:** [05-seo-content](./prompts/05-seo-content/)
+**Courses & Education:** [06-courses-education](./prompts/06-courses-education/)
+**Development & Coding:** [07-development-coding](./prompts/07-development-coding/)
+**E-commerce & Dropshipping:** [08-ecommerce-dropshipping](./prompts/08-ecommerce-dropshipping/)
+**Business Proposals:** [09-business-proposals](./prompts/09-business-proposals/)
+**Utilities & Personal Assistants:** [10-utilities-assistants](./prompts/10-utilities-assistants/)
+**Landing Pages & Marketing:** [11-landing-pages](./prompts/11-landing-pages/)
+**Templates & System Files:** [12-templates-system](./prompts/12-templates-system/)
+**Job Seeking & Career Development:** [13-job-seeking-prompts](./prompts/13-job-seeking-prompts/)
 
 ### By Integration
 
@@ -320,53 +332,29 @@ prompts/
 
 ## 📊 Statistics
 
-| Metric                  | Count                                           |
-| ----------------------- | ----------------------------------------------- |
-| **Total Prompts**       | 93                                              |
-| **Total Categories**    | 13                                              |
-| **Largest Category**    | Utilities & Assistants (23)                     |
-| **Smallest Categories** | Landing Pages (3), TalentAssisto (4), Other (4) |
-| **Total Lines of Code** | 11,500+                                         |
-| **Largest File**        | dropshipper-json.md (58KB)                      |
-| **Most Featured**       | TalentAssisto SaaS ⭐                           |
-
----
-
-## 🚀 Getting Started
-
-```bash
-# Navigate to prompts directory
-cd /Users/macbookpro/Github/prompts/prompts
-
-# List all categories
-ls -d */
-
-# View a specific category
-ls -la 01-email-marketing/
-
-# Read a category README
-cat 01-email-marketing/README.md
-
-# Find a specific prompt
-find . -name "*email*"
-
-# Count prompts by category
-for dir in */; do echo "$dir: $(ls -1 $dir/*.md 2>/dev/null | wc -l)"; done
-```
+| Metric                  | Count                       |
+| ----------------------- | --------------------------- |
+| **Total Prompts**       | 117                         |
+| **Total Categories**    | 13                          |
+| **Largest Category**    | 13-job-seeking-prompts (44) |
+| **Smallest Categories** | 11-landing-pages (1)        |
+| **Total Words**         | 98,462                      |
+| **Largest File**        | sebas.md (36.4KB)           |
 
 ---
 
 ## 📝 Notes
 
 - All prompts use `snake_case` or `kebab-case` naming
+- `13-job-seeking-prompts/` is an automation workspace; its entries include run reports and skill files alongside prompts
 - Numbered prefixes (01-13) maintain category order
 - Each category has its own README.md
-- Featured prompts are marked with ⭐
-- File sizes approximate, last verified July 6, 2026
+- Superseded/duplicate versions are archived under each category's `archive/`
+- `~Tokens` estimates are words × 1.33
 
 ---
 
 **Repository:** <https://github.com/juanjaragavi/prompts>  
 **Maintained by:** <https://juanjaramilloai.vercel.app>  
-**Last Updated:** July 6, 2026  
-**Structure Version:** 2.1 (13 Categories)
+**Last Updated:** regenerated automatically from disk  
+**Total Categories:** 13

@@ -1,6 +1,6 @@
 # Screenshot Analysis: Screenshot 2026-07-10 at 3.55.16 PM
 
-This document provides a detailed text summary of the screenshot located at `/Users/macbookpro/Desktop/Screenshot 2026-07-10 at 3.55.16 PM.png`.
+This document provides a detailed text summary of the screenshot located at `~/Desktop/Screenshot 2026-07-10 at 3.55.16 PM.png`.
 
 ## 1. Visual Elements and Interface Text
 

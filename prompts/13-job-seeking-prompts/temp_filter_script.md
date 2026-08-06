@@ -1,7 +1,7 @@
 import json
 
 def filter_non_matched():
-with open('/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/extracted_bogota_jobs.md', 'r') as f:
+with open('prompts/13-job-seeking-prompts/extracted_bogota_jobs.md', 'r') as f:
 text = f.read()
 
     # Strip markdown code blocks if present

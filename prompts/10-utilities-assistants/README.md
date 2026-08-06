@@ -47,3 +47,5 @@
 ---
 
 **Last Updated:** September 29, 2025
+
+> **Note:** Superseded/duplicate versions live in `archive/`; see `CHANGELOG.md`.

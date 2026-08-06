@@ -134,7 +134,7 @@ community management across multiple platforms, with a strong emphasis on Linked
 
 ```bash
 # View all social media prompts
-ls -la /Users/macbookpro/Github/prompts/prompts/03-social-media/
+ls -la prompts/03-social-media/
 
 # Use LinkedIn automation
 cat jj-linkedin-poster.md
@@ -197,3 +197,5 @@ cat marstals-community-manager.md
 **Last Updated:** September 29, 2025  
 **Maintained by:** Juan Jaramillo  
 **Primary Platform:** LinkedIn
+
+> **Note:** Superseded/duplicate versions live in `archive/`; see `CHANGELOG.md`.

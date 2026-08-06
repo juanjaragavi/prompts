@@ -599,13 +599,13 @@ not hiring decisions. Declining is standard and professional.
 For additional context and details, refer to these supporting files:
 
 1. **Detailed Profile Analysis:**  
-   `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/profile.md`
+   `prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/profile.md`
 
 2. **Extended Screening Answers:**  
-   `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/screening-answers.md`
+   `prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/screening-answers.md`
 
 3. **Search URL Builder Script:**  
-   `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/scripts/build_search_url.py`
+   `prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/scripts/build_search_url.py`
 
 ---
 

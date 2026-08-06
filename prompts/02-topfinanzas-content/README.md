@@ -100,7 +100,7 @@ These are the core content creation flows for TopFinanzas:
 
 ```bash
 # View all TopFinanzas prompts
-ls -la /Users/macbookpro/Github/prompts/prompts/02-topfinanzas-content/
+ls -la prompts/02-topfinanzas-content/
 
 # Use the quiz generator
 cat TF_FLOWS_CC_Quiz_Generator_1_0.md

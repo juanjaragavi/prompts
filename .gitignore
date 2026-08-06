@@ -2,3 +2,18 @@
 .llm_commit_message.txt
 documents/credenciales.txt
 json/dialogflow-connection.json
+
+# --- Runtime artifacts (job-seeking automation workspace) ---
+prompts/13-job-seeking-prompts/screenshots/
+**/logs/
+**/terminal_logs/
+**/__pycache__/
+**/.playwright-mcp/
+prompts/13-job-seeking-prompts/*.html
+prompts/13-job-seeking-prompts/lib/
+prompts/13-job-seeking-prompts/*_filled_form.png
+# --- Local environments / tool data ---
+**/venv/
+**/.venv/
+.pytest_cache/
+.freebuff/

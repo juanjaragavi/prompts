@@ -378,46 +378,168 @@ class LeverFormHandler(JobApplicationBot):
         resume_path = self.config.get_resume_path(resume_variant)
         return await self.upload_file(page, selector, resume_path, "resume")
 
-    async def _fill_location_autocomplete(self, page: Page, selector: str, answer: str) -> bool:
+    @staticmethod
+    def _normalize_location_text(value: str) -> str:
+        """Lowercase and strip accents/diacritics from a location string."""
+        import unicodedata
+
+        text = unicodedata.normalize("NFKD", value or "")
+        ascii_text = "".join(ch for ch in text if not unicodedata.combining(ch))
+        return " ".join(ascii_text.lower().split())
+
+    def _location_search_terms(self, answer: str) -> List[str]:
+        """Derive candidate search terms for Lever's location API, best first.
+
+        Lever's /searchLocations API matches on partial, accent-insensitive text
+        (e.g. 'Bogota' returns 'Bogotá, Distrito Capital, COL'; 'Bogotá, Colombia'
+        typed in full does not reliably surface the right suggestion). We try the
+        accent-free city first, then the full normalized answer, then the country.
+        """
+        normalized = self._normalize_location_text(answer)
+        parts = [part.strip() for part in normalized.split(",") if part.strip()]
+        city = parts[0] if parts else normalized
+        country = parts[-1] if len(parts) > 1 else ""
+
+        terms: List[str] = []
+        for candidate in (city, normalized, country):
+            if candidate and len(candidate) >= 3 and candidate not in terms:
+                terms.append(candidate)
+        return terms[:3] if terms else ([normalized] if normalized else [answer])
+
+    async def _pick_location_row(self, page: Page, rows: Any, answer: str):
+        """Return the best suggestion row, or None if nothing meaningfully matches.
+
+        Scores rows: exact/near match to the answer first, then Colombia, then
+        token overlap with the answer. Returns None when the best score is <= 0 so
+        unrelated suggestions (e.g. 'Bögöt, HUN' for 'Bogot') are never clicked into
+        a real application.
+        """
+        answer_norm = self._normalize_location_text(answer)
+        answer_tokens = {
+            token for token in answer_norm.replace(",", " ").split() if token
+        }
+
+        best_row = None
+        best_score = -1
+        for row in rows:
+            try:
+                text = (await row.inner_text()).strip()
+            except Exception:
+                continue
+            norm = self._normalize_location_text(text)
+            score = 0
+            if norm == answer_norm:
+                score += 100
+            if "colombia" in norm or " col" in norm or norm.endswith("col"):
+                score += 30
+            score += sum(10 for token in answer_tokens if token in norm)
+            if score > best_score:
+                best_score = score
+                best_row = row
+        return best_row if best_score > 0 else None
+
+    async def _select_location_term(self, page: Page, term: str, answer: str) -> bool:
+        """Type a search term, wait for Lever's suggestion rows, click the best match,
+        and verify the hidden selectedLocation input actually received a value.
+        """
         try:
-            element = await page.query_selector(selector)
-            if not element:
+            await page.keyboard.type(term, delay=100)
+
+            # Lever debounces the location API by ~500ms; poll up to ~8s for rows.
+            rows = []
+            for _ in range(16):
+                rows = await page.query_selector_all(".dropdown-results > .dropdown-location")
+                if rows:
+                    break
+                await page.wait_for_timeout(500)
+            if not rows:
                 return False
 
-            await element.click()
-            await page.wait_for_timeout(250)
-            try:
-                await page.keyboard.press("Meta+A")
-            except Exception:
-                pass
-            await page.keyboard.press("Backspace")
-            await page.type(selector, answer, delay=25)
-            await page.wait_for_timeout(1000)
+            target = await self._pick_location_row(page, rows, answer)
+            if target is None:
+                return False
 
-            suggestion_selectors = [
-                '[role="option"]',
-                '[role="listbox"] [role="option"]',
-                'li[role="option"]',
-                '.select__option',
-                '.autocomplete__option',
-            ]
-            for suggestion_selector in suggestion_selectors:
-                options = await page.query_selector_all(suggestion_selector)
-                for option in options:
-                    try:
-                        text = (await option.inner_text()).strip().lower()
-                    except Exception:
-                        continue
-                    if "colombia" in text or "bogot" in text or answer.lower() in text:
-                        await option.click()
-                        await page.wait_for_timeout(self.browser_config["action_wait_ms"])
-                        return True
+            await target.click(force=True)
+            await page.wait_for_timeout(800)
 
-            await page.keyboard.press("ArrowDown")
-            await page.wait_for_timeout(250)
-            await page.keyboard.press("Enter")
-            await page.wait_for_timeout(self.browser_config["action_wait_ms"])
-            return True
+            # Only a real suggestion click populates the hidden input; the visible
+            # text alone does not count as answered.
+            hidden_value = await page.evaluate(
+                """() => {
+                    const el = document.querySelector('#selected-location') ||
+                               document.querySelector('input[name="selectedLocation"]');
+                    return el ? el.value : '';
+                }"""
+            )
+            return bool(hidden_value and hidden_value.strip())
+        except Exception as exc:
+            self.logger.warning(f"Location term selection failed for {term!r}: {exc}")
+            return False
+
+    async def _fill_location_autocomplete(self, page: Page, selector: str, answer: str) -> bool:
+        """Fill Lever's 'Current location' autocomplete and select a real suggestion.
+
+        Lever renders suggestions as ``div.dropdown-location`` rows inside
+        ``.dropdown-results`` (not ``[role=option]``) and only records a selection when
+        a row is clicked (it writes a JSON value into the hidden ``#selected-location``
+        input). Typing the full answer and pressing Enter never selects, which left this
+        required field unanswered on Provectus jobs. This implementation:
+
+        1. Hides the hCaptcha/iframe overlays that swallow pointer events.
+        2. Focuses the field via JS and types accent-free partial search terms.
+        3. Polls for suggestion rows and clicks the best match.
+        4. Verifies the hidden input was populated; retries alternate terms.
+        """
+        try:
+            if not answer:
+                return False
+
+            # 1. Neutralize the hCaptcha overlay that can swallow clicks on the field.
+            await page.evaluate(
+                """() => {
+                    document.querySelectorAll(
+                        '#h-captcha, .h-captcha, iframe[title*="hCaptcha"]'
+                    ).forEach((el) => {
+                        el.style.display = 'none';
+                    });
+                }"""
+            )
+            await page.wait_for_timeout(300)
+
+            # 2. Focus via JS to bypass Playwright's actionability wait on overlays.
+            focused = await page.evaluate(
+                """(sel) => {
+                    const el = document.querySelector(sel);
+                    if (!el) return false;
+                    el.focus();
+                    el.scrollIntoView({block: 'center'});
+                    return true;
+                }""",
+                selector,
+            )
+            if not focused:
+                return False
+            await page.wait_for_timeout(200)
+
+            search_terms = self._location_search_terms(answer)
+            for term in search_terms:
+                # Clear the field before each attempt.
+                try:
+                    await page.keyboard.press("Meta+A")
+                except Exception:
+                    pass
+                await page.keyboard.press("Backspace")
+                await page.wait_for_timeout(150)
+
+                if await self._select_location_term(page, term, answer):
+                    self.logger.info(f"Location filled via term {term!r} (answer={answer!r})")
+                    return True
+
+            self.logger.warning(
+                f"Location autocomplete: no selectable suggestion for answer={answer!r} "
+                f"(tried {search_terms})"
+            )
+            return False
         except Exception as exc:
             self.logger.warning(f"Location autocomplete failed for {selector}: {exc}")
             return False

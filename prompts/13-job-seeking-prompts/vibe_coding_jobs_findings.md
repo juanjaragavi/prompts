@@ -1,6 +1,6 @@
 # Discovered Vibe Coding & AI-Assisted Software Development Jobs
 
-I have successfully discovered exactly 5 job opportunities related to "vibe coding" and/or "AI-assisted software development" on LinkedIn and saved them as a structured JSON file at `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/discovered_jobs.json`.
+I have successfully discovered exactly 5 job opportunities related to "vibe coding" and/or "AI-assisted software development" on LinkedIn and saved them as a structured JSON file at `prompts/13-job-seeking-prompts/discovered_jobs.json`.
 
 Below are the details of the job postings:
 
@@ -54,7 +54,7 @@ Below are the details of the job postings:
 - **Company:** Vibeast
 - **LinkedIn URL:** https://es.linkedin.com/jobs/view/desarrollador-ai-native-vibe-coder-at-vibeast-4401002722
 - **Application Status:** Closed / Not Accepting Applications
-- **Proof/Evidence:** Screenshot retained at `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/vibeast_closed_proof.png`
+- **Proof/Evidence:** Screenshot retained at `prompts/13-job-seeking-prompts/vibeast_closed_proof.png`
 - **Key Requirements:**
   - Expertos en Task Stewardship: Validar y guiar código generado por IA con alta fidelidad.
   - Fluidez técnica para capturar el premium salarial del 56% que el mercado global ya está pagando.

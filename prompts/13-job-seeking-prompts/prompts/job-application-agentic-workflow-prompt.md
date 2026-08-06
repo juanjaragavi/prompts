@@ -9,7 +9,7 @@
   </objective>
 
   <task>
-   Conduct a diagnostic assessment of the existing codebase in `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts` to select the target runtime architecture (Next.js application, Node.js service, or Python script via Bash), then implement the agentic workflow as a new project created under `/Users/macbookpro/GitHub` using suitable local LLMs identified via `ollama ls`.
+   Conduct a diagnostic assessment of the existing codebase in `prompts/13-job-seeking-prompts` to select the target runtime architecture (Next.js application, Node.js service, or Python script via Bash), then implement the agentic workflow as a new project created under `~/GitHub` using suitable local LLMs identified via `ollama ls`.
   </task>
 
   <inputs>
@@ -22,7 +22,7 @@
   <constraints>
   - Workflow execution and LLM inference must run locally.
   - Deployment runtime must be selected from three candidates: Next.js app, Node.js service, or Python script executable via Bash.
-   - The final implementation codebase must be created in `/Users/macbookpro/GitHub` and must not be implemented directly inside `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts`.
+   - The final implementation codebase must be created in `~/GitHub` and must not be implemented directly inside `prompts/13-job-seeking-prompts`.
   - Browser interaction must use MCP Server integration and standard Chrome automation tooling.
   </constraints>
 
@@ -71,7 +71,7 @@
 
   <deliverables>
   - Architecture evaluation report identifying the chosen framework.
-   - Functional agentic workflow codebase created in a new project directory under `/Users/macbookpro/GitHub`.
+   - Functional agentic workflow codebase created in a new project directory under `~/GitHub`.
    - Brief migration/context-transfer note listing which files (if any) were copied or adapted from `prompts/13-job-seeking-prompts`.
   - Execution scripts to initiate and monitor the automated application process locally.
   </deliverables>

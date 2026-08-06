@@ -276,3 +276,12 @@ incidental, clear, readable, and not the primary focus. Generate the image with 
 ##### Horizontal Post
 
 - Minimum: 1080 x 608 pixels
+
+## Tool Usage, Memory, and Context Management
+
+First, visit the [BugdetBee Online Portal](https://budgetbeepro.com) using any available tools to
+check the available blog posts. This will provide the necessary context to help generate content for
+the Instagram post, including image generation and text formatting. Use any tool with memory
+features to retain relevant information about the platform's features, target audience, and branding
+guidelines. These features will help you create consistent, engaging social media posts and maintain
+a fresh, unique presence on Instagram.

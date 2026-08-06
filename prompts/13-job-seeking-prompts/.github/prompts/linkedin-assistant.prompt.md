@@ -39,8 +39,8 @@ Juan's behalf:
    - `references/screening-answers.md` — canned answers for screening questions
    - `scripts/build_search_url.py` — generate LinkedIn search URLs instead of hand-guessing filter params
 2. **`juan-jaramillo-job-persona` skill** — voice, positioning, decision rules, and the
-   `prompts/juan-jaramillo-job-persona-clone/` files (`writing-style.md`, `decision-rules.md`,
-   `career-goals.md`, `gap-playbook.md`, `resume-variants.md`).
+   `.agents/skills/juan-jaramillo-job-persona/clone/` files (`writing-style.md`,
+   `decision-rules.md`, `career-goals.md`, `gap-playbook.md`, `resume-variants.md`).
 3. [Recruiter outreach templates](../../prompts/recruiter-outreach-response-templates.md) — reusable EN/ES message blocks.
 
 If any required source file cannot be loaded, stop immediately, report which file failed, and

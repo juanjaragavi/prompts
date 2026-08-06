@@ -23,7 +23,7 @@ This report summarizes the status and details of five job applications processed
 - **Job URL:** [https://www.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449](https://www.linkedin.com/jobs/view/vibe-coder-at-darwin-ai-4436992449)
 - **Application Status:** **Submitted**
 - **Submission Date:** 2026-07-09
-- **Resume Used:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf`
+- **Resume Used:** `prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf`
 
 #### Actions Taken
 
@@ -44,7 +44,7 @@ This report summarizes the status and details of five job applications processed
 - **Job URL:** [https://remotevibecodingjobs.com/jobs/fe2b15d1-9284-4644-b9a7-50ad2e0458d7](https://remotevibecodingjobs.com/jobs/fe2b15d1-9284-4644-b9a7-50ad2e0458d7)
 - **Application Status:** **Submitted**
 - **Submission Date:** 2026-07-10
-- **Resume Used:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf`
+- **Resume Used:** `prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf`
 
 #### Actions Taken
 
@@ -66,14 +66,14 @@ This report summarizes the status and details of five job applications processed
 - **Job URL:** [https://vibehackers.io/jobs/aiml-computational-science-sr-analyst-accenture](https://vibehackers.io/jobs/aiml-computational-science-sr-analyst-accenture)
 - **External Application URL:** [https://mycareer.accenture.com/?source=acn_5&JRID=AIOC-S01653989](https://mycareer.accenture.com/?source=acn_5&JRID=AIOC-S01653989)
 - **Application Status:** **Requires Manual Action** (Authentication Barrier)
-- **Resume to Upload:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf`
+- **Resume to Upload:** `prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf`
 
 #### Actions Taken
 
 - Navigated to the `vibehackers.io` portal and clicked the application link.
 - Accepted the cookie consent banner on Accenture's career portal.
 - Discovered a mandatory login/registration screen on the Accenture external career portal, which blocked automatic form submission due to the need for personal user credentials.
-- Saved a proof-of-progress screenshot at `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshot_job_3_login.png`.
+- Saved a proof-of-progress screenshot at `prompts/13-job-seeking-prompts/screenshot_job_3_login.png`.
 - Compiled a structured application status JSON file to provide pre-mapped candidate profile details.
 
 #### Mapped Candidate Data for Manual Application
@@ -112,14 +112,14 @@ This report summarizes the status and details of five job applications processed
 - **Job URL:** [https://vibehackers.io/jobs/app-development-assistant-ai-assisted-vibe-coding-onsite-laguna-hills-dentco](https://vibehackers.io/jobs/app-development-assistant-ai-assisted-vibe-coding-onsite-laguna-hills-dentco)
 - **External Application URL:** [https://www.indeed.com/viewjob?jk=d0be6f168bdeafa1](https://www.indeed.com/viewjob?jk=d0be6f168bdeafa1)
 - **Application Status:** **Requires Manual Action** (Authentication Barrier)
-- **Resume to Upload:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf`
+- **Resume to Upload:** `prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf`
 
 #### Actions Taken
 
 - Navigated to the job listing page on `vibehackers.io`.
 - Discovered redirection to Indeed (`https://www.indeed.com/viewjob?jk=d0be6f168bdeafa1`).
 - Attempted "Apply with Indeed", which triggered a mandatory Indeed login wall requiring user credentials or Google/Apple OAuth.
-- Saved a screenshot of the login page to `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshot_job_4_login.png`.
+- Saved a screenshot of the login page to `prompts/13-job-seeking-prompts/screenshot_job_4_login.png`.
 - Drafted responses to custom screening questions based on the candidate's professional profile.
 
 #### Mapped Candidate Data & Screenings for Manual Application
@@ -161,8 +161,8 @@ This report summarizes the status and details of five job applications processed
 - **Job URL:** [https://job-boards.greenhouse.io/oura/jobs/4286391009?utm_source=vibecodecareers&utm_medium=job_board&utm_campaign=apply](https://job-boards.greenhouse.io/oura/jobs/4286391009?utm_source=vibecodecareers&utm_medium=job_board&utm_campaign=apply)
 - **Application Status:** **Submitted**
 - **Submission Date:** 2026-07-10
-- **Resume Used:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf`
-- **Cover Letter Used:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Cover_Letter.pdf`
+- **Resume Used:** `prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Resume.pdf`
+- **Cover Letter Used:** `prompts/13-job-seeking-prompts/Juan_Jaramillo_Master_Cover_Letter.pdf`
 
 #### Actions Taken
 
@@ -175,8 +175,8 @@ This report summarizes the status and details of five job applications processed
 - Bypassed the invisible reCAPTCHA and submitted the application.
 - Verified the submission on the Greenhouse confirmation page ("Thank you for applying").
 - Saved full-page form screenshots:
-  - Filled form: `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/oura_filled_form.png`
-  - Post-submission: `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/oura_post_submit.png`
+  - Filled form: `prompts/13-job-seeking-prompts/oura_filled_form.png`
+  - Post-submission: `prompts/13-job-seeking-prompts/oura_post_submit.png`
 
 #### Next Steps
 

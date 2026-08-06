@@ -104,7 +104,7 @@ $ ./scripts/commit_and_push.sh
 [INFO] Checking Git prerequisites...
 [SUCCESS] All Git prerequisites met
 [INFO] Repository Context:
-  Current Directory: /Users/macbookpro/GitHub/prompts
+  Current Directory: <repo-root>
   Current Branch: main
   Remote Origin: https://github.com/juanjaragavi/prompts.git
 [INFO] Changes detected:

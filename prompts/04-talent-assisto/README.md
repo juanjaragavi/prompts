@@ -87,7 +87,7 @@ HR automation.
 
 ```bash
 # View TalentAssisto prompts
-ls -la /Users/macbookpro/Github/prompts/prompts/04-talent-assisto/
+ls -la prompts/04-talent-assisto/
 
 # Use main production prompt
 cat talent-assisto-saas.md

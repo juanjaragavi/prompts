@@ -307,7 +307,7 @@ for app in inventory:
 ### "Resume file not found"
 
 - Check paths in `config.yaml` are correct and absolute (or valid relative paths)
-- On Mac: `/Users/macbookpro/...` (verify home directory)
+- On Mac: `~/...` (verify home directory)
 - On Linux: `/home/username/...`
 - On Windows: `C:\\Users\\username\\...`
 

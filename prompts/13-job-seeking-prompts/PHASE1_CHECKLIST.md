@@ -29,7 +29,7 @@
 ### Step 1: Verify Setup (2 minutes)
 
 ```bash
-cd /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts
+cd prompts/13-job-seeking-prompts
 ./run.sh setup
 ```
 

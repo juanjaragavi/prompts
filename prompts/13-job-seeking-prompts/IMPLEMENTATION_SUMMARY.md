@@ -58,7 +58,7 @@ Successfully refactored your 20+ fragmented job application automation scripts i
 ### 1. Setup (One-Time)
 
 ```bash
-cd /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts
+cd prompts/13-job-seeking-prompts
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt

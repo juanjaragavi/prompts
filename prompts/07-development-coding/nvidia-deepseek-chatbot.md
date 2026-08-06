@@ -4,7 +4,7 @@
 
 This prompt defines a build target for a Next.js chatbot application that wraps the `OpenAI` client SDK, configured with `base_url="https://integrate.api.nvidia.com/v1"`, to produce a futuristic minimalist conversational interface with tool- and skill-extensible architecture. The model runtime is `deepseek-ai/deepseek-v4-flash` via NVIDIA's integration endpoint.
 
-All repositories in this workspace reside at `/Users/macbookpro/GitHub`. The target project name is **nvidia-deepseek-chatbot** and should be created as a new directory under the workspace root.
+All repositories in this workspace reside at `~/GitHub`. The target project name is **nvidia-deepseek-chatbot** and should be created as a new directory under the workspace root.
 
 ## Objective
 
@@ -303,7 +303,7 @@ NVIDIA_API_KEY=<your-nvidia-api-key>
 
 ## Deliverables
 
-1. A fully functional Next.js project at `/Users/macbookpro/GitHub/nvidia-deepseek-chatbot`
+1. A fully functional Next.js project at `~/GitHub/nvidia-deepseek-chatbot`
 2. Running `npm run dev` exposes a chat UI at `localhost:3000` that accepts input and returns model responses
 3. `curl` validation scripts above produce correct outputs
 4. No credentials or secrets committed to version control

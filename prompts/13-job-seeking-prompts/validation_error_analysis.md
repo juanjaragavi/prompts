@@ -1,6 +1,6 @@
 # Validation Error Analysis Report
 
-This document provides a detailed technical analysis of the validation error shown in the screenshot located at `/Users/macbookpro/Desktop/Screenshot 2026-07-10 at 4.34.49 PM.png`. It identifies the platform, specific error code, root cause, and provides a clear, step-by-step resolution plan.
+This document provides a detailed technical analysis of the validation error shown in the screenshot located at `~/Desktop/Screenshot 2026-07-10 at 4.34.49 PM.png`. It identifies the platform, specific error code, root cause, and provides a clear, step-by-step resolution plan.
 
 ---
 

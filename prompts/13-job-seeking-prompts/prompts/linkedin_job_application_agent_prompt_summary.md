@@ -119,8 +119,8 @@ Languages:
 ## Application Materials
 
 - Resume URL: https://files.catbox.moe/3bha32.pdf
-- Cover letter PDF: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01 Juan Jaramillo Cover Letter 2026.pdf
-- Corporate presentation PDF: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01 JUAN JARAMILLO Corporate Presentation.pdf
+- Cover letter PDF: prompts/13-job-seeking-prompts/01 Juan Jaramillo Cover Letter 2026.pdf
+- Corporate presentation PDF: prompts/13-job-seeking-prompts/01 JUAN JARAMILLO Corporate Presentation.pdf
 
 ## Search and Filtering Rules
 
@@ -257,9 +257,9 @@ Always:
 
 ## Reference Files
 
-- Detailed profile: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/profile.md
-- Screening answers: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/screening-answers.md
-- Search URL builder: /Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/scripts/build_search_url.py
+- Detailed profile: prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/profile.md
+- Screening answers: prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/screening-answers.md
+- Search URL builder: prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/scripts/build_search_url.py
 
 Last updated: 2026-07-28
 Version: Summary 1.0

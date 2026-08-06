@@ -84,7 +84,7 @@ All prompts in this category support ActiveCampaign API integration for:
 
 ```bash
 # View all email marketing prompts
-ls -la /Users/macbookpro/Github/prompts/prompts/01-email-marketing/
+ls -la prompts/01-email-marketing/
 
 # Copy a prompt to use
 cat email-genius-activecampaign.md
@@ -113,3 +113,5 @@ cat email-genius-activecampaign.md
 **Maintained by:** Juan Jaramillo  
 **Related Categories:** [05-seo-content](../05-seo-content/),
 [02-topfinanzas-content](../02-topfinanzas-content/)
+
+> **Note:** Superseded/duplicate versions live in `archive/`; see `CHANGELOG.md`.

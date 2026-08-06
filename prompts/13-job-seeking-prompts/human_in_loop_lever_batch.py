@@ -31,6 +31,12 @@ def load_target_jobs(inventory_path: str, indexes: List[int]) -> List[Dict[str, 
     with open(inventory_path, "r") as f:
         inventory = json.load(f)
     selected = [item for item in inventory if item.get("index") in indexes and item.get("platform", "").lower() == "lever"]
+    # Lever's apply form only exists at {url}/apply; the base posting URL exposes
+    # no form controls (Lever changed page structure mid-2026).
+    for item in selected:
+        url = str(item.get("url") or "").strip()
+        if url and not url.rstrip("/").endswith("/apply"):
+            item["url"] = url.rstrip("/") + "/apply"
     return sorted(selected, key=lambda x: x["index"])
 
 

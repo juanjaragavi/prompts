@@ -1,22 +1,17 @@
-# Name
+# JJ LinkedIn Jobs (skill)
 
-### {{module_name}}
+Personal LinkedIn job-search assistant skill for Juan Miguel Jaramillo Gaviria.
 
-# Synopsis
+## Contents
 
-{{synopsis}}
+- `SKILL.md` — confirmed contact facts, target job titles, preferred locations/work modes,
+  compensation range, work authorization, experience, and skills.
+- `references/profile.md` — full experience timeline and public-profile detail.
+- `references/screening-answers.md` — canned answers for LinkedIn Easy Apply screening
+  questions (years of experience, salary expectations, work authorization, relocation, etc.).
+- `scripts/build_search_url.py` — generate LinkedIn job-search URLs.
 
-# Description
+## Use
 
-# Example
-
-# Install:
-
-`npm install {{module_name}}`
-
-# Test:
-
-`npm test`
-
-#License:
-{{license}}
+Load this skill whenever searching LinkedIn Jobs, scoring postings for fit, answering
+Easy Apply screening questions, or drafting cover letters/InMails for Juan.

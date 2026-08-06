@@ -212,8 +212,8 @@ Focus on these specific role categories in priority order:
 ### Required Documents
 
 1. **Resume (Primary):** `https://files.catbox.moe/3bha32.pdf`
-2. **Cover Letter:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01 Juan Jaramillo Cover Letter 2026.pdf`
-3. **Corporate Presentation:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/01 JUAN JARAMILLO Corporate Presentation.pdf`
+2. **Cover Letter:** `prompts/13-job-seeking-prompts/01 Juan Jaramillo Cover Letter 2026.pdf`
+3. **Corporate Presentation:** `prompts/13-job-seeking-prompts/01 JUAN JARAMILLO Corporate Presentation.pdf`
 
 ### Online Resume (Backup)
 
@@ -569,13 +569,13 @@ not hiring decisions. Declining is standard and professional.
 For additional context and details, refer to these supporting files:
 
 1. **Detailed Profile Analysis:**  
-   `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/profile.md`
+   `prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/profile.md`
 
 2. **Extended Screening Answers:**  
-   `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/screening-answers.md`
+   `prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/screening-answers.md`
 
 3. **Search URL Builder Script:**  
-   `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/scripts/build_search_url.py`
+   `prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/scripts/build_search_url.py`
 
 ---
 

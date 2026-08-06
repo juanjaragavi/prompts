@@ -24,7 +24,7 @@ This report summarizes the processing and submission status of the job applicati
 - **Platform:** SmartRecruiters
 - **URL:** [Medfar Job Page](https://jobs.smartrecruiters.com/oneclick-ui/company/Medfar/publication/962a7b51-8f78-4cac-9914-2d045f619464?dcr_ci=Medfar)
 - **Status:** CAPTCHA Blocked
-- **Screenshot Path:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_1_screenshot.png`
+- **Screenshot Path:** `prompts/13-job-seeking-prompts/screenshots/application_1_screenshot.png`
 - **Tailored Resume Variant:** `Juan_Jaramillo_Resume_AI_LLM.pdf`
 - **Issue Description:**
   SmartRecruiters' OneClick UI is protected by advanced anti-bot / Cloudflare security systems. During automated browser execution, it triggered a security shield displaying an "Access is temporarily restricted" block screen.
@@ -36,7 +36,7 @@ This report summarizes the processing and submission status of the job applicati
 - **Platform:** Rippling
 - **URL:** [Curve Dental Job Page](https://ats.rippling.com/curve-dental/jobs/ef73da8e-d943-4bd0-9921-415901a748aa/apply?jobBoardSlug=curve-dental&jobId=ef73da8e-d943-4bd0-9921-415901a748aa&step=application)
 - **Status:** Failed
-- **Screenshot Path:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_6_screenshot.png`
+- **Screenshot Path:** `prompts/13-job-seeking-prompts/screenshots/application_6_screenshot.png`
 - **Tailored Resume Variant:** `Juan_Jaramillo_Resume_Vibe_Coding.pdf`
 - **Issue Description:**
   The automation successfully filled out the candidate's personal data, contact information, expected salary ($42,000 - $54,000 USD), and experience details. However, the submit button remained disabled because Rippling's Applicant Tracking System (ATS) strictly filters for Calgary or Canada-based residents. Since Juan truthfully selected "No" for Calgary weekly office visits, Canadian work permission, and Calgary residency, the platform blocked submission.
@@ -51,7 +51,7 @@ This report summarizes the processing and submission status of the job applicati
 
 - **Platform:** Workable
 - **Status:** Submitted
-- **Screenshot Path:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_2_screenshot.png`
+- **Screenshot Path:** `prompts/13-job-seeking-prompts/screenshots/application_2_screenshot.png`
 - **Tailored Resume Variant:** `Juan_Jaramillo_Resume_AI_LLM.pdf`
 - **Details:** Form was successfully filled and submitted. Radio choices were mapped (Sponsorship Required: Yes; US Resident: No; 5+ years experience: Yes; C#/.NET experience: No) and the custom prompt engineering experience essay was fully populated.
 
@@ -59,7 +59,7 @@ This report summarizes the processing and submission status of the job applicati
 
 - **Platform:** Lever
 - **Status:** Submitted
-- **Screenshot Path:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_3_screenshot.png`
+- **Screenshot Path:** `prompts/13-job-seeking-prompts/screenshots/application_3_screenshot.png`
 - **Tailored Resume Variant:** `Juan_Jaramillo_Master_Resume.pdf`
 - **Details:** Form successfully filled with contact details, social links, current company, and location (Colombia), and submitted successfully on Lever.
 
@@ -67,7 +67,7 @@ This report summarizes the processing and submission status of the job applicati
 
 - **Platform:** Ashby
 - **Status:** Submitted
-- **Screenshot Path:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_4_screenshot.png`
+- **Screenshot Path:** `prompts/13-job-seeking-prompts/screenshots/application_4_screenshot.png`
 - **Tailored Resume Variant:** `Juan_Jaramillo_Resume_AI_LLM.pdf`
 - **Details:** Ashby form filled with contact details, social URLs, and answers matching Juan's ML engineering profile. Submitted successfully.
 
@@ -75,7 +75,7 @@ This report summarizes the processing and submission status of the job applicati
 
 - **Platform:** Crelate
 - **Status:** Submitted
-- **Screenshot Path:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_5_screenshot.png`
+- **Screenshot Path:** `prompts/13-job-seeking-prompts/screenshots/application_5_screenshot.png`
 - **Tailored Resume Variant:** `Juan_Jaramillo_Resume_AI_LLM.pdf`
 - **Details:** Form successfully completed with contact information, resume, and data storage consent. Submitted successfully on Crelate.
 
@@ -83,7 +83,7 @@ This report summarizes the processing and submission status of the job applicati
 
 - **Platform:** Lever
 - **Status:** Submitted
-- **Screenshot Path:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_7_screenshot.png`
+- **Screenshot Path:** `prompts/13-job-seeking-prompts/screenshots/application_7_screenshot.png`
 - **Tailored Resume Variant:** `Juan_Jaramillo_Resume_Vibe_Coding.pdf`
 - **Details:** Form completed with contact details, LinkedIn, GitHub, current organization, and expected monthly compensation ($3,500 - $4,500 USD). Submitted successfully on Lever.
 
@@ -91,7 +91,7 @@ This report summarizes the processing and submission status of the job applicati
 
 - **Platform:** Zoho Recruit
 - **Status:** Submitted
-- **Screenshot Path:** `/Users/macbookpro/GitHub/prompts/prompts/13-job-seeking-prompts/screenshots/application_8_screenshot.png`
+- **Screenshot Path:** `prompts/13-job-seeking-prompts/screenshots/application_8_screenshot.png`
 - **Tailored Resume Variant:** `Juan_Jaramillo_Resume_Vibe_Coding.pdf`
 - **Uploaded Files:**
   - `Juan_Jaramillo_Resume_Vibe_Coding.pdf` (English Resume)

@@ -21,7 +21,7 @@ Navigate to https://forms.microsoft.com/url-of-my-form
 
 4. Topic: Playwright Live - Latest updates on Playwright MCP + Live Demo
 
-5. Upload image: /Users/myuserName/Downloads/my-image.png
+5. Upload image: ~/Downloads/my-image.png
 
 DO NOT SUBMIT THE FORM.
 
