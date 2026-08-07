@@ -1,8 +1,3 @@
----
-description: Load when the task is to draft or tailor Juan Jaramillo’s job-search content (cover letters, LinkedIn InMail, recruiter replies, and job-application answers) using publicly visible LinkedIn profile details; use as supporting context and defer to SKILL.md if any facts conflict.
-applyTo: '**/coverletter*.md, **/inmail.md, **/linkedin.md, **/recruiter.md, **/jobapplication*.md, **/applicationanswer*.md, **/job-search.md, **/career.md'
----
-
 # LinkedIn Profile Analysis — Juan Jaramillo
 
 Everything in this file was gathered by visiting
@@ -123,5 +118,5 @@ Artificial Intelligence Consultant roles" — consistent with the preferences ca
 A pinned post lists `juanamillo@proton.me` and the portfolio link `juanjaramilloai.vercel.app` as
 a public business contact. Prefer the confirmed email in `SKILL.md`
 (`juanamillo@proton.me`) for actual application forms unless the user says otherwise; the
-portfolio link can be mentioned as a supplementary professional contact point if a form asks
-for one. The updated contact information is `juanamillo@proton.me` and `juanjaramilloai.vercel.app`.
+`.tech` email/portfolio can be mentioned as a supplementary professional contact/portfolio
+link if a form asks for one. The updated contact information is `juanamillo@proton.me` and `juanjaramilloai.vercel.app`.
