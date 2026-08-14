@@ -2,34 +2,31 @@
 
 ## Mission
 
-Search, filter, and apply to strong LinkedIn Jobs opportunities for Juan Miguel Jaramillo Gaviria. Submit only truthful, high-fit applications, follow platform rules, and require user approval before final submission.
+Search, filter, and apply to **Forward Deployed Engineer (FDE)** opportunities on LinkedIn Jobs for Juan Miguel Jaramillo Gaviria. Submit only truthful, high-fit applications, follow platform rules, and require user approval before final submission.
 
 ## Priority Campaign
 
-Execute first: freelance/hourly roles at $25+ USD/hour.
+**Forward Deployed Engineer (FDE) is the only target role.** Always type `Forward Deployed Engineer` into the LinkedIn Jobs search box first, then rotate through the accepted variants below.
 
-Priority focus:
+Accepted title variants:
 
-1. Front-End Development: React, Next.js, Astro, TypeScript, Tailwind CSS
-2. Vibe Coding / AI-Native Development: Cursor, AI-assisted development, pair programming with AI
-3. AI Testing & Training: LLM evaluation, RLHF, prompt engineering, model testing
-4. UI/UX Design: Figma, design systems, responsive web design, UX
+1. Forward Deployed Engineer
+2. Forward Deployed Engineer (FDE)
+3. Forward Deployed AI Engineer
+4. Forward Deployed Software Engineer
+5. Forward Deployed Solutions Engineer
+6. Senior / Lead / Staff Forward Deployed Engineer
 
-Priority search keywords:
+Combined search string:
 
-- Front-End Developer + Freelance
-- Vibe Coder + Hourly
-- AI Trainer + Contract
-- AI Testing Engineer + Freelance
-- UI Designer + Hourly
-- React Developer + Freelance
-- Next.js Developer + Contract
+```text
+"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer"
+```
 
 Compensation targets:
 
-- Hourly minimum: $25 USD/hour
-- Preferred hourly range: $25-60 USD/hour
 - Full-time target: $3,500-4,500 USD/month
+- Hourly minimum: $25 USD/hour (preferred range $25-60 USD/hour)
 - Target applications per campaign: 10
 
 ## Candidate Profile
@@ -46,31 +43,17 @@ Compensation targets:
 
 ### Professional Identity
 
-Headline: AI Engineer, AI Developer, AI Automation Expert, Machine Learning Engineer, Prompt Engineer, Professional Vibe Coder
+Application positioning: Forward Deployed Engineer — client-embedded AI and full-stack production engineer.
 
-Summary: AI Development Lead, full-stack architect, and tech entrepreneur with 17+ years in digital and technology work. Since 2022 has specialized in enterprise generative AI, LLM fine-tuning, RLHF, and AI-native product engineering. Currently leads AI platform strategy and development at TopNetworks Inc.
+LinkedIn profile headline (as displayed): AI Engineer, AI Developer, AI Automation Expert, Machine Learning Engineer, Prompt Engineer, Professional Vibe Coder
 
-### Target Roles
+Summary: AI Development Lead, full-stack architect, and tech entrepreneur with 17+ years in digital and technology work. Since 2022 has specialized in enterprise generative AI, LLM fine-tuning, RLHF, and AI-native product engineering. Currently leads AI platform strategy and development at TopNetworks Inc., shipping production code, custom APIs, ETL pipelines, RAG systems, and agent workflows directly against live traffic and partner integrations.
 
-Primary:
+### Target Role — Forward Deployed Engineer only
 
-- AI Engineer / AI Developer / Artificial Intelligence Engineer
-- Prompt Engineer / LLM Engineer
-- Machine Learning Engineer
-- Generative AI Engineer
-- AI Strategy Consultant / AI Solutions Architect
-- Vibe Coder / AI-Native IDE Engineer / AI-Native Full-Stack Engineer
+A posting qualifies when the title is an FDE variant, or when the description's core responsibility is client-embedded production engineering: writing production-grade code inside customer environments, building custom APIs, enterprise ETL data pipelines, RAG architectures, and AI agent workflows, and driving last-mile deployment.
 
-Secondary:
-
-- Front-End Developer with AI integration
-- Full-Stack Developer for AI-native projects
-- Next.js Developer / React Developer
-- UI/UX Designer for AI-powered tools
-
-Conditional:
-
-- CMS, WordPress, or generic web roles only if AI integration or headless modernization is central
+Out of scope — skip: generic AI Engineer, Prompt Engineer, LLM Engineer, Machine Learning Engineer, Generative AI Engineer, AI Strategy Consultant, Vibe Coder, AI Trainer/Testing, Front-End Developer, Full-Stack Developer, Next.js/React Developer, UI/UX Designer, CMS/WordPress Developer, pre-sales Solutions Engineer, and Technical Account Manager.
 
 ## Work Preferences
 
@@ -124,19 +107,19 @@ Languages:
 
 ## Search and Filtering Rules
 
-Start at LinkedIn Jobs and rotate relevant keywords. Prefer filters for Easy Apply, Remote or target cities, recent postings, and contract/part-time/temporary for the hourly campaign.
+Start at LinkedIn Jobs with `Forward Deployed Engineer` in the search box, then rotate through the accepted FDE title variants. Prefer filters for Easy Apply, Remote or target cities, recent postings, and full-time/contract/temporary.
 
 Apply only if all or nearly all of the following are true:
 
 - Easy Apply is available
-- Role matches target families
+- Title is an FDE variant, or the description's core responsibility is client-embedded production engineering (production code in customer environments, custom APIs/ETL/RAG/agent integrations, last-mile deployment)
 - Compensation is at least $25/hour or about $3,500/month when visible
 - Location and work mode are acceptable
 - No hard local authorization requirement outside Colombia
-- Role is not a low-value generic CMS or unrelated posting
 
 Skip immediately if:
 
+- The role is not an FDE role (generic AI Engineer, Prompt Engineer, ML Engineer, Vibe Coder, front-end, back-end, full-stack, CMS/WordPress, pre-sales Solutions Engineer, Technical Account Manager)
 - Pay is below threshold
 - On-site in a non-target city
 - U.S./U.K./EU authorization is mandatory without remote-contractor flexibility
@@ -201,9 +184,9 @@ Relocation and work mode:
 - Open to on-site only in Bogota, Medellin, Mexico City, or Buenos Aires
 - Otherwise remote preferred
 
-Fit statement template:
+Fit statement template (Forward Deployed Engineer):
 
-I bring 17+ years of digital and technology experience, including 4 years focused on Generative AI, LLM development, and prompt engineering. I currently lead AI platform strategy and full-stack development at TopNetworks Inc., where I have shipped production AI products across content generation, fraud detection, traffic optimization, and social media automation. My stack includes Next.js 16, React 19, TypeScript, Vertex AI, LangChain/LangGraph, GCP, PostgreSQL, Astro, and Tailwind CSS. I am seeking opportunities where I can apply strong AI/ML and modern product engineering skills to deliver production-ready solutions.
+I bring 17+ years of digital and technology delivery, including 4 years focused on production Generative AI and LLM engineering. As AI Development Lead at TopNetworks Inc. I led AI strategy, architecture, and full-stack delivery for performance publishing platforms across the U.S., U.K., Mexico, and Latin America — shipping directly against live production traffic and partner integrations. I designed and built the internal SaaS ecosystem: EmailGenius (Vertex AI + PostgreSQL), TrafficGenius (invalid-traffic detection and security analytics on BigQuery + Cloud Armor), RouteGenius (probabilistic traffic distribution on Supabase), and Social Media Genius (AI canvas content generation). That is the Forward Deployed Engineer profile: custom APIs, enterprise ETL pipelines, RAG architectures, and agent workflows built into real systems and driven end to end through production rollout. My stack covers Python, TypeScript, Next.js 15-16, React 19, Astro 5, Vertex AI, LangChain/LangGraph/CrewAI, PostgreSQL, BigQuery, and GCP with Docker and PM2 — and after 17 years of consulting leadership I'm comfortable aligning client CTOs and engineering leads on architectural trade-offs.
 
 Demographic or EEO questions:
 
@@ -251,15 +234,18 @@ Always:
 
 ## Campaign Variants
 
-- Campaign A: Freelance/Hourly. Front-End Developer, Vibe Coder, AI Trainer, UI Designer. Minimum $25/hour.
-- Campaign B: Full-Time AI/ML. AI Engineer, Prompt Engineer, ML Engineer. Minimum $3,500/month.
-- Campaign C: Remote-First Modern Development. Next.js Developer, React Developer, AI-native Full-Stack. Minimum $25/hour or $3,500/month.
+All campaigns target the same role — Forward Deployed Engineer. Only the filters differ.
+
+- Campaign A: FDE Full-Time. Minimum $3,500/month.
+- Campaign B: FDE Contract/Hourly. Minimum $25/hour.
+- Campaign C: FDE Remote-First (worldwide, Colombia-friendly). Minimum $25/hour or $3,500/month.
 
 ## Reference Files
 
+- FDE role definition: prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/fde-role-definition.md
 - Detailed profile: prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/profile.md
 - Screening answers: prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/screening-answers.md
 - Search URL builder: prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/scripts/build_search_url.py
 
-Last updated: 2026-07-28
-Version: Summary 1.0
+Last updated: 2026-08-14
+Version: Summary 2.0 (Forward Deployed Engineer — exclusive target role)

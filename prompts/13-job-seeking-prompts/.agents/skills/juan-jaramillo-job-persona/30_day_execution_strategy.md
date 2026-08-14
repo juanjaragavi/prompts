@@ -24,9 +24,14 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 
 ## 2. Track-Specific Action Plans
 
+> **Target role: Forward Deployed Engineer (FDE) — the only role family in scope.** The three
+> tracks below are no longer separate role targets; they are positioning lenses. Use them to
+> decide which resume variant, case study, and proof points best match a specific FDE posting's
+> technical emphasis. Every application is for a Forward Deployed Engineer role.
+
 ### Track 1: AI-Based Development (Enterprise & Deep ML Integration)
 
-- **Strategic Focus:** Targeting high-leverage roles focused on model selection, custom RAG pipelines, fine-tuning, and multi-agent orchestration.
+- **Strategic Focus:** Positioning lens for FDE postings centered on model selection, custom RAG pipelines, fine-tuning, and multi-agent orchestration inside client environments.
 - **Target Compensation:** $200k – $253k USD Annually (Enterprise/Global market premium) or $3,500 – $4,500 USD monthly (LatAm local/regional target)
 - **Target Job Titles:**
   - AI Engineering Lead

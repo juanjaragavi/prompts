@@ -1,11 +1,15 @@
 # Juan Miguel Jaramillo Gaviria
 
-## AI Development Lead, Full-Stack Architect, and Serial Tech Entrepreneur
+## Forward Deployed Engineer (FDE) — Client-Embedded AI & Full-Stack Production Engineer
 
 📍 Bogotá, Colombia  
 📧 [juanamillo@proton.me](mailto:juanamillo@proton.me)  
 📞 [+57 305 420 6139](tel:+573054206139)  
 🌐 [juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)
+
+> **Target role:** Forward Deployed Engineer (FDE). Accepted title variants: Forward Deployed
+> Engineer, Forward Deployed Engineer (FDE), Forward Deployed AI Engineer, Forward Deployed
+> Software Engineer, Forward Deployed Solutions Engineer.
 
 ---
 
@@ -13,9 +17,16 @@
 
 AI Development Lead, full-stack architect, and serial technology entrepreneur with more than 17 years of experience in digital and technology initiatives.
 
-Since 2022, I have specialized in enterprise generative AI development, LLM fine-tuning (PEFT, RLHF), and AI-native product engineering. I currently lead AI strategy and platform development at TopNetworks Inc., designing AI-powered SaaS tools for the U.S., U.K., Mexico, and Latin American markets.
+Since 2022, I have specialized in enterprise generative AI development, LLM fine-tuning (PEFT, RLHF), and AI-native product engineering. I currently lead AI strategy and platform development at TopNetworks Inc., designing AI-powered SaaS tools for the U.S., U.K., Mexico, and Latin American markets — shipping production code, custom APIs, ETL pipelines, RAG architectures, and agent workflows directly against live traffic and partner integrations.
 
 Deep experience in Next.js, TypeScript, Vertex AI, GenAI and LLMs, Machine Learning, Prompt Engineering, and cloud-native full-stack development on Google Cloud.
+
+### Forward Deployed Engineer fit
+
+- **Client-embedded system architecture & coding** — 17+ years delivering production systems inside client and partner environments across Colombia, Mexico, Spain, the U.S., and the U.K.
+- **Custom APIs, ETL pipelines, RAG & agent workflows** — EmailGenius (Vertex AI + PostgreSQL), TrafficGenius (BigQuery + Cloud Armor), RouteGenius (Supabase), Social Media Genius (AI canvas editor).
+- **Last-mile deployment** — end-to-end rollouts on GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS) with Docker, PM2, and Vercel.
+- **Technical stakeholder alignment** — co-founder, director, and project-lead roles requiring architectural trade-off discussions with executives and engineering leads.
 
 ---
 

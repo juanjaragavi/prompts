@@ -7,7 +7,7 @@ candidate:
   last_name: 'Jaramillo Gaviria'
   full_name: 'Juan Miguel Jaramillo Gaviria'
   title: 'AI Development Lead'
-  positioning_headline: 'AI-Native Full-Stack Architect / AI Development Lead'
+  positioning_headline: 'Forward Deployed Engineer — client-embedded AI & full-stack production engineer'
   professional_title: 'AI/ML Expert, Full-Stack Architect, Consultant, Serial Tech Entrepreneur'
 
   # Contact Information
@@ -413,46 +413,52 @@ job_search:
   application_target_weekly: '15-20 high-quality, targeted applications'
   outreach_target_weekly: '25+ personalized hiring manager messages'
 
-  # Target Role Tracks
-  track_ai_leadership:
-    focus: 'High-leverage AI/ML roles with leadership scope'
-    target_companies:
-      [
-        'Rappi',
-        'Falabella',
-        'Provectus',
-        'Oowlish',
-        'CBTW Americas',
-        'Google Cloud',
-        'Anthropic',
-      ]
+  # Target Role — Forward Deployed Engineer (FDE) is the ONLY role family in scope.
+  # Always search "Forward Deployed Engineer" in LinkedIn Jobs before anything else.
+  track_forward_deployed_engineer:
+    focus: 'Client-embedded production engineering: writing production-grade code inside customer environments, building custom APIs, enterprise ETL pipelines, RAG architectures, and AI agent workflows, and driving last-mile deployment'
     job_titles:
       [
-        'AI Engineering Lead',
-        'LLM Engineer',
-        'AI Solutions Architect',
-        'Senior ML Engineer (GenAI)',
-      ]
-    compensation: '$200k-$253k USD Annually (enterprise market)'
-
-  track_vibe_coding:
-    focus: 'High-velocity AI-native product engineering'
-    target_companies:
-      ['Replit', 'Webflow', 'Stripe', 'Vercel', 'Supabase', 'Retool']
-    job_titles:
-      [
-        'AI-Native Product Engineer',
-        'Full-Stack AI Developer',
         'Forward Deployed Engineer',
+        'Forward Deployed Engineer (FDE)',
+        'Forward Deployed AI Engineer',
+        'Forward Deployed Software Engineer',
+        'Forward Deployed Solutions Engineer',
+        'Senior Forward Deployed Engineer',
+        'Lead Forward Deployed Engineer',
+        'Staff Forward Deployed Engineer',
       ]
-    compensation: '$137k-$200k USD Annually'
-
-  track_cms_react:
-    focus: 'Modern web architecture and headless migrations'
+    search_string: '"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer"'
     target_companies:
-      ['WP Engine', 'Pantheon', 'Automattic', 'Digital agencies']
-    job_titles: ['Headless WordPress Architect', 'React/Next.js Specialist']
-    compensation: '$80k-$158k USD Annually (Freelance/Agency)'
+      [
+        'Palantir',
+        'OpenAI',
+        'Anthropic',
+        'Scale AI',
+        'Sierra',
+        'Glean',
+        'Google Cloud',
+        'Databricks',
+      ]
+    compensation: '$3,500-$4,500 USD monthly ($42k-$54k USD annually); $25-60 USD/hour for contract engagements'
+    excluded_titles:
+      [
+        'AI Engineer',
+        'Prompt Engineer',
+        'LLM Engineer',
+        'Machine Learning Engineer',
+        'Generative AI Engineer',
+        'AI Strategy Consultant',
+        'Vibe Coder',
+        'Front-End Developer',
+        'Full-Stack Developer',
+        'Next.js Developer',
+        'React Developer',
+        'UI/UX Designer',
+        'Headless WordPress Architect',
+        'Solutions Engineer (pre-sales)',
+        'Technical Account Manager',
+      ]
 
   # Geographic Preferences (Ordered)
   preferred_locations:

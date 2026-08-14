@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This file maps each job-search track defined in `30_day_execution_strategy.md` to the specific resume PDF variant, primary keywords, and when to use it. Use this whenever an application asks which resume to submit or when tailoring materials for a specific role.
+This file maps each job-search track to the specific resume PDF variant, primary keywords, and when to use it. Use this whenever an application asks which resume to submit or when tailoring materials for a specific role.
+
+**The only target role is Forward Deployed Engineer (FDE).** The tracks below are no longer separate role targets — they are resume framings. Choose the one whose keyword set best matches the specific FDE posting's emphasis.
 
 ## Track-to-Resume Mapping
 
@@ -29,11 +31,12 @@ The master cover letter style reference is `Juan_Jaramillo_Master_Cover_Letter.p
 
 ## Selection Heuristics
 
-1. **Match the resume to the JD's primary language.** If the JD emphasizes LangGraph/CrewAI/fine-tuning, use the AI/LLM variant. If it emphasizes Next.js/Astro/vibe coding, use the Vibe Coding variant. If it emphasizes WordPress/headless/SSR, use the CMS/React variant.
-2. **When in doubt, use the Master Resume.** It positions Juan as AI-Native Full-Stack Architect and works for most senior AI/ML and full-stack leadership roles.
-3. **Never submit two resume variants to the same application.** Pick the strongest single fit.
-4. **Tailor the cover letter to the specific role and company.** The five existing cover letters are starting points, not final drafts. Always adjust the opening, role title, and key proof points to match the target.
-5. **Cross-check against `career-goals.md`** to ensure the selected track aligns with Juan's target role categories and compensation intent.
+1. **Every application is for a Forward Deployed Engineer role.** Pick the resume variant whose keyword set best matches that specific FDE posting's technical emphasis — do not treat the variants as alternative role targets.
+2. **Match the resume to the JD's primary language.** If the FDE posting emphasizes LangGraph/CrewAI/RAG/fine-tuning, use the AI/LLM variant. If it emphasizes Next.js/Astro/AI-assisted delivery velocity, use the Vibe Coding variant. If it emphasizes legacy modernization and headless/SSR migrations, use the CMS/React variant.
+3. **When in doubt, use the Master Resume.** It carries the broadest client-embedded delivery narrative and works for most FDE postings.
+4. **Never submit two resume variants to the same application.** Pick the strongest single fit.
+5. **Tailor the cover letter to the specific role and company.** The five existing cover letters are starting points, not final drafts. Always reframe the opening around Forward Deployed Engineering — last-mile delivery, custom integrations, and client-embedded production work.
+6. **Cross-check against `career-goals.md`** to confirm the FDE framing and compensation intent.
 
 ## File Inventory
 

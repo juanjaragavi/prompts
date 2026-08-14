@@ -21,12 +21,12 @@ Assume the LinkedIn session is already authenticated. If a login wall, CAPTCHA, 
 
 Use these saved LinkedIn preferences as the baseline for search and screening:
 
-- Job titles:
-  - Artificial Intelligence Engineer
-  - LLM Engineer
-  - Agent Engineer
-  - Prompt Engineer
-  - Machine Learning Engineer
+- Job titles (Forward Deployed Engineer only — search the first entry before anything else):
+  - Forward Deployed Engineer
+  - Forward Deployed Engineer (FDE)
+  - Forward Deployed AI Engineer
+  - Forward Deployed Software Engineer
+  - Forward Deployed Solutions Engineer
 
 - Location types:
   - On-site
@@ -47,35 +47,20 @@ Use these saved LinkedIn preferences as the baseline for search and screening:
 - Start date: Immediately, I am actively applying
 - Visibility: All LinkedIn members
 
-Use the saved job titles and locations above as the primary preference set when searching LinkedIn Jobs. Keep the existing full-time application focus unless a contract role is an exceptional match to the target role families.
+Use the saved job titles and locations above as the primary preference set when searching LinkedIn Jobs. Always type `Forward Deployed Engineer` into the search box first. Keep the existing full-time application focus unless a contract role is an exceptional match.
 
-Developer roles should only be considered when they are clearly centered on AI, machine learning, or LLMs. Exclude generic front-end, back-end, and full-stack development postings unless the title or description explicitly makes AI, LLMs, or adjacent AI engineering work a primary responsibility.
+## Target Role — Forward Deployed Engineer only
 
-## Target Roles
-
-Only consider jobs that match one of these role families:
-
-- AI Engineer
-- LLM Engineer
-- Agent Engineer
-- AI Developer
-- Prompt Engineer
-- Machine Learning Engineer
+Only consider jobs whose title is one of the Forward Deployed Engineer variants above, or whose core responsibility is client-embedded production engineering: writing production-grade code inside customer environments, building custom APIs, enterprise ETL data pipelines, RAG architectures, and AI agent workflows, and driving last-mile deployment from discovery to production.
 
 ## Exclusions
 
-Do not apply to jobs that are primarily about:
+Do not apply to:
 
-- Data analysis
-- Data science
-- Data engineering
-- Analytics
-- Reporting
-- Business intelligence
-- Dashboarding
-- Any other data-related role
+- Any non-FDE role, including generic AI Engineer, LLM Engineer, Agent Engineer, AI Developer, Prompt Engineer, Machine Learning Engineer, Vibe Coder, front-end, back-end, full-stack, CMS/WordPress, pre-sales Solutions Engineer, and Technical Account Manager postings
+- Roles primarily about data analysis, data science, data engineering, analytics, reporting, business intelligence, or dashboarding
 
-Do not exclude AI or ML roles just because they mention datasets, pipelines, evaluation, experimentation, or model training as part of the job. Exclude only roles whose primary function is data analysis or data engineering.
+Do not exclude a genuine FDE role just because it mentions datasets, pipelines, evaluation, experimentation, or model training — building client data pipelines and RAG systems is core FDE work. Exclude only roles whose primary function is data analysis or BI.
 
 ## Job Filters
 
@@ -91,12 +76,12 @@ If Juan’s eligible regions are not stated explicitly in the source materials, 
 
 If salary is shown annually, treat $42,000 to $54,000 USD per year as the equivalent range. If salary is shown in another currency, keep the role only when the converted monthly amount is reasonably close to $3,500 to $4,500 USD and the match is otherwise strong.
 
-If salary is not shown, keep the job only when the title and responsibilities strongly match the target role families and the company looks credible.
+If salary is not shown, keep the job only when the title and responsibilities strongly match the Forward Deployed Engineer profile and the company looks credible.
 
 ## Application Rules
 
 1. Prioritize Easy Apply listings.
-2. Apply only to jobs that match the Target Roles and pass the Exclusions criteria.
+2. Apply only to Forward Deployed Engineer roles that pass the Exclusions criteria.
 3. Use the resume at <https://files.catbox.moe/3bha32.pdf> whenever a resume upload is requested.
 4. Answer custom questions using only verified information from the profile, website, and resume.
 5. Do not invent skills, employers, credentials, or locations.

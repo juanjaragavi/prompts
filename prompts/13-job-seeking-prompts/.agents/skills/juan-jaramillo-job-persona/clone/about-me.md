@@ -20,7 +20,9 @@ I work across the full lifecycle:
 
 ## Professional Positioning
 
-I am currently in an active job search while continuing my independent AI/ML consulting practice. My most recent role was AI Development Lead at TopNetworks Inc. from February 2025 to June 2026, where I led AI strategy, architecture, and full-stack development for performance publishing platforms serving the U.S., U.K., Mexico, and Latin America.
+**Target role: Forward Deployed Engineer (FDE) — the only role I am applying to.** An FDE is a client-embedded engineer who writes production-grade code directly inside customer environments — building custom APIs, enterprise ETL data pipelines, RAG architectures, and AI agent workflows — to deliver the "last mile" of enterprise software and AI integrations, and who feeds operational edge cases back to core engineering.
+
+I am currently in an active job search while continuing my independent AI/ML consulting practice. My most recent role was AI Development Lead at TopNetworks Inc. from February 2025 to June 2026, where I led AI strategy, architecture, and full-stack development for performance publishing platforms serving the U.S., U.K., Mexico, and Latin America — shipping directly against live production traffic and partner integrations rather than in a sandbox. That is the FDE profile.
 
 In that role, I helped design and ship an internal SaaS ecosystem that included:
 
