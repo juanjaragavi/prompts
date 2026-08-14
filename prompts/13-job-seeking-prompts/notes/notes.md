@@ -144,6 +144,12 @@ Full professional proficiency in English; native Spanish speaker.
   Tailwind CSS v4, WordPress, Vertex AI/Gemini, LangChain, LangGraph, CrewAI, PEFT/RLHF, GCP
   (Cloud Run, Compute Engine, Cloud SQL, BigQuery, Cloud Armor, Cloud DNS), PostgreSQL,
   Supabase, Firebase, Docker, Vercel, Cursor / AI-assisted development.
+- **AI & dev tools:** n8n, Zapier, Make.com, Cursor, Visual Studio Code, Google Antigravity,
+  LangChain, LangGraph, CrewAI.
+- **Forward-Deployed-Engineer skills:** RAG architectures, vector databases (Chroma, PGVector),
+  MCP servers/tools and custom integrations, LLM evaluation suites, Docker/containers,
+  CI/CD (GitHub Actions), systems integration (REST, Webhooks), and last-mile client-embedded
+  delivery.
 
 ### Screening-answer defaults (ready to reuse)
 

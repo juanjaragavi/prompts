@@ -51,11 +51,28 @@ remote work based from Bogotá, Colombia; not seeking relocation outside these f
 
 "Open to full-time, contract, temporary, or hourly/pay-per-project engagements."
 
-## Typical "why are you a good fit" framing
+## Typical "why are you a good fit" framing (Forward Deployed Engineer)
 
-Lead with: 17+ years in digital/technology, ~4 years focused specifically on GenAI/LLM/prompt
-engineering and ML, currently leading AI platform strategy and full-stack development
-(Next.js, TypeScript, Vertex AI/Gemini, LangChain/LangGraph, GCP) at TopNetworks Inc. Mention
-concrete shipped products (EmailGenius, TrafficGenius, RouteGenius, Social Media Genius) when
-a cover letter or "tell us about relevant experience" free-text field is available — see
-`profile.md` for details to pull from.
+Always frame the answer around client-embedded, last-mile production engineering — that is the
+only role being targeted.
+
+> "I bring 17+ years of digital and technology delivery, with the last ~4 focused on production
+> GenAI/LLM engineering. As AI Development Lead at TopNetworks Inc. I led AI strategy,
+> architecture, and full-stack delivery for performance-publishing platforms across the U.S.,
+> U.K., Mexico, and Latin America — shipping directly against live production traffic and
+> partner integrations rather than in a sandbox. I designed and built the internal SaaS
+> ecosystem: EmailGenius (Vertex AI + PostgreSQL), TrafficGenius (invalid-traffic detection and
+> security analytics on BigQuery + Cloud Armor), RouteGenius (probabilistic traffic distribution
+> on Supabase), and Social Media Genius (AI canvas content generation). That work is exactly the
+> Forward Deployed Engineer profile: custom APIs, enterprise ETL pipelines, RAG and agent
+> workflows, and driving rollouts end to end.
+>
+> My production stack covers Python, TypeScript/JavaScript, Next.js 16 (App Router), React 19.2,
+> Astro 6, Vertex AI (Gemini 3), LangChain/LangGraph/CrewAI, PostgreSQL, BigQuery, and
+> GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS) with Docker and PM2. And after 17 years
+> of consulting and agency leadership, I'm comfortable articulating architectural trade-offs
+> directly to client CTOs and engineering leads, and pair-programming with their teams through
+> hand-off."
+
+See `fde-role-definition.md` for the full competency mapping and `profile.md` for additional
+background details to pull from.

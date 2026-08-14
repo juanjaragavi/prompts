@@ -15,19 +15,24 @@ The main goal is to secure a senior-level role that combines:
 - Strong compensation aligned with impact
 - Flexibility for remote or international collaboration
 
-## Target Role Categories
+## Target Role — Forward Deployed Engineer (FDE) only
 
-Priority role types include:
+**Forward Deployed Engineer is the single target role.** Search it first on LinkedIn Jobs; no
+other role family is in scope for applications.
 
-- AI Engineering Lead
-- AI Development Lead
-- Senior GenAI Engineer
-- LLM Engineer
-- AI Solutions Architect
-- Senior Machine Learning Engineer with GenAI focus
-- AI-Native Full-Stack Architect
+Accepted title variants:
+
+- Forward Deployed Engineer
+- Forward Deployed Engineer (FDE)
 - Forward Deployed AI Engineer
-- Senior AI Product Engineer
+- Forward Deployed Software Engineer
+- Forward Deployed Solutions Engineer
+- Senior / Lead / Staff Forward Deployed Engineer
+
+An FDE is a client-embedded engineer who writes production-grade code directly inside customer
+environments — building custom APIs, enterprise ETL pipelines, RAG architectures, and AI agent
+workflows — to deliver the "last mile" of enterprise software and AI integrations, and who feeds
+operational edge cases back to core engineering.
 
 ## Ideal Positioning
 

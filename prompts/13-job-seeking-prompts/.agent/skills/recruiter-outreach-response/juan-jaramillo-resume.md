@@ -1,6 +1,6 @@
 # Juan Miguel Jaramillo Gaviria
 
-## Forward Deployed Engineer (FDE) — Client-Embedded AI & Full-Stack Production Engineer
+## Forward Deployed Engineer | AI/LLM & Full-Stack Architect | Client-Embedded Production Delivery
 
 📍 Bogotá, Colombia  
 📧 [juanamillo@proton.me](mailto:juanamillo@proton.me)  
@@ -15,11 +15,11 @@
 
 ## Professional Summary
 
-AI Development Lead, full-stack architect, and serial technology entrepreneur with more than 17 years of experience in digital and technology initiatives.
+Client-embedded AI and full-stack engineer with 17+ years shipping production systems. I specialize in last-mile delivery: writing production code against live traffic and partner integrations, building custom APIs, ETL/data pipelines, RAG architectures, and multi-agent workflows, and owning outcomes end-to-end.
 
-Since 2022, I have specialized in enterprise generative AI development, LLM fine-tuning (PEFT, RLHF), and AI-native product engineering. I currently lead AI strategy and platform development at TopNetworks Inc., designing AI-powered SaaS tools for the U.S., U.K., Mexico, and Latin American markets — shipping production code, custom APIs, ETL pipelines, RAG architectures, and agent workflows directly against live traffic and partner integrations.
+Most recently AI Development Lead at TopNetworks Inc., where I built and deployed an enterprise GenAI SaaS ecosystem directly against production traffic across the U.S., U.K., Mexico, and Latin America.
 
-Deep experience in Next.js, TypeScript, Vertex AI, GenAI and LLMs, Machine Learning, Prompt Engineering, and cloud-native full-stack development on Google Cloud.
+Deep experience in Next.js, TypeScript, React, Astro, Vertex AI, GenAI and LLMs, Machine Learning, Prompt Engineering, and cloud-native full-stack development on Google Cloud.
 
 ### Forward Deployed Engineer fit
 
@@ -108,19 +108,30 @@ _Aug. 2009 – Oct. 2012 (3 years 3 months)_
 - **GenAI and LLMs** — _Advanced_
 - **AI-Based Automation** — _Advanced_
 - **Hallucination Risk Management** — _Advanced_
-- **JavaScript** — _Advanced_
 - **ReactJS** — _Advanced_
-- **Python** — _Advanced / Intermediate_
-- **Machine Learning** — _Advanced / Intermediate_
+- **JavaScript** — _Intermediate / Advanced_
+- **Machine Learning** — _Intermediate / Advanced_
+- **Python** — _Intermediate_
 
 ---
 
-## AI Tools
+## AI & Dev Tools
 
+- **n8n** — _Advanced_
+- **Zapier** — _Advanced_
+- **Make.com** — _Advanced_
+- **Cursor** — _Advanced_
+- **Visual Studio Code** — _Advanced_
+- **Google Antigravity** — _Advanced_
 - **LangChain** — _Advanced_
 - **LangGraph** — _Advanced_
 - **CrewAI** — _Advanced_
-- **Vertex AI A2A** — _Advanced_
+
+---
+
+## Additional Skills
+
+RAG architectures, vector databases (Chroma, PGVector), MCP servers/tools & custom integrations, LLM evaluation suites, Docker/containers, CI/CD (GitHub Actions), systems integration (REST, Webhooks), and broad LLM engineering skills.
 
 ---
 

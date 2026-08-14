@@ -1,21 +1,32 @@
 # Juan Miguel Jaramillo Gaviria
 
-## AI Development Lead, Full-Stack Architect, and Serial Tech Entrepreneur
+## Forward Deployed Engineer | AI/LLM & Full-Stack Architect | Client-Embedded Production Delivery
 
 📍 Bogotá, Colombia  
 📧 [juanamillo@proton.me](mailto:juanamillo@proton.me)  
 📞 [+57 305 420 6139](tel:+573054206139)  
 🌐 [juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)
 
+> **Target role:** Forward Deployed Engineer (FDE). Accepted title variants: Forward Deployed
+> Engineer, Forward Deployed Engineer (FDE), Forward Deployed AI Engineer, Forward Deployed
+> Software Engineer, Forward Deployed Solutions Engineer.
+
 ---
 
 ## Professional Summary
 
-AI Development Lead, full-stack architect, and serial technology entrepreneur with more than 17 years of experience in digital and technology initiatives.
+Client-embedded AI and full-stack engineer with 17+ years shipping production systems. I specialize in last-mile delivery: writing production code against live traffic and partner integrations, building custom APIs, ETL/data pipelines, RAG architectures, and multi-agent workflows, and owning outcomes end-to-end.
 
-Since 2022, I have specialized in enterprise generative AI development, LLM fine-tuning (PEFT, RLHF), and AI-native product engineering. I currently lead AI strategy and platform development at TopNetworks Inc., designing AI-powered SaaS tools for the U.S., U.K., Mexico, and Latin American markets.
+Most recently AI Development Lead at TopNetworks Inc., where I built and deployed an enterprise GenAI SaaS ecosystem directly against production traffic across the U.S., U.K., Mexico, and Latin America.
 
-Deep experience in Next.js, TypeScript, Vertex AI, GenAI and LLMs, Machine Learning, Prompt Engineering, and cloud-native full-stack development on Google Cloud.
+Deep experience in Next.js, TypeScript, React, Astro, Vertex AI, GenAI and LLMs, Machine Learning, Prompt Engineering, and cloud-native full-stack development on Google Cloud.
+
+### Forward Deployed Engineer fit
+
+- **Client-embedded system architecture & coding** — 17+ years delivering production systems inside client and partner environments across Colombia, Mexico, Spain, the U.S., and the U.K.
+- **Custom APIs, ETL pipelines, RAG & agent workflows** — EmailGenius (Vertex AI + PostgreSQL), TrafficGenius (BigQuery + Cloud Armor), RouteGenius (Supabase), Social Media Genius (AI canvas editor).
+- **Last-mile deployment** — end-to-end rollouts on GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS) with Docker, PM2, and Vercel.
+- **Technical stakeholder alignment** — co-founder, director, and project-lead roles requiring architectural trade-off discussions with executives and engineering leads.
 
 ---
 
@@ -97,19 +108,30 @@ _Aug. 2009 – Oct. 2012 (3 years 3 months)_
 - **GenAI and LLMs** — _Advanced_
 - **AI-Based Automation** — _Advanced_
 - **Hallucination Risk Management** — _Advanced_
-- **JavaScript** — _Advanced_
 - **ReactJS** — _Advanced_
-- **Python** — _Advanced / Intermediate_
-- **Machine Learning** — _Advanced / Intermediate_
+- **JavaScript** — _Intermediate / Advanced_
+- **Machine Learning** — _Intermediate / Advanced_
+- **Python** — _Intermediate_
 
 ---
 
-## AI Tools
+## AI & Dev Tools
 
+- **n8n** — _Advanced_
+- **Zapier** — _Advanced_
+- **Make.com** — _Advanced_
+- **Cursor** — _Advanced_
+- **Visual Studio Code** — _Advanced_
+- **Google Antigravity** — _Advanced_
 - **LangChain** — _Advanced_
 - **LangGraph** — _Advanced_
 - **CrewAI** — _Advanced_
-- **Vertex AI A2A** — _Advanced_
+
+---
+
+## Additional Skills
+
+RAG architectures, vector databases (Chroma, PGVector), MCP servers/tools & custom integrations, LLM evaluation suites, Docker/containers, CI/CD (GitHub Actions), systems integration (REST, Webhooks), and broad LLM engineering skills.
 
 ---
 

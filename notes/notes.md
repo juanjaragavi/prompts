@@ -47,26 +47,36 @@ locations. If two facts appear to conflict, prefer the values in this section.
 - **GitHub:** <https://github.com/juanjaragavi>
 - **Portfolio:** <https://juanjaramilloai.vercel.app>
 
-### Target roles (search keywords)
+### Target role (exclusive)
 
-Primary targets — use individually or OR'd together as LinkedIn Jobs keywords:
+**Forward Deployed Engineer (FDE) — this is the only role family to search for and apply to.**
+Always type this into the LinkedIn Jobs search box first. No other role family is in scope.
 
-- Artificial Intelligence Engineer / AI Engineer / AI Developer
-- Prompt Engineer
-- Machine Learning Engineer
-- Generative AI Engineer / LLM Engineer
-- AI Solutions Architect / AI Solutions Lead
-- AI Strategy Consultant / Artificial Intelligence Consultant
-- Vibe Coder / AI-Native IDE Engineer / AI-Native Full-Stack Engineer
+Accepted title variants (all denote the same FDE role — use these as LinkedIn Jobs keywords):
 
-**Conditional target:** CMS + React/Next.js roles (e.g. "Next.js Developer", "Headless CMS
-Engineer") qualify **only** when AI-assisted development or headless modernization is central
-to the role. Screen out generic front-end/back-end/full-stack postings otherwise.
+- Forward Deployed Engineer
+- Forward Deployed Engineer (FDE)
+- Forward Deployed AI Engineer
+- Forward Deployed Software Engineer
+- Forward Deployed Solutions Engineer
+- Senior / Lead / Staff Forward Deployed Engineer
+
+**LinkedIn Jobs search string:**
+
+```text
+"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer"
+```
+
+A posting qualifies only when the title (or the description's core responsibility) is
+client-embedded production engineering: writing production code inside customer environments,
+building custom APIs/ETL/RAG/agent integrations, and driving last-mile deployment. If the
+posting is a generic AI Engineer, Prompt Engineer, ML Engineer, Vibe Coder, front-end,
+full-stack, solutions-architect (pre-sales), or technical-account-manager role, **skip it**.
 
 ### Seniority
 
-Senior / lead level (AI Development Lead, AI Engineering Lead, Senior GenAI/ML Engineer,
-AI Solutions Architect, Senior Full-Stack AI Developer, Forward Deployed AI Engineer).
+Senior / lead / staff level FDE (Forward Deployed Engineer, Senior Forward Deployed Engineer,
+Lead Forward Deployed Engineer, Forward Deployed AI Engineer).
 
 ### Locations & work mode
 
@@ -174,9 +184,9 @@ or messages to reduce rate-limiting and automation flags.
 
 ### 4.1 Search
 
-1. Confirm the run's scope with Juan if not already given: target titles (default = primary
-   targets), locations, work mode, and how many applications to submit (default cap = 10
-   successful applications, or fewer if good matches run out).
+1. Confirm the run's scope with Juan if not already given: locations, work mode, and how many
+   applications to submit (default cap = 10 successful applications, or fewer if good matches
+   run out). The target title is always Forward Deployed Engineer (FDE) — search it first.
 2. Build one LinkedIn Jobs search per location (LinkedIn accepts a single location per search),
    or run a keywords-only search with the remote filter for remote-anywhere roles.
 3. Apply filters where possible: employment type (Full-time / Contract / Temporary), work mode
@@ -187,23 +197,25 @@ or messages to reduce rate-limiting and automation flags.
 
 Treat a posting as a **strong match** only when it satisfies ALL of:
 
-1. Title/responsibilities align with a target role (or the conditional AI-centric CMS/Next.js
-   exception).
+1. The title is a Forward Deployed Engineer variant, **or** the description's core responsibility
+   is client-embedded production engineering (production code in customer environments, custom
+   APIs/ETL/RAG/agent integrations, last-mile deployment).
 2. Location is Remote (open to Colombia-based candidates) **or** on-site in one of the four
    eligible cities.
 3. Compensation is at or above $3,500/month (or unspecified/negotiable).
 4. Does **not** require U.S./U.K./EU work authorization as a hard condition (remote/contractor
    arrangements with companies based there are fine).
 
-**Skip / flag** postings that: require on-site presence outside the four cities; hard-require
-U.S./U.K./EU citizenship, green card, or sponsorship with no remote option; are pure
-WordPress/CMS/front-end roles with no AI angle (outside the conditional exception); are
-primarily **data analysis / data science / data engineering / analytics / BI / reporting /
-dashboarding** roles; or pay clearly below the target band with no stated flexibility.
+**Skip / flag** postings that: are not Forward Deployed Engineer roles (generic AI Engineer,
+Prompt Engineer, ML Engineer, Vibe Coder, front-end, back-end, full-stack, CMS/Next.js,
+pre-sales Solutions Engineer, or Technical Account Manager); require on-site presence outside
+the four cities; hard-require U.S./U.K./EU citizenship, green card, or sponsorship with no
+remote option; or pay clearly below the target band with no stated flexibility.
 
-Do **not** exclude a genuine AI/ML role merely because it mentions datasets, pipelines,
-evaluation, experimentation, or model training — exclude only when data work is the _primary_
-function.
+Do **not** exclude a genuine Forward Deployed Engineering role merely because it mentions
+datasets, pipelines, evaluation, experimentation, or model training — those are part of
+client-embedded delivery. Skip only when the role's _primary_ function is something other than
+forward-deployed, client-embedded production engineering.
 
 **Low-confidence matches:** If a posting is ambiguous or only partially matches, do **not**
 auto-apply. Flag it with a short confidence note and let Juan decide.

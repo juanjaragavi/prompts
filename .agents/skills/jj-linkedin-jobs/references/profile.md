@@ -108,10 +108,12 @@ Digital project director, digital marketing specialist, web designer, WordPress 
 ## Publicly stated job search intent (from profile "Open to work" & posts)
 
 The profile itself is set to #OpenToWork and states: "Looking for Remote or On-site roles in
-Bogota, D.C., Medellín, Mexico City, Mexico and Buenos Aires Province, Argentina" and
-"Looking for Artificial Intelligence Engineer, Prompt Engineer, AI Strategy Consultant and
-Artificial Intelligence Consultant roles" — consistent with the preferences captured in
-`SKILL.md`.
+Bogota, D.C., Medellín, Mexico City, Mexico and Buenos Aires Province, Argentina."
+
+**Current target (overrides any legacy role list still shown on the profile):** Forward Deployed
+Engineer (FDE) only — see `fde-role-definition.md`. The LinkedIn "Open to work" role list should
+be updated to Forward Deployed Engineer / Forward Deployed AI Engineer / Forward Deployed
+Software Engineer.
 
 ## Other public contact point
 

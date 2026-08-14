@@ -1,6 +1,6 @@
 ---
 name: jj-linkedin-jobs
-description: Provides Juan Miguel Jaramillo Gaviria's complete job-search profile — confirmed contact facts, target job titles, preferred locations and work modes, compensation range, work authorization, experience history, and skill set — for searching, screening, and applying to opportunities on LinkedIn Jobs. Use this skill any time a task involves searching LinkedIn Jobs, building a LinkedIn job search URL, filtering or scoring job postings for fit, answering LinkedIn Easy Apply screening questions (years of experience, salary expectations, work authorization, sponsorship, relocation, notice period), drafting a cover letter or InMail for a job application, or filling out a LinkedIn job application — even if the request is phrased generically like "find me AI engineer jobs on LinkedIn" or "apply to this posting" without naming him, since this is his personal LinkedIn job-search assistant.
+description: Provides Juan Miguel Jaramillo Gaviria's complete job-search profile — confirmed contact facts, his single target role (Forward Deployed Engineer / FDE), preferred locations and work modes, compensation range, work authorization, experience history, and skill set — for searching, screening, and applying to opportunities on LinkedIn Jobs. Use this skill any time a task involves searching LinkedIn Jobs, building a LinkedIn job search URL, filtering or scoring job postings for fit, answering LinkedIn Easy Apply screening questions (years of experience, salary expectations, work authorization, sponsorship, relocation, notice period), drafting a cover letter or InMail for a job application, or filling out a LinkedIn job application — even if the request is phrased generically like "find me engineering jobs on LinkedIn" or "apply to this posting" without naming him, since this is his personal LinkedIn job-search assistant.
 ---
 
 # Juan Jaramillo — LinkedIn Job Search & Application
@@ -18,21 +18,38 @@ the user to repeat this information every time.
 - LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai/
 - GitHub: https://github.com/juanjaragavi
 
-## Target job titles / search keywords
+## Target job title / search keyword — Forward Deployed Engineer only
 
-Use these (individually or OR'd together) as LinkedIn Jobs search keywords:
+**Forward Deployed Engineer (FDE) is the sole target role.** Always type
+`Forward Deployed Engineer` into the LinkedIn Jobs search box first, before anything else.
+No other role family is in scope.
 
-- Artificial Intelligence Engineer / AI Engineer / AI Developer
-- Prompt Engineer
-- AI Strategy Consultant / Artificial Intelligence Consultant
-- Machine Learning Engineer
-- Generative AI Engineer / LLM Engineer
-- AI Solutions Architect / AI Solutions Lead
-- Vibe Coder / AI-Native IDE Engineer / AI-Native Full-Stack Engineer
+Accepted title variants (all denote the same FDE role — use individually or OR'd together):
 
-CMS + React/Next.js roles (e.g. "Next.js Developer", "Headless CMS Engineer") are **only**
-a fit when AI-assisted development or headless modernization is central to the role — screen
-these out otherwise, they are not a general target.
+- Forward Deployed Engineer
+- Forward Deployed Engineer (FDE)
+- Forward Deployed AI Engineer
+- Forward Deployed Software Engineer
+- Forward Deployed Solutions Engineer
+- Senior / Lead / Staff Forward Deployed Engineer
+
+Combined LinkedIn search string:
+
+```text
+"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer"
+```
+
+A posting also qualifies when the title differs but the description's core responsibility is
+client-embedded production engineering — writing production code inside customer environments,
+building custom APIs / enterprise ETL pipelines / RAG architectures / AI agent workflows, and
+driving last-mile deployment.
+
+**Out of scope — skip these:** generic AI Engineer, Prompt Engineer, Machine Learning Engineer,
+Generative AI Engineer, AI Strategy Consultant, Vibe Coder, front-end, back-end, full-stack,
+CMS/Next.js, pre-sales Solutions Engineer, and Technical Account Manager postings.
+
+For the full role definition, responsibilities, competency matrix, comparison against adjacent
+roles, and Juan's proof points for each, read `references/fde-role-definition.md`.
 
 ## Location & work mode
 
@@ -89,6 +106,9 @@ job posting instead of guessing at background details.
 For ready-to-use answers to common Easy Apply screening questions, read
 `references/screening-answers.md` before filling out an application.
 
+For the Forward Deployed Engineer role definition and how Juan's background maps to it, read
+`references/fde-role-definition.md`.
+
 ## Building a LinkedIn Jobs search
 
 Run `scripts/build_search_url.py` to generate a search URL instead of manually reasoning
@@ -96,7 +116,7 @@ through LinkedIn's filter query params (they use short non-obvious codes). Examp
 
 ```bash
 python3 scripts/build_search_url.py \
-  --titles "Prompt Engineer" "AI Engineer" "Machine Learning Engineer" \
+  --titles "Forward Deployed Engineer" "Forward Deployed AI Engineer" "Forward Deployed Software Engineer" \
   --locations "Bogota, D.C., Capital District, Colombia" "Remote" \
   --work-mode remote onsite \
   --employment-type F C T
@@ -112,8 +132,9 @@ call) to actually view results.
 
 Treat a posting as a strong match when it satisfies ALL of:
 
-1. Title/responsibilities align with the target roles above (or is an AI-centric CMS/Next.js
-   role).
+1. The title is a Forward Deployed Engineer variant, OR the description's core responsibility is
+   client-embedded production engineering (production code in customer environments, custom
+   APIs/ETL/RAG/agent integrations, last-mile deployment).
 2. Location is Remote (open to Colombia-based candidates) OR on-site/hybrid in one of the four
    listed cities.
 3. Compensation is at or above $3,500/month (or unspecified/negotiable).
@@ -122,11 +143,11 @@ Treat a posting as a strong match when it satisfies ALL of:
 
 Flag/skip postings that:
 
+- Are not FDE roles — generic AI Engineer, Prompt Engineer, ML Engineer, Vibe Coder, front-end,
+  back-end, full-stack, CMS/Next.js, pre-sales Solutions Engineer, or Technical Account Manager.
 - Require on-site presence outside the four listed cities.
 - Explicitly require U.S./U.K./EU citizenship, green card, or visa sponsorship with no remote
   option.
-- Are pure WordPress/CMS/front-end roles with no AI angle (outside the conditional CMS+AI
-  exception above).
 - Pay meaningfully below the target compensation band with no stated flexibility.
 
 ## Applying (Easy Apply / forms)

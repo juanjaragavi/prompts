@@ -73,12 +73,12 @@ Your primary competitive differentiator lies in pairing deep generative AI engin
 ## Cover Letter
 
 **Juan Miguel Jaramillo Gaviria**
-AI Development Lead | Full-Stack Architect | Generative AI Specialist
+Forward Deployed Engineer | AI/LLM & Full-Stack Architect | Client-Embedded Production Delivery
 [juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app) | [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/juan-jaramillo-ai) | [GitHub](https://github.com/juanjaragavi)
 
 Dear Hiring Team,
 
-I am writing to express my strong interest in joining your team as an AI Engineering leader. Bringing over 17 years of technical execution and entrepreneurial leadership, I specialize in navigating the space between abstract generative AI concepts and scalable, production-grade architectures. I offer your organization a rare combination of strategic vision and full-stack engineering depth.
+I am writing to express my strong interest in joining your team as a Forward Deployed Engineer. Bringing over 17 years of technical execution and entrepreneurial leadership, I specialize in last-mile delivery — embedding with clients to write production code against live traffic and partner integrations, building custom APIs, ETL pipelines, RAG architectures, and agent workflows. I offer your organization a rare combination of strategic vision and full-stack engineering depth.
 
 My career has been defined by an early adoption of emerging technology paradigms. Well before generative AI reshaped the global tech landscape, I founded and scaled multiple successful digital and technology ventures—including LaQuintaP, FreshWorks Digital Agency across Europe and LATAM, and TRADEBOG, an industry-leading dropshipping platform in Colombia. This deep entrepreneurial foundation ensures that every AI system I architect is engineered to solve a concrete business problem and drive measurable bottom-line value.
 
@@ -107,7 +107,7 @@ Warm regards,
 
 ## Juan Miguel Jaramillo Gaviria
 
-### **AI Development Lead | Full-Stack Architect | Tech Entrepreneur**
+### **Forward Deployed Engineer | AI/LLM & Full-Stack Architect | Client-Embedded Production Delivery**
 
 Bogotá, Colombia | [juanamillo@proton.me](https://www.google.com/search?q=mailto%3Ainfo%40juanjaramilloai.vercel.app) | +57 305 420 6139 | [juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)
 
@@ -199,20 +199,32 @@ You are an advanced Web-Browsing Execution Agent tasked with automating targeted
 
 ## Target Role Criteria
 
-Only consider positions matching the following explicit job titles:
+**Forward Deployed Engineer (FDE) is the only target role.** Always search it first on LinkedIn
+Jobs. Only consider positions matching the following explicit job titles (all denote the same
+FDE role):
 
-- Artificial Intelligence Engineer / AI Engineer
-- AI Developer / Generative AI Developer
-- Prompt Engineer
-- Machine Learning Engineer
+- Forward Deployed Engineer
+- Forward Deployed Engineer (FDE)
+- Forward Deployed AI Engineer
+- Forward Deployed Software Engineer
+- Forward Deployed Solutions Engineer
+- Senior / Lead / Staff Forward Deployed Engineer
+
+A posting also qualifies when the title differs but the description's core responsibility is
+client-embedded production engineering — writing production code inside customer environments,
+building custom APIs / enterprise ETL pipelines / RAG architectures / AI agent workflows, and
+driving last-mile deployment.
 
 ## Strict Role Exclusions
 
-Immediately skip and exclude any roles primarily focused on:
+Immediately skip and exclude any role that is **not** a Forward Deployed Engineer role,
+including:
 
-- Data Analysis / Business Intelligence
-- Data Engineering / Data Pipelines (unless tied directly to an AI/ML modeling role)
-- Generic Full-Stack, Front-End, or Back-End engineering (unless the posting explicitly designates Generative AI or LLM implementation as the primary core responsibility).
+- Generic AI Engineer, Prompt Engineer, Machine Learning Engineer, or Generative AI Engineer
+- AI Strategy Consultant / Vibe Coder / AI IDE Engineer
+- Generic Full-Stack, Front-End, Back-End, or CMS/Next.js engineering
+- Pre-sales Solutions Engineer or Technical Account Manager
+- Data Analysis / Business Intelligence / Data Engineering / analytics / BI / reporting roles
 
 ## Target Filters and Parameters
 
