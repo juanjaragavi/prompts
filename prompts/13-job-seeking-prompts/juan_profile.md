@@ -28,7 +28,7 @@
     - **TrafficGenius:** Invalid traffic detection and security analytics utilizing BigQuery + Cloud Armor.
     - **RouteGenius:** Probabilistic traffic distribution utilizing Supabase.
     - **Social Media Genius:** Social content generation with an AI canvas editor.
-  - Stack: Next.js 15-16 (App Router), TypeScript, React 19, Astro 5, Tailwind CSS v4, Vertex AI (Gemini 2.5 Flash), PostgreSQL, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS), PM2, Docker, Vercel.
+  - Stack: Next.js 16 (App Router), TypeScript, React 19.2, Astro 6, Tailwind CSS v4, Vertex AI (Gemini 3), PostgreSQL, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS), PM2, Docker, Vercel.
   - Core Focus Areas: Prompt Engineering Techniques & Best Practices, Hallucination Risk Management, GenAI and Prompt Versioning Techniques using Git Flow.
 
 ### Prompt Engineer and AI Consultant
@@ -108,9 +108,9 @@
 
 ### Frameworks & Libraries
 
-- Next.js 15/16 (App Router)
-- React 19 / ReactJS (Advanced)
-- Astro 5
+- Next.js 16 (App Router)
+- React 19.2 / ReactJS (Advanced)
+- Astro 6
 - Tailwind CSS v4
 - WordPress
 - PM2

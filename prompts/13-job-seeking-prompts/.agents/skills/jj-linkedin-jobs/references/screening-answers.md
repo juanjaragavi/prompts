@@ -14,7 +14,7 @@ facts in `../SKILL.md`.
 - LLM / NLP: **~4 years**
 - Prompt engineering: **~4 years**
 - JavaScript/TypeScript, React, Next.js: cite the current role's stack detail in
-  `profile.md` (Next.js 15–16 App Router, React 19) if a per-framework number is required;
+  `profile.md` (Next.js 16 App Router, React 19.2) if a per-framework number is required;
   otherwise answer "several years, currently in active production use."
 
 ## Work authorization
@@ -67,8 +67,8 @@ only role being targeted.
 > Forward Deployed Engineer profile: custom APIs, enterprise ETL pipelines, RAG and agent
 > workflows, and driving rollouts end to end.
 >
-> My production stack covers Python, TypeScript/JavaScript, Next.js 15–16 (App Router), React 19,
-> Astro 5, Vertex AI (Gemini 2.5 Flash), LangChain/LangGraph/CrewAI, PostgreSQL, BigQuery, and
+> My production stack covers Python, TypeScript/JavaScript, Next.js 16 (App Router), React 19.2,
+> Astro 6, Vertex AI (Gemini 3), LangChain/LangGraph/CrewAI, PostgreSQL, BigQuery, and
 > GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS) with Docker and PM2. And after 17 years
 > of consulting and agency leadership, I'm comfortable articulating architectural trade-offs
 > directly to client CTOs and engineering leads, and pair-programming with their teams through

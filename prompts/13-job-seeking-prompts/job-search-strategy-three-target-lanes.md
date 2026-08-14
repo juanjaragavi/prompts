@@ -35,7 +35,7 @@ Juan's differentiator is combining two rarely-paired skill sets: deep GenAI/LLM 
 **CMS + React/Next.js development (target: $80k–$158k, freelance or hybrid)**
 
 - Position the WordPress background (FreshWorks, La Quinta P Digital Agency) as legacy-modernization expertise — migrating WordPress sites to headless CMS + Next.js/Astro architectures is a high-value niche combining old and new stacks.
-- Highlight Next.js 15–16, Astro 5, React 19, and Tailwind v4 work from TopNetworks as direct proof of modern front-end fluency layered on CMS fundamentals.
+- Highlight Next.js 16, Astro 6, React 19.2, and Tailwind v4 work from TopNetworks as direct proof of modern front-end fluency layered on CMS fundamentals.
 - Target agencies and SMB SaaS companies needing both marketing-site CMS work and app-level React development — this is where the 336 React+WordPress listings concentrate.[4]
 
 ## 30-Day Execution Plan

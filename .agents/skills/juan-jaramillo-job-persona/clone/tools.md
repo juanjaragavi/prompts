@@ -98,7 +98,7 @@ These tools support both product delivery and AI-native application development.
 Juan’s AI-related tooling context includes:
 
 - Vertex AI
-- Gemini 2.5/3 model families
+- Gemini 3 model families
 - GPT-5.x model families
 - Claude 4/5 model families
 - Llama 4 ecosystem

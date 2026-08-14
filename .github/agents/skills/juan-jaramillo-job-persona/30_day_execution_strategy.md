@@ -16,9 +16,9 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 
 ### **Core Positioning Anchors:**
 
-- **Enterprise AI Experience:** Deployed real-world, high-concurrency SaaS platforms at TopNetworks Inc., including _EmailGenius_ (Vertex AI, PostgreSQL), _TrafficGenius_ (BigQuery, Cloud Armor), _RouteGenius_ (Supabase, multi-agent n8n workflow), and _Social Media Genius_ (Next.js 15/16, React 19, Astro 5, Gemini 2.5 Flash on GCP).
+- **Enterprise AI Experience:** Deployed real-world, high-concurrency SaaS platforms at TopNetworks Inc., including _EmailGenius_ (Vertex AI, PostgreSQL), _TrafficGenius_ (BigQuery, Cloud Armor), _RouteGenius_ (Supabase, multi-agent n8n workflow), and _Social Media Genius_ (Next.js 16, React 19.2, Astro 6, Gemini 3 on GCP).
 - **Quantifiable Impact:** Proven track record of boosting client operational productivity by up to 46% while reducing infrastructure and operational overhead by up to 66%.
-- **Cutting-Edge Stack Mastery:** Deep fluency in Next.js 15/16, React 19, Astro 5, Tailwind CSS v4, TypeScript, Python, and SQL, paired with agentic frameworks like LangChain, LangGraph, and CrewAI.
+- **Cutting-Edge Stack Mastery:** Deep fluency in Next.js 16, React 19.2, Astro 6, Tailwind CSS v4, TypeScript, Python, and SQL, paired with agentic frameworks like LangChain, LangGraph, and CrewAI.
 
 ---
 
@@ -47,7 +47,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 - **Key Skills & Tech Keywords:**
   - LLM Fine-Tuning (PEFT, RLHF, LoRA)
   - Agentic Frameworks (LangChain, LangGraph, CrewAI, n8n)
-  - Vertex AI, Gemini 2.5 Flash, OpenAI APIs
+  - Vertex AI, Gemini 3, OpenAI APIs
   - Supabase, pgvector, PostgreSQL, BigQuery, Cloud Armor
 - **Specific Deliverables:**
   - Publish a detailed, metric-driven technical case study on RouteGenius on personal portfolio, demonstrating complex multi-agent orchestration and dynamic traffic routing via real-time webhooks.
@@ -70,7 +70,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
   - Very (Senior Software Engineer Python - Contractor)
 - **Key Skills & Tech Keywords:**
   - AI-Native Workflows (Cursor, Windsurf, Copilot, custom .cursorrules)
-  - Next.js 15/16, React 19, Astro 5, TypeScript, Tailwind CSS v4, Docker, PM2
+  - Next.js 16, React 19.2, Astro 6, TypeScript, Tailwind CSS v4, Docker, PM2
   - Spec-First AI Building, rapid prototyping, prompt versioning (Git Flow)
 - **Specific Deliverables:**
   - Record a high-impact, 3-minute video showcase (Loom) presenting the TopNetworks SaaS ecosystem as a production-grade, vibe-coded build with extreme reliability.
@@ -94,7 +94,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
   - Mid-market B2B SaaS companies and digital agencies in LATAM/US
 - **Key Skills & Tech Keywords:**
   - Decoupled WordPress, headless CMS architectures, WPGraphQL, REST API
-  - React 19, Next.js 15/16, Astro 5, Tailwind CSS v4, Tailwind v4
+  - React 19.2, Next.js 16, Astro 6, Tailwind CSS v4, Tailwind v4
   - Core Web Vitals, Server-Side Rendering (SSR), Static Site Generation (SSG)
 - **Specific Deliverables:**
   - Position 15+ years of WordPress expertise as modern "legacy-to-modern headless migrations" to capture agency demand.
@@ -117,7 +117,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 - **Goal:** Finalize three distinct resume variants matching the career tracks and prepare matching portfolio modules.
 - **Daily Action Plan:**
   - **Days 6-7:** Craft **Resume Variant A (AI/LLM Engineering)** focusing on Vertex AI, LangGraph, CrewAI, fine-tuning, and prompt engineering.
-  - **Days 8-9:** Craft **Resume Variant B (Vibe Coding / AI-Native Product)** focusing on rapid prototyping, Next.js 15/16, React 19, Astro 5, and the TopNetworks SaaS stack.
+  - **Days 8-9:** Craft **Resume Variant B (Vibe Coding / AI-Native Product)** focusing on rapid prototyping, Next.js 16, React 19.2, Astro 6, and the TopNetworks SaaS stack.
   - **Day 10:** Craft **Resume Variant C (CMS & React Decoupled Architecture)** focusing on headless WordPress, Next.js migrations, and full-stack performance optimization.
   - **Days 11-12:** Deploy specific routes or layout toggles on the personal portfolio optimized for each target resume.
 - **Milestone / KPI:** Three ATS-optimized, high-impact resume variants saved as PDFs and linked on specific portfolio segments.

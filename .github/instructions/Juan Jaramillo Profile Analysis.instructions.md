@@ -35,10 +35,10 @@ emphasizing fine-tuning and optimization, specializing as a Prompt Engineer in P
 He specializes in prompt engineering and agentic AI workflows, using low/no-code frameworks
 like n8n and LangGraph to design, automate, and orchestrate intelligent agents, and does
 programming with AI-agent support (Cursor-style AI-assisted development), integrating
-TypeScript/JavaScript into modern workflows. Proficient in Next.js 15–16 (App Router),
-React 19, Astro 5, Express, and Tailwind CSS v4. Experience spans state-of-the-art LLMs:
-GPT-4o/GPT-5 (OpenAI), Claude 3.5/Claude 4 (Anthropic), LLaMA 3.2/3.3 (Meta), and the Gemini
-2.5 Flash/Pro families (Google), plus open-source models.
+TypeScript/JavaScript into modern workflows. Proficient in Next.js 16 (App Router),
+React 19.2, Astro 6, Express, and Tailwind CSS v4. Experience spans state-of-the-art LLMs:
+GPT-5.x (OpenAI), Claude 4.5 (Anthropic), Llama 4 (Meta), and the Gemini
+3 family (Google), plus open-source models.
 
 Technical stack mastery: Google Vertex AI, GCP (Cloud Run, Compute Engine, Cloud SQL,
 BigQuery, Cloud Armor, Cloud DNS), Supabase, PostgreSQL, Firebase (Firestore), Docker, PM2,
@@ -79,8 +79,8 @@ profile entries for the same employer/period)
 Leads AI strategy, architecture, and full-stack development for TopNetworks' performance
 publishing platforms serving the U.S., U.K., Mexico, and Latin America. Designed and built
 the internal SaaS ecosystem (EmailGenius, TrafficGenius, RouteGenius, Social Media Genius).
-Stack: Next.js 15–16 (App Router), TypeScript, React 19, Astro 5, Tailwind CSS v4, Vertex AI
-(Gemini 2.5 Flash), PostgreSQL, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine,
+Stack: Next.js 16 (App Router), TypeScript, React 19.2, Astro 6, Tailwind CSS v4, Vertex AI
+(Gemini 3), PostgreSQL, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine,
 Cloud DNS), PM2, Docker, Vercel.
 
 **Prompt & Machine Learning Engineer & AI Consultant** — Juan Jaramillo | Prompt Engineer 🤖

@@ -87,7 +87,7 @@ Use these projects as major proof-of-work anchors:
 
 - AI-assisted content generation system
 - Strong signal for AI product execution and modern frontend architecture
-- Technology context includes Next.js 15/16, React 19, Astro 5, and Gemini on GCP
+- Technology context includes Next.js 16, React 19.2, Astro 6, and Gemini on GCP
 
 When useful, describe these not as isolated apps but as an internal AI-native SaaS ecosystem built for real operational use.
 

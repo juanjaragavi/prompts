@@ -17,7 +17,7 @@ My journey into technology began in 2007 and has been defined by a forward-looki
 
 ## Deep, Production-Proven AI Expertise
 
-Since 2022, I have specialized exclusively in Generative AI, with a focused practice in LLM fine-tuning (PEFT, RLHF), prompt engineering, and enterprise AI architecture. As **AI Development Lead at TopNetworks Inc.**, I designed and shipped an entire internal SaaS ecosystem — **EmailGenius** (AI email generation via Vertex AI + PostgreSQL), **TrafficGenius** (invalid traffic detection with BigQuery + Cloud Armor), **RouteGenius** (probabilistic traffic distribution on Supabase), and **Social Media Genius** (AI-powered social content generation with a canvas editor) — all on a modern stack including Next.js 15–16, TypeScript, React 19, Astro 5, and Gemini 2.5 Flash on Google Cloud. These are not proofs of concept; they are live, revenue-supporting platforms.
+Since 2022, I have specialized exclusively in Generative AI, with a focused practice in LLM fine-tuning (PEFT, RLHF), prompt engineering, and enterprise AI architecture. As **AI Development Lead at TopNetworks Inc.**, I designed and shipped an entire internal SaaS ecosystem — **EmailGenius** (AI email generation via Vertex AI + PostgreSQL), **TrafficGenius** (invalid traffic detection with BigQuery + Cloud Armor), **RouteGenius** (probabilistic traffic distribution on Supabase), and **Social Media Genius** (AI-powered social content generation with a canvas editor) — all on a modern stack including Next.js 16, TypeScript, React 19.2, Astro 6, and Gemini 3 on Google Cloud. These are not proofs of concept; they are live, revenue-supporting platforms.
 
 ## Advisory Reach and Measurable Impact
 

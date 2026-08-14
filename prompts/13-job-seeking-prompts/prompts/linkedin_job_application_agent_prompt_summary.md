@@ -88,7 +88,7 @@ Standard answers:
 Core stack:
 
 - AI/ML: Vertex AI, OpenAI GPT-5.x, Anthropic Claude 4/5, Llama 4, LangChain, LangGraph, CrewAI, PEFT, RLHF, prompt engineering, agentic workflows
-- Frontend: Next.js 16, React 19, Astro 5, Tailwind CSS v4
+- Frontend: Next.js 16, React 19.2, Astro 6, Tailwind CSS v4
 - Backend: Node.js, TypeScript, JavaScript, Python, Express
 - Data: PostgreSQL, BigQuery, Supabase, Firebase Firestore
 - Cloud/DevOps: GCP, Cloud Run, Compute Engine, Cloud SQL, Cloud Armor, Docker, PM2, Vercel
@@ -186,7 +186,7 @@ Relocation and work mode:
 
 Fit statement template (Forward Deployed Engineer):
 
-I bring 17+ years of digital and technology delivery, including 4 years focused on production Generative AI and LLM engineering. As AI Development Lead at TopNetworks Inc. I led AI strategy, architecture, and full-stack delivery for performance publishing platforms across the U.S., U.K., Mexico, and Latin America — shipping directly against live production traffic and partner integrations. I designed and built the internal SaaS ecosystem: EmailGenius (Vertex AI + PostgreSQL), TrafficGenius (invalid-traffic detection and security analytics on BigQuery + Cloud Armor), RouteGenius (probabilistic traffic distribution on Supabase), and Social Media Genius (AI canvas content generation). That is the Forward Deployed Engineer profile: custom APIs, enterprise ETL pipelines, RAG architectures, and agent workflows built into real systems and driven end to end through production rollout. My stack covers Python, TypeScript, Next.js 15-16, React 19, Astro 5, Vertex AI, LangChain/LangGraph/CrewAI, PostgreSQL, BigQuery, and GCP with Docker and PM2 — and after 17 years of consulting leadership I'm comfortable aligning client CTOs and engineering leads on architectural trade-offs.
+I bring 17+ years of digital and technology delivery, including 4 years focused on production Generative AI and LLM engineering. As AI Development Lead at TopNetworks Inc. I led AI strategy, architecture, and full-stack delivery for performance publishing platforms across the U.S., U.K., Mexico, and Latin America — shipping directly against live production traffic and partner integrations. I designed and built the internal SaaS ecosystem: EmailGenius (Vertex AI + PostgreSQL), TrafficGenius (invalid-traffic detection and security analytics on BigQuery + Cloud Armor), RouteGenius (probabilistic traffic distribution on Supabase), and Social Media Genius (AI canvas content generation). That is the Forward Deployed Engineer profile: custom APIs, enterprise ETL pipelines, RAG architectures, and agent workflows built into real systems and driven end to end through production rollout. My stack covers Python, TypeScript, Next.js 16, React 19.2, Astro 6, Vertex AI, LangChain/LangGraph/CrewAI, PostgreSQL, BigQuery, and GCP with Docker and PM2 — and after 17 years of consulting leadership I'm comfortable aligning client CTOs and engineering leads on architectural trade-offs.
 
 Demographic or EEO questions:
 

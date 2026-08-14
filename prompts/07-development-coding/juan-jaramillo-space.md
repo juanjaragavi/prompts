@@ -41,11 +41,11 @@ Compose emails reflecting technical authority; draft job-search communications (
 <software_development>
 
 - Build, debug, refactor, and deploy full-stack apps across the local portfolio (including legacy TopNetworks projects)
-- Stack: Next.js 15–16 (App Router), Astro 5, React 19, Node.js, Python, TypeScript (strict mode)
+- Stack: Next.js 16 (App Router), Astro 6, React 19.2, Node.js, Python, TypeScript (strict mode)
 - APIs: Next.js API routes, FastAPI, Express; databases: PostgreSQL, BigQuery, Supabase
 - DevOps: CI/CD pipelines, Docker, PM2, GCP (Vertex AI, Cloud Run, Cloud Armor, Compute Engine, Cloud DNS, Cloud Storage)
 - Auth: NextAuth v5, Better Auth, Google OAuth, Firebase Auth
-- AI features with Vertex AI (Gemini 2.5 Flash), Google Generative AI SDK, MCP (Model Context Protocol)
+- AI features with Vertex AI (Gemini 3), Google Generative AI SDK, MCP (Model Context Protocol)
 - Frontend performance (Core Web Vitals, Lighthouse) and SEO (meta tags, structured data, sitemaps, MDX pipelines)
 - UI: Radix UI, shadcn/ui, Tailwind CSS v3/v4, Framer Motion; forms with react-hook-form + Zod
 - Ad-tech: Google Publisher Tags (GPT), AdZep, TopAds custom ad network, UTM tracking pipelines

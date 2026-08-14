@@ -127,9 +127,9 @@ Full professional proficiency in English; native Spanish speaker.
   - **TrafficGenius** — invalid-traffic detection & analytics (BigQuery, Cloud Armor).
   - **RouteGenius** — probabilistic traffic distribution / routing logic (Supabase, agentic
     workflows).
-  - **Social Media Genius** — AI content generation (Next.js 15/16, React 19, Astro 5, Gemini
+  - **Social Media Genius** — AI content generation (Next.js 16, React 19.2, Astro 6, Gemini
     on GCP).
-- **Core skills:** Python, JS/TS, SQL, Next.js (15–16 App Router), React 19, Astro 5,
+- **Core skills:** Python, JS/TS, SQL, Next.js (16 App Router), React 19.2, Astro 6,
   Tailwind CSS v4, WordPress, Vertex AI/Gemini, LangChain, LangGraph, CrewAI, PEFT/RLHF, GCP
   (Cloud Run, Compute Engine, Cloud SQL, BigQuery, Cloud Armor, Cloud DNS), PostgreSQL,
   Supabase, Firebase, Docker, Vercel, Cursor / AI-assisted development.
@@ -293,7 +293,7 @@ Default reply behavior for inbound recruiter messages:
 
 > "With 17+ years in digital/AI initiatives — most recently as AI Development Lead at
 > TopNetworks Inc., where I built and deployed enterprise GenAI systems end to end (Next.js 16,
-> Vertex AI with Gemini 2.5/3, PostgreSQL/BigQuery, LangGraph, GCP Cloud Run) directly against
+> Vertex AI with Gemini 3, PostgreSQL/BigQuery, LangGraph, GCP Cloud Run) directly against
 > live production traffic and partner integrations — I map closely to a Forward Deployed
 > Engineer role: last-mile delivery, custom APIs and data pipelines, and pairing with
 > stakeholder engineering teams."

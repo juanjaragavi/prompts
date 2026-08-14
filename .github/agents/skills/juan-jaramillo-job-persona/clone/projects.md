@@ -38,10 +38,10 @@ Signals:
 
 Technology context:
 
-- Vertex AI (Gemini 2.5 and Gemini 3 series)
+- Vertex AI (Gemini 3 series)
 - PostgreSQL
 - LangChain (prompt chaining and structured output)
-- Next.js 16 (App Router), React 19
+- Next.js 16 (App Router), React 19.2
 - Modern web architecture
 
 ### TrafficGenius
@@ -106,10 +106,10 @@ Signals:
 Technology context:
 
 - Next.js 16 (App Router)
-- React 19
-- Astro 5
+- React 19.2
+- Astro 6
 - Tailwind CSS v4
-- Gemini 2.5 Flash and Gemini 3 family on Google Cloud (Vertex AI)
+- Gemini 3 family on Google Cloud (Vertex AI)
 - Modern product engineering stack
 
 ## Strategic Interpretation of TopNetworks Work

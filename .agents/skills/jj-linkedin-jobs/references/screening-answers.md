@@ -14,7 +14,7 @@ facts in `../SKILL.md`.
 - LLM / NLP: **~4 years**
 - Prompt engineering: **~4 years**
 - JavaScript/TypeScript, React, Next.js: cite the current role's stack detail in
-  `profile.md` (Next.js 15–16 App Router, React 19) if a per-framework number is required;
+  `profile.md` (Next.js 16 App Router, React 19.2) if a per-framework number is required;
   otherwise answer "several years, currently in active production use."
 
 ## Work authorization

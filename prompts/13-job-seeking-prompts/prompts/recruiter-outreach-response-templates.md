@@ -16,7 +16,7 @@ SKILL.md.
 
 > With 17+ years in digital/AI initiatives -- most recently as AI
 > Development Lead at TopNetworks Inc., where I built enterprise
-> GenAI SaaS tools (Next.js 16, Vertex AI with Gemini 2.5/3, PostgreSQL, LangGraph) -- I believe
+> GenAI SaaS tools (Next.js 16, Vertex AI with Gemini 3, PostgreSQL, LangGraph) -- I believe
 > there's strong alignment with this role.
 
 ### Attachment line (first substantive reply only)
@@ -35,7 +35,7 @@ SKILL.md.
 > interested in learning more about the [Role] position. With 17+
 > years in digital/AI initiatives -- most recently as AI Development
 > Lead at TopNetworks Inc., where I built enterprise GenAI SaaS tools
-> (Next.js 16, Vertex AI with Gemini 2.5/3, PostgreSQL, LangGraph) -- I believe there's strong
+> (Next.js 16, Vertex AI with Gemini 3, PostgreSQL, LangGraph) -- I believe there's strong
 > alignment. I'm attaching my CV, cover letter, and services
 > portfolio for your review. Would you have 20 minutes this week for
 > a call? I'm based in Bogota (GMT-5). Best, Juan
@@ -69,7 +69,7 @@ SKILL.md.
 > Cuento con más de 17 años de experiencia en iniciativas
 > digitales y de IA -- recientemente como AI Development Lead en
 > TopNetworks Inc., donde diseñé herramientas SaaS de GenAI
-> empresarial (Next.js 16, Vertex AI con Gemini 2.5/3, PostgreSQL, LangGraph) -- por lo que creo que
+> empresarial (Next.js 16, Vertex AI con Gemini 3, PostgreSQL, LangGraph) -- por lo que creo que
 > hay una gran afinidad con esta posición.
 
 ### Linea de adjuntos (solo primera respuesta sustantiva)

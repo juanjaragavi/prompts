@@ -90,8 +90,8 @@ Ground every FDE application in these verified proof points from his CV:
   SaaS ecosystem — EmailGenius (Vertex AI + PostgreSQL), TrafficGenius (invalid-traffic detection
   and security analytics on BigQuery + Cloud Armor), RouteGenius (probabilistic traffic
   distribution on Supabase), and Social Media Genius (AI canvas content generation).
-- **Production fluency across the FDE stack:** Python, JavaScript/TypeScript, Next.js 15–16
-  (App Router), React 19, Astro 5, Tailwind CSS v4, Vertex AI (Gemini 2.5 Flash), PostgreSQL,
+- **Production fluency across the FDE stack:** Python, JavaScript/TypeScript, Next.js 16
+  (App Router), React 19.2, Astro 6, Tailwind CSS v4, Vertex AI (Gemini 3), PostgreSQL,
   Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS), PM2, Docker, Vercel.
 - **AI & data systems depth:** LangChain, LangGraph, CrewAI, Vertex AI A2A, prompt engineering,
   hallucination risk management, PEFT/RLHF, and GenAI/prompt versioning via Git Flow.

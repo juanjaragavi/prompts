@@ -54,7 +54,7 @@ Your primary competitive differentiator lies in pairing deep generative AI engin
 
 - Position your extensive WordPress background as modern legacy-modernization expertise, focusing on migrating monolithic architectures to decoupled, headless Next.js or Astro configurations.
 
-- Highlight your immediate fluency with Next.js 15/16, Astro 5, React 19, and Tailwind CSS v4.
+- Highlight your immediate fluency with Next.js 16, Astro 6, React 19.2, and Tailwind CSS v4.
 
 - Target mid-market agencies and B2B SaaS companies that require simultaneous management of complex marketing discovery layers and highly dynamic React application states.
 
@@ -89,7 +89,7 @@ Since 2022, I have focused exclusively on enterprise-grade generative AI develop
 - **RouteGenius:** Probabilistic web traffic distribution running on Supabase infrastructure.
 - **Social Media Genius:** An AI-native social content generator complete with an interactive canvas editor.
 
-These systems are not experimental prototypes; they are highly scalable, revenue-generating platforms built on Next.js 15/16, React 19, Astro 5, TypeScript, and the Gemini 2.5 Flash model deployed on Google Cloud Platform.
+These systems are not experimental prototypes; they are highly scalable, revenue-generating platforms built on Next.js 16, React 19.2, Astro 6, TypeScript, and the Gemini 3 model deployed on Google Cloud Platform.
 
 Beyond internal product execution, my technical advisory work for organizations like the Telefónica Movistar Foundation, Universidad Francisco Marroquín, and Wundermann Thompson Miami has delivered definitive operational impacts. My AI implementations have consistently driven up to a 46% increase in team productivity while securing up to a 66% reduction in monthly infrastructure and operational costs.
 
@@ -123,7 +123,7 @@ Enterprise AI Development Lead and Full-Stack Architect with over 17 years of le
 
 - **AI & Machine Learning:** Advanced Prompt Engineering, Generative AI & LLMs, Hallucination Risk Mitigation, Model Versioning (Git Flow), PEFT, RLHF.
 - **AI Frameworks & Ecosystems:** LangChain, LangGraph, CrewAI, Vertex AI Agent-to-Agent (A2A).
-- **Full-Stack Software Engineering:** JavaScript/TypeScript (Advanced), ReactJS/React 19, Next.js 15/16, Astro 5, Node.js, Python, SQL.
+- **Full-Stack Software Engineering:** JavaScript/TypeScript (Advanced), ReactJS/React 19.2, Next.js 16, Astro 6, Node.js, Python, SQL.
 - **Cloud Infrastructure & DevOps:** Google Cloud Platform (Cloud Run, Cloud Armor, BigQuery, Compute Engine), Supabase, PostgreSQL, Docker, Vercel, PM2.
 - **Languages:** Spanish (Native), English (Full Professional/Technical Proficiency).
 
@@ -143,7 +143,7 @@ Enterprise AI Development Lead and Full-Stack Architect with over 17 years of le
 - **TrafficGenius:** Real-time invalid traffic detection and security intelligence platform utilizing BigQuery and Cloud Armor.
 - **RouteGenius:** High-concurrency probabilistic traffic routing distribution engine built on Supabase.
 - **Social Media Genius:** AI-driven social content generation application featuring a custom interactive canvas editor.
-- Managed prompt versioning via Git Flow, structured hallucination risk frameworks, and deployed all services using Next.js 15/16, TypeScript, React 19, Astro 5, Tailwind v4, and Gemini 2.5 Flash on GCP.
+- Managed prompt versioning via Git Flow, structured hallucination risk frameworks, and deployed all services using Next.js 16, TypeScript, React 19.2, Astro 6, Tailwind v4, and Gemini 3 on GCP.
 
 #### Prompt Engineer & AI Consultant
 

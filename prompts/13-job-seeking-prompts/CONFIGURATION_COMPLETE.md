@@ -62,7 +62,7 @@ All Juan Jaramillo's professional data has been integrated into the automation s
 5. Agentic Systems and Multi-Agent Orchestration
 6. LLM Evaluation and Governance
 7. Full-Stack AI-Native Product Development
-8. Next.js, React 19, TypeScript
+8. Next.js, React 19.2, TypeScript
 9. Python for AI/ML
 10. Vertex AI, Gemini APIs
 11. LangChain, LangGraph, CrewAI
@@ -79,7 +79,7 @@ All Juan Jaramillo's professional data has been integrated into the automation s
 
 **Frontend:**
 
-- Next.js 15-16, React 19, TypeScript, Astro 5, Tailwind CSS v4, JavaScript, HTML/CSS, UI/UX Design
+- Next.js 16, React 19.2, TypeScript, Astro 6, Tailwind CSS v4, JavaScript, HTML/CSS, UI/UX Design
 
 **Backend:**
 
@@ -120,7 +120,7 @@ All Juan Jaramillo's professional data has been integrated into the automation s
 **Social Media Genius**
 
 - Purpose: AI-assisted social content generation
-- Stack: Next.js 15-16, React 19, Astro 5, Tailwind CSS v4, Gemini 2.5 Flash
+- Stack: Next.js 16, React 19.2, Astro 6, Tailwind CSS v4, Gemini 3
 - Value: Accelerated content creation and social media management
 
 ### 5. **Essay Templates** (4 Ready-to-Use)

@@ -165,7 +165,7 @@ A posting with a different title still qualifies **only** when its core responsi
 
 **AI/ML Stack:**
 
-- Vertex AI (Gemini 2.5 Flash/Pro and Gemini 3 family)
+- Vertex AI (Gemini 3 family)
 - OpenAI GPT-5.x model families
 - Anthropic Claude 4/5 model families
 - Meta Llama 4 ecosystem
@@ -175,7 +175,7 @@ A posting with a different title still qualifies **only** when its core responsi
 
 **Development Stack:**
 
-- **Frontend:** Next.js 16 (App Router), React 19, Astro 5, Tailwind CSS v4
+- **Frontend:** Next.js 16 (App Router), React 19.2, Astro 6, Tailwind CSS v4
 - **Backend:** TypeScript/JavaScript, Node.js, Express, Python
 - **Databases:** PostgreSQL, Google BigQuery, Supabase, Firebase Firestore
 - **Cloud/DevOps:** Google Cloud Platform (GCP), Cloud Run, Compute Engine, Cloud SQL, Cloud Armor, Docker, PM2, Vercel
@@ -424,7 +424,7 @@ and Social Media Genius (AI canvas content generation).
 That is the Forward Deployed Engineer profile: custom APIs, enterprise ETL pipelines,
 RAG architectures, and agent workflows built into real systems, then driven end to end
 through production rollout. My stack covers Python, TypeScript/JavaScript, Next.js
-15-16 (App Router), React 19, Astro 5, Vertex AI (Gemini 2.5 Flash),
+16 (App Router), React 19.2, Astro 6, Vertex AI (Gemini 3),
 LangChain/LangGraph/CrewAI, PostgreSQL, BigQuery, and GCP (Cloud Run, Cloud Armor,
 Compute Engine, Cloud DNS) with Docker and PM2.
 
