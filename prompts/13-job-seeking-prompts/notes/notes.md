@@ -5,7 +5,7 @@
 This is hidden temporarily while it is replaced
 by a pasted H1 heading.
 
-Please ignore this comment afterwards.
+Please ignore this comment on runtime.
 
 -->
 
