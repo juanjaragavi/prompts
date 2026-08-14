@@ -1,0 +1,259 @@
+{
+  "folders": [
+    {
+      "name": "JOB SEEKING | Juan Jaramillo AI",
+      "path": "13-job-seeking-prompts",
+    },
+  ],
+
+  "settings": {
+    "window.restoreWindows": "none",
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "workbench.commandPalette.history": 50,
+
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+    },
+
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/*.log": true,
+      "**/__pycache__": true,
+      "**/*.pyc": true,
+      "venv": true,
+    },
+    "files.watcherExclude": {
+      "**/venv/**": true,
+      "**/__pycache__/**": true,
+      "**/screenshots/**": true,
+    },
+    "search.exclude": {
+      "venv": true,
+      "**/__pycache__": true,
+      "**/*.pdf": true,
+    },
+
+    "git.autofetch": true,
+    "git.confirmSync": false,
+
+    // Playwright bots and the commit script assume this interpreter.
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python",
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[shellscript]": {
+      "editor.formatOnSave": false,
+    },
+
+    "chat.promptFilesLocations": {
+      "13-job-seeking-prompts/.github/prompts": true,
+    },
+    "chat.agentFilesLocations": {
+      "13-job-seeking-prompts/.github/agents": true,
+    },
+  },
+
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "ms-python.python",
+      "ms-python.debugpy",
+      "ms-playwright.playwright",
+      "redhat.vscode-yaml",
+      "timonwong.shellcheck",
+    ],
+    "unwantedRecommendations": [],
+  },
+
+  "tasks": {
+    "version": "2.0.0",
+    "options": {
+      "cwd": "${workspaceFolder}",
+    },
+    "tasks": [
+      {
+        "label": "Setup: create venv",
+        "type": "shell",
+        "command": "python3 -m venv venv",
+        "problemMatcher": [],
+      },
+      {
+        "label": "Setup: install requirements",
+        "type": "shell",
+        "command": "./venv/bin/pip install -r requirements.txt",
+        "dependsOn": "Setup: create venv",
+        "problemMatcher": [],
+      },
+      {
+        "label": "Setup: install Playwright browsers",
+        "type": "shell",
+        "command": "./venv/bin/playwright install chromium",
+        "dependsOn": "Setup: install requirements",
+        "problemMatcher": [],
+      },
+      {
+        "label": "Setup: full bootstrap",
+        "dependsOrder": "sequence",
+        "dependsOn": [
+          "Setup: create venv",
+          "Setup: install requirements",
+          "Setup: install Playwright browsers",
+        ],
+        "problemMatcher": [],
+      },
+
+      {
+        "label": "Format: prettier write",
+        "type": "shell",
+        // package.json lives at the monorepo root, two levels up.
+        "command": "npm run format",
+        "options": { "cwd": "${workspaceFolder}/../.." },
+        "group": { "kind": "build", "isDefault": true },
+        "problemMatcher": [],
+      },
+      {
+        "label": "Format: prettier check",
+        "type": "shell",
+        "command": "npm run format:check",
+        "options": { "cwd": "${workspaceFolder}/../.." },
+        "problemMatcher": [],
+      },
+
+      {
+        "label": "Git: commit and push (LLM message)",
+        "type": "shell",
+        "command": "sh scripts/commit_and_push.sh",
+        "presentation": { "reveal": "always", "panel": "dedicated" },
+        "problemMatcher": [],
+      },
+      {
+        "label": "Git: commit and push (detailed style)",
+        "type": "shell",
+        "command": "COMMIT_MSG_STYLE=detailed sh scripts/commit_and_push.sh",
+        "presentation": { "reveal": "always", "panel": "dedicated" },
+        "problemMatcher": [],
+      },
+      {
+        "label": "Git: clean leftover commit message files",
+        "type": "shell",
+        "command": "rm -f .llm_commit_message.txt .llm_commit_message.txt.template commit_message.txt && git status --short",
+        "problemMatcher": [],
+      },
+
+      {
+        "label": "Bot: job_application_bot",
+        "type": "shell",
+        "command": "./venv/bin/python job_application_bot.py",
+        "presentation": { "reveal": "always", "panel": "dedicated" },
+        "problemMatcher": [],
+      },
+      {
+        "label": "Bot: hardened_bot",
+        "type": "shell",
+        "command": "./venv/bin/python hardened_bot.py",
+        "presentation": { "reveal": "always", "panel": "dedicated" },
+        "problemMatcher": [],
+      },
+      {
+        "label": "Bot: apply_all_refactored",
+        "type": "shell",
+        "command": "./venv/bin/python apply_all_refactored.py",
+        "presentation": { "reveal": "always", "panel": "dedicated" },
+        "problemMatcher": [],
+      },
+      {
+        "label": "Bot: human_in_loop_lever_batch",
+        "type": "shell",
+        "command": "./venv/bin/python human_in_loop_lever_batch.py",
+        "presentation": { "reveal": "always", "panel": "dedicated" },
+        "problemMatcher": [],
+      },
+
+      {
+        "label": "Report: generate_report",
+        "type": "shell",
+        "command": "./venv/bin/python generate_report.py",
+        "problemMatcher": [],
+      },
+      {
+        "label": "Report: analytics_engine",
+        "type": "shell",
+        "command": "./venv/bin/python analytics_engine.py",
+        "problemMatcher": [],
+      },
+      {
+        "label": "Docs: generate_pdfs",
+        "type": "shell",
+        "command": "./venv/bin/python generate_pdfs.py",
+        "problemMatcher": [],
+      },
+      {
+        "label": "Jobs: filter_jobs",
+        "type": "shell",
+        "command": "./venv/bin/python filter_jobs.py",
+        "problemMatcher": [],
+      },
+    ],
+  },
+
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: current file",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder:JOB SEEKING | Juan Jaramillo AI}",
+        "justMyCode": false,
+      },
+      {
+        "name": "Debug: job_application_bot",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder:JOB SEEKING | Juan Jaramillo AI}/job_application_bot.py",
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder:JOB SEEKING | Juan Jaramillo AI}",
+        "justMyCode": false,
+      },
+      {
+        "name": "Debug: hardened_bot",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder:JOB SEEKING | Juan Jaramillo AI}/hardened_bot.py",
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder:JOB SEEKING | Juan Jaramillo AI}",
+        "justMyCode": false,
+      },
+      {
+        "name": "Debug: apply_all_refactored",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder:JOB SEEKING | Juan Jaramillo AI}/apply_all_refactored.py",
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder:JOB SEEKING | Juan Jaramillo AI}",
+        "justMyCode": false,
+      },
+      {
+        "name": "Debug: generate_report",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder:JOB SEEKING | Juan Jaramillo AI}/generate_report.py",
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder:JOB SEEKING | Juan Jaramillo AI}",
+        "justMyCode": false,
+      },
+    ],
+    "compounds": [],
+  },
+}

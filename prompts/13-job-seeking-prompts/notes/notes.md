@@ -555,8 +555,6 @@ a public business contact. Prefer the confirmed email in `SKILL.md`
 `.tech` email/portfolio can be mentioned as a supplementary professional contact/portfolio
 link if a form asks for one. The updated contact information is `juanamillo@proton.me` and `juanjaramilloai.vercel.app`.
 
-## Prompt
-
 ---
 
 ## Appendix — Forward Deployed Engineer (FDE): Role Definition & Responsibilities
@@ -621,3 +619,5 @@ against client infrastructure, legacy systems, and specialized data pipelines to
   code delivery, integration engineering, and long-term technical execution.
 - **FDE vs. Technical Account Manager (TAM):** TAMs manage client relationships, SLA adherence,
   and account oversight. FDEs actively design systems architecture and write production code.
+
+## **Prompt:**
