@@ -138,7 +138,7 @@ async def main():
 
 I am writing to express my strong interest in contributing to your AI-driven digital initiatives. With over 17 years of experience at the intersection of technology, entrepreneurship, and artificial intelligence, I bring a rare combination of executive vision and hands-on engineering capability — the kind of profile that can take an AI concept from whiteboard to production at every layer of the stack.
 
-Since 2022, I have specialized exclusively in Generative AI, with a focused practice in LLM fine-tuning (PEFT, RLHF), prompt engineering, and enterprise AI architecture. As AI Development Lead at TopNetworks Inc., I designed and shipped an entire internal SaaS ecosystem — EmailGenius (AI email generation via Vertex AI + PostgreSQL), TrafficGenius (invalid traffic detection with BigQuery + Cloud Armor), RouteGenius (probabilistic traffic distribution on Supabase), and Social Media Genius (AI-powered social content generation with a canvas editor) — all on a modern stack including Next.js 15–16, TypeScript, React 19, Astro 5, and Gemini 2.5 Flash on Google Cloud.
+Since 2022, I have specialized exclusively in Generative AI, with a focused practice in LLM fine-tuning (PEFT, RLHF), prompt engineering, and enterprise AI architecture. As AI Development Lead at TopNetworks Inc., I designed and shipped an entire internal SaaS ecosystem — EmailGenius (AI email generation via Vertex AI + PostgreSQL), TrafficGenius (invalid traffic detection with BigQuery + Cloud Armor), RouteGenius (probabilistic traffic distribution on Supabase), and Social Media Genius (AI-powered social content generation with a canvas editor) — all on a modern stack including Next.js 16–16, TypeScript, React 19.2, Astro 6, and Gemini 3 on Google Cloud.
 
 What sets me apart is the ability to operate as a one-person AI center of excellence: architecting systems, writing the code, engineering the prompts, managing hallucination risk, and communicating strategy to non-technical stakeholders.
 
@@ -178,7 +178,7 @@ Bogotá, Colombia"""
             print(f"Failed to check timezones: {e}")
             
         # Tools, software, platforms
-        tools_text = "Languages: Python, JavaScript, TypeScript, SQL. AI & Machine Learning: Generative AI, LLMs, Vertex AI / Vertex AI Agent-to-Agent (A2A), LangChain, LangGraph, CrewAI, Prompt Engineering, Prompt Versioning (Git Flow), RAG Pipelines, Vector Databases, NLP, Cursor AI IDE, n8n Workflow Automation. Frameworks & Libraries: Next.js 15/16, React 19, Astro 5, Tailwind CSS v4, WordPress, Node.js. Cloud & Infrastructure: Google Cloud Platform (Cloud Run, Cloud Armor, BigQuery, Compute Engine, Cloud DNS), Supabase, PostgreSQL, Vercel, Docker, Git."
+        tools_text = "Languages: Python, JavaScript, TypeScript, SQL. AI & Machine Learning: Generative AI, LLMs, Vertex AI / Vertex AI Agent-to-Agent (A2A), LangChain, LangGraph, CrewAI, Prompt Engineering, Prompt Versioning (Git Flow), RAG Pipelines, Vector Databases, NLP, Cursor AI IDE, n8n Workflow Automation. Frameworks & Libraries: Next.js 16, React 19.2, Astro 6, Tailwind CSS v4, WordPress, Node.js. Cloud & Infrastructure: Google Cloud Platform (Cloud Run, Cloud Armor, BigQuery, Compute Engine, Cloud DNS), Supabase, PostgreSQL, Vercel, Docker, Git."
         await page.fill("#QA_11736004", tools_text)
         
         # Industries

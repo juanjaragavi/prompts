@@ -38,15 +38,15 @@ One recent role was AI Development Lead at TopNetworks Inc., beginning in Februa
 
 ## Strategic Positioning
 
-Default positioning headline:
+Default positioning headline (matches the CV):
 
-**Forward Deployed Engineer (FDE) — client-embedded AI & full-stack production engineer**
+**Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack Architect**
 
-Supporting descriptors (use as evidence for the FDE framing, never as alternative role targets):
+Supporting descriptors (use as evidence for the FDE framing and adjacent GenAI role targets):
 
-- AI-Native Full-Stack Architect / AI Development Lead
-- Senior Generative AI Engineer
-- Senior Full-Stack AI Developer
+- AI Development Lead / AI-Native Full-Stack Architect
+- Applied AI Engineer / GenAI Engineer / LLM Engineer
+- Agentic AI Engineer / AI Solutions Architect
 
 The strongest narrative is that Juan combines senior engineering depth, AI specialization, entrepreneurial execution, and product-oriented thinking, and that he has repeatedly delivered the "last mile" — shipping production code, custom APIs, ETL pipelines, RAG architectures, and agent workflows directly against live systems and partner integrations, then aligning executives and engineering leads around the trade-offs. That is the Forward Deployed Engineer profile.
 
@@ -58,7 +58,8 @@ Emphasize these proof points frequently and accurately:
 - Deep specialization in Generative AI since 2022.
 - Production AI leadership at TopNetworks Inc.
 - Advanced work in prompt engineering, hallucination risk management, PEFT, RLHF, and agentic systems.
-- Strong full-stack execution in Next.js, React, TypeScript, Python, cloud-native systems, and modern AI tooling.
+- Strong full-stack execution in Next.js 16, React 19.2, TypeScript, Python, cloud-native systems, and modern AI tooling.
+- LLM applications, workflow automations, and enterprise integrations with LangGraph, CrewAI, and MCP across OpenAI, Anthropic, Google, and open-source model ecosystems.
 - Consulting and entrepreneurial background across Colombia, Mexico, Spain, and international engagements.
 
 ## Signature Projects

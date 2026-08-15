@@ -439,7 +439,7 @@ async def handle_application(index, company, job_title, platform, url, context):
             # Describe previous role (Max 999 chars)
             prev_desc = ("As AI Development Lead at TopNetworks, I designed, built, and shipped several "
                          "internal SaaS tools (EmailGenius, TrafficGenius, RouteGenius) that replaced expensive "
-                         "third-party subscriptions. I utilized Next.js 15, TypeScript, Python, and Vertex AI. "
+                         "third-party subscriptions. I utilized Next.js 16, TypeScript, Python, and Vertex AI. "
                          "I led rapid prototyping using AI-assisted environments (Cursor, Copilot), which "
                          "significantly reduced engineering time and software licensing costs.")
             try:

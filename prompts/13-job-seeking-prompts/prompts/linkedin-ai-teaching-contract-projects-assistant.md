@@ -97,7 +97,7 @@ In LinkedIn Jobs, search for teaching/capacitation and contract-style AI opportu
 - Work mode: Remote or Hybrid (On-site only when location is clearly eligible)
 - Geography: Only locations that are clearly within Juan's eligible regions
 - Compensation: Prefer visible hourly or monthly compensation aligned with senior AI consulting/training work
-- Technical relevance: Prefer postings that mention current agentic/GenAI stacks (for example Gemini 2.5/3, GPT-5.x, Claude 4/5, LangChain, LangGraph, RAG, LLM evaluation)
+- Technical relevance: Prefer postings that mention current agentic/GenAI stacks (for example Gemini 3/3, GPT-5.x, Claude 4/5, LangChain, LangGraph, RAG, LLM evaluation)
 
 If compensation is shown annually, keep the role only when it can be reasonably interpreted as competitive with contract-level AI engineering or AI training work.
 

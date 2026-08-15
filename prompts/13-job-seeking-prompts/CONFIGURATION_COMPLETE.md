@@ -14,7 +14,7 @@ All Juan Jaramillo's professional data has been integrated into the automation s
 
 - Full Name: Juan Miguel Jaramillo Gaviria
 - Title: AI Development Lead
-- Positioning Headline: AI-Native Full-Stack Architect / AI Development Lead
+- Positioning Headline: Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack Architect
 - Professional Title: AI/ML Expert, Full-Stack Architect, Consultant, Serial Tech Entrepreneur
 
 **Contact Information:**

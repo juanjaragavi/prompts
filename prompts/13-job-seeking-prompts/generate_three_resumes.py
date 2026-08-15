@@ -207,7 +207,7 @@ ai_llm_html = f"""<!DOCTYPE html>
 
     <h2>Professional Summary</h2>
     <div class="summary-text">
-        Enterprise AI Engineering Lead and Generative AI Architect with over 17 years of technical execution and entrepreneurial leadership. Specialist in designing, training, and scaling enterprise-grade generative AI systems, orchestrating multi-agent frameworks, and building production-grade RAG pipelines. Hands-on expert in LLM fine-tuning (PEFT, RLHF), robust prompt engineering, prompt versioning via Git Flow, and hallucination risk mitigation. Highly proficient across Next.js 15/16, React 19, TypeScript, Python, and cloud-native architectures on Google Cloud Platform, delivering high-performance AI products that solve complex business objectives and significantly reduce infrastructure overhead.
+        Enterprise AI Engineering Lead and Generative AI Architect with over 17 years of technical execution and entrepreneurial leadership. Specialist in designing, training, and scaling enterprise-grade generative AI systems, orchestrating multi-agent frameworks, and building production-grade RAG pipelines. Hands-on expert in LLM fine-tuning (PEFT, RLHF), robust prompt engineering, prompt versioning via Git Flow, and hallucination risk mitigation. Highly proficient across Next.js 16, React 19.2, TypeScript, Python, and cloud-native architectures on Google Cloud Platform, delivering high-performance AI products that solve complex business objectives and significantly reduce infrastructure overhead.
     </div>
 
     <h2>Core Proficiencies & Technical Expertise</h2>
@@ -220,13 +220,13 @@ ai_llm_html = f"""<!DOCTYPE html>
                 </div>
                 <div class="skills-category" style="margin-top: 2px;">
                     <span class="skills-category-title">AI Frameworks & Models:</span>
-                    <span class="skills-items">LangChain, LangGraph, CrewAI, Vertex AI Agent-to-Agent (A2A), Gemini 2.5 Flash, n8n Workflow Automation, OpenAI GPT, Hugging Face, Cursor AI IDE.</span>
+                    <span class="skills-items">LangChain, LangGraph, CrewAI, Vertex AI Agent-to-Agent (A2A), Gemini 3, n8n Workflow Automation, OpenAI GPT, Hugging Face, Cursor AI IDE.</span>
                 </div>
             </td>
             <td>
                 <div class="skills-category">
                     <span class="skills-category-title">Full-Stack Software Engineering:</span>
-                    <span class="skills-items">Python (Advanced), TypeScript, JavaScript, ReactJS/React 19, Next.js 15/16, Astro 5, Node.js, SQL, PostgreSQL, Supabase, PHP (Legacy WordPress Architecture).</span>
+                    <span class="skills-items">Python (Advanced), TypeScript, JavaScript, ReactJS/React 19.2, Next.js 16, Astro 6, Node.js, SQL, PostgreSQL, Supabase, PHP (Legacy WordPress Architecture).</span>
                 </div>
                 <div class="skills-category" style="margin-top: 2px;">
                     <span class="skills-category-title">Cloud Infrastructure & DevOps:</span>
@@ -245,12 +245,12 @@ ai_llm_html = f"""<!DOCTYPE html>
                 <td class="date-location">Feb 2025 – Jun 2026 | Remote / Bogotá, Colombia</td>
             </tr>
         </table>
-        <div class="focus-text">Key Focus: Model Tuning (PEFT, RLHF), Vertex AI, Gemini 2.5, LangChain, Multi-Agent Orchestration, Git Flow Prompt Versioning</div>
+        <div class="focus-text">Key Focus: Model Tuning (PEFT, RLHF), Vertex AI, Gemini 3, LangChain, Multi-Agent Orchestration, Git Flow Prompt Versioning</div>
         <ul class="entry-bullets">
             <li>Spearheaded generative AI engineering strategy and full-stack machine learning architecture for high-performance publishing platforms serving the US, UK, Mexico, and Latin America.</li>
             <li>Designed, built, and launched a core proprietary internal SaaS ecosystem leveraging state-of-the-art LLMs and multi-agent frameworks:
                 <ul>
-                    <li><strong>EmailGenius:</strong> High-throughput AI email generation engine engineered with Vertex AI, Gemini 2.5 Flash, and PostgreSQL; implemented LLM fine-tuning and rigorous validation pipelines to ensure high personalization.</li>
+                    <li><strong>EmailGenius:</strong> High-throughput AI email generation engine engineered with Vertex AI, Gemini 3, and PostgreSQL; implemented LLM fine-tuning and rigorous validation pipelines to ensure high personalization.</li>
                     <li><strong>RouteGenius:</strong> High-concurrency probabilistic web traffic routing engine built on Supabase, running concurrent multi-agent AI workflows in n8n via webhooks to dynamically automate traffic routing based on real-time revenue signals.</li>
                     <li><strong>TrafficGenius:</strong> Real-time invalid traffic detection and security intelligence platform utilizing BigQuery ML models and Cloud Armor to isolate fraudulent traffic patterns.</li>
                     <li><strong>Social Media Genius:</strong> AI-native social content generator featuring an interactive canvas editor driven by generative image and text models.</li>
@@ -382,7 +382,7 @@ vibe_coding_html = f"""<!DOCTYPE html>
 
     <h2>Professional Summary</h2>
     <div class="summary-text">
-        Pioneering AI-Native Full-Stack Architect with over 17 years of leadership experience, specializing in the modern "vibe coding" paradigm. Master of high-velocity, spec-first AI engineering workflows leveraging modern AI IDEs (Cursor, Copilot) and multi-agent execution systems to design, build, and deploy production-grade software ecosystems at 10x traditional speed. Renowned for shipping scalable, secure, and revenue-generating SaaS platforms by translating plain-text design specifications into robust, production-grade architectures. Deeply proficient across Next.js 15/16, React 19, Astro 5, Tailwind CSS v4, TypeScript, Python, and Google Cloud Platform.
+        Pioneering AI-Native Full-Stack Architect with over 17 years of leadership experience, specializing in the modern "vibe coding" paradigm. Master of high-velocity, spec-first AI engineering workflows leveraging modern AI IDEs (Cursor, Copilot) and multi-agent execution systems to design, build, and deploy production-grade software ecosystems at 10x traditional speed. Renowned for shipping scalable, secure, and revenue-generating SaaS platforms by translating plain-text design specifications into robust, production-grade architectures. Deeply proficient across Next.js 16, React 19.2, Astro 6, Tailwind CSS v4, TypeScript, Python, and Google Cloud Platform.
     </div>
 
     <h2>Core Proficiencies & Technical Expertise</h2>
@@ -395,13 +395,13 @@ vibe_coding_html = f"""<!DOCTYPE html>
                 </div>
                 <div class="skills-category" style="margin-top: 2px;">
                     <span class="skills-category-title">AI Stack & Agentic Frameworks:</span>
-                    <span class="skills-items">Gemini 2.5 Flash, Vertex AI, LangChain, LangGraph, CrewAI, n8n Automation, Vector Databases, Prompt Versioning with Git Flow.</span>
+                    <span class="skills-items">Gemini 3, Vertex AI, LangChain, LangGraph, CrewAI, n8n Automation, Vector Databases, Prompt Versioning with Git Flow.</span>
                 </div>
             </td>
             <td>
                 <div class="skills-category">
                     <span class="skills-category-title">AI-Native Full-Stack Engineering:</span>
-                    <span class="skills-items">TypeScript, JavaScript, ReactJS/React 19, Next.js 15/16, Astro 5, Tailwind CSS v4, Python (Core), Node.js, SQL, PostgreSQL, Supabase, Legacy WordPress (15+ yrs).</span>
+                    <span class="skills-items">TypeScript, JavaScript, ReactJS/React 19.2, Next.js 16, Astro 6, Tailwind CSS v4, Python (Core), Node.js, SQL, PostgreSQL, Supabase, Legacy WordPress (15+ yrs).</span>
                 </div>
                 <div class="skills-category" style="margin-top: 2px;">
                     <span class="skills-category-title">Infrastructure & CI/CD:</span>
@@ -425,7 +425,7 @@ vibe_coding_html = f"""<!DOCTYPE html>
             <li>Spearheaded AI engineering strategy and full-stack architecture, shifting development entirely to an AI-native paradigm.</li>
             <li>Architected, vibe-coded, and launched TopNetworks' entire proprietary internal SaaS ecosystem from plain-text specifications, achieving extraordinary shipping velocity and direct-to-production deployment:
                 <ul>
-                    <li><strong>EmailGenius:</strong> High-throughput AI email generation engine engineered with Vertex AI, Next.js 15/16, React 19, and PostgreSQL; fully synthesized and iterated in record time using Cursor IDE.</li>
+                    <li><strong>EmailGenius:</strong> High-throughput AI email generation engine engineered with Vertex AI, Next.js 16, React 19.2, and PostgreSQL; fully synthesized and iterated in record time using Cursor IDE.</li>
                     <li><strong>RouteGenius:</strong> High-concurrency traffic routing engine on Supabase; integrates multi-agent n8n workflows via concurrent webhooks. Vibe-coded to process high volumes of live web traffic with zero latency.</li>
                     <li><strong>TrafficGenius:</strong> Real-time invalid traffic detection and security platform using BigQuery and Cloud Armor; optimized using AI-assisted query design.</li>
                     <li><strong>Social Media Genius:</strong> AI-driven content generation app with an interactive canvas editor; build accelerated by AI-native frontend tooling (Tailwind CSS v4).</li>
@@ -557,7 +557,7 @@ cms_react_html = f"""<!DOCTYPE html>
 
     <h2>Professional Summary</h2>
     <div class="summary-text">
-        High-impact Full-Stack Web Architect with a rare combination of over 15 years of deep WordPress and CMS engineering layered with cutting-edge React 19, Next.js 15/16, and Astro 5 architectures. Recognized expert in monolithic legacy modernization, successfully executing decoupled, headless migrations that optimize web speed, Core Web Vitals, and SEO discovery layers. Expert in designing high-concurrency routing architectures, custom WordPress theme/plugin development, Tailwind CSS v4, and integrating custom generative AI workflows directly into CMS ecosystems to maximize content velocity and monetization.
+        High-impact Full-Stack Web Architect with a rare combination of over 15 years of deep WordPress and CMS engineering layered with cutting-edge React 19.2, Next.js 16, and Astro 6 architectures. Recognized expert in monolithic legacy modernization, successfully executing decoupled, headless migrations that optimize web speed, Core Web Vitals, and SEO discovery layers. Expert in designing high-concurrency routing architectures, custom WordPress theme/plugin development, Tailwind CSS v4, and integrating custom generative AI workflows directly into CMS ecosystems to maximize content velocity and monetization.
     </div>
 
     <h2>Core Proficiencies & Technical Expertise</h2>
@@ -570,7 +570,7 @@ cms_react_html = f"""<!DOCTYPE html>
                 </div>
                 <div class="skills-category" style="margin-top: 2px;">
                     <span class="skills-category-title">Modern Frontend Stack:</span>
-                    <span class="skills-items">React 19, Next.js 15/16, Astro 5, Tailwind CSS v4, HTML5, CSS3/SASS, TypeScript, JavaScript (ES6+), UI/UX Engineering.</span>
+                    <span class="skills-items">React 19.2, Next.js 16, Astro 6, Tailwind CSS v4, HTML5, CSS3/SASS, TypeScript, JavaScript (ES6+), UI/UX Engineering.</span>
                 </div>
             </td>
             <td>
@@ -580,7 +580,7 @@ cms_react_html = f"""<!DOCTYPE html>
                 </div>
                 <div class="skills-category" style="margin-top: 2px;">
                     <span class="skills-category-title">Performance & AI Integration:</span>
-                    <span class="skills-items">Core Web Vitals Optimization, Cloudflare/CDN, n8n Automation, Prompt Engineering for Content CMS, Gemini 2.5 Flash, Cursor AI.</span>
+                    <span class="skills-items">Core Web Vitals Optimization, Cloudflare/CDN, n8n Automation, Prompt Engineering for Content CMS, Gemini 3, Cursor AI.</span>
                 </div>
             </td>
         </tr>
@@ -595,18 +595,18 @@ cms_react_html = f"""<!DOCTYPE html>
                 <td class="date-location">Feb 2025 – Jun 2026 | Remote / Bogotá, Colombia</td>
             </tr>
         </table>
-        <div class="focus-text">Key Focus: Decoupled & Headless Frontends, Next.js 15/16, React 19, Astro 5, High-Concurrency Web Architectures, Tailwind v4</div>
+        <div class="focus-text">Key Focus: Decoupled & Headless Frontends, Next.js 16, React 19.2, Astro 6, High-Concurrency Web Architectures, Tailwind v4</div>
         <ul class="entry-bullets">
             <li>Directed full-stack web architectures and content modernization strategy for digital publishing platforms serving the US, UK, Mexico, and LATAM markets.</li>
-            <li>Designed and deployed high-performance front-end applications built on React 19, Next.js 15/16, Astro 5, and Tailwind CSS v4, connected to decoupled API gateways:
+            <li>Designed and deployed high-performance front-end applications built on React 19.2, Next.js 16, Astro 6, and Tailwind CSS v4, connected to decoupled API gateways:
                 <ul>
                     <li><strong>RouteGenius:</strong> Built a high-concurrency traffic routing engine on Supabase with a custom-developed Next.js front-end, dynamically managing traffic distribution across diverse marketing discovery layers and CMS nodes.</li>
-                    <li><strong>EmailGenius:</strong> React 19 interactive generative email interface utilizing Vertex AI and PostgreSQL backends.</li>
-                    <li><strong>Social Media Genius:</strong> AI-driven content generation app incorporating a highly interactive Next.js 15 canvas editor and customized CSS styling.</li>
+                    <li><strong>EmailGenius:</strong> React 19.2 interactive generative email interface utilizing Vertex AI and PostgreSQL backends.</li>
+                    <li><strong>Social Media Genius:</strong> AI-driven content generation app incorporating a highly interactive Next.js 16 canvas editor and customized CSS styling.</li>
                     <li><strong>TrafficGenius:</strong> Security platform leveraging BigQuery and Cloud Armor with real-time Next.js reporting dashboards.</li>
                 </ul>
             </li>
-            <li>Successfully migrated high-traffic monolithic publishing architectures to headless Astro 5 and Next.js, yielding dramatic improvements in site load times, Core Web Vitals, and SEO-driven organic traffic.</li>
+            <li>Successfully migrated high-traffic monolithic publishing architectures to headless Astro 6 and Next.js, yielding dramatic improvements in site load times, Core Web Vitals, and SEO-driven organic traffic.</li>
         </ul>
     </div>
 

@@ -1,32 +1,34 @@
 # Juan Miguel Jaramillo Gaviria
 
-## Forward Deployed Engineer | AI/LLM & Full-Stack Architect | Client-Embedded Production Delivery
+## Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack Architect
 
 📍 Bogotá, Colombia  
 📧 [juanamillo@proton.me](mailto:juanamillo@proton.me)  
 📞 [+57 305 420 6139](tel:+573054206139)  
 🌐 [juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)
 
-> **Target role:** Forward Deployed Engineer (FDE). Accepted title variants: Forward Deployed
-> Engineer, Forward Deployed Engineer (FDE), Forward Deployed AI Engineer, Forward Deployed
-> Software Engineer, Forward Deployed Solutions Engineer.
+> **Target roles:** Forward Deployed Engineer (FDE) is the priority/anchor role, within a
+> broader scope of Generative & Agentic AI engineering roles — Applied AI Engineer, GenAI
+> Engineer, LLM Engineer, Agentic AI Engineer, and AI Solutions Architect.
 
 ---
 
 ## Professional Summary
 
-Client-embedded AI and full-stack engineer with 17+ years shipping production systems. I specialize in last-mile delivery: writing production code against live traffic and partner integrations, building custom APIs, ETL/data pipelines, RAG architectures, and multi-agent workflows, and owning outcomes end-to-end.
+I am an AI Development Lead and full-stack engineer focused on building production-grade Generative AI and agentic systems that deliver measurable business outcomes. I combine product strategy, solution architecture, and hands-on implementation to take AI initiatives from discovery through deployment across U.S. and Latin American markets.
 
-Most recently AI Development Lead at TopNetworks Inc., where I built and deployed an enterprise GenAI SaaS ecosystem directly against production traffic across the U.S., U.K., Mexico, and Latin America.
+I have experience building LLM applications, workflow automations, and enterprise integrations using Python, TypeScript/JavaScript, LangGraph, CrewAI, MCP, and modern model ecosystems, including OpenAI, Anthropic, Google, and open-source technologies. I also have strong experience delivering cloud-native solutions.
 
-Deep experience in Next.js, TypeScript, React, Astro, Vertex AI, GenAI and LLMs, Machine Learning, Prompt Engineering, and cloud-native full-stack development on Google Cloud.
+As AI Development Lead at TopNetworks Inc., I led AI strategy, solution architecture, and full-stack implementation for an enterprise GenAI SaaS ecosystem serving the U.S., U.K., Mexico, and Latin America. I am targeting roles such as Forward Deployed Engineer, Applied AI Engineer, GenAI Engineer, LLM Engineer, Agentic AI Engineer, and AI Solutions Architect.
 
-### Forward Deployed Engineer fit
+## Focus Areas
 
-- **Client-embedded system architecture & coding** — 17+ years delivering production systems inside client and partner environments across Colombia, Mexico, Spain, the U.S., and the U.K.
-- **Custom APIs, ETL pipelines, RAG & agent workflows** — EmailGenius (Vertex AI + PostgreSQL), TrafficGenius (BigQuery + Cloud Armor), RouteGenius (Supabase), Social Media Genius (AI canvas editor).
-- **Last-mile deployment** — end-to-end rollouts on GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS) with Docker, PM2, and Vercel.
-- **Technical stakeholder alignment** — co-founder, director, and project-lead roles requiring architectural trade-off discussions with executives and engineering leads.
+- **Forward Deployed AI Engineering:** Business problem discovery, rapid prototyping, production rollout
+- **Generative AI Product Development:** RAG, copilots, assistants, AI SaaS features
+- **Agentic AI Systems:** Multi-agent orchestration, tool calling, planner/executor patterns, durable workflows
+- **LLMOps and AI Reliability:** Evaluation frameworks, regression testing, observability, safety guardrails
+- **AI Solution Architecture:** API and data design, integration strategy, scalability and cost optimization
+- **Full-Stack AI Delivery:** Python, TypeScript/Node.js, React/Next.js, cloud deployment and operations
 
 ---
 
@@ -45,7 +47,8 @@ _Key Focus:_ Prompt Engineering Techniques & Best Practices, Hallucination Risk 
   - **TrafficGenius**: Invalid traffic detection and security analytics with BigQuery + Cloud Armor.
   - **RouteGenius**: Probabilistic traffic distribution with Supabase.
   - **Social Media Genius**: Social content generation with an AI canvas editor.
-- **Stack:** Next.js 16 (App Router), TypeScript, React 19.2, Astro 6, Tailwind CSS v4, Vertex AI (Gemini 3), PostgreSQL, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS), PM2, Docker, Vercel.
+- Delivered systems directly against live production traffic and partner/stakeholder integrations — owning discovery-to-production rollout, evaluation suites for non-deterministic LLM behavior, and production reliability rather than demos.
+- **Stack:** Next.js 16 (App Router), TypeScript, React 19.2, Astro 6, Tailwind CSS v4, Vertex AI (Gemini 3), PostgreSQL 18, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS), PM2, Docker, Vercel.
 
 ---
 
@@ -129,9 +132,16 @@ _Aug. 2009 – Oct. 2012 (3 years 3 months)_
 
 ---
 
-## Additional Skills
+## AI Engineering & Integration Skills and Tools
 
-RAG architectures, vector databases (Chroma, PGVector), MCP servers/tools & custom integrations, LLM evaluation suites, Docker/containers, CI/CD (GitHub Actions), systems integration (REST, Webhooks), and broad LLM engineering skills.
+- RAG architectures
+- Vector databases (Chroma, PGVector)
+- MCP servers/tools & custom integrations
+- LLM evaluation suites
+- Docker/containers
+- CI/CD (GitHub Actions)
+- Systems integration (REST, Webhooks)
+- LLM Skills
 
 ---
 

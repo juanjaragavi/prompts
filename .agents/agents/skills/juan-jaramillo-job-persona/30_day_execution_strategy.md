@@ -1,7 +1,7 @@
 # Comprehensive Job-Search Strategy & 30-Day Action Plan
 
 **Candidate:** Juan Miguel Jaramillo Gaviria  
-**Positioning Headline:** AI-Native Full-Stack Architect / AI Development Lead  
+**Positioning Headline:** Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack Architect  
 **Target Locations:** Bogotá, Medellín (Colombia), Mexico City (Mexico), Greater Buenos Aires (Argentina), or Remote (Colombia-based)  
 **Target Monthly Compensation:** $3,500 – $4,500 USD (Annualized: $42,000 – $54,000 USD)  
 **Date of Execution Plan:** July 8, 2026

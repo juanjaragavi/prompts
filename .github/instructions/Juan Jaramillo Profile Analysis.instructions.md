@@ -14,6 +14,11 @@ user-confirmed facts in `SKILL.md` (if the two ever disagree, `SKILL.md` wins).
 
 ## Headline
 
+**CV headline (authoritative — use this for applications and outreach):**
+"Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack
+Architect"
+
+**Current public LinkedIn headline (legacy — background only):**
 "AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt
 Engineer • Professional Vibe Coder"
 

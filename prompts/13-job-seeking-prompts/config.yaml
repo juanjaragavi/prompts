@@ -7,7 +7,7 @@ candidate:
   last_name: 'Jaramillo Gaviria'
   full_name: 'Juan Miguel Jaramillo Gaviria'
   title: 'AI Development Lead'
-  positioning_headline: 'Forward Deployed Engineer — client-embedded AI & full-stack production engineer'
+  positioning_headline: 'Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack Architect'
   professional_title: 'AI/ML Expert, Full-Stack Architect, Consultant, Serial Tech Entrepreneur'
 
   # Contact Information
@@ -84,14 +84,14 @@ candidate:
   english_equivalent_ielts: '8.0-9.0'
 
   # Professional Summary
-  summary_short: 'AI Development Lead with 17+ years of digital leadership and 4 years of Generative AI specialization.'
-  summary_medium: 'AI Development Lead and full-stack architect with 17+ years of technology leadership and 4 years of deep Generative AI specialization. Recently led AI strategy and full-stack product development at TopNetworks Inc., designing and shipping an internal AI-native SaaS ecosystem. Expert in Prompt Engineering, LLM fine-tuning (PEFT, RLHF), agentic systems, and end-to-end AI product delivery.'
+  summary_short: 'AI Development Lead and full-stack engineer building production-grade Generative AI and agentic systems that deliver measurable business outcomes.'
+  summary_medium: 'AI Development Lead and full-stack engineer focused on building production-grade Generative AI and agentic systems that deliver measurable business outcomes. I combine product strategy, solution architecture, and hands-on implementation to take AI initiatives from discovery through deployment across U.S. and Latin American markets. Experienced with LLM applications, workflow automations, and enterprise integrations using Python, TypeScript/JavaScript, LangGraph, CrewAI, and MCP.'
   summary_long: |
-    AI Development Lead, full-stack architect, and serial technology entrepreneur with more than 17 years of experience in digital and technology initiatives across Latin America and international markets. Since 2022, I have specialized in enterprise Generative AI, LLM fine-tuning (PEFT, RLHF), prompt engineering, hallucination risk management, and AI-native product engineering.
+    I am an AI Development Lead and full-stack engineer focused on building production-grade Generative AI and agentic systems that deliver measurable business outcomes. I combine product strategy, solution architecture, and hands-on implementation to take AI initiatives from discovery through deployment across U.S. and Latin American markets.
 
-    Currently leading AI strategy and full-stack development at TopNetworks Inc., designing and shipping an internal SaaS ecosystem (EmailGenius, TrafficGenius, RouteGenius, Social Media Genius) serving the U.S., U.K., Mexico, and Latin American markets. Expert in next-generation AI workflows, agentic systems orchestration, and production-grade LLM integration.
+    I have experience building LLM applications, workflow automations, and enterprise integrations using Python, TypeScript/JavaScript, LangGraph, CrewAI, MCP, and modern model ecosystems, including OpenAI, Anthropic, Google, and open-source technologies. I also have strong experience delivering cloud-native solutions.
 
-    Strong full-stack capabilities across Next.js, TypeScript, React, Python, Vertex AI, and cloud-native architectures. Proven ability to move from strategy to architecture to hands-on implementation. Passionate about building practical AI systems that deliver measurable business value.
+    As AI Development Lead at TopNetworks Inc., I led AI strategy, solution architecture, and full-stack implementation for an enterprise GenAI SaaS ecosystem serving the U.S., U.K., Mexico, and Latin America. I am targeting roles such as Forward Deployed Engineer, Applied AI Engineer, GenAI Engineer, LLM Engineer, Agentic AI Engineer, and AI Solutions Architect.
 
   # Core Professional Expertise (Ordered by Priority)
   core_expertise:
@@ -102,7 +102,7 @@ candidate:
     - 'Agentic Systems and Multi-Agent Orchestration'
     - 'LLM Evaluation and Governance'
     - 'Full-Stack AI-Native Product Development'
-    - 'Next.js, React 19, TypeScript'
+    - 'Next.js 16, React 19.2, TypeScript'
     - 'Python for AI/ML'
     - 'Vertex AI, Gemini APIs'
     - 'LangChain, LangGraph, CrewAI'
@@ -126,10 +126,10 @@ candidate:
       - 'Hallucination Management (Advanced)'
 
     frontend:
-      - 'Next.js 15-16 (App Router) (Advanced)'
-      - 'React 19 (Advanced)'
+      - 'Next.js 16 (App Router) (Advanced)'
+      - 'React 19.2 (Advanced)'
       - 'TypeScript (Advanced)'
-      - 'Astro 5 (Advanced)'
+      - 'Astro 6 (Advanced)'
       - 'Tailwind CSS v4 (Advanced)'
       - 'JavaScript (Advanced)'
       - 'HTML/CSS (Advanced)'
@@ -192,7 +192,7 @@ candidate:
 
     - name: 'Social Media Genius'
       description: 'AI-assisted social content generation with interactive canvas'
-      stack: 'Next.js 15-16, React 19, Astro 5, Tailwind CSS v4, Gemini 2.5 Flash'
+      stack: 'Next.js 16, React 19.2, Astro 6, Tailwind CSS v4, Gemini 3'
       value: 'Accelerated content creation and social media management'
 
   # Career Themes & Positioning Anchors
@@ -386,7 +386,7 @@ essay_templates:
     I have over 17 years of experience in software engineering, with the last 4 years focused on prompt engineering, generative AI, and agentic workflows. As AI Development Lead at TopNetworks, I designed and built four internal SaaS tools (EmailGenius, TrafficGenius, RouteGenius, and Social Media Genius). I designed and deployed production-grade multi-agent orchestrations using LangGraph and CrewAI, establishing strict LLM guardrails and evaluation frameworks.
 
   previous_role: |
-    As AI Development Lead at TopNetworks, I designed, built, and shipped several internal SaaS tools (EmailGenius, TrafficGenius, RouteGenius) that replaced expensive third-party subscriptions. I utilized Next.js 15, TypeScript, Python, and Vertex AI. I led rapid prototyping using AI-assisted environments (Cursor, Copilot), which significantly reduced engineering time and software licensing costs.
+    As AI Development Lead at TopNetworks, I designed, built, and shipped several internal SaaS tools (EmailGenius, TrafficGenius, RouteGenius) that replaced expensive third-party subscriptions. I utilized Next.js 16, TypeScript, Python, and Vertex AI. I led rapid prototyping using AI-assisted environments (Cursor, Copilot), which significantly reduced engineering time and software licensing costs.
 
   ai_leadership: |
     I combine AI expertise with full-stack engineering and product thinking. Over the past 4 years, I've specialized in Generative AI, prompt engineering, LLM fine-tuning (PEFT, RLHF), and agentic system orchestration. At TopNetworks, I led the design and delivery of an AI-native SaaS ecosystem serving performance publishing operations across the US, UK, Mexico, and Latin America. I excel at translating advanced AI capabilities into practical systems that drive measurable business outcomes.

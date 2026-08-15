@@ -203,7 +203,7 @@ resume_html = """<!DOCTYPE html>
 
     <h2>Professional Summary</h2>
     <div class="summary-text">
-        Enterprise AI Development Lead and Full-Stack Architect with over 17 years of leadership experience spanning digital transformation, software engineering, and technology entrepreneurship. Expert in designing and deploying production-grade generative AI systems, orchestrating multi-agent frameworks, executing LLM fine-tuning (PEFT, RLHF), and managing hallucination risk. Highly proficient across Next.js 15/16, React 19, TypeScript, Python, and cloud-native architectures on Google Cloud Platform. Well before generative AI reshaped the global tech landscape, founded and scaled multiple successful digital and technology ventures. A pioneer in combining modern legacy-modernization expertise (CMS/WordPress) with AI-assisted high-velocity coding workflows.
+        Enterprise AI Development Lead and Full-Stack Architect with over 17 years of leadership experience spanning digital transformation, software engineering, and technology entrepreneurship. Expert in designing and deploying production-grade generative AI systems, orchestrating multi-agent frameworks, executing LLM fine-tuning (PEFT, RLHF), and managing hallucination risk. Highly proficient across Next.js 16, React 19.2, TypeScript, Python, and cloud-native architectures on Google Cloud Platform. Well before generative AI reshaped the global tech landscape, founded and scaled multiple successful digital and technology ventures. A pioneer in combining modern legacy-modernization expertise (CMS/WordPress) with AI-assisted high-velocity coding workflows.
     </div>
 
     <h2>Core Proficiencies & Technical Expertise</h2>
@@ -216,13 +216,13 @@ resume_html = """<!DOCTYPE html>
                 </div>
                 <div class="skills-category" style="margin-top: 2px;">
                     <span class="skills-category-title">AI Frameworks & Tools:</span>
-                    <span class="skills-items">LangChain, LangGraph, CrewAI, Vertex AI Agent-to-Agent (A2A), n8n Workflow Automation, Gemini 2.5 Flash, Cursor AI IDE.</span>
+                    <span class="skills-items">LangChain, LangGraph, CrewAI, Vertex AI Agent-to-Agent (A2A), n8n Workflow Automation, Gemini 3, Cursor AI IDE.</span>
                 </div>
             </td>
             <td>
                 <div class="skills-category">
                     <span class="skills-category-title">Full-Stack Software Engineering:</span>
-                    <span class="skills-items">TypeScript, JavaScript, ReactJS/React 19, Next.js 15/16, Astro 5, Node.js, Python, SQL, WordPress Legacy Architecture (15+ years).</span>
+                    <span class="skills-items">TypeScript, JavaScript, ReactJS/React 19.2, Next.js 16, Astro 6, Node.js, Python, SQL, WordPress Legacy Architecture (15+ years).</span>
                 </div>
                 <div class="skills-category" style="margin-top: 2px;">
                     <span class="skills-category-title">Cloud & Infrastructure:</span>
@@ -252,7 +252,7 @@ resume_html = """<!DOCTYPE html>
                     <li><strong>Social Media Genius:</strong> AI-driven social content generation application featuring a custom interactive canvas editor.</li>
                 </ul>
             </li>
-            <li>Managed prompt versioning via Git Flow, structured hallucination risk frameworks, and deployed all services using Next.js 15/16, TypeScript, React 19, Astro 5, Tailwind v4, and Gemini 2.5 Flash on GCP.</li>
+            <li>Managed prompt versioning via Git Flow, structured hallucination risk frameworks, and deployed all services using Next.js 16, TypeScript, React 19.2, Astro 6, Tailwind v4, and Gemini 3 on GCP.</li>
         </ul>
     </div>
 
@@ -504,7 +504,7 @@ cover_letter_html = """<!DOCTYPE html>
         <strong>TrafficGenius</strong> (real-time invalid traffic detection using Google BigQuery and Cloud Armor),
         <strong>RouteGenius</strong> (probabilistic web traffic distribution running on Supabase infrastructure), and
         <strong>Social Media Genius</strong> (an AI-native social content generator complete with an interactive canvas editor).
-        These systems are not experimental prototypes; they are highly scalable, revenue-generating platforms built on Next.js 15/16, React 19, Astro 5, TypeScript, and the Gemini 2.5 Flash model deployed on Google Cloud Platform.
+        These systems are not experimental prototypes; they are highly scalable, revenue-generating platforms built on Next.js 16, React 19.2, Astro 6, TypeScript, and the Gemini 3 model deployed on Google Cloud Platform.
     </p>
 
     <div class="section-title">Advisory Reach and Measurable Impact</div>

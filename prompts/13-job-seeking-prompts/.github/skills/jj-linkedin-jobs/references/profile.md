@@ -9,8 +9,33 @@ user-confirmed facts in `SKILL.md` (if the two ever disagree, `SKILL.md` wins).
 
 ## Headline
 
+**CV headline (authoritative — use this for applications and outreach):**
+"Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack
+Architect"
+
+**Current public LinkedIn headline (legacy — background only):**
 "AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt
 Engineer • Professional Vibe Coder"
+
+## CV Professional Summary (authoritative)
+
+Juan is an AI Development Lead and full-stack engineer focused on building production-grade
+Generative AI and agentic systems that deliver measurable business outcomes. He combines
+product strategy, solution architecture, and hands-on implementation to take AI initiatives
+from discovery through deployment across U.S. and Latin American markets.
+
+He builds LLM applications, workflow automations, and enterprise integrations using Python,
+TypeScript/JavaScript, LangGraph, CrewAI, MCP, and modern model ecosystems including OpenAI,
+Anthropic, Google, and open-source technologies, plus strong cloud-native delivery experience.
+
+### CV focus areas
+
+- **Forward Deployed AI Engineering:** Business problem discovery, rapid prototyping, production rollout
+- **Generative AI Product Development:** RAG, copilots, assistants, AI SaaS features
+- **Agentic AI Systems:** Multi-agent orchestration, tool calling, planner/executor patterns, durable workflows
+- **LLMOps and AI Reliability:** Evaluation frameworks, regression testing, observability, safety guardrails
+- **AI Solution Architecture:** API and data design, integration strategy, scalability and cost optimization
+- **Full-Stack AI Delivery:** Python, TypeScript/Node.js, React/Next.js, cloud deployment and operations
 
 ## About (condensed from the profile's Spanish-language summary)
 

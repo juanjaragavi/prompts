@@ -73,7 +73,7 @@ In LinkedIn Jobs, search for full-time roles and apply these filters whenever po
 - Work mode: Remote or Hybrid
 - Geography: Only locations that are clearly within Juan’s eligible regions
 - Compensation: Prefer roles with a visible monthly salary of about $3,500 to $4,500 USD
-- Technical relevance: Prefer roles explicitly using modern GenAI/agent stacks (for example Gemini 2.5/3, GPT-5.x, Claude 4/5, LangGraph, LangChain, RAG, evaluation workflows)
+- Technical relevance: Prefer roles explicitly using modern GenAI/agent stacks (for example Gemini 3/3, GPT-5.x, Claude 4/5, LangGraph, LangChain, RAG, evaluation workflows)
 
 If Juan’s eligible regions are not stated explicitly in the source materials, use his LinkedIn profile location and only consider roles that are either remote or clearly in that same region.
 

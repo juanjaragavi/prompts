@@ -53,6 +53,33 @@ locations. If two facts appear to conflict, prefer the values in this section.
 - **GitHub:** <https://github.com/juanjaragavi>
 - **Portfolio:** <https://juanjaramilloai.vercel.app>
 
+### CV headline & summary (authoritative)
+
+**Headline:** Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM &
+Full-Stack Architect
+
+AI Development Lead and full-stack engineer focused on building production-grade Generative AI
+and agentic systems that deliver measurable business outcomes. Combines product strategy,
+solution architecture, and hands-on implementation to take AI initiatives from discovery
+through deployment across U.S. and Latin American markets. Builds LLM applications, workflow
+automations, and enterprise integrations using Python, TypeScript/JavaScript, LangGraph,
+CrewAI, MCP, and modern model ecosystems including OpenAI, Anthropic, Google, and open-source
+technologies, plus strong cloud-native delivery experience.
+
+### Focus areas (from the CV)
+
+- **Forward Deployed AI Engineering:** Business problem discovery, rapid prototyping,
+  production rollout
+- **Generative AI Product Development:** RAG, copilots, assistants, AI SaaS features
+- **Agentic AI Systems:** Multi-agent orchestration, tool calling, planner/executor patterns,
+  durable workflows
+- **LLMOps and AI Reliability:** Evaluation frameworks, regression testing, observability,
+  safety guardrails
+- **AI Solution Architecture:** API and data design, integration strategy, scalability and
+  cost optimization
+- **Full-Stack AI Delivery:** Python, TypeScript/Node.js, React/Next.js, cloud deployment and
+  operations
+
 ### Target roles (Generative & Agentic AI)
 
 **Forward Deployed Engineer (FDE) is the anchor/priority family — search it first — but the
@@ -153,9 +180,12 @@ Full professional proficiency in English; native Spanish speaker.
 - 17+ years in digital/technology roles (entrepreneurship, web/software development, digital
   marketing, and — since ~2022 — enterprise generative AI).
 - ~4 years each in Python, ML, GenAI, LLM/NLP, and prompt engineering.
-- **Current role:** AI Development Lead at TopNetworks Inc. (since Feb 2025) — leads AI
-  strategy, architecture, and full-stack delivery for performance-publishing platforms across
-  the U.S., U.K., Mexico, and Latin America.
+- **Most recent role:** AI Development Lead at TopNetworks Inc. · Independent
+  (Feb 2025 – Jun 2026, 1 year 4 months) — led AI strategy, architecture, and full-stack
+  delivery for performance-publishing platforms across the U.S., U.K., Mexico, and Latin
+  America.
+- **Ongoing:** Prompt Engineer and AI Consultant — Juan Jaramillo · Independent
+  (Nov 2022 – present, 4 years).
 - **Signature projects (internal AI-native SaaS ecosystem at TopNetworks):**
   - **EmailGenius** — AI email generation (Vertex AI, PostgreSQL).
   - **TrafficGenius** — invalid-traffic detection & analytics (BigQuery, Cloud Armor).
@@ -164,9 +194,9 @@ Full professional proficiency in English; native Spanish speaker.
   - **Social Media Genius** — AI content generation (Next.js 16, React 19.2, Astro 6, Gemini
     on GCP).
 - **Core skills:** Python, JS/TS, SQL, Next.js (16 App Router), React 19.2, Astro 6,
-  Tailwind CSS v4, WordPress, Vertex AI/Gemini, LangChain, LangGraph, CrewAI, PEFT/RLHF, GCP
-  (Cloud Run, Compute Engine, Cloud SQL, BigQuery, Cloud Armor, Cloud DNS), PostgreSQL,
-  Supabase, Firebase, Docker, Vercel, Cursor / AI-assisted development.
+  Tailwind CSS v4, WordPress, Vertex AI/Gemini, LangChain, LangGraph, CrewAI, MCP, PEFT/RLHF,
+  GCP (Cloud Run, Compute Engine, Cloud SQL, BigQuery, Cloud Armor, Cloud DNS),
+  PostgreSQL 18, Supabase, Firebase, Docker, PM2, Vercel, Cursor / AI-assisted development.
 - **AI & dev tools:** n8n, Zapier, Make.com, Cursor, Visual Studio Code, Google Antigravity,
   LangChain, LangGraph, CrewAI.
 - **Forward-Deployed-Engineer skills:** RAG architectures, vector databases (Chroma, PGVector),
@@ -487,6 +517,11 @@ user-confirmed facts in `SKILL.md` (if the two ever disagree, `SKILL.md` wins).
 
 ### Headline
 
+**CV headline (authoritative — use this for applications and outreach):**
+"Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack
+Architect"
+
+**Current public LinkedIn headline (legacy — background only):**
 "AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt
 Engineer • Professional Vibe Coder"
 
@@ -531,29 +566,37 @@ Intelligence (AI)
 IT Consulting, Web Design, User Experience Design (UED), Web Development, Application
 Development, Mobile Application Development, Cloud Application Development
 
-### Education
+### Education (CV — authoritative)
 
-University of Toronto (listed on profile; no further detail was surfaced without opening the
-education detail page).
+- **Platzi** — Prompt Engineer with emphasis on ChatGPT (Feb 2023 – Apr 2023, 2 months);
+  certified course, remote.
+- **University of Toronto** — Generative AI for Business: Driving Growth and Competitive
+  Advantage (Dec 2022 – Feb 2023, 3 months); certified diploma, remote.
+- **University of Michigan** — Social Network Analysis: Digital Communication & Contents
+  (Sep 2013 – Dec 2013, 3 months); certified course, remote.
+- **Universidad Central** — Advertising and Marketing (Feb 2002 – Nov 2007, 5 years);
+  professional degree, on-site.
 
 ### Experience timeline (most recent first)
 
-**Prompt Engineer** — Juan Jaramillo (self) — Nov 2022 – Present (3 yrs 9 mos)
+**Prompt Engineer and AI Consultant** — Juan Jaramillo · Independent — Nov 2022 – Present
+(4 years, per CV)
 Prompt Engineer, expert AI consultant, UX/UI designer, front-end and back-end developer for
 AI projects.
 
-**AI Developer Lead** — Top Networks Inc. · Full-time — Feb 2025 – present, Remote (based in
-Miguel Hidalgo, CDMX, Mexico for the role's nominal location)
+**AI Developer Lead** — Top Networks Inc. — profile shows this entry as ongoing; the CV is
+authoritative and records the engagement as Feb 2025 – Jun 2026 (1 year 4 months),
+Independent, Bogotá D.C. Metropolitan Area · Remote.
 "We deliver value to users and advertisers by optimizing the digital interactions and user
 experience between them."
 
-**Project Lead Developer** — TopNetworks Inc. — Feb 2025 – present (same tenure as above; two
+**Project Lead Developer** — TopNetworks Inc. — Feb 2025 – Jun 2026 (same tenure as above; two
 profile entries for the same employer/period)
-Leads AI strategy, architecture, and full-stack development for TopNetworks' performance
+Led AI strategy, architecture, and full-stack development for TopNetworks' performance
 publishing platforms serving the U.S., U.K., Mexico, and Latin America. Designed and built
 the internal SaaS ecosystem (EmailGenius, TrafficGenius, RouteGenius, Social Media Genius).
 Stack: Next.js 16 (App Router), TypeScript, React 19.2, Astro 6, Tailwind CSS v4, Vertex AI
-(Gemini 3), PostgreSQL, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine,
+(Gemini 3), PostgreSQL 18, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine,
 Cloud DNS), PM2, Docker, Vercel.
 
 **Prompt & Machine Learning Engineer & AI Consultant** — Juan Jaramillo | Prompt Engineer 🤖

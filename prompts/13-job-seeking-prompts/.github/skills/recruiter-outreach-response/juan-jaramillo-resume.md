@@ -1,21 +1,34 @@
 # Juan Miguel Jaramillo Gaviria
 
-## AI Development Lead, Full-Stack Architect, and Serial Tech Entrepreneur
+## Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack Architect
 
 📍 Bogotá, Colombia  
 📧 [juanamillo@proton.me](mailto:juanamillo@proton.me)  
 📞 [+57 305 420 6139](tel:+573054206139)  
 🌐 [juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app)
 
+> **Target roles:** Forward Deployed Engineer (FDE) is the priority/anchor role, within a
+> broader scope of Generative & Agentic AI engineering roles — Applied AI Engineer, GenAI
+> Engineer, LLM Engineer, Agentic AI Engineer, and AI Solutions Architect.
+
 ---
 
 ## Professional Summary
 
-AI Development Lead, full-stack architect, and serial technology entrepreneur with more than 17 years of experience in digital and technology initiatives.
+I am an AI Development Lead and full-stack engineer focused on building production-grade Generative AI and agentic systems that deliver measurable business outcomes. I combine product strategy, solution architecture, and hands-on implementation to take AI initiatives from discovery through deployment across U.S. and Latin American markets.
 
-Since 2022, I have specialized in enterprise generative AI development, LLM fine-tuning (PEFT, RLHF), and AI-native product engineering. I currently lead AI strategy and platform development at TopNetworks Inc., designing AI-powered SaaS tools for the U.S., U.K., Mexico, and Latin American markets.
+I have experience building LLM applications, workflow automations, and enterprise integrations using Python, TypeScript/JavaScript, LangGraph, CrewAI, MCP, and modern model ecosystems, including OpenAI, Anthropic, Google, and open-source technologies. I also have strong experience delivering cloud-native solutions.
 
-Deep experience in Next.js, TypeScript, Vertex AI, GenAI and LLMs, Machine Learning, Prompt Engineering, and cloud-native full-stack development on Google Cloud.
+As AI Development Lead at TopNetworks Inc., I led AI strategy, solution architecture, and full-stack implementation for an enterprise GenAI SaaS ecosystem serving the U.S., U.K., Mexico, and Latin America. I am targeting roles such as Forward Deployed Engineer, Applied AI Engineer, GenAI Engineer, LLM Engineer, Agentic AI Engineer, and AI Solutions Architect.
+
+## Focus Areas
+
+- **Forward Deployed AI Engineering:** Business problem discovery, rapid prototyping, production rollout
+- **Generative AI Product Development:** RAG, copilots, assistants, AI SaaS features
+- **Agentic AI Systems:** Multi-agent orchestration, tool calling, planner/executor patterns, durable workflows
+- **LLMOps and AI Reliability:** Evaluation frameworks, regression testing, observability, safety guardrails
+- **AI Solution Architecture:** API and data design, integration strategy, scalability and cost optimization
+- **Full-Stack AI Delivery:** Python, TypeScript/Node.js, React/Next.js, cloud deployment and operations
 
 ---
 
@@ -34,7 +47,8 @@ _Key Focus:_ Prompt Engineering Techniques & Best Practices, Hallucination Risk 
   - **TrafficGenius**: Invalid traffic detection and security analytics with BigQuery + Cloud Armor.
   - **RouteGenius**: Probabilistic traffic distribution with Supabase.
   - **Social Media Genius**: Social content generation with an AI canvas editor.
-- **Stack:** Next.js 15-16 (App Router), TypeScript, React 19, Astro 5, Tailwind CSS v4, Vertex AI (Gemini 2.5 Flash), PostgreSQL, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS), PM2, Docker, Vercel.
+- Delivered systems directly against live production traffic and partner/stakeholder integrations — owning discovery-to-production rollout, evaluation suites for non-deterministic LLM behavior, and production reliability rather than demos.
+- **Stack:** Next.js 16 (App Router), TypeScript, React 19.2, Astro 6, Tailwind CSS v4, Vertex AI (Gemini 3), PostgreSQL 18, Google BigQuery, GCP (Cloud Run, Cloud Armor, Compute Engine, Cloud DNS), PM2, Docker, Vercel.
 
 ---
 
@@ -97,19 +111,37 @@ _Aug. 2009 – Oct. 2012 (3 years 3 months)_
 - **GenAI and LLMs** — _Advanced_
 - **AI-Based Automation** — _Advanced_
 - **Hallucination Risk Management** — _Advanced_
-- **JavaScript** — _Advanced_
 - **ReactJS** — _Advanced_
-- **Python** — _Advanced / Intermediate_
-- **Machine Learning** — _Advanced / Intermediate_
+- **JavaScript** — _Intermediate / Advanced_
+- **Machine Learning** — _Intermediate / Advanced_
+- **Python** — _Intermediate_
 
 ---
 
-## AI Tools
+## AI & Dev Tools
 
+- **n8n** — _Advanced_
+- **Zapier** — _Advanced_
+- **Make.com** — _Advanced_
+- **Cursor** — _Advanced_
+- **Visual Studio Code** — _Advanced_
+- **Google Antigravity** — _Advanced_
 - **LangChain** — _Advanced_
 - **LangGraph** — _Advanced_
 - **CrewAI** — _Advanced_
-- **Vertex AI A2A** — _Advanced_
+
+---
+
+## AI Engineering & Integration Skills and Tools
+
+- RAG architectures
+- Vector databases (Chroma, PGVector)
+- MCP servers/tools & custom integrations
+- LLM evaluation suites
+- Docker/containers
+- CI/CD (GitHub Actions)
+- Systems integration (REST, Webhooks)
+- LLM Skills
 
 ---
 
