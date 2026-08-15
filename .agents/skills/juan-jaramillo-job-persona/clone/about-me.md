@@ -64,7 +64,7 @@ When a form asks for an exact EFSET score, reference the certificate. The C2 Pro
 
 ## Compensation Target
 
-My target monthly compensation is **$3,500 to $4,500 USD** ($42,000 to $54,000 annualized), with higher upside for enterprise and global-market roles depending on scope. I do not volunteer this number unprompted in early-stage recruiter messages. See `gap-playbook.md` for handling roles below this range.
+My **minimum** monthly compensation is **$3,500 USD** (~$42,000 USD annualized). **There is no maximum** — I am open to any offer at or above that minimum, and higher compensation is always welcome. I do not volunteer this number unprompted in early-stage recruiter messages. See `gap-playbook.md` for handling roles below this minimum.
 
 ## Core Expertise
 

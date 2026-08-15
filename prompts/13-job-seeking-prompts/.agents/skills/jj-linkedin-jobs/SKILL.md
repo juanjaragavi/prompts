@@ -137,9 +137,13 @@ roles, and Juan's proof points for each, read `references/fde-role-definition.md
 
 ## Compensation target
 
-USD $3,500–$4,500/month, or the annual equivalent (~USD $42,000–$54,000/year). Quote this
-range (or state "open to negotiation within this band") whenever a screening question asks
-for desired/expected salary.
+**Minimum: USD $3,500/month** (annual equivalent ~USD $42,000/year). **There is no
+maximum.** Quote this minimum (and state that there is no upper limit) whenever a
+screening question asks for desired/expected salary.
+
+A role may only be discarded for compensation reasons when the stated pay is
+explicitly **below** USD $3,500/month (or its annual/hourly equivalent). Never
+discard, deprioritize, or flag an opportunity because the compensation is high.
 
 ## Work authorization
 
@@ -216,7 +220,7 @@ Flag/skip postings that:
 - Require on-site presence outside the four listed cities.
 - Explicitly require U.S./U.K./EU citizenship, green card, or visa sponsorship with no remote
   option.
-- Pay meaningfully below the target compensation band with no stated flexibility.
+- Pay explicitly below the $3,500/month minimum with no stated flexibility. Never skip a role for paying above any figure — there is no upper limit.
 
 ## Applying (Easy Apply / forms)
 

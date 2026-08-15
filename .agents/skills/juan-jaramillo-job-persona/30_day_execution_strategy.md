@@ -3,7 +3,7 @@
 **Candidate:** Juan Miguel Jaramillo Gaviria  
 **Positioning Headline:** Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack Architect  
 **Target Locations:** Bogotá, Medellín (Colombia), Mexico City (Mexico), Greater Buenos Aires (Argentina), or Remote (Colombia-based)  
-**Target Monthly Compensation:** $3,500 – $4,500 USD (Annualized: $42,000 – $54,000 USD)  
+**Minimum Monthly Compensation:** $3,500 USD (Annualized: $42,000 USD) — **no maximum**  
 **Date of Execution Plan:** July 8, 2026
 
 ---
@@ -35,7 +35,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 ### Track 1: AI-Based Development (Enterprise & Deep ML Integration)
 
 - **Strategic Focus:** Positioning lens for FDE postings centered on model selection, custom RAG pipelines, fine-tuning, and multi-agent orchestration inside client environments.
-- **Target Compensation:** $200k – $253k USD Annually (Enterprise/Global market premium) or $3,500 – $4,500 USD monthly (LatAm local/regional target)
+- **Compensation:** minimum $3,500 USD monthly (LatAm local/regional floor); $200k+ USD annually is realistic at the enterprise/global end. No maximum applies at any tier.
 - **Target Job Titles:**
   - AI Engineering Lead
   - LLM/GenAI Engineer
@@ -63,7 +63,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 ### Track 2: Vibe Coding & AI-Native Product Engineering
 
 - **Strategic Focus:** High-velocity development roles where AI is used as a core system building-block and developer accelerator.
-- **Target Compensation:** $137k – $200k USD Annually (Global remote-first market)
+- **Target Compensation:** $137k+ USD Annually (Global remote-first market)
 - **Target Job Titles:**
   - AI-Native Product Engineer
   - Full-Stack AI Developer
@@ -86,7 +86,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 ### Track 3: CMS + React/Next.js Architecture (Legacy Modernization)
 
 - **Strategic Focus:** Modernizing massive, slower monolithic content platforms into decoupled/headless Next.js or Astro configurations.
-- **Target Compensation:** $80k – $158k USD Annually (Freelance / Agency / Hybrid)
+- **Target Compensation:** $80k+ USD Annually (Freelance / Agency / Hybrid)
 - **Target Job Titles:**
   - Headless WordPress Architect
   - Full-Stack CMS Developer

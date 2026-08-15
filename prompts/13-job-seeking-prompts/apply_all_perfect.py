@@ -26,7 +26,7 @@ CANDIDATE = {
     "linkedin": "https://www.linkedin.com/in/juan-jaramillo-ai/",
     "github": "https://github.com/juanjaragavi",
     "portfolio": "https://juanjaramilloai.vercel.app",
-    "expected_salary_usd": "4500",
+    "expected_salary_usd": "3500",
     "notice_period": "Immediate",
     "years_experience": "17",
     "years_ai_experience": "4",
@@ -263,7 +263,7 @@ async def handle_application(index, company, job_title, platform, url, context):
                 await resume_input.set_input_files(RESUME_VIBE_CODING)
                 await page.wait_for_timeout(3000)
                 
-            await page.fill("#field-61", "$42,000 - $54,000 USD")
+            await page.fill("#field-61", "$42,000 USD minimum, no maximum")
             await page.fill("#field-65", "17 years software engineering, 4 years AI/ML")
             
             try:
@@ -315,7 +315,7 @@ async def handle_application(index, company, job_title, platform, url, context):
             try:
                 ctc_input = await page.query_selector("input[name*='ctc'], input[name*='salary'], input[placeholder*='salary'], input[placeholder*='expectations']")
                 if ctc_input:
-                    await ctc_input.fill("$3,500 - $4,500 USD / month")
+                    await ctc_input.fill("$3,500 USD / month minimum, no maximum")
             except Exception as e:
                 print("Expected CTC field fill error:", e)
                 

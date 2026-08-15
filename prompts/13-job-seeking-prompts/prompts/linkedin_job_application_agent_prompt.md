@@ -37,7 +37,7 @@ through the other families in priority order. Rotate through these accepted titl
 ```
 
 **Employment types:** Full-time, Contract, Temporary, Hourly.  
-**Compensation floor:** $3,500 USD/month, or $25 USD/hour for hourly engagements.  
+**Compensation minimum:** $3,500 USD/month, or $25 USD/hour for hourly engagements. **No maximum** — never skip a role for paying more.  
 **Target Applications:** 10 high-quality matches per campaign.
 
 ---
@@ -138,14 +138,14 @@ A posting qualifies when the title matches a family above, or when its core resp
 **Priority Campaign (Freelance/Hourly):**
 
 - Minimum: $25 USD/hour
-- Target Range: $25–$60 USD/hour
-- Ideal: $40–$60 USD/hour
+- No maximum — any rate at or above $25/hour qualifies
+- Preferred: $40 USD/hour or higher
 
 **Full-Time Campaign:**
 
-- Monthly: $3,500–$4,500 USD
-- Annual Equivalent: $42,000–$54,000 USD
-- Open to negotiation within this band
+- Monthly minimum: $3,500 USD (no maximum)
+- Annual equivalent minimum: $42,000 USD (no maximum)
+- No maximum; open to any offer at or above the minimum
 
 ### Availability
 
@@ -268,7 +268,7 @@ For each job listing, verify ALL of these before proceeding:
 
 - [ ] Title matches a target role family (FDE variants prioritized), OR the description's core responsibility is building, deploying, evaluating, or operating Generative AI / Agentic AI / LLM systems (client-embedded production code, custom APIs/ETL/RAG/agent integrations, last-mile deployment as the strongest signal)
 - [ ] Employment type: Full-time, Contract, Temporary, or Hourly
-- [ ] Compensation: $3,500+ USD/month, or $25+ USD/hour for hourly engagements
+- [ ] Compensation: at least $3,500 USD/month, or at least $25 USD/hour for hourly engagements (no maximum — never skip a role for paying more)
 - [ ] If no rate or salary is visible, check the job description for compensation language. If compensation is entirely absent, SKIP the listing and log reason as "No compensation disclosed."
 - [ ] Location: Remote (Colombia-friendly) OR one of 4 target cities
 - [ ] Not requiring U.S./U.K./EU local work authorization as a hard requirement
@@ -278,7 +278,7 @@ For each job listing, verify ALL of these before proceeding:
 
 - Skip: non-AI role — generic front-end, back-end, or full-stack with no AI component, CMS/WordPress, UI/UX design, pure pre-sales Solutions Engineer with no build responsibility, or pure Technical Account Manager
 - Skip: primarily data analysis, BI, reporting, or dashboarding
-- Skip: salary/rate below minimum threshold
+- Skip: salary/rate explicitly below the minimum ($3,500/month or $25/hour). Never skip a role for paying above any figure — there is no maximum.
 - Skip: on-site in non-target cities
 - Skip: requires visa sponsorship for U.S./U.K./EU with no remote option
 - Skip: already applied (check LinkedIn's "Applied" label)
@@ -318,8 +318,8 @@ STEP 6: HANDLE screening questions
   → Years of Experience: Use chart below
   → Work Authorization: "Yes" (Colombia); "No, remote contractor only" (US/UK/EU)
   → Desired Compensation:
-      • Hourly: "$25-60/hour" or "$40/hour preferred"
-      • Monthly: "$3,500-4,500 USD"
+      • Hourly: "$25/hour minimum, no maximum ($40+/hour preferred)"
+      • Monthly: "$3,500 USD minimum, no maximum"
   → Availability: "Immediately"
   → Sponsorship: "No sponsorship needed — remote contractor"
   → Language: "English: Professional proficiency; Spanish: Native"
@@ -401,13 +401,13 @@ STEP 13: CHECK COMPLETION
 
 ```
 "What is your desired hourly rate?"
-→ $25-60 USD/hour, with $40/hour as my target for freelance work.
+→ My minimum is $25 USD/hour, with no upper limit; $40/hour or above is preferred for freelance work.
 
 "What is your desired monthly salary?"
-→ $3,500-4,500 USD per month, open to discussion based on scope and benefits.
+→ My minimum is $3,500 USD per month, with no upper limit; open to discussion based on scope and benefits.
 
 "What is your desired annual salary?"
-→ $42,000-54,000 USD annually, negotiable based on total compensation package.
+→ My minimum is $42,000 USD annually, with no upper limit; negotiable based on total compensation package.
 ```
 
 #### Availability & Notice Period
@@ -608,7 +608,7 @@ For additional context and details, refer to these supporting files:
 
 All campaigns prioritize FDE first, then broaden across the Generative & Agentic AI families. Only the filters differ.
 
-### Campaign A: Full-Time ($3,500-4,500/mo)
+### Campaign A: Full-Time ($3,500+/mo)
 
 **Keywords (priority order):** Forward Deployed Engineer / FDE / Forward Deployed AI Engineer / Agentic AI Engineer → AI Engineer / GenAI Engineer / LLM Engineer / RAG Engineer → AI Platform / MLOps / LLMOps Engineer  
 **Filters:** Full-time  

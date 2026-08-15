@@ -197,7 +197,7 @@ Bogotá, Colombia"""
         await page.fill("#QA_11736010", outside_text)
         
         # Salary expectations
-        await page.fill("#QA_11736011", "3500 - 4500 USD")
+        await page.fill("#QA_11736011", "3500+ USD (minimum, no maximum)")
         
         # Previous monthly salary
         prev_salary_text = "In my last role as AI Development Lead at TopNetworks Inc., my compensation was equivalent to $4,000 USD/month (as an independent contractor/remote developer)."
@@ -272,7 +272,7 @@ Bogotá, Colombia"""
                     "Industries": industries_text,
                     "Preferred company type": "Open to all",
                     "Worked outside home country": outside_text,
-                    "Salary expectation": "3500 - 4500 USD",
+                    "Salary expectation": "3500+ USD (minimum, no maximum)",
                     "Previous monthly salary": prev_salary_text,
                     "LinkedIn profile": "https://www.linkedin.com/in/juan-jaramillo-ai/"
                 }

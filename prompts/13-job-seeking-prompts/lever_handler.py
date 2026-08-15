@@ -255,9 +255,9 @@ class LeverFormHandler(JobApplicationBot):
         if "current location" in haystack or "location" in haystack:
             return str(candidate.get("location") or "Bogotá, Colombia")
         if "salary b2b gross" in haystack or "gross monthly usd" in haystack or "minimum amount" in haystack:
-            return str(candidate.get("target_monthly_usd") or "4500")
+            return str(candidate.get("target_monthly_usd") or "3500")
         if "salary" in haystack and "usd" in haystack:
-            return str(candidate.get("target_range_monthly") or "$3,500 - $4,500 USD / month")
+            return str(candidate.get("target_range_monthly") or "$3,500 USD / month minimum, no maximum")
         if "aws/gcp certification" in haystack:
             return "No formal AWS or GCP certification yet. My strongest production cloud experience is on Google Cloud, including Vertex AI, Cloud Run, BigQuery, Compute Engine, and Cloud Armor."
         if "experience working with aws" in haystack or "aws services" in haystack:
@@ -283,7 +283,7 @@ class LeverFormHandler(JobApplicationBot):
         if "provide your region" in haystack or "region" == haystack.strip():
             return "Colombia"
         if "b2b contract" in haystack or "gross monthly usd" in haystack or "salary" in haystack:
-            return str(candidate.get("target_range_monthly") or "$3,500 - $4,500 USD / month")
+            return str(candidate.get("target_range_monthly") or "$3,500 USD / month minimum, no maximum")
         if "seniority level" in haystack:
             title = job_title.lower()
             if "architect" in title:

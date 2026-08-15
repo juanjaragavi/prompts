@@ -122,7 +122,8 @@ Agentic AI Engineer, Lead MLOps / LLMOps Engineer, AI Solutions Architect, Head 
 
 ### Compensation target
 
-USD **$3,500–$4,500 / month**, or the annual equivalent (~USD **$42,000–$54,000 / year**).
+**Minimum: USD $3,500 / month** (annual equivalent ~USD **$42,000 / year**).
+**There is no maximum.**
 Quote this range (or "open to negotiation within this band") when asked for expected salary.
 Do not volunteer salary in early-stage recruiter messages unless asked.
 
@@ -166,8 +167,9 @@ Full professional proficiency in English; native Spanish speaker.
 - **Authorized to work in Colombia?** Yes.
 - **Authorized in U.S./U.K./EU?** No; no sponsorship needed — remote/contractor only.
 - **Require visa sponsorship?** No.
-- **Expected salary:** "USD $3,500–$4,500 per month, or the annual equivalent (~USD
-  $42,000–$54,000 per year). Open to discussing specifics based on scope and benefits."
+- **Expected salary:** "My minimum is USD $3,500 per month, or the annual equivalent
+  (~USD $42,000 per year). There is no upper limit — open to discussing higher
+  compensation based on scope, seniority, and benefits."
 - **Notice period / availability:** "Immediately — actively applying and available to start
   right away."
 - **Willingness to relocate:** "Open to on-site work in Bogotá, Medellín, Mexico City, or

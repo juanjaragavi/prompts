@@ -24,7 +24,7 @@ CANDIDATE = {
     "linkedin": "https://www.linkedin.com/in/juan-jaramillo-ai/",
     "github": "https://github.com/juanjaragavi",
     "portfolio": "https://juanjaramilloai.vercel.app",
-    "expected_salary_usd": "4500",
+    "expected_salary_usd": "3500",
     "notice_period": "Immediate",
     "years_experience": "17",
     "years_ai_experience": "4",
@@ -318,7 +318,7 @@ async def handle_application(index, company, job_title, platform, url, context):
             # 2. legally permissioned to work in Canada: select NO
             # 3. years of experience: fill "17+ years software development, 4 years AI/ML"
             # 4. willing to work in office Calgary: select NO
-            # 5. salary expectations: fill "$42,000 - $54,000 USD"
+            # 5. salary expectations: fill minimum "$42,000 USD" (no maximum)
             try:
                 # Fill textboxes
                 text_inputs = await page.query_selector_all("textarea, input[type='text']")
@@ -326,7 +326,7 @@ async def handle_application(index, company, job_title, platform, url, context):
                 for ti in text_inputs:
                     parent_text = await page.evaluate("el => el.closest('div').textContent", ti)
                     if "salary" in parent_text.lower():
-                        await ti.fill("$42,000 - $54,000 USD")
+                        await ti.fill("$42,000 USD minimum, no maximum")
                     elif "years of experience" in parent_text.lower() or "how many years" in parent_text.lower():
                         await ti.fill("17+ years software development, 4 years AI/ML")
                         
@@ -375,7 +375,7 @@ async def handle_application(index, company, job_title, platform, url, context):
             try:
                 ctc_input = await page.query_selector("input[name*='ctc'], input[name*='salary'], input[placeholder*='salary'], input[placeholder*='expectations']")
                 if ctc_input:
-                    await ctc_input.fill("$3,500 - $4,500 USD / month")
+                    await ctc_input.fill("$3,500 USD / month minimum, no maximum")
             except Exception as e:
                 print("Error with CTC input:", e)
                 

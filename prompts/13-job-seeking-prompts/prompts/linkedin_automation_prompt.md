@@ -36,7 +36,7 @@ Immediately skip and exclude only genuinely non-AI roles:
 - Employment Type: Full-Time or High-Value Contract roles.
 - Work Modes: Remote or Hybrid (on-site only in target geographies).
 - Target Geographies: Bogota (Colombia), Medellín (Colombia), Mexico City (Mexico), or Greater Buenos Aires (Argentina). If a role is remote, it must be legally open to candidates located in Colombia.
-- Target Compensation Range: $3,500 to $4,500 USD monthly ($42,000 to $54,000 USD annualized equivalent). If salary is hidden, proceed only if the company is highly credible and the role matches one of the target role families perfectly.
+- Compensation minimum: $3,500 USD monthly ($42,000 USD annualized equivalent), with no maximum. Only discard a role on compensation when the pay is explicitly below this minimum. If salary is hidden, proceed only if the company is highly credible and the role matches one of the target role families perfectly.
 
 ## Execution Rules & Browser Workflow
 

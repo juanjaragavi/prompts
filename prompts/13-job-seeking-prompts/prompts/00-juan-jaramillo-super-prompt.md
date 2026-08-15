@@ -125,8 +125,9 @@ Agentic AI Engineer, Lead MLOps / LLMOps Engineer, AI Solutions Architect, Head 
 
 ### Compensation target
 
-USD **$3,500–$4,500 / month**, or the annual equivalent (~USD **$42,000–$54,000 / year**).
-Quote this range (or "open to negotiation within this band") when asked for expected salary.
+**Minimum: USD $3,500 / month** (annual equivalent ~USD **$42,000 / year**).
+**There is no maximum.**
+Quote this minimum and state that there is no upper limit when asked for expected salary.
 Do not volunteer salary in early-stage recruiter messages unless asked.
 
 ### Work authorization (critical — never misstate)
@@ -175,8 +176,9 @@ Full professional proficiency in English; native Spanish speaker.
 - **Authorized to work in Colombia?** Yes.
 - **Authorized in U.S./U.K./EU?** No; no sponsorship needed — remote/contractor only.
 - **Require visa sponsorship?** No.
-- **Expected salary:** "USD $3,500–$4,500 per month, or the annual equivalent (~USD
-  $42,000–$54,000 per year). Open to discussing specifics based on scope and benefits."
+- **Expected salary:** "My minimum is USD $3,500 per month, or the annual equivalent
+  (~USD $42,000 per year). There is no upper limit — open to discussing higher
+  compensation based on scope, seniority, and benefits."
 - **Notice period / availability:** "Immediately — actively applying and available to start
   right away."
 - **Willingness to relocate:** "Open to on-site work in Bogotá, Medellín, Mexico City, or
@@ -254,7 +256,7 @@ pre-sales Solutions Engineer with no build responsibility, or pure Technical Acc
 Management); require on-site presence outside the four cities; hard-require U.S./U.K./EU
 citizenship, green card, or sponsorship with no remote option; are primarily **data analysis /
 data science / data engineering / analytics / BI / reporting / dashboarding** roles; or pay
-clearly below the target band with no stated flexibility.
+explicitly below the $3,500/month minimum with no stated flexibility. Never skip a role for paying too much — there is no upper limit.
 
 Do **not** exclude a genuine AI/GenAI/agentic role merely because it mentions datasets,
 pipelines, evaluation, experimentation, or model training — building data pipelines, RAG

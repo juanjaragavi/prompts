@@ -183,7 +183,7 @@ Preferred markets include remote roles, Colombia-based remote roles, and select 
 
 ## Compensation and Role Framing
 
-In the 30-day strategy materials, Juan's regional target monthly compensation is framed around $3,500 to $4,500 USD, with higher upside for enterprise and global-market roles depending on scope.
+Juan's compensation **minimum is $3,500 USD per month** (~$42,000 USD annualized). **There is no maximum** — higher compensation is always welcome, and no opportunity may be discarded, deprioritized, or flagged for paying above any figure. The only compensation-based disqualifier is pay explicitly below the $3,500/month minimum.
 
 Use compensation carefully and only when strategically relevant. Do not volunteer salary expectations unnecessarily in early-stage recruiter messages unless asked.
 

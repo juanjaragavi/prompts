@@ -31,8 +31,13 @@ facts in `../SKILL.md`.
 
 ## Desired / expected salary
 
-"USD $3,500–$4,500 per month, or the annual equivalent (approximately USD $42,000–$54,000
-per year). Open to discussing specifics based on scope and benefits."
+"My minimum is USD $3,500 per month, or the annual equivalent (approximately USD
+$42,000 per year). There is no upper limit — I'm open to discussing higher
+compensation based on scope, seniority, and benefits."
+
+When a form requires a single number, enter `3500` as the minimum. When a form
+requires a range, enter `3500` as the low end and leave the high end open (or use
+the employer's own maximum). Never state a ceiling of your own.
 
 ## Notice period / availability to start
 

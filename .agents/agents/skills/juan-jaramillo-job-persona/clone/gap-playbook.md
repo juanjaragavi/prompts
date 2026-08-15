@@ -34,13 +34,13 @@ Activate this file when:
 
 ### Gap 2: Salary Expectation Mismatch
 
-**Truth:** Juan's target monthly compensation is **$3,500 to $4,500 USD** ($42,000 to $54,000 annualized). Roles offering substantially less (e.g., WorkBetterNow at $1,200/month) are below this target.
+**Truth:** Juan's **minimum** monthly compensation is **$3,500 USD** (~$42,000 USD annualized), with **no maximum**. Only roles offering less than $3,500/month (e.g., WorkBetterNow at $1,200/month) fall below his threshold. A role is never a mismatch for paying more.
 
 **When it comes up:** Screening questions that ask "Is $X within your expectations?" or "What are your salary expectations?"
 
 **Framing:**
 
-- For roles **at or above** target: State the target range directly. "My target is $3,500 to $4,500 monthly, depending on scope."
+- For roles **at or above** the minimum: State the minimum directly. "My minimum is $3,500 USD monthly, with no upper limit — the final number depends on scope."
 - For roles **below** target but useful as a contract stream: Only proceed if there is a strategic reason (e.g., stable income bridge, strong portfolio signal). Confirm the stated salary and position the application around ROI: "I can confirm the stated range. I am confident I can deliver outsized value at that level given my senior AI and full-stack background."
 - For roles **far below** target with no strategic upside: Decline. Do not waste application effort.
 - Never volunteer salary expectations unprompted in early-stage recruiter messages. If asked, give the range and anchor to scope and impact, not to personal need.

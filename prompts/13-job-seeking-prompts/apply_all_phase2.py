@@ -195,7 +195,7 @@ class EnhancedMultiPlatformBot(LeverFormHandler):
         await self.fill_field(page, selectors["location"], self.candidate["location"], "location")
         await self.fill_field(page, selectors["company"], self.candidate["company"], "company")
         await self.upload_file(page, selectors["resume"], resume_path, "resume")
-        await self.fill_field(page, selectors["salary"], "$42,000 - $54,000 USD", "salary_expectations")
+        await self.fill_field(page, selectors["salary"], "$42,000 USD minimum, no maximum", "salary_expectations")
         
         experience_text = f"{self.candidate['years_experience']} years software engineering, {self.candidate['years_ai_experience']} years AI/ML"
         await self.fill_field(page, selectors["experience"], experience_text, "experience")

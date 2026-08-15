@@ -48,11 +48,21 @@ candidate:
   open_to_consulting: true
 
   # Compensation & Expectations
-  target_monthly_usd: '4500'
-  target_annual_usd: '54000'
-  target_range_monthly: '$3,500 - $4,500 USD / month'
-  target_range_annual: '$42,000 - $54,000 USD / year'
-  target_range_usd_annual: '$42,000 - $54,000'
+  # POLICY: $3,500 USD/month is a MINIMUM. There is NO maximum.
+  # Never discard, deprioritize, or flag an opportunity for paying above any
+  # figure. The only compensation-based disqualifier is pay explicitly below
+  # the stated minimum.
+  minimum_monthly_usd: '3500'
+  minimum_annual_usd: '42000'
+  minimum_hourly_usd: '25'
+  maximum_monthly_usd: null # no maximum
+  maximum_annual_usd: null # no maximum
+  salary_has_maximum: false
+  target_monthly_usd: '3500'
+  target_annual_usd: '42000'
+  target_range_monthly: '$3,500 USD / month minimum (no maximum)'
+  target_range_annual: '$42,000 USD / year minimum (no maximum)'
+  target_range_usd_annual: '$42,000 minimum, no maximum'
   negotiate_based_on: 'Role scope, company stage, equity potential'
 
   # Work Authorization & Requirements
@@ -440,7 +450,7 @@ job_search:
         'Google Cloud',
         'Databricks',
       ]
-    compensation: '$3,500-$4,500 USD monthly ($42k-$54k USD annually); $25-60 USD/hour for contract engagements'
+    compensation: 'Minimum $3,500 USD monthly ($42k USD annually) with no maximum; minimum $25 USD/hour for contract engagements with no maximum'
     excluded_titles:
       [
         'AI Engineer',

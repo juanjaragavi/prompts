@@ -35,8 +35,8 @@ All Juan Jaramillo's professional data has been integrated into the automation s
 
 **Compensation:**
 
-- Target Monthly: $3,500 - $4,500 USD
-- Target Annual: $42,000 - $54,000 USD
+- Minimum Monthly: $3,500 USD (no maximum)
+- Minimum Annual: $42,000 USD (no maximum)
 - Flexible based on role scope and company stage
 
 **Work Authorization:**
@@ -151,21 +151,21 @@ All Juan Jaramillo's professional data has been integrated into the automation s
 - Focus: High-leverage AI/ML roles
 - Target Companies: Rappi, Falabella, Provectus, Oowlish, CBTW Americas, Google Cloud, Anthropic
 - Target Roles: AI Engineering Lead, LLM Engineer, AI Solutions Architect, Senior ML Engineer (GenAI)
-- Compensation: $200k-$253k USD Annually (enterprise market)
+- Compensation: $200k+ USD Annually (enterprise market)
 
 **Track 2: Vibe Coding / AI-Native Product**
 
 - Focus: High-velocity AI-native product engineering
 - Target Companies: Replit, Webflow, Stripe, Vercel, Supabase, Retool
 - Target Roles: AI-Native Product Engineer, Full-Stack AI Developer, Forward Deployed Engineer
-- Compensation: $137k-$200k USD Annually
+- Compensation: $137k+ USD Annually
 
 **Track 3: CMS + React/Next.js**
 
 - Focus: Modern web architecture and headless migrations
 - Target Companies: WP Engine, Pantheon, Automattic, Digital agencies
 - Target Roles: Headless WordPress Architect, React/Next.js Specialist
-- Compensation: $80k-$158k USD Annually (Freelance/Agency)
+- Compensation: $80k+ USD Annually (Freelance/Agency)
 
 ### 9. **Job Search Metrics** (30-Day Target)
 

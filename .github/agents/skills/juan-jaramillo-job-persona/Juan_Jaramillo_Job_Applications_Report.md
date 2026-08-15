@@ -74,7 +74,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
 - **Positioning & Fit:** 100% fit on location (Bogotá, Colombia is in LATAM) and system requirements (Juan owns a modern Mac matching the requirements). Juan's background of building internal SaaS solutions at TopNetworks (EmailGenius, TrafficGenius) is a perfect match for "replacing paid SaaS with custom internal tools".
 - **Resume Variant:** Use the **Vibe Coding & AI-Native Engineering** resume. It emphasizes rapid, iterative AI-assisted development (Claude Code, GitHub Copilot) and fits the "rapid prototyping" ethos of this role perfectly.
 - **Screening Questions Strategy:**
-  - _Salary:_ Although Juan's target is $3,500 - $4,500, if he wishes to secure this role as a stable contract stream, he must check "Yes" to confirm the $1,200/month expectation. He can position himself as an incredibly high-ROI hire who can build complex tools in a quarter of the normal time.
+  - _Salary:_ Although Juan's target is $3,500+, if he wishes to secure this role as a stable contract stream, he must check "Yes" to confirm the $1,200/month expectation. He can position himself as an incredibly high-ROI hire who can build complex tools in a quarter of the normal time.
   - _Last Position Essay (Max 999 chars):_ Draft a response highlighting his role as AI Development Lead at TopNetworks: "As AI Development Lead at TopNetworks, I designed, built, and shipped several internal SaaS tools (EmailGenius, TrafficGenius, RouteGenius) that replaced expensive third-party subscriptions. I utilized Next.js 16, TypeScript, Python, and Vertex AI. I led rapid prototyping using AI-assisted environments (Cursor, Copilot), which significantly reduced engineering time and software licensing costs."
   - _English Test:_ Complete the 15-minute EFSET test immediately. Juan’s professional English is highly advanced; obtaining a C1/C2 certificate will be a strong validation signal.
 
@@ -282,7 +282,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
 
 #### **Customized Recommendations for Juan Jaramillo:**
 
-- **Positioning & Fit:** This is an outstanding match. Juan’s target compensation ($42k - $54k) fits comfortably within BJAK’s $95k - $144k remote salary structure. His experience building **TrafficGenius** (invalid traffic and security analytics using BigQuery and Cloud Armor) is a perfect showcase of "operations automation, risk reviews, and fraud/security automation" inside a production platform—directly aligning with BJAK's neobank domain.
+- **Positioning & Fit:** This is an outstanding match. Juan’s target compensation ($42k+) fits comfortably within BJAK’s $95k - $144k remote salary structure. His experience building **TrafficGenius** (invalid traffic and security analytics using BigQuery and Cloud Armor) is a perfect showcase of "operations automation, risk reviews, and fraud/security automation" inside a production platform—directly aligning with BJAK's neobank domain.
 - **Resume Variant:** Use the **AI/LLM Engineering** resume. It highlights his Vertex AI, Google BigQuery, and Supabase database integrations, and his expertise with LLaMA (which BJAK specifically lists in their core stack).
 - **Application Strategy:**
   - In his resume and cover letter, highlight his work on **TrafficGenius** and **RouteGenius** as production-grade systems deployed in GCP that handle real-time data under security, cost, and latency constraints.
@@ -320,7 +320,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
   - **Mandatory Form Dropdowns & Questions:**
     1. _What is your Current Location?_ (Delhi NCR, Bangalore, Pune, Hyderabad, Mumbai, **Any Other** - Select "Any Other" for remote outside India).
     2. _What is your current CTC (Current Cost to Company)?_ (Text).
-    3. _What is your expected CTC?_ (Text - Juan can specify his target of $3,500 - $4,500 USD monthly, converted or explicitly stated).
+    3. _What is your expected CTC?_ (Text - Juan can specify his target of $3,500+ USD monthly, converted or explicitly stated).
     4. _What is your notice period?_ (90 Days, 60 Days, 45 Days, 30 Days, 15 Days, **Immediate Joiner** - Select "Immediate Joiner").
     5. _How soon are you able to join?_ (Text - e.g., "Immediately").
     6. _Years of experience in B2B SaaS space:_ (No SaaS, 1-2 years, 3-5 years, **6+ years** - Select "6+ years").
@@ -333,7 +333,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
 - **Resume Variant:** Use the **Vibe Coding & AI-Native Engineering** resume. It emphasizes rapid API integrations, workflow automation, and his work building custom SaaS tools quickly, which aligns with Netomi’s no-code/low-code platform execution.
 - **Application Strategy:**
   - Select "Any Other" for location and specify Bogotá, Colombia. State that he is fully set up as a remote contractor and aligned with US timezones (which is a massive advantage for US enterprise accounts like Delta Airlines).
-  - For the "Expected CTC" field, enter: "$3,500 - $4,500 USD / Month" to keep it highly competitive yet attractive.
+  - For the "Expected CTC" field, enter: "$3,500+ USD / Month" to keep it highly competitive yet attractive.
 
 ---
 
@@ -373,7 +373,7 @@ Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows,
 - **Positioning & Fit:** Outstanding fit. Juan has 16+ years of tech experience. In his TopNetworks role, he built **TrafficGenius** (specifically designed for invalid traffic detection and security analytics utilizing BigQuery and GCP Cloud Armor), which directly matches the AI security, data classification, and protection requirements of this role. His work as an independent consultant covers **Hallucination Risk Management** and **GenAI & Prompt Versioning (Git Flow)**, which are central to AI governance. He is also highly proficient in "AI coding agent-augmented development" (using Claude Code, Cursor, and Copilot).
 - **Resume Variant:** Use the **AI/LLM Engineering** resume. Ensure it prominently displays "TrafficGenius (Security Analytics & Data Protection)" and lists "OWASP LLM Top 10, Prompt Injection Defenses, GCP Cloud Armor, and Hallucination Mitigation" in the skills section.
 - **Application Strategy:**
-  - Juan’s target salary ($42k - $54k) is extremely competitive for this $85k - $124k role. He can easily request $85,000 to $95,000, which represents a massive upside for him while being highly cost-effective for Robert Half.
+  - Juan’s target salary ($42k+) is extremely competitive for this $85k - $124k role. He can easily request $85,000 to $95,000, which represents a massive upside for him while being highly cost-effective for Robert Half.
   - Since this is a corporate-level role, Juan should emphasize his senior co-founder experience, which shows he understands compliance, risk management, and regulatory frameworks (like GDPR/CCPA) from a business-owner perspective.
 
 ---

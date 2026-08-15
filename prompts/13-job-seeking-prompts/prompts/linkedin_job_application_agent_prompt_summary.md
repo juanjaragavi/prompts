@@ -35,8 +35,8 @@ Search strings (priority order):
 
 Compensation targets:
 
-- Full-time target: $3,500-4,500 USD/month
-- Hourly minimum: $25 USD/hour (preferred range $25-60 USD/hour)
+- Full-time minimum: $3,500 USD/month (no maximum)
+- Hourly minimum: $25 USD/hour (no maximum; $40+/hour preferred)
 - Target applications per campaign: 10
 
 ## Candidate Profile
@@ -123,7 +123,7 @@ Apply only if all or nearly all of the following are true:
 
 - Easy Apply is available
 - Title matches a target role family (FDE variants prioritized), or the description's core responsibility is building, deploying, evaluating, or operating Generative AI / Agentic AI / LLM systems (client-embedded production code, custom APIs/ETL/RAG/agent integrations, last-mile deployment as the strongest signal)
-- Compensation is at least $25/hour or about $3,500/month when visible
+- Compensation is at least $25/hour or $3,500/month when visible (no upper limit)
 - Location and work mode are acceptable
 - No hard local authorization requirement outside Colombia
 
@@ -180,9 +180,9 @@ Experience:
 
 Compensation:
 
-- Hourly: $25-60/hour, target $40/hour
-- Monthly: $3,500-4,500 USD
-- Annual: $42,000-54,000 USD
+- Hourly: $25/hour minimum, no maximum ($40+/hour preferred)
+- Monthly: $3,500 USD minimum, no maximum
+- Annual: $42,000 USD minimum, no maximum
 
 Availability:
 

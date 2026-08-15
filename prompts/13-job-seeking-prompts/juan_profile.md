@@ -150,7 +150,7 @@ _Note: Calculations are based on the current date of July 8, 2026._
 - **Work Authorization Status:**
   - **Answer:** Authorized to work in Colombia. Does not possess US, UK, or EU work authorization or citizenship, but is fully set up and legally authorized to work globally as an independent contractor or remote developer.
 - **Salary Expectations:**
-  - **Answer:** $3,500 to $4,500 USD monthly ($42,000 to $54,000 USD annualized equivalent)
+  - **Answer:** Minimum $3,500 USD monthly ($42,000 USD annualized equivalent), with no maximum
 
 ---
 

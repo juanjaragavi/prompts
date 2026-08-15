@@ -72,12 +72,12 @@ In LinkedIn Jobs, search for full-time roles and apply these filters whenever po
 - Job type: Full-time
 - Work mode: Remote or Hybrid
 - Geography: Only locations that are clearly within Juan’s eligible regions
-- Compensation: Prefer roles with a visible monthly salary of about $3,500 to $4,500 USD
+- Compensation: Require a visible monthly salary of at least $3,500 USD. There is no upper limit — never rule out a role for paying more
 - Technical relevance: Prefer roles explicitly using modern GenAI/agent stacks (for example Gemini 3/3, GPT-5.x, Claude 4/5, LangGraph, LangChain, RAG, evaluation workflows)
 
 If Juan’s eligible regions are not stated explicitly in the source materials, use his LinkedIn profile location and only consider roles that are either remote or clearly in that same region.
 
-If salary is shown annually, treat $42,000 to $54,000 USD per year as the equivalent range. If salary is shown in another currency, keep the role only when the converted monthly amount is reasonably close to $3,500 to $4,500 USD and the match is otherwise strong.
+If salary is shown annually, treat $42,000 USD per year as the equivalent minimum. If salary is shown in another currency, keep the role whenever the converted monthly amount is at or above $3,500 USD. Only discard a role on compensation when the pay is explicitly below that minimum — never for paying more.
 
 If salary is not shown, keep the job only when the title and responsibilities strongly match one of the target role families (FDE prioritized) and the company looks credible.
 

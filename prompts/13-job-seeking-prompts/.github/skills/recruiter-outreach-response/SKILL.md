@@ -65,9 +65,11 @@ LLM to:
 
 ## Compensation Parameters
 
-Juan's pre-approved target range is $3,500-$4,500 USD/month. Do not
-disclose the floor. If asked for a specific number below this range,
-defer to a call.
+Juan's pre-approved compensation **minimum is $3,500 USD/month**
+(~$42,000 USD/year). **There is no maximum.** Do not disclose the
+minimum unprompted. Never decline, deprioritize, or flag an
+opportunity for offering more than any figure. If a recruiter states
+a number below the $3,500/month minimum, defer to a call.
 
 ## Tone Rules
 
@@ -155,7 +157,8 @@ Before any message is sent, the LLM must self-check:
 
 - Unclear if sender is a legitimate recruiter (possible spam/phishing).
 - Recruiter asks for sensitive personal data (ID numbers, bank info).
-- Compensation figure requested exceeds what Juan has pre-approved
-  as a range (see Compensation Parameters).
+- Compensation offered falls below Juan's pre-approved $3,500 USD/month
+  minimum (see Compensation Parameters). Compensation *above* the
+  minimum is never an escalation trigger — there is no maximum.
 - Message requires a decision (accepting an offer, signing a
   contract) — always defer to Juan directly.
