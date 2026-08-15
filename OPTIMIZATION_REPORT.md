@@ -42,7 +42,7 @@
 - Deleted 15 HTML page dumps, all root-level `.png` screenshots, ~80 `.txt` page snapshots,
   ~45 JSON run dumps, 2 stray `.log` files.
 - Deleted `list_all_tabs2.py` (byte-identical to `list_all_tabs.py`); removed `resume.pdf`
-  (byte-identical to referenced `pswa9k.pdf`).
+  (byte-identical to referenced `3bha32.pdf`).
 - Kept: all `.py` scripts, `.md` reports, `prompts/`, `scripts/`, `cover_letters/`,
   `.agent/`, `.agents/`, `.github/`, `evals/`, `config.*`, `skills-lock.json`, PDFs.
 - **Everything moved to `/tmp/artifact-cleanup-20260806/` (450 files) — recoverable until reboot.**
