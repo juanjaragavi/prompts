@@ -158,7 +158,7 @@ Before any message is sent, the LLM must self-check:
 - Unclear if sender is a legitimate recruiter (possible spam/phishing).
 - Recruiter asks for sensitive personal data (ID numbers, bank info).
 - Compensation offered falls below Juan's pre-approved $3,500 USD/month
-  minimum (see Compensation Parameters). Compensation *above* the
+  minimum (see Compensation Parameters). Compensation _above_ the
   minimum is never an escalation trigger — there is no maximum.
 - Message requires a decision (accepting an offer, signing a
   contract) — always defer to Juan directly.
