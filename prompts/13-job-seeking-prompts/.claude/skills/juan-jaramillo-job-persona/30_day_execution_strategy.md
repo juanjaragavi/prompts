@@ -24,10 +24,13 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 
 ## 2. Track-Specific Action Plans
 
-> **Target role: Forward Deployed Engineer (FDE) — the only role family in scope.** The three
-> tracks below are no longer separate role targets; they are positioning lenses. Use them to
-> decide which resume variant, case study, and proof points best match a specific FDE posting's
-> technical emphasis. Every application is for a Forward Deployed Engineer role.
+> **Target roles: Forward Deployed Engineer (FDE) is the priority/anchor family — searched
+> first — within a broader scope of in-demand Generative & Agentic AI roles that are also in
+> scope** (core GenAI/model, platform/ops, evaluation/safety, and AI product/leadership
+> families; see the canonical role set in the persona `SKILL.md`). The three tracks below are
+> positioning lenses, not separate role targets: use them to decide which resume variant, case
+> study, and proof points best match a specific posting's technical emphasis. Lead with FDE
+> postings, then broaden to the wider GenAI/agentic families.
 
 ### Track 1: AI-Based Development (Enterprise & Deep ML Integration)
 
@@ -169,6 +172,6 @@ To automate and streamline the pipeline during Week 3, the following pre-built a
 - **Primary Resume URL:** <https://files.catbox.moe/3bha32.pdf>
 - **LinkedIn Profile:** <https://www.linkedin.com/in/juan-jaramillo-ai/>
 - **Portfolio Site:** <https://juanjaramilloai.vercel.app>
-- **Job Title Filters:** "Artificial Intelligence Engineer", "AI Engineer", "AI Developer", "Generative AI Developer", "Prompt Engineer", "Machine Learning Engineer"
-- **Strict Exclusions:** Skip standard BI/Data Analyst roles, generic web developer postings with no AI focus, or data pipeline roles with no ML modeling integration.
+- **Job Title Filters (priority first):** "Forward Deployed Engineer", "Forward Deployed AI Engineer", "Agentic AI Engineer", "Agent Engineer", then broaden to "AI Engineer", "Applied AI Engineer", "Generative AI Engineer", "LLM Engineer", "Prompt Engineer", "RAG Engineer", "Machine Learning Engineer", "AI Platform Engineer", "MLOps Engineer", "LLMOps Engineer", "AI Solutions Architect"
+- **Strict Exclusions:** Skip standard BI/Data Analyst/reporting roles with no ML or GenAI build work, generic web developer postings with no AI component, pure pre-sales/TAM roles with no build responsibility, or data pipeline roles with no ML/GenAI integration.
 - **Rate Limiting:** Wait 15–30 seconds between actions to bypass platform rate limiters.

@@ -1,6 +1,6 @@
 ---
 name: jj-linkedin-jobs
-description: Provides Juan Miguel Jaramillo Gaviria's complete job-search profile — confirmed contact facts, his single target role (Forward Deployed Engineer / FDE), preferred locations and work modes, compensation range, work authorization, experience history, and skill set — for searching, screening, and applying to opportunities on LinkedIn Jobs. Use this skill any time a task involves searching LinkedIn Jobs, building a LinkedIn job search URL, filtering or scoring job postings for fit, answering LinkedIn Easy Apply screening questions (years of experience, salary expectations, work authorization, sponsorship, relocation, notice period), drafting a cover letter or InMail for a job application, or filling out a LinkedIn job application — even if the request is phrased generically like "find me engineering jobs on LinkedIn" or "apply to this posting" without naming him, since this is his personal LinkedIn job-search assistant.
+description: Provides Juan Miguel Jaramillo Gaviria's complete job-search profile — confirmed contact facts, his priority/anchor target role (Forward Deployed Engineer / FDE) within a broader scope of Generative & Agentic AI engineering roles (AI Engineer, GenAI/LLM Engineer, Agentic AI Engineer, MLOps/LLMOps, AI Solutions Architect, etc.), preferred locations and work modes, compensation range, work authorization, experience history, and skill set — for searching, screening, and applying to opportunities on LinkedIn Jobs. Use this skill any time a task involves searching LinkedIn Jobs, building a LinkedIn job search URL, filtering or scoring job postings for fit, answering LinkedIn Easy Apply screening questions (years of experience, salary expectations, work authorization, sponsorship, relocation, notice period), drafting a cover letter or InMail for a job application, or filling out a LinkedIn job application — even if the request is phrased generically like "find me engineering jobs on LinkedIn" or "apply to this posting" without naming him, since this is his personal LinkedIn job-search assistant.
 ---
 
 # Juan Jaramillo — LinkedIn Job Search & Application
@@ -18,35 +18,99 @@ the user to repeat this information every time.
 - LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai/
 - GitHub: https://github.com/juanjaragavi
 
-## Target job title / search keyword — Forward Deployed Engineer only
+## Target roles — Generative & Agentic AI (FDE prioritized)
 
-**Forward Deployed Engineer (FDE) is the sole target role.** Always type
-`Forward Deployed Engineer` into the LinkedIn Jobs search box first, before anything else.
-No other role family is in scope.
+**Forward Deployed Engineer (FDE) is the anchor/priority role family — search it first.** Always
+type `Forward Deployed Engineer` into the LinkedIn Jobs search box first, before anything else.
+Once FDE results are exhausted, broaden to the wider set of in-demand Generative & Agentic AI
+roles below (all are in scope).
 
-Accepted title variants (all denote the same FDE role — use individually or OR'd together):
+### Priority family — Forward-deployed & agentic (search first)
 
 - Forward Deployed Engineer
 - Forward Deployed Engineer (FDE)
 - Forward Deployed AI Engineer
+- Agentic Forward Deployed Engineer
 - Forward Deployed Software Engineer
 - Forward Deployed Solutions Engineer
-- Senior / Lead / Staff Forward Deployed Engineer
+- Agent Engineer
+- Agentic AI Engineer
+- Senior / Lead / Staff / Principal variants of any of the above
 
-Combined LinkedIn search string:
+### Core product & model roles
+
+- AI Engineer
+- Applied AI Engineer
+- Generative AI Engineer / GenAI Engineer
+- LLM Engineer
+- Prompt Engineer
+- RAG Engineer
+- Machine Learning Engineer
+
+### Platform & ops roles
+
+- AI Platform Engineer
+- AI Infrastructure Engineer
+- AI Systems Engineer
+- MLOps Engineer
+- LLMOps Engineer
+- AI Ops / AIOps Engineer
+- AI Reliability Engineer
+
+### Evaluation & safety roles
+
+- AI Evaluator / Evals Engineer
+- AI Red Teamer
+- AI Alignment Engineer
+- AI Safety Engineer
+- Model Behavior Engineer
+
+### Product & leadership roles
+
+- AI Product Manager
+- AI Solutions Architect
+- AI Strategist
+- Chief AI Officer
+- Head of AI
+
+### AI-augmented developer (emerging)
+
+- AI-Assisted / AI-Augmented Developer
+- AI-Native Developer
+
+Any of the above may be prefixed with Senior / Lead / Staff / Principal.
+
+LinkedIn search strings (run in priority order):
 
 ```text
-"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer"
+# 1 — Priority: forward-deployed & agentic (search first)
+"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer" OR "Agentic AI Engineer" OR "Agent Engineer"
+```
+
+```text
+# 2 — Core GenAI product & model roles
+"AI Engineer" OR "Applied AI Engineer" OR "Generative AI Engineer" OR "GenAI Engineer" OR "LLM Engineer" OR "Prompt Engineer" OR "RAG Engineer" OR "Machine Learning Engineer"
+```
+
+```text
+# 3 — Platform, ops, evaluation & safety roles
+"AI Platform Engineer" OR "AI Infrastructure Engineer" OR "MLOps Engineer" OR "LLMOps Engineer" OR "AIOps Engineer" OR "AI Reliability Engineer" OR "AI Evals Engineer" OR "AI Safety Engineer"
+```
+
+```text
+# 4 — Product & leadership roles
+"AI Product Manager" OR "AI Solutions Architect" OR "AI Strategist" OR "Head of AI" OR "Chief AI Officer"
 ```
 
 A posting also qualifies when the title differs but the description's core responsibility is
-client-embedded production engineering — writing production code inside customer environments,
-building custom APIs / enterprise ETL pipelines / RAG architectures / AI agent workflows, and
-driving last-mile deployment.
+building real AI/agentic systems — writing production code, custom APIs / enterprise ETL
+pipelines / RAG architectures / AI agent workflows — and, for the FDE priority family
+specifically, client-embedded engineering and last-mile deployment inside customer environments.
 
-**Out of scope — skip these:** generic AI Engineer, Prompt Engineer, Machine Learning Engineer,
-Generative AI Engineer, AI Strategy Consultant, Vibe Coder, front-end, back-end, full-stack,
-CMS/Next.js, pre-sales Solutions Engineer, and Technical Account Manager postings.
+**Out of scope — skip these:** generic front-end, back-end, or full-stack roles with no AI
+component; CMS/Next.js roles with no AI component; pure pre-sales Solutions Engineer roles with
+no build responsibility; pure Technical Account Manager roles; and pure data-analysis / BI /
+reporting roles with no ML or GenAI build work.
 
 For the full role definition, responsibilities, competency matrix, comparison against adjacent
 roles, and Juan's proof points for each, read `references/fde-role-definition.md`.
@@ -132,9 +196,11 @@ call) to actually view results.
 
 Treat a posting as a strong match when it satisfies ALL of:
 
-1. The title is a Forward Deployed Engineer variant, OR the description's core responsibility is
-   client-embedded production engineering (production code in customer environments, custom
-   APIs/ETL/RAG/agent integrations, last-mile deployment).
+1. The title is a Forward Deployed Engineer variant (priority), OR any of the broader Generative
+   & Agentic AI role families in scope (core GenAI/model, platform/ops, evaluation/safety, or AI
+   product/leadership), OR the description's core responsibility is building real AI/agentic
+   systems (production code, custom APIs/ETL/RAG/agent integrations) — with client-embedded,
+   last-mile deployment being the strongest signal for the FDE priority family.
 2. Location is Remote (open to Colombia-based candidates) OR on-site/hybrid in one of the four
    listed cities.
 3. Compensation is at or above $3,500/month (or unspecified/negotiable).
@@ -143,8 +209,10 @@ Treat a posting as a strong match when it satisfies ALL of:
 
 Flag/skip postings that:
 
-- Are not FDE roles — generic AI Engineer, Prompt Engineer, ML Engineer, Vibe Coder, front-end,
-  back-end, full-stack, CMS/Next.js, pre-sales Solutions Engineer, or Technical Account Manager.
+- Have no AI/ML/GenAI build component — generic front-end, back-end, or full-stack roles;
+  CMS/Next.js roles with no AI component; pure pre-sales Solutions Engineer roles with no build
+  responsibility; pure Technical Account Manager roles; or pure data-analysis / BI / reporting
+  roles with no ML or GenAI modeling work.
 - Require on-site presence outside the four listed cities.
 - Explicitly require U.S./U.K./EU citizenship, green card, or visa sponsorship with no remote
   option.

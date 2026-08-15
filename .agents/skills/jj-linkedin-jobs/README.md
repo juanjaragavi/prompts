@@ -4,8 +4,9 @@ Personal LinkedIn job-search assistant skill for Juan Miguel Jaramillo Gaviria.
 
 ## Contents
 
-- `SKILL.md` — confirmed contact facts, target job titles, preferred locations/work modes,
-  compensation range, work authorization, experience, and skills.
+- `SKILL.md` — confirmed contact facts, target roles (Forward Deployed Engineer prioritized as
+  the anchor family, within a broader scope of Generative & Agentic AI roles), preferred
+  locations/work modes, compensation range, work authorization, experience, and skills.
 - `references/profile.md` — full experience timeline and public-profile detail.
 - `references/screening-answers.md` — canned answers for LinkedIn Easy Apply screening
   questions (years of experience, salary expectations, work authorization, relocation, etc.).

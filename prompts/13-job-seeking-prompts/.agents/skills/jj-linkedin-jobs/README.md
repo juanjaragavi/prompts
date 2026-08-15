@@ -4,13 +4,9 @@ Personal LinkedIn job-search assistant skill for Juan Miguel Jaramillo Gaviria.
 
 ## Contents
 
-**Target role: Forward Deployed Engineer (FDE) — the only role family in scope.** Always search
-`Forward Deployed Engineer` on LinkedIn Jobs first.
-
-- `SKILL.md` — confirmed contact facts, the FDE target role and search keywords, preferred
+- `SKILL.md` — confirmed contact facts, target roles (Forward Deployed Engineer prioritized as
+  the anchor family, within a broader scope of Generative & Agentic AI roles), preferred
   locations/work modes, compensation range, work authorization, experience, and skills.
-- `references/fde-role-definition.md` — full Forward Deployed Engineer role definition,
-  responsibilities, competency matrix, role comparison, and Juan's proof points.
 - `references/profile.md` — full experience timeline and public-profile detail.
 - `references/screening-answers.md` — canned answers for LinkedIn Easy Apply screening
   questions (years of experience, salary expectations, work authorization, relocation, etc.).

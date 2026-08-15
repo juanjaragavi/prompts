@@ -21,12 +21,15 @@ Assume the LinkedIn session is already authenticated. If a login wall, CAPTCHA, 
 
 Use these saved LinkedIn preferences as the baseline for search and screening:
 
-- Job titles (Forward Deployed Engineer only — search the first entry before anything else):
-  - Forward Deployed Engineer
-  - Forward Deployed Engineer (FDE)
-  - Forward Deployed AI Engineer
-  - Forward Deployed Software Engineer
-  - Forward Deployed Solutions Engineer
+- Job titles (Forward Deployed Engineer is the anchor/priority — search the first entry before
+  anything else — within a broader Generative & Agentic AI scope; work through the families in
+  priority order):
+  - **Forward-deployed & agentic (priority):** Forward Deployed Engineer, Forward Deployed Engineer (FDE), Forward Deployed AI Engineer, Agentic Forward Deployed Engineer, Forward Deployed Software Engineer, Forward Deployed Solutions Engineer, Agent Engineer, Agentic AI Engineer
+  - **Core product & model:** AI Engineer, Applied AI Engineer, Generative AI / GenAI Engineer, LLM Engineer, Prompt Engineer, RAG Engineer, Machine Learning Engineer
+  - **Platform & ops:** AI Platform Engineer, AI Infrastructure Engineer, AI Systems Engineer, MLOps Engineer, LLMOps Engineer, AIOps Engineer, AI Reliability Engineer
+  - **Evaluation & safety:** AI Evaluator / Evals Engineer, AI Red Teamer, AI Alignment Engineer, AI Safety Engineer, Model Behavior Engineer
+  - **Product & leadership:** AI Product Manager, AI Solutions Architect, AI Strategist, Chief AI Officer, Head of AI
+  - Any of the above prefixed with Senior / Lead / Staff / Principal
 
 - Location types:
   - On-site
@@ -47,20 +50,20 @@ Use these saved LinkedIn preferences as the baseline for search and screening:
 - Start date: Immediately, I am actively applying
 - Visibility: All LinkedIn members
 
-Use the saved job titles and locations above as the primary preference set when searching LinkedIn Jobs. Always type `Forward Deployed Engineer` into the search box first. Keep the existing full-time application focus unless a contract role is an exceptional match.
+Use the saved job titles and locations above as the primary preference set when searching LinkedIn Jobs. Always type `Forward Deployed Engineer` into the search box first, then work through the other families in priority order. Keep the existing full-time application focus unless a contract role is an exceptional match.
 
-## Target Role — Forward Deployed Engineer only
+## Target Roles — Generative & Agentic AI (FDE prioritized)
 
-Only consider jobs whose title is one of the Forward Deployed Engineer variants above, or whose core responsibility is client-embedded production engineering: writing production-grade code inside customer environments, building custom APIs, enterprise ETL data pipelines, RAG architectures, and AI agent workflows, and driving last-mile deployment from discovery to production.
+Consider jobs whose title matches one of the target families above (FDE variants prioritized), or whose core responsibility is building, deploying, evaluating, or operating Generative AI / Agentic AI / LLM systems. Client-embedded production engineering — writing production-grade code inside customer environments, building custom APIs, enterprise ETL data pipelines, RAG architectures, and AI agent workflows, and driving last-mile deployment from discovery to production — is the strongest signal and keeps top priority.
 
 ## Exclusions
 
-Do not apply to:
+Do not apply to (non-AI only):
 
-- Any non-FDE role, including generic AI Engineer, LLM Engineer, Agent Engineer, AI Developer, Prompt Engineer, Machine Learning Engineer, Vibe Coder, front-end, back-end, full-stack, CMS/WordPress, pre-sales Solutions Engineer, and Technical Account Manager postings
+- Generic front-end, back-end, or full-stack roles with no AI component, CMS/WordPress, UI/UX design, pure pre-sales Solutions Engineer with no build responsibility, and pure Technical Account Manager postings
 - Roles primarily about data analysis, data science, data engineering, analytics, reporting, business intelligence, or dashboarding
 
-Do not exclude a genuine FDE role just because it mentions datasets, pipelines, evaluation, experimentation, or model training — building client data pipelines and RAG systems is core FDE work. Exclude only roles whose primary function is data analysis or BI.
+Do not exclude a genuine AI/GenAI/agentic role just because it mentions datasets, pipelines, evaluation, experimentation, or model training — building data pipelines, RAG systems, evals, and agent workflows is core to these roles. Exclude only roles whose primary function is data analysis or BI.
 
 ## Job Filters
 
@@ -76,12 +79,12 @@ If Juan’s eligible regions are not stated explicitly in the source materials, 
 
 If salary is shown annually, treat $42,000 to $54,000 USD per year as the equivalent range. If salary is shown in another currency, keep the role only when the converted monthly amount is reasonably close to $3,500 to $4,500 USD and the match is otherwise strong.
 
-If salary is not shown, keep the job only when the title and responsibilities strongly match the Forward Deployed Engineer profile and the company looks credible.
+If salary is not shown, keep the job only when the title and responsibilities strongly match one of the target role families (FDE prioritized) and the company looks credible.
 
 ## Application Rules
 
 1. Prioritize Easy Apply listings.
-2. Apply only to Forward Deployed Engineer roles that pass the Exclusions criteria.
+2. Apply only to roles in the target families above (FDE prioritized) that pass the Exclusions criteria.
 3. Use the resume at <https://files.catbox.moe/3bha32.pdf> whenever a resume upload is requested.
 4. Answer custom questions using only verified information from the profile, website, and resume.
 5. Do not invent skills, employers, credentials, or locations.

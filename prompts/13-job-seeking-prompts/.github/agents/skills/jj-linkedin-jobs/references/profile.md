@@ -111,9 +111,12 @@ The profile itself is set to #OpenToWork and states: "Looking for Remote or On-s
 Bogota, D.C., Medellín, Mexico City, Mexico and Buenos Aires Province, Argentina."
 
 **Current target (overrides any legacy role list still shown on the profile):** Forward Deployed
-Engineer (FDE) only — see `fde-role-definition.md`. The LinkedIn "Open to work" role list should
-be updated to Forward Deployed Engineer / Forward Deployed AI Engineer / Forward Deployed
-Software Engineer.
+Engineer (FDE) is the priority/anchor role, within a broader scope of Generative & Agentic AI
+roles (AI Engineer, GenAI/LLM Engineer, Agentic AI Engineer, RAG Engineer, MLOps/LLMOps
+Engineer, AI Solutions Architect, and related families) — see `fde-role-definition.md` and the
+canonical role set in `SKILL.md`. The LinkedIn "Open to work" role list should lead with Forward
+Deployed Engineer / Forward Deployed AI Engineer / Agentic AI Engineer and also include the
+broader GenAI engineering titles.
 
 ## Other public contact point
 

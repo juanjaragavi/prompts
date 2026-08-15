@@ -51,10 +51,15 @@ remote work based from Bogotá, Colombia; not seeking relocation outside these f
 
 "Open to full-time, contract, temporary, or hourly/pay-per-project engagements."
 
-## Typical "why are you a good fit" framing (Forward Deployed Engineer)
+## Typical "why are you a good fit" framing (Forward Deployed Engineer — priority)
 
-Always frame the answer around client-embedded, last-mile production engineering — that is the
-only role being targeted.
+For Forward Deployed Engineer postings (the priority/anchor family), frame the answer around
+client-embedded, last-mile production engineering, as below. For the broader Generative &
+Agentic AI roles in scope (AI Engineer, GenAI/LLM Engineer, Agentic AI Engineer, RAG Engineer,
+MLOps/LLMOps, AI Solutions Architect, etc.), reuse the same proof points but shift the emphasis
+to match the posting — e.g. model/RAG/agent orchestration for GenAI roles, deployment
+reliability and pipelines for platform/ops roles, or architecture and stakeholder alignment for
+solutions-architect and leadership roles.
 
 > "I bring 17+ years of digital and technology delivery, with the last ~4 focused on production
 > GenAI/LLM engineering. As AI Development Lead at TopNetworks Inc. I led AI strategy,

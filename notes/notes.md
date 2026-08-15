@@ -47,36 +47,59 @@ locations. If two facts appear to conflict, prefer the values in this section.
 - **GitHub:** <https://github.com/juanjaragavi>
 - **Portfolio:** <https://juanjaramilloai.vercel.app>
 
-### Target role (exclusive)
+### Target roles (Generative & Agentic AI)
 
-**Forward Deployed Engineer (FDE) — this is the only role family to search for and apply to.**
-Always type this into the LinkedIn Jobs search box first. No other role family is in scope.
+**Forward Deployed Engineer (FDE) is the anchor/priority family — search it first — but the
+scope spans the most in-demand Generative AI and Agentic AI roles.** Prioritize FDE variants,
+then work through the other families below.
 
-Accepted title variants (all denote the same FDE role — use these as LinkedIn Jobs keywords):
+Accepted titles / keyword families (use these as LinkedIn Jobs keywords):
 
-- Forward Deployed Engineer
-- Forward Deployed Engineer (FDE)
-- Forward Deployed AI Engineer
-- Forward Deployed Software Engineer
-- Forward Deployed Solutions Engineer
-- Senior / Lead / Staff Forward Deployed Engineer
+- **Forward-deployed & agentic (priority):** Forward Deployed Engineer / FDE, Forward Deployed
+  AI Engineer, Agentic Forward Deployed Engineer, Forward Deployed Software Engineer, Forward
+  Deployed Solutions Engineer, Agent Engineer, Agentic AI Engineer.
+- **Core product & model:** AI Engineer, Applied AI Engineer, Generative AI Engineer / GenAI
+  Engineer, LLM Engineer, Prompt Engineer, RAG Engineer, Machine Learning Engineer.
+- **Platform & ops:** AI Platform Engineer, AI Infrastructure Engineer, AI Systems Engineer,
+  MLOps Engineer, LLMOps Engineer, AI Ops / AIOps Engineer, AI Reliability Engineer.
+- **Evaluation & safety:** AI Evaluator / Evals Engineer, AI Red Teamer, AI Alignment Engineer,
+  AI Safety Engineer, Model Behavior Engineer.
+- **Product & leadership:** AI Product Manager, AI Solutions Architect, AI Strategist, Chief AI
+  Officer, Head of AI.
+- **AI-augmented developer (emerging):** AI-Assisted / AI-Augmented Developer, AI-Native
+  Developer.
+- Any of the above prefixed with **Senior / Lead / Staff / Principal**.
 
-**LinkedIn Jobs search string:**
+**LinkedIn Jobs search strings (run in priority order):**
 
 ```text
-"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer"
+# 1 — Forward-deployed & agentic (search first)
+"Forward Deployed Engineer" OR "FDE" OR "Forward Deployed AI Engineer" OR "Agentic Forward Deployed Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer" OR "Agent Engineer" OR "Agentic AI Engineer"
+
+# 2 — Core GenAI product & model roles
+"AI Engineer" OR "Applied AI Engineer" OR "Generative AI Engineer" OR "GenAI Engineer" OR "LLM Engineer" OR "RAG Engineer" OR "Prompt Engineer" OR "Machine Learning Engineer"
+
+# 3 — Platform / ops / eval / safety
+"AI Platform Engineer" OR "AI Infrastructure Engineer" OR "MLOps Engineer" OR "LLMOps Engineer" OR "AIOps Engineer" OR "AI Reliability Engineer" OR "Evals Engineer" OR "AI Safety Engineer" OR "AI Alignment Engineer"
+
+# 4 — Product & leadership
+"AI Product Manager" OR "AI Solutions Architect" OR "AI Strategist" OR "Head of AI" OR "Chief AI Officer"
 ```
 
-A posting qualifies only when the title (or the description's core responsibility) is
-client-embedded production engineering: writing production code inside customer environments,
-building custom APIs/ETL/RAG/agent integrations, and driving last-mile deployment. If the
-posting is a generic AI Engineer, Prompt Engineer, ML Engineer, Vibe Coder, front-end,
-full-stack, solutions-architect (pre-sales), or technical-account-manager role, **skip it**.
+A posting qualifies when the title (or the description's core responsibility) matches one of
+the families above and centers on building, deploying, evaluating, or operating Generative
+AI / Agentic AI / LLM systems. FDE and other hands-on engineering roles keep the highest
+priority: client-embedded production engineering (writing production code inside customer
+environments, custom APIs/ETL/RAG/agent integrations, last-mile deployment) is the strongest
+match. Skip only genuinely non-AI roles (generic front-end/full-stack with no AI component,
+pure pre-sales solutions-architect with no build responsibility, technical-account-manager, or
+pure data-analysis/BI/reporting roles).
 
 ### Seniority
 
-Senior / lead / staff level FDE (Forward Deployed Engineer, Senior Forward Deployed Engineer,
-Lead Forward Deployed Engineer, Forward Deployed AI Engineer).
+Senior / lead / staff / principal level across the target families — e.g. Senior Forward
+Deployed Engineer, Lead Forward Deployed / AI Engineer, Staff GenAI Engineer, Senior LLM /
+Agentic AI Engineer, Lead MLOps / LLMOps Engineer, AI Solutions Architect, Head of AI.
 
 ### Locations & work mode
 

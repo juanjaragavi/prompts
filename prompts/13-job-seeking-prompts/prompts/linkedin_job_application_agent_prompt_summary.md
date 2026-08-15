@@ -2,25 +2,35 @@
 
 ## Mission
 
-Search, filter, and apply to **Forward Deployed Engineer (FDE)** opportunities on LinkedIn Jobs for Juan Miguel Jaramillo Gaviria. Submit only truthful, high-fit applications, follow platform rules, and require user approval before final submission.
+Search, filter, and apply to **Generative AI and Agentic AI engineering** opportunities on LinkedIn Jobs for Juan Miguel Jaramillo Gaviria — with **Forward Deployed Engineer (FDE)** as the anchor/priority role and a broader set of in-demand AI roles also in scope. Submit only truthful, high-fit applications, follow platform rules, and require user approval before final submission.
 
 ## Priority Campaign
 
-**Forward Deployed Engineer (FDE) is the only target role.** Always type `Forward Deployed Engineer` into the LinkedIn Jobs search box first, then rotate through the accepted variants below.
+**Forward Deployed Engineer (FDE) is the anchor/priority role — search it first — within a broader Generative & Agentic AI scope.** Always type `Forward Deployed Engineer` into the LinkedIn Jobs search box first, then work through the other families below in priority order.
 
-Accepted title variants:
+Accepted title families (FDE variants prioritized):
 
-1. Forward Deployed Engineer
-2. Forward Deployed Engineer (FDE)
-3. Forward Deployed AI Engineer
-4. Forward Deployed Software Engineer
-5. Forward Deployed Solutions Engineer
-6. Senior / Lead / Staff Forward Deployed Engineer
+- **Forward-deployed & agentic (priority):** Forward Deployed Engineer, Forward Deployed Engineer (FDE), Forward Deployed AI Engineer, Agentic Forward Deployed Engineer, Forward Deployed Software Engineer, Forward Deployed Solutions Engineer, Agent Engineer, Agentic AI Engineer
+- **Core product & model:** AI Engineer, Applied AI Engineer, Generative AI / GenAI Engineer, LLM Engineer, Prompt Engineer, RAG Engineer, Machine Learning Engineer
+- **Platform & ops:** AI Platform Engineer, AI Infrastructure Engineer, AI Systems Engineer, MLOps Engineer, LLMOps Engineer, AIOps Engineer, AI Reliability Engineer
+- **Evaluation & safety:** AI Evaluator / Evals Engineer, AI Red Teamer, AI Alignment Engineer, AI Safety Engineer, Model Behavior Engineer
+- **Product & leadership:** AI Product Manager, AI Solutions Architect, AI Strategist, Chief AI Officer, Head of AI
+- Any of the above prefixed with Senior / Lead / Staff / Principal
 
-Combined search string:
+Search strings (priority order):
 
 ```text
-"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer"
+# 1 — Forward-deployed & agentic (search first)
+"Forward Deployed Engineer" OR "FDE" OR "Forward Deployed AI Engineer" OR "Agentic Forward Deployed Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer" OR "Agent Engineer" OR "Agentic AI Engineer"
+
+# 2 — Core GenAI product & model roles
+"AI Engineer" OR "Applied AI Engineer" OR "Generative AI Engineer" OR "GenAI Engineer" OR "LLM Engineer" OR "RAG Engineer" OR "Prompt Engineer" OR "Machine Learning Engineer"
+
+# 3 — Platform / ops / eval / safety
+"AI Platform Engineer" OR "AI Infrastructure Engineer" OR "MLOps Engineer" OR "LLMOps Engineer" OR "AIOps Engineer" OR "AI Reliability Engineer" OR "Evals Engineer" OR "AI Safety Engineer" OR "AI Alignment Engineer"
+
+# 4 — Product & leadership
+"AI Product Manager" OR "AI Solutions Architect" OR "AI Strategist" OR "Head of AI" OR "Chief AI Officer"
 ```
 
 Compensation targets:
@@ -49,11 +59,11 @@ LinkedIn profile headline (as displayed): AI Engineer, AI Developer, AI Automati
 
 Summary: AI Development Lead, full-stack architect, and tech entrepreneur with 17+ years in digital and technology work. Since 2022 has specialized in enterprise generative AI, LLM fine-tuning, RLHF, and AI-native product engineering. Currently leads AI platform strategy and development at TopNetworks Inc., shipping production code, custom APIs, ETL pipelines, RAG systems, and agent workflows directly against live traffic and partner integrations.
 
-### Target Role — Forward Deployed Engineer only
+### Target Roles — Generative & Agentic AI (FDE prioritized)
 
-A posting qualifies when the title is an FDE variant, or when the description's core responsibility is client-embedded production engineering: writing production-grade code inside customer environments, building custom APIs, enterprise ETL data pipelines, RAG architectures, and AI agent workflows, and driving last-mile deployment.
+A posting qualifies when the title matches one of the target families above (FDE variants prioritized), or when the description's core responsibility is building, deploying, evaluating, or operating Generative AI / Agentic AI / LLM systems. Client-embedded production engineering — production-grade code inside customer environments, custom APIs, enterprise ETL data pipelines, RAG architectures, AI agent workflows, and last-mile deployment — is the strongest signal and keeps top priority.
 
-Out of scope — skip: generic AI Engineer, Prompt Engineer, LLM Engineer, Machine Learning Engineer, Generative AI Engineer, AI Strategy Consultant, Vibe Coder, AI Trainer/Testing, Front-End Developer, Full-Stack Developer, Next.js/React Developer, UI/UX Designer, CMS/WordPress Developer, pre-sales Solutions Engineer, and Technical Account Manager.
+Out of scope — skip (non-AI only): Front-End Developer, Full-Stack Developer, Next.js/React Developer, or Back-End Developer with no AI component; UI/UX Designer; CMS/WordPress Developer; pure pre-sales Solutions Engineer with no build responsibility; pure Technical Account Manager; and roles whose primary function is data analysis, BI, reporting, or dashboarding.
 
 ## Work Preferences
 
@@ -107,19 +117,19 @@ Languages:
 
 ## Search and Filtering Rules
 
-Start at LinkedIn Jobs with `Forward Deployed Engineer` in the search box, then rotate through the accepted FDE title variants. Prefer filters for Easy Apply, Remote or target cities, recent postings, and full-time/contract/temporary.
+Start at LinkedIn Jobs with `Forward Deployed Engineer` in the search box, then work through the priority-ordered role families (forward-deployed & agentic → core GenAI → platform/ops/eval/safety → product/leadership). Prefer filters for Easy Apply, Remote or target cities, recent postings, and full-time/contract/temporary.
 
 Apply only if all or nearly all of the following are true:
 
 - Easy Apply is available
-- Title is an FDE variant, or the description's core responsibility is client-embedded production engineering (production code in customer environments, custom APIs/ETL/RAG/agent integrations, last-mile deployment)
+- Title matches a target role family (FDE variants prioritized), or the description's core responsibility is building, deploying, evaluating, or operating Generative AI / Agentic AI / LLM systems (client-embedded production code, custom APIs/ETL/RAG/agent integrations, last-mile deployment as the strongest signal)
 - Compensation is at least $25/hour or about $3,500/month when visible
 - Location and work mode are acceptable
 - No hard local authorization requirement outside Colombia
 
 Skip immediately if:
 
-- The role is not an FDE role (generic AI Engineer, Prompt Engineer, ML Engineer, Vibe Coder, front-end, back-end, full-stack, CMS/WordPress, pre-sales Solutions Engineer, Technical Account Manager)
+- The role is non-AI (generic front-end, back-end, or full-stack with no AI component, CMS/WordPress, UI/UX design, pure pre-sales Solutions Engineer, or pure Technical Account Manager), or primarily data analysis/BI/reporting
 - Pay is below threshold
 - On-site in a non-target city
 - U.S./U.K./EU authorization is mandatory without remote-contractor flexibility
@@ -234,11 +244,11 @@ Always:
 
 ## Campaign Variants
 
-All campaigns target the same role — Forward Deployed Engineer. Only the filters differ.
+All campaigns prioritize FDE first, then broaden across the Generative & Agentic AI families. Only the filters differ.
 
-- Campaign A: FDE Full-Time. Minimum $3,500/month.
-- Campaign B: FDE Contract/Hourly. Minimum $25/hour.
-- Campaign C: FDE Remote-First (worldwide, Colombia-friendly). Minimum $25/hour or $3,500/month.
+- Campaign A: Full-Time. Minimum $3,500/month.
+- Campaign B: Contract/Hourly. Minimum $25/hour.
+- Campaign C: Remote-First (worldwide, Colombia-friendly). Minimum $25/hour or $3,500/month.
 
 ## Reference Files
 
@@ -247,5 +257,5 @@ All campaigns target the same role — Forward Deployed Engineer. Only the filte
 - Screening answers: prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/references/screening-answers.md
 - Search URL builder: prompts/13-job-seeking-prompts/.agents/skills/jj-linkedin-jobs/scripts/build_search_url.py
 
-Last updated: 2026-08-14
-Version: Summary 2.0 (Forward Deployed Engineer — exclusive target role)
+Last updated: 2026-08-15
+Version: Summary 3.0 (Generative & Agentic AI roles — Forward Deployed Engineer prioritized as anchor)

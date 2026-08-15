@@ -15,24 +15,39 @@ The main goal is to secure a senior-level role that combines:
 - Strong compensation aligned with impact
 - Flexibility for remote or international collaboration
 
-## Target Role — Forward Deployed Engineer (FDE) only
+## Target roles — Generative & Agentic AI (FDE prioritized)
 
-**Forward Deployed Engineer is the single target role.** Search it first on LinkedIn Jobs; no
-other role family is in scope for applications.
+**Forward Deployed Engineer is the priority/anchor role — search it first on LinkedIn Jobs —
+within a broader scope of in-demand Generative & Agentic AI roles that are also in scope.**
 
-Accepted title variants:
+Priority family — forward-deployed & agentic (search first):
 
 - Forward Deployed Engineer
 - Forward Deployed Engineer (FDE)
 - Forward Deployed AI Engineer
+- Agentic Forward Deployed Engineer
 - Forward Deployed Software Engineer
 - Forward Deployed Solutions Engineer
-- Senior / Lead / Staff Forward Deployed Engineer
+- Agent Engineer / Agentic AI Engineer
+- Senior / Lead / Staff / Principal variants of any of the above
+
+Also in scope (broadened Generative & Agentic AI families):
+
+- Core product & model: AI Engineer, Applied AI Engineer, Generative AI / GenAI Engineer, LLM
+  Engineer, Prompt Engineer, RAG Engineer, Machine Learning Engineer
+- Platform & ops: AI Platform Engineer, AI Infrastructure Engineer, AI Systems Engineer, MLOps
+  Engineer, LLMOps Engineer, AI Ops / AIOps Engineer, AI Reliability Engineer
+- Evaluation & safety: AI Evaluator / Evals Engineer, AI Red Teamer, AI Alignment Engineer, AI
+  Safety Engineer, Model Behavior Engineer
+- Product & leadership: AI Product Manager, AI Solutions Architect, AI Strategist, Chief AI
+  Officer, Head of AI
+- AI-augmented developer (emerging): AI-Assisted / AI-Augmented Developer, AI-Native Developer
 
 An FDE is a client-embedded engineer who writes production-grade code directly inside customer
 environments — building custom APIs, enterprise ETL pipelines, RAG architectures, and AI agent
 workflows — to deliver the "last mile" of enterprise software and AI integrations, and who feeds
-operational edge cases back to core engineering.
+operational edge cases back to core engineering. Lead with the FDE framing; broaden to the wider
+GenAI/agentic families where the posting emphasis fits.
 
 ## Ideal Positioning
 

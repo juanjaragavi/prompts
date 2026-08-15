@@ -1,7 +1,11 @@
 # Forward Deployed Engineer (FDE): Role Definition & Responsibilities
 
-This is the **single target role** for Juan Jaramillo's job search. Every LinkedIn Jobs search
-must start with "Forward Deployed Engineer" in the search box. No other role family is in scope.
+This is the **priority/anchor role** for Juan Jaramillo's job search — every LinkedIn Jobs search
+must start with "Forward Deployed Engineer" in the search box first. Once FDE results are
+exhausted, the search broadens to the wider set of in-demand Generative & Agentic AI roles that
+are also in scope (core GenAI/model, platform/ops, evaluation/safety, and AI product/leadership
+families — see `SKILL.md` for the full canonical list and search strings). This file details the
+FDE priority family; Juan's proof points below apply across all the broadened families.
 
 ## Overview & Definition
 
@@ -64,19 +68,25 @@ against client infrastructure, legacy systems, and specialized data pipelines to
 - **FDE vs. Technical Account Manager (TAM):** TAMs manage client relationships, SLA adherence,
   and account oversight. FDEs actively design systems architecture and write production code.
 
-## LinkedIn Jobs search keywords (use in this order)
+## LinkedIn Jobs search keywords (FDE priority family — search first)
 
 1. `Forward Deployed Engineer`
 2. `Forward Deployed Engineer (FDE)`
 3. `Forward Deployed AI Engineer`
-4. `Forward Deployed Software Engineer`
-5. `Forward Deployed Solutions Engineer`
+4. `Agentic Forward Deployed Engineer`
+5. `Forward Deployed Software Engineer`
+6. `Forward Deployed Solutions Engineer`
+7. `Agent Engineer` / `Agentic AI Engineer`
 
-Combined OR string:
+Combined OR string (priority family):
 
 ```text
-"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer"
+"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer" OR "Agentic AI Engineer" OR "Agent Engineer"
 ```
+
+After exhausting the FDE priority family, continue with the broader Generative & Agentic AI
+search strings (core GenAI/model, platform/ops/eval/safety, and product/leadership) listed in
+`SKILL.md`.
 
 ## Why Juan Jaramillo maps to this role
 
