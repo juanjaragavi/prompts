@@ -1,9 +1,14 @@
 name: OpenWiki Update
 
+# Manual only (2026-10-12). The daily schedule failed every run: first the
+# account billing lock, and underneath it the repo has neither
+# OPENROUTER_API_KEY nor LANGSMITH_API_KEY set, so `openwiki` could never run
+# (no openwiki/ directory was ever generated). Add both repository secrets
+# (Settings > Secrets and variables > Actions), then run:
+#   gh workflow run openwiki-update.yml -R juanjaragavi/prompts
+# Restore the schedule only after one manual run succeeds.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 8 * * *'
 
 permissions:
   contents: write
@@ -12,6 +17,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
