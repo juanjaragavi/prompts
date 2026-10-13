@@ -1,0 +1,42 @@
+# Dependabot (DevSpeak Labs CI/CD baseline, 2026-10-13). Weekly, one grouped PR per
+# ecosystem for minor and patch updates. Majors are ignored: they are migrations, done by hand
+# with the repo's gates, and each one would cost a CI run and hold a PR slot.
+# rebase-strategy disabled: a push to main would otherwise rebase every open PR and re-run its CI
+# (Actions minutes are shared by every repo). Comment `@dependabot rebase` to refresh one.
+# cooldown: let a release age a few days before proposing it (supply-chain hygiene; pnpm also
+# refuses very new releases by default).
+version: 2
+updates:
+  # The requirements.txt files under .agents/ and prompts/ are vendored third-party skills;
+  # they are not tracked here.
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 1
+    rebase-strategy: disabled
+    cooldown:
+      default-days: 3
+    commit-message:
+      prefix: 'build(deps)'
+    groups:
+      npm-minor-and-patch:
+        update-types: [minor, patch]
+    ignore:
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
+  # Actions are SHA- or tag-pinned; one weekly PR with every bump (majors too: an action major is
+  # usually a runtime bump and CI on the PR proves it).
+  - package-ecosystem: github-actions
+    directory: '/'
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 1
+    rebase-strategy: disabled
+    commit-message:
+      prefix: 'ci'
+    groups:
+      actions:
+        patterns: ['*']
