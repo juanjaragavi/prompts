@@ -52,7 +52,8 @@ Use these preferences as the baseline for search and screening:
   - Project-based
   - Hourly
 
-- Start date: Immediately, I am actively applying
+- Start date: confirm with Juan first (status 2026-10-10: he runs DevSpeak Labs and is open to
+  select roles; the Jul–Aug 2026 answer was "Immediately")
 - Visibility: All LinkedIn members
 
 Favor contract, temporary, hourly, and project-based opportunities. Do not prioritize full-time roles unless they explicitly include substantial teaching/capacitation responsibilities and are an exceptional match.

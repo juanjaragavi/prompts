@@ -2,7 +2,9 @@
 
 ## Current Stage
 
-Juan Jaramillo is in an active job search while continuing to operate as an independent AI/ML consultant. This stage is not a reset; it is a positioning phase to convert years of technical leadership, entrepreneurial execution, and Generative AI specialization into the next high-leverage role.
+_Status update 2026-10-10: Juan's TopNetworks Inc. role ended in June 2026. He now runs DevSpeak Labs as a solopreneur (DevSpeak, the Utilities Pro suite, TalentAssisto and several pre-launch products) and is open to select roles while running it. The July–August 2026 text below was written for an active job search. Confirm with Juan that the search is still active before you draft applications._
+
+Juan Jaramillo is open to select roles while running DevSpeak Labs and his independent AI/ML consulting practice. This stage is not a reset; it is a positioning phase to convert years of technical leadership, entrepreneurial execution, and Generative AI specialization into the next high-leverage role.
 
 ## Primary Objective
 

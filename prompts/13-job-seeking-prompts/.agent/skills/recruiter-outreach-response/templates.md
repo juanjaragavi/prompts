@@ -14,7 +14,8 @@ SKILL.md.
 
 ### Positioning statement
 
-> With 17+ years in digital/AI initiatives -- most recently as AI
+> With 17+ years in digital/AI initiatives -- today running DevSpeak
+> Labs, where I build and sell AI SaaS products, and before that as AI
 > Development Lead at TopNetworks Inc., where I built enterprise
 > GenAI SaaS tools (Next.js, Vertex AI, PostgreSQL) -- I believe
 > there's strong alignment with this role.
@@ -33,10 +34,10 @@ SKILL.md.
 
 > Hi [Recruiter Name], thank you for reaching out! I'm very
 > interested in learning more about the [Role] position. With 17+
-> years in digital/AI initiatives -- most recently as AI Development
-> Lead at TopNetworks Inc., where I built enterprise GenAI SaaS tools
-> (Next.js, Vertex AI, PostgreSQL) -- I believe there's strong
-> alignment. I'm attaching my CV, cover letter, and services
+> years in digital/AI initiatives -- today running DevSpeak Labs, and
+> before that as AI Development Lead at TopNetworks Inc., where I built
+> enterprise GenAI SaaS tools (Next.js, Vertex AI, PostgreSQL) -- I
+> believe there's strong alignment. I'm attaching my CV, cover letter, and services
 > portfolio for your review. Would you have 20 minutes this week for
 > a call? I'm based in Bogota (GMT-5). Best, Juan
 
@@ -67,7 +68,8 @@ SKILL.md.
 ### Declaracion de posicionamiento
 
 > Cuento con más de 17 años de experiencia en iniciativas
-> digitales y de IA -- recientemente como AI Development Lead en
+> digitales y de IA -- hoy dirijo DevSpeak Labs, donde construyo y
+> vendo productos SaaS de IA, y antes fui AI Development Lead en
 > TopNetworks Inc., donde diseñé herramientas SaaS de GenAI
 > empresarial (Next.js, Vertex AI, PostgreSQL) -- por lo que creo que
 > hay una gran afinidad con esta posición.

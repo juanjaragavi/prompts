@@ -98,9 +98,11 @@ a number below the $3,500/month minimum, defer to a call.
    availability, compensation range if explicitly asked and Juan has
    pre-approved a range — otherwise defer: "I'd prefer to discuss
    compensation on a call").
-3. **Brief positioning statement** (17+ years, AI/ML leadership at
-   TopNetworks Inc., Generative AI / PEFT / RLHF specialization,
-   shipped SaaS products).
+3. **Brief positioning statement** (17+ years; now runs DevSpeak Labs
+   (DevSpeak, the Utilities Pro suite); AI/ML leadership at TopNetworks
+   Inc., Feb 2025 – Jun 2026 (ended); Generative AI / PEFT / RLHF
+   specialization; shipped SaaS products). Don't describe TopNetworks
+   as his current employer.
 4. **Attachment note** (see below) — only on first substantive reply
    in a new thread, not on every follow-up message.
 5. **Clear next step** (propose call, ask for JD, confirm timezone —
@@ -141,10 +143,10 @@ Before any message is sent, the LLM must self-check:
 
 > Hi [Recruiter Name], thank you for reaching out! I'm very
 > interested in learning more about the [Role] position. With 17+
-> years in digital/AI initiatives — most recently as AI Development
-> Lead at TopNetworks Inc., where I built enterprise GenAI SaaS
-> tools (Next.js, Vertex AI, PostgreSQL) — I believe there's strong
-> alignment. I'm attaching my CV, cover letter, and services
+> years in digital/AI initiatives (today I run DevSpeak Labs, and
+> before that I was AI Development Lead at TopNetworks Inc., where I
+> built enterprise GenAI SaaS tools with Next.js, Vertex AI and
+> PostgreSQL), I believe there's strong alignment. I'm attaching my CV, cover letter, and services
 > portfolio for your review. Would you have 20 minutes this week for
 > a call? I'm based in Bogotá (GMT-5). Best, Juan
 

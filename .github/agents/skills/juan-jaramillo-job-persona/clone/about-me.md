@@ -20,9 +20,11 @@ I work across the full lifecycle:
 
 ## Professional Positioning
 
-**Priority/anchor role: Forward Deployed Engineer (FDE) — the role I lead with — within a broader scope of Generative & Agentic AI roles I am also applying to** (AI Engineer, Generative AI / GenAI Engineer, LLM Engineer, Agentic AI Engineer, RAG Engineer, Machine Learning Engineer, AI Platform / MLOps / LLMOps Engineer, AI Solutions Architect, and related families). An FDE is a client-embedded engineer who writes production-grade code directly inside customer environments — building custom APIs, enterprise ETL data pipelines, RAG architectures, and AI agent workflows — to deliver the "last mile" of enterprise software and AI integrations, and who feeds operational edge cases back to core engineering. My AI-native full-stack depth is the through-line that makes me a strong fit across all of these families.
+I run DevSpeak Labs, my solopreneur software company. It sells DevSpeak (devspeak.dev, an AI technical-translation SaaS with web, VS Code, CLI and MCP surfaces), the Utilities Pro suite (Agent Spec Smith, Prompt Guardian, Dev Text Forge, PromptForge) and TalentAssisto. I am also building gRit, MyParcero.ai, ContextCliff, AgentDiff, SkipSponsor AI and VaultSync. I am open to select roles while running DevSpeak Labs.
 
-I am currently in an active job search while continuing my independent AI/ML consulting practice. My most recent role was AI Development Lead at TopNetworks Inc. from February 2025 to June 2026, where I led AI strategy, architecture, and full-stack development for performance publishing platforms serving the U.S., U.K., Mexico, and Latin America — shipping directly against live production traffic and partner integrations rather than in a sandbox. That is the FDE profile.
+**Priority/anchor role: Forward Deployed Engineer (FDE) — the role I lead with — within a broader scope of Generative & Agentic AI roles that are also in scope** (AI Engineer, Generative AI / GenAI Engineer, LLM Engineer, Agentic AI Engineer, RAG Engineer, Machine Learning Engineer, AI Platform / MLOps / LLMOps Engineer, AI Solutions Architect, and related families). An FDE is a client-embedded engineer who writes production-grade code directly inside customer environments — building custom APIs, enterprise ETL data pipelines, RAG architectures, and AI agent workflows — to deliver the "last mile" of enterprise software and AI integrations, and who feeds operational edge cases back to core engineering. My AI-native full-stack depth is the through-line that makes me a strong fit across all of these families.
+
+My most recent employed role was AI Development Lead at TopNetworks Inc. from February 2025 to June 2026 (ended), where I led AI strategy, architecture, and full-stack development for performance publishing platforms serving the U.S., U.K., Mexico, and Latin America — shipping directly against live production traffic and partner integrations rather than in a sandbox. That is the FDE profile.
 
 In that role, I helped design and ship an internal SaaS ecosystem that included:
 
@@ -35,7 +37,7 @@ In that role, I helped design and ship an internal SaaS ecosystem that included:
 
 _Refresh before sending application materials. Calculations anchor to the start of professional AI/ML specialization in late 2022._
 
-As of July 2026, the honest rounded figures are:
+As of October 2026, the honest rounded figures are:
 
 - **Python:** ~4 years (since University of Toronto Python Programmer certification, Sep 2022)
 - **Machine Learning:** ~4 years (since 2022 AI/ML modeling work)

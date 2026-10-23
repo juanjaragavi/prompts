@@ -47,7 +47,8 @@ Use these saved LinkedIn preferences as the baseline for search and screening:
   - Full-time
   - Contract
 
-- Start date: Immediately, I am actively applying
+- Start date: confirm with Juan first (status 2026-10-10: he runs DevSpeak Labs and is open to
+  select roles; the Jul–Aug 2026 answer was "Immediately")
 - Visibility: All LinkedIn members
 
 Use the saved job titles and locations above as the primary preference set when searching LinkedIn Jobs. Always type `Forward Deployed Engineer` into the search box first, then work through the other families in priority order. Keep the existing full-time application focus unless a contract role is an exceptional match.

@@ -29,6 +29,8 @@ prompts/
 ├── 13-job-seeking-prompts/ (44 prompts) 💼
 ```
 
+> **Historical:** categories `01-email-marketing` and `02-topfinanzas-content` date from Juan's TopNetworks era, which ended in June 2026. Keep them for reference only. They aren't current work.
+
 ## 📧 01. Email Marketing & ActiveCampaign (5 prompts)
 
 **Path:** `prompts/01-email-marketing/`  

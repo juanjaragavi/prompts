@@ -1,7 +1,54 @@
-# Prompt Relocation Notice
+# AI Recruiter Outreach & Networking Assistant
 
-The canonical prompt content for this recruiter outreach document now lives in:
+## Goal
 
-- `prompts/ai-recruiter-outreach-networking.md`
+Use LinkedIn in a browser to find recruiters and HR professionals who are actively hiring **Forward Deployed Engineers (FDEs)** (the priority role family) or other Generative & Agentic AI engineering roles, send a connection request to each relevant person, and stop after 10 successful outreach attempts.
 
-If a workflow previously loaded this file directly, load the canonical file above instead.
+## Target Search Criteria
+
+> Status (2026-10-10): Juan runs DevSpeak Labs and is open to select roles. Confirm with Juan that the search is active before running this outreach.
+
+Look for Technical Recruiters or HR Managers at target IT companies or within the IT industry who are actively recruiting Forward Deployed Engineers — client-embedded engineers who write production code inside customer environments and deliver the last mile of enterprise software and AI integrations.
+
+Prioritize profiles that show one or more of these signals:
+
+- The LinkedIn "Hiring" profile frame
+- Recent posts about Forward Deployed Engineer openings
+- Headline keywords such as "Technical Recruiter", "AI Recruiter", "GenAI Recruiter", "ML Recruiter", or "Talent Acquisition" at a company known to hire FDEs
+
+## Outreach Message
+
+Send this connection request message to each relevant profile, replacing the placeholders with the correct details:
+
+"Hello [Name], I noticed you are hiring Forward Deployed Engineers. I am a client-embedded AI/full-stack engineer with 17+ years shipping production integrations — custom APIs, data pipelines, RAG, and agent workflows — inside enterprise environments, and I would be glad to share my resume for any relevant openings. Best regards, Juan Jaramillo."
+
+## Browser Workflow
+
+1. Open LinkedIn in the browser.
+2. Search for Technical Recruiters and HR Managers who match the target criteria.
+3. Review each profile carefully before sending a request.
+4. Confirm the person is relevant based on their profile frame, recent posts, headline, or hiring activity.
+5. Send the connection request using the outreach message above.
+6. Avoid duplicates and skip profiles that are already connected, already messaged, or not clearly relevant.
+7. Stop after 10 successful connection requests.
+
+## Operating Rules
+
+- Use a human-like pacing in the browser and avoid rapid repeated actions.
+- Do not message profiles that do not clearly indicate recruiting or hiring activity for Forward Deployed Engineer roles or other Generative & Agentic AI engineering roles.
+- If a profile cannot be verified as relevant, skip it and move on.
+- If LinkedIn shows a login wall, CAPTCHA, or verification challenge, pause and report the blocker instead of trying to bypass it.
+
+## Reporting
+
+After processing 10 profiles, provide a summary report listing:
+
+- Name
+- Job title
+- Company
+
+Also include:
+
+- total number of connection requests sent
+- any profiles skipped and why
+- any blockers encountered during the process

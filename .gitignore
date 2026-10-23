@@ -19,3 +19,9 @@ prompts/13-job-seeking-prompts/*_filled_form.png
 **/.venv/
 .pytest_cache/
 .freebuff/
+
+# Dependencies are installed, never committed
+node_modules/
+
+# Private: freelance account and payment notes stay local (public repo)
+prompts/13-job-seeking-prompts/freelance-platforms/

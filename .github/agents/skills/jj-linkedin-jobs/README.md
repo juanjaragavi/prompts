@@ -8,6 +8,8 @@ Personal LinkedIn job-search assistant skill for Juan Miguel Jaramillo Gaviria.
   the anchor family, within a broader scope of Generative & Agentic AI roles), preferred
   locations/work modes, compensation range, work authorization, experience, and skills.
 - `references/profile.md` — full experience timeline and public-profile detail.
+- `references/fde-role-definition.md` — Forward Deployed Engineer role definition, competency
+  matrix, and how Juan's background maps to it.
 - `references/screening-answers.md` — canned answers for LinkedIn Easy Apply screening
   questions (years of experience, salary expectations, work authorization, relocation, etc.).
 - `scripts/build_search_url.py` — generate LinkedIn job-search URLs.

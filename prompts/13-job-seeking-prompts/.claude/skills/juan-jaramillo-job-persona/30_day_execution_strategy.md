@@ -6,6 +6,8 @@
 **Minimum Monthly Compensation:** $3,500 USD (Annualized: $42,000 USD) — **no maximum**  
 **Date of Execution Plan:** July 8, 2026
 
+> **Status note (2026-10-10):** Juan wrote this plan in July 2026 and updated its targeting in August 2026. His TopNetworks Inc. role ended in June 2026, and he now runs DevSpeak Labs as a solopreneur (DevSpeak, the Utilities Pro suite, TalentAssisto). Treat the plan as historical. Confirm with Juan whether a job search is still active before you act on it.
+
 ---
 
 ## 1. Executive Summary & Brand Positioning

@@ -57,7 +57,7 @@ Application positioning: Forward Deployed Engineer — client-embedded AI and fu
 
 LinkedIn profile headline (as displayed): AI Engineer, AI Developer, AI Automation Expert, Machine Learning Engineer, Prompt Engineer, Professional Vibe Coder
 
-Summary: AI Development Lead, full-stack architect, and tech entrepreneur with 17+ years in digital and technology work. Since 2022 has specialized in enterprise generative AI, LLM fine-tuning, RLHF, and AI-native product engineering. Currently leads AI platform strategy and development at TopNetworks Inc., shipping production code, custom APIs, ETL pipelines, RAG systems, and agent workflows directly against live traffic and partner integrations.
+Summary: AI Development Lead, full-stack architect, and tech entrepreneur with 17+ years in digital and technology work. Since 2022 has specialized in enterprise generative AI, LLM fine-tuning, RLHF, and AI-native product engineering. Led AI platform strategy and development at TopNetworks Inc. (Feb 2025 – Jun 2026, ended), shipping production code, custom APIs, ETL pipelines, RAG systems, and agent workflows directly against live traffic and partner integrations. Since June 2026 runs DevSpeak Labs (DevSpeak, the Utilities Pro suite, TalentAssisto) and is open to select roles (status 2026-10-10).
 
 ### Target Roles — Generative & Agentic AI (FDE prioritized)
 
@@ -186,8 +186,9 @@ Compensation:
 
 Availability:
 
-- Start date: immediately
-- Notice period: none
+- Status (2026-10-10): runs DevSpeak Labs, open to select roles. Confirm with Juan before applying.
+- Start date: confirm with Juan (the Jul–Aug 2026 answer was "immediately")
+- Notice period: none (no current employer)
 
 Relocation and work mode:
 

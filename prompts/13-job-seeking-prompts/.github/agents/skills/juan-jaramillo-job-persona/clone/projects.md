@@ -18,9 +18,13 @@ Juan’s projects typically sit at the intersection of:
 
 He is strongest when building systems that are both technically meaningful and commercially relevant.
 
-## TopNetworks Era
+## DevSpeak Labs (current, since June 2026)
 
-Juan’s most recent high-signal work comes from his role as AI Development Lead at TopNetworks Inc. This period is especially important because it reflects modern, production-oriented AI delivery across multiple internal SaaS systems.
+Juan runs DevSpeak Labs, his solopreneur software company. It ships DevSpeak (devspeak.dev, an AI technical-translation SaaS with web, VS Code, CLI `@devspeak/cli` and MCP `@devspeak/mcp` surfaces), the Utilities Pro suite (Agent Spec Smith, Prompt Guardian, Dev Text Forge, PromptForge; $5.99/mo or $59.99/yr) and TalentAssisto. gRit, MyParcero.ai, ContextCliff, AgentDiff, SkipSponsor AI and VaultSync are in development. Before quoting a usage, revenue or customer figure, check that it is verified.
+
+## TopNetworks Era (Feb 2025 – Jun 2026, ended)
+
+Juan’s most recent employed high-signal work comes from his role as AI Development Lead at TopNetworks Inc. This period is especially important because it reflects modern, production-oriented AI delivery across multiple internal SaaS systems.
 
 ### EmailGenius
 

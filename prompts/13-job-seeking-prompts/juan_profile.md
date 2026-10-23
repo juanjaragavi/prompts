@@ -22,7 +22,7 @@
 - **Exact Dates:** Feb. 2025 – Jun. 2026 (1 year 4 months)
 - **Location:** Bogotá D.C. Metropolitan Area · Remote
 - **Achievements & Responsibilities:**
-  - Lead AI strategy, architecture, and full-stack development for TopNetworks’ performance publishing platforms, serving the U.S., U.K., Mexico, and Latin America.
+  - Led AI strategy, architecture, and full-stack development for TopNetworks’ performance publishing platforms, serving the U.S., U.K., Mexico, and Latin America.
   - Designed and built the internal SaaS ecosystem:
     - **EmailGenius:** AI email generation utilizing Vertex AI + PostgreSQL.
     - **TrafficGenius:** Invalid traffic detection and security analytics utilizing BigQuery + Cloud Armor.

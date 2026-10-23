@@ -33,7 +33,7 @@ The main relationship categories relevant to Juan’s workflows are:
 
 ## Recruiters
 
-Recruiters are a high-priority relationship category during the current job-search phase.
+Recruiters are a high-priority relationship category whenever Juan is considering roles (status 2026-10-10: open to select roles while running DevSpeak Labs).
 
 When communicating with recruiters:
 
@@ -50,7 +50,7 @@ Common recruiter communication behaviors:
 - Ask whether the role is still open when appropriate
 - Mention that the CV is attached
 - Tailor the message to the role
-- State that Juan is actively available for relevant opportunities
+- State that Juan is open to select roles while running DevSpeak Labs (confirm availability and start date with Juan first)
 
 The tone should be polished, warm, and efficient.
 

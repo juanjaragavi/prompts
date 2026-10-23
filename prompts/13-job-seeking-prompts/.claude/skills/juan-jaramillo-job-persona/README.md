@@ -17,5 +17,6 @@ standards, and technical positioning for AI/ML, full-stack, and job-search workf
 
 ## Canonical location
 
-This directory (`.agents/skills/juan-jaramillo-job-persona/`) is the single canonical copy.
-Do not duplicate it elsewhere in the repo.
+The canonical source for this skill is the `juanjaragavi/skills` repository
+(`juan-jaramillo-job-persona/`). Copies under `.agents/skills/`, `.github/agents/skills/` and
+similar folders in other repositories are mirrors. Edit the canonical copy, then re-sync the mirrors.

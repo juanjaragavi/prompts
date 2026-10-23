@@ -136,6 +136,12 @@ def main() -> int:
         )
     lines.append("```")
     lines.append("")
+    lines.append(
+        "> **Historical:** categories `01-email-marketing` and `02-topfinanzas-content` "
+        "date from Juan's TopNetworks era, which ended in June 2026. Keep them for "
+        "reference only. They aren't current work."
+    )
+    lines.append("")
 
     for d, files in categories:
         num = d.name[:2]

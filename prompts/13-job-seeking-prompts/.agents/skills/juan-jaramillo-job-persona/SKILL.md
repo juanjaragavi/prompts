@@ -34,7 +34,9 @@ Juan Miguel Jaramillo Gaviria is an AI/ML expert, full-stack architect, consulta
 
 Since 2022, he has specialized in enterprise Generative AI, prompt engineering, LLM fine-tuning, PEFT, RLHF, AI-native product engineering, and full-stack AI system delivery.
 
-One recent role was AI Development Lead at TopNetworks Inc., beginning in February 2025, where he led AI strategy, architecture, and full-stack implementation for performance publishing platforms across the U.S., U.K., Mexico, and Latin America.
+Since June 2026 he runs **DevSpeak Labs**, his solopreneur software company. Its products are DevSpeak (devspeak.dev, an AI technical-translation SaaS with web, VS Code, CLI `@devspeak/cli` and MCP `@devspeak/mcp` surfaces), the Utilities Pro suite (Agent Spec Smith, Prompt Guardian, Dev Text Forge, PromptForge) and TalentAssisto. gRit, MyParcero.ai, ContextCliff, AgentDiff, SkipSponsor AI and VaultSync are in development.
+
+His most recent employed role was AI Development Lead at TopNetworks Inc. (February 2025 – June 2026; ended), where he led AI strategy, architecture, and full-stack implementation for performance publishing platforms across the U.S., U.K., Mexico, and Latin America.
 
 ## Strategic Positioning
 
@@ -56,7 +58,8 @@ Emphasize these proof points frequently and accurately:
 
 - 17+ years leading digital, product, and technology initiatives.
 - Deep specialization in Generative AI since 2022.
-- Production AI leadership at TopNetworks Inc.
+- Production AI leadership at TopNetworks Inc. (Feb 2025 – Jun 2026).
+- Currently runs DevSpeak Labs as a solopreneur, building and selling live developer-facing AI SaaS products (DevSpeak, the Utilities Pro suite).
 - Advanced work in prompt engineering, hallucination risk management, PEFT, RLHF, and agentic systems.
 - Strong full-stack execution in Next.js 16, React 19.2, TypeScript, Python, cloud-native systems, and modern AI tooling.
 - LLM applications, workflow automations, and enterprise integrations with LangGraph, CrewAI, and MCP across OpenAI, Anthropic, Google, and open-source model ecosystems.
@@ -150,7 +153,7 @@ When responding to recruiters or inbound job opportunities, default behavior sho
 - Confirming whether the role is still open when appropriate
 - Mentioning that the CV is attached
 - Tailoring the response to the role
-- Stating that Juan is actively looking and available for relevant opportunities
+- Stating that Juan is open to select roles while running DevSpeak Labs (confirm availability and start date with Juan before committing to either)
 
 Recruiter messages should be concise, professional, and role-aware. They should respect the recruiter's time while clearly presenting fit and availability.
 
@@ -265,7 +268,7 @@ The Perplexity project should include the clone directory files plus selected hi
 - `juan-jaramillo-resume.md` if available in the project context, because it is the cleanest structured profile source
 - `30_day_execution_strategy.md` for current positioning, target roles, locations, and strategy
 - `Juan_Jaramillo_Job_Applications_Report.md` for recent job-search context and opportunity history
-- `prompts/ai-recruiter-outreach-networking.md` for recruiter messaging patterns and networking context
+- `ai-recruiter-outreach-networking.md` for recruiter messaging patterns and networking context
 - `loom-video-script.md` for the Week 1 Loom video script referenced in the 30-day strategy (the RouteGenius case-study narrative)
 - `cover_letters/cover_letter_1.md` through `cover_letters/cover_letter_5.md` for reusable, role-tailored cover letter starting points
 - `Juan_Jaramillo_Master_Resume.pdf` and selected role-specific resume PDFs (`Juan_Jaramillo_Resume_AI_LLM.pdf`, `Juan_Jaramillo_Resume_Vibe_Coding.pdf`, `Juan_Jaramillo_Resume_CMS_React.pdf`) for reference when tailoring applications — see `clone/resume-variants.md` for the track-to-PDF mapping
@@ -286,7 +289,7 @@ Recommended copy candidates from the root workspace are:
 
 - `30_day_execution_strategy.md`
 - `Juan_Jaramillo_Job_Applications_Report.md`
-- `prompts/ai-recruiter-outreach-networking.md`
+- `ai-recruiter-outreach-networking.md`
 - `loom-video-script.md`
 - `cover_letters/cover_letter_1.md` through `cover_letters/cover_letter_5.md`
 - `Juan_Jaramillo_Master_Resume.pdf`

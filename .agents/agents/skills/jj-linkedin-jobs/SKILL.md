@@ -128,7 +128,10 @@ roles, and Juan's proof points for each, read `references/fde-role-definition.md
 
 ## Availability & employment type
 
-- Start date: Immediately — actively applying, available to start right away.
+- Current status (2026-10-10): Juan's TopNetworks role ended in June 2026. He now runs DevSpeak Labs
+  (DevSpeak, the Utilities Pro suite, TalentAssisto) and is open to select roles while running it.
+- Start date: confirm with Juan before answering. Jul–Aug 2026 answers said "Immediately", but
+  whether the search is still active hasn't been confirmed since he started running DevSpeak Labs.
 - Employment types wanted: Full-time, Contract, Temporary, Hourly.
   - Note: LinkedIn's native `f_JT` filter does not have a distinct "Hourly" value (only
     Full-time/Part-time/Contract/Temporary/Volunteer/Internship/Other). When filtering by UI,

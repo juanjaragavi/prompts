@@ -30,8 +30,8 @@ All Juan Jaramillo's professional data has been integrated into the automation s
 
 - Total Years: 17+ years
 - AI/ML Specialization: 4 years
-- Current Role: AI Development Lead at TopNetworks Inc.
-- Employment Status: Active job search (independent consultant)
+- Most Recent Employed Role: AI Development Lead at TopNetworks Inc. (Feb 2025 – Jun 2026, ended)
+- Employment Status (2026-10-10): Runs DevSpeak Labs; open to select roles (confirm with Juan)
 
 **Compensation:**
 

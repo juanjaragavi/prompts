@@ -4,6 +4,8 @@ Prepared for: **Juan Miguel Jaramillo Gaviria**
 Current Date: July 10, 2026  
 Target Position Focus: AI/ML Engineering, Prompt Engineering, Agentic Workflows, Vibe Coding & SaaS Architecture
 
+> **Status note (2026-10-10):** This report is a historical July 2026 snapshot. Juan's TopNetworks Inc. role ended in June 2026, and he now runs DevSpeak Labs (DevSpeak, the Utilities Pro suite, TalentAssisto). He is open to select roles. Confirm with Juan before acting on any listing below.
+
 ---
 
 ## 1. Executive Summary Table

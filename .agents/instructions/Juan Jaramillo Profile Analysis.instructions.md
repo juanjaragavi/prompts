@@ -27,9 +27,10 @@ Engineer • Professional Vibe Coder"
 Juan Miguel Jaramillo Gaviria is an AI Development Lead, full-stack architect, and serial
 tech entrepreneur with 17+ years leading digital/technology initiatives. Since 2022 he has
 specialized in enterprise generative AI development, LLM fine-tuning (PEFT), RLHF, and
-AI-native product engineering. He currently leads AI platform strategy and development at
-TopNetworks Inc., designing AI-powered SaaS tools for the U.S., U.K., Mexico, and Latin
-America markets.
+AI-native product engineering. He led AI platform strategy and development at TopNetworks
+Inc. (Feb 2025 – Jun 2026, ended), designing AI-powered SaaS tools for the U.S., U.K., Mexico,
+and Latin America markets. Since June 2026 he runs DevSpeak Labs (DevSpeak, the Utilities Pro
+suite, TalentAssisto) and is open to select roles (status 2026-10-10).
 
 As an entrepreneur he co-founded TRADEBOG S.A.S. in 2020 (Director of Innovation &
 Technology, cannabis-derived products for the cosmetics/wellness industry) and co-founded
@@ -74,14 +75,14 @@ education detail page).
 Prompt Engineer, expert AI consultant, UX/UI designer, front-end and back-end developer for
 AI projects.
 
-**AI Developer Lead** — Top Networks Inc. · Full-time — Feb 2025 – present, Remote (based in
+**AI Developer Lead** — Top Networks Inc. · Full-time — Feb 2025 – Jun 2026 (ended), Remote (based in
 Miguel Hidalgo, CDMX, Mexico for the role's nominal location)
 "We deliver value to users and advertisers by optimizing the digital interactions and user
 experience between them."
 
-**Project Lead Developer** — TopNetworks Inc. — Feb 2025 – present (same tenure as above; two
+**Project Lead Developer** — TopNetworks Inc. — Feb 2025 – Jun 2026 (same tenure as above; two
 profile entries for the same employer/period)
-Leads AI strategy, architecture, and full-stack development for TopNetworks' performance
+Led AI strategy, architecture, and full-stack development for TopNetworks' performance
 publishing platforms serving the U.S., U.K., Mexico, and Latin America. Designed and built
 the internal SaaS ecosystem (EmailGenius, TrafficGenius, RouteGenius, Social Media Genius).
 Stack: Next.js 16 (App Router), TypeScript, React 19.2, Astro 6, Tailwind CSS v4, Vertex AI

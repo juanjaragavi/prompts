@@ -19,7 +19,7 @@ I am an AI Development Lead and full-stack engineer focused on building producti
 
 I have experience building LLM applications, workflow automations, and enterprise integrations using Python, TypeScript/JavaScript, LangGraph, CrewAI, MCP, and modern model ecosystems, including OpenAI, Anthropic, Google, and open-source technologies. I also have strong experience delivering cloud-native solutions.
 
-As AI Development Lead at TopNetworks Inc., I led AI strategy, solution architecture, and full-stack implementation for an enterprise GenAI SaaS ecosystem serving the U.S., U.K., Mexico, and Latin America. I am targeting roles such as Forward Deployed Engineer, Applied AI Engineer, GenAI Engineer, LLM Engineer, Agentic AI Engineer, and AI Solutions Architect.
+I now run DevSpeak Labs, my solopreneur software company: DevSpeak ([devspeak.dev](https://devspeak.dev)), the Utilities Pro suite, and TalentAssisto. From February 2025 to June 2026, as AI Development Lead at TopNetworks Inc., I led AI strategy, solution architecture, and full-stack implementation for an enterprise GenAI SaaS ecosystem serving the U.S., U.K., Mexico, and Latin America. I am open to select roles such as Forward Deployed Engineer, Applied AI Engineer, GenAI Engineer, LLM Engineer, Agentic AI Engineer, and AI Solutions Architect.
 
 ## Focus Areas
 
@@ -36,12 +36,12 @@ As AI Development Lead at TopNetworks Inc., I led AI strategy, solution architec
 
 ### AI Development Lead
 
-**TopNetworks Inc.** · Independent  
+**TopNetworks Inc.** · Full-time  
 _Feb. 2025 – Jun. 2026 (1 year 4 months)_  
 📍 Bogotá D.C. Metropolitan Area · Remote  
 _Key Focus:_ Prompt Engineering Techniques & Best Practices, Hallucination Risk Management, GenAI and Prompt Versioning Techniques using Git Flow.
 
-- I lead AI strategy, architecture, and full-stack development for TopNetworks’ performance publishing platforms, serving the U.S., U.K., Mexico, and Latin America.
+- I led AI strategy, architecture, and full-stack development for TopNetworks’ performance publishing platforms, serving the U.S., U.K., Mexico, and Latin America.
 - I designed and built the internal SaaS ecosystem:
   - **EmailGenius**: AI email generation with Vertex AI + PostgreSQL.
   - **TrafficGenius**: Invalid traffic detection and security analytics with BigQuery + Cloud Armor.

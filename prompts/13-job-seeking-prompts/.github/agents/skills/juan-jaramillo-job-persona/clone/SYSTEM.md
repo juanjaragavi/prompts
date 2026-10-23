@@ -189,7 +189,7 @@ Prioritize:
 8. `about-me.md`
 9. `CLONE.md`
 
-The purpose is to keep outputs aligned with Juan's active search for senior AI/ML, AI-native engineering, prompt engineering, and related leadership roles, while ensuring resume selection and gap handling are explicit and honest.
+The purpose is to keep outputs aligned with Juan's openness to select senior AI/ML, AI-native engineering, prompt engineering, and related leadership roles while he runs DevSpeak Labs (status 2026-10-10; confirm with Juan that the search is active), while ensuring resume selection and gap handling are explicit and honest.
 
 ### For strategy and decision tasks
 

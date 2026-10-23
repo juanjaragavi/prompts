@@ -60,7 +60,7 @@ through the other families in priority order. Rotate through these accepted titl
 
 **LinkedIn profile headline (as displayed):** AI Engineer • AI Developer • AI Automation Expert • Machine Learning Engineer • Prompt Engineer • Professional Vibe Coder
 
-**Summary:** Juan Miguel Jaramillo Gaviria is an AI Development Lead, full-stack architect, and serial tech entrepreneur with **17+ years** leading digital/technology initiatives. Since 2022, specialized in enterprise generative AI development, LLM fine-tuning (PEFT), RLHF, and AI-native product engineering. Currently leads AI platform strategy and development at TopNetworks Inc., designing AI-powered SaaS tools for U.S., U.K., Mexico, and Latin America markets — shipping production code, custom APIs, ETL pipelines, RAG systems, and agent workflows directly against live traffic and partner integrations.
+**Summary:** Juan Miguel Jaramillo Gaviria is an AI Development Lead, full-stack architect, and serial tech entrepreneur with **17+ years** leading digital/technology initiatives. Since 2022, specialized in enterprise generative AI development, LLM fine-tuning (PEFT), RLHF, and AI-native product engineering. Led AI platform strategy and development at TopNetworks Inc. (Feb 2025 – Jun 2026, ended), designing AI-powered SaaS tools for U.S., U.K., Mexico, and Latin America markets — shipping production code, custom APIs, ETL pipelines, RAG systems, and agent workflows directly against live traffic and partner integrations. Since June 2026 he runs DevSpeak Labs (DevSpeak, the Utilities Pro suite, TalentAssisto) and is open to select roles (status 2026-10-10).
 
 ---
 
@@ -149,9 +149,10 @@ A posting qualifies when the title matches a family above, or when its core resp
 
 ### Availability
 
-- **Start Date:** Immediately
-- **Status:** Actively applying and available to start right away
-- **Notice Period:** None (available immediately)
+- **Status (2026-10-10):** Runs DevSpeak Labs and is open to select roles. Confirm with Juan that
+  the search is active before applying.
+- **Start Date:** Confirm with Juan (the Jul–Aug 2026 answer was "Immediately")
+- **Notice Period:** Confirm with Juan (no employer notice period; TopNetworks role ended Jun 2026)
 
 ---
 
@@ -203,7 +204,7 @@ A posting qualifies when the title matches a family above, or when its core resp
 - **CMS/Frameworks:** WordPress (headless), n8n (low-code automation)
 - **Tools:** Cursor (AI-assisted development), Git/GitHub
 
-**AI Product Portfolio (TopNetworks Inc.):**
+**AI Product Portfolio (TopNetworks Inc., Feb 2025 – Jun 2026):**
 
 1. **EmailGenius:** AI-powered email content generation
 2. **TrafficGenius:** Invalid traffic detection system
@@ -414,10 +415,11 @@ STEP 13: CHECK COMPLETION
 
 ```
 "When can you start?"
-→ Immediately. I am actively applying and available to begin right away.
+→ Confirm with Juan first (status 2026-10-10: runs DevSpeak Labs, open to select roles). The
+  Jul–Aug 2026 answer was "Immediately."
 
 "What is your notice period with current employer?"
-→ No notice period required; available to start immediately.
+→ No employer notice period (TopNetworks role ended Jun 2026). Confirm the start date with Juan.
 ```
 
 #### Relocation & Work Mode

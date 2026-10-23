@@ -13,9 +13,9 @@ facts in `../SKILL.md`.
 - Generative AI: **~4 years**
 - LLM / NLP: **~4 years**
 - Prompt engineering: **~4 years**
-- JavaScript/TypeScript, React, Next.js: cite the current role's stack detail in
+- JavaScript/TypeScript, React, Next.js: cite the TopNetworks role's stack detail in
   `profile.md` (Next.js 16 App Router, React 19.2) if a per-framework number is required;
-  otherwise answer "several years, currently in active production use."
+  otherwise answer "several years, currently in active production use" (DevSpeak Labs products).
 
 ## Work authorization
 
@@ -41,7 +41,8 @@ the employer's own maximum). Never state a ceiling of your own.
 
 ## Notice period / availability to start
 
-"Immediately — actively applying and available to start right away."
+Confirm with Juan first. He now runs DevSpeak Labs and is open to select roles (status
+2026-10-10). The Jul–Aug 2026 answer was "Immediately — available to start right away."
 
 ## Willingness to relocate
 
@@ -66,8 +67,14 @@ to match the posting — e.g. model/RAG/agent orchestration for GenAI roles, dep
 reliability and pipelines for platform/ops roles, or architecture and stakeholder alignment for
 solutions-architect and leadership roles.
 
+Current status (2026-10-10): Juan now runs DevSpeak Labs, building and selling live AI SaaS
+products (DevSpeak, the Utilities Pro suite). The TopNetworks role (Feb 2025 – Jun 2026) has
+ended, so describe it in the past tense.
+
 > "I bring 17+ years of digital and technology delivery, with the last ~4 focused on production
-> GenAI/LLM engineering. As AI Development Lead at TopNetworks Inc. I led AI strategy,
+> GenAI/LLM engineering. Today I run DevSpeak Labs, where I build and sell live AI SaaS products
+> (DevSpeak, the Utilities Pro suite). Before that, as AI Development Lead at TopNetworks Inc.
+> (Feb 2025 – Jun 2026), I led AI strategy,
 > architecture, and full-stack delivery for performance-publishing platforms across the U.S.,
 > U.K., Mexico, and Latin America — shipping directly against live production traffic and
 > partner integrations rather than in a sandbox. I designed and built the internal SaaS

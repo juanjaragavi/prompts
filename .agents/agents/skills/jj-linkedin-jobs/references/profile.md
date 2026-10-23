@@ -19,6 +19,9 @@ Engineer • Professional Vibe Coder"
 
 ## CV Professional Summary (authoritative)
 
+> The Aug 2026 CV predates DevSpeak Labs. Since June 2026 Juan runs DevSpeak Labs (status
+> 2026-10-10); mention it whenever current status matters.
+
 Juan is an AI Development Lead and full-stack engineer focused on building production-grade
 Generative AI and agentic systems that deliver measurable business outcomes. He combines
 product strategy, solution architecture, and hands-on implementation to take AI initiatives
@@ -42,9 +45,11 @@ Anthropic, Google, and open-source technologies, plus strong cloud-native delive
 Juan Miguel Jaramillo Gaviria is an AI Development Lead, full-stack architect, and serial
 tech entrepreneur with 17+ years leading digital/technology initiatives. Since 2022 he has
 specialized in enterprise generative AI development, LLM fine-tuning (PEFT), RLHF, and
-AI-native product engineering. He currently leads AI platform strategy and development at
-TopNetworks Inc., designing AI-powered SaaS tools for the U.S., U.K., Mexico, and Latin
-America markets.
+AI-native product engineering. He led AI platform strategy and development at TopNetworks
+Inc. (Feb 2025 – Jun 2026), designing AI-powered SaaS tools for the U.S., U.K., Mexico, and
+Latin America markets. The LinkedIn About captured in Aug 2026 still says "currently leads".
+Check whether he has updated it before you quote it. He now runs DevSpeak Labs (see the status
+update below).
 
 As an entrepreneur he co-founded TRADEBOG S.A.S. in 2020 (Director of Innovation &
 Technology, cannabis-derived products for the cosmetics/wellness industry) and co-founded
@@ -89,14 +94,17 @@ education detail page).
 Prompt Engineer, expert AI consultant, UX/UI designer, front-end and back-end developer for
 AI projects.
 
-**AI Developer Lead** — Top Networks Inc. · Full-time — Feb 2025 – present, Remote (based in
+> Status update 2026-10-10: the TopNetworks role ended in June 2026. Juan now runs DevSpeak Labs
+> (DevSpeak, the Utilities Pro suite, TalentAssisto). Confirm his LinkedIn shows the same before quoting it.
+
+**AI Developer Lead** — Top Networks Inc. · Full-time — Feb 2025 – Jun 2026 (ended), Remote (based in
 Miguel Hidalgo, CDMX, Mexico for the role's nominal location)
 "We deliver value to users and advertisers by optimizing the digital interactions and user
 experience between them."
 
-**Project Lead Developer** — TopNetworks Inc. — Feb 2025 – present (same tenure as above; two
+**Project Lead Developer** — TopNetworks Inc. — Feb 2025 – Jun 2026 (same tenure as above; two
 profile entries for the same employer/period)
-Leads AI strategy, architecture, and full-stack development for TopNetworks' performance
+Led AI strategy, architecture, and full-stack development for TopNetworks' performance
 publishing platforms serving the U.S., U.K., Mexico, and Latin America. Designed and built
 the internal SaaS ecosystem (EmailGenius, TrafficGenius, RouteGenius, Social Media Genius).
 Stack: Next.js 16 (App Router), TypeScript, React 19.2, Astro 6, Tailwind CSS v4, Vertex AI
@@ -132,8 +140,10 @@ Digital project director, digital marketing specialist, web designer, WordPress 
 
 ## Publicly stated job search intent (from profile "Open to work" & posts)
 
-The profile itself is set to #OpenToWork and states: "Looking for Remote or On-site roles in
-Bogota, D.C., Medellín, Mexico City, Mexico and Buenos Aires Province, Argentina."
+When captured (Aug 2026) the profile was set to #OpenToWork and stated: "Looking for Remote or On-site roles in
+Bogota, D.C., Medellín, Mexico City, Mexico and Buenos Aires Province, Argentina." Current
+status (2026-10-10): open to select roles while running DevSpeak Labs. Confirm with Juan that
+the search is active before applying.
 
 **Current target (overrides any legacy role list still shown on the profile):** Forward Deployed
 Engineer (FDE) is the priority/anchor role, within a broader scope of Generative & Agentic AI
@@ -145,8 +155,7 @@ broader GenAI engineering titles.
 
 ## Other public contact point
 
-A pinned post lists `juanamillo@proton.me` and the portfolio link `juanjaramilloai.vercel.app` as
-a public business contact. Prefer the confirmed email in `SKILL.md`
-(`juanamillo@proton.me`) for actual application forms unless the user says otherwise; the
-`.tech` email/portfolio can be mentioned as a supplementary professional contact/portfolio
-link if a form asks for one. The updated contact information is `juanamillo@proton.me` and `juanjaramilloai.vercel.app`.
+A pinned post (captured Aug 2026) lists the legacy `info@juanjaramillo.tech` email and the
+`juanjaramillo.tech` portfolio as a public business contact. Those are superseded. On
+application forms, use the confirmed contact in `SKILL.md`: `juanamillo@proton.me` and the
+portfolio https://juanjaramilloai.vercel.app.
